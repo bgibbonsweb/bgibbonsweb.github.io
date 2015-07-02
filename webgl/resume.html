@@ -16,13 +16,21 @@ body {
 }
 div {
 	color: rgb(255,0,0);
-	height: 0px;
 } 
 </style>
 <body onload="webGLStart();">
 <canvas id="webGlCanvas" style="border: none;" width="800" height="600"></canvas>
 <div style='visibility:hidden' id="mobile"> Sadly this requires a keyboard so it won't work on mobile. :(  I'm working on a mobile version!!</div>
+<div style='visibility:hidden' id="nowebgl"> 
+    It looks like your browser can't support this.<br/>
+    <a href="http://www.google.com/chrome/" target="_blank">Click here to download a browser which can</a>
+</div>
 
+<script language="javascript" type="text/javascript" src="modernizr.custom.40469.js"></script>
+<script type="text/javascript">
+	if (!Modernizr.webgl)
+		document.getElementById("nowebgl").style.visibility="visible"; 
+</script>
 
 <script type="text/javascript">
 
