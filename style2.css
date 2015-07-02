@@ -48,10 +48,6 @@
     width: 100%;
   }
 
-
-  /* demo styles
-  --------------------------------------------- */
-
   body, html {
     overflow: hidden;
   }
@@ -86,7 +82,6 @@
 	  border-style: solid;
     border-width: 2px;
     border-color: black;
-
 	}
 
   .subtitle {
@@ -111,16 +106,13 @@
   #group1 .parallax__layer--base {
   
     background: url("nerd.jpg");
+    background-color: rgba(50,50,255,1);
   	background-repeat: no-repeat;
   	background-size: auto 100%;
     background-position: center; 
-  	background-color: rgba(50,50,255,1);
 
      background-image: url(nerd.jpg);
 
-  	border-style: solid;
-    border-width: 2px;
-    border-color: black;
   }
 
  #rcorners1 {
@@ -153,17 +145,12 @@
     z-index: 4; /* slide over group 2 and 4 */
   }
   #group3 .parallax__layer--base {
-  
-  
-    background-color: rgba(200,200,200,1);
+    
     background: url("notepadpp2.jpg");
+    background-color: rgba(200,200,200,1);
     background-repeat: no-repeat;
     background-size: auto 100%;
     background-position: center; 
-
-    border-style: solid;
-    border-width: 2px;
-    border-color: black;
   }
 
   #group4 {
@@ -187,9 +174,6 @@
     background-size: auto 100%;
     background-position: center; 
 
-    border-style: solid;
-    border-width: 2px;
-    border-color: black;
   }
   #group5 .parallax__layer--base {
   
