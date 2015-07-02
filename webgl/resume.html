@@ -10,11 +10,7 @@
 <script type="text/javascript" src="lineObjects.html"></script>
 <script type="text/javascript" src="textRenderer.html"></script>
 <script type="text/javascript" src="startScreen.html"></script>
-<style type="text/css">
-body {
-    overflow:hidden;
-}
-</style>
+
 <body onload="webGLStart();">
 <canvas id="webGlCanvas" style="border: none;" width="800" height="600"></canvas>
 
@@ -457,19 +453,15 @@ function updateGameWorld(deltaTime) {
 	//drawString(400, -50, 0, 20, gameWorldNiceAlpha / 8, "Nice!");
 	drawString(600, -50, 0, 20, gameWorldNiceAlpha / 30, "Fall");
 	drawString(400, -200, 0, 10, gameWorldGoalAlpha / 30, 
-		"Hi my name is Ben and I am a huge incurable nerd.\nIve been coding since I was seven years old\nwhen my parents bought me my first robotics kit\nand Ive never been able to stop.\nIve coded games, apps, websites, and I once\ntried to build a robot that could perform\nin a mini skate park.");
+		"GOAL\nto obtain an internship position in\naudio and software design where I\ncan apply and expand my skills with audio\nand software production. ");
 	drawString(800, -200, 0, 10, gameWorldEducationAlpha / 30, 
-		"GOAL\nTo obtain a position software design where\nI can apply and expand my skills with\ngraphic design and/or software production.");
+		"EDUCATION\nPeralta Colleges, Berkeley,\nOakland, Alameda, Merit, CA\nCurrently enrolled and have\ncompleted 32 semester units with 4.0 GPA.\nPursuing Computer Science /\nElectrical Engineering transfer path.\nExpected transfer date June 2014 ");
 	drawString(1200, -200, 0, 10, gameWorldEducationGoalAlpha / 30, 
-		"EDUCATION\nPeralta Colleges, Berkeley,\nOakland, Alameda, Merit, CA\nCurrently enrolled and have\ncompleted 53 semester units with 4.0 GPA.\nPursuing Computer Science");
+		"EDUCATION GOAL\nTransfer into the UC system and obtain a B.S.\nin Computer Science / Electrical Engineering.\nObtain a Ph.D. in Computer Science.");
 	drawString(1600, -200, 0, 10, gameWorldCourseWorkAlpha / 30, 
 		"COURSE WORK\nC++, Java, Advanced Java, Web Design. \nTopics Covered:\nWebsite architecture, Serialization, XML,\nHTML, Real Time Network Compensation,\nBinary manipulation, UDP and TCP\ncommunications protocol, Data structures,\nStyle and formatting.");
 	drawString(2000, -200, 0, 10, gameWorldExperienceAlpha / 30, 
-		"EXPERIENCE:\nCustomer Engagement Team, Avid, Berkeley, CA\nSoftware Engineer\nMarch 2015 to present.\n- Working on a small team to deliver specialized\nfeature requests for high profile customers.\n\nCustomer Engagement Team, Avid, Berkeley, CA\nIntern Software Engineer\nMay 2013 to March 2015.\n-  C++, Objective C, AAX plugins, bug fixing,\n\nCIS Department, Laney College, Oakland, CA\nTeaching Assistant, CIS 25: C++\nJanuary 2013 to 2014.\n\nCo-founded the Laney Coding Club and\nassumed responsibilities as a tutor\nJanuary 2013 to 2014.\n-Helped students with coursework related\nto computer science classes.");
-
-	drawString(2100, -550, 0, 10, gameWorldExperienceAlpha / 30, 
-		"As personal projects, I have\ncompleted three sizeable video games.\n-openGL, networking, cloud computing, cross\nplatformmobile development,\nshaders, graphic design.");
-	
+		"EXPERIENCE:\nCIS Department, Laney College, Oakland, CA\nTeaching Assistant, CIS 25: \nC++ January 2013 to present. \n-Assisted with grading and facilitated classroom\n  discussions on style and formatting. \n\nCo-founded the Laney Coding Club and assumed\n  responsibilities as head tutor and project lead\n  January 2013 to present. \n-Introduced new students to the world of computer\n  science through leading weekly lectures. \n-Helped existing students with issues related to\n  computer science classes taken through Peralta. \n\nCompleted two sizeable video games and am close to\n  finishing a third.\n  -Team work experience in game engine and user\n  interface design.\n  -Hands on problem solving and program optimization.\n\nFour years of study with a private music tutor.\n  -Curriculum covering both college level music\n  composition and modern recording and production. ");
 	drawString(2400, -600, 0, 10, gameWorldBoringAlpha / 30, 
 		"Now the boring stuff out of the way\n Time for a boss fight");
 
