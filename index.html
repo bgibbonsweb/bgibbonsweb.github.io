@@ -3,11 +3,14 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<title>Ben Gibbons</title>
+
 	<link href="style.css" rel="stylesheet" type="text/css">
-	
 	<style type="text/css">
 	</style>
   
+
+
+
   <script type="text/javascript">
 
 var check = false;
@@ -28,17 +31,25 @@ var check = false;
   
   </script>
 
-
 </head>
 
 
 <body>
 
+  <a class="arrow-wrap" onclick="amount = window.screen.height * 0.5;">
+    <span class="arrow"></span>
+  </a>
+
+<!--
+  <a class="arrow-wrap2" onclick="amount = -window.screen.height * 0.5;">
+    <span class="arrow"></span>
+  </a>
+-->
 <div id="menu" class="fade">
 
     <img src="menu.png" width="80%">
 	
-	  <a href="#about">
+	  <a href="#about" class="smoothScroll">
     <img src="me.jpg" id="rcorners1" width="60%">
     <br/>
     About Me
@@ -46,7 +57,7 @@ var check = false;
     <br/>
     </a>
 
-    <a href="#games">
+    <a class="smoothScroll" href="#games">
     <img src="games.png" id="rcorners1" width="50%">
     <br/>
     Games
@@ -95,7 +106,7 @@ var check = false;
 
 </div>
 
-  <div class="parallax">
+  <div class="parallax" id="mainpar">
     <div id="group1" class="parallax__group">
           <a name="about"></a> 
       <div class="parallax__layer parallax__layer--base">
@@ -209,3 +220,19 @@ var check = false;
 
 
 </html>
+
+<script type="text/javascript">
+
+  var amount = 0;
+  pageScroll();
+    mainpar.scrollTop = 0;
+
+  function pageScroll() {
+    var mainpar = document.getElementById('mainpar');
+    setTimeout(pageScroll, 10);
+
+    var amt = amount * 0.1;
+    mainpar.scrollTop += amt;
+    amount -= amt;
+  }
+</script>
