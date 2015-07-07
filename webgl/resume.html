@@ -20,6 +20,11 @@ body {
 div {
 	color: rgb(255,0,0);
 } 
+button {
+	width: 100px;
+	height: 100px;
+	font-size: 400%;
+}
 </style>
 <body onload="webGLStart();">
 <div id="menu" class="fade">
@@ -84,6 +89,9 @@ div {
 </div>
 
 <canvas id="webGlCanvas" style="border: none;" width="800" height="600"></canvas>
+<button id="leftButton" type="button">&#8592</button>
+<button id="upButton"type="button">&#8593</button>
+<button id="rightButton" type="button">&#8594</button>
 <div style='visibility:hidden' id="mobile"> Sadly this requires a keyboard so it won't work on mobile. :(  I'm working on a mobile version!!</div>
 <div style='visibility:hidden' id="nowebgl"> 
     It looks like your browser can't support this.<br/>
@@ -102,7 +110,33 @@ div {
 	var clickUp = false;
 	var clickLeft = false;
 
- var item = document.getElementById("webGlCanvas");
+
+ 	var leftButton = document.getElementById("leftButton");
+ 	var upButton = document.getElementById("upButton");
+ 	var rightButton = document.getElementById("rightButton");
+
+ 	rightButton.addEventListener("mousedown", function(event) {
+ 		clickRight = true;
+	 });
+ 	rightButton.addEventListener("mouseup", function(event) {
+ 		clickRight = false;
+	 });
+
+ 	upButton.addEventListener("mousedown", function(event) {
+ 		clickUp = true;
+	 });
+ 	upButton.addEventListener("mouseup", function(event) {
+ 		clickUp = false;
+	 });
+
+ 	leftButton.addEventListener("mousedown", function(event) {
+ 		clickLeft = true;
+	 });
+ 	leftButton.addEventListener("mouseup", function(event) {
+ 		clickLeft = false;
+	 });
+
+ 	var item = document.getElementById("webGlCanvas");
  	item.addEventListener("mousedown", function(event) {
  		if (startScreenAlpha > 3)
 	 		startScreenSpacePressed = true;
