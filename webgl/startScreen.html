@@ -13,7 +13,11 @@ function initStartScreen() {
 function updateStartScreen(deltaTime) {
 	startScreenAlpha += 0.001 * deltaTime;
 	
-	drawString(-150, 200, -1000, 100, startScreenAlpha / 5, "Press\nSpace");
+	if (isMobile)
+		drawString(-150, 200, -1000, 100, startScreenAlpha / 5, "Tap\nme");
+	else
+		drawString(-150, 200, -1000, 100, startScreenAlpha / 5, "Press\nSpace");
+
 	drawString(-300, -200, 0, 50, startScreenAlpha / 5, "Bens WebGL Resume");
 	
 	cameraX += (100 - cameraX) * 0.001 * deltaTime;
