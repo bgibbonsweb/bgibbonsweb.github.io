@@ -1,0 +1,207 @@
+<html>
+	<head>
+		<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+		<script type="text/javascript" src="../slideshow.js" async defer></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="icon" href="../profile.jpg"/>
+		<title>Space Tower Defense</title>
+	</head>
+	<body bgcolor="#ffffff">
+		<br/>
+		<image src="../shiptitle.png" width="100%" class="homePic"/>
+
+		<h3> 
+			Premise:
+		</h3>
+		I'm calling this game space tower defense though it never really had a name during development.  It's a 3D top-down tower defense game with waves of enemies attacking against your turrets and a player ship which you control.  It also supported splitscreen multiplayer and has a challenging AI opponent to battle against.  
+
+		<h3> 
+			Gameplay Video:
+		</h3>
+		<iframe width="100%" src="https://www.youtube.com/embed/Ri8GEz9m9JA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		<br/><br/>
+
+		<h3> 
+			Nerd stuff:
+		</h3>
+		The most interesting technical part of the game was the pathfinding and the AI.  It uses an A* pathfinding grid system with smoothing which allows many enemy units to pathfind towards the same target or set of targets.  In this case, the enemies pathfind towards the player's home base planets and then attempt to destroy them.  When the player loses all of their home base planets, the game is over.
+
+		<a href="https://www.raywenderlich.com/4946/introduction-to-a-pathfinding"> More about pathfinding </a>
+
+		<h3> 
+			The level editor:
+		</h3>
+		<img src="../LevelEditorLevel.png" width="100%" />
+		<br/><br/>
+		The level editor / engine as part of this game was really cool.  I built an editor that was way more powerful than I needed without any particular game in mind.  This editor allowed me to position firing and particle points on the different ship models and create the levels for the actual game but it did a lot more than that. <br/><br/>
+
+		<img src="../LevelEditorship.png" width="100%" />
+		<br/><br/>
+
+
+		This ship model is featured in the game.  Using the editor, I could create different typed of particle effects for each ship type and bring them into the game.
+
+		<h3> 
+			A 3D lighting engine:
+		</h3>
+
+		<img src="../LevelEditor3D.png" width="100%" />
+		<br/><br/>
+
+		The editor I created allowed me to create and manipulate full 3D scenes.  I even built a deferred lighting engine!
+
+
+		<br/><br/>
+		<img src="../LevelEditor3DN.png" width="100%" />
+		<br/><br/>
+		This is a view of the normal layer from the deferred lighting engine.
+
+
+    	<div class="resumeCell">
+    		<h2> 
+    			Earth ships:
+    		</h2>
+    		
+    		<img src="../ships/Cobra.png" width="100%"/>
+    		<img src="../ships/Hornet.png" width="100%"/>
+    		<img src="../ships/Vampire.png" width="100%"/>
+    		<img src="../ships/Pitbull.png" width="100%"/>
+    		<img src="../ships/Stingray.png" width="100%"/>
+    		<img src="../ships/Scorpion.png" width="100%"/>
+
+	    </div>
+
+    	<div class="resumeCell">
+    		
+    		<h3> 
+    			Empire ships:
+    		</h3>
+    		
+    		<img src="../ships/Mite.png" width="100%"/>
+    		<img src="../ships/Outcast.png" width="100%"/>
+    		<img src="../ships/Parasite.png" width="100%"/>
+    		<img src="../ships/Recluse.png" width="100%"/>
+
+	    </div>
+
+    	<div class="resumeCell">
+    		
+    		<h3> 
+    			Alien ships:
+    		</h3>
+    		
+    		<img src="../ships/Immortal.png" width="100%"/>
+    		<img src="../ships/Devourer.png" width="100%"/>
+
+	    </div>
+
+    	<div class="resumeCell">
+    		
+    		<h3> 
+    			Crystal ships:
+    		</h3>
+    		
+    		<img src="../ships/CrystalBattleCruiser.png" width="100%"/>
+    		<img src="../ships/CrystalFighter.png" width="100%"/>
+    		<img src="../ships/CrystalScout.png" width="100%"/>
+
+	    </div>
+
+
+    	<div class="resumeCell">
+    		<h2> 
+    			Earth turrets:
+    		</h2>
+    		
+    		<img src="../turrets/Turret1.png" width="100%"/>
+    		<img src="../turrets/Turret2.png" width="100%"/>
+    		<img src="../turrets/Turret3.png" width="100%"/>
+    		<img src="../turrets/Turret5.png" width="100%"/>
+    		<img src="../turrets/Turret6.png" width="100%"/>
+	    </div>
+
+
+    	<div class="resumeCell">
+    		<h2> 
+    			Empire turrets:
+    		</h2>
+    		
+    		<img src="../turrets2/Turret1.png" width="100%"/>
+    		<img src="../turrets2/Turret2.png" width="100%"/>
+    		<img src="../turrets2/Turret3.png" width="100%"/>
+    		<img src="../turrets2/Turret4.png" width="100%"/>
+    		<img src="../turrets2/Turret5.png" width="100%"/>
+	    </div>
+
+    	<div class="resumeCell">
+    		<h2> 
+    			Crystal turrets:
+    		</h2>
+    		
+    		<img src="../turrets3/Turret1.png" width="100%"/>
+    		<img src="../turrets3/Turret2.png" width="100%"/>
+    		<img src="../turrets3/Turret3.png" width="100%"/>
+    		<img src="../turrets3/Turret4.png" width="100%"/>
+    		<img src="../turrets3/Turret5.png" width="100%"/>
+	    </div>
+
+    	<div class="resumeCell">
+    		<h2> 
+    			Ancient turrets:
+    		</h2>
+    		
+    		<img src="../turrets4/Turret1.png" width="100%"/>
+    		<img src="../turrets4/Turret2.png" width="100%"/>
+    		<img src="../turrets4/Turret3.png" width="100%"/>
+    		<img src="../turrets4/Turret4.png" width="100%"/>
+    		<img src="../turrets4/Turret5.png" width="100%"/>
+	    </div>
+
+
+		<div class="socialIcons">
+			<br/>
+	    	<a href="https://www.linkedin.com/in/bgibbonslinkedin/" target="_blank"> 
+	    		<img class="socialIcon" src="../In-2C-128px-R.png" height="32"/>
+	    	</a>
+
+	    	<a href="https://www.instagram.com/ben.gibbons.art/" target="_blank">
+	    		<img class="socialIcon" src="../IG_Glyph_Fill.png" height="32">
+	    	</a>
+
+	    	<a href="https://twitter.com/bengibbonsart" target="_blank">
+	    		<img class="socialIcon" src="../Twitter_Social_Icon_Circle_Color.png" height="32">
+	    	</a>
+
+	    	<iframe allowtransparency="true" scrolling="no" frameborder="no" src="https://w.soundcloud.com/icon/?url=http%3A%2F%2Fsoundcloud.com%2Fbengibbonssound&color=orange_transparent&size=32" class="socialIcon" style="width: 32px; height: 32px;"></iframe>
+
+	    	<a href="https://github.com/ben-gibbons-github" target="_blank">
+	    		<img class="socialIcon2" src="../Octocat.png" height="32">
+	    	</a>
+
+	    	<br/>
+	    	<br/>
+	    	<hr/>
+
+	    	<br/>
+	    	<br/>
+	    	<br/>
+	    	<br/>
+			40% nerd <br/>
+			20% artist <br/>
+			20% fitness nut <br/>
+			20% big brother <br/>
+			100% Heart <br/>
+			<br/>
+			<hr/>
+	    	<br/>
+	    	This is the mobile version of this site
+	    	<br/>
+	    	<br/>
+	    	<br/>
+	    	<br/>
+	    	<br/>
+	    </div>
+
+	</body>
+</html>

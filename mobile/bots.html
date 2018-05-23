@@ -1,0 +1,137 @@
+<html>
+	<head>
+		<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+		<script type="text/javascript" src="../slideshow.js" async defer></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		<link rel="icon" href="../profile.jpg"/>
+		<title>Duel Bots</title>
+	</head>
+	<body bgcolor="#ffffff">
+		<br/>
+		<image src="../shiptitle.png" width="100%" class="homePic"/>
+
+		<h3> 
+			Premise:
+		</h3>
+		Duel bots is a two player hot seat arena battle game that I coded using C# and the XNA framework for windows and Xbox when I was 18.  It has a number of different weapons and features a completely destructible stage as well as a level editor.  The more damage a player takes, the farther he is sent flying when hit by a weapon until he is knocked off the stage and the game resets.
+
+		<h3> 
+			Gameplay Video:
+		</h3>
+		<iframe width="100%" src="https://www.youtube.com/embed/WVoJDIhcpXU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		<br/><br/>
+
+		<h3> 
+			Nerd stuff:
+		</h3>
+		The most interesting technical part of the game was the system that handled the destruction of the stage.  Since any block could be destroyed at any moment, I wanted to find an efficient way of rendering the evolving stage.  All the blocks are stored into a texture that only redraws itself when something is destroyed.  Then I can just draw the entire texture instead of all of the individual blocks instead.
+
+		<a href="https://www.raywenderlich.com/4946/introduction-to-a-pathfinding"> More about pathfinding </a>
+
+		<h3> 
+			The level editor:
+		</h3>
+
+
+		<img src="../LevelEditor.png" width="100%" />
+		<br/><br/>
+		The level editor as part of this game was really cool.  You could move between playing and editing the level seamlessly by just pressing one button.
+		<br/><br/><h3> 
+			The result in game:
+		</h3>
+		<img src="../LevelMainpng.png" width="100%" />
+		<br/><br/>
+		Notice how the blocks look different.  They all got blended with another texture layer.
+		<h3> 
+			Weapon Types:
+		</h3>
+
+		<img src="../Machine2.png" width="100%"/>
+		<br/><br/>
+		<li><b> Machine Gun </b></li>
+		<ul>
+			<li> Primary Fire: A stream of bullets with low accuracy.</li>
+			<li> Alt Fire: A grenade which can arc over terrain.  Explodes after too much time or on contact with an enemy.</li>
+			<br/><br/>
+		</ul>
+		<img src="../Slime2.png" width="100%"/>
+		<br/><br/>
+		<li><b> Slime Gun </b></li>
+		<ul>
+			<li> Primary Fire: A stream of plasma with a slow firing rate.  Extremely high damage good for close quarters.</li>
+			<li> Alt Fire: A grenade which can arc over small terrain.  Explodes after too much time.  Homes in on enemies during flight and sticks to them until it explodes.  If the enemy dashes, the grenade is dropped.</li>
+			<br/><br/>
+		</ul>
+		<img src="../Sword2.png" width="100%"/>
+		<br/><br/>
+		<li><b> Sword </b></li>
+		<ul>
+			<li> Primary Fire: Your character dashes and then swings their sword destroying all blocks in a tight radius and doing high damage to enemies.</li>
+			<li> Alt Fire: knives which move slow but can pass through walls</li>
+		</ul>
+		<br/><br/>
+		<img src="../Rail2.png" width="100%"/>
+		<br/><br/>
+		<li><b> Rail Gun </b></li>
+		<ul>
+			<li> Primary Fire: A perfectly accurate beam which passes through walls and does high damage </li>
+			<li> Alt Fire: A plasma ball which can pass through walls and explodes when it reaches an enemy or an open space on the other side of a wall.</li>
+			<br/><br/>
+		</ul>
+		<img src="../Laser2.png" width="100%"/>	
+		<br/><br/>
+		<li><b> Laser Gun </b></li>
+		<ul>
+			<li> Primary Fire: A stream of beads with high accuracy.</li>
+			<li> Alt Fire: A turret which fires a few beads before destroying itself.</li>
+			<br/><br/>
+		</ul>
+
+		<div class="socialIcons">
+			<br/>
+	    	<a href="https://www.linkedin.com/in/bgibbonslinkedin/" target="_blank"> 
+	    		<img class="socialIcon" src="../In-2C-128px-R.png" height="32"/>
+	    	</a>
+
+	    	<a href="https://www.instagram.com/ben.gibbons.art/" target="_blank">
+	    		<img class="socialIcon" src="../IG_Glyph_Fill.png" height="32">
+	    	</a>
+
+	    	<a href="https://twitter.com/bengibbonsart" target="_blank">
+	    		<img class="socialIcon" src="../Twitter_Social_Icon_Circle_Color.png" height="32">
+	    	</a>
+
+	    	<iframe allowtransparency="true" scrolling="no" frameborder="no" src="https://w.soundcloud.com/icon/?url=http%3A%2F%2Fsoundcloud.com%2Fbengibbonssound&color=orange_transparent&size=32" class="socialIcon" style="width: 32px; height: 32px;"></iframe>
+
+	    	<a href="https://github.com/ben-gibbons-github" target="_blank">
+	    		<img class="socialIcon2" src="../Octocat.png" height="32">
+	    	</a>
+
+	    	<br/>
+	    	<br/>
+	    	<hr/>
+
+	    	<br/>
+	    	<br/>
+	    	<br/>
+	    	<br/>
+			40% nerd <br/>
+			20% artist <br/>
+			20% fitness nut <br/>
+			20% big brother <br/>
+			100% Heart <br/>
+			<br/>
+			<hr/>
+	    	<br/>
+	    	This is the mobile version of this site
+	    	<br/>
+	    	<br/>
+	    	<br/>
+	    	<br/>
+	    	<br/>
+	    </div>
+
+	</body>
+</html>

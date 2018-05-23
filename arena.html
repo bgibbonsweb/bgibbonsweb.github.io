@@ -1,0 +1,451 @@
+<html>
+	<head>
+		<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+		<script type="text/javascript" src="slideshow.js" async defer></script>
+
+
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+		  <link rel="icon" href="profile.jpg"/>
+		  <title>Stryder Arena</title>
+	</head>
+	<body bgcolor="#f2f2f2">
+
+
+		<div class="fixedLeftContent">
+
+			<image src="arenaTitle.png" width="100%" class="homePic"/>
+
+	    	<div class="whiteCell">
+
+	    		<h3> 
+	    			Premise:
+	    		</h3>
+	    		Stryder Arena is a top-down 3D multilayer arena battle game that I coded using C# and the XNA framework for windows and Xbox when I was 18.  It supports up to 4-player split screen and has a number of different game modes, weapons, and abilities.
+
+		    </div>
+	    	<div class="whiteCell">
+	    		<h3> 
+	    			Gameplay Video:
+	    		</h3>
+	    		<iframe width="800" height="425" src="https://www.youtube.com/embed/wNBvWzM-2_c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+		    </div>
+	    	<div class="resumeCell">
+	    		<h3> 
+	    			Nerd stuff:
+	    		</h3>
+	    		The most interesting technical hurdle of this game was all of the rendering systems that I wrote into it.  Since I was using XNA, I didn't have a built in lighting engine I could rely on.  I created a system to allow lights with real-time cube-mapped sharp shadows.  This allowed any object in the game world to cast a shadow from any light and to update the shadows as needed.  I'm a big fan of the Doom 3 engine and I wanted sharp shadows like the doom and quake games had without using stencil maps.  I also wanted to be able to have half a dozen shadow casting lights on screen at any given time so each light only does the minimum updating needed to keep it's shadows in sync with the casters. <br/>
+	    		<a href="http://developer.download.nvidia.com/books/HTML/gpugems/gpugems_ch12.html" target="_blank" class="MainLink"> Read more about Omni directional Shadow Mapping.</a>
+
+		    </div>
+	    	<div class="whiteCell">
+	    		<h2> 
+	    			How to play (slide show)
+	    		</h2>
+	    		
+				<div class="slideshow-container" onclick="plusSlides(1)">
+
+				  <div class="mySlides fade">
+				    <div class="numbertext">1 / 13</div>
+				    <img src="img1.jpg" style="width:100%">
+				  </div>
+
+				  <div class="mySlides fade">
+				    <div class="numbertext">2 / 13</div>
+				    <img src="img2.jpg" style="width:100%">
+				  </div>
+
+				  <div class="mySlides fade">
+				    <div class="numbertext">3 / 13</div>
+				    <img src="img3.jpg" style="width:100%">
+				  </div>
+
+				  <div class="mySlides fade">
+				    <div class="numbertext">4 / 13</div>
+				    <img src="img4.jpg" style="width:100%">
+				  </div>
+
+				  <div class="mySlides fade">
+				    <div class="numbertext">5 / 13</div>
+				    <img src="img5.jpg" style="width:100%">
+				  </div>
+
+				  <div class="mySlides fade">
+				    <div class="numbertext">6 / 13</div>
+				    <img src="img6.jpg" style="width:100%">
+				  </div>
+
+				  <div class="mySlides fade">
+				    <div class="numbertext">7 / 13</div>
+				    <img src="img7.jpg" style="width:100%">
+				  </div>
+
+				  <div class="mySlides fade">
+				    <div class="numbertext">8 / 13</div>
+				    <img src="img8.jpg" style="width:100%">
+				  </div>
+
+				  <div class="mySlides fade">
+				    <div class="numbertext">9 / 13</div>
+				    <img src="img9.jpg" style="width:100%">
+				  </div>
+
+				  <div class="mySlides fade">
+				    <div class="numbertext">10 / 13</div>
+				    <img src="img10.jpg" style="width:100%">
+				  </div>
+
+				  <div class="mySlides fade">
+				    <div class="numbertext">11 / 13</div>
+				    <img src="img11.jpg" style="width:100%">
+				  </div>
+
+				  <div class="mySlides fade">
+				    <div class="numbertext">12 / 13</div>
+				    <img src="img12.jpg" style="width:100%">
+				  </div>
+
+				  <div class="mySlides fade">
+				    <div class="numbertext">13 / 13</div>
+				    <img src="img13.jpg" style="width:100%">
+				  </div>
+
+				  <a class="prev" onclick="plusSlides(-2)">&#10094;</a>
+				  <a class="next">&#10095;</a>
+				</div>
+				<br>
+
+				<div style="text-align:center">
+				  <span class="dot" onclick="currentSlide(1)"></span> 
+				  <span class="dot" onclick="currentSlide(2)"></span> 
+				  <span class="dot" onclick="currentSlide(3)"></span> 
+				  <span class="dot" onclick="currentSlide(4)"></span> 
+				  <span class="dot" onclick="currentSlide(5)"></span> 
+				  <span class="dot" onclick="currentSlide(6)"></span> 
+				  <span class="dot" onclick="currentSlide(7)"></span> 
+				  <span class="dot" onclick="currentSlide(8)"></span> 
+				  <span class="dot" onclick="currentSlide(9)"></span> 
+				  <span class="dot" onclick="currentSlide(10)"></span> 
+				  <span class="dot" onclick="currentSlide(11)"></span> 
+				  <span class="dot" onclick="currentSlide(12)"></span> 
+				  <span class="dot" onclick="currentSlide(13)"></span> 
+				</div>
+
+		    </div>
+	    	<div class="arena1">
+	    		<h3> 
+	    			Weapon Types:
+	    		</h3>
+
+	    		<ul>
+	    			<table>
+	    				<tr>
+	    					<td>
+			    				<li><b> Machine Gun </b></li>
+				    			<ul>
+				    				<li> Primary Fire: A stream of bullets with low accuracy.</li>
+				    				<li> Alt Fire: A grenade which can arc over small terrain.  Explodes after too much time or on contact with an enemy.</li>
+				    				<br/><br/>
+				    			</ul>
+	    					</td>
+	    					<td width="50"/>
+	    					<td> 
+				    			<a href="MachineGun2.png" target="_blank"><img src="MachineGun2.png" height="400"/></a>
+	    					</td>
+	    				</tr>
+	    			</table>
+	    		</ul>
+	    		<hr/>
+	    		<ul>
+	    			<table>
+	    				<tr>
+	    					<td>
+			    				<li><b> Plasma Gun </b></li>
+    			    			<ul>
+    			    				<li> Primary Fire: A stream of plasma with a slow firing rate.  Extremely high damage good for close quarters.</li>
+    			    				<li> Alt Fire: A grenade which can arc over small terrain.  Explodes after too much time.  Homes in on enemies during flight and sticks to them until it explodes.  If the enemy dashes, the grenade is dropped.</li>
+    			    				<br/><br/>
+    			    			</ul>
+	    					</td>
+	    					<td width="50"/>
+	    					<td> 
+				    			<a href="PlasmaGun2.png" target="_blank"><img src="PlasmaGun2.png" height="300"></a><br/><br/>
+	    					</td>
+	    				</tr>
+	    			</table>
+	    		</ul>
+	    		<hr/>
+	    		<ul>
+	    			<table>
+	    				<tr>
+	    					<td>
+			    				<li><b> Laser Gun </b></li>
+			    				<ul>
+			    					<li> Primary Fire: A low rate of fire stream of bullets with high accuracy.</li>
+			    					<li> Alt Fire: A plasma ball which can pass through walls.  Explodes after too much time or on contact with an enemy.</li>
+			    					<br/><br/>
+			    				</ul>
+	    					</td>
+	    					<td width="50"/>
+	    					<td> 
+				    			<a href="LaserGun2.png" target="_blank"><img src="LaserGun2.png" height="400"></a><br/><br/>
+	    					</td>
+	    				</tr>
+	    			</table>
+	    		</ul>
+	    		<hr/>
+	    		<ul>
+	    			<table>
+	    				<tr>
+	    					<td>
+								<li><b> Rocket Launcher </b></li>
+				    			<ul>
+				    				<li> Primary Fire: 3 rocket bursts which explode on contact with objects or enemies.</li>
+				    				<li> Alt Fire: Fires a number of small flares which home in on nearby enemies.  Can pass through walls if timed correctly.</li>
+				    				<br/><br/>
+				    			</ul>
+	    					</td>
+	    					<td width="50"/>
+	    					<td> 
+				    			<a href="Rocket.png" target="_blank"><img src="Rocket.png" height="400"></a><br/><br/>
+	    					</td>
+	    				</tr>
+	    			</table>
+	    		</ul>
+	    		<hr/>
+		    </div>
+
+	    	<div class="arena4">
+	    		<h3> 
+	    			Ability Types:
+	    		</h3>
+
+	    		<ul>
+	    			<table>
+	    				<tr>
+	    					<td> 
+				    			<a href="Shield1.png" target="_blank"><img src="Shield1.png" height="300"></a><br/><br/>
+	    					</td>
+	    					<td width="50"/>
+	    					<td>
+	    						<li><b> Shield </b></li>
+	    						<ul>
+	    							<li> Takes 50 energy.  Protects all allies insides the shield for a limited duration.  Bullets shot out of the shield fly at faster speeds.  Shield disappears after limited time, when shot with an explosive weapon, or when no allies are present.  Enemies inside the shield will be pushed out, stunned, and dealt a small amount of damage.</li>
+	    							<br/><br/>
+	    						</ul>
+	    					</td>
+	    				</tr>
+	    			</table>
+	    		</ul>
+	    		<hr/>
+	    		<ul>
+	    			<table>
+	    				<tr>
+	    					<td> 
+	    						<a href="Dart2.png" target="_blank"><img src="Dart2.png" height="400"></a><br/><br/>
+	    					</td>
+	    					<td width="50"/>
+	    					<td>
+				    			<li><b> Vampire Darts </b></li>
+				    			<ul>
+				    				<li> Takes 25 energy.  Shoots projectiles which expand outward in a V shape while passing through walls.  Destroys shields on contact.  If an enemy is hit, the enemy will take damage and the shooter will regain some health.</li>
+				    				<br/><br/>
+				    			</ul>
+	    					</td>
+	    				</tr>
+	    			</table>
+	    		</ul>
+	    		<hr/>
+	    		<ul>
+	    			<table>
+	    				<tr>
+	    					<td> 
+				    			<a href="Cloak.png" target="_blank"><img src="Cloak.png" height="300"></a><br/><br/>
+	    					</td>
+	    					<td width="50"/>
+	    					<td>
+	    						<li><b> Cloak </b></li>
+	    						<ul>
+	    							<li> Uses energy over time while active.  User turns invisible and moves at higher speeds while invisible.  User will become visible again temporarily if they dash, shoot or take damage.</li>
+	    							<br/><br/>
+	    						</ul>
+	    					</td>
+	    				</tr>
+	    			</table>
+	    		</ul>
+	    		<hr/>
+	    		<ul>
+	    			<table>
+	    				<tr>
+	    					<td> 
+				    			<a href="Turret2.png" target="_blank"><img src="Turret2.png" height="400"></a><br/><br/>
+	    					</td>
+	    					<td width="50"/>
+	    					<td>
+	    						<li><b> Turret </b></li>
+	    						<ul>
+	    							<li> Takes 25 energy.  Turret fires a steady stream of bullets at the nearest enemy.  Can be destroyed by an explosive weapon.  Destroys self after a short time.</li>
+	    							<br/><br/>
+	    						</ul>
+	    					</td>
+	    				</tr>
+	    			</table>
+	    		</ul>
+
+
+		    </div>
+	    	<div class="arena1">
+	    		<h3> 
+	    			Game Modes:
+	    		</h3>
+    			<li><b> DeathMatch </b></li>
+    			<ul>
+    				<li> A standard deathmatch.  Players get upgrades for weapons or abilities depending on how close the game is to ending.  All upgrades are handed out equally and can be used when dead.</li>
+    			</ul>
+
+    			<li><b> Team DeathMatch </b></li>
+    			<ul>
+    				<li> Same as deathmatch but played on teams.  Can be played with or without friendly fire.</li>
+    			</ul>
+
+    			<li><b> Loner </b></li>
+    			<ul>
+    				<li> One player begins as the loner and all the other players attempt to assassinate him.   Assassins get infinite cloak while the loner gets a rocket launcher and health regeneration.  If an assassin kills the loner, he becomes the new loner.</li>
+    			</ul>
+    			<li><b> Warlord </b></li>
+    			<ul>
+    				<li> Same as deathmatch but instead of upgrading as the game goes on, players gain upgrades randomly by killing other players.  If you kill a player with more upgrades than you, you gain all of that player's upgrades until your next kill.  All upgrades resets on death.
+    			</ul>
+
+    			<li><b> Downgrade </b></li>
+    			<ul>
+    				<li> All players start with the highest upgrades.  Players lose upgrades randomly by killing and gain upgrades randomly by being killed.
+    			</ul>
+
+    			<li><b> Keepaway </b></li>
+    			<ul>
+    				<li> Players fight over a flag which spawns in the center of the map.  Players gain points by holding the flag and gain random upgrades by picking up the flag.
+    			</ul>
+    		</div>
+    		<div class="whiteCell">
+	    		<h3> 
+	    			Map Types:
+	    		</h3>
+	    		<ul>
+
+	    			<li><b> Desert </b></li>
+	    			<a href="dash_rough.jpg" target="_blank"><img src="dash_rough.jpg" width="100%"></a><br/><br/>
+    				<br/><br/>
+
+	    			<li><b> Train Station </b></li>
+	    			<a href="trainstation.png" target="_blank"><img src="trainstation.png" width="100%"></a><br/><br/>
+    				<br/><br/>
+
+	    			<li><b> Cave </b></li>
+	    			<a href="Cave.png" target="_blank"><img src="Cave.png" width="100%"></a><br/><br/>
+    				<br/><br/>
+
+	    			<li><b> Ice </b></li>
+	    			<a href="ice.png" target="_blank"><img src="ice.png" width="100%"></a><br/><br/>
+    				<br/><br/>
+
+	    		</ul>
+	    	</div>
+
+
+			<div class="blackContent">
+				<div class="socialIcons">
+					<br/><br/><br/>
+			    	<a href="https://www.linkedin.com/in/bgibbonslinkedin/" target="_blank"> 
+			    		<img class="socialIcon" src="In-2C-128px-R.png" width="32"/>
+			    	</a>
+
+			    	<a href="https://www.instagram.com/ben.gibbons.art/" target="_blank">
+			    		<img class="socialIcon" src="IG_Glyph_Fill.png" width="32">
+			    	</a>
+
+			    	<a href="https://twitter.com/bengibbonsart" target="_blank">
+			    		<img class="socialIcon" src="Twitter_Social_Icon_Circle_Color.png" width="32">
+			    	</a>
+
+			    	<iframe allowtransparency="true" scrolling="no" frameborder="no" src="https://w.soundcloud.com/icon/?url=http%3A%2F%2Fsoundcloud.com%2Fbengibbonssound&color=orange_transparent&size=32" class="socialIcon" style="width: 32px; height: 32px;"></iframe>
+
+			    	<a href="http://bgibbonsweb.github.io/webgl/resume.html" target="_blank">
+			    		<img class="socialIcon" src="Doc3DBlack.jpg" width="32">
+			    	</a>
+
+
+			    	<a href="https://github.com/ben-gibbons-github" target="_blank">
+			    		<img class="socialIcon2" src="Octocat.png" height="32">
+			    	</a>
+			    	<br/>
+			    	<br/><br/><br/>
+					<br/><br/><br/>
+			    	This is the desktop version of this website <br/>
+			    	You should check this site out on your phone, too.<br/>
+		    	    The mobile version is pretty sweet.<br/><br/>
+		    	    <br/><br/><br/>
+		    	    <b>
+		    	    	40% nerd <br/>
+		    	    	20% artist <br/>
+		    	    	20% fitness nut <br/>
+		    	    	20% big brother <br/>
+		    	    	100% Heart <br/>
+		    	    </b>
+		    	    <br/><br/><br/><br/><br/><br/>
+			    </div>
+		    </div>
+		</div>
+
+		<div class="blackBackground">
+
+			<br/>
+			<a href="index.html">
+				<image src="profile.jpg" class="benPicture"/>
+			</a>
+
+			<br/><br/><br/>
+
+			
+			<a href="work.html">- Work Experience <br/><br/></a>
+			<a href="volunteering.html">- Volunteering <br/><br/></a>
+			<a href="code.html">- Coding projects <br/><br/></a>
+			<a href="resume.html">- Resume <br/><br/></a>
+			<a href="art.html">- Art Gallery <br/><br/></a>
+			<a href="contact.html">- Contact <br/><br/></a>
+
+			<br/>
+			<div class="socialIcons">
+				<br/>
+		    	<a href="https://www.linkedin.com/in/bgibbonslinkedin/" target="_blank"> 
+		    		<img class="socialIcon" src="In-2C-128px-R.png" width="32"/>
+		    	</a>
+
+		    	<a href="https://www.instagram.com/ben.gibbons.art/" target="_blank">
+		    		<img class="socialIcon" src="IG_Glyph_Fill.png" width="32">
+		    	</a>
+
+		    	<a href="https://twitter.com/bengibbonsart" target="_blank">
+		    		<img class="socialIcon" src="Twitter_Social_Icon_Circle_Color.png" width="32">
+		    	</a>
+		    	<br/><br/>
+		    	<iframe allowtransparency="true" scrolling="no" frameborder="no" src="https://w.soundcloud.com/icon/?url=http%3A%2F%2Fsoundcloud.com%2Fbengibbonssound&color=orange_transparent&size=32" class="socialIcon" style="width: 32px; height: 32px;"></iframe>
+
+		    	<a href="http://bgibbonsweb.github.io/webgl/resume.html" target="_blank">
+		    		<img class="socialIcon" src="Doc3DBlack.jpg" width="32">
+		    	</a>
+
+		    	<br/><br/>
+		    	<a href="https://github.com/ben-gibbons-github" target="_blank">
+		    		<img class="socialIcon2" src="Octocat.png" height="32">
+		    	</a>
+		    	<br/>
+		    	<br/>
+		    </div>
+
+		</div>
+	</body>
+</html>
