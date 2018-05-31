@@ -1,46 +1,37 @@
 <html>
 	<head>
 		<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+		<script type="text/javascript" src="../slideshow.js" async defer></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="style.css">
-
 		<link rel="icon" href="../profile.jpg"/>
-		<title>Coding Projects</title>
+		<title>WebGL Resume</title>
 	</head>
 	<body bgcolor="#ffffff">
 		<br/>
-		<div class="bgibbons">
-			My Coding Projects:<br/>
-		</div>
+		<image src="../webgltitle.jpg" width="100%" class="homePic"/>
 
-		<h2>
-			<div class="resumeType">
-		    	<a class="mainLink" href="arena.html">
-		    		<img src="../Cave.png"/ width="100%" class="shadow">
-		    		<br/><br/>
-					Stryder Arena <br/> (Windows / Xbox Game #1)
-				</a>
-			</div>
-			<br/><br/>
-
-			<div class="resumeType">
-		    	<a class="mainLink" href="space.html">
-		    		<img src="../shipback3.png"/ width="100%" class="shadow">
-		    		<br/><br/>
-					Space Tower Defense<br/> (Windows / Xbox Game #2)
-				</a>
-			</div>
-			<br/><br/>
-
-			<div class="resumeType">
-		    	<a class="mainLink" href="bots.html">
-		    		<img src="../icon3.png"/ width="100%" class="shadow">
-		    		<br/><br/>
-					Duel Bots <br/> (Windows / Xbox Game #3)
-				</a>
-			</div>
-			<br/><br/>
+		<h2> 
+			The WebGL resume is not available on mobile devices.  Check it out on your computer!
 		</h2>
+
+		<h3> 
+			Premise:
+		</h3>
+		I wanted to create an in-browser interactive version of my resume using WebGl!  The players navigrates through the world as a stick man controlled with the arrow keys and as they pass certain checkpoints, the system renders different sections of my resume.  There's also a boss fight at the end that the player defeats by jumping on it's head.  If the player defeats the boss and walks off the right edge of the screen, they are re-directed to my main website.
+
+		<h3> 
+			How I built it:
+		</h3>	
+
+		I decided to built this entirely using webGL line rendering.  Most of it was fairly simple except for drawing the text.  I wrote my own entire library for drawing line-based text!  That's how I can get the really cool effect where it looks like the text is being drawn in line-by-line.  I literally sat down and coded every character in the English language I needed by hand.  You can see the code here:  <a target="_blank" class="mainlink" href="../webgl/textRenderer.html">webgl/textRenderer.html
+		<br/>
+		<br/><br/>
+		<img src="../letterscode.jpg" class="shadow" width="100%"/></a>
+
+		<br/><br/><br/><br/>
+		An example of some pretty funky text rendering using hand-coded lines:<br/>
+		<img src="../letters.jpg" class="shadow" width="100%"/><br/><br/><br/>
 
 		<div class="socialIcons">
 			<br/>
