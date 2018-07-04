@@ -196,6 +196,47 @@ a:active {
 body {
 	font-family: Arial, Times, serif;
 	color: rgb(25, 25, 25);
+
+  margin: 0;
+}
+
+canvas {
+    position: absolute;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+}
+
+.ripple {
+  position: absolute;
+  background-color: white;
+  z-index: 3000;
+
+  border-radius: 50%;
+  opacity: 1;
+  background: rgba(255, 255, 255, 1);
+  transform: scale(0);
+
+  animation: rippleDrop 1.4s linear;
+}
+
+@keyframes rippleDrop {
+  100% {
+    transform: scale(0.35);
+    opacity: 0;
+  }
+}
+
+#homeBackContainer {
+  cursor: pointer;
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none; /* Standard syntax */
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 100%;
 }
 
 .homeTable {
@@ -255,6 +296,7 @@ body {
     position: fixed;
     left: 225px;
     top: 0px;
+    width: 100%;
 }
 
 .rightContainer {
@@ -264,8 +306,10 @@ body {
     top: 0px;
 }
 
-.homePic {
+.homeBlur {
+}
 
+.homePic {
 }
 
 .homePicCover {
