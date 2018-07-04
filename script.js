@@ -20,7 +20,8 @@ var container = document.getElementById('homeBackContainer');
 var clickPosition = [imageWidth * 0.5, imageHeight * 0.5];
 
 window.onresize = function() {
-    image.width = window.innerWidth - 225;
+    if (image)
+        image.width = window.innerWidth - 225;
 }
 
 var placeHolderImage;
@@ -34,7 +35,7 @@ window.onload = function() {
 
     // images from reddit/r/wallpapers
     var urls = [
-            'homeback.jpg',
+            'homeBack.jpg',
             'skyline15.png',
             'SunRise.jpg',
             'LevelEditor3D.png',
@@ -97,7 +98,7 @@ function placeImage(transitionIn) {
 
 function imageClickHandler(event) {
 
-    if (fragments.length > 0)
+    if (fragments.length > 0 || !image)
         return;
 
     var box = image.getBoundingClientRect(),
