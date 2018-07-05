@@ -25,6 +25,7 @@ window.onresize = function() {
 }
 
 var placeHolderImage;
+var loaded = 0;
 window.onload = function() {
     TweenMax.set(container, {perspective:500});
 
@@ -42,12 +43,12 @@ window.onload = function() {
             'Hive.png',
             'dash_rough.jpg',
         ],
-        image,
-        loaded = 0;
+        image;
 
     // very quick and dirty hack to load and display the first image asap
     image = new Image();
     images[0] = image;
+    
     image.onload = function() {
 
         document.body.style.backgroundColor = "black";
@@ -59,6 +60,9 @@ window.onload = function() {
 
                 image.src = urls[i];
                 image.width = window.innerWidth - 225;
+                image.onload = function() {
+                    loaded++;
+                }
             }
         }
     };
@@ -97,6 +101,9 @@ function placeImage(transitionIn) {
 }
 
 function imageClickHandler(event) {
+
+    if (imageIndex >= loaded)
+        return;
 
     if (fragments.length > 0 || !image)
         return;
@@ -169,6 +176,8 @@ function triangulate() {
 
 function doTimer() {
 
+    if (imageIndex >= loaded)
+        return;
     if (fragments.length > 0)
         return;
 
