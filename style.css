@@ -198,6 +198,9 @@ body {
 	color: rgb(25, 25, 25);
 
   margin: 0;
+
+   min-width:500px;        /* Suppose you want minimum width of 1000px */
+   width: auto !important;  /* Firefox will set width as auto */
 }
 
 canvas {
@@ -631,7 +634,8 @@ canvas {
 .artPic {
 
   background: transparent url("loading.jpg") no-repeat scroll center center;
-  min-height: 100px;
+  min-height: 250px;
+  min-width: 500px;
 
   border-top: 3px solid transparent;
   border-bottom: 3px solid transparent;
