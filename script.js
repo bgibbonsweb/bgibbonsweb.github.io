@@ -48,7 +48,7 @@ window.onload = function() {
     // very quick and dirty hack to load and display the first image asap
     image = new Image();
     images[0] = image;
-    
+
     image.onload = function() {
 
         document.body.style.backgroundColor = "black";
@@ -103,7 +103,9 @@ function placeImage(transitionIn) {
 function imageClickHandler(event) {
 
     if (imageIndex >= loaded)
+    {
         return;
+    }
 
     if (fragments.length > 0 || !image)
         return;
@@ -176,13 +178,11 @@ function triangulate() {
 
 function doTimer() {
 
-    if (imageIndex >= loaded)
-        return;
     if (fragments.length > 0)
         return;
 
     timeCounter++;
-    if (timeCounter > 9)
+    if (timeCounter > 9 && imageIndex < loaded)
     {
         timeCounter = 0;
 
