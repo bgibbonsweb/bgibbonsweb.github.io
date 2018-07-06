@@ -53,17 +53,16 @@ window.onload = function() {
     image.onload = function() {
 
         document.body.style.backgroundColor = "black";
+        imagesLoaded();
+        loaded++;
 
-        if (++loaded === 1) {
-            imagesLoaded();
-            for (var i = 1; i < urls.length; i++) {
-                images[i] = image = new Image();
+        for (var i = 1; i < urls.length; i++) {
+            images[i] = image = new Image();
 
-                image.src = urls[i];
-                image.width = window.innerWidth - 225;
-                image.onload = function() {
-                    loaded++;
-                }
+            image.src = urls[i];
+            image.width = window.innerWidth - 225;
+            image.onload = function() {
+                loaded++;
             }
         }
     };
@@ -76,6 +75,7 @@ function imagesLoaded() {
 
     placeImage(false);
     container.removeChild(placeHolderImage);
+    shatterCompleteHandler();
 }
 
 function placeImage(transitionIn) {
