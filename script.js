@@ -25,6 +25,7 @@ window.onresize = function() {
 }
 
 var placeHolderImage;
+var loadingImage;
 var loaded = 0;
 window.onload = function() {
     TweenMax.set(container, {perspective:500});
@@ -73,8 +74,8 @@ window.onload = function() {
 
 function imagesLoaded() {
 
-    container.removeChild(placeHolderImage);
     placeImage(false);
+    container.removeChild(placeHolderImage);
 }
 
 function placeImage(transitionIn) {
@@ -128,8 +129,8 @@ function doRipple() {
     var canvas = document.createElement("span");
 
     var box = {
-        x: clickPosition[0] - 200,
-        y: clickPosition[1] - 200,
+        x: clickPosition[0] - 240,
+        y: clickPosition[1] - 240,
         w: 400,
         h: 400,
     }
@@ -176,12 +177,30 @@ function triangulate() {
     indices = Delaunay.triangulate(vertices);
 }
 
+
+setInterval(doRippleTimer, 600);
+function doRippleTimer()
+{
+    if (loaded == 0 && document.hasFocus())
+    {
+        clickPosition[0] = placeHolderImage.width / 2;
+        clickPosition[1] = window.innerHeight / 2;
+        doRipple();
+    }
+} 
+
+
+setInterval(doTimer, 300);
 function doTimer() {
 
-    if (fragments.length > 0)
+    if (fragments.length > 0 || loaded == 0)
         return;
 
-    timeCounter++;
+    if (document.hasFocus() || timeCounter < 6)
+    {
+        timeCounter++;
+    }
+
     if (timeCounter > 9 && imageIndex < loaded)
     {
         timeCounter = 0;
@@ -200,8 +219,6 @@ function doTimer() {
     }
 }
 
-
-setInterval(doTimer, 1000);
 
 var xMult = 0;
 var yMult = 0;
@@ -236,8 +253,8 @@ function shatter() {
         var tl1 = new TimelineMax();
 
         tl1.to(fragment.canvas, 1, {
-            z: 25,
-            rotationY:30,
+            z: 25 * randomRange(-5, 5),
+            rotationY:90 * randomRange(-1, 1),
             ease:Cubic.easeIn
         });
 

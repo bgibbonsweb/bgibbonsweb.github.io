@@ -218,7 +218,9 @@ canvas {
 
   border-radius: 50%;
   opacity: 1;
-  background: rgba(255, 255, 255, 1);
+  background: rgba(255, 255, 255, 0.6);
+  border: 40px solid white;
+
   transform: scale(0);
 
   animation: rippleDrop 1.4s linear;
