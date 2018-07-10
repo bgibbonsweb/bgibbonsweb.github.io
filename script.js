@@ -16,6 +16,7 @@ var vertices = [],
 var timeCounter = -1;
 
 var container = document.getElementById('homeBackContainer');
+var leftBar = document.getElementById('leftBar');
 
 var clickPosition = [imageWidth * 0.5, imageHeight * 0.5];
 
@@ -27,6 +28,9 @@ window.onresize = function() {
 var placeHolderImage;
 var loadingImage;
 var loaded = 0;
+var player;
+var playerPos;
+
 window.onload = function() {
     TweenMax.set(container, {perspective:500});
 
@@ -103,7 +107,11 @@ function placeImage(transitionIn) {
 
 function imageClickHandler(event) {
 
-    if (imageIndex >= loaded)
+    var nextIndex = imageIndex + 1;
+    if (nextIndex >= images.length)
+        nextIndex = 0;
+    
+    if (imageIndex >= loaded || !images[nextIndex].complete)
     {
         return;
     }
@@ -177,13 +185,28 @@ function triangulate() {
     indices = Delaunay.triangulate(vertices);
 }
 
+setInterval(spaceTimer, 30);
+function spaceTimer()
+{
+    if (player && false)
+    {
+        console.log("function spaceTimer() " + playerPos[1]);
+        playerPos[1] -= 1;
+        if (playerPos[1] < -100)
+            playerPos[1] = window.innerHeight + 500;
+
+        player.style.left = playerPos[0] + 'px';
+        player.style.top = playerPos[1] + 'px';
+
+    }
+}
 
 setInterval(doRippleTimer, 600);
 function doRippleTimer()
 {
     if (loaded == 0 && document.hasFocus())
     {
-        clickPosition[0] = placeHolderImage.width / 2;
+        clickPosition[0] = (window.innerWidth - 225) / 2;
         clickPosition[1] = window.innerHeight / 2;
         doRipple();
     }
@@ -201,7 +224,11 @@ function doTimer() {
         timeCounter++;
     }
 
-    if (timeCounter > 9 && imageIndex < loaded)
+    var nextIndex = imageIndex + 1;
+    if (nextIndex >= images.length)
+        nextIndex = 0;
+
+    if (timeCounter > 9 && imageIndex < loaded && images[nextIndex].complete)
     {
         timeCounter = 0;
 
