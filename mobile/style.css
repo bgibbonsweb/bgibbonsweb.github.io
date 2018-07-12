@@ -24,7 +24,7 @@ body {
 }
 
 .labels {
-    font-size: 0.75em;
+    font-size: 0.85em;
     text-align: center;
 }
 
@@ -45,6 +45,56 @@ body {
     color: rgb(20, 20, 20);
 }
 
+.hPadding {
+  width: 2em;
+  margin: 1em;
+}
+
+.workIcons {
+  border: solid 1px #999999;
+  background-color: #eeeeee;
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c9c9c9+1,ffffff+100&0.98+0,1+99 */
+  background: -moz-linear-gradient(top, rgba(201,201,201,0.98) 0%, rgba(201,201,201,0.98) 1%, rgba(254,254,254,1) 99%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(201,201,201,0.98) 0%,rgba(201,201,201,0.98) 1%,rgba(254,254,254,1) 99%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(201,201,201,0.98) 0%,rgba(201,201,201,0.98) 1%,rgba(254,254,254,1) 99%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fac9c9c9', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+    
+  padding: 1em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  text-align: center;
+}
+
+.workIcons2 {
+  border: solid 1px #999999;
+
+  padding: 1em;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  text-align: center;
+}
+
+.marginText {
+  margin: 1em;
+  background-color: white;
+}
+
+.rectIcon {
+  border-radius: 10%;
+  border: 1px solid black;
+  position: relative;
+  bottom: -10px;
+  margin-right: 10px;
+}
+
+.circleIcon {
+  border-radius: 50%;
+  border: 1px solid black;
+  position: relative;
+  bottom: -10px;
+  margin-right: 10px;
+}
 
 .socialIcons {
     position: relative;
@@ -52,13 +102,89 @@ body {
     right: 0;
     background-color: black;
     text-align: center;
-    color: #666666;
+    color: #bbbbbb;
+
+    background-image: url("../BikeBackground.jpg");
+    background-size: cover;
+     background-position: right;
+}
+
+.comboLayer {
+
+  background-color: rgba(32,32, 32, 0.7);
+  
+
+}
+
+.whiteLayer {
+
+  background-color: rgba(255, 255, 255, 0.7);
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.91+0,0.55+100 */
+  background: -moz-linear-gradient(top, rgba(255,255,255,0.91) 0%, rgba(255,255,255,0.55) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(255,255,255,0.91) 0%,rgba(255,255,255,0.55) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(255,255,255,0.91) 0%,rgba(255,255,255,0.55) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8ffffff', endColorstr='#8cffffff',GradientType=0 ); /* IE6-9 */
+}
+
+.blackLayer {
+
+  color: white;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.55+0,0.91+99 */
+  background: -moz-linear-gradient(top, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.91) 99%, rgba(0,0,0,0.91) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0.55) 0%,rgba(0,0,0,0.91) 99%,rgba(0,0,0,0.91) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(0,0,0,0.55) 0%,rgba(0,0,0,0.91) 99%,rgba(0,0,0,0.91) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8c000000', endColorstr='#e8000000',GradientType=0 ); /* IE6-9 */
+
+  font-size: 1.25em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.blackLayer2 {
+
+  right: 0;
+  left: 0;
+
+  background-color: rgba(0, 0, 0, 0.7);
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.55+0,0.91+99 */
+  background: -moz-linear-gradient(top, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.91) 99%, rgba(0,0,0,0.91) 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0.55) 0%,rgba(0,0,0,0.91) 99%,rgba(0,0,0,0.91) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(0,0,0,0.55) 0%,rgba(0,0,0,0.91) 99%,rgba(0,0,0,0.91) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8c000000', endColorstr='#e8000000',GradientType=0 ); /* IE6-9 */
 }
 
 .container {
-    position: relative;
+    position: absolute;
+    top: 0;
     left: 0;
     right: 0;
+    bottom: 0;
+    height: 100%;
+}
+
+.homeBack {
+    background-image: url("homeback.jpg");
+    background-size: cover;
+     background-position: right;
+    font-weight: bold;
+    height: 100%;
+}
+
+.homeBack2 {
+    background-image: url("homeback.jpg");
+    background-size: cover;
+    background-position: right;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 }
 
 .socialIcon {
@@ -91,16 +217,19 @@ body {
 }
 
 .homeLinkBox {
-    font-size: 1.4em;
+    font-size: 1em;
     border-bottom: solid 1px #777777;
     padding: 0.75em;
+
+
+    color: rgb(230, 230, 230);
+    text-align: center;
+
 }
 
 .homeLinkBox:hover {
-    font-size: 1.4em;
-    border-bottom: solid 1px #777777;
-    padding: 0.75em;
-    background-color: #eeeeee;
+
+
 }
 
 
