@@ -75,14 +75,35 @@ body {
   text-align: center;
 }
 
+.subText {
+
+  font-size: 0.8em;
+}
+
+.resumeType {
+  border: 1px solid #bbbbbb;
+  padding: 2em;
+
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,bfccfc+0,ffffff+76 */
+  background: white;
+}
+
 .marginText {
-  margin: 1em;
-  background-color: white;
+  padding: 1em;
+    background-image: url("../WebBikes2.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .rectIcon {
   border-radius: 10%;
   border: 1px solid black;
+  position: relative;
+  bottom: -10px;
+  margin-right: 10px;
+}
+.rectIcon2 {
+  border-radius: 10%;
   position: relative;
   bottom: -10px;
   margin-right: 10px;
@@ -168,7 +189,7 @@ body {
 }
 
 .homeBack {
-    background-image: url("homeback.jpg");
+    background-image: url("homeBack.jpg");
     background-size: cover;
      background-position: right;
     font-weight: bold;
@@ -176,7 +197,7 @@ body {
 }
 
 .homeBack2 {
-    background-image: url("homeback.jpg");
+    background-image: url("homeBack.jpg");
     background-size: cover;
     background-position: right;
     font-weight: bold;
