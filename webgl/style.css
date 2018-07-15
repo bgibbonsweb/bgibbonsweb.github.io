@@ -20,6 +20,68 @@
     width: 100%;
   }
 
+  .mainView {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .leftButton {
+    pointer-events: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 20%;
+    height: 20%;
+    margin: auto;
+    text-align: center;
+
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid black;
+    background-image: url("left.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .rightButton {
+    pointer-events: none;
+    position: fixed;
+    bottom: 0;
+    left: 20%;
+    width: 20%;
+    height: 20%;
+    margin: auto;
+    text-align: center;
+
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid black;
+    background-image: url("right.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .upButton {
+    pointer-events: none;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 20%;
+    height: 20%;
+    margin: auto;
+    text-align: center;
+
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid black;
+    background-image: url("up.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
   .parallax__layer {
     position: absolute;
     top: 0;

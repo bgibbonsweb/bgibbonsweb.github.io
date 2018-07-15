@@ -3,6 +3,7 @@ var startScreenAlpha = 0;
 var welcomeAlpha = 0;
 var startScreenSpacePressed = false;
 
+
 function initStartScreen() {
 	for (var i = 0; i < 10; i++) {
 		addGameObject(new LineBox(0, 50, -100 * i, 200, 200, 0.00125 - 0.00005 * i));
@@ -23,8 +24,10 @@ function updateStartScreen(deltaTime) {
 	cameraX += (100 - cameraX) * 0.001 * deltaTime;
 	cameraY += (100 - cameraY) * 0.001 * deltaTime;
 	
-	if (currentlyPressedKeys[32] && startScreenAlpha > 3)
+	if ((currentlyPressedKeys[32] || mouseDown > 0) && startScreenAlpha > 3)
 		startScreenSpacePressed = true;
+
+
 	if (startScreenSpacePressed) {
 		cameraX += (100 - cameraX) * 0.001 * deltaTime;
 		cameraY += (100 - cameraY) * 0.001 * deltaTime;
