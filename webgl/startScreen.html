@@ -13,6 +13,7 @@ function initStartScreen() {
 
 function updateStartScreen(deltaTime) {
 	startScreenAlpha += 0.001 * deltaTime;
+
 	
 	if (isMobile)
 		drawString(-150, 200, -1000, 100, startScreenAlpha / 5, "Tap\nme");
@@ -35,7 +36,7 @@ function updateStartScreen(deltaTime) {
 		cameraZ -= deltaTime;
 		lookZ -= deltaTime;
 		
-		if (cameraZ < -400) {
+		if (cameraZ < 400) {
 			welcomeAlpha += deltaTime * 0.0005;
 			drawString(-300, -100, -4000, 200, welcomeAlpha, "Welcome");
 			if (cameraZ < -4000) {
@@ -52,5 +53,7 @@ function updateStartScreen(deltaTime) {
 			cameraX += deltaTime;
 		if (currentlyPressedKeys[37])
 			cameraX -= deltaTime;
+
+		cameraZ = (window.innerHeight / window.innerWidth + 1) * 700;
 	}
 }

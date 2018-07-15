@@ -518,7 +518,8 @@ var stickman = 0;
 
 
 function updateGameWorld(deltaTime) {
-	cameraZ += (500 - cameraZ) * 0.001 * deltaTime;
+	if (window.innerWidth > 0)
+		cameraZ += ((window.innerHeight / window.innerWidth + 1) * 400 - cameraZ) * 0.001 * deltaTime;
 
 	if (isMobile)
 		drawString(-200, -100, 0, 20, gameWorldAlpha / 3, "Tap left and right to move\nthe StickMan");
