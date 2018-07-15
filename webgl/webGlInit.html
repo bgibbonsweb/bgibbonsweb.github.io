@@ -1,7 +1,6 @@
 	  
 var gl;
 var shaderProgram;
-var testImg;
 
 var viewMatrix = mat4.create();
 var projectionMatrix = mat4.create();
@@ -10,6 +9,7 @@ var vertexPositionBuffer;
 var vertexColorBuffer;
 var bufferIndex;
 var maxBuffer;
+var canvas;
 			
 function setMatrixUniforms() {
 	gl.uniformMatrix4fv(shaderProgram.projectionMatrixUniform, false, projectionMatrix);
@@ -22,7 +22,7 @@ var mouseY = [0, 0, 0, 0];
 
 function doTouch(event) {
 	mouseDown = event.touches.length;
-	for (var i = 0; i < mouseDown; i++)
+	for (var i = 0; i < mouseDown && i < mouseX.length; i++)
 	{
 		mouseX[i] = event.touches[i].clientX;
 		mouseY[i] = event.touches[i].clientY;
@@ -31,6 +31,7 @@ function doTouch(event) {
 }
 
 function webGLStart() {
+
 
 	document.body.onmousedown = function(event) { 
 		if (mouseDown < 4)
@@ -49,13 +50,16 @@ function webGLStart() {
 	document.body.ontouchend = doTouch;
 	document.body.ontouchcancel = doTouch;
 
-	testImg = new Image();
-	testImg.src = "web.png";
-	var canvas = document.getElementById("webGlCanvas");
+	canvas = document.getElementById("webGlCanvas");
 
 	canvas.width  = window.innerWidth;
 	canvas.height = window.innerHeight;
  
+	document.body.onresize = function(event) {
+		canvas.width  = window.innerWidth;
+		canvas.height = window.innerHeight;
+	}
+
 	initGL(canvas);
 	initShaders();
 	initBuffers();
@@ -256,6 +260,12 @@ var lookY = 0;
 var lookZ = 0;
 
 function drawScene() {
+	
+	canvas.width  = window.innerWidth;
+	canvas.height = window.innerHeight;
+	gl.viewportWidth = canvas.width;
+	gl.viewportHeight = canvas.height;
+
 	gl.viewport(0, 0, gl.viewportWidth, gl.viewportHeight);
 	gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
 	
