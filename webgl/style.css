@@ -20,6 +20,21 @@
     width: 100%;
   }
 
+  .upperLeft {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 10%;
+    height: 10%;
+
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid black;
+    background-image: url("info.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
   .mainView {
     position: absolute;
     left: 0;

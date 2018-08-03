@@ -14,7 +14,6 @@ function initStartScreen() {
 function updateStartScreen(deltaTime) {
 	startScreenAlpha += 0.001 * deltaTime;
 
-	
 	if (isMobile)
 		drawString(-150, 200, -1000, 100, startScreenAlpha / 5, "Tap\nme");
 	else
@@ -45,13 +44,13 @@ function updateStartScreen(deltaTime) {
 			}
 		}
 	} else {
-		if (currentlyPressedKeys[38])
+		if (currentlyPressedKeys[38] || currentlyPressedKeys[87])
 			cameraY += deltaTime;
-		if (currentlyPressedKeys[40])
+		if (currentlyPressedKeys[40] || currentlyPressedKeys[83])
 			cameraY -= deltaTime;
-		if (currentlyPressedKeys[39])
+		if (currentlyPressedKeys[39] || currentlyPressedKeys[68])
 			cameraX += deltaTime;
-		if (currentlyPressedKeys[37])
+		if (currentlyPressedKeys[37] || currentlyPressedKeys[65])
 			cameraX -= deltaTime;
 
 		cameraZ = (window.innerHeight / window.innerWidth + 1) * 700;

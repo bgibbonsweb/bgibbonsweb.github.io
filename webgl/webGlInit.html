@@ -78,10 +78,22 @@ function initGL(canvas) {
 		gl = canvas.getContext("experimental-webgl");
 		gl.viewportWidth = canvas.width;
 		gl.viewportHeight = canvas.height;
+
+		if (isMobile)
+		{
+			var deskLinks = document.getElementById("deskLinks");
+			deskLinks.style.visibility = "hidden";
+			var mobileInfo = document.getElementById("mobileInfo");
+			mobileInfo.style.visibility = "visible";
+		}
+
 	} catch(e) {
 	}
 	if (!gl) {
 		alert("Could not initialise WebGL, sorry  ");
+		var nowebgl = document.getElementById("nowebgl");
+		nowebgl.style.visibility = "visible";
+		canvas.style.visibility = "hidden";
 	}
 }
 

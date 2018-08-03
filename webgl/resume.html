@@ -31,6 +31,11 @@
 	 		right: 10px;
 	 		top: 10px
 		}
+		.upperLeft {
+			position: fixed;
+	 		left: 10px;
+	 		top: 10px
+		}
 	</style>
 <body onload="webGLStart(); ">
 <canvas id="webGlCanvas" style="border: none;" class="mainView"></canvas>
@@ -39,12 +44,17 @@
 <div class="rightButton" id="rightButton" style="visibility:hidden;"></div>
 <div class="upButton" id="upButton" style="visibility:hidden;"></div>
 
-<div class="upperRight">
+<div class="upperRight" id="deskLinks">
 	<a href="../index.html" target="_blank"> Go to my main website </a><br/>
 	<a href="../webgl.html" target="_blank"> See how this was made! </a><br/>
 	<a href="../BenGibbonsResume.pdf" target="_blank"> View my resume in typed form </a>
 </div>
-<div style='visibility:hidden' id="nowebgl"> 
+
+<a href="../webgl.html" target="_blank" style='visibility:hidden' id="mobileInfo">
+	<div class="upperLeft"></div>
+</a>
+
+<div style='visibility:hidden' class="" id="nowebgl"> 
     It looks like your browser can't support this.<br/>
     <a href="http://www.google.com/chrome/" target="_blank">Click here to download a browser which can</a>
 </div>
@@ -402,21 +412,21 @@ function updateStickMan(deltaTime) {
 		}
 	}
 
-	if (currentlyPressedKeys[38] || clickUp) {
+	if (currentlyPressedKeys[38] || clickUp || currentlyPressedKeys[87] || currentlyPressedKeys[17] || currentlyPressedKeys[32]) {
 		if (this.jumps > 0) {
 			this.velocity = 2.5;
 			this.jumps = 0;
 		}
 		this.cameraFree = true;
 	}
-	if (currentlyPressedKeys[39] || clickRight) {
+	if (currentlyPressedKeys[39] || clickRight || currentlyPressedKeys[68]) {
 		if (this.x + deltaTime / 4 < rightX)
 			this.x += deltaTime / 4;
 		this.walk += deltaTime / 4;
 		this.cameraFree = true;
 	}
 
-	if (currentlyPressedKeys[37] || clickLeft) {
+	if (currentlyPressedKeys[37] || clickLeft || currentlyPressedKeys[65]) {
 		if (this.x - deltaTime / 4 > leftX)
 			this.x -= deltaTime / 4;
 		this.walk -= deltaTime / 4;
