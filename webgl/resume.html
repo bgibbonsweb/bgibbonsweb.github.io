@@ -531,12 +531,12 @@ function updateGameWorld(deltaTime) {
 		cameraZ += ((window.innerHeight / window.innerWidth + 1) * 400 - cameraZ) * 0.001 * deltaTime;
 
 	if (isMobile)
-		drawString(-200, -100, 0, 20, gameWorldAlpha / 3, "Tap left and right to move\nthe StickMan");
+		drawString(-200, -100, 0, 20, gameWorldAlpha / 3, "Hold left and right to move\nthe StickMan");
 	else
 		drawString(-200, -100, 0, 20, gameWorldAlpha / 3, "Use Arrowkeys to move the stickman");
 
 	if (!isMobile)
-		drawString(250, -50, 0, 20, gameWorldJumpAlpha / 8, "Press up \narrow to jump");
+		drawString(250, -50, 0, 20, gameWorldJumpAlpha / 8, "Hold up \narrow to jump");
 	else
 		drawString(250, -50, 0, 20, gameWorldJumpAlpha / 8, "Tap on the jump button");
 
