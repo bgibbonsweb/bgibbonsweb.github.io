@@ -119,6 +119,10 @@ function imageClickHandler(event) {
     if (fragments.length > 0 || !image)
         return;
 
+    var loadingText = document.getElementById("loadingText");
+    if (loadingText)
+        loadingText.style.visibility = "hidden";
+
     var box = image.getBoundingClientRect(),
         top = box.top,
         left = box.left;
@@ -228,21 +232,28 @@ function doTimer() {
     if (nextIndex >= images.length)
         nextIndex = 0;
 
-    if (timeCounter > 9 && imageIndex < loaded && images[nextIndex].complete)
+    if (imageIndex < loaded && images[nextIndex] && images[nextIndex].complete)
     {
-        timeCounter = 0;
+        var loadingText = document.getElementById("loadingText");
+        if (loadingText)
+            loadingText.style.visibility = "hidden";
+        
+        if (timeCounter > 9)
+        {
+            timeCounter = 0;
 
-        var box = image.getBoundingClientRect(),
-            top = box.top,
-            left = box.left;
+            var box = image.getBoundingClientRect(),
+                top = box.top,
+                left = box.left;
 
-        image.width = window.innerWidth - 225;
-            
-        clickPosition[0] = 0;
-        clickPosition[1] = window.innerHeight + 100;
-    
-        triangulate();
-        shatter();
+            image.width = window.innerWidth - 225;
+                
+            clickPosition[0] = 0;
+            clickPosition[1] = window.innerHeight + 100;
+        
+            triangulate();
+            shatter();
+        }
     }
 }
 
