@@ -1,14 +1,36 @@
-var renderer = new THREE.WebGLRenderer();
+
+
+var renderer;
+
+canvas = document.getElementById("webGlCanvas");
+if (canvas)
+{
+	canvas.width  = window.innerWidth - 225;
+	renderer = new THREE.WebGLRenderer({canvas: canvas});
+}
+else
+{
+	renderer = new THREE.WebGLRenderer();
+	renderer.setSize( window.innerWidth, window.innerHeight );
+}
 var lastTime = new Date().getTime();
 var startTime = lastTime;
 
 // renderer.shadowMap.enabled = true;
 renderer.shadowMap.type = THREE.PCFSoftShadowMap; // default THREE.PCFShadowMap
 
-renderer.setSize( window.innerWidth, window.innerHeight );
 document.body.appendChild( renderer.domElement );
 
+
+
 var camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 1, 500 );
+
+if (canvas)
+{
+	camera.aspect = canvas.width / canvas.height;
+	camera.updateProjectionMatrix();
+}
+
 camera.position.set( 100, 100, 100 );
 camera.lookAt( 0, 0, 0 );
 
@@ -109,7 +131,8 @@ var animate = function () {
 		.to( { x: Math.random() * 4000 - 2000, y: Math.random() * 1000 - 500, z: Math.random() * 4000 - 2000 }, 100000 * (1 + Math.random()) )
 		.start();
 
-	addParticle(0, 0, 0, 32 * Math.random() + 32);
+	if (timeNow < startTime + 50000)
+		addParticle(0, 0, 0, 32 * Math.random() + 32);
 
 	renderer.render( scene, camera );
 	TWEEN.update();

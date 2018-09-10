@@ -8,46 +8,17 @@
 		<title>Project Portfolio</title>
 
 
-		<script language="javascript" type="text/javascript" src="fallingLetters/modernizr.custom.40469.js"></script>
-		<script type="text/javascript" src="fallingLetters/glMatrix.js"></script>
-		<script type="text/javascript" src="fallingLetters/webGl.js"></script>
-		<script type="text/javascript" src="fallingLetters/webGlInit.js"></script>
-		<script type="text/javascript" src="fallingLetters/textRenderer.js"></script>
-		<script type="text/javascript" src="fallingLetters/main.js"></script>
-		<script id="shaderFs" type="fragmentSource">
-			
-			precision mediump float;
-			varying vec4 vColor;
-			
-			void main(void) {
-				gl_FragColor = vColor;
-			}
-		</script>
-
-		<script id="shaderVs" type="vertexSource">
-			
-			uniform mat4 uViewMatrix;
-			uniform mat4 uProjectionMatrix;
-
-			attribute vec3 aVertexPosition;
-			attribute vec4 aVertexColor;
-			
-			varying vec4 vColor;
-			
-			void main(void) {
-				vColor = aVertexColor;
-				gl_Position = uProjectionMatrix * uViewMatrix * vec4(aVertexPosition, 1.0);
-			}
-		</script>
+		<script language="javascript" type="text/javascript" src="WebGlExperiments/GhostKey/lib/three.js"></script>
+		<script language="javascript" type="text/javascript" src="WebGlExperiments/GhostKey/lib/tween.min.js"></script>
 
 	</head>
-	<body bgcolor="#f2f2f2" onload="webGLStart(); ">
+	<body bgcolor="#f2f2f2">
 
 
 		<div class="fixedLeftContent">
 
 			<div style="width: 100%; height: 150px;">
-				<canvas id="webGlCanvas" height="150px" style="border: none;" class="mainView"></canvas>
+				<canvas id="webGlCanvas" height="150px" style="border: none; left: 225px;" class="mainView"></canvas>
 			</div>
 				
 	    	<div class="whiteCell">
@@ -353,5 +324,11 @@
 		    	<div class="bullet"></div>
 		    </div>
 		</div>
+		<script language="javascript" type="text/javascript">
+			windowStyle = "position: fixed; left; 225;"; 
+			windowWidth = window.innerWidth - 225;
+			windowHeight = 150;
+		</script>
+		<script language="javascript" type="text/javascript" src="WebGlExperiments/GhostKey/src/main.js"></script>
 	</body>
 </html>
