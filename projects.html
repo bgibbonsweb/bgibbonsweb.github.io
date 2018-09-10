@@ -6,13 +6,49 @@
 
 		<link rel="icon" href="profile.jpg"/>
 		<title>Project Portfolio</title>
+
+
+		<script language="javascript" type="text/javascript" src="fallingLetters/modernizr.custom.40469.js"></script>
+		<script type="text/javascript" src="fallingLetters/glMatrix.js"></script>
+		<script type="text/javascript" src="fallingLetters/webGl.js"></script>
+		<script type="text/javascript" src="fallingLetters/webGlInit.js"></script>
+		<script type="text/javascript" src="fallingLetters/textRenderer.js"></script>
+		<script type="text/javascript" src="fallingLetters/main.js"></script>
+		<script id="shaderFs" type="fragmentSource">
+			
+			precision mediump float;
+			varying vec4 vColor;
+			
+			void main(void) {
+				gl_FragColor = vColor;
+			}
+		</script>
+
+		<script id="shaderVs" type="vertexSource">
+			
+			uniform mat4 uViewMatrix;
+			uniform mat4 uProjectionMatrix;
+
+			attribute vec3 aVertexPosition;
+			attribute vec4 aVertexColor;
+			
+			varying vec4 vColor;
+			
+			void main(void) {
+				vColor = aVertexColor;
+				gl_Position = uProjectionMatrix * uViewMatrix * vec4(aVertexPosition, 1.0);
+			}
+		</script>
+
 	</head>
-	<body bgcolor="#f2f2f2">
+	<body bgcolor="#f2f2f2" onload="webGLStart(); ">
 
 
 		<div class="fixedLeftContent">
 
-			<image src="homeBackBanner.jpg" width="100%" class="homePic"/>
+			<div style="width: 100%; height: 150px;">
+				<canvas id="webGlCanvas" height="150px" style="border: none;" class="mainView"></canvas>
+			</div>
 				
 	    	<div class="whiteCell">
 	    		<h1>
