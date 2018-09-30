@@ -190,8 +190,6 @@ THREE.Lensflare = function () {
 			screenPositionPixels.y = viewport.y + ( positionScreen.y * halfViewportHeight ) + halfViewportHeight - 8;
 
 			// screen cull
-			console.log(positionScreen);
-
 			if ( validAreaBuffered.containsPoint( screenPositionPixels ) ) {
 
 				// save current RGB to temp texture
