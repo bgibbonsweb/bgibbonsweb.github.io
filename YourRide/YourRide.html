@@ -1,0 +1,192 @@
+<html>
+	<head>
+		<title>World Scene</title>
+		<style>
+			body { margin: 0; }
+			canvas { width: 100%; height: 100% }
+
+			a{color: white;}
+			a:visited {color: white;}
+
+			.lowerRight
+			{
+				position: fixed;
+				right: 0px;
+				bottom: 0px;
+				background-color: rgba(0, 0, 0, 0.5);
+				border-top: 1px solid white;
+				border-left: 1px solid white;
+				color: white;
+				padding: 20px;
+				opacity: 0.6;
+			}
+
+			.lowerLeft
+			{
+				position: fixed;
+				left: 0px;
+				bottom: 0px;
+				background-color: rgba(0, 0, 0, 0.5);
+				border-top: 1px solid white;
+				border-right: 1px solid white;
+				color: white;
+				padding: 20px;
+				opacity: 0.6;
+			}
+
+			.dateShow {
+				font-size: 0.8em;
+				opacity: 0.8;
+			}
+
+			.speech-holder {
+				position: fixed;
+				left: 0px;
+				top: 0px;
+				padding: 20px;
+				text-align: center;
+				color: white;
+			}
+
+			.speech-bubble {
+				position: relative;
+				background: rgba(0, 0, 0, 0.5);
+				color: white;
+				border-radius: .4em;
+				padding: 20px;
+				border: 1px solid white;
+			}
+			.speech-bubble:after {
+				content: '';
+				position: absolute;
+				bottom: 0;
+				left: 50%;
+				width: 0;
+				height: 0;
+				border: 9px solid transparent;
+				border-top-color: #ffffff;
+				border-bottom: 0;
+				border-left: 0;
+				margin-left: -4.5px;
+				margin-bottom: -9px;
+			}
+
+			}
+
+		</style>
+	</head>
+	<body>
+
+		<div class="speech-holder">
+			<div id="dateShow" class="dateShow">
+			</div>
+			<div class="speech-bubble">
+				Your ride is here...
+			</div>
+		</div>
+
+		<div class="lowerRight">
+			Car model by <a href="https://sketchfab.com/models/0634683fee6147c0b3d66b23d1643565" target="_blank">Rasmus.Eist</a>
+		</div>
+		<div class="lowerLeft">
+			Scene by <a href="http://bgibbonsweb.github.io/" target="_blank">Ben Gibbons</a>.  Use arrow keys to move.
+		</div>
+
+		<script>
+			var d = new Date();
+			var options = { hour: 'numeric', minute: '2-digit' };
+
+			var n = d.toLocaleString("en-US", options) + ", 2099";
+
+			document.getElementById("dateShow").innerHTML = n;
+		</script>
+
+		<script type="x-shader/x-vertex" id="beamvert">
+
+
+			varying vec2 vUv;
+			varying vec3 vPos;
+			uniform float globalTime;
+
+			void main() {
+
+	            vUv = uv;
+
+				vec3 pos = position;
+				vPos = pos;
+
+				vec4 mvPosition = modelViewMatrix * vec4( pos, 1.0 );
+
+				gl_Position = projectionMatrix * mvPosition;
+			}
+
+		</script>
+
+		<script type="x-shader/x-fragment" id="beamfrag">
+				
+			varying vec2 vUv;
+			varying vec3 vPos;
+
+			uniform float globalTime;
+
+			void main() {
+
+				float shine = (vUv.t + cos(vUv.s * 50.0 + globalTime * 1.0 + vPos.x));
+				shine = shine * shine * 0.05 + 0.05;
+				gl_FragColor = vec4(shine * 0.5, shine * 1.0, shine * 2.0, 1);
+			}
+
+		</script>
+
+			<script type="x-shader/x-vertex" id="boardvert">
+
+
+				varying vec2 vUv;
+				varying vec3 vPos;
+				uniform float globalTime;
+
+				void main() {
+
+		            vUv = uv;
+
+					vec3 pos = position;
+					vPos = pos;
+
+					vec4 mvPosition = modelViewMatrix * vec4( pos, 1.0 );
+
+					gl_Position = projectionMatrix * mvPosition;
+				}
+
+			</script>
+
+			<script type="x-shader/x-fragment" id="boardfrag">
+					
+				varying vec2 vUv;
+				varying vec3 vPos;
+
+				uniform sampler2D texture;
+				uniform float globalTime;
+
+				void main() {
+					vec4 textureColor = texture2D(texture, vec2(vUv.s, vUv.t));
+
+					float shine = abs(cos(globalTime * 0.25 + textureColor.x + textureColor.y + textureColor.z + vUv.t));
+					if (shine < 0.95)
+					{
+						shine = sin(globalTime + vUv.t * 10.0) * 0.2;
+						if (shine < 0.175)
+							discard;
+						else
+							gl_FragColor = vec4(shine * 2.0, shine * 0.65, shine * 0.5, 1);;
+					}
+					else
+						gl_FragColor = vec4(shine * 0.7, shine * 0.65, shine * 0.5, 1);
+				}
+
+			</script>
+		<script src="lib/three.js"></script>
+		<script src="lib/Lensflare.js"></script>
+		<script src="lib/GLTFLoader.js"></script>
+		<script src="src/main2.js"></script>
+	</body>
+</html>
