@@ -1,12 +1,13 @@
 var renderer = new THREE.WebGLRenderer();
 var lastTime = new Date().getTime();
+var firstTime = lastTime;
 var currentlyPressedKeys = {};
 var day = 0;
 
 renderer.setSize( window.innerWidth, window.innerHeight );
 document.body.appendChild( renderer.domElement );
 
-var camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 10, 45000 );
+var camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 1, 45000 );
 camera.position.set( 200, 200, 200 );
 camera.lookAt( 0, 0, 0 );
 camera.far = 100000;
@@ -15,12 +16,18 @@ var scene = new THREE.Scene();
 renderer.setClearColor( 0xe0faff, 1 );
 
 
+var tex = "cloud.jpg"
+var urls = [ "tex/" + tex, "tex/" + tex, "tex/" + tex, "tex/" + tex, "tex/" + tex, "tex/" + tex ];
+var textureCube = THREE.ImageUtils.loadTextureCube( urls );
+scene.background = textureCube;
+
 var loader = new THREE.TextureLoader();
 var flower = loader.load( "tex/flower2.png" );
 var grass = loader.load( "tex/grass1.png" );
 var bush = loader.load( "tex/bush.png" );
 var grassTex = loader.load("tex/grasstex.jpg");
 var butterfly = loader.load("tex/butterfly.png");
+var bird = loader.load("tex/bird.png");
 var spark = new THREE.TextureLoader().load( "tex/spark.jpg" );
 grassTex.wrapS = THREE.RepeatWrapping;
 grassTex.wrapT = THREE.RepeatWrapping;
@@ -58,6 +65,12 @@ uniforms4= {
 allUniforms.push(uniforms4);
 makeBushes(uniforms3);
 makeBush(0, 0, 0, bush, 50, 50,uniforms3);
+
+var sparkParticleSystem = new THREE.GPUParticleSystem( {
+	maxParticles: 250000,
+	particleSpriteTex: loader.load("tex/circle.png")
+} );
+scene.add( sparkParticleSystem );
 
 function makeBushes(uniforms)
 {
@@ -112,6 +125,7 @@ function makeGrass(start, end, step, tex, w, h, uniforms)
 	var planeGeometry = new THREE.PlaneGeometry(w, h, 1, 1);
 	var mesh = new THREE.Mesh(planeGeometry);
 	var geometry = new THREE.Geometry();
+	
 	for (var x = start; x < end; x += step)
 	{
 		for (var z = start; z < end; z += step)
@@ -181,13 +195,22 @@ uniforms5= {
 };
 allUniforms.push(uniforms5);
 
+
+birdUniforms= {
+	texture:    { type: "t", value: bird },
+	globalTime:	{ type: "f", value: 0.0 },
+	globalColor: 	{ type: "v3", value: new THREE.Vector3() },
+};
+allUniforms.push(birdUniforms);
+
 butterflies = [];
-for (var  i = 0; i < 8; i++)
+for (var  i = 0; i < 16; i++)
 {
+	var isBird = i >= 8;
 	var geometry = new THREE.PlaneGeometry(5, 5, 2, 2);
 
 	var material = new THREE.ShaderMaterial( {
-		uniforms: 		uniforms5,
+		uniforms: 		isBird ? birdUniforms : uniforms5,
 		vertexShader:   document.getElementById( 'flyvertexshader' ).textContent,
 		fragmentShader: document.getElementById( 'flyfragmentshader' ).textContent,
 		wireframe: 		false,
@@ -196,9 +219,14 @@ for (var  i = 0; i < 8; i++)
 
 	var body = new THREE.Mesh( geometry, material );
 
-	var x = Math.random() * 600 - 300;
+	var mult = isBird ? 2 : 1;
+	var x = (Math.random() * 600 - 300) * mult;
 	var y = Math.random() * 50 + 20;
-	var z = Math.random() * 600 - 300;
+
+	if (isBird)
+		y = 100 + Math.random() * 150;
+
+	var z = (Math.random() * 600 - 300) * mult;
 
 	body.position.set(x, y, z);
 	body.rotation.x = Math.PI / 2;
@@ -207,6 +235,7 @@ for (var  i = 0; i < 8; i++)
 	var fly = {};
 	fly.body = body;
 	fly.from = {};
+	fly.isBird = isBird;
 	fly.from.x = x;
 	fly.from.y = y;
 	fly.from.z = z;
@@ -214,6 +243,18 @@ for (var  i = 0; i < 8; i++)
 	fly.to.x = Math.random() * 900 - 450;
 	fly.to.y = Math.random() * 50 + 20;
 	fly.to.z = Math.random() * 900 - 450;
+
+	if (isBird)
+	{
+		fly.to.y = 100 + Math.random() * 150;
+
+		var dist = 1500;
+		var rot = Math.PI * 2 * Math.random();
+
+		fly.to.x = Math.cos(rot) * dist;
+		fly.to.z = Math.sin(rot) * dist;
+	}
+
 	fly.time = 0;
 	body.rotation.z = -Math.atan2(fly.to.x - fly.from.x, fly.to.z - fly.from.z);
 
@@ -384,6 +425,36 @@ for (var rot = 0; rot < Math.PI * 2; rot += Math.PI / 8)
 
 }
 
+var particleSpawners = [];
+	
+for (var i = 0; i < 3; i++)
+{
+	var spawn = {};
+
+	spawn.from = {};
+	spawn.from.x = x;
+	spawn.from.y = y;
+	spawn.from.z = z;
+	spawn.to = {};
+	spawn.to.x = Math.random() * 900 - 450;
+	spawn.to.y = Math.random() * 50 + 20;
+	spawn.to.z = Math.random() * 900 - 450;
+	spawn.time = 1;
+	particleSpawners.push(spawn);
+}
+
+var options = {
+	position: new THREE.Vector3(),
+	positionRandomness: 0,
+	velocity: new THREE.Vector3(0.01, 0, 0),
+	velocityRandomness: 0.02,
+	color: 0xffffff,
+	colorRandomness: 0.05,
+	turbulence: .002,
+	lifetime: 1000,
+	size: 1.5,
+	sizeRandomness: 0,
+};
 
 var targetCamHeight = 75;
 var targetCamRot = Math.PI * 0.85;
@@ -429,6 +500,8 @@ function animate() {
 	{
 		var fly = butterflies[i];
 		fly.time += deltaTime * 0.00003;
+		if (fly.isBird)
+			fly.time += deltaTime * 0.00006;
 
 		if (fly.time > 1)
 		{
@@ -436,15 +509,57 @@ function animate() {
 			fly.from.y = fly.to.y;
 			fly.from.z = fly.to.z;
 
-			fly.to.x = Math.random() * 1200 - 600;
+			var mult = 1;
+			fly.to.x = (Math.random() * 1200 - 600) * mult;
+			fly.to.z = (Math.random() * 1200 - 600) * mult;
 			fly.to.y = Math.random() * 50 + 20;
-			fly.to.z = Math.random() * 1200 - 600;
+			if (fly.isBird)
+			{
+				var dist = 1500;
+				var rot = Math.PI * 2 * Math.random();
+
+				fly.to.x = Math.cos(rot) * dist;
+				fly.to.z = Math.sin(rot) * dist;
+				fly.to.y = Math.random() * 150 + 100;
+			}
+
 
 			fly.time = 0;
 			fly.body.rotation.z = -Math.atan2(fly.to.x - fly.from.x, fly.to.z - fly.from.z);
 		}
 
 		fly.body.position.set(fly.from.x + (fly.to.x - fly.from.x) * fly.time, fly.from.y + (fly.to.y - fly.from.y) * fly.time, fly.from.z + (fly.to.z - fly.from.z) * fly.time)
+	}
+
+	for (var  i = 0; i < particleSpawners.length; i++)
+	{
+		var fly = particleSpawners[i];
+		fly.time += deltaTime * 0.001;
+
+		if (fly.time > 1)
+		{
+			fly.from.x = fly.to.x;
+			fly.from.y = fly.to.y;
+			fly.from.z = fly.to.z;
+
+			fly.to.x += Math.random() * 120 - 60;
+			fly.to.y += Math.random() * 5 + 2.5;
+			fly.to.z += Math.random() * 120 - 60;
+
+			if (fly.to.x > 600 || fly.to.x < -600 || fly.to.z > 600 || fly.to.z < -600)
+			{
+				fly.to.x = Math.random() * 1200 - 600;
+				fly.to.y = Math.random() * 50 + 20;
+				fly.to.z = Math.random() * 1200 - 600;
+			}
+
+			fly.time = 0;
+		}
+
+		options.position.x = fly.from.x + (fly.to.x - fly.from.x) * fly.time;
+		options.position.y = fly.from.y + (fly.to.y - fly.from.y) * fly.time;
+		options.position.z = fly.from.z + (fly.to.z - fly.from.z) * fly.time;
+		sparkParticleSystem.spawnParticle( options );
 	}
 
 	for (var i = 0; i < allUniforms.length; i++)
@@ -494,6 +609,16 @@ function animate() {
 	camHeight += (targetCamHeight - camHeight) * 0.1;
 	camRot += (targetCamRot - camRot) * 0.01;
 
+	if (Math.random() > 0.6)
+	{
+		options.position.x = (Math.random() - 0.5) * 500;
+		options.position.z = (Math.random() - 0.5) * 500;
+		options.position.y = (Math.random()) * 100;
+		sparkParticleSystem.spawnParticle( options );
+	}
+
+	sparkParticleSystem.update( (timeNow - firstTime) / 25 );
+
 	renderer.render( scene, camera );
 	lastTime = timeNow;
 };
@@ -521,11 +646,9 @@ loader.load(
 	'models/oak_tree/scene.gltf',
 
 	function ( gltf ) {
-		console.log( "Lets go!" , gltf.scene);
 
 		gltf.scene.traverse( function ( child ) {
 			if ( child.isMesh ) {
-				console.log(child.material);
 				
 				var uniforms = {
 					texture:    { type: "t", value: child.material.map },
@@ -547,7 +670,7 @@ loader.load(
 		gltf.scene.scale.set(10, 10, 10);
 		gltf.scene.position.y += 20;
 
-		for (var i = 0; i < 2; i++)
+		for (var i = 0; i < 3; i++)
 		{
 			var two = gltf.scene.clone();
 			var rot = 1;
@@ -559,7 +682,7 @@ loader.load(
 			two.position.z += Math.sin(rot) * r;
 			two.rotation.y = Math.random() * Math.PI * 2;
 
-			var scale = 5 + Math.random() * 10;
+			var scale = 10 + Math.random() * 2;
 			two.scale.set(scale, scale, scale);
 
 			scene.add( two );

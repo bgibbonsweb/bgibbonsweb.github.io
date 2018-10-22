@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>World Scene</title>
+		<title>Your Ride Is Here...</title>
 		<style>
 			body { margin: 0; }
 			canvas { width: 100%; height: 100% }
@@ -143,7 +143,6 @@
 
 				varying vec2 vUv;
 				varying vec3 vPos;
-				uniform float globalTime;
 
 				void main() {
 
@@ -184,9 +183,58 @@
 				}
 
 			</script>
+
+
+			<script type="x-shader/x-vertex" id="glowvert">
+
+
+				varying vec2 vUv;
+				varying vec3 vPos;
+
+				void main() {
+
+		            vUv = uv;
+
+					vec3 pos = position;
+					vPos = pos;
+
+					vec4 mvPosition = modelViewMatrix * vec4( pos, 1.0 );
+
+					gl_Position = projectionMatrix * mvPosition;
+				}
+
+			</script>
+
+			<script type="x-shader/x-fragment" id="glowfrag">
+					
+				varying vec2 vUv;
+				varying vec3 vPos;
+
+				uniform sampler2D texture;
+				uniform float globalTime;
+
+				void main() {
+					vec4 textureColor = texture2D(texture, vec2(vUv.s, vUv.t * 3.0));
+
+					float shine = abs(cos(globalTime * 0.25 + textureColor.x - textureColor.y + textureColor.z + vUv.t)) * (1.0 - vUv.t);
+
+					if (vUv.s < 0.02 || vUv.s > 0.98)
+						shine = (1.0 - vUv.t) * 4.0;
+
+					if (vUv.t < 0.3)
+						shine *= vUv.t * 3.33;
+
+
+					{
+						gl_FragColor = vec4(shine * 0.8, shine * 0.55, shine * 0.2, 1);
+					}
+				}
+
+			</script>
 		<script src="lib/three.js"></script>
 		<script src="lib/Lensflare.js"></script>
 		<script src="lib/GLTFLoader.js"></script>
+		<script src="lib/GPUParticleSystem.js"></script>
 		<script src="src/main2.js"></script>
 	</body>
 </html>

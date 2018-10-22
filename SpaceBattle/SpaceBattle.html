@@ -1,0 +1,164 @@
+<html>
+	<head>
+		<title>Space Battle</title>
+		<style>
+			body { margin: 0; }
+			canvas { width: 100%; height: 100% }
+
+			a{color: white;}
+			a:visited {color: white;}
+
+			.lowerRight
+			{
+				position: fixed;
+				right: 0px;
+				bottom: 0px;
+				background-color: rgba(0, 0, 0, 0.5);
+				border-top: 1px solid white;
+				border-left: 1px solid white;
+				color: white;
+				padding: 10px;
+				opacity: 0.6;
+			}
+
+			.lowerLeft
+			{
+				position: fixed;
+				left: 0px;
+				bottom: 0px;
+				background-color: rgba(0, 0, 0, 0.5);
+				border-top: 1px solid white;
+				border-right: 1px solid white;
+				color: white;
+				padding: 20px;
+				opacity: 0.6;
+			}
+
+			.dateShow {
+				font-size: 0.8em;
+				opacity: 0.8;
+			}
+
+			.speech-holder {
+				position: fixed;
+				left: 0px;
+				top: 0px;
+				padding: 20px;
+				text-align: center;
+				color: white;
+			}
+
+			.speech-bubble {
+				position: relative;
+				background: rgba(0, 0, 0, 0.5);
+				color: white;
+				border-radius: .4em;
+				padding: 20px;
+				border: 1px solid white;
+			}
+			.speech-bubble:after {
+				content: '';
+				position: absolute;
+				bottom: 0;
+				left: 50%;
+				width: 0;
+				height: 0;
+				border: 9px solid transparent;
+				border-top-color: #ffffff;
+				border-bottom: 0;
+				border-left: 0;
+				margin-left: -4.5px;
+				margin-bottom: -9px;
+			}
+
+			}
+
+		</style>
+	</head>
+	<body>
+
+		<div class="lowerRight">
+			Ship #1 by <a href="https://sketchfab.com/models/63ce372c1aa843e98bf1548109e055d8" target="_blank">Comrade1280</a><br/>
+			Ship #2 by <a href="https://sketchfab.com/models/705e1a79b48745938e67760c4e3eed65" target="_blank">toomanydemons</a><br/>
+			Ship #3 by <a href="https://sketchfab.com/models/4cccb0378e474f8a8d3c7079e2e56d63" target="_blank">rakshaan</a><br/>
+			(model shaders modified slightly)<br/>
+		</div>
+		<div class="lowerLeft">
+			Scene by <a href="http://bgibbonsweb.github.io/" target="_blank">Ben Gibbons</a>.  Use arrow keys to move.
+		</div>
+
+		<script type="x-shader/x-vertex" id="gridvert">
+
+
+			varying vec2 vUv;
+			varying vec3 vPos;
+
+			void main() {
+
+	            vUv = uv;
+
+				vec3 pos = position;
+				vPos = pos;
+
+				vec4 mvPosition = modelViewMatrix * vec4( pos, 1.0 );
+
+				gl_Position = projectionMatrix * mvPosition;
+			}
+
+		</script>
+
+		<script type="x-shader/x-fragment" id="gridfrag">
+				
+			varying vec2 vUv;
+			varying vec3 vPos;
+
+			uniform sampler2D texture;
+			uniform float globalTime;
+			uniform vec2 uvMult;
+
+			void main() {
+				vec4 textureColor = texture2D(texture, vec2(vUv.s * uvMult.x, vUv.t * uvMult.y));
+
+				float shine = abs(cos(globalTime * 0.5 + vPos.x * 0.01)) * textureColor.x;
+				if (shine < 0.5)
+				{
+					discard;
+				}
+				else
+					gl_FragColor = vec4(shine * 0.7, shine * 0.65, shine * 1.5, 1);
+			}
+
+		</script>
+
+		<script type="x-shader/x-fragment" id="backfrag">
+				
+			varying vec2 vUv;
+			varying vec3 vPos;
+
+			uniform sampler2D texture;
+			uniform float globalTime;
+			uniform vec2 uvMult;
+
+			void main() {
+				vec4 textureColor = texture2D(texture, vec2(vUv.s * uvMult.x, vUv.t * uvMult.y));
+
+				float shine = (0.55 + abs(cos(globalTime * 0.5 + vPos.x * 0.00001 + vPos.y * 0.0001 + vPos.z * 0.00001)) * 0.5) * textureColor.x;
+				if (vUv.y > 0.99 || vUv.y < 0.01)
+					shine += 1.0;
+
+				if (shine < 0.5)
+				{
+					discard;
+				}
+				else
+					gl_FragColor = vec4(shine * 0.7, shine * 0.65, shine * 1.5, 1);
+			}
+
+		</script>
+		<script src="lib/three.js"></script>
+		<script src="lib/Lensflare.js"></script>
+		<script src="lib/GLTFLoader.js"></script>
+		<script src="lib/GPUParticleSystem.js"></script>
+		<script src="src/main2.js"></script>
+	</body>
+</html>

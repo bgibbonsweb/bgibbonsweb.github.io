@@ -1,0 +1,279 @@
+<html>
+	<head>
+		<title>Golden Field</title>
+		<style>
+			body { margin: 0; }
+			canvas { width: 100%; height: 100% }
+			.lowerRight
+			{
+				position: fixed;
+				right: 0px;
+				bottom: 0px;
+				background-color: rgba(0, 0, 0, 0.5);
+				color: white;
+				padding: 20px;
+			}
+
+			.lowerLeft
+			{
+				position: fixed;
+				left: 0px;
+				bottom: 0px;
+				background-color: rgba(0, 0, 0, 0.5);
+				color: white;
+				padding: 20px;
+			}
+			a{color: white;}
+			a:visited {color: white;}
+		</style>
+
+
+				<script type="x-shader/x-vertex" id="treevertexshader">
+
+
+					varying vec2 vUv;
+					varying vec3 vPos;
+					varying float vShine;
+					uniform float globalTime;
+
+					void main() {
+
+		                vUv = uv;
+
+						vec3 pos = position;
+						vPos = pos;
+						pos.x += sin(globalTime*0.75 + (pos.x + pos.y) * 0.4)*pos.y*0.03; 
+						pos.z += cos(globalTime*0.5 + (pos.x * 0.5 + pos.y) * 0.4)*pos.y*0.03; 
+
+						vec4 mvPosition = modelViewMatrix * vec4( pos, 1.0 );
+						vShine = 0.8 + pos.z * 0.02 + cos(globalTime + (pos.x + pos.y) * 0.2) * 0.4;
+
+						gl_Position = projectionMatrix * mvPosition;
+					}
+
+				</script>
+
+				<script type="x-shader/x-fragment" id="treefragmentshader">
+						
+					varying vec2 vUv;
+					varying vec3 vPos;
+					varying float vShine;
+
+					uniform sampler2D texture;
+					uniform vec3 globalColor;
+
+					void main() {
+
+						vec4 textureColor = texture2D(texture, vec2(vUv.s, vUv.t));
+
+						if (textureColor[3] < 0.1)
+							discard;
+						else
+						{						
+							gl_FragColor = vec4(textureColor.xyz * vShine * globalColor * vec3(1.1, 1.2, 0.9) + vec3(0.15, 0.15, 0.1), 1);
+						}
+					}
+
+				</script>
+
+		<script type="x-shader/x-vertex" id="flyvertexshader">
+
+			varying vec2 vUv;
+			varying vec3 vPos;
+			uniform float globalTime;
+
+			void main() {
+
+                vUv = uv;
+
+				vec3 pos = position;
+				vPos = pos;
+
+				vec4 mvPosition2 = modelViewMatrix * vec4( 0.0, 0.0, 0.0, 1.0 );
+
+				pos.z += cos(globalTime * (15.0 + mvPosition2.x * 0.0005)) * (abs(vUv.x - 0.5) + 0.1) * 5.0;
+				vec4 mvPosition = modelViewMatrix * vec4( pos, 1.0 );
+
+				gl_Position = projectionMatrix * mvPosition;
+			}
+
+		</script>
+
+		<script type="x-shader/x-fragment" id="flyfragmentshader">
+				
+			varying vec2 vUv;
+			varying vec3 vPos;
+			uniform sampler2D texture;
+
+			void main() {
+
+				vec4 textureColor = texture2D(texture, vec2(vUv.s, vUv.t));
+				if (textureColor[3] < 0.5)
+					discard;
+				else
+				{
+					gl_FragColor = vec4(textureColor.xyz, 1.0);
+				}
+			}
+
+		</script>
+
+		<script type="x-shader/x-vertex" id="hillvertexshader">
+
+
+			varying vec2 vUv;
+			varying vec3 vPos;
+
+			void main() {
+
+                vUv = uv;
+
+				vec3 pos = position;
+				vPos = pos;
+				vec4 mvPosition = modelViewMatrix * vec4( pos, 1.0 );
+
+				gl_Position = projectionMatrix * mvPosition;
+			}
+
+		</script>
+
+		<script type="x-shader/x-fragment" id="hillfragmentshader">
+				
+			varying vec2 vUv;
+			varying vec3 vPos;
+			uniform sampler2D texture;
+			uniform float globalTime;
+			uniform vec3 globalColor;
+
+			void main() {
+
+				vec4 textureColor = texture2D(texture, vec2(vUv.s * 3.0, vUv.t * 3.0));
+				
+				float shine = 0.7 + vPos.y * 0.00065 + cos(globalTime * 0.5 + (vPos.x + vPos.y) * 0.002 + textureColor.x * 3.0) * 0.4;
+				gl_FragColor = vec4(textureColor.xyz * shine * globalColor, 1.0);
+			}
+
+		</script>
+
+		<script type="x-shader/x-vertex" id="grassvertexshader2">
+
+			uniform float globalTime;
+
+			varying vec2 vUv;
+			varying float vShine;
+
+			void main() {
+
+                vUv = uv;
+
+				vec3 pos = position;
+				vShine = 1.0 + cos(globalTime + (pos.x + pos.y) * 0.002) * 0.4;
+				pos.x += sin(globalTime*0.75 + (pos.x + pos.y) * 0.04)*pos.y*0.17; 
+				pos.z += cos(globalTime*0.5 + (pos.x * 0.5 + pos.y) * 0.04)*pos.y*0.17; 
+
+				vec4 mvPosition = modelViewMatrix * vec4( pos, 1.0 );
+
+				gl_Position = projectionMatrix * mvPosition;
+			}
+
+		</script>
+		<script type="x-shader/x-vertex" id="grassvertexshader">
+
+			uniform float globalTime;
+
+			varying vec2 vUv;
+			varying float vShine;
+
+			void main() {
+
+                vUv = uv;
+
+				vec3 pos = position; 
+				pos.x += sin(globalTime*0.75 + (pos.x + pos.y) * 0.04)*pos.y*0.17; 
+				pos.z += cos(globalTime*0.5 + (pos.x * 0.5 + pos.y) * 0.04)*pos.y*0.17; 
+
+				vShine = 0.9 + pos.y * 0.02 + cos(globalTime + (pos.x + pos.y) * 0.01) * 0.7;
+
+				vec4 mvPosition = modelViewMatrix * vec4( pos, 1.0 );
+
+				gl_Position = projectionMatrix * mvPosition;
+			}
+
+		</script>
+
+		<script type="x-shader/x-fragment" id="grassfragmentshader">
+				
+			varying vec2 vUv;
+			varying float vShine;
+			uniform sampler2D texture;
+			uniform vec3 globalColor;
+
+			void main() {
+
+				vec4 textureColor = texture2D(texture, vec2(vUv.s, vUv.t));
+				if (textureColor[3] < 0.5)
+					discard;
+				else
+					gl_FragColor = vec4((textureColor.xyz + vec3(0.5, 0.5, 0.4)) * 0.5 * vShine * vec3(1.2, 0.85, 0.8) * globalColor, 1.0);
+			}
+
+		</script>
+
+		<script type="x-shader/x-vertex" id="bushvertexshader">
+
+			uniform float globalTime;
+
+			varying vec2 vUv;
+			varying float vShine;
+
+			void main() {
+
+	            vUv = uv;
+
+				vec3 pos = position; 
+				pos.x += sin(globalTime*0.5 + (pos.x + pos.y + normal.x) * 0.5)*pos.y*0.07; 
+				pos.y += sin(globalTime*0.5 + (pos.x + pos.y + normal.y) * 0.5)*pos.y*0.07; 
+				pos.z += cos(globalTime*0.5 + (pos.x + pos.y + normal.x + normal.y) * 0.5)*pos.y*0.07; 
+
+				vShine = 0.3 + pos.y * 0.02 + cos(globalTime + (pos.x + pos.y) * 0.01) * 0.3;
+
+				vec4 mvPosition = modelViewMatrix * vec4( pos, 1.0 );
+
+				gl_Position = projectionMatrix * mvPosition;
+			}
+
+		</script>
+
+		<script type="x-shader/x-fragment" id="bushfragmentshader">
+				
+			varying vec2 vUv;
+			varying float vShine;
+			uniform sampler2D texture;
+			uniform vec3 globalColor;
+
+			void main() {
+
+				vec4 textureColor = texture2D(texture, vec2(vUv.s, vUv.t));
+				if (textureColor[3] < 0.9)
+					discard;
+				else
+					gl_FragColor = vec4((textureColor.xyz + vec3(0.25, 0.45, 0.2)) * 0.9 * vShine * vec3(1.2, 0.85, 0.8) * globalColor, 1.0);
+			}
+
+		</script>
+	</head>
+	<body>
+		<script src="lib/three.js"></script>
+		<script src="lib/Lensflare.js"></script>
+		<script src="lib/GLTFLoader.js"></script>
+		<script src="lib/GPUParticleSystem.js"></script>
+
+		<script src="src/main.js"></script>
+		<div class="lowerRight">
+			Tree model by <a href="https://sketchfab.com/models/ed9401a0cae24967a620f90348b1b7be" target="_blank">Atrahasis</a>
+		</div>
+		<div class="lowerLeft">
+			Scene by <a href="http://bgibbonsweb.github.io/" target="_blank">Ben Gibbons</a>.  Use arrow keys to move.
+		</div>
+	</body>
+</html>

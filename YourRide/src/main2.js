@@ -2,6 +2,8 @@
 var lastTime = new Date().getTime();
 var currentlyPressedKeys = { };
 
+var firstTime = lastTime;
+
 //Create a WebGLRenderer and turn on shadows in the renderer
 var renderer = new THREE.WebGLRenderer();
 renderer.shadowMap.enabled = true;
@@ -49,12 +51,15 @@ var spark = loader.load( "tex/spark.jpg" );
 var beamTex = loader.load( "tex/beam.jpg" );
 var roadGlow = loader.load( "tex/roadGlow.jpg" );
 
+cloudParticleSystem = new THREE.GPUParticleSystem( {
+	maxParticles: 250000,
+	particleSpriteTex: loader.load("tex/part1.png")
+} );
+scene.add( cloudParticleSystem );
+
 roadGlow.wrapS = THREE.RepeatWrapping;
 roadGlow.wrapT = THREE.RepeatWrapping;
 roadGlow.repeat.set( 1, 20 );
-
-var faceTex = loader.load( "tex/face.jpg" );
-var faceTex2 = loader.load( "tex/face2.jpg" );
 
 var brand1 = loader.load( "tex/brand1.jpg" );
 var brand2 = loader.load( "tex/brand2.jpg" );
@@ -66,7 +71,6 @@ roadTex.repeat.set( 20, 1 );
 
 var allUniforms = [];
 uniforms = {
-	texture:    { type: "t", value: faceTex },
 	globalTime:	{ type: "f", value: 0.0 },
 };
 allUniforms.push(uniforms);
@@ -74,7 +78,15 @@ allUniforms.push(uniforms);
 var tex = "panorama.jpg"
 var urls = [ "tex/" + tex, "tex/" + tex, "tex/" + tex, "tex/" + tex, "tex/" + tex, "tex/" + tex ];
 var textureCube = THREE.ImageUtils.loadTextureCube( urls );
-// scene.background = textureCube;
+
+
+{
+	var tex = "citybox.jpg"
+	var tex2 = "cityboxy.jpg"
+	var urls = [ "tex/" + tex, "tex/" + tex, "tex/" + tex2, "tex/" + tex2, "tex/" + tex, "tex/" + tex ];
+	var textureCube2 = THREE.ImageUtils.loadTextureCube( urls );
+	//scene.background = textureCube2;
+}
 
 
 function waterMaterial()
@@ -275,6 +287,7 @@ function makeStreetLight(x, h, z, geometry)
 		side: 			THREE.DoubleSide,
 	});
 
+	mat.depthWrite = false;
 	mat.blending = THREE.AdditiveBlending;
 	mat.transparent = true;
 
@@ -287,7 +300,7 @@ function makeStreetLight(x, h, z, geometry)
 
 	for (var x = -1000; x < 1000; x += 100)
 	{
-	 	planeMesh.position.set(x, 20, 0);
+	 	planeMesh.position.set(x, 30, 0);
 	 	THREE.GeometryUtils.merge(geometry, planeMesh);
 	}
 
@@ -300,17 +313,29 @@ function makeStreetLight(x, h, z, geometry)
 makeGlows(new THREE.Color(0.6, 0.3, 0.1), 500);
 function makeGlows(color, rScale)
 {
-	var mat = new THREE.MeshBasicMaterial( {
-		map: beamTex,
+
+	var boxes = loader.load( "tex/boxes.jpg" );
+boxes.wrapS = THREE.RepeatWrapping;
+boxes.wrapT = THREE.RepeatWrapping;
+	var newUniforms = {
+		texture:    { type: "t", value: boxes },
+		globalTime:	{ type: "f", value: 1000 * Math.random() },
+	};
+	allUniforms.push(newUniforms);
+
+	var mat = new THREE.ShaderMaterial( {
+		uniforms: 		newUniforms,
+		vertexShader:   document.getElementById( 'glowvert' ).textContent,
+		fragmentShader: document.getElementById( 'glowfrag' ).textContent,
 		wireframe: 		false,
 		side: 			THREE.DoubleSide,
-		color:  color,
 	});
 
+	mat.depthWrite = false;
 	mat.blending = THREE.AdditiveBlending;
 	mat.transparent = true;
 
-	var plane = new THREE.PlaneGeometry(50, 600, 1, 1);
+	var plane = new THREE.PlaneGeometry(50, 300, 1, 1);
 	var planeMesh = new THREE.Mesh(plane);
 	
 	var geometry = new THREE.Geometry();
@@ -324,8 +349,11 @@ function makeGlows(color, rScale)
 			var r = rScale + Math.random() * 200;
 			var x = Math.cos(rot + rotOff) * r;
 			var z = Math.sin(rot + rotOff) * r;
-		 	planeMesh.position.set(x , 0, z);
-		 	planeMesh.rotation.y = Math.round((-rot + Math.PI * 0.5) / (Math.PI * 0.5)) * Math.PI * 0.5;
+		 	planeMesh.position.set(x , 150, z);
+		 	planeMesh.rotation.y = 0;
+		 	THREE.GeometryUtils.merge(geometry, planeMesh);
+
+		 	planeMesh.rotation.y = Math.PI / 2;
 		 	THREE.GeometryUtils.merge(geometry, planeMesh);
 		}
 	}
@@ -654,6 +682,20 @@ var camRot = targetCamRot;
 
 var masterCar = null;
 
+options = {
+	position: new THREE.Vector3(),
+	positionRandomness: 0,
+	velocity: new THREE.Vector3(),
+	velocityRandomness: 0.0001,
+	color: 0xf4c741,
+	colorRandomness: 0.02,
+	turbulence: .0,
+	lifetime: 300,
+	size: 35,
+	sizeRandomness: 0,
+};
+
+
 function animate() {
 	requestAnimationFrame( animate );
 
@@ -765,11 +807,17 @@ function animate() {
 			car.glow.rotation.x = Math.PI / 2;
 			scene.add(car.glow);
 		}
+
+		options.position.x = car.x;
+		options.position.y = car.y;
+		options.position.z = car.z;
+		cloudParticleSystem.spawnParticle( options );
 		car.glow.position.set(car.x, 5, car.z);
 
 		car.body.position.set(car.x, car.y, car.z);
 	}
 
+	cloudParticleSystem.update( timeNow - firstTime );
 	renderer.render( scene, camera );
 	lastTime = timeNow;
 };
