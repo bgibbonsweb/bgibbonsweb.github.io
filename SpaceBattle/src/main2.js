@@ -46,7 +46,7 @@ scene.add( shieldParticleSystem );
 
 {
 	//Create a PointLight and turn on shadows for the light
-	var light = new THREE.PointLight( 0x799cfc, 0.6, 30000 );
+	var light = new THREE.PointLight( 0x799cfc, 3, 30000 );
 	light.shadow.camera.far = 2000;
 	light.position.set( 0, -6000, 0 );
 	// light.castShadow = true;
@@ -54,6 +54,7 @@ scene.add( shieldParticleSystem );
 	scene.add( light );
 }
 
+	scene.add( new THREE.AmbientLight(0x222222) );
 
 var grid2Tex = loader.load( "tex/grid2.jpg" );
 
@@ -104,13 +105,6 @@ mat.blending = THREE.AdditiveBlending;
 	var body = new THREE.Mesh( geometry, mat );
 	body.rotation.x = -Math.PI / 2;
 	body.position.y = -1200;
-	scene.add(body);
-}
-if (false)
-{
-	var body = new THREE.Mesh( geometry, mat );
-	body.rotation.x = Math.PI / 2;
-	body.position.y = -1400;
 	scene.add(body);
 }
 {
@@ -772,6 +766,7 @@ Ship.prototype.update = function(dTime) {
 
 var modelLoader = new THREE.GLTFLoader();
 
+var shipReflective = 0.5;
 modelLoader.load(
 
 	'models/star_viper_free/scene.gltf',
@@ -785,7 +780,9 @@ modelLoader.load(
 				child.material =  new THREE.MeshPhongMaterial( {
 
 					envMap: 		textureCube,
-					reflectivity:   0.3,
+					emissive: 		0xffffff,
+					emissiveMap: 	child.material.emissiveMap,
+					reflectivity:   shipReflective,
 					specular:  		0xffffff,
 
 					normalMap: 		child.material.normalMap,
@@ -843,11 +840,17 @@ modelLoader.load(
 		gltf.scene.traverse( function ( child ) {
 			if ( child.isMesh ) {
 
-				console.log();
-				child.material =  new THREE.MeshPhongMaterial( {
+				console.log(child.material);
+				child.material =  new THREE.MeshStandardMaterial( {
 
 					envMap: 		textureCube,
-					reflectivity:   0.3,
+
+					emissive: 		0xffffff,
+					emissiveMap: 	child.material.emissiveMap,
+
+					metalnessMap: 	child.material.metalnessMap,
+					roughnessMap: 	child.material.roughnessMap,
+
 					specular:  		0xc6ffd4,
 
 					normalMap: 		child.material.normalMap,
@@ -855,6 +858,8 @@ modelLoader.load(
 					color: 			0xc6ffd4,
 					wireframe: 		false,
 				});
+
+
 				// child.rotation.y = Math.PI / 2;
 
 			}
@@ -909,13 +914,16 @@ modelLoader.load(
 		gltf.scene.traverse( function ( child ) {
 			if ( child.isMesh ) {
 
-				console.log();
-				child.material =  new THREE.MeshPhongMaterial( {
+				child.material =  new THREE.MeshStandardMaterial( {
 
 					envMap: 		textureCube,
-					reflectivity:   0.3,
+					reflectivity:   shipReflective,
 					specular:  		0xffe2aa,
 
+					metalnessMap: 	child.material.metalnessMap,
+					roughnessMap: 	child.material.roughnessMap,
+
+					map: 			child.material.map,
 					normalMap: 		child.material.normalMap,
 					aoMap: 			child.material.aoMap,
 					color: 			0xffe2aa,
