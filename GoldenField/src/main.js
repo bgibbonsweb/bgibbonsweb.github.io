@@ -28,6 +28,8 @@ function doTouch(event) {
 		mouseX[i] = event.touches[i].clientX;
 		mouseY[i] = event.touches[i].clientY;
 	}
+
+    event.preventDefault();
 }
 
 mouseElement.onmousedown = function(event) { 
@@ -67,12 +69,14 @@ mouseElement.ontouchstart = function(event) {
 			mouseYDown[i] = event.touches[i].clientY;
 		}
 	}
+    event.preventDefault();
 }
 
 mouseElement.onwheel = function(event)
 {
 	wheelXEvent += event.deltaX;
 	wheelYEvent += event.deltaY;
+    event.preventDefault();
 }
 
 mouseElement.ontouchmove = doTouch;
@@ -80,7 +84,11 @@ mouseElement.ontouchend = doTouch;
 mouseElement.ontouchcancel = doTouch;
 
 
-var camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 1, 45000 );
+var fov = 28 * (1 + window.innerHeight / window.innerWidth);
+if (fov < 45)
+	fov = 45;
+console.log("fov: " + fov);
+var camera = new THREE.PerspectiveCamera( fov, window.innerWidth / window.innerHeight, 1, 45000 );
 camera.position.set( 200, 200, 200 );
 camera.lookAt( 0, 0, 0 );
 camera.far = 100000;

@@ -156,6 +156,7 @@ THREE.Lensflare = function () {
 	var validAreaBuffered = new THREE.Box2();
 	var viewport = new THREE.Vector4();
 	var alpha = 1;
+	var doneFirstPass = false;
 
 	this.onBeforeRender = function ( renderer, scene, camera ) {
 
@@ -190,13 +191,19 @@ THREE.Lensflare = function () {
 
 		// screen cull
 
-		if ( validAreaBuffered.containsPoint( screenPositionPixels ) ) {
+		if ( validAreaBuffered.containsPoint( screenPositionPixels ) || !doneFirstPass) {
 
 			// save current RGB to temp texture
 
 			var alpha = 1.0;
-			if (validArea.containsPoint( screenPositionPixels ) )
+			if (validArea.containsPoint( screenPositionPixels ) || !doneFirstPass )
 			{
+				if (screenPositionPixels.x < validArea.min.x)
+					screenPositionPixels.x = validArea.min.x + 1;
+				if (screenPositionPixels.x > validArea.max.x)
+					screenPositionPixels.x = validArea.max.x - 1;
+
+				doneFirstPass = true;
 				renderer.copyFramebufferToTexture( screenPositionPixels, tempMap );
 
 				// render pink quad

@@ -31,6 +31,8 @@ function doTouch(event) {
 		mouseX[i] = event.touches[i].clientX;
 		mouseY[i] = event.touches[i].clientY;
 	}
+
+    event.preventDefault();
 }
 
 mouseElement.onmousedown = function(event) { 
@@ -70,12 +72,16 @@ mouseElement.ontouchstart = function(event) {
 			mouseYDown[i] = event.touches[i].clientY;
 		}
 	}
+
+    event.preventDefault();
 }
 
 mouseElement.onwheel = function(event)
 {
 	wheelXEvent += event.deltaX;
 	wheelYEvent += event.deltaY;
+	
+    event.preventDefault();
 }
 
 mouseElement.ontouchmove = doTouch;

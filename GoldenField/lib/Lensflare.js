@@ -156,6 +156,7 @@ THREE.Lensflare = function () {
 	var validAreaBuffered = new THREE.Box2();
 	var viewport = new THREE.Vector4();
 	var alpha = 1;
+	var doneFirstPass = 0;
 
 	this.onBeforeRender = function ( renderer, scene, camera ) {
 
@@ -181,6 +182,15 @@ THREE.Lensflare = function () {
 
 		positionScreen.applyMatrix4( camera.matrixWorldInverse );
 		positionScreen.applyMatrix4( camera.projectionMatrix );
+
+		if (doneFirstPass < 10)
+		{
+			if (positionScreen.x > 0.5)
+				positionScreen.x = 0.5;
+			if (positionScreen.x < -0.5)
+				positionScreen.x = -0.5;
+		}
+		doneFirstPass++;
 
 		if (positionScreen.z < 1)
 		{

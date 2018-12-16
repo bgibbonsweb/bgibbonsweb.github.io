@@ -31,6 +31,8 @@ function doTouch(event) {
 		mouseX[i] = event.touches[i].clientX;
 		mouseY[i] = event.touches[i].clientY;
 	}
+
+    event.preventDefault();
 }
 
 mouseElement.onmousedown = function(event) { 
@@ -70,12 +72,16 @@ mouseElement.ontouchstart = function(event) {
 			mouseYDown[i] = event.touches[i].clientY;
 		}
 	}
+
+    event.preventDefault();
 }
 
 mouseElement.onwheel = function(event)
 {
 	wheelXEvent += event.deltaX;
 	wheelYEvent += event.deltaY;
+
+    event.preventDefault();
 }
 
 mouseElement.ontouchmove = doTouch;
@@ -335,7 +341,7 @@ function animate() {
 	{
 		targetCamHeight -= 0.3 * deltaTime;
 	}
-	targetCamHeight += mouseDy * 0.025;
+	targetCamHeight += mouseDy * 0.25;
 
 	targetCamRot += mouseDx * 0.002;
 	if (currentlyPressedKeys[68] || currentlyPressedKeys[39])
