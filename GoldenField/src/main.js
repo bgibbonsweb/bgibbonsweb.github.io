@@ -1,3 +1,15 @@
+var mouseDown = 0;
+var mouseX = [0, 0, 0, 0];
+var mouseY = [0, 0, 0, 0];
+var mouseXDown = [0, 0, 0, 0];
+var mouseYDown = [0, 0, 0, 0];
+var wheelXEvent = 0;
+var wheelYEvent = 0;
+var wheelXEventPrev = 0;
+var wheelYEventPrev = 0;
+var wheelX = 0;
+var wheelY = 0;
+
 var renderer = new THREE.WebGLRenderer();
 var lastTime = new Date().getTime();
 var firstTime = lastTime;
@@ -6,6 +18,67 @@ var day = 0;
 
 renderer.setSize( window.innerWidth, window.innerHeight );
 document.body.appendChild( renderer.domElement );
+
+mouseElement = renderer.domElement;
+
+function doTouch(event) {
+	mouseDown = event.touches.length;
+	for (var i = 0; i < mouseDown && i < mouseX.length; i++)
+	{
+		mouseX[i] = event.touches[i].clientX;
+		mouseY[i] = event.touches[i].clientY;
+	}
+}
+
+mouseElement.onmousedown = function(event) { 
+	if (document.activeElement == document.body)
+	{
+		if (mouseDown < 4)
+		{
+			mouseX[mouseDown] = event.clientX;
+			mouseY[mouseDown] = event.clientY;
+
+			mouseXDown[mouseDown] = event.clientX;
+			mouseYDown[mouseDown] = event.clientY;
+		}
+		mouseDown++;
+	}
+}
+
+mouseElement.onmousemove = function(event) { 
+	mouseX[mouseDown - 1] = event.clientX;
+	mouseY[mouseDown - 1] = event.clientY;
+}
+
+mouseElement.onmouseup = function(event) {
+  mouseDown = 0;
+}
+
+mouseElement.ontouchstart = function(event) {
+	mouseDown = event.touches.length;
+	for (var i = 0; i < mouseDown && i < mouseX.length; i++)
+	{
+		mouseX[i] = event.touches[i].clientX;
+		mouseY[i] = event.touches[i].clientY;
+
+		if (i == mouseDown - 1)
+		{
+			mouseXDown[i] = event.touches[i].clientX;
+			mouseYDown[i] = event.touches[i].clientY;
+		}
+	}
+}
+
+mouseElement.onwheel = function(event)
+{
+	wheelXEvent += event.deltaX;
+	wheelYEvent += event.deltaY;
+}
+
+mouseElement.ontouchmove = doTouch;
+mouseElement.ontouchend = doTouch;
+mouseElement.ontouchcancel = doTouch;
+
 
 var camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 1, 45000 );
 camera.position.set( 200, 200, 200 );
@@ -463,6 +536,20 @@ var camRot = targetCamRot;
 var day = 0.0;
 var dayUp = true;
 function animate() {
+
+	wheelX = wheelXEvent - wheelXEventPrev;
+	wheelXEventPrev = wheelXEvent;
+	wheelY = wheelYEvent - wheelYEventPrev;
+	wheelYEventPrev = wheelYEvent;
+
+	var mouseDx = mouseXDown[0] - mouseX[0];
+	mouseXDown[0] = mouseX[0];
+	var mouseDy = mouseYDown[0] - mouseY[0];
+	mouseYDown[0] = mouseY[0];
+
+	mouseDx += wheelX * 0.25;
+	mouseDy += wheelY * 0.25;
+
 	requestAnimationFrame( animate );
 
 	var night = 1 - day;
@@ -583,19 +670,23 @@ function animate() {
 		renderer.setClearColor( new THREE.Color( red, green, blue ), 1 );
 	}
 
+
+	targetCamHeight += mouseDy * 0.25;
 	if (currentlyPressedKeys[87] || currentlyPressedKeys[38])
 	{
 		targetCamHeight += 0.1 * deltaTime;
-		if (targetCamHeight > 160)
-			targetCamHeight = 160;
 	}
+	if (targetCamHeight > 160)
+		targetCamHeight = 160;
+
 	if (currentlyPressedKeys[83] || currentlyPressedKeys[40])
 	{
 		targetCamHeight -= 0.1 * deltaTime;
-		if (targetCamHeight < 30)
-			targetCamHeight = 30;
 	}
+	if (targetCamHeight < 30)
+		targetCamHeight = 30;
 
+	targetCamRot += mouseDx * 0.002;
 	if (currentlyPressedKeys[68] || currentlyPressedKeys[39])
 	{
 		targetCamRot -= 0.0005 * deltaTime;

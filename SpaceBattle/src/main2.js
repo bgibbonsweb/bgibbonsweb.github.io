@@ -1,3 +1,15 @@
+var mouseDown = 0;
+var mouseX = [0, 0, 0, 0];
+var mouseY = [0, 0, 0, 0];
+var mouseXDown = [0, 0, 0, 0];
+var mouseYDown = [0, 0, 0, 0];
+var wheelXEvent = 0;
+var wheelYEvent = 0;
+var wheelXEventPrev = 0;
+var wheelYEventPrev = 0;
+var wheelX = 0;
+var wheelY = 0;
+
 var testMode = false;
 var lastTime = new Date().getTime();
 var firstTime = lastTime;
@@ -10,6 +22,67 @@ renderer.shadowMap.type = THREE.PCFSoftShadowMap; // default THREE.PCFShadowMap
 renderer.setSize( window.innerWidth, window.innerHeight );
 renderer.setClearColor( new THREE.Color(0.1, 0.06, 0.12), 1 );
 document.body.appendChild( renderer.domElement );
+mouseElement = renderer.domElement;
+
+function doTouch(event) {
+	mouseDown = event.touches.length;
+	for (var i = 0; i < mouseDown && i < mouseX.length; i++)
+	{
+		mouseX[i] = event.touches[i].clientX;
+		mouseY[i] = event.touches[i].clientY;
+	}
+}
+
+mouseElement.onmousedown = function(event) { 
+	if (document.activeElement == document.body)
+	{
+		if (mouseDown < 4)
+		{
+			mouseX[mouseDown] = event.clientX;
+			mouseY[mouseDown] = event.clientY;
+
+			mouseXDown[mouseDown] = event.clientX;
+			mouseYDown[mouseDown] = event.clientY;
+		}
+		mouseDown++;
+	}
+}
+
+mouseElement.onmousemove = function(event) { 
+	mouseX[mouseDown - 1] = event.clientX;
+	mouseY[mouseDown - 1] = event.clientY;
+}
+
+mouseElement.onmouseup = function(event) {
+  mouseDown = 0;
+}
+
+mouseElement.ontouchstart = function(event) {
+	mouseDown = event.touches.length;
+	for (var i = 0; i < mouseDown && i < mouseX.length; i++)
+	{
+		mouseX[i] = event.touches[i].clientX;
+		mouseY[i] = event.touches[i].clientY;
+
+		if (i == mouseDown - 1)
+		{
+			mouseXDown[i] = event.touches[i].clientX;
+			mouseYDown[i] = event.touches[i].clientY;
+		}
+	}
+}
+
+mouseElement.onwheel = function(event)
+{
+	wheelXEvent += event.deltaX;
+	wheelYEvent += event.deltaY;
+}
+
+mouseElement.ontouchmove = doTouch;
+mouseElement.ontouchend = doTouch;
+mouseElement.ontouchcancel = doTouch;
+
+
 
 var camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 1, 450000 );
 camera.position.set( 200, 200, 200 );
@@ -207,7 +280,36 @@ var camX = 0;
 var camY = 0;
 var camZ = 0;
 
+options = {
+	position: new THREE.Vector3(),
+	positionRandomness: 0.5,
+	velocity: new THREE.Vector3(),
+	velocityRandomness: 0.1,
+	color: 0xffffff,
+	colorRandomness: 0.02,
+	turbulence: .0,
+	lifetime: 100,
+	size: 20,
+	sizeRandomness: 0,
+};
+
+
 function animate() {
+
+	wheelX = wheelXEvent - wheelXEventPrev;
+	wheelXEventPrev = wheelXEvent;
+	wheelY = wheelYEvent - wheelYEventPrev;
+	wheelYEventPrev = wheelYEvent;
+
+	var mouseDx = mouseXDown[0] - mouseX[0];
+	mouseXDown[0] = mouseX[0];
+	var mouseDy = mouseYDown[0] - mouseY[0];
+	mouseYDown[0] = mouseY[0];
+
+	mouseDx += wheelX * 0.25;
+	mouseDy += wheelY * 0.25;
+
+
 	requestAnimationFrame( animate );
 
 	var timeNow = new Date().getTime();
@@ -233,7 +335,9 @@ function animate() {
 	{
 		targetCamHeight -= 0.3 * deltaTime;
 	}
+	targetCamHeight += mouseDy * 0.025;
 
+	targetCamRot += mouseDx * 0.002;
 	if (currentlyPressedKeys[68] || currentlyPressedKeys[39])
 	{
 		targetCamRot -= 0.003 * deltaTime;
@@ -290,6 +394,7 @@ function animate() {
 			camY = 0;
 	}
 
+
 	renderer.render( scene, camera );
 	lastTime = timeNow;
 
@@ -330,20 +435,6 @@ function Missle (x, y, z, target, color) {
 	this.offsetY = (target.size - target.size * 2 * Math.random()) * 10;
 	this.offsetZ = (target.size - target.size * 2 * Math.random()) * 10;
 }
-
-options = {
-	position: new THREE.Vector3(),
-	positionRandomness: 0.5,
-	velocity: new THREE.Vector3(),
-	velocityRandomness: 0.1,
-	color: 0xffffff,
-	colorRandomness: 0.02,
-	turbulence: .0,
-	lifetime: 100,
-	size: 20,
-	sizeRandomness: 0,
-};
-
 
 Missle.prototype.update = function(dTime) {
 
