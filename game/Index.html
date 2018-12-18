@@ -1,0 +1,157 @@
+<html>
+	<head>
+		<title>Game</title>
+		<style>
+			html, body {margin: 0; height: 100%; overflow: hidden; background-color: black;}
+			canvas { width: 100%; height: 100% }
+
+			.TopLeft {
+
+				height: 3em;
+				position: fixed;
+				left: 0;
+				top: 0;
+				width: 100%;
+				background-color: gray;
+				display: none;
+			}
+
+			.Right {
+				position: fixed;
+				width: 200;
+				text-align: center;
+				height: 100%;
+				top: 0px;
+				right: 0px;
+				background-color: gray;
+				overflow: auto;
+				display: none;
+			}
+			.Left {
+				padding: 10px;
+				position: fixed;
+				width: 100;
+				text-align: left;
+				height: 100%;
+				top: 3em;
+				left: 0px;
+				background-color: rgb(100, 100, 100);
+				overflow: auto;
+				display: none;
+
+				-webkit-touch-callout: none; /* iOS Safari */
+				-webkit-user-select: none; /* Safari */
+				-khtml-user-select: none; /* Konqueror HTML */
+				-moz-user-select: none; /* Firefox */
+				-ms-user-select: none; /* Internet Explorer/Edge */
+				user-select: none; /* Non-prefixed version, currently*/
+			}
+		</style>
+	</head>
+	<body>
+
+		<div class="TopLeft" id="Top">
+			<select id="selectObj">
+				
+			</select>
+
+			<select id="mode">
+			  <option value="grid">Grid</option>
+			  <option value="snap">Snap</option>
+			  <option value="free">Free</option>
+			</select>
+
+
+		  X:
+		  <input type="text" id="x" value="32"/>
+		  Y:
+		  <input type="text" id="y" value="32"/>
+		  Z Layer:
+		  <input type="text" id="z" value="0"/>
+
+		  <input type="checkbox" id="editorObjs" name="editorObjs" checked/> Show Editor Objects<br/>
+		  <input type="checkbox" id="move" name="move" checked/> Move Placed
+		</div>
+		<div class="Right" id="Right">
+			Hey!
+		</div>
+		<div class="Left" id="Left">
+			Left
+		</div>
+
+			<script type="x-shader/x-vertex" id="fogvert">
+
+
+				varying vec2 vUv;
+
+				void main() {
+
+		            vUv = uv;
+
+					gl_Position = vec4((uv - 0.5) * 2.0, 0.0, 1.0);
+				}
+
+			</script>
+
+			<script type="x-shader/x-fragment" id="fogfrag">
+					
+				varying vec2 vUv;
+
+				uniform sampler2D texture1;
+				uniform sampler2D texture2;
+				uniform vec2 offset;
+				uniform float globalTime;
+
+				void main() {
+					gl_FragColor = texture2D(texture1, vec2(vUv.s, vUv.t)) * 
+						texture2D(texture2, vec2(vUv.s * 0.5 + offset.x + globalTime * 0.0001, vUv.t * 0.5 + offset.y + globalTime * 0.00005));
+				}
+
+			</script>
+
+
+				<script type="x-shader/x-vertex" id="fog2vert">
+
+
+					varying vec2 vUv;
+
+					void main() {
+						vUv = uv;
+						gl_Position = projectionMatrix * modelViewMatrix * vec4( position, 1.0 );
+					}
+
+				</script>
+
+				<script type="x-shader/x-fragment" id="fog2frag">
+						
+					varying vec2 vUv;
+
+					uniform sampler2D texture1;
+					uniform sampler2D texture2;
+					uniform float globalTime;
+					uniform vec3 color;
+
+					void main() {
+						gl_FragColor = texture2D(texture1, vec2(vUv.s, vUv.t)) * 
+							texture2D(texture2, vec2(vUv.s * 0.5 + globalTime * 0.0001, vUv.t * 0.5 + globalTime * 0.00005)) * vec4(color, 1.0);
+					}
+
+				</script>
+
+		<script src="lib/three.js"></script>
+		<script src="lib/Lensflare.js"></script>
+		<script src="lib/GLTFLoader.js"></script>
+		<script src="lib/GPUParticleSystem.js"></script>
+		<script src="src/ScreenParticle.js"></script>
+		<script src="src/Glowy.js"></script>
+		<script src="src/image.js"></script>
+		<script src="src/cameraBound.js"></script>
+		<script src="src/fog.js"></script>
+		<script src="src/frontFog.js"></script>
+		<script src="src/block.js"></script>
+		<script src="src/player.js"></script>
+		<script src="src/levelEditor.js"></script>
+		<script src="src/spawnZone.js"></script>
+		<script src="src/main.js"></script>
+	</body>
+</html>
