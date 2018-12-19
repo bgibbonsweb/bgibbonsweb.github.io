@@ -41,7 +41,7 @@ function Player(x, y, z)
 	this.dashKey = 32;
 
 	this.dashSpeed = 0.5;
-	this.speed = 0.2;
+	this.speed = 0.15;
 	this.jumpSpeed = 0.5;
 	this.gravity = 0.0015;
 	this.xDrag = 0.010;

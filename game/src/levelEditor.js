@@ -528,7 +528,6 @@ LevelEditor.prototype.update = function(dTime)
 				this.editorGameObjects.push(newObj);
 			}
 
-			//this.myPlayer = new KidPlayer(this.x, this.y, 0);		
 			//addPlayerObject(this.myPlayer);
 			this.active = false;
 		
