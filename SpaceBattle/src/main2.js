@@ -98,6 +98,21 @@ camera.position.set( 200, 200, 200 );
 camera.lookAt( 0, 100, 0 );
 camera.far = 100000;
 
+window.addEventListener( 'resize', onWindowResize, false );
+
+function onWindowResize(){
+	console.log(camera);
+
+	var fov = 28 * (1 + window.innerHeight / window.innerWidth);
+	if (fov < 45)
+		fov = 45;
+
+	camera.fov = fov;
+    camera.aspect = window.innerWidth / window.innerHeight;
+    camera.updateProjectionMatrix();
+    renderer.setSize( window.innerWidth, window.innerHeight );
+}
+
 var allUniforms = [];
 
 var allShips = [];
