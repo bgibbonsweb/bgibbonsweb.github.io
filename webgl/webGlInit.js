@@ -46,12 +46,12 @@ function webGLStart() {
 	  --mouseDown;
 	}
 
-	document.body.ontouchstart = doTouch;
-	document.body.ontouchmove = doTouch;
-	document.body.ontouchend = doTouch;
-	document.body.ontouchcancel = doTouch;
-
 	canvas = document.getElementById("webGlCanvas");
+
+	canvas.addEventListener("touchstart", doTouch, true);
+	canvas.addEventListener("touchmove", doTouch, true);
+	canvas.addEventListener("touchend", doTouch, true);
+	canvas.addEventListener("touchcancel", doTouch, true);
 
 	canvas.width  = window.innerWidth;
 	canvas.height = window.innerHeight;
