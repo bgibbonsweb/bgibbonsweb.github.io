@@ -27,7 +27,8 @@ function doTouch(event) {
 		mouseX[i] = event.touches[i].clientX;
 		mouseY[i] = event.touches[i].clientY;
 	}
-	console.log(mouseDown);
+	
+    event.preventDefault();
 }
 
 function webGLStart() {
