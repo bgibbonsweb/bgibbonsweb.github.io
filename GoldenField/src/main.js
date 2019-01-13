@@ -735,6 +735,9 @@ function animate() {
 
 	renderer.render( scene, camera );
 	lastTime = timeNow;
+
+	if (window.innerWidth != renderer.getSize().width || window.innerWidth != renderer.getSize().width)
+		onWindowResize();
 };
 
 animate();
