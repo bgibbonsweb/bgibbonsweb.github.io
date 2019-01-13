@@ -425,6 +425,9 @@ function animate() {
 	cloudParticleSystem.update( timeNow - firstTime );
 	ringParticleSystem.update( timeNow - firstTime );
 	shieldParticleSystem.update( timeNow - firstTime );
+	
+	if (window.innerWidth != renderer.getSize().width || window.innerWidth != renderer.getSize().width)
+		onWindowResize();
 };
 
 animate();
