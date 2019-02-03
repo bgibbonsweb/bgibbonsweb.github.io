@@ -90,8 +90,8 @@ mouseElement.ontouchcancel = doTouch;
 
 
 var fov = 28 * (1 + window.innerHeight / window.innerWidth);
-if (fov < 45)
-	fov = 45;
+if (fov < 55)
+	fov = 55;
 
 var camera = new THREE.PerspectiveCamera( fov, window.innerWidth / window.innerHeight, 1, 450000 );
 camera.position.set( 200, 200, 200 );
@@ -104,8 +104,8 @@ function onWindowResize(){
 	console.log(camera);
 
 	var fov = 28 * (1 + window.innerHeight / window.innerWidth);
-	if (fov < 45)
-		fov = 45;
+	if (fov < 55)
+		fov = 55;
 
 	camera.fov = fov;
     camera.aspect = window.innerWidth / window.innerHeight;
@@ -143,7 +143,7 @@ scene.add( shieldParticleSystem );
 
 {
 	//Create a PointLight and turn on shadows for the light
-	var light = new THREE.PointLight( 0x799cfc, 3, 30000 );
+	var light = new THREE.PointLight( 0x799cfc, 3, 3000000 );
 	light.shadow.camera.far = 2000;
 	light.position.set( 0, -6000, 0 );
 	// light.castShadow = true;
@@ -317,6 +317,68 @@ options = {
 	sizeRandomness: 0,
 };
 
+function makeClouds()
+{
+	var w = 300;
+	var h = 300;
+	var planeGeometry = new THREE.PlaneGeometry(w, h, 1, 1);
+	var mesh = new THREE.Mesh(planeGeometry);
+	mesh.rotation.x = -Math.PI / 2;
+	var geometry = new THREE.Geometry();
+	
+	var start = -20000;
+	var end = 20000;
+	var step = 1500;
+
+	for (var x = start; x < end; x += step)
+	{
+		for (var z = start; z < end; z += step)
+		{
+			var y = 500000 * Math.random() + 50000;
+			mesh.position.set(x, y, z);
+			
+			mesh.position.x += Math.random() * step - step / 2;
+			mesh.position.z += Math.random() * step - step / 2;
+			
+			THREE.GeometryUtils.merge(geometry, mesh);
+		}
+	}
+
+
+	var step = 2500;
+	for (var x = start; x < end; x += step)
+	{
+		for (var z = start; z < end; z += step)
+		{
+			var y = 15000 * Math.random() - 7500;
+			mesh.position.set(x, y, z);
+			mesh.rotation.x = 0;
+			mesh.rotation.y = Math.random() * 3;
+			
+			mesh.position.x += Math.random() * step - step / 2;
+			mesh.position.z += Math.random() * step - step / 2;
+			
+			mesh.scale.x = 0.4;
+			mesh.scale.y = 0.4;
+
+			THREE.GeometryUtils.merge(geometry, mesh);
+		}
+	}
+
+	tex.wrapS = THREE.RepeatWrapping;
+	var maxAnisotropy = renderer.getMaxAnisotropy();
+	tex.anisotropy = maxAnisotropy;
+
+	var material = new THREE.MeshBasicMaterial({
+		map: loader.load("tex/part1.png"), wireframe: false, side: THREE.DoubleSide});
+	material.blending = THREE.AdditiveBlending;
+	material.transparent = true;
+	material.depthWrite = false;
+
+	var grass = new THREE.Mesh(geometry, material);
+	scene.add( grass );
+}
+makeClouds();
 
 function animate() {
 
@@ -398,7 +460,7 @@ function animate() {
 	for (var i = 0; i < objects.length; i++)
 	{
 		var obj = objects[i];
-		if (obj.team == 0 && obj.life > 0 && obj.warp <= 0)
+		if (obj.team == 0 && obj.life > 0 && obj.warp <= 0 && !obj.isTraveling)
 		{
 			x += obj.x;
 			y += obj.y;
@@ -426,7 +488,7 @@ function animate() {
 	ringParticleSystem.update( timeNow - firstTime );
 	shieldParticleSystem.update( timeNow - firstTime );
 	
-	if (window.innerWidth != renderer.getSize().width || window.innerWidth != renderer.getSize().width)
+	if (window.innerWidth != renderer.getSize().width || window.innerHeight != renderer.getSize().height)
 		onWindowResize();
 };
 
@@ -634,6 +696,10 @@ ShipBit.prototype.update = function(dTime) {
 function Ship (x, y, z, body, team, size, color, modelSize) {
     this.body = body;
 
+    this.travelRot = 0;
+    this.isTraveling = false;
+    this.travelOffset = Math.random() * 300;
+
     this.startX = x;
     this.startY = y;
     this.startZ = z;
@@ -720,7 +786,7 @@ Ship.prototype.damage = function(dmg, x, y)
 
 Ship.prototype.update = function(dTime) {
 
-	if (this.warp > 0)
+	if (this.warp > 0 && !this.isTraveling)
 	{
 		this.xSpeed = 0;
 		this.zSpeed = 0;
@@ -874,6 +940,46 @@ Ship.prototype.update = function(dTime) {
 
 		this.body.rotation.y = -this.rot + Math.PI;
 	}
+
+	if (this.isTraveling)
+	{
+		if (camera.position.y < 100)
+		{
+			this.isTraveling = false;
+		}
+		else
+		{
+			var rot = this.travelRot - Math.cos(this.y / 50000 + this.travelOffset /  200) * 0.1;
+			this.body.rotation.y = -rot + Math.cos(this.y / 30000 + this.travelOffset /  200) * 0.1;
+			this.body.rotation.x = Math.cos(this.y / 120000 + this.travelOffset /  200) * 0.1;
+			this.body.rotation.z = Math.PI / 2.0 + Math.cos(this.y / 50000 + this.travelOffset /  200) * 0.1;
+			this.warp = 0;
+			var travelDist = 60 + this.y * 0.001 + (200 - this.travelOffset) * 0.5;
+
+
+			if (camera.position.y > 2000)
+			{
+				this.x = camera.position.x + Math.cos(rot) * travelDist;
+				this.z = camera.position.z + Math.sin(rot) * travelDist;
+			}
+
+			this.y = camera.position.y - 50 - this.travelOffset + Math.cos(this.y / 50000 + this.travelOffset /  200) * 10;
+
+			options.position.x = this.x;
+			options.position.y = this.y;
+			options.position.z = this.z;
+			options.size = 100;
+			options.lifetime = 1000;
+			options.color = this.color;
+			options.velocityRandomness = 0.0;
+			options.colorRandomness = 0;
+			cloudParticleSystem.spawnParticle( options );
+
+			options.size = 30 * this.size;
+			ringParticleSystem.spawnParticle( options );
+		}
+	}
+
 	var shudderMult = this.shudder / 4;
 	this.x += (0.5 - Math.random()) * shudderMult;
 	this.y += (0.5 - Math.random()) * shudderMult;
@@ -927,6 +1033,11 @@ modelLoader.load(
 				dist += 600;
 
 			newShip = new Ship(Math.cos(rot) * dist, 200 - Math.random() * 400, Math.sin(rot) * dist, two, faction, size, color, 0.3);
+			if (i < 6)
+			{
+				newShip.isTraveling = true;
+				newShip.travelRot = i * Math.PI * 2.0 / 5.0;
+			}
 
 			objects.push(newShip);
 			allShips.push(newShip);

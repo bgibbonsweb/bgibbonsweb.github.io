@@ -82,19 +82,6 @@ THREE.GPUParticleSystem = function ( options ) {
 			'	vec3 noise = texture2D( tNoise, vec2( newPosition.x * 0.015 + ( uTime * 0.05 ), newPosition.y * 0.02 + ( uTime * 0.015 ) ) ).rgb;',
 			'	vec3 noiseVel = ( noise.rgb - 0.5 ) * 30.0;',
 
-			'	newPosition = mix( newPosition, newPosition + vec3( noiseVel * ( turbulence * 5.0 ) ), ( timeElapsed / lifeTime ) );',
-
-			'	if( v.y > 0. && v.y < .05 ) {',
-
-			'		lifeLeft = 0.0;',
-
-			'	}',
-
-			'	if( v.x < - 1.45 ) {',
-
-			'		lifeLeft = 0.0;',
-
-			'	}',
 
 			'	if( timeElapsed > 0.0 ) {',
 
