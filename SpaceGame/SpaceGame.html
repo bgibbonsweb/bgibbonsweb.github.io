@@ -1,0 +1,234 @@
+<html>
+	<head>
+		<title>Space Battle</title>
+		<style>
+			html, body {margin: 0; height: 100%; overflow: hidden;
+
+				font-family: "Arial Black", Gadget, sans-serif;
+			}
+			body { margin: 0; }
+			canvas { width: 100%; height: 100% }
+
+			.red {
+				display: none;
+				width: 100%;
+				background-color: rgba(255, 128, 128, 0.2);
+				position: fixed;
+				right: 0;
+				left: 0;
+				top: 20%;
+				bottom: 60%;
+				pointer-events:none;
+				text-align: center;
+				font-size: 40px;
+				padding-top: 20px;
+				border-top: 1px solid white;
+				border-bottom: 1px solid white;
+
+				animation-name: grow;
+				animation-duration: 1s;
+
+				color: white;
+			}
+
+
+			.diff {
+				background-color: rgba(0, 0, 0, 0.2);
+				display: block;
+				width: 100%;
+				position: fixed;
+				right: 0;
+				left: 0;
+				top: 5%;
+				bottom: 20%;
+				text-align: center;
+				font-size: 25px;
+				padding-top: 20px;
+
+				animation-name: grow;
+				animation-duration: 1s;
+
+				color: white;
+				cursor: pointer;
+			}
+
+			.diffBlock {
+				width: 300px;
+				padding-top: 1em;
+				padding-bottom: 1em;
+				text-align: center;
+
+				margin: auto;
+
+				-webkit-transition: background-color 0.2s; /* Safari */
+				transition: background-color 0.2s;
+			}
+
+			.diffBlock:hover {
+				background-color: rgba(255, 255, 255, 0.3);
+
+			}
+
+			.sub {
+				display: none;
+				position: fixed;
+				text-align: center;
+
+				width: 100%;
+				left: 0;
+				right: 0;
+				top: 50%;
+				color: white;
+
+				animation-name: grow;
+				animation-duration: 2s;
+			}
+
+			@keyframes grow {
+			  from { opacity: 0; }
+			  to { opacity: 1; }
+			}
+
+			.lives {
+
+				display: none;
+				position: fixed;
+				left: 5%;
+				bottom: 10%;
+				font-size: 2em;
+				color: rgba(255, 255, 255, 0.6);
+				background-color: rgba(255, 255, 255, 0.1);
+				border: 1px solid rgba(255, 255, 255, 0.1);
+				padding: 10px;
+			}
+
+			.health {
+
+				display: none;
+				position: fixed;
+				top: 6%;
+				right: 51%;
+
+				height: 40px;
+				width: 300px;
+
+				background-color: rgba(255, 255, 255, 0.1);
+				border: 1px solid rgba(255, 255, 255, 0.1);
+			}
+
+			.fuel {
+				display: none;
+				position: fixed;
+				top: 6%;
+				left: 51%;
+
+				height: 40px;
+				width: 300px;
+
+				background-color: rgba(255, 255, 255, 0.1);
+				border: 1px solid rgba(255, 255, 255, 0.1);
+			}
+
+			.healthInner {
+				width: 294px;
+				height: 34px;
+				margin-left: 3px;
+				margin-top: 3px;
+				background-color: rgba(255, 255, 255, 0.3);
+			}
+
+		</style>
+	</head>
+	<body>
+
+		<script type="x-shader/x-vertex" id="rockvert">
+
+			varying vec2 vUv;
+			varying vec3 vPos;
+
+			void main() {
+
+	            vUv = uv;
+
+	            vec3 pos = position;
+	            vPos = pos;
+
+	            vec4 mvPosition = modelViewMatrix * vec4( pos, 1.0 );
+	            gl_Position = projectionMatrix * mvPosition;
+			}
+
+		</script>
+
+		<script type="x-shader/x-fragment" id="rockfrag">
+				
+			varying vec2 vUv;
+			varying vec3 vPos;
+
+			uniform sampler2D texture;
+
+			void main() {
+				gl_FragColor = texture2D(texture, vec2(vUv.s, vUv.t)) * (1.4 - abs(vPos.x * 0.0075));
+			}
+
+		</script>
+
+		<div class="diff" id="diff">
+
+			<div class="diffBlock" onclick="selectDiff(1)">
+				Easy
+			</div>
+			
+			<div class="diffBlock" onclick="selectDiff(2)">
+				Medium
+			</div>
+
+			<div class="diffBlock" onclick="selectDiff(3)">
+				Hard
+			</div>
+
+			<div class="diffBlock" onclick="selectDiff(4)">
+				Extreme
+			</div>
+
+			<div class="diffBlock" onclick="selectDiff(5)">
+				Nightmare
+			</div>
+		</div>
+
+		<div class="red" id="red">
+			Game Over
+		</div>
+
+		<div class="sub" id="sub">
+			Click to restart
+		</div>
+
+		<div class="lives" id="lives">
+			3
+		</div>
+
+		<div class="health" id="health">
+			<div class="healthInner">
+			</div>
+		</div>
+
+		<div class="fuel" id="fuel">
+			<div class="healthInner">
+			</div>
+		</div>
+
+		<script src="lib/three.js"></script>
+		<script src="lib/Lensflare.js"></script>
+		<script src="lib/GLTFLoader.js"></script>
+		<script src="lib/GPUParticleSystem.js"></script>
+
+		<script src="src/enemySpawner.js"></script>
+		<script src="src/enemy.js"></script>
+		<script src="src/powerup.js"></script>
+		<script src="src/bullet.js"></script>
+		<script src="src/player.js"></script>
+		<script src="src/level.js"></script>
+		<script src="src/levels/level1.js"></script>
+		<script src="src/spaceMain.js"></script>
+	</body>
+</html>
