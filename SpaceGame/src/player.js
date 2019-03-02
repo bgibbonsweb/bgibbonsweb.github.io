@@ -1,3 +1,6 @@
+camLookX = 0;
+camLookY = 0;
+camLookZ = 0;
 
 function Player() {
 
@@ -17,7 +20,6 @@ function Player() {
 	this.size = new THREE.Vector3(30, 30, 30);
 
 	this.speed = new THREE.Vector3(0, 0, 0);
-	console.log(this.speed);
 	this.speedAdd = new THREE.Vector3(0, 0, 0);
 
 	this.lossRate = 0.0025;
@@ -30,6 +32,8 @@ function Player() {
 	this.maxLife = 100;
 
 	this.maxFuel = 100;
+	this.gainTime = 0;
+	this.maxGainTime = 500;
 	this.fuel = this.maxFuel;
 
 	this.life = this.maxLife;
@@ -69,12 +73,14 @@ function Player() {
 	this.zBorders.rotation.y = Math.PI / 2;
 	scene.add(this.zBorders);
 
-
+	this.bulletsAlive = 0;
 	this.spinTime = 0;
 	this.maxSpinTime = 500;
 	this.spinChargeTime = 0;
 	this.maxSpinChargeTime = 800;
-
+	weaponHtmlTimer = 0;
+	this.cameraLocked = true;
+	this.cameraLockedAmout = 0;
 
 	modelLoader.load(
 
@@ -181,15 +187,40 @@ Player.prototype.makePowerGuns = function() {
 
 Player.prototype.getPowerup = function(type) {
 
-	this.lossRate = 0.0025;
-	this.life += 20;
-	if (this.life > this.maxLife)
-		this.life = this.maxLife;
+	if (type >= 0)
+	{
+		this.lossRate = 0.0025;
+		this.life += 20;
+		if (this.life > this.maxLife)
+			this.life = this.maxLife;
 
-	this.fuel = this.maxFuel;
-	this.inv = 1000;
-	this.lastPowerGun = type;
-	this.gun = this.powerGuns[type];
+		this.fuel = this.maxFuel;
+		this.gainTime = this.maxGainTime;
+		this.inv = 1000;
+		this.lastPowerGun = type;
+		this.gun = this.powerGuns[type];
+
+		var weaponHtml = document.getElementById("weapon"); 
+		if (weaponHtml)
+		{
+			weaponHtml.style.display = "block";
+			if (type == 0)
+				weaponHtml.innerHTML = "Plasma Beam";
+			else
+				weaponHtml.innerHTML = "Rocket Launcher";
+			weaponHtmlTimer = 5 * 1000;
+		}
+	}
+	else
+	{
+		this.fuel += 15;
+		// if (this.fuel > this.maxFuel)
+			this.fuel = this.maxFuel;
+
+		this.life += 15;
+		if (this.life > this.maxLife)
+			this.life = this.maxLife;
+	}
 }
 
 Player.prototype.getBullet = function(bullet) {
@@ -216,7 +247,10 @@ Player.prototype.getBullet = function(bullet) {
 
 		var geometry = new THREE.PlaneGeometry( 1, 1 );
 		var plane = new THREE.Mesh( geometry, material );
-		plane.rotation.x += Math.PI / 2;
+
+		if (this.parent.viewMode == 0)
+			plane.rotation.x += Math.PI / 2;
+
 		plane.scale.set(40, 40, 1);
 
 		scene.add( plane );
@@ -305,7 +339,7 @@ Player.prototype.getBullet = function(bullet) {
 	else if (this.gun == this.powerGuns[1])
 	{
 		v.setLength(70);
-		bullet.lifeTime = 10 * 1000;
+		bullet.lifeTime = 5 * 1000;
 
 		// rockets
 		bullet.size = 60;
@@ -345,7 +379,6 @@ Player.prototype.getBullet = function(bullet) {
 	}
 
 	bullet.speed = v;
-	console.log(bullet);
 }
 
 
@@ -367,11 +400,22 @@ Player.prototype.isKeyPressed = function(keys, keySet) {
 
 Player.prototype.updateSpeed = function(dTime) {
 
+	if (this.parent.viewMode == 0)
+	{
+		// this.pos.y += (-600 - this.pos.y) * 0.01;
+	}
+	else
+		this.pos.z += (0 - this.pos.z) * 0.01;
+
 	// drag speed down
+
+	this.speedMult = 1.1;
+	if (this.parent.viewMode == 1)
+		this.speedMult *= 1.5;
 	
 	if (this.spinTime <= 0)
 	{
-		var drag = 0.002 * dTime;
+		var drag = 0.002 * dTime * this.speedMult;
 
 		var speedL = this.speed.length();
 		if (speedL > drag)
@@ -386,25 +430,43 @@ Player.prototype.updateSpeed = function(dTime) {
 		this.speedAdd.y = 0;
 		this.speedAdd.z = 0;
 		if (this.isKeyPressed(this.upKey))
-			this.speedAdd.z = -1;
+		{
+			if (this.parent.viewMode == 0)
+				this.speedAdd.z = -1;
+			else
+				this.speedAdd.y = -1;
+		}
 		else if (this.isKeyPressed(this.downKey))
-			this.speedAdd.z = 1;
+		{
+			if (this.parent.viewMode == 0)
+				this.speedAdd.z = 1;
+			else
+				this.speedAdd.y = 1;
+		}
 
 		if (this.isKeyPressed(this.leftKey))
-			this.speedAdd.x = -1;
+		{
+			if (this.parent.viewMode == 0)
+				this.speedAdd.x = -1;
+			else
+				this.speedAdd.x = 1;
+		}
 		else if (this.isKeyPressed(this.rightKey))
-			this.speedAdd.x = 1;
+		{
+			if (this.parent.viewMode == 0)
+				this.speedAdd.x = 1;
+			else
+				this.speedAdd.x = -1;
+		}
 
 		if (this.speedAdd.length() > 0)
 		{
-			var speed = 0.0075 * dTime;
+			var speed = 0.0075 * dTime * this.speedMult;
 			this.speedAdd.setLength(speed);
 			this.speed.add(this.speedAdd);
 		}
 
-		var maxSpeed = 1;
-		if (this.damageTime > 0 && false)
-			maxSpeed = 1 - this.damageTime / this.maxDamageTime;
+		var maxSpeed = 1 * this.speedMult;
 
 		if (this.speed.length() > maxSpeed)
 			this.speed.setLength(maxSpeed);
@@ -429,6 +491,14 @@ Player.prototype.updateSpeed = function(dTime) {
 		this.pos.z = -border;
 	if (this.pos.z > border)
 		this.pos.z = border;
+
+	if (this.parent.viewMode == 1)
+	{
+		if (this.pos.y < -border)
+			this.pos.y = -border;
+		if (this.pos.y > border)
+			this.pos.y = border;	
+	}
 }
 
 Player.prototype.updateGun = function(dTime)
@@ -468,18 +538,65 @@ Player.prototype.updateGun = function(dTime)
 		this.gun.fire();
 }
 
+var rgbToHex = function (rgb) { 
+  var hex = Number(rgb).toString(16);
+  if (hex.length < 2) {
+       hex = "0" + hex;
+  }
+  return hex;
+};
+var fullColorHex = function(r,g,b) {   
+  var red = rgbToHex(r);
+  var green = rgbToHex(g);
+  var blue = rgbToHex(b);
+  return red+green+blue;
+};
+
 Player.prototype.updateUI = function() {
+
+	var gain = 0;
+	if (this.gainTime > 0)
+		gain = 0.5 * this.gainTime / this.maxGainTime;
 
 	var health = document.getElementById("health"); 
 	if (health)
 	{
+		if (this.fuel <= 0)
+			health.children[0].className = "healthInnerWarn";
+		else
+			health.children[0].className = "healthInner";
+
 		health.children[0].style.width = 294.0 * this.life / this.maxLife;
+
+		var red = 0;
+
+		if (this.fuel <= 0)
+			red = 1;
+		if (this.damageTime > 0.0)
+			red = this.damageTime / this.maxDamageTime;
+		else
+			red = 0;
+
+		health.children[0].style.opacity = red + 0.3;
+		if (red > 0)
+			health.children[0].style.backgroundColor = "red";
+		else
+			health.children[0].style.backgroundColor = "white";
 	}
 
 	var fuel = document.getElementById("fuel"); 
 	if (fuel)
 	{
 		fuel.children[0].style.width = 294.0 * this.fuel / this.maxFuel;
+
+		if (this.gun == this.baseGun)
+		{
+			fuel.children[0].className = "healthInner";
+			// fuel.children[0].style.opacity = 0.3 + gain;
+		}
+		else
+			fuel.children[0].className = this.gun == this.powerGuns[0] ? "greenInner" : "orangeInner";
+
 	}
 
 	var livesHtml = document.getElementById("lives"); 
@@ -491,15 +608,29 @@ Player.prototype.updateUI = function() {
 
 Player.prototype.update = function(dTime) {
 
+	this.gainTime -= dTime;
+
+	if (weaponHtmlTimer > 0)
+	{
+		weaponHtmlTimer -= dTime;
+		if (weaponHtmlTimer <= 0)
+		{
+			var weaponHtml = document.getElementById("weapon"); 
+			if (weaponHtml)
+				weaponHtml.style.display = "none";
+		}
+	}
+
 	if (this.inv <= 0 && difficulty > 0)
 	{
-		var lossRate = 0.0025;
+		var lossRate = 0.000 + 0.003 * difficulty;
 		if (this.gun != this.baseGun)
 		{
 			lossRate = this.lossRate;
-			this.lossRate += 0.0000025 * dTime;
+			this.lossRate += 0.00000125 * dTime * difficulty;
 		}
 
+		var was = this.fuel > 0;
 		this.fuel -= dTime * lossRate;
 		if (this.fuel <= 0)
 		{
@@ -507,9 +638,30 @@ Player.prototype.update = function(dTime) {
 			{
 				this.gun = this.baseGun;
 				this.fuel = this.maxFuel;
+				this.gainTime = this.maxGainTime;
+
+				var weaponHtml = document.getElementById("weapon"); 
+				if (weaponHtml)
+				{
+					weaponHtml.style.display = "block";
+					weaponHtml.innerHTML = "Basic Weapon";
+					weaponHtmlTimer = 5 * 1000;
+				}
 			}
 			else
+			{
 				this.life -= dTime * lossRate;
+				if (was)
+				{
+					var weaponHtml = document.getElementById("weapon"); 
+					if (weaponHtml)
+					{
+						weaponHtml.style.display = "block";
+						weaponHtml.innerHTML = "Fuel Empty";
+						weaponHtmlTimer = 5 * 1000;
+					}
+				}
+			}
 		}
 	}
 
@@ -519,9 +671,30 @@ Player.prototype.update = function(dTime) {
 	this.updateUI();
 
 	this.xBorders.position.z = this.pos.z;
+	this.zBorders.position.y = 0;
 	this.zBorders.position.x = this.pos.x;
 
+	if (this.parent.viewMode == 1)
+	{
+		this.xBorders.rotation.x = Math.PI / 2;
+		this.zBorders.rotation.x = Math.PI / 2;
+
+		this.xBorders.position.y = this.pos.y;
+		this.zBorders.position.x = this.pos.x;
+
+		this.xBorders.position.z = 600;
+		this.zBorders.position.z = 600;
+
+		console.log(this.xBorders.position);
+	}
+
 	var borderBrightness = (Math.max(Math.abs(this.pos.z), Math.abs(this.pos.x)) - this.moveBorder + 150) / 150;
+
+	if (this.parent.viewMode == 1)
+	{
+		borderBrightness = (Math.max(Math.abs(this.pos.y), Math.abs(this.pos.x)) - this.moveBorder + 150) / 150;
+	}
+
 	this.xBorders.material.color.r = borderBrightness * 0.2;
 	this.xBorders.material.color.g = borderBrightness * 0.5;
 	this.xBorders.material.color.b = borderBrightness;
@@ -602,17 +775,60 @@ Player.prototype.update = function(dTime) {
 	}
 
 	var mult = 0.8;
-	if (this.inv <= 0)
-		camera.position.set( this.pos.x * mult, 100, this.pos.z * mult - 40);
-	else
+
+
+	var targetCamX = this.pos.x * mult;
+	var targetCamY = 100;
+	var targetCamZ = this.pos.z * mult - 40;
+
+	if (this.parent.viewMode == 1) // top down
 	{
-		var invMult = (1.0 - this.inv / this.maxInv);
-		camera.position.x += (this.pos.x * mult - camera.position.x) * invMult;
-		camera.position.z += (this.pos.z * mult - 40 - camera.position.z) * invMult;
-		camera.position.y = 100;
+		targetCamX = this.pos.x * mult * 0.1;
+		targetCamY = this.pos.y * mult * 0.1;
+		targetCamZ = this.pos.z + 2000;
 	}
 
-	camera.lookAt( camera.position.x, -100, camera.position.z);
+	var dx = camera.position.x - targetCamX;
+	var dy = camera.position.y - targetCamY;
+	var dz = camera.position.z - targetCamZ;
+
+	var dist = Math.sqrt(dx * dx + dy * dy + dz * dz);
+
+	if (dist < 10)
+		this.cameraLocked = true;
+
+	if (dist > 100 || !this.cameraLocked)
+	{
+		if (this.cameraLocked)
+		{
+			this.cameraLocked = false;
+			this.cameraLockedAmout = 0.01;
+		}
+		else
+		{
+			this.cameraLockedAmout += 0.01;
+			if (this.cameraLockedAmout > 1)
+				this.cameraLockedAmout = 1;
+		}
+
+		camera.position.x += (targetCamX - camera.position.x) * this.cameraLockedAmout;
+		camera.position.y += (targetCamY - camera.position.y) * this.cameraLockedAmout;
+		camera.position.z += (targetCamZ - camera.position.z) * this.cameraLockedAmout;
+	}
+	else
+	{
+		camera.position.x = targetCamX;
+		camera.position.y = targetCamY;
+		camera.position.z = targetCamZ;
+	}
+
+	if (this.parent.viewMode == 0) // front
+		camera.lookAt( camera.position.x, -100, camera.position.z);
+	else if (this.parent.viewMode == 1)
+	{
+		camera.lookAt( this.pos.x * 0.1, this.pos.y * 0.1, this.pos.z);
+		camera.rotation.z = Math.PI;
+	}
 
 	options.positionRandomness = 0;
 	options.velocityRandomness = 0;
@@ -679,7 +895,6 @@ Player.prototype.kill = function() {
 	this.parent.player = null;
 
 	this.kill2();
-	console.log("lives", lives);
 	lives--;
 
 	this.fuel = 0;

@@ -15,7 +15,7 @@ function Enemy() {
 	this.maxDamageTime = 1000.0;
 	this.timeAlive = 0;
 	this.maxLifeTime = -1;
-	this.collisionDamage = collisionDamage = 20 * difficulty;
+	this.collisionDamage = 8 * difficulty * (1 + difficulty);
 	this.selfCollisionDamage = 10000;
 	this.life = 20;
 	this.maxSpeed = 1;
@@ -29,6 +29,9 @@ function Enemy() {
 	this.useDeathDrop = false;
 	this.lifeBonus = 20 - difficulty * 2;
 	this.isLeaving = false;
+
+	this.bulletsAlive = 0;
+	this.modelMult = 1;
 }
 
 Enemy.prototype.findTarget = function() {
@@ -42,12 +45,12 @@ Enemy.prototype.getBullet = function(bullet) {
 	newPos.y += this.size.y / 2;
 	bullet.pos = newPos;
 
-	bullet.speed = new THREE.Vector3(0, 45, 0);;
+	bullet.speed = new THREE.Vector3(0, this.parent.speed * 0.4, 0);
 
 	bullet.size = this.size.x * 2;
-	bullet.lifeTime = 4000;
+	bullet.lifeTime = 16000;
 
-	var material = new THREE.MeshBasicMaterial( {map: loader.load("tex/beam.jpg"), color: new THREE.Color(0.2, 0.5, 1.2), side: THREE.DoubleSide, transparent: true, opacity: 1} );
+	var material = new THREE.MeshBasicMaterial( {map: loader.load("tex/beam.jpg"), color: new THREE.Color(1.2, 0.5, 0.2), side: THREE.DoubleSide, transparent: true, opacity: 1} );
 	material.blending = THREE.AdditiveBlending;
 	material.depthWrite = false;
 
@@ -109,7 +112,7 @@ Enemy.prototype.getBullet = function(bullet) {
 		if (mult > 1)
 		{
 			mult = 1;
-			this.speed.y = 60;
+			this.speed.y = (1 + difficulty) * 15;
 		}
 
 		this.model.scale.x = mult;
@@ -117,7 +120,7 @@ Enemy.prototype.getBullet = function(bullet) {
 		this.model.scale.z = mult;
 
 		var cMult = 4 - mult * 3;
-		this.model.material.color.r = cMult * 0.2;
+		this.model.material.color.r = cMult * 0.3;
 		this.model.material.color.g = cMult * 0.5;
 		this.model.material.color.b = cMult * 1.2;
 	}	
@@ -195,9 +198,9 @@ Enemy.prototype.update = function(dTime) {
 		this.model.traverse( function ( child ) {
 			if ( child.isMesh ) {
 				
-				child.scale.x = myShip.scaleAmt;
-				child.scale.y = myShip.scaleAmt;
-				child.scale.z = myShip.scaleAmt;
+				child.scale.x = myShip.scaleAmt * myShip.modelMult;
+				child.scale.y = myShip.scaleAmt * myShip.modelMult;
+				child.scale.z = myShip.scaleAmt * myShip.modelMult;
 
 				child.material.color.r = myShip.colorAmt * myShip.color.r;
 				child.material.color.g = myShip.colorAmt * myShip.color.g;
@@ -206,9 +209,9 @@ Enemy.prototype.update = function(dTime) {
 				if (child.material.emissive)
 				{
 					if (myShip.life <= 0)
-						child.material.emissive.r = 1;
+						child.material.emissive.r = 2;
 					else if (myShip.damageTime > 0.0)
-						child.material.emissive.r = myShip.damageTime / myShip.maxDamageTime;
+						child.material.emissive.r = 2 * myShip.damageTime / myShip.maxDamageTime;
 					else
 						child.material.emissive.r = 0;
 				}
@@ -225,7 +228,8 @@ Enemy.prototype.update = function(dTime) {
 	if (this.gun && this.pos.y < -1500 && this.parent.player && this.life > 0) {
 
 		this.gun.update(dTime);
-		this.gun.fire();
+		if (this.bulletsAlive == 0 || difficulty > 0.8)
+			this.gun.fire();
 	}
 
 	var drag = 0.002 * dTime;
@@ -317,6 +321,7 @@ Enemy.prototype.hit = function(damage) {
 			if (thePlayer)
 			{
 				thePlayer.fuel = thePlayer.maxFuel;
+				thePlayer.gainTime = thePlayer.maxGainTime;
 				thePlayer.life += this.lifeBonus;
 				if (thePlayer.life > thePlayer.maxLife)
 					thePlayer.life = thePlayer.maxLife;

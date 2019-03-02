@@ -11,10 +11,14 @@ var wheelYEventPrev = 0;
 var wheelX = 0;
 var wheelY = 0;
 
+var isPaused = false;
+
 var testMode = false;
 var lastTime = new Date().getTime();
 var firstTime = lastTime;
 var currentlyPressedKeys = { };
+var lastPressedKeys = { };
+var timePaused = 0;
 
 // Build render
 var renderer = new THREE.WebGLRenderer();
@@ -222,13 +226,36 @@ function animate() {
 			allUniforms[i].camPos.value.set(camera.position.x, camera.position.y, camera.position.z);
 	}
 
-	currentLevel.update(dTime);
+	if (!isPaused)
+	{
+		currentLevel.update(dTime);
+
+		for (var i = 0; i < particleSystems.length; i++)
+			particleSystems[i].update( timeNow - firstTime );
+
+		if (currentlyPressedKeys[27] && difficulty > 0)
+		{
+			isPaused = true;
+			var pause = document.getElementById("pause"); 
+			pause.style.display = "block";
+		}
+	}
+	else
+	{
+		timePaused += dTime;
+
+		if (mouseDown > 0 && timePaused > 400)
+		{
+			timePaused = 0;
+			isPaused = false;
+			var pause = document.getElementById("pause"); 
+			pause.style.display = "none";
+		}
+	}
 
 	renderer.render( scene, camera );
 	lastTime = timeNow;
 
-	for (var i = 0; i < particleSystems.length; i++)
-		particleSystems[i].update( timeNow - firstTime );
 
 	if (window.innerWidth != renderer.getSize().width || window.innerHeight != renderer.getSize().height)
 		onWindowResize();

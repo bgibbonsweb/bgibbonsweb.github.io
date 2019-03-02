@@ -48,9 +48,12 @@ function Bullet(gunParent) {
 	this.model = null;
 	this.gunParent = gunParent;
 	this.damageMult = 1;
+
+	this.gunParent.parent.bulletsAlive++;
 }
 
 Bullet.prototype.kill = function() {
+	this.gunParent.parent.bulletsAlive--;
 	scene.remove(this.model);
 }
 
@@ -98,17 +101,39 @@ Bullet.prototype.updateCol = function(dTime) {
 
 Bullet.prototype.update = function(dTime) {
 
-	this.timeAlive += dTime;
-	if (this.timeAlive > this.lifeTime)
+	var maxBorder = 100;
+	var minBorder = -8000;
+	if (this.parent.viewMode == 1)
+	{
+		maxBorder = 2000;
+		minBorder = -2000;
+	}
+
+	if (this.pos.y > maxBorder || this.pos.y < minBorder)
 	{
 		this.parent.kill(this);
 		return;
 	}
 
 	var mult = 0.06;
+	var aliveMult = 1;
+
+	if (this.parent.viewMode == 1)
+	{
+		mult *= 0.1;
+		aliveMult *= 0.1;
+	}
 	this.pos.x += this.speed.x * dTime * mult;
 	this.pos.y += this.speed.y * dTime * mult;
 	this.pos.z += this.speed.z * dTime * mult;
+
+
+	this.timeAlive += dTime * aliveMult;
+	if (this.timeAlive > this.lifeTime)
+	{
+		this.parent.kill(this);
+		return;
+	}
 
 	if (this.model)
 	{	

@@ -5,22 +5,35 @@ function Powerup(x, y, z, type) {
 
 	this.color = type == 0 ? new THREE.Color(0.5, 1.2, 0.8) : new THREE.Color(1.2, 0.8, 0.5);
 
+	this.size = 300;
+
+	if (type >= 0)
+	{
+		// currency
+	}
+	else
+	{
+		this.color = new THREE.Color(0.2, 0.4, 1);
+		this.size = 100;
+	}
+
+	var geometry = new THREE.TorusGeometry( this.size / 2, this.size / 40, 3, 30 );
+
 	material =  new THREE.MeshBasicMaterial( {
 		color: 			this.color,
 		wireframe: 		false,
 	});
 
-
-	this.size = 300;
-	var geometry = new THREE.TorusGeometry( this.size / 2, this.size / 40, 3, 30 );
 	var sphere = new THREE.Mesh( geometry, material );
 	sphere.rotation.x = Math.PI / 2;
 	sphere.position.set(this.pos.x, this.pos.y, this.pos.z);
 	this.model = sphere;
 	scene.add(sphere);
 
+
 	this.hitPlayer = null;
 	this.hitAnim = 0;
+	this.speed = 0.4;
 }
 
 
@@ -42,7 +55,7 @@ Powerup.prototype.update = function(dTime) {
 	}
 	else
 	{
-		this.pos.y += currentLevel.speed * dTime * 0.4;
+		this.pos.y += currentLevel.speed * dTime * this.speed;
 	}
 
 	if (this.pos.y > 100)
@@ -56,7 +69,13 @@ Powerup.prototype.update = function(dTime) {
 		if (this.parent.distance(this.pos.x, this.pos.y, this.pos.z, thePlayer.pos.x, thePlayer.pos.y, thePlayer.pos.z) < 200)
 		{
 			thePlayer.getPowerup(this.type);
-			this.hitPlayer = thePlayer;
+
+			if (this.type >= 0)
+			{
+				this.hitPlayer = thePlayer;
+			}
+			else
+				this.parent.kill(this);
 		}
 	}
 
@@ -68,6 +87,8 @@ Powerup.prototype.update = function(dTime) {
 	options.velocity.z = 0;
 	options.colorRandomness = 0.1;
 	options.lifetime = 1500;
+	if (this.type < 0)
+		options.lifetime = 300;
 	options.turbulence = 0;
 
 	var rot = Math.random() * Math.PI * 2;

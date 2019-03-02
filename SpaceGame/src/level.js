@@ -2,9 +2,10 @@
 enableParticleEffects = true;
 lives = 0;
 difficulty = 0;
+passed = 0;
 
 function selectDiff(diff) {
-	difficulty = diff;
+	difficulty = diff * 0.5;
 
 	var ui = document.getElementById("diff"); 
 	ui.style.display = "none";
@@ -23,6 +24,14 @@ function Level() {
 	this.sparks = null;
 	this.sparks2 = null;
 	this.setBasicVars();
+
+	this.enemyShell = { };
+	this.enemyShell.parent = this;
+	this.enemyShell.team = 2;
+	this.enemyShell.bulletsAlive = 0;
+	this.shellGun = new Gun(this.enemyShell);
+
+	this.shellGun.damage = 20 * difficulty;
 }
 
 Level.prototype.beginBasic = function() {
@@ -46,13 +55,17 @@ Level.prototype.setBasicVars = function() {
 	this.speedChange = 0.5;
 	this.timeAlive = 0;
 	this.playerDeathTime = 0;
+	this.viewMode = 0; // 0 = front, 1 = top, 2 = side
 }
 
 Level.prototype.restart = function() {
 	enableParticleEffects = false;
 
 	for (var i = 0; i < this.gameObjects.length; i++)
+	{
+		this.gameObjects[i].isDead = true;
 		this.gameObjects[i].kill();
+	}
 
 	enableParticleEffects = true;
 
