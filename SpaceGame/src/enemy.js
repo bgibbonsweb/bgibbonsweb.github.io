@@ -136,6 +136,11 @@ Enemy.prototype.update2 = function(dTime) {
 
 }
 
+Enemy.prototype.updateRot = function(dTime) {
+	this.model.rotation.y = Math.PI / 2 - this.speed.x * 0.2 + Math.cos(this.timeAlive * 0.001) * 0.05;
+	this.model.rotation.z = Math.PI / 2 - this.speed.z * 0.2 + Math.sin(this.timeAlive * 0.0008) * 0.05;
+}
+
 Enemy.prototype.update = function(dTime) {
 
 
@@ -272,13 +277,20 @@ Enemy.prototype.update = function(dTime) {
 	{
 		this.model.position.set(this.pos.x, this.pos.y, this.pos.z);
 
-		this.model.rotation.y = Math.PI / 2 - this.speed.x * 0.2 + Math.cos(this.timeAlive * 0.001) * 0.05;
-		this.model.rotation.z = Math.PI / 2 - this.speed.z * 0.2 + Math.sin(this.timeAlive * 0.0008) * 0.05;
+		this.updateRot();
 
 		if (this.damageTime > 0)
 			this.model.rotation.y += this.damageTime / this.maxDamageTime * Math.cos(this.timeAlive) * 0.1;
 
 	}
+
+	this.updateCol();
+
+	if (this.pos.y > 100 + this.size.y)
+		this.parent.kill(this);
+}
+
+Enemy.prototype.updateCol = function() {
 
 	if ((this.collisionDamage > 0 || this.selfCollisionDamage > 0) && !this.isLeaving)
 	{
@@ -297,9 +309,6 @@ Enemy.prototype.update = function(dTime) {
 			this.collisionDamage = 0;
 		}
 	}
-
-	if (this.pos.y > 100)
-		this.parent.kill(this);
 }
 
 Enemy.prototype.kill = function() {

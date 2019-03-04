@@ -25,13 +25,13 @@ Gun.prototype.fire = function() {
 	if (this.rof >= this.maxRof && this.clipSize > 0)
 	{
 		this.rof = 0;
-		this.clipSize--;
 		this.clipTime = 0;
 
 		var bullet = new Bullet(this);
 		this.parent.parent.addGameObj(bullet);
 
-		this.parent.getBullet(bullet);
+		this.parent.getBullet(bullet, this.maxClipSize - this.clipSize);
+		this.clipSize--;
 	}
 }
 

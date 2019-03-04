@@ -30,6 +30,17 @@ function Powerup(x, y, z, type) {
 	this.model = sphere;
 	scene.add(sphere);
 
+	
+	var tex = loader.load( "tex/part1.png" );	
+	material = new THREE.MeshBasicMaterial( {map: tex, side: THREE.DoubleSide, transparent: true, opacity: 1} );
+	material.color = this.color;
+	material.blending = THREE.AdditiveBlending;
+	material.depthWrite = false;
+
+	var geometry = new THREE.PlaneGeometry( this.size * 3, this.size );
+	var plane2 = new THREE.Mesh( geometry, material );
+	plane2.rotation.x += Math.PI / 2;
+	sphere.add(plane2);
 
 	this.hitPlayer = null;
 	this.hitAnim = 0;

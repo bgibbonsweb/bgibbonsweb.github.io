@@ -177,6 +177,10 @@ getBigRedBullet = function(x, y, z, size, bullet) {
 function MakeLevel1() {
 
 	var lvl = new Level();
+
+						//temp
+						//lvl.wantsToSpawnBigEnemy = true;
+
 	lvl.timer1 = 0;
 	lvl.timer2 = 0;
 	lvl.timer3 = 0;
@@ -255,15 +259,39 @@ function MakeLevel1() {
 			{
 				this.leaveAllEnemies();
 				this.timer2 -= 16 * 1000;
+				if (passed > 2)
+					this.wantsToSpawnBigEnemy = Math.random() > Math.max(0.6, 0.9 - passed * 0.1);
 			}
 		}
-		else if (this.phase == 0 && passed > 4)
+		else if (this.phase == 0 && passed > 2)
 		{
-			this.timer2 += dTime * this.speed;
+			this.timer2 += dTime * this.speed * (9 + passed) * 0.05;
+
 			if (this.timer2 > 5000 && this.player)
 			{
 				this.timer2 -= 4 * 5000 / difficulty;
+				var choice = Math.random();
+				if (choice < 0.25)
+				{
+					var x = 100 - Math.random() * 200;
+					var z = 100 - Math.random() * 200;
+					SpawnAsteroidRing(x, -8000, z, (120 - difficulty * 15) + Math.random() * 300);
+				}
+				else if (choice < 0.5)
+				{
+					var x = 1000 - Math.random() * 2000;
+					var z = 1000 - Math.random() * 2000;
+					var xSize = 1000;
+					var zSize = xSize;
 
+					if (Math.random() > 0.5)
+						xSize /= 100;
+					else
+						zSize /= 100;
+
+					SpawnBigWall(x, -8000, z, xSize, 4000, zSize);
+				}
+				else
 				{
 					var bullet = new Bullet(this.shellGun);
 
@@ -305,7 +333,7 @@ function MakeLevel1() {
 			}
 		}
 
-		if (this.timer1 > 0)
+		if (this.timer1 > 0 && (!this.bigEnemy || this.bigEnemy.isDead))
 		{
 			if (this.phase == 2)
 				this.timer1 -= 3 * (700 - 100 * difficulty);
@@ -372,10 +400,20 @@ function MakeLevel1() {
 					}
 					if (y < this.player.moveBorder + size)
 					{
-						if (Math.random() > 0.9)
-							SpawnShooter2(x, -8000, y, (90 + difficulty * 15) + Math.random() * 140);
+
+						if (this.wantsToSpawnBigEnemy)
+						{
+							this.wantsToSpawnBigEnemy = false;
+							//if (Math.random() > 0.5)
+								SpawnBigShooter2(0, -8000, 0);	
+						}
 						else
-							SpawnShooter(x, -8000, y, (90 + difficulty * 15) + Math.random() * 140);
+						{
+							if (Math.random() > Math.max(0.7, 0.95 - passed * 0.025) && passed > 2)
+								SpawnShooter2(x, -8000, y, (90 + difficulty * 15) + Math.random() * 140);
+							else
+								SpawnShooter(x, -8000, y, (90 + difficulty * 15) + Math.random() * 140);
+						}
 
 						// SpawnDiver(x, -8000, y, (90 + difficulty * 15) + Math.random() * 140);
 					}

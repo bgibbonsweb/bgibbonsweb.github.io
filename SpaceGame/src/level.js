@@ -2,7 +2,7 @@
 enableParticleEffects = true;
 lives = 0;
 difficulty = 0;
-passed = 0;
+passed = 1;
 
 function selectDiff(diff) {
 	difficulty = diff * 0.5;
@@ -56,6 +56,8 @@ Level.prototype.setBasicVars = function() {
 	this.timeAlive = 0;
 	this.playerDeathTime = 0;
 	this.viewMode = 0; // 0 = front, 1 = top, 2 = side
+
+	passed = 1;
 }
 
 Level.prototype.restart = function() {
@@ -224,15 +226,17 @@ Level.prototype.testCollisionBox = function(x, y, z, xSize, ySize, zSize, team, 
 
 		// -1 = no team
 		if (obj2 != obj && obj2.team != team)
-		{
-			var dx = Math.abs(x - obj2.pos.x);
-			var dy = Math.abs(y - obj2.pos.y);
-			var dz = Math.abs(z - obj2.pos.z);
-
-			if (dx < (xSize + obj2.size.x) / 2 && dy < (ySize + obj2.size.y) / 2 && dz < (zSize + obj2.size.z) / 2)
+		{	
 			{
-				if (!objs || !objs.includes(obj2))
-					return obj2;
+				var dx = Math.abs(x - obj2.pos.x);
+				var dy = Math.abs(y - obj2.pos.y);
+				var dz = Math.abs(z - obj2.pos.z);
+
+				if (dx < (xSize + obj2.size.x) / 2 && dy < (ySize + obj2.size.y) / 2 && dz < (zSize + obj2.size.z) / 2)
+				{
+					if (!objs || !objs.includes(obj2))
+						return obj2;
+				}
 			}
 		}
 	}
@@ -263,15 +267,23 @@ Level.prototype.testCollision = function(x, y, z, team, size, obj, objs) {
 		// -1 = no team
 		if (obj2 != obj && obj2.team != team)
 		{
-			var dx = (x - obj2.pos.x) * (x - obj2.pos.x);
-			var dy = (y - obj2.pos.y) * (y - obj2.pos.y);
-			var dz = (z - obj2.pos.z) * (z - obj2.pos.z);
-			var dist = Math.sqrt(dx + dy + dz);
-
-			if (dist < size + obj2.size.x / 2)
+			if (obj2.customCol)
 			{
-				if (!objs || !objs.includes(obj2))
-					return this.shipObjects[i];
+				if (obj2.customCol(x, y, z, size))
+					return obj2;
+			}
+			else
+			{
+				var dx = (x - obj2.pos.x) * (x - obj2.pos.x);
+				var dy = (y - obj2.pos.y) * (y - obj2.pos.y);
+				var dz = (z - obj2.pos.z) * (z - obj2.pos.z);
+				var dist = Math.sqrt(dx + dy + dz);
+
+				if (dist < size + obj2.size.x / 2)
+				{
+					if (!objs || !objs.includes(obj2))
+						return this.shipObjects[i];
+				}
 			}
 		}
 	}
