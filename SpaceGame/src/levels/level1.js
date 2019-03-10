@@ -173,6 +173,40 @@ getBigRedBullet = function(x, y, z, size, bullet) {
 	}	
 }
 
+function spawnBigPart() {
+
+	options.positionRandomness = 0;
+	options.velocityRandomness = 0.0;
+	options.velocity.x = 0;
+	options.velocity.y = 0;
+	options.velocity.z = 0;
+	options.colorRandomness = 0.1;
+	options.lifetime = 6000;
+	options.turbulence = 0;
+
+	options.position.x = 0;
+	options.position.y = -10000;
+	options.position.z = 0;
+
+	options.color = new THREE.Color(0.6, 0.8, 1.2);
+	options.size = 900;
+	cloudParticleSystem.spawnParticle( options );
+
+	options.size = 300;
+	cloudParticleSystem.spawnParticle( options );
+
+	options.size = 100;
+	cloudParticleSystem.spawnParticle( options );
+
+	options.size = 60;
+	cloudParticleSystem.spawnParticle( options );
+
+	currentLevel.addGameObj(new DeathWave(0, -12000, 0, 500, 0.0001));
+	currentLevel.addGameObj(new DeathWave(0, -12000, 0, 500, 0.00025));
+	currentLevel.addGameObj(new DeathWave(0, -12000, 0, 500, 0.0005));
+	currentLevel.addGameObj(new DeathWave(0, -12000, 0, 2500, 0.00005));
+}
+
 
 function MakeLevel1() {
 
@@ -181,16 +215,18 @@ function MakeLevel1() {
 						//temp
 						//lvl.wantsToSpawnBigEnemy = true;
 
-	lvl.timer1 = 0;
-	lvl.timer2 = 0;
-	lvl.timer3 = 0;
-	lvl.powerupTimer = 0;
-
-	lvl.speed = 0;
-	lvl.targetSpeed = 2;
-	lvl.phase = 0;
 
 	lvl.begin = function() {
+
+		lvl.timer1 = 0;
+		lvl.timer2 = 0;
+		lvl.timer3 = 0;
+		lvl.scoreTimer = 0;
+		lvl.powerupTimer = 0;
+
+		lvl.speed = 0;
+		lvl.targetSpeed = 2;
+		lvl.phase = 0;
 
 		this.makeClouds();
 		this.addEvent(function() {  }, 5000);
@@ -208,6 +244,7 @@ function MakeLevel1() {
 			weaponHtml.innerHTML = "Wave 1";
 			weaponHtmlTimer = 5 * 1000;
 		}
+		spawnBigPart();
 	}
 
 	lvl.update2 = function(dTime) {
@@ -217,8 +254,20 @@ function MakeLevel1() {
 
 		lvl.targetSpeed = Math.sqrt((lvl.timeAlive * 0.00005 + 2) * (difficulty + 2) + difficulty * 2) * (difficulty + 1) * 0.25;
 
+		this.scoreTimer += dTime * this.speed;
+		if (this.player && this.player.speeding)
+			this.scoreTimer += dTime * this.speed * 2;
+
+		if (this.scoreTimer > 2000)
+		{
+			score++;
+			this.scoreTimer -= 1000;
+		}
 		this.timer1 += dTime * this.speed;
+		
 		this.timer3 += dTime;
+		if (this.player && this.player.speeding)
+			this.timer3 += dTime * 2;
 
 		if (this.phase == 2)
 		{
@@ -269,8 +318,11 @@ function MakeLevel1() {
 
 			if (this.timer2 > 5000 && this.player)
 			{
-				this.timer2 -= 4 * 5000 / difficulty;
+				this.timer2 -= 80 * 1000 / difficulty / Math.sqrt(passed);
 				var choice = Math.random();
+				if (difficulty < 1)
+					choice = 1;
+
 				if (choice < 0.25)
 				{
 					var x = 100 - Math.random() * 200;
@@ -289,7 +341,7 @@ function MakeLevel1() {
 					else
 						zSize /= 100;
 
-					SpawnBigWall(x, -8000, z, xSize, 4000, zSize);
+					SpawnBigWall(x, -16000, z, xSize, 12000, zSize);
 				}
 				else
 				{
@@ -319,6 +371,8 @@ function MakeLevel1() {
 			this.leaveAllEnemies();
 			this.timer3 -= 50 * 1000;
 			this.phase++;
+			spawnBigPart();
+
 			if (this.phase > 1)
 				this.phase = 0;
 

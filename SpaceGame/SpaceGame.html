@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>Space Battle</title>
+		<title>Space Game</title>
 		<style>
 			html, body {margin: 0; height: 100%; overflow: hidden;
 
@@ -143,6 +143,20 @@
 				pointer-events:none;
 			}
 
+			.score {
+
+				display: none;
+				position: fixed;
+				right: 5%;
+				bottom: 10%;
+				font-size: 2em;
+				color: rgba(255, 255, 255, 0.6);
+				background-color: rgba(255, 255, 255, 0.1);
+				border: 1px solid rgba(255, 255, 255, 0.1);
+				padding: 10px;
+				pointer-events:none;
+			}
+
 			.health {
 
 				display: none;
@@ -219,43 +233,162 @@
 				box-shadow: 0px 0px 12px 3px rgba(255,200,100,1);
 			}
 
+			.invert {
+
+				position: fixed;
+				left: 5%;
+				top: 40%;
+				font-size: 70%;
+
+				padding: 1em;
+			}
+
+			.invert:hover {
+
+				background-color: rgba(255, 255, 255, 0.3);
+			}
+
 
 		</style>
 	</head>
 	<body>
 
-		<script type="x-shader/x-vertex" id="rockvert">
+			<script type="x-shader/x-vertex" id="firevert">
 
-			varying vec2 vUv;
-			varying vec3 vPos;
 
-			void main() {
+				varying vec2 vUv;
+				varying vec3 vPos;
+				uniform float globalTime;
 
-	            vUv = uv;
+				void main() {
 
-	            vec3 pos = position;
-	            vPos = pos;
+		            vUv = uv;
 
-	            vec4 mvPosition = modelViewMatrix * vec4( pos, 1.0 );
-	            gl_Position = projectionMatrix * mvPosition;
-			}
+					vec3 pos = position;
 
-		</script>
 
-		<script type="x-shader/x-fragment" id="rockfrag">
-				
-			varying vec2 vUv;
-			varying vec3 vPos;
+					vPos = pos;
 
-			uniform sampler2D texture;
+					pos.x += (pos.z * 0.00001 * cos(globalTime * 0.01));
 
-			void main() {
-				gl_FragColor = texture2D(texture, vec2(vUv.s, vUv.t)) * (1.4 - abs(vPos.x * 0.0075));
-			}
+					vec4 mvPosition = modelViewMatrix * vec4( pos, 1.0 );
 
-		</script>
+					gl_Position = projectionMatrix * mvPosition;
+				}
+
+			</script>
+
+			<script type="x-shader/x-fragment" id="firefrag">
+					
+				varying vec2 vUv;
+				varying vec3 vPos;
+
+				uniform float globalTime;
+				uniform sampler2D texture;
+				uniform vec3 col;
+
+				void main() {
+
+
+					vec4 tex = texture2D(texture, vec2(vUv.s, vUv.t - globalTime * 0.001));
+					vec4 tex3 = texture2D(texture, vec2(vUv.s * 0.2, vUv.t * 0.1 - globalTime * 0.001));
+					vec4 tex2 = texture2D(texture, vec2(vUv.s * 1.5, vUv.t * 1.5 - globalTime * 0.001));
+
+					float r = col.x;
+					float g = col.y;
+					float b = col.z;
+					float a = vUv.s;
+
+					gl_FragColor = vec4(vUv.t * r, vUv.t * g, vUv.t * b, 0.6 * tex.x * tex2.x * tex3.x * cos(0.005 * (-globalTime * 100.0 + vPos.y + vUv.s * 100.0)));
+				}
+
+			</script>
+
+			<script type="x-shader/x-fragment" id="firefrag2">
+					
+				varying vec2 vUv;
+				varying vec3 vPos;
+
+				uniform float globalTime;
+				uniform float alpha;
+				uniform sampler2D texture;
+
+				void main() {
+
+					vec4 col = texture2D(texture, vec2(vUv.s, vUv.t - globalTime * 0.001));
+					vec4 col3 = texture2D(texture, vec2(vUv.s * 0.2, vUv.t * 0.1 - globalTime * 0.001));
+					vec4 col2 = texture2D(texture, vec2(vUv.s * 1.5, vUv.t * 1.5 - globalTime * 0.001));
+
+					float r = 0.1;
+					float g = 0.1;
+					float b = 1.0;
+					float a = vUv.s;
+
+					gl_FragColor = vec4(vUv.t * r, vUv.t * g, vUv.t * b, 1.0 * col.x * col2.x * col3.x * alpha);
+				}
+
+			</script>
+
+
+			<script type="x-shader/x-fragment" id="firefrag3">
+					
+				varying vec2 vUv;
+				varying vec3 vPos;
+
+				uniform float globalTime;
+				uniform float alpha;
+				uniform sampler2D texture;
+
+				void main() {
+
+					vec4 col = texture2D(texture, vec2(vUv.s, vUv.t - globalTime * 0.001));
+					vec4 col3 = texture2D(texture, vec2(vUv.s * 0.2, vUv.t * 0.1 - globalTime * 0.001));
+					vec4 col2 = texture2D(texture, vec2(vUv.s * 1.5, vUv.t * 1.5 - globalTime * 0.001));
+
+					float r = 1.0;
+					float g = 0.5;
+					float b = 0.1;
+					float a = vUv.s;
+
+					gl_FragColor = vec4(vUv.t * r, vUv.t * g, vUv.t * b, 1.0 * col.x * col2.x * col3.x * alpha * (vPos.x * 0.005));
+				}
+
+			</script>
+
+			<script type="x-shader/x-fragment" id="firefrag4">
+					
+				varying vec2 vUv;
+				varying vec3 vPos;
+
+				uniform float globalTime;
+				uniform float alpha;
+				uniform sampler2D texture;
+
+				void main() {
+
+					vec4 col = texture2D(texture, vec2(vUv.s, vUv.t - globalTime * 0.001));
+					vec4 col3 = texture2D(texture, vec2(vUv.s * 0.2, vUv.t * 0.1 - globalTime * 0.001));
+					vec4 col2 = texture2D(texture, vec2(vUv.s * 1.5, vUv.t * 1.5 - globalTime * 0.001));
+
+					float r = 1.0;
+					float g = 0.5;
+					float b = 0.1;
+					float a = vUv.s;
+
+					gl_FragColor = vec4(vUv.t * r, vUv.t * g, vUv.t * b, 1.0 * col.x * col2.x * col3.x * alpha * (-vPos.x * 0.005));
+				}
+
+			</script>
+
+
+
 
 		<div class="diff" id="diff">
+
+			<div class="invert" id="invert" onclick="doInvert()">
+				Up/Down Movement:<br/>
+				Not Inverted
+			</div>
 
 			<div class="diffBlock" onclick="selectDiff(1)">
 				Easy
@@ -298,6 +431,10 @@
 			3
 		</div>
 
+		<div class="score" id="score">
+			0
+		</div>
+
 		<div class="health" id="health">
 			<div class="healthInner">
 			</div>
@@ -314,6 +451,7 @@
 		<script src="lib/GPUParticleSystem.js"></script>
 
 		<script src="src/enemySpawner.js"></script>
+		<script src="src/fxSpawner.js"></script>
 		<script src="src/enemy.js"></script>
 		<script src="src/powerup.js"></script>
 		<script src="src/bullet.js"></script>

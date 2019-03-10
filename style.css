@@ -23,6 +23,32 @@
     to {top: -10%;}
 }
 
+.playDiv {
+  position: relative;
+  cursor: pointer;
+}
+
+.playDiv img {
+  opacity: 0.3;
+}
+
+.playDiv:hover img {
+  opacity: 1;
+}
+
+.play {
+  border-radius: 20px;
+  border: 1px solid white;
+}
+
+.playText {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  font-size: 30px;
+  opacity: 1;
+}
+
 .circleIcon {
   border-radius: 50%;
   position: relative;
@@ -368,6 +394,23 @@ canvas {
     background-size: cover;
 }
 
+
+.blackBackground2 {
+
+    overflow-y: auto;
+    color: rgb(220, 220, 220);
+    background-color: black;
+
+    position: fixed;
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 75;
+    text-align: center;
+    background-image: url("BikeBackground.jpg");
+    background-size: cover;
+}
+
 .blackBackground:hover {
 
 }
@@ -524,6 +567,14 @@ canvas {
     position: absolute;
     right: 0;
     left: 225px;
+    top: 0px;
+}
+
+.fixedLeftContent2 {
+
+    position: absolute;
+    right: 0;
+    left: 75px;
     top: 0px;
 }
 

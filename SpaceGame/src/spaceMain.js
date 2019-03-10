@@ -128,7 +128,7 @@ var currentLevel = MakeLevel1();
 
 // particle stuff
 cloudParticleSystem = new THREE.GPUParticleSystem( {
-	maxParticles: 2500,
+	maxParticles: 25000,
 	particleSpriteTex: loader.load("tex/part1.png")
 } );
 scene.add(cloudParticleSystem);
@@ -218,10 +218,14 @@ function animate() {
 	if (dTime > 60)
 		dTime = 60;
 
+	var speedMult = 1;
+	if (currentLevel)
+		speedMult = currentLevel.speed;
+	
 	for (var i = 0; i < allUniforms.length; i++)
 	{
 		if (allUniforms[i].globalTime)
-			allUniforms[i].globalTime.value += dTime * 0.003;
+			allUniforms[i].globalTime.value += dTime * 0.003 * speedMult;
 		if (allUniforms[i].camPos)
 			allUniforms[i].camPos.value.set(camera.position.x, camera.position.y, camera.position.z);
 	}
@@ -275,3 +279,18 @@ function handleKeyUp(event) {
 document.addEventListener( 'keydown', handleKeyDown, false );
 document.addEventListener( 'keyup', handleKeyUp, false );
 
+var upDownInvert = false;
+function doInvert() {
+	upDownInvert = !upDownInvert;
+
+	var invert = document.getElementById("invert"); 
+	if (invert)
+	{
+		var s = "Up/Down Movement:<br/>";
+		if (!upDownInvert)
+			s += "Not ";
+		s += "Inverted";
+
+		invert.innerHTML = s;
+	}
+}

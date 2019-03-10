@@ -254,6 +254,8 @@ function SpawnDiver(x, y, z)
 	
 	currentLevel.addShipObj(enemy);
 
+	enemy.useSquareDeath = true;
+
 	modelLoader.load(
 
 		'models/star_viper_free/scene.gltf',
@@ -282,8 +284,11 @@ function SpawnDiver(x, y, z)
 			});
 
 
-			enemy.model = gltf.scene;
-			scene.add( enemy.model );
+			if (!enemy.isDead)
+			{
+				enemy.model = gltf.scene;
+				scene.add( enemy.model );
+			}
 		},
 		// called while loading is progressing
 		function ( xhr ) {
@@ -381,6 +386,8 @@ function SpawnShooter2(x, y, z)
 	} 
 	
 	currentLevel.addShipObj(enemy);
+
+	enemy.useSquareDeath = true;
 
 	modelLoader.load(
 
@@ -521,6 +528,7 @@ function SpawnBigShooter2(x, y, z)
 	enemy.pos.x = x;
 	enemy.pos.y = y;
 	enemy.pos.z = z;
+	enemy.scoreBonus = 60;
 	enemy.gun = new Gun(enemy);
 	enemy.gun.damage = 1.5 * difficulty * (difficulty + 1);
 	enemy.gun.maxRof = 150 - 15 * difficulty;
@@ -535,7 +543,7 @@ function SpawnBigShooter2(x, y, z)
 	enemy.accel = 0.3;
 	enemy.life = 250 + difficulty * 50;
 	enemy.useDeathDrop = true;
-	enemy.modelMult = 8;
+	enemy.modelMult = 1000;
 
 	enemy.maxSpeed = 1;
 	enemy.update2 = function(dTime) {
@@ -547,9 +555,10 @@ function SpawnBigShooter2(x, y, z)
 	
 	currentLevel.addShipObj(enemy);
 
+	enemy.useSquareDeath = true;
 	modelLoader.load(
 
-		'models/star_viper_free/scene.gltf',
+		'models/scout_rs28/scene.gltf',
 
 		function ( gltf ) {
 
@@ -756,6 +765,7 @@ function SpawnStrafer(x, y, z)
 	
 	currentLevel.addShipObj(enemy);
 
+	enemy.useSquareDeath = true;
 	modelLoader.load(
 
 		'models/star_viper_free/scene.gltf',

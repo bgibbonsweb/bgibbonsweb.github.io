@@ -3,6 +3,7 @@ enableParticleEffects = true;
 lives = 0;
 difficulty = 0;
 passed = 1;
+score = 0;
 
 function selectDiff(diff) {
 	difficulty = diff * 0.5;
@@ -12,6 +13,8 @@ function selectDiff(diff) {
 
 	var livesHtml = document.getElementById("lives"); 
 	livesHtml.style.display = "block";
+	var scoreHtml = document.getElementById("score"); 
+	scoreHtml.style.display = "block";
 	var health = document.getElementById("health"); 
 	health.style.display = "block";
 	var health = document.getElementById("fuel"); 
@@ -21,6 +24,9 @@ function selectDiff(diff) {
 }
 
 function Level() {
+
+	this.fx = new FXSpawner(this);
+
 	this.sparks = null;
 	this.sparks2 = null;
 	this.setBasicVars();
@@ -50,6 +56,7 @@ Level.prototype.setBasicVars = function() {
 	this.nextEvent = null;
 	this.lastAdded = null;
 
+	this.speedTrack = 1;
 	this.speed = 1;
 	this.targetSpeed = 1;
 	this.speedChange = 0.5;
@@ -57,6 +64,7 @@ Level.prototype.setBasicVars = function() {
 	this.playerDeathTime = 0;
 	this.viewMode = 0; // 0 = front, 1 = top, 2 = side
 
+	score = 0;
 	passed = 1;
 }
 
@@ -101,6 +109,8 @@ Level.prototype.update2 = function(dTime) {
 
 Level.prototype.update = function(dTime) {
 
+	this.fx.update(dTime);
+
 	if (this.player)
 	{
 		this.timeAlive += dTime;
@@ -134,6 +144,8 @@ Level.prototype.update = function(dTime) {
 
 			var livesHtml = document.getElementById("lives"); 
 			livesHtml.style.display = "none";
+			var scoreHtml = document.getElementById("score"); 
+			scoreHtml.style.display = "score";
 			var health = document.getElementById("health"); 
 			health.style.display = "none";
 			var health = document.getElementById("fuel"); 
@@ -163,14 +175,17 @@ Level.prototype.update = function(dTime) {
 		targetSpeed = 0;
 	}
 
-	if (Math.abs(this.speed - targetSpeed) < speedChange)
-		this.speed = targetSpeed;
+	if (Math.abs(this.speedTrack - targetSpeed) < speedChange)
+		this.speedTrack = targetSpeed;
 	else
 	{
-		if (this.speed > targetSpeed)
+		if (this.speedTrack > targetSpeed)
 			speedChange = -speedChange;
-		this.speed += speedChange;
+		this.speedTrack += speedChange;
 	}
+	this.speed = this.speedTrack;
+	if (this.player && this.player.speeding)
+		this.speed *= 3;
 
 	for (var i = 0; i < this.gameObjects.length; i++)
 	{
@@ -391,4 +406,71 @@ Level.prototype.makeClouds = function()
 	this.sparks2 = new THREE.Mesh(geometry, material);
 	this.sparks2.position.y -= 5000;
 	scene.add( this.sparks2 );
+
+	{
+		var material = new THREE.MeshBasicMaterial({
+			map: loader.load("tex/part1.png"), wireframe: false, side: THREE.DoubleSide});
+		material.color = new THREE.Color(0.1, 0.2, 1);
+		material.blending = THREE.AdditiveBlending;
+		material.transparent = true;
+		material.depthWrite = false;
+
+		var w = 6000;
+		var h = 50;
+		var planeGeometry = new THREE.PlaneGeometry(w, h, 1, 1);
+		var mesh = new THREE.Mesh(planeGeometry, material);
+		mesh.rotation.x = -Math.PI / 2;
+		mesh.position.y = -9.5 * 1000
+
+		scene.add( mesh );	
+
+		var w = 6000;
+		var h = 5000;
+
+		var material = new THREE.MeshBasicMaterial({
+			map: loader.load("tex/part1.png"), wireframe: false, side: THREE.DoubleSide});
+		material.color = new THREE.Color(0.1, 0.2, 0.3);
+		material.blending = THREE.AdditiveBlending;
+		material.transparent = true;
+		material.depthWrite = false;
+
+		var planeGeometry = new THREE.PlaneGeometry(w, h, 1, 1);
+		var mesh = new THREE.Mesh(planeGeometry, material);
+		mesh.rotation.x = -Math.PI / 2;
+		mesh.position.y = -9.5 * 1000
+
+		scene.add( mesh );	
+	}
+
+	var noise = loader.load( "tex/noise.jpg" );
+
+	noise.wrapS = THREE.RepeatWrapping;
+	noise.wrapT = THREE.RepeatWrapping;
+
+	uniforms = {
+		globalTime:	{ type: "f", value: 0.0 },
+		col: 		{ type: "v3", value: new THREE.Vector3(0.1, 0.2, 1.0) },
+		texture:    { type: "t", value: noise },
+	};
+	this.uniforms = uniforms;
+
+	allUniforms.push(uniforms);
+
+	var fireMat = new THREE.ShaderMaterial( {
+		uniforms: 		uniforms,
+		vertexShader:   document.getElementById( 'firevert' ).textContent,
+		fragmentShader: document.getElementById( 'firefrag' ).textContent,
+		wireframe: 		false,
+		side: 			THREE.DoubleSide,
+	});
+
+	var geometry = new THREE.CylinderGeometry( 4000, 4000, 10000, 40, 1, true );
+	fireMat.side = THREE.DoubleSide;
+	fireMat.blending = THREE.AdditiveBlending;
+	fireMat.transparent = true;
+	fireMat.depthWrite = false;
+	var cylinder = new THREE.Mesh( geometry, fireMat );
+	cylinder.position.y = -3000;
+	this.cloud = cylinder;
+	scene.add( cylinder );
 }

@@ -28,10 +28,13 @@ function Enemy() {
 
 	this.useDeathDrop = false;
 	this.lifeBonus = 20 - difficulty * 2;
+	this.scoreBonus = 20;
 	this.isLeaving = false;
 
 	this.bulletsAlive = 0;
 	this.modelMult = 1;
+
+	this.useSquareDeath = false;
 }
 
 Enemy.prototype.findTarget = function() {
@@ -332,6 +335,9 @@ Enemy.prototype.hit = function(damage) {
 				thePlayer.fuel = thePlayer.maxFuel;
 				thePlayer.gainTime = thePlayer.maxGainTime;
 				thePlayer.life += this.lifeBonus;
+
+				score += this.scoreBonus;
+
 				if (thePlayer.life > thePlayer.maxLife)
 					thePlayer.life = thePlayer.maxLife;
 			}
@@ -429,7 +435,26 @@ Enemy.prototype.kill2 = function() {
 	{
 		var part = new DeathPart();
 		part.pos = new THREE.Vector3(this.pos.x, this.pos.y, this.pos.z);
-		part.model = this.model.clone();
+
+		if (!this.useSquareDeath)
+			part.model = this.model.clone();
+		else
+		{
+			material =  new THREE.MeshPhongMaterial( {
+				specular:  		0x111111,
+				map: loader.load("tex/asteroid.jpg"),
+				bumpScale: 20,
+				emissive: 		0x000000,
+				color: 			0x000000,
+				wireframe: 		false,
+			});
+			var geometry = new THREE.CubeGeometry( this.size.x , this.size.x, this.size.x );
+			var sphere = new THREE.Mesh( geometry, material );
+			sphere.scale.x = 0;
+			sphere.position.y = -10000;
+			part.model = sphere;
+		}
+
 		scene.add(part.model);
 
 		var mult = 1.5;

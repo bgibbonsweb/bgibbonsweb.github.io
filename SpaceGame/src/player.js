@@ -46,6 +46,7 @@ function Player() {
 	this.leftKey = [65, 37];
 	this.rightKey = [68, 39];
 	this.dashKey = [32, 13];
+	this.speedKey = [16];
 	this.shootDist = 600;
 
 	this.moveBorder = 600;
@@ -429,14 +430,18 @@ Player.prototype.updateSpeed = function(dTime) {
 		this.speedAdd.x = 0;
 		this.speedAdd.y = 0;
 		this.speedAdd.z = 0;
-		if (this.isKeyPressed(this.upKey))
+
+		var up = upDownInvert ? this.downKey : this.upKey;
+		var down = !upDownInvert ? this.downKey : this.upKey;
+
+		if (this.isKeyPressed(up))
 		{
 			if (this.parent.viewMode == 0)
 				this.speedAdd.z = -1;
 			else
 				this.speedAdd.y = -1;
 		}
-		else if (this.isKeyPressed(this.downKey))
+		else if (this.isKeyPressed(down))
 		{
 			if (this.parent.viewMode == 0)
 				this.speedAdd.z = 1;
@@ -604,11 +609,25 @@ Player.prototype.updateUI = function() {
 	{
 		livesHtml.innerHTML = lives;
 	}
+
+	var scoreHtml = document.getElementById("score"); 
+	if (scoreHtml)
+	{
+		scoreHtml.innerHTML = score;
+	}
 }
 
 Player.prototype.update = function(dTime) {
 
 	this.gainTime -= dTime;
+	// this.speeding = this.isKeyPressed(this.speedKey);
+
+	if (this.speeding)
+	{
+		this.fuel += 0.00001 * dTime;
+		if (this.fuel > this.maxFuel)
+			this.fuel = this.maxFuel;
+	}
 
 	if (weaponHtmlTimer > 0)
 	{
@@ -631,7 +650,10 @@ Player.prototype.update = function(dTime) {
 		}
 
 		var was = this.fuel > 0;
-		this.fuel -= dTime * lossRate;
+
+		if (!this.speeding)
+			this.fuel -= dTime * lossRate;
+
 		if (this.fuel <= 0)
 		{
 			if (this.gun != this.baseGun)
