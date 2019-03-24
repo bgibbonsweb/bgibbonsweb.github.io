@@ -400,6 +400,7 @@ Level.prototype.makeClouds = function()
 	material.blending = THREE.AdditiveBlending;
 	material.transparent = true;
 	material.depthWrite = false;
+	this.starMat = material;
 
 	this.sparks = new THREE.Mesh(geometry, material);
 	scene.add( this.sparks );
@@ -414,6 +415,7 @@ Level.prototype.makeClouds = function()
 		material.blending = THREE.AdditiveBlending;
 		material.transparent = true;
 		material.depthWrite = false;
+		this.starMat2 = material;
 
 		var w = 6000;
 		var h = 50;
@@ -433,6 +435,7 @@ Level.prototype.makeClouds = function()
 		material.blending = THREE.AdditiveBlending;
 		material.transparent = true;
 		material.depthWrite = false;
+		this.starMat3 = material;
 
 		var planeGeometry = new THREE.PlaneGeometry(w, h, 1, 1);
 		var mesh = new THREE.Mesh(planeGeometry, material);
@@ -458,13 +461,13 @@ Level.prototype.makeClouds = function()
 
 	var fireMat = new THREE.ShaderMaterial( {
 		uniforms: 		uniforms,
-		vertexShader:   document.getElementById( 'firevert' ).textContent,
+		vertexShader:   document.getElementById( 'firevert3' ).textContent,
 		fragmentShader: document.getElementById( 'firefrag' ).textContent,
 		wireframe: 		false,
 		side: 			THREE.DoubleSide,
 	});
 
-	var geometry = new THREE.CylinderGeometry( 4000, 4000, 10000, 40, 1, true );
+	var geometry = new THREE.CylinderGeometry( 4000, 4000, 10000, 40, 40, true );
 	fireMat.side = THREE.DoubleSide;
 	fireMat.blending = THREE.AdditiveBlending;
 	fireMat.transparent = true;

@@ -269,7 +269,58 @@
 
 					vPos = pos;
 
-					pos.x += (pos.z * 0.00001 * cos(globalTime * 0.01));
+					pos.x += 100.0 * cos(pos.y * 0.01 + pos.x * 0.01 + pos.z * 0.01);
+
+					vec4 mvPosition = modelViewMatrix * vec4( pos, 1.0 );
+
+					gl_Position = projectionMatrix * mvPosition;
+				}
+
+			</script>
+
+				<script type="x-shader/x-vertex" id="firevert3">
+
+
+					varying vec2 vUv;
+					varying vec3 vPos;
+					uniform float globalTime;
+
+					void main() {
+
+			            vUv = uv;
+
+						vec3 pos = position;
+
+
+						vPos = pos;
+
+						pos.x += 100.0 * cos(pos.y * 0.01 + pos.x * 0.01 + pos.z * 0.01 + globalTime * 0.01);
+
+						vec4 mvPosition = modelViewMatrix * vec4( pos, 1.0 );
+
+						gl_Position = projectionMatrix * mvPosition;
+					}
+
+				</script>
+
+			<script type="x-shader/x-vertex" id="firevert2">
+
+
+				varying vec2 vUv;
+				varying vec3 vPos;
+				uniform float globalTime;
+				uniform float dist;
+
+				void main() {
+
+		            vUv = uv;
+
+					vec3 pos = position;
+
+
+					vPos = pos;
+
+					pos += dist * cos((pos.y + pos.x + pos.z) * 1.0) * normal;
 
 					vec4 mvPosition = modelViewMatrix * vec4( pos, 1.0 );
 
@@ -290,7 +341,7 @@
 				void main() {
 
 
-					vec4 tex = texture2D(texture, vec2(vUv.s, vUv.t - globalTime * 0.001));
+					vec4 tex = texture2D(texture, vec2(vUv.s * 0.1, vUv.t - globalTime * 0.001));
 					vec4 tex3 = texture2D(texture, vec2(vUv.s * 0.2, vUv.t * 0.1 - globalTime * 0.001));
 					vec4 tex2 = texture2D(texture, vec2(vUv.s * 1.5, vUv.t * 1.5 - globalTime * 0.001));
 
@@ -299,7 +350,7 @@
 					float b = col.z;
 					float a = vUv.s;
 
-					gl_FragColor = vec4(vUv.t * r, vUv.t * g, vUv.t * b, 0.6 * tex.x * tex2.x * tex3.x * cos(0.005 * (-globalTime * 100.0 + vPos.y + vUv.s * 100.0)));
+					gl_FragColor = vec4(vUv.t * r, vUv.t * g, vUv.t * b, 1.0 * tex.x * tex2.x * tex3.x * cos(0.005 * (-globalTime * 100.0 + vPos.y + vUv.s * 100.0)));
 				}
 
 			</script>
@@ -380,6 +431,26 @@
 
 			</script>
 
+			<script type="x-shader/x-fragment" id="firefrag5">
+					
+				varying vec2 vUv;
+				varying vec3 vPos;
+
+				uniform float globalTime;
+				uniform float alpha;
+				uniform sampler2D texture;
+
+				void main() {
+
+					float r = 1.05;
+					float g = 0.95;
+					float b = 1.0;
+					float a = vUv.s;
+
+					gl_FragColor = vec4(vUv.t * r, vUv.t * g, vUv.t * b, alpha);
+				}
+
+			</script>
 
 
 

@@ -158,7 +158,7 @@ Enemy.prototype.update = function(dTime) {
 		this.killMe();
 	}
 
-	if (this.scaleAmt == 0 && this.parent.gameObjects.length < 40)
+	if (this.scaleAmt == 0 && this.parent.gameObjects.length < 40 && this.parent.phase != 3)
 	{
 		options.positionRandomness = 0;
 		options.velocityRandomness = 0;
@@ -179,7 +179,16 @@ Enemy.prototype.update = function(dTime) {
 
 	if (!this.isLeaving)
 	{
-		this.colorAmt += 0.00005 * dTime * this.maxSpeed;
+		if (this.parent.phase == 3)
+		{
+			this.colorAmt -= 0.00005 * dTime * this.maxSpeed;
+
+			if (this.colorAmt < 0)
+				this.colorAmt = 0;
+		}
+		else
+			this.colorAmt += 0.00005 * dTime * this.maxSpeed;
+
 		this.scaleAmt += 0.0002 * dTime * this.maxSpeed;
 	}
 	else
@@ -357,14 +366,32 @@ Enemy.prototype.killMe = function() {
 		this.kill2();
 }
 
-function DeathWave(x, y, z, size, alphaChange) {
+function DeathWave(x, y, z, size, alphaChange, dist, brightness) {
 	this.alpha = 0;
 
 	var size = size;
-	material =  new THREE.MeshBasicMaterial( {
-		color: 		0xffffff,
+	if (!dist)
+		dist = 0;
+
+	if (!brightness)
+		brightness = 1;
+	this.brightness = brightness;
+
+	this.uniforms = {
+		alpha:	{ type: "f", value: 1.0 },
+		globalTime:	{ type: "f", value: 0.0 },
+		dist:	{ type: "f", value: dist },
+	};
+
+	var material = new THREE.ShaderMaterial( {
+		uniforms: 		this.uniforms,
+		vertexShader:   document.getElementById( 'firevert2' ).textContent,
+		fragmentShader: document.getElementById( 'firefrag5' ).textContent,
 		wireframe: 		false,
+		side: 			THREE.DoubleSide,
 	});
+
+
 	material.transparent = true;
 	material.blending = THREE.AdditiveBlending;
 	material.depthWrite = false;
@@ -390,9 +417,9 @@ DeathWave.prototype.update = function(dTime) {
 		this.parent.kill(this);
 
 	var o = 1 - this.alpha;
-	this.model.material.color.r = o;
-	this.model.material.color.g = o;
-	this.model.material.color.b = o;
+	this.uniforms.alpha.value = o * this.brightness;
+	this.uniforms.globalTime.value += dTime * 3.0;
+
 	this.model.scale.set(this.alpha, this.alpha, this.alpha);
 }
 
@@ -428,10 +455,10 @@ Enemy.prototype.kill2 = function() {
 	else
 		lastEnemyDeathTime = lastTime;
 
-	this.parent.addGameObj(new DeathWave(this.pos.x, this.pos.y, this.pos.z, fast ? 500 : 800, fast ? 0.0035 : 0.002));
+	this.parent.addGameObj(new DeathWave(this.pos.x, this.pos.y, this.pos.z, fast ? 500 : 800, fast ? 0.0035 : 0.002, 0.5));
 
 
-	for (var i = 0; i < 10; i++)
+	for (var i = 0; i < 5; i++)
 	{
 		var part = new DeathPart();
 		part.pos = new THREE.Vector3(this.pos.x, this.pos.y, this.pos.z);
@@ -522,7 +549,7 @@ DeathPart.prototype.update = function(dTime) {
 
 	this.model.position.set(this.pos.x, this.pos.y, this.pos.z);
 
-	options.positionRandomness = 20;
+	options.positionRandomness = 30;
 	options.velocityRandomness = 0;
 	options.velocity.x = 0;
 	options.velocity.y = 0;
@@ -536,7 +563,7 @@ DeathPart.prototype.update = function(dTime) {
 	options.position.z = this.pos.z;
 
 	options.color = this.color;
-	options.size = 100 * (1.0 - this.timeAlive / this.lifeTime) * Math.random();
+	options.size = 50 * (1.0 - this.timeAlive / this.lifeTime) * Math.random();
 	cloudParticleSystem.spawnParticle( options );
 }
 

@@ -672,7 +672,7 @@ Player.prototype.update = function(dTime) {
 			}
 			else
 			{
-				this.life -= dTime * lossRate;
+				this.life -= dTime * lossRate * 0.4;
 				if (was)
 				{
 					var weaponHtml = document.getElementById("weapon"); 
@@ -930,9 +930,9 @@ Player.prototype.kill2 = function() {
 	if (!enableParticleEffects)
 		return;
 
-	this.parent.addGameObj(new DeathWave(this.pos.x, this.pos.y, this.pos.z, 300, 0.00025));
-	this.parent.addGameObj(new DeathWave(this.pos.x, this.pos.y, this.pos.z, 300, 0.0005));
-	this.parent.addGameObj(new DeathWave(this.pos.x, this.pos.y, this.pos.z, 300, 0.001));
+	this.parent.addGameObj(new DeathWave(this.pos.x, this.pos.y, this.pos.z, 300, 0.00025, 0));
+	this.parent.addGameObj(new DeathWave(this.pos.x, this.pos.y, this.pos.z, 300, 0.0005, 0));
+	this.parent.addGameObj(new DeathWave(this.pos.x, this.pos.y, this.pos.z, 300, 0.001, 0));
 
 	if (this.model)
 	{

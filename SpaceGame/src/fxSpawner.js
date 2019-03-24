@@ -8,6 +8,14 @@ function FXSpawner(parent) {
 
 FXSpawner.prototype.update = function(dTime) {
 
+	if (this.parent.phase == 3)
+	{
+		this.parent.uniforms.col.value.x = 0.8;
+		this.parent.uniforms.col.value.y = 0.1;
+		this.parent.uniforms.col.value.z = 1.0;
+		return;
+	}
+
 	this.update1 += dTime * this.parent.speed * 0.2;
 	this.update2 += dTime * this.parent.speed * 0.2;
 	this.update3 += dTime * this.parent.speed * 0.2;
@@ -81,6 +89,7 @@ FX.prototype.update = function(dTime) {
 		if (currentLevel)
 			speedMult = currentLevel.speed;
 		
+		console.log(this.uniforms)
 		if (this.uniforms.globalTime)
 			this.uniforms.globalTime.value += dTime * 0.003 * speedMult;
 		if (this.uniforms.alpha)
@@ -102,6 +111,7 @@ function spawnOrangeWaveLeft() {
 	fx.uniforms = {
 		alpha:	{ type: "f", value: 0.0 },
 		texture:    { type: "t", value: noise },
+		globalTime:	{ type: "f", value: 0.0 },
 	};
 
 	var fireMat = new THREE.ShaderMaterial( {
@@ -136,6 +146,7 @@ function spawnOrangeWave() {
 	fx.uniforms = {
 		alpha:	{ type: "f", value: 0.0 },
 		texture:    { type: "t", value: noise },
+		globalTime:	{ type: "f", value: 0.0 },
 	};
 
 	var fireMat = new THREE.ShaderMaterial( {
@@ -146,7 +157,7 @@ function spawnOrangeWave() {
 		side: 			THREE.DoubleSide,
 	});
 
-	var geometry = new THREE.CylinderGeometry( 2000 + 20 * Math.random(), 2000 + 20 * Math.random(), 1000, Math.random() > 0.75 ? 3 : 40, 1, true );
+	var geometry = new THREE.CylinderGeometry( 2000 + 20 * Math.random(), 2000 + 20 * Math.random(), 1000, Math.random() > 0.75 ? 3 : 60, 31, true );
 	fireMat.side = THREE.DoubleSide;
 	fireMat.blending = THREE.AdditiveBlending;
 	fireMat.transparent = true;
@@ -169,6 +180,7 @@ function spawnGridWave() {
 	fx.uniforms = {
 		alpha:	{ type: "f", value: 0.0 },
 		texture:    { type: "t", value: noise },
+		globalTime:	{ type: "f", value: 0.0 },
 	};
 
 	var fireMat = new THREE.ShaderMaterial( {
@@ -179,7 +191,7 @@ function spawnGridWave() {
 		side: 			THREE.DoubleSide,
 	});
 
-	var geometry = new THREE.CylinderGeometry( 2000 + 20 * Math.random(), 2000 + 20 * Math.random(), 1000, Math.random() > 0.75 ? 3 : 40, 1, true );
+	var geometry = new THREE.CylinderGeometry( 2000 + 20 * Math.random(), 2000 + 20 * Math.random(), 1000, Math.random() > 0.75 ? 3 : 60, 31, true );
 	fireMat.side = THREE.DoubleSide;
 	fireMat.blending = THREE.AdditiveBlending;
 	fireMat.transparent = true;

@@ -173,7 +173,10 @@ getBigRedBullet = function(x, y, z, size, bullet) {
 	}	
 }
 
-function spawnBigPart() {
+function spawnBigPart(mult) {
+
+	if (!mult)
+		mult = 1;
 
 	options.positionRandomness = 0;
 	options.velocityRandomness = 0.0;
@@ -181,7 +184,7 @@ function spawnBigPart() {
 	options.velocity.y = 0;
 	options.velocity.z = 0;
 	options.colorRandomness = 0.1;
-	options.lifetime = 6000;
+	options.lifetime = 6000 * mult;
 	options.turbulence = 0;
 
 	options.position.x = 0;
@@ -201,10 +204,10 @@ function spawnBigPart() {
 	options.size = 60;
 	cloudParticleSystem.spawnParticle( options );
 
-	currentLevel.addGameObj(new DeathWave(0, -12000, 0, 500, 0.0001));
-	currentLevel.addGameObj(new DeathWave(0, -12000, 0, 500, 0.00025));
-	currentLevel.addGameObj(new DeathWave(0, -12000, 0, 500, 0.0005));
-	currentLevel.addGameObj(new DeathWave(0, -12000, 0, 2500, 0.00005));
+	currentLevel.addGameObj(new DeathWave(0, -12000, 0, 500, 0.0001 / mult, 300));
+	currentLevel.addGameObj(new DeathWave(0, -12000, 0, 500, 0.00025 / mult, 300));
+	currentLevel.addGameObj(new DeathWave(0, -12000, 0, 500, 0.0005 / mult, 300));
+	currentLevel.addGameObj(new DeathWave(0, -12000, 0, 2500, 0.00005 / mult, 300));
 }
 
 
@@ -218,6 +221,8 @@ function MakeLevel1() {
 
 	lvl.begin = function() {
 
+		this.starBrightness = 1;
+
 		lvl.timer1 = 0;
 		lvl.timer2 = 0;
 		lvl.timer3 = 0;
@@ -227,6 +232,7 @@ function MakeLevel1() {
 		lvl.speed = 0;
 		lvl.targetSpeed = 2;
 		lvl.phase = 0;
+		// temp
 
 		this.makeClouds();
 		this.addEvent(function() {  }, 5000);
@@ -251,6 +257,26 @@ function MakeLevel1() {
 
 		if (difficulty == 0)
 			return;
+
+		if (this.phase == 3)
+		{
+			this.starBrightness -= dTime * 0.0005;
+			if (this.starBrightness < 0)
+				this.starBrightness = 0;
+		}
+		else
+		{
+			this.starBrightness += dTime * 0.0005;
+			if (this.starBrightness > 1)
+				this.starBrightness = 1;
+		}
+
+		if (this.starMat)
+		{
+			this.starMat.color = new THREE.Color(this.starBrightness, this.starBrightness, this.starBrightness);
+			this.starMat2.color = new THREE.Color(this.starBrightness * 0.1, this.starBrightness * 0.3, this.starBrightness);
+			this.starMat3.color = new THREE.Color(this.starBrightness * 0.1, this.starBrightness * 0.2, this.starBrightness * 0.3);
+		}
 
 		lvl.targetSpeed = Math.sqrt((lvl.timeAlive * 0.00005 + 2) * (difficulty + 2) + difficulty * 2) * (difficulty + 1) * 0.25;
 
@@ -371,10 +397,32 @@ function MakeLevel1() {
 			this.leaveAllEnemies();
 			this.timer3 -= 50 * 1000;
 			this.phase++;
-			spawnBigPart();
 
-			if (this.phase > 1)
+			if (this.phase > 2)
+			{
+				scene.background = textureCube;
 				this.phase = 0;
+			}
+			else if (this.phase > 1)
+			{
+				this.phase = 3;
+				if (this.phase == 3)
+				{
+					scene.background = null;
+					var weaponHtml = document.getElementById("weapon"); 
+					if (weaponHtml)
+					{
+						weaponHtml.style.display = "block";
+						weaponHtml.innerHTML = "Blackout";
+						weaponHtmlTimer = 5 * 1000;
+					}
+				}
+			}
+
+			if (this.phase != 3)
+				spawnBigPart();
+			else
+				spawnBigPart(0.5);
 
 			passed++;
 
@@ -393,6 +441,8 @@ function MakeLevel1() {
 				this.timer1 -= 3 * (700 - 100 * difficulty);
 			else if (this.phase == 0)
 				this.timer1 -= 60 * 6;
+			else if (this.phase == 3)
+				this.timer1 -= 60 * 9;
 			else
 				this.timer1 -= 200;
 
@@ -433,9 +483,9 @@ function MakeLevel1() {
 					getBlockerBeam(x, -8000, z, sizeX, sizeY, bullet);
 					this.addGameObj(bullet);
 				}
-				else if (this.phase == 0)
+				else if (this.phase == 0 || this.phase == 3)
 				{
-					SpawnAsteroid(x, -8000, z, (90 + difficulty * 15) + Math.random() * 140);
+					SpawnAsteroid(x, -8000, z, (90 + difficulty * 15) + Math.random() * 140, this.phase == 3);
 				}
 				else
 				{	

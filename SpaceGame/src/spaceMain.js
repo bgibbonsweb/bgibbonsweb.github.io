@@ -22,7 +22,7 @@ var timePaused = 0;
 
 // Build render
 var renderer = new THREE.WebGLRenderer();
-renderer.setClearColor( new THREE.Color(0.1, 0.06, 0.12), 1 );
+renderer.setClearColor( new THREE.Color(0, 0, 0), 1 );
 document.body.appendChild( renderer.domElement );
 mouseElement = renderer.domElement;
 

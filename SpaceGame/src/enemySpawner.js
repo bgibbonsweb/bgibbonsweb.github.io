@@ -1,7 +1,7 @@
 
 
 
-function SpawnAsteroid(x, y, z, size)
+function SpawnAsteroid(x, y, z, size, blackout)
 {
 	let enemy = new Enemy();
 	enemy.pos.x = x;
@@ -29,7 +29,7 @@ function SpawnAsteroid(x, y, z, size)
 	currentLevel.addShipObj(enemy);
 
 	material =  new THREE.MeshPhongMaterial( {
-		specular:  		0x111111,
+		specular:  		blackout ? 0x000000 : 0x111111,
 		map: loader.load("tex/asteroid.jpg"),
 		bumpScale: 20,
 		emissive: 		0x000000,
@@ -127,7 +127,7 @@ function SpawnAsteroidRing(x, y, z, size)
 	var sphere = new THREE.Mesh( geometry, material );
 	sphere.rotation.x = -Math.PI / 2;
 	sphere.scale.x = 0;
-	sphere.position.y = -10000;
+	sphere.position.y = -16000;
 	enemy.model = sphere;
 	scene.add(sphere);
 
@@ -324,7 +324,7 @@ function SpawnShooter(x, y, z)
 	enemy.size.y = size;
 	enemy.size.z = size;
 	enemy.accel = 0.3;
-	enemy.life = 50;
+	enemy.life = 45 + passed * 3;
 	enemy.useDeathDrop = true;
 
 	enemy.maxSpeed = 1;
@@ -373,7 +373,7 @@ function SpawnShooter2(x, y, z)
 	enemy.size.y = size;
 	enemy.size.z = size;
 	enemy.accel = 0.3;
-	enemy.life = 45 + difficulty * 5;
+	enemy.life = 30 + difficulty * 5 + passed * 3;
 	enemy.useDeathDrop = true;
 	enemy.modelMult = 5;
 
@@ -486,7 +486,7 @@ function SpawnShooter2(x, y, z)
 
 		bullet.update2 = function(dTime) {
 
-			var diffMult = difficulty * (difficulty + 1) * 0.25;
+			var diffMult = difficulty * (difficulty + 1 + passed * 0.1) * 0.25;
 			var mult = 0.005 * diffMult;
 			if (bullet.pos.y < thePlayer.pos.y) 
 			{
@@ -541,7 +541,7 @@ function SpawnBigShooter2(x, y, z)
 	enemy.size.y = size;
 	enemy.size.z = size;
 	enemy.accel = 0.3;
-	enemy.life = 250 + difficulty * 50;
+	enemy.life = 200 + difficulty * 50 + passed * 15;
 	enemy.useDeathDrop = true;
 	enemy.modelMult = 1000;
 
