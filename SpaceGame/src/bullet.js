@@ -80,6 +80,14 @@ Bullet.prototype.updateCol = function(dTime) {
 			options.color = new THREE.Color(1, 0.6, 0);
 			options.size = 200;
 			cloudParticleSystem.spawnParticle( options );
+
+			options.velocityRandomness = 0.1;
+			options.size = 9;
+			options.lifetime = 3000;
+			options.turbulence = 0.01;
+			options.velocity.y = this.parent.speed * 0.02;
+			for (var j = 0; j < 2; j++)
+				cloudParticleSystem.spawnParticle( options );
 		}
 
 		hit.hit(this.gunParent.damage * this.damageMult);

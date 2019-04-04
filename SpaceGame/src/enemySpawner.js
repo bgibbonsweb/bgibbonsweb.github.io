@@ -629,9 +629,13 @@ function SpawnBigShooter2(x, y, z)
 				this.model.scale.z = mult;
 
 				var cMult = 4 - mult * 3;
-				this.model.material.color.r = cMult * 0.3;
-				this.model.material.color.g = cMult * 0.5;
-				this.model.material.color.b = cMult * 1.2;
+				this.model.material.color.r = cMult * 0.2;
+				this.model.material.color.g = cMult * (0.1 + this.timeAlive * 0.00025);
+				
+				var blueMult = 0.8 + this.timeAlive * 0.0004;
+				if (blueMult > 1.1)
+					blueMult = 1.1;
+				this.model.material.color.b = cMult * blueMult;
 			}	
 
 			return;

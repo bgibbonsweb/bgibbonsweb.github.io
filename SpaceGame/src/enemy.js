@@ -27,7 +27,7 @@ function Enemy() {
 	this.color = new THREE.Color(0.9 + 0.2 * Math.random(), 0.7 + 0.1 * Math.random(), 0.9 + 0.2 * Math.random());
 
 	this.useDeathDrop = false;
-	this.lifeBonus = 20 - difficulty * 2;
+	this.lifeBonus = (20 - difficulty * 2) * 0.6;
 	this.scoreBonus = 20;
 	this.isLeaving = false;
 
@@ -123,9 +123,13 @@ Enemy.prototype.getBullet = function(bullet) {
 		this.model.scale.z = mult;
 
 		var cMult = 4 - mult * 3;
-		this.model.material.color.r = cMult * 0.3;
-		this.model.material.color.g = cMult * 0.5;
-		this.model.material.color.b = cMult * 1.2;
+		this.model.material.color.r = cMult * 0.2;
+		this.model.material.color.g = cMult * (0.1 + this.timeAlive * 0.00025);
+
+		var blueMult = 0.8 + this.timeAlive * 0.0004;
+		if (blueMult > 1.1)
+			blueMult = 1.1;
+		this.model.material.color.b = cMult * blueMult;
 	}	
 	
 }
@@ -529,6 +533,15 @@ Enemy.prototype.kill2 = function() {
 
 		options.velocityRandomness = 0.6;
 		cloudParticleSystem.spawnParticle( options );
+
+		options.velocityRandomness = 0.1;
+		options.size = 14;
+		options.lifetime = 10000;
+		options.turbulence = 0.01;
+		options.velocity.y = this.parent.speed * 0.02;
+
+		for (var j = 0; j < 2; j++)
+			cloudParticleSystem.spawnParticle( options );
 	}	
 }
 

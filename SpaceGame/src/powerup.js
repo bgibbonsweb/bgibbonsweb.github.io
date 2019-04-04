@@ -111,6 +111,15 @@ Powerup.prototype.update = function(dTime) {
 	options.color = this.color;
 	options.size = 10 + 10 * Math.random();
 	cloudParticleSystem.spawnParticle( options );
+
+
+	options.position.x = this.pos.x + Math.cos(rot) * this.size / 2;
+	options.position.y = this.pos.y;
+	options.position.z = this.pos.z + Math.sin(rot) * this.size / 2;
+
+	options.size = 10;
+	options.lifetime = 3500;
+	cloudParticleSystem.spawnParticle( options );
 }
 
 Powerup.prototype.kill = function() {

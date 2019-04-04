@@ -419,9 +419,7 @@ function MakeLevel1() {
 				}
 			}
 
-			if (this.phase != 3)
-				spawnBigPart();
-			else
+			if (this.phase == 3)
 				spawnBigPart(0.5);
 
 			passed++;
