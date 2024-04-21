@@ -161,8 +161,8 @@ function doRipple() {
 
 function triangulate() {
 
-    var dx = window.innerWidth * 0.15;
-    var dy = window.innerWidth * 0.3;
+    var dx = window.innerWidth * 0.15 * 0.5;
+    var dy = window.innerWidth * 0.3 * 0.5;
 
     for (x = -dx; x < image.width + dx; x += dx)
     {
