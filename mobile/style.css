@@ -2,6 +2,7 @@
 body {
 	font-family: Arial, Times, serif;
 	color: black;
+  background-color: white;
 }
 
 .homeLink:link {
@@ -21,6 +22,10 @@ body {
 .bgibbons {
     font-size: 1.75em;
     text-align: center;
+}
+
+.whiteBack {
+  background-color: white;
 }
 
 .center {
@@ -135,6 +140,7 @@ body {
     position: relative;
     left: 0;
     right: 0;
+    bottom: 0px;
     background-color: black;
     text-align: center;
     color: #bbbbbb;
@@ -153,12 +159,8 @@ body {
 
 .whiteLayer {
 
-  background-color: rgba(255, 255, 255, 0.7);
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&0.91+0,0.55+100 */
-  background: -moz-linear-gradient(top, rgba(255,255,255,0.91) 0%, rgba(255,255,255,0.55) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, rgba(255,255,255,0.91) 0%,rgba(255,255,255,0.55) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, rgba(255,255,255,0.91) 0%,rgba(255,255,255,0.55) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8ffffff', endColorstr='#8cffffff',GradientType=0 ); /* IE6-9 */
+	background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(20px); /* Adjust the blur radius as needed */
 }
 
 .blackLayer {
@@ -168,12 +170,8 @@ body {
   bottom: 0;
   right: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.7);
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.55+0,0.91+99 */
-  background: -moz-linear-gradient(top, rgba(0,0,0,0.55) 0%, rgba(0,0,0,0.91) 99%, rgba(0,0,0,0.91) 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, rgba(0,0,0,0.55) 0%,rgba(0,0,0,0.91) 99%,rgba(0,0,0,0.91) 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, rgba(0,0,0,0.55) 0%,rgba(0,0,0,0.91) 99%,rgba(0,0,0,0.91) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8c000000', endColorstr='#e8000000',GradientType=0 ); /* IE6-9 */
+	background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(20px); /* Adjust the blur radius as needed */
 
   font-size: 1em;
   text-align: center;
