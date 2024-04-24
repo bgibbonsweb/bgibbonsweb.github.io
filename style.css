@@ -559,6 +559,39 @@ canvas {
 .homePic {
 }
 
+.bannerBuild {
+  background-color: rgba(255, 245, 235, 0.3);
+  backdrop-filter: blur(20px); /* Adjust the blur radius as needed */
+  width: 1400px;
+  height: 350px;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+}
+
+.bannerImg {
+  filter: brightness(200%) saturate(150%) hue-rotate(-30deg); /* Increase brightness by 50% */
+}
+
+.bannerLeft {
+  position: fixed;
+  color: rgb(0, 0, 30);
+  font-size: 70px;
+  font-family:sans-serif;
+  left: 30px;
+  top: 30px;
+}
+
+.bannerRight {
+  position: fixed;
+  color: rgb(0, 0, 30);
+  font-size: 50px;
+  font-family:sans-serif;
+  right: 30px;
+  top: 50px;
+  text-align: right;
+}
+
 .homePicCover {
     position: absolute;
     top: -4px;
