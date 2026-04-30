@@ -4,6 +4,8 @@
 		<style>
 			html, body {margin: 0; height: 100%; overflow: hidden}
 			canvas { width: 100%; height: 100% }
+			body.embedMode .lowerRight,
+			body.embedMode .lowerLeft { display: none; }
 			.lowerRight
 			{
 				position: fixed;
@@ -26,6 +28,11 @@
 			a{color: white;}
 			a:visited {color: white;}
 		</style>
+		<script>
+			if (window.location.search.indexOf("embed=1") !== -1) {
+				document.documentElement.className += " auroraEmbedMode";
+			}
+		</script>
 				<script type="x-shader/x-vertex" id="treevertexshader">
 
 
@@ -302,6 +309,11 @@
 		</script>
 	</head>
 	<body>
+		<script>
+			if (window.location.search.indexOf("embed=1") !== -1) {
+				document.body.className += " embedMode";
+			}
+		</script>
 		<script src="lib/three.js"></script>
 		<script src="lib/Lensflare.js"></script>
 		<script src="lib/GLTFLoader.js"></script>

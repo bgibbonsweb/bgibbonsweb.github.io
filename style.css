@@ -29,7 +29,7 @@
 }
 
 .playDiv img {
-  opacity: 0.3;
+  opacity: 0.8;
 }
 
 .playDiv:hover img {
@@ -42,6 +42,7 @@
 }
 
 .playText {
+  color: white;
   position: absolute;
   left: 30px;
   top: 30px;
@@ -158,6 +159,14 @@
   width: 100%;
   height: 30px;
   background-color: rgb(0, 0, 0);
+}
+
+@media (max-width: 900px) {
+  .topBar {
+    width: 100%;
+    height: 0px;
+    background-color: rgb(0, 0, 0);
+  }
 }
 
 .darkLink {
@@ -297,13 +306,13 @@
 
 
 a:link {
-    color: white;
+    color: black;
     text-decoration: none;
     -webkit-transition: color 0.3s; /* Safari */
     transition: color 0.3s;
 }
 a:visited {
-    color: white;
+    color: rgb(0, 0, 0);
     -webkit-transition: color 0.3s; /* Safari */
     transition: color 0.3s;
 }
@@ -311,7 +320,7 @@ a:hover {
     color: rgb(100, 100, 255);
 }
 a:active {
-    color: rgb(220, 220, 220);
+    color: black;
     -webkit-transition: color 0.3s; /* Safari */
     transition: color 0.3s;
 }
@@ -355,11 +364,11 @@ a:active {
 }
 
 .topLink:link {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 .topLink:link:hover {
-  color: rgb(100, 100, 255);
+  color: rgb(var(--ui-hover-rgb, 100, 100, 255));
 }
 
 .blackLink {
@@ -411,9 +420,1085 @@ body {
 
   margin: 0;
 
-  background-color: black;
+  background-color: rgb(5, 8, 12);
    min-width:500px;        /* Suppose you want minimum width of 1000px */
    width: auto !important;  /* Firefox will set width as auto */
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: -24px;
+  z-index: -2;
+  pointer-events: none;
+  background-image: url("scene_screenshots/cypberunk_city.png");
+  background-size: cover;
+  background-position: center;
+  filter: blur(16px) brightness(0.5);
+  transform: scale(1.06);
+}
+
+@media (max-width: 900px) {
+  body {
+    min-width: 0;
+  }
+
+  .blackBackground,
+  body:not(.homePage) #leftBar,
+  .homePage #leftBar {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    max-height: none;
+    border-right: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    overflow: visible;
+  }
+
+  #leftBar {
+    display: block;
+  }
+
+  #leftBar .smallerText {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  #leftBar .smallerText a {
+    min-width: 0;
+  }
+
+  #leftBar .linkArrow {
+    min-height: 100%;
+  }
+
+  #leftBar .socialIcons {
+    padding: 8px 0 12px;
+  }
+
+  .fixedLeftContent,
+  .fixedLeftContent2,
+  .rightContainerHome,
+  .rightContainer {
+    position: relative;
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+
+  .rightContainerHome {
+    min-height: 100svh;
+  }
+
+  .homePage #homeBackContainer.auroraBackgroundContainer {
+    position: absolute;
+  }
+
+  .homePicBanner,
+  .homePicBanner2 {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 8;
+  }
+
+  .mainSubTextTable,
+  .mainSubTextTableHome {
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 18px 18px 8px;
+    width: auto;
+  }
+
+  .mainSubTextTable table,
+  .mainSubTextTableHome table,
+  .mainSubTextTable tbody,
+  .mainSubTextTableHome tbody,
+  .mainSubTextTable tr,
+  .mainSubTextTableHome tr {
+    display: block;
+    width: 100%;
+  }
+
+  .mainSubTextTable td,
+  .mainSubTextTableHome td {
+    display: block;
+    width: 100%;
+    padding: 4px 0;
+  }
+
+  .top-left {
+    display: block;
+    padding: 16px 18px 0;
+    font-size: 1.4em;
+  }
+
+  .homePage .top-left {
+    padding-top: 14px;
+  }
+
+  .homeScenePicker {
+    right: 12px;
+    left: 12px;
+    bottom: 12px;
+    max-width: none;
+    transform: none;
+    transform-origin: center;
+  }
+
+  .homeSceneButton {
+    width: calc(50% - 4px);
+  }
+
+  .homeSceneDragHint {
+    left: 50%;
+    bottom: 110px;
+  }
+
+  .homeSceneCredits {
+    left: 0;
+    padding-bottom: 14px;
+  }
+
+  .whiteCell,
+  .blackCell,
+  .barCell,
+  .resumeCell,
+  .botCell,
+  .blurCell,
+  .blurCell2,
+  .levelCell,
+  .pswCell,
+  .pureWhiteCell {
+    padding: 28px 20px;
+  }
+
+  .whiteCellFade {
+    -webkit-mask-image: none;
+    mask-image: none;
+  }
+
+  iframe,
+  .outlineBox iframe {
+    width: 100%;
+    max-width: 100%;
+    height: min(56vw, 420px);
+  }
+
+  img,
+  canvas {
+    max-width: 100%;
+  }
+
+  .projectTable,
+  .projectTable tbody,
+  .projectTable tr,
+  .projectTable td {
+    display: block;
+    width: 100%;
+  }
+
+  .hdLink {
+    position: static;
+    padding: 12px 20px 0;
+    text-align: right;
+  }
+}
+
+/* Keep subpage mobile menu drawer behavior above earlier generic mobile resets. */
+@media (max-width: 900px) {
+  body:not(.homePage) #leftBar {
+    position: fixed;
+    top: 58px;
+    left: 12px;
+    right: 12px;
+    width: auto;
+    height: auto;
+    max-height: min(62vh, 540px);
+    overflow-y: auto;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-bottom: 0;
+    border-radius: 22px;
+    opacity: 0;
+    transform: translateY(-10px) scale(0.985);
+    pointer-events: none;
+    transition: opacity 0.24s ease, transform 0.24s ease;
+    z-index: 30;
+  }
+
+  body:not(.homePage).subpageMenuOpen #leftBar,
+  body:not(.homePage) #leftBar.is-subpage-open {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    pointer-events: auto;
+  }
+
+  body:not(.homePage) .subpageMobileMenuToggle {
+    z-index: 31;
+  }
+}
+
+@media (max-width: 640px) {
+  #leftBar .smallerText {
+    grid-template-columns: 1fr;
+  }
+
+  .mainSubText {
+    font-size: 1.05em;
+  }
+
+  .homeSceneButton {
+    width: 100%;
+  }
+
+  .homeSceneDragHint {
+    display: none;
+  }
+}
+
+@media (max-width: 900px) {
+  body:not(.homePage) #leftBar {
+    top: 42px !important;
+    bottom: 8px !important;
+    max-height: none !important;
+    overflow-y: hidden !important;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  body:not(.homePage) #leftBar::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    display: none;
+  }
+
+  body:not(.homePage) #leftBar .smallerText {
+    align-content: start;
+  }
+
+  body:not(.homePage) .subpageMobileMenuActions {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 0 0 6px;
+  }
+
+  body:not(.homePage) .subpageMobileHomeLink {
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    background: rgba(255, 255, 255, 0.16);
+    color: inherit;
+    font-size: 0.68rem;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  body:not(.homePage) .subpageMobileHomeLink:hover {
+    text-decoration: none;
+  }
+
+  body:not(.homePage).subpageSceneDark .subpageMobileHomeLink {
+    color: rgb(238, 242, 248);
+    border-color: rgba(255, 255, 255, 0.12);
+    background: rgba(10, 14, 20, 0.48);
+  }
+
+  body.resumePage .resumeType {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto 28px;
+    padding-right: 0;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  body.resumePage .resumeType a {
+    display: inline-block;
+    max-width: 100%;
+  }
+
+  body.resumePage .resumeType img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 900px) {
+  body.projectsPage .fixedLeftContent > div:first-child,
+  body.projectsPage #webGlCanvas {
+    display: none !important;
+    height: 0 !important;
+    min-height: 0 !important;
+    overflow: hidden !important;
+  }
+
+
+body.artPage #leftBar {
+  position: fixed;
+  top: 58px;
+  left: 12px;
+  right: 12px;
+  width: auto;
+  height: auto;
+  max-height: min(62vh, 540px);
+  overflow-y: auto;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-bottom: 0;
+  border-radius: 22px;
+  opacity: 0;
+  transform: translateY(-10px) scale(0.985);
+  pointer-events: none;
+  transition: opacity 0.24s ease, transform 0.24s ease;
+  z-index: 30;
+}
+
+body.artPage.subpageMenuOpen #leftBar,
+body.artPage #leftBar.is-subpage-open {
+  display: block;
+  visibility: visible;
+  opacity: 1 !important;
+  transform: translateY(0) scale(1) !important;
+  pointer-events: auto;
+}
+
+body.artPage .subpageMobileMenuToggle {
+  position: fixed;
+  top: 12px;
+  right: 12px;
+  z-index: 31;
+  display: block;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  background: rgba(10, 14, 20, 0.48);
+  color: rgb(238, 242, 248);
+  min-width: 0;
+  padding: 8px 12px;
+  border-radius: 999px;
+  font: inherit;
+  font-size: 0.72rem;
+  line-height: 1;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+  body.projectsPage .projectTableCell,
+  body.projectsPage .projectTableCell2 {
+    display: block;
+    width: 100% !important;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  body.projectsPage .projectTableCell img,
+  body.projectsPage .projectTableCell2 img {
+    width: 100% !important;
+    height: auto !important;
+    max-width: 100%;
+  }
+
+  body:not(.homePage) .top-left,
+  body:not(.homePage) .mainSubTextTable {
+    display: none !important;
+  }
+
+  body:not(.homePage) .rightContainerHome {
+    display: none !important;
+    min-height: 0 !important;
+    height: 0 !important;
+  }
+
+  body:not(.homePage).subpageMenuOpen {
+    overflow-x: hidden;
+    overscroll-behavior-x: none;
+    touch-action: pan-y;
+  }
+
+  body:not(.homePage) #leftBar {
+    top: 58px !important;
+    bottom: 12px !important;
+    max-height: none !important;
+    overflow-y: visible !important;
+  }
+
+  body:not(.homePage) #leftBar .smallerText {
+    align-content: start;
+  }
+
+  body:not(.homePage) .subpageMobileMenuActions {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 0 0 6px;
+  }
+
+  body:not(.homePage) .subpageMobileHomeLink {
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    background: rgba(255, 255, 255, 0.16);
+    color: inherit;
+    font-size: 0.68rem;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  body:not(.homePage) .subpageMobileHomeLink:hover {
+    text-decoration: none;
+  }
+
+  body:not(.homePage).subpageSceneDark .subpageMobileHomeLink {
+    color: rgb(238, 242, 248);
+    border-color: rgba(255, 255, 255, 0.12);
+    background: rgba(10, 14, 20, 0.48);
+  }
+}
+
+/* Final fallback: force Art page menu button visibility on mobile. */
+@media (max-width: 900px) {
+  body.artPage .subpageMobileMenuToggle {
+    position: fixed !important;
+    top: 12px !important;
+    right: 12px !important;
+    z-index: 2147483647 !important;
+    display: inline-block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    pointer-events: auto !important;
+    min-width: 64px !important;
+    min-height: 30px !important;
+    padding: 8px 12px !important;
+    border-radius: 999px !important;
+    border: 1px solid rgba(255, 255, 255, 0.22) !important;
+    background: rgba(10, 14, 20, 0.48) !important;
+    color: rgb(238, 242, 248) !important;
+    font-family: Arial, Times, serif !important;
+    font-size: 12px !important;
+    line-height: 1 !important;
+    letter-spacing: 0.12em !important;
+    text-transform: uppercase !important;
+    cursor: pointer !important;
+    -webkit-appearance: none !important;
+    appearance: none !important;
+  }
+
+  body.artPage #leftBar {
+    opacity: 0 !important;
+    transform: translateY(-10px) scale(0.985) !important;
+    pointer-events: none !important;
+  }
+
+  body.artPage.subpageMenuOpen #leftBar,
+  body.artPage #leftBar.is-subpage-open {
+    opacity: 1 !important;
+    transform: translateY(0) scale(1) !important;
+    pointer-events: auto !important;
+  }
+}
+
+/* Final guard: no horizontal scrolling on mobile subpages. */
+@media (max-width: 900px) {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: hidden !important;
+  }
+
+  body:not(.homePage),
+  body:not(.homePage) .fixedLeftContent,
+  body:not(.homePage) .fixedLeftContent2,
+  body:not(.homePage) .rightContainer,
+  body:not(.homePage) .rightContainerHome,
+  body:not(.homePage) .whiteCell,
+  body:not(.homePage) .blackCell,
+  body:not(.homePage) .barCell,
+  body:not(.homePage) .resumeCell,
+  body:not(.homePage) .botCell,
+  body:not(.homePage) .blurCell,
+  body:not(.homePage) .blurCell2,
+  body:not(.homePage) .levelCell,
+  body:not(.homePage) .pureWhiteCell {
+    max-width: 100vw;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    overflow-y: hidden;
+  }
+
+  body:not(.homePage) img,
+  body:not(.homePage) canvas,
+  body:not(.homePage) iframe,
+  body:not(.homePage) video,
+  body:not(.homePage) table {
+    max-width: 100% !important;
+  }
+}
+
+/* Final mobile override for Art page menu visibility. */
+@media (max-width: 900px) {
+  body.artPage .subpageMobileMenuToggle {
+    position: fixed !important;
+    top: 12px !important;
+    right: 12px !important;
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    z-index: 1200 !important;
+    border: 1px solid rgba(255, 255, 255, 0.22) !important;
+    background: rgba(10, 14, 20, 0.48) !important;
+    color: rgb(238, 242, 248) !important;
+    padding: 8px 12px !important;
+    border-radius: 999px !important;
+    line-height: 1 !important;
+    letter-spacing: 0.12em !important;
+    text-transform: uppercase !important;
+  }
+
+  body.artPage #leftBar {
+    opacity: 0 !important;
+    transform: translateY(-10px) scale(0.985) !important;
+    pointer-events: none !important;
+  }
+
+  body.artPage.subpageMenuOpen #leftBar,
+  body.artPage #leftBar.is-subpage-open {
+    opacity: 1 !important;
+    transform: translateY(0) scale(1) !important;
+    pointer-events: auto !important;
+  }
+}
+
+@media (max-width: 900px) {
+  body:not(.homePage) #leftBar {
+    position: fixed !important;
+    top: 58px !important;
+    left: 12px !important;
+    right: 12px !important;
+    width: auto !important;
+    height: auto !important;
+    max-height: min(62vh, 540px) !important;
+    overflow-y: auto !important;
+    border: 1px solid rgba(255, 255, 255, 0.14) !important;
+    border-bottom: 0 !important;
+    border-radius: 22px !important;
+    display: block !important;
+    visibility: visible !important;
+    opacity: 0 !important;
+    transform: translateY(-10px) scale(0.985) !important;
+    pointer-events: none !important;
+    transition: opacity 0.24s ease, transform 0.24s ease !important;
+    z-index: 30 !important;
+  }
+
+  body:not(.homePage).subpageMenuOpen #leftBar,
+  body:not(.homePage) #leftBar.is-subpage-open {
+    opacity: 1 !important;
+    transform: translateY(0) scale(1) !important;
+    pointer-events: auto !important;
+  }
+
+  body:not(.homePage) .subpageMobileMenuToggle {
+    z-index: 31 !important;
+  }
+}
+
+@media (max-width: 900px) {
+  body:not(.homePage) #leftBar {
+    position: fixed;
+    top: 58px;
+    left: 12px;
+    right: 12px;
+    width: auto;
+    height: auto;
+    max-height: min(62vh, 540px);
+    overflow-y: auto;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-bottom: 0;
+    border-radius: 22px;
+    opacity: 0;
+    transform: translateY(-10px) scale(0.985);
+    pointer-events: none;
+    transition: opacity 0.24s ease, transform 0.24s ease;
+    z-index: 30;
+  }
+
+  body:not(.homePage).subpageMenuOpen #leftBar {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    pointer-events: auto;
+  }
+
+  body:not(.homePage) .subpageMobileMenuToggle {
+    z-index: 31;
+  }
+}
+
+.homeMobileHeader {
+  display: none;
+}
+
+.homeMobileThemeToggle {
+  display: none;
+}
+
+.homeMobileMenuClose {
+  display: none;
+}
+
+.homeMobileHomeTile {
+  display: none !important;
+}
+
+.subpageMobileMenuToggle,
+.subpageMobileMenuClose {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .homePage .homeMobileHeader {
+    position: fixed;
+    top: 12px;
+    left: 12px;
+    right: 12px;
+    z-index: 12;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 14px 14px 12px;
+    color: rgb(20, 20, 24);
+    background: rgba(246, 247, 245, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.16);
+    backdrop-filter: blur(18px) saturate(145%);
+    -webkit-backdrop-filter: blur(18px) saturate(145%);
+    border-radius: 22px;
+  }
+
+  .homePage.darkSceneUi .homeMobileHeader {
+    color: rgb(238, 242, 248);
+    background: rgba(10, 14, 20, 0.48);
+    border-color: rgba(255, 255, 255, 0.12);
+    box-shadow: 0 18px 36px rgba(0, 0, 0, 0.34);
+  }
+
+  .homePage.darkSceneUi .homeMobileName:link,
+  .homePage.darkSceneUi .homeMobileName:visited,
+  .homePage.darkSceneUi .homeMobileName:hover,
+  .homePage.darkSceneUi .homeMobileName:active {
+    color: rgb(248, 250, 255) !important;
+  }
+
+  body:not(.homePage) .subpageMobileMenuToggle {
+    position: fixed;
+    top: 12px;
+    right: 12px;
+    z-index: 14;
+    display: block;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    background: rgba(255, 255, 255, 0.16);
+    color: rgb(18, 18, 18);
+    align-self: flex-start;
+    min-width: 0;
+    padding: 8px 12px;
+    border-radius: 999px;
+    font: inherit;
+    font-size: 0.72rem;
+    line-height: 1;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  body:not(.homePage).subpageSceneDark .subpageMobileMenuToggle {
+    color: rgb(238, 242, 248);
+    background: rgba(10, 14, 20, 0.48);
+    border-color: rgba(255, 255, 255, 0.12);
+    box-shadow: 0 18px 36px rgba(0, 0, 0, 0.34);
+  }
+
+  body:not(.homePage) .subpageMobileMenuToggle:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.12);
+  }
+
+  .homeMobileIdentity {
+    min-width: 0;
+    flex: 1 1 auto;
+  }
+
+  .homeMobileName {
+    display: inline-block;
+    font-size: 1.45rem;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    margin-bottom: 6px;
+  }
+
+  .homeMobileRoles {
+    display: grid;
+    gap: 3px;
+    font-size: 0.74rem;
+    line-height: 1.2;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    opacity: 0.84;
+  }
+
+  .homeMobileMenuToggle {
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    background: rgba(255, 255, 255, 0.16);
+    color: inherit;
+    align-self: flex-start;
+    flex: 0 0 auto;
+    min-width: 0;
+    padding: 8px 12px;
+    border-radius: 999px;
+    font: inherit;
+    font-size: 0.72rem;
+    line-height: 1;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .homeMobileMenuToggle:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.12);
+  }
+
+  .homePage #leftBar {
+    position: fixed;
+    top: 108px;
+    left: 12px;
+    right: 12px;
+    width: auto;
+    height: auto;
+    max-height: min(62vh, 540px);
+    overflow-y: auto;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-bottom: 0;
+    border-radius: 22px;
+    opacity: 0;
+    transform: translateY(-10px) scale(0.985);
+    pointer-events: none;
+    transition: opacity 0.24s ease, transform 0.24s ease;
+    z-index: 14;
+  }
+
+  .homePage.homeMenuOpen #leftBar {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    pointer-events: auto;
+    z-index: 100;
+  }
+
+  .homePage #leftBar .smallerText {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .homePage .homeMobileMenuClose {
+    display: block;
+    justify-self: end;
+    margin: 0 0 6px;
+    padding: 8px 12px;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    background: rgba(255, 255, 255, 0.16);
+    color: inherit;
+    font: inherit;
+    font-size: 0.68rem;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .homePage #leftBar .bgibbons {
+    display: none;
+  }
+
+  body:not(.homePage) #leftBar {
+    position: fixed;
+    top: 58px;
+    left: 12px;
+    right: 12px;
+    width: auto;
+    height: auto;
+    max-height: min(62vh, 540px);
+    overflow-y: auto;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-bottom: 0;
+    border-radius: 22px;
+    opacity: 0;
+    transform: translateY(-10px) scale(0.985);
+    pointer-events: none;
+    transition: opacity 0.24s ease, transform 0.24s ease;
+    z-index: 13;
+  }
+
+  body:not(.homePage).subpageMenuOpen #leftBar {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+    pointer-events: auto;
+  }
+
+  body:not(.homePage) #leftBar .smallerText {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  body:not(.homePage) #leftBar .bgibbons {
+    display: none;
+  }
+
+  body:not(.homePage) .subpageMobileMenuClose {
+    display: block;
+    justify-self: end;
+    margin: 0 0 6px;
+    padding: 8px 12px;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    background: rgba(255, 255, 255, 0.16);
+    color: inherit;
+    font: inherit;
+    font-size: 0.68rem;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+
+  .homePage .rightContainerHome {
+    position: fixed;
+    inset: 0;
+    min-height: 100svh;
+    z-index: 1;
+  }
+
+  .homePage #homeBackContainer,
+  .homePage #homeBackContainer.auroraBackgroundContainer,
+  .homePage .auroraEmbedFrame {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .homePage .mainSubTextTableHome,
+  .homePage .homePicBanner {
+    display: none;
+  }
+
+  .homePage .homeScenePicker {
+    left: 12px;
+    right: 12px;
+    bottom: 16px;
+    z-index: 12;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding: 8px;
+    border-radius: 22px;
+    max-width: none;
+    width: auto;
+    justify-content: flex-start;
+    max-height: calc(100vh - 220px);
+    overflow: hidden;
+  }
+
+  .homePage .homeSceneCreditsInline {
+    display: block;
+    flex: 1 1 auto;
+    min-width: 0;
+    font-size: 0.62rem;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    opacity: 0.86;
+    padding: 0 4px;
+    white-space: normal;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+
+  .homePage .homeSceneCreditsInline a {
+    color: inherit;
+    text-decoration: underline;
+    opacity: 0.9;
+  }
+
+  .homePage .homeMobileThemeToggle {
+    display: block;
+    width: auto;
+    flex-shrink: 0;
+    margin-left: auto;
+    padding: 8px 12px;
+    border: 1px solid rgba(255, 255, 255, 0.16);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.14);
+    color: inherit;
+    font: inherit;
+    font-size: 0.7rem;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .homePage.darkSceneUi .homeMobileThemeToggle {
+    color: rgb(248, 250, 255);
+  }
+
+  .homePage.darkSceneUi .homeSceneCreditsInline,
+  .homePage.darkSceneUi .homeSceneCreditsInline a {
+    color: rgb(248, 250, 255);
+  }
+
+  .homePage .homeMobileThemeToggle:hover {
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.12);
+  }
+
+  .homePage .homeScenePickerTitle {
+    display: none;
+  }
+
+  .homePage .homeSceneButton {
+    width: calc(25% - 5px);
+    min-width: 72px;
+    border-radius: 16px;
+  }
+
+  .homePage .homeScenePicker:not(.is-mobile-open) .homeScenePickerTitle,
+  .homePage .homeScenePicker:not(.is-mobile-open) .homeSceneButton,
+  .homePage .homeScenePicker:not(.is-mobile-open) .homeSceneMoreButton {
+    display: none;
+  }
+
+  .homePage .homeScenePicker.is-mobile-open {
+    padding: 10px;
+    overflow-y: auto;
+  }
+
+  .homePage .homeScenePicker.is-mobile-open .homeMobileThemeToggle,
+  .homePage .homeScenePicker.is-mobile-open .homeSceneCreditsInline {
+    display: none;
+  }
+
+  .homePage .homeScenePicker.is-mobile-open .homeSceneButton {
+    display: flex;
+  }
+
+  .homePage .homeScenePicker.is-mobile-open .homeSceneGroupTitle {
+    display: block;
+    width: 100%;
+    margin: 6px 2px 2px;
+    font-size: 0.62rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: rgba(28, 36, 48, 0.72);
+  }
+
+  .homePage.darkSceneUi .homeScenePicker.is-mobile-open .homeSceneGroupTitle {
+    color: rgba(248, 250, 255, 0.78);
+  }
+
+  .homePage .homeScenePicker.is-mobile-open .homeSceneMoreButton,
+  .homePage .homeScenePicker.is-mobile-open .homeSceneMoreButton * {
+    display: none;
+  }
+
+  .homePage .homeScenePicker.is-mobile-open .homeSceneButton.is-extra {
+    display: flex;
+  }
+
+  .homePage .homeSceneThumb {
+    height: 44px;
+  }
+
+  .homePage .homeSceneButtonLabel {
+    font-size: 0.56rem;
+    padding: 4px 5px 6px;
+  }
+
+  .homePage .homeSceneDragHint {
+    bottom: 112px;
+  }
+
+  .homePage .middleLoadingText {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    max-width: calc(100vw - 48px);
+    text-align: center;
+  }
+
+  .homePage .homeSceneCredits {
+    display: none !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .homePage .homeMobileHeader {
+    align-items: flex-start;
+    flex-direction: row;
+    border-radius: 18px;
+  }
+
+  .homeMobileMenuToggle {
+    width: auto;
+  }
+
+  .homePage #leftBar {
+    top: 152px;
+  }
+
+  .homePage .homeScenePicker {
+    padding: 9px;
+  }
+
+  .homePage .homeSceneButton {
+    width: calc(50% - 4px);
+  }
+
+  .homePage .homeMobileThemeToggle {
+    font-size: 0.66rem;
+  }
+
+  .homePage .homeSceneCreditsInline {
+    font-size: 0.58rem;
+  }
+
+  .homePage .homeSceneCredits {
+    display: none !important;
+  }
 }
 
 canvas {
@@ -457,6 +1542,653 @@ canvas {
   height: 100%;
 }
 
+#homeBackContainer.auroraBackgroundContainer {
+  cursor: default;
+  overflow: hidden;
+  position: relative;
+  height: 100vh;
+  background-color: rgb(3, 6, 12);
+}
+
+.homePage #homeBackContainer.auroraBackgroundContainer {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+}
+
+#homeBackContainer.iframeSceneMode > :not(iframe.auroraEmbedFrame) {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.auroraEmbedFrame {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+  background-color: rgb(3, 6, 12);
+  transition: opacity 0.34s ease;
+}
+
+.homeSceneDragHint {
+  position: fixed;
+  left: calc(50% + 112px);
+  bottom: 50%;
+  z-index: 7;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.34);
+  background-color: rgba(245, 249, 252, 0.4);
+  color: rgba(18, 18, 18, 0.78);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.16);
+  backdrop-filter: blur(12px) saturate(145%);
+  -webkit-backdrop-filter: blur(12px) saturate(145%);
+  pointer-events: none;
+  opacity: 1;
+  transform: translate(-50%, 0px);
+  transition: opacity 0.28s ease, transform 0.28s ease;
+}
+
+.homeSceneDragHint.is-hidden {
+  opacity: 0;
+  transform: translate(-50%, 8px);
+}
+
+.homeSceneDragHintIcon {
+  width: 19px;
+  height: 19px;
+  border: 1.5px solid currentColor;
+  border-radius: 50%;
+  position: relative;
+  opacity: 0.86;
+}
+
+.homeSceneDragHintDot {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  left: 50%;
+  top: 50%;
+  margin-left: -2.5px;
+  margin-top: -2.5px;
+  border-radius: 50%;
+  background-color: currentColor;
+  animation: homeSceneDragHintPulse 1.25s ease-in-out infinite;
+}
+
+@keyframes homeSceneDragHintPulse {
+  0%, 100% {
+    transform: scale(0.9);
+    opacity: 0.45;
+  }
+  50% {
+    transform: scale(1.25);
+    opacity: 1;
+  }
+}
+
+.homeSceneDragHintText {
+  font-size: 0.75em;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.homePage.darkSceneUi .homeSceneDragHint {
+  border-color: rgba(255, 255, 255, 0.16);
+  background-color: rgba(8, 12, 18, 0.58);
+  color: rgba(226, 236, 255, 0.82);
+  box-shadow: 0 14px 34px rgba(0, 0, 0, 0.34);
+}
+
+@media (max-width: 980px) {
+  .homeSceneDragHint {
+    left: 50%;
+    bottom: 50%;
+  }
+}
+
+.homeScenePicker {
+  position: fixed;
+  right: 24px;
+  bottom: 42px;
+  z-index: 9;
+  transform: scale(0.8);
+  transform-origin: bottom right;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px;
+  max-width: calc(100vw - 28px);
+  padding: 10px;
+  background-color: rgba(242, 246, 249, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.18);
+  backdrop-filter: blur(18px) saturate(150%);
+  -webkit-backdrop-filter: blur(18px) saturate(150%);
+}
+
+.homeScenePickerTitle {
+  display: none;
+}
+
+.homeSceneGroupTitle {
+  display: none;
+}
+
+.homeSceneButton {
+  width: 108px;
+  padding: 0;
+  border: 2px solid rgba(0, 0, 0, 0.12);
+  background-color: rgba(255, 255, 255, 0.18);
+  color: rgb(18, 18, 18);
+  text-align: center;
+  font: inherit;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.homeScenePicker:not(.is-expanded) .homeSceneButton.is-extra {
+  display: none;
+}
+
+.homeScenePicker.is-expanded .homeSceneMoreButton {
+  display: none;
+}
+
+.homeSceneMoreButton .homeSceneThumb {
+  background: linear-gradient(135deg, rgba(70, 84, 102, 0.45) 0%, rgba(28, 34, 44, 0.55) 100%);
+  position: relative;
+}
+
+.homeSceneMoreButton .homeSceneThumb::before {
+  content: "+";
+  display: block;
+  font-size: 2.1em;
+  line-height: 60px;
+  text-align: center;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.homeSceneThumb {
+  display: block;
+  width: 100%;
+  height: 60px;
+  flex-shrink: 0;
+}
+
+.homeSceneButtonLabel {
+  display: block;
+  padding: 5px 6px;
+  font-size: 0.7em;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.homeSceneButton:hover {
+  border-color: rgba(var(--ui-hover-rgb), 0.55);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.18);
+  transform: translateY(-2px);
+}
+
+.homeSceneButton.is-active {
+  border-color: rgba(var(--ui-hover-rgb), 0.9);
+  box-shadow: 0 0 0 1px rgba(var(--ui-hover-rgb), 0.3), 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.homePage.darkSceneUi .homeScenePicker {
+  background-color: rgba(8, 12, 18, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.34);
+}
+
+.homePage.darkSceneUi .homeScenePickerTitle {
+  color: rgba(255, 255, 255, 0.72);
+}
+
+.homePage.darkSceneUi .homeSceneButton {
+  border-color: rgba(255, 255, 255, 0.14);
+  background-color: rgba(0, 0, 0, 0.32);
+  color: rgb(242, 244, 248);
+}
+
+.homePage.darkSceneUi .homeSceneButton:hover {
+  border-color: rgba(var(--ui-hover-rgb), 0.6);
+}
+
+.homePage.darkSceneUi .homeSceneButton.is-active {
+  border-color: rgba(var(--ui-hover-rgb), 0.9);
+  box-shadow: 0 0 0 1px rgba(var(--ui-hover-rgb), 0.3), 0 10px 22px rgba(0, 0, 0, 0.3);
+}
+
+.homeSceneCredits {
+  position: fixed;
+  bottom: 0px;
+  /* left: 225px; */
+  right: 0;
+  z-index: 8;
+  padding: 7px 16px;
+  font-size: 0.72em;
+  color: rgba(24, 24, 24, 0.72);
+  background-color: rgba(242, 246, 249, 0.5);
+  backdrop-filter: blur(12px) saturate(140%);
+  -webkit-backdrop-filter: blur(12px) saturate(140%);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.homeSceneCredits a {
+  color: inherit;
+  text-decoration: underline;
+  opacity: 0.85;
+}
+
+.homeSceneCredits a:hover {
+  opacity: 1;
+}
+
+.homePage.darkSceneUi .homeSceneCredits {
+  color: rgba(220, 230, 255, 0.7);
+  background-color: rgba(8, 12, 18, 0.55);
+  border-top-color: rgba(255, 255, 255, 0.12);
+}
+
+@media (min-width: 901px) {
+  .homePage .homeSceneCreditsInline {
+    display: none !important;
+  }
+
+  .homePage .homeMobileHomeTile {
+    display: none !important;
+  }
+
+  .homePage .homeDesktopBrandLink,
+  .homePage #leftBar .homeDesktopBrandLink .bgibbons {
+    display: block !important;
+  }
+}
+
+body:not(.homePage) .homePicBanner2 {
+  top: -10px;
+  left: 0;
+  height: 70px;
+  border: 1px solid rgba(255, 255, 255, 0.34);
+  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.44);
+  backdrop-filter: blur(16px) saturate(138%);
+  -webkit-backdrop-filter: blur(16px) saturate(138%);
+  overflow: hidden;
+}
+
+body:not(.homePage) .homePicBanner2::before {
+  content: "";
+  position: absolute;
+  inset: -14px;
+  z-index: 0;
+  background-image: var(--subpage-scene-image, url("scene_screenshots/cypberunk_city.png"));
+  background-size: cover;
+  background-position: center;
+  filter: blur(10px) saturate(120%);
+  transform: scale(1.06);
+}
+
+body:not(.homePage) .homePicBanner2::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+}
+
+body:not(.homePage) #leftBar {
+  color: rgb(18, 18, 18);
+  background-color: rgba(244, 236, 214, 0.24);
+  border-right: 1px solid rgba(255, 255, 255, 0.36);
+  overflow-y: hidden;
+  overflow-x: hidden;
+  backdrop-filter: blur(14px) saturate(132%);
+  -webkit-backdrop-filter: blur(14px) saturate(132%);
+  z-index: 2;
+}
+
+body:not(.homePage) #leftBar .padding90 {
+  display: none;
+}
+
+body:not(.homePage) #leftBar.blackBackground::before {
+  background-image: var(--subpage-scene-image, url("scene_screenshots/cypberunk_city.png"));
+  background-size: cover;
+  background-position: center;
+  filter: blur(12px) saturate(120%);
+  transform: scale(1.08);
+}
+
+/* Desktop subpages: start in dark nav/header style to avoid first-paint flash before JS theme class is applied */
+@media (min-width: 901px) {
+  body:not(.homePage):not(.subpageSceneLight) .homePicBanner2 {
+    border-color: rgba(255, 255, 255, 0.16);
+    box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.14);
+  }
+
+  body:not(.homePage):not(.subpageSceneLight) .homePicBanner2::after {
+    background: linear-gradient(90deg, rgba(10, 16, 24, 0.72), rgba(18, 25, 36, 0.58));
+  }
+
+  body:not(.homePage):not(.subpageSceneLight) #leftBar {
+    color: rgb(240, 244, 250);
+    background-color: rgba(10, 14, 20, 0.4);
+    border-right-color: rgba(255, 255, 255, 0.12);
+  }
+
+  body:not(.homePage):not(.subpageSceneLight) #leftBar.blackBackground::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background: linear-gradient(180deg, rgba(7, 10, 16, 0.62), rgba(12, 18, 28, 0.52));
+    pointer-events: none;
+  }
+
+  body:not(.homePage):not(.subpageSceneLight) #leftBar a:link,
+  body:not(.homePage):not(.subpageSceneLight) #leftBar a:visited,
+  body:not(.homePage):not(.subpageSceneLight) #leftBar a:hover,
+  body:not(.homePage):not(.subpageSceneLight) #leftBar a:active,
+  body:not(.homePage):not(.subpageSceneLight) .top-left .topLink:link,
+  body:not(.homePage):not(.subpageSceneLight) .top-left .topLink:visited,
+  body:not(.homePage):not(.subpageSceneLight) .top-left .topLink:hover,
+  body:not(.homePage):not(.subpageSceneLight) .top-left .topLink:active,
+  body:not(.homePage):not(.subpageSceneLight) .mainSubTextTable .topLink:link,
+  body:not(.homePage):not(.subpageSceneLight) .mainSubTextTable .topLink:visited,
+  body:not(.homePage):not(.subpageSceneLight) .mainSubTextTable .topLink:hover,
+  body:not(.homePage):not(.subpageSceneLight) .mainSubTextTable .topLink:active {
+    color: rgb(236, 242, 250);
+  }
+
+  body:not(.homePage):not(.subpageSceneLight) #leftBar .linkArrow {
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    background-color: rgba(6, 10, 16, 0.36);
+  }
+
+  body:not(.homePage):not(.subpageSceneLight) #leftBar a:hover .linkArrow {
+    color: rgb(250, 252, 255);
+    background-color: rgba(255, 255, 255, 0.12);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.18);
+  }
+}
+
+body:not(.homePage) #leftBar a:link,
+body:not(.homePage) #leftBar a:visited,
+body:not(.homePage) #leftBar a:hover,
+body:not(.homePage) #leftBar a:active,
+body:not(.homePage) .top-left .topLink:link,
+body:not(.homePage) .top-left .topLink:visited,
+body:not(.homePage) .top-left .topLink:hover,
+body:not(.homePage) .top-left .topLink:active,
+body:not(.homePage) .mainSubTextTable .topLink:link,
+body:not(.homePage) .mainSubTextTable .topLink:visited,
+body:not(.homePage) .mainSubTextTable .topLink:hover,
+body:not(.homePage) .mainSubTextTable .topLink:active {
+  color: rgb(14, 14, 14);
+}
+
+body:not(.homePage) #leftBar .linkArrow {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: none;
+}
+
+body:not(.homePage) #leftBar a:hover .linkArrow {
+  color: rgb(18, 18, 18);
+  background-color: rgba(237, 206, 128, 0.26);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.22);
+  animation: none;
+}
+
+body:not(.homePage) #leftBar .linkArrow::before,
+body:not(.homePage) #leftBar .linkArrow::after,
+body:not(.homePage) #leftBar a:hover .linkArrow::before,
+body:not(.homePage) #leftBar a:hover .linkArrow::after {
+  opacity: 0;
+  animation: none;
+}
+
+body:not(.homePage).subpageSceneLight .homePicBanner2::after {
+  background: linear-gradient(90deg, rgba(252, 248, 234, 0.72), rgba(247, 239, 208, 0.54));
+}
+
+body:not(.homePage).subpageSceneLight #leftBar.blackBackground::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(180deg, rgba(252, 247, 228, 0.56), rgba(247, 239, 210, 0.42));
+  pointer-events: none;
+}
+
+body:not(.homePage).subpageSceneDark .homePicBanner2 {
+  border-color: rgba(255, 255, 255, 0.16);
+  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.14);
+}
+
+body:not(.homePage).subpageSceneDark .homePicBanner2::after {
+  background: linear-gradient(90deg, rgba(10, 16, 24, 0.72), rgba(18, 25, 36, 0.58));
+}
+
+body:not(.homePage).subpageSceneDark #leftBar {
+  color: rgb(240, 244, 250);
+  background-color: rgba(10, 14, 20, 0.4);
+  border-right-color: rgba(255, 255, 255, 0.12);
+}
+
+body:not(.homePage).subpageSceneDark #leftBar.blackBackground::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(180deg, rgba(7, 10, 16, 0.62), rgba(12, 18, 28, 0.52));
+  pointer-events: none;
+}
+
+body:not(.homePage).subpageSceneDark #leftBar a:link,
+body:not(.homePage).subpageSceneDark #leftBar a:visited,
+body:not(.homePage).subpageSceneDark #leftBar a:hover,
+body:not(.homePage).subpageSceneDark #leftBar a:active,
+body:not(.homePage).subpageSceneDark .top-left .topLink:link,
+body:not(.homePage).subpageSceneDark .top-left .topLink:visited,
+body:not(.homePage).subpageSceneDark .top-left .topLink:hover,
+body:not(.homePage).subpageSceneDark .top-left .topLink:active,
+body:not(.homePage).subpageSceneDark .mainSubTextTable .topLink:link,
+body:not(.homePage).subpageSceneDark .mainSubTextTable .topLink:visited,
+body:not(.homePage).subpageSceneDark .mainSubTextTable .topLink:hover,
+body:not(.homePage).subpageSceneDark .mainSubTextTable .topLink:active {
+  color: rgb(236, 242, 250);
+}
+
+body:not(.homePage) .mainSubTextTable .topLink {
+  transition: color 0.25s ease, text-shadow 0.25s ease;
+}
+
+body:not(.homePage).subpageSceneDark .mainSubTextTable .topLink:hover,
+body:not(.homePage).subpageSceneLight .mainSubTextTable .topLink:hover,
+body:not(.homePage) .mainSubTextTable .topLink:hover {
+  color: rgb(224, 194, 122);
+  text-shadow: 0 0 8px rgba(224, 194, 122, 0.28);
+}
+
+body:not(.homePage).subpageSceneDark #leftBar .linkArrow {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background-color: rgba(6, 10, 16, 0.36);
+}
+
+body:not(.homePage).subpageSceneDark #leftBar a:hover .linkArrow {
+  color: rgb(250, 252, 255);
+  background-color: rgba(255, 255, 255, 0.12);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.18);
+}
+
+.homePage #leftBar {
+  z-index: 5;
+  top: 0px;
+  height: 100%;
+  color: rgb(18, 18, 18);
+  background-color: rgba(255, 255, 255, 0.4);
+  border-right: 1px solid rgba(0, 0, 0, 0);
+  backdrop-filter: blur(14px) saturate(135%);
+  -webkit-backdrop-filter: blur(14px) saturate(135%);
+}
+
+.homePage #leftBar.blackBackground::before {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.homePage #leftBar .sidebarAuroraCanvas {
+  opacity: 0;
+}
+
+.homePage.artSlideshowMode #leftBar .sidebarAuroraCanvas {
+  opacity: 0.92;
+}
+
+.homePage #leftBar a:link,
+.homePage #leftBar a:visited,
+.homePage #leftBar a:hover,
+.homePage #leftBar a:active {
+  color: rgb(18, 18, 18);
+}
+
+.homePage.darkSceneUi #leftBar {
+  color: rgb(242, 244, 248);
+  background-color: rgba(0, 0, 0, 0.42);
+  border-right: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.homePage.darkSceneUi #leftBar.blackBackground::before {
+  background: rgba(0, 0, 0, 0.18);
+}
+
+.homePage.darkSceneUi #leftBar a:link,
+.homePage.darkSceneUi #leftBar a:visited,
+.homePage.darkSceneUi #leftBar a:hover,
+.homePage.darkSceneUi #leftBar a:active {
+  color: rgb(242, 244, 248);
+}
+
+.homePage #leftBar .linkArrow {
+  border: 1px solid rgba(0, 0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.0);
+/* 
+  backdrop-filter: blur(18px) saturate(135%);
+  -webkit-backdrop-filter: blur(18px) saturate(135%); */
+}
+
+.homePage #leftBar a:hover .linkArrow {
+  color: rgb(8, 8, 8);
+  background-color: rgba(255, 255, 255, 0.14);
+  box-shadow: inset 0 0 18px rgba(255, 255, 255, 0.1), 0 0 14px rgba(var(--sidebar-accent-rgb), 0.08);
+}
+
+.homePage:not(.artSlideshowMode) #leftBar .linkArrow::before {
+  opacity: 0.22;
+  animation: sidebarCircuitFlow 7.4s linear infinite;
+}
+
+.homePage:not(.artSlideshowMode) #leftBar a:hover .linkArrow::before {
+  opacity: 0.62;
+  animation-duration: 2.8s;
+}
+
+.homePage:not(.artSlideshowMode) #leftBar a:hover .linkArrow {
+  animation: sidebarHoverFade 380ms ease-out 1;
+}
+
+/* Golden Field (light scene) tuning */
+.homePage:not(.artSlideshowMode):not(.darkSceneUi) #leftBar .linkArrow {
+  border: 1px solid rgba(0, 0, 0, 0.0);
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.homePage:not(.artSlideshowMode):not(.darkSceneUi) #leftBar a:hover .linkArrow {
+  color: rgb(248, 248, 248);
+  background-color: rgba(0, 0, 0, 0.26);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.06);
+  animation: none;
+}
+
+.homePage:not(.artSlideshowMode):not(.darkSceneUi) #leftBar .linkArrow::before,
+.homePage:not(.artSlideshowMode):not(.darkSceneUi) #leftBar .linkArrow::after {
+  opacity: 0;
+  animation: none;
+}
+
+.homePage:not(.artSlideshowMode):not(.darkSceneUi) #leftBar a:hover .linkArrow::before,
+.homePage:not(.artSlideshowMode):not(.darkSceneUi) #leftBar a:hover .linkArrow::after {
+  opacity: 0;
+  animation: none;
+}
+
+/* Other WebGL scenes (dark scene UI) tuning */
+.homePage.darkSceneUi:not(.artSlideshowMode) #leftBar .linkArrow {
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.homePage.darkSceneUi:not(.artSlideshowMode) #leftBar a:hover .linkArrow {
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 0 18px rgba(var(--sidebar-primary-rgb), 0.14), 0 0 16px rgba(var(--sidebar-accent-rgb), 0.2);
+}
+
+.homePage.darkSceneUi:not(.artSlideshowMode) #leftBar .linkArrow::before {
+  opacity: 0.28;
+}
+
+.homePage.darkSceneUi:not(.artSlideshowMode) #leftBar a:hover .linkArrow::before {
+  opacity: 0.78;
+}
+
+.homePage.artSlideshowMode #leftBar .linkArrow::before {
+  opacity: 0.34;
+  animation: sidebarCircuitFlow 4.4s linear infinite;
+}
+
+.homePage.artSlideshowMode #leftBar a:hover .linkArrow::before {
+  opacity: 0.86;
+  animation-duration: 2.2s;
+}
+
+.homePage.artSlideshowMode #leftBar a:hover .linkArrow {
+  box-shadow: inset 0 0 18px rgba(var(--sidebar-primary-rgb), 0.24), 0 0 14px rgba(var(--sidebar-accent-rgb), 0.16);
+}
+
+.homePage.darkSceneUi #leftBar .linkArrow {
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.homePage.darkSceneUi #leftBar a:hover .linkArrow {
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 0 18px rgba(255, 255, 255, 0.06), 0 0 14px rgba(var(--sidebar-accent-rgb), 0.16);
+}
+
+.webglHomeCanvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .homeTable {
 
     border-collapse: collapse;
@@ -484,21 +2216,161 @@ canvas {
     left: 0;
     top: 0;
     width: 224px;
-    border-right: 1px solid rgb(60, 60, 140);
+    border-right: 1px solid rgb(60, 60, 60);
     text-align: center;
-    background-image: url("BikeBackground.jpg");
+    background-image: none;
     background-size: cover;
     backdrop-filter: blur(20px); /* Adjust the blur radius as needed */
 }
 
-.blackBackground::before {
+#leftBar {
+  isolation: isolate;
+  --sidebar-primary-rgb: 13, 219, 255;
+  --sidebar-accent-rgb: 255, 36, 199;
+  --sidebar-base-rgb: 5, 12, 45;
+}
+
+#leftBar a {
+  display: block;
+}
+
+#leftBar .linkArrow {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.65);
+  background-color: rgba(var(--sidebar-base-rgb), 0.22);
+  transition: background-color 0.35s ease, color 0.35s ease, box-shadow 0.35s ease;
+}
+
+#leftBar a:hover .linkArrow {
+  color: rgb(235, 240, 255);
+  background-color: rgba(var(--sidebar-primary-rgb), 0.22);
+  box-shadow: inset 0 0 18px rgba(var(--sidebar-primary-rgb), 0.24), 0 0 14px rgba(var(--sidebar-accent-rgb), 0.16);
+  animation: sidebarHoverFade 380ms ease-out 1;
+}
+
+#leftBar .linkArrow::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.28;
+  background:
+    repeating-linear-gradient(90deg,
+      transparent 0 10%,
+      rgba(var(--sidebar-primary-rgb), 0.18) 10% 10.6%,
+      transparent 10.6% 22%),
+    repeating-linear-gradient(0deg,
+      transparent 0 26%,
+      rgba(var(--sidebar-accent-rgb), 0.16) 26% 26.6%,
+      transparent 26.6% 48%);
+  background-size: 180% 100%, 100% 170%;
+  transform: translateX(-6%);
+}
+
+#leftBar a:hover .linkArrow::before {
+  opacity: 0.74;
+  animation: none;
+}
+
+#leftBar .linkArrow::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(rgb(var(--sidebar-primary-rgb)) 0 0) top left / 0% 1px no-repeat,
+    linear-gradient(rgb(var(--sidebar-primary-rgb)) 0 0) top right / 1px 0% no-repeat,
+    linear-gradient(rgb(var(--sidebar-primary-rgb)) 0 0) bottom right / 0% 1px no-repeat,
+    linear-gradient(rgb(var(--sidebar-primary-rgb)) 0 0) bottom left / 1px 0% no-repeat;
+  opacity: 0;
+}
+
+#leftBar a:hover .linkArrow::after {
+  opacity: 1;
+  animation: sidebarClockwiseBorder 620ms linear 1 forwards;
+}
+
+#leftBar a:hover {
+  color: rgb(235, 240, 255);
+}
+
+@keyframes sidebarHoverFade {
+  0% {
+    background-color: rgba(var(--sidebar-base-rgb), 0.22);
+    text-shadow: none;
+    filter: brightness(0.94);
+  }
+  60% {
+    background-color: rgba(var(--sidebar-primary-rgb), 0.24);
+    text-shadow: 0 0 6px rgba(var(--sidebar-accent-rgb), 0.4);
+    filter: brightness(1.07);
+  }
+  100% {
+    background-color: rgba(var(--sidebar-primary-rgb), 0.2);
+    text-shadow: 0 0 4px rgba(var(--sidebar-accent-rgb), 0.34);
+    filter: brightness(1.0);
+  }
+}
+
+@keyframes sidebarCircuitFlow {
+  0% {
+    background-position: 0% 0%, 0% 0%;
+    filter: brightness(0.96);
+  }
+  50% {
+    background-position: 55% 0%, 0% 42%;
+    filter: brightness(1.14);
+  }
+  100% {
+    background-position: 110% 0%, 0% 84%;
+    filter: brightness(1.0);
+  }
+}
+
+@keyframes sidebarClockwiseBorder {
+  0% {
+    background-size: 0% 1px, 1px 0%, 0% 1px, 1px 0%;
+  }
+  25% {
+    background-size: 100% 1px, 1px 0%, 0% 1px, 1px 0%;
+  }
+  50% {
+    background-size: 100% 1px, 1px 100%, 0% 1px, 1px 0%;
+  }
+  75% {
+    background-size: 100% 1px, 1px 100%, 100% 1px, 1px 0%;
+  }
+  100% {
+    background-size: 100% 1px, 1px 100%, 100% 1px, 1px 100%;
+  }
+}
+
+#leftBar > :not(.sidebarAuroraCanvas) {
+  position: relative;
+  z-index: 2;
+}
+
+.sidebarAuroraCanvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  pointer-events: none;
+}
+
+#leftBar.blackBackground::before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 255, 0.1); /* Adjust color and opacity as needed */
+  z-index: 0;
+  background: radial-gradient(circle at 35% 20%, rgba(var(--sidebar-accent-rgb), 0.16), transparent 45%),
+              radial-gradient(circle at 70% 60%, rgba(var(--sidebar-primary-rgb), 0.2), transparent 55%),
+              rgba(0, 0, 0, 0.42);
   pointer-events: none;
 }
 
@@ -624,12 +2496,21 @@ canvas {
 
 .homePicBanner {
   position: fixed;
-  top: -4px;
+  top: 0;
   left: 0px;
 	width: 100%;
 	height: 60px;
-	background-color: rgba(0, 0, 80, 0.4);
-  backdrop-filter: blur(20px); /* Adjust the blur radius as needed */
+	background-color: rgba(235, 242, 248, 0.18);
+  backdrop-filter: blur(0px) saturate(200%);
+  -webkit-backdrop-filter: blur(22px) saturate(200%);
+  /* border-bottom: 1px solid rgba(0, 0, 0, 0.55); */
+  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.22);
+  z-index: 8;
+}
+
+.homePage.darkSceneUi .homePicBanner {
+  background-color: rgba(0, 0, 0, 0.34);
+  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.08);
 }
 
 .homePicBanner2 {
@@ -638,7 +2519,13 @@ canvas {
   left: 0px;
 	width: 100%;
 	height: 60px;
-	background-color: rgba(20, 20, 40, 1.0);
+	background-color: rgba(20, 20, 30, 1.0);
+  border: 1px solid black;
+}
+
+body:not(.homePage) .homePicBanner2 {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.34);
 }
 
 .homePicBannerBottom {
@@ -652,13 +2539,59 @@ canvas {
   backdrop-filter: blur(15px); /* Adjust the blur radius as needed */
 }
 
+.bgibbons {
+  padding-top: 5px;
+	font-size: 1.8em;
+  padding-bottom: 6px;
+}
+
 .top-left {
 	font-size: 1.8em;
-  position: absolute;
-  top: 15px;
-  left: 30px;
-  border-right: 1px solid white;
-  padding-right: 27px;
+  /* top: 11px;
+  left: 30px; */
+  /* border-right: 1px solid black; */
+  /* padding-right: 27px; */
+  /* z-index: 9; */
+}
+
+.homePage .top-left .topLink:link,
+.homePage .top-left .topLink:visited,
+.homePage .top-left .topLink:hover,
+.homePage .top-left .topLink:active {
+  color: rgb(24, 24, 24);
+}
+
+.homePage.darkSceneUi .top-left .topLink:link,
+.homePage.darkSceneUi .top-left .topLink:visited,
+.homePage.darkSceneUi .top-left .topLink:hover,
+.homePage.darkSceneUi .top-left .topLink:active,
+.homePage.darkSceneUi .mainSubTextTableHome .topLink:link,
+.homePage.darkSceneUi .mainSubTextTableHome .topLink:visited,
+.homePage.darkSceneUi .mainSubTextTableHome .topLink:active {
+  color: rgb(242, 244, 248);
+}
+
+.homePage:not(.darkSceneUi) .mainSubTextTableHome .topLink:link,
+.homePage:not(.darkSceneUi) .mainSubTextTableHome .topLink:visited,
+.homePage:not(.darkSceneUi) .mainSubTextTableHome .topLink:active {
+  color: rgb(24, 24, 24);
+}
+
+.homePage.darkSceneUi .mainSubTextTableHome .topLink:hover {
+  color: rgb(224, 194, 122);
+}
+
+.homePage:not(.darkSceneUi) .mainSubTextTableHome .topLink:hover {
+  color: rgb(224, 194, 122);
+}
+
+.homePage .mainSubTextTableHome .topLink {
+  transition: color 0.25s ease, text-shadow 0.25s ease;
+}
+
+.homePage.darkSceneUi .mainSubTextTableHome .topLink:hover,
+.homePage:not(.darkSceneUi) .mainSubTextTableHome .topLink:hover {
+  text-shadow: 0 0 8px rgba(224, 194, 122, 0.28);
 }
 
 .vPadding {
@@ -674,9 +2607,16 @@ canvas {
 }
 
 .mainSubTextTable {
-    position: absolute;
-    top: 17px;
-    left: 250px;
+  position: fixed;
+  top: 25px;
+  left: 250px;
+  z-index: 9;
+}
+.mainSubTextTableHome {
+  position: fixed;
+  top: 15px;
+  left: 250px;
+  z-index: 9;
 }
 
 .leftMenuBar {
@@ -737,11 +2677,44 @@ canvas {
 
     padding: 50px;
     border: 1px solid black;
-    background-color: rgb(240, 240, 248);
+    background-color: rgb(255, 250, 248);
     color: rgb(30,30,60);
 
 }
 
+.pureBlackCell {
+
+    padding: 50px;
+    border: 1px solid black;
+    background-color: rgb(0, 0, 0);
+    color: rgb(229, 229, 229);
+
+}
+
+body:not(.homePage) .whiteCell {
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.99);
+}
+
+body:not(.homePage) .whiteCell::before {
+  content: "";
+  position: absolute;
+  inset: -18px;
+  z-index: 0;
+  pointer-events: none;
+  background-image: var(--subpage-scene-image, url("scene_screenshots/cypberunk_city.png"));
+  background-size: cover;
+  background-position: center;
+  filter: blur(16px) brightness(0.55) saturate(200%);
+  opacity: 0.02;
+  transform: scale(1.06);
+}
+
+body:not(.homePage) .whiteCell > * {
+  position: relative;
+  z-index: 1;
+}
 
 .image-tile {
   position: relative;
@@ -788,11 +2761,205 @@ canvas {
   background-color: white;
 }
 
+.whiteCellFade {
+  -webkit-mask-image: linear-gradient(to right, black 50%, transparent 80%);
+  mask-image: linear-gradient(to right, black 50%, transparent 80%);
+  border: none;
+}
+
+body:not(.homePage).subpageRevealReady :is(.whiteCell, .blackCell, .barCell, .resumeCell, .botCell, .blurCell, .blurCell2, .levelCell) {
+  opacity: 0;
+  transform: translateY(22px);
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+body:not(.homePage).subpageRevealReady :is(.whiteCell, .blackCell, .barCell, .resumeCell, .botCell, .blurCell, .blurCell2, .levelCell).is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+body:not(.homePage).subpageRevealReady :is(.whiteCell, .blackCell, .barCell, .resumeCell, .botCell, .blurCell, .blurCell2, .levelCell) > :not(.contactAdvisory) {
+  opacity: 0;
+  transform: translateY(12px);
+  transition: opacity 0.65s ease, transform 0.65s ease;
+}
+
+body:not(.homePage).subpageRevealReady :is(.whiteCell, .blackCell, .barCell, .resumeCell, .botCell, .blurCell, .blurCell2, .levelCell).is-visible > :not(.contactAdvisory) {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+body:not(.homePage).subpageRevealReady :is(.whiteCell, .blackCell, .barCell, .resumeCell, .botCell, .blurCell, .blurCell2, .levelCell) > :not(.contactAdvisory):nth-child(1) { transition-delay: 0.04s; }
+body:not(.homePage).subpageRevealReady :is(.whiteCell, .blackCell, .barCell, .resumeCell, .botCell, .blurCell, .blurCell2, .levelCell) > :not(.contactAdvisory):nth-child(2) { transition-delay: 0.11s; }
+body:not(.homePage).subpageRevealReady :is(.whiteCell, .blackCell, .barCell, .resumeCell, .botCell, .blurCell, .blurCell2, .levelCell) > :not(.contactAdvisory):nth-child(3) { transition-delay: 0.18s; }
+body:not(.homePage).subpageRevealReady :is(.whiteCell, .blackCell, .barCell, .resumeCell, .botCell, .blurCell, .blurCell2, .levelCell) > :not(.contactAdvisory):nth-child(4) { transition-delay: 0.25s; }
+body:not(.homePage).subpageRevealReady :is(.whiteCell, .blackCell, .barCell, .resumeCell, .botCell, .blurCell, .blurCell2, .levelCell) > :not(.contactAdvisory):nth-child(5) { transition-delay: 0.32s; }
+
+/* Work page: disable per-child stagger to avoid patchy fade; use smooth section-level reveal */
+body.workPage.subpageRevealReady :is(.whiteCell, .blackCell, .barCell, .resumeCell, .botCell, .blurCell, .blurCell2, .levelCell) > :not(.contactAdvisory) {
+  opacity: 1;
+  transform: none;
+  transition: none;
+  transition-delay: 0s !important;
+}
+
+.contactAdvisory {
+  max-width: 640px;
+}
+
+.contactAdvisoryTitle {
+  display: inline-block;
+  margin: 0 0 14px;
+  font-size: 1.45em;
+  letter-spacing: 0.02em;
+  text-shadow: 0 0 10px rgba(244, 214, 138, 0.15);
+  animation: contactTitlePulse 3.6s ease-in-out infinite;
+}
+
+.contactTopicList {
+  margin: 0 0 20px 18px;
+  padding: 0;
+}
+
+.contactTopicList li {
+  margin: 7px 0;
+  opacity: 0;
+  transform: translateX(-8px);
+  animation: contactItemIn 0.55s ease forwards;
+}
+
+.contactTopicList li:nth-child(1) { animation-delay: 0.05s; }
+.contactTopicList li:nth-child(2) { animation-delay: 0.12s; }
+.contactTopicList li:nth-child(3) { animation-delay: 0.19s; }
+.contactTopicList li:nth-child(4) { animation-delay: 0.26s; }
+.contactTopicList li:nth-child(5) { animation-delay: 0.33s; }
+
+.contactEmailLine {
+  margin: 0;
+}
+
+.contactEmailLine a {
+  color: rgb(44, 76, 165);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(44, 76, 165, 0.45);
+  transition: color 0.2s ease, border-color 0.2s ease, text-shadow 0.2s ease;
+}
+
+.contactEmailLine a:hover {
+  color: rgb(224, 194, 122);
+  border-color: rgba(224, 194, 122, 0.95);
+  text-shadow: 0 0 6px rgba(224, 194, 122, 0.5);
+}
+
+@keyframes contactItemIn {
+  from {
+    opacity: 0;
+    transform: translateX(-8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes contactTitlePulse {
+  0%,
+  100% {
+    text-shadow: 0 0 10px rgba(244, 214, 138, 0.15);
+  }
+  50% {
+    text-shadow: 0 0 18px rgba(244, 214, 138, 0.38);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body:not(.homePage).subpageRevealReady :is(.whiteCell, .blackCell, .barCell, .resumeCell, .botCell, .blurCell, .blurCell2, .levelCell),
+  body:not(.homePage).subpageRevealReady :is(.whiteCell, .blackCell, .barCell, .resumeCell, .botCell, .blurCell, .blurCell2, .levelCell) > :not(.contactAdvisory),
+  .contactAdvisoryTitle,
+  .contactTopicList li {
+    animation: none;
+    transition: none;
+    opacity: 1;
+    transform: none;
+  }
+}
+
 .blackCell {
 
   padding: 50px;
   color: rgb(240, 240, 248);
-  background-color: rgb(30, 30, 60);
+  background-color: rgb(30, 30, 30);
+}
+
+@media (min-width: 901px) {
+  body.spacegamePage .fixedLeftContent2 {
+    left: 225px;
+    right: 0;
+  }
+
+  body.spacegamePage .rightContainerHome {
+    left: 225px;
+  }
+
+  body.spacegamePage .blackCell,
+  body.spacegamePage .blackCell h1,
+  body.spacegamePage .blackCell h2,
+  body.spacegamePage .blackCell h3,
+  body.spacegamePage .blackCell p,
+  body.spacegamePage .blackCell li,
+  body.spacegamePage .blackCell a,
+  body.spacegamePage .top-left .topLink,
+  body.spacegamePage .mainSubTextTable .topLink {
+    color: rgb(238, 242, 248) !important;
+  }
+
+  body.spacegamePage .playDiv {
+    display: inline-block;
+    z-index: 3;
+  }
+}
+
+.blackCell a:link {
+  color: rgb(240, 240, 248);
+}
+
+body.spacegamePage .blackCell a:link,
+body.spacegamePage .blackCell a:visited,
+body.spacegamePage .blackCell a:hover,
+body.spacegamePage .blackCell a:active {
+  color: rgb(240, 244, 252) !important;
+}
+
+body:not(.homePage) .blackCell {
+  position: relative;
+  overflow: hidden;
+  background-color: rgba(10, 14, 20, 0.72);
+}
+
+body:not(.homePage) .blackCell::before {
+  content: "";
+  position: absolute;
+  inset: -20px;
+  z-index: 0;
+  background-image: var(--subpage-scene-image, url("scene_screenshots/cypberunk_city.png"));
+  background-size: cover;
+  background-position: center;
+  filter: blur(14px) brightness(0.5);
+  transform: scale(1.08);
+}
+
+body:not(.homePage) .blackCell::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: linear-gradient(180deg, rgba(6, 10, 16, 0.42), rgba(10, 14, 20, 0.54));
+  pointer-events: none;
+}
+
+body:not(.homePage) .blackCell > * {
+  position: relative;
+  z-index: 2;
 }
 
 .pswCell {
@@ -1246,4 +3413,497 @@ canvas {
 .popupLink:hover {
   
 
+}
+
+@media (max-width: 900px) {
+  body {
+    min-width: 0;
+  }
+
+  .blackBackground,
+  body:not(.homePage) #leftBar,
+  .homePage #leftBar {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    max-height: none;
+    border-right: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    overflow: visible;
+  }
+
+  #leftBar .smallerText {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  #leftBar .socialIcons {
+    padding: 8px 0 12px;
+  }
+
+  .fixedLeftContent,
+  .fixedLeftContent2,
+  .rightContainerHome,
+  .rightContainer {
+    position: relative;
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+
+  .rightContainerHome {
+    min-height: 100svh;
+  }
+
+  .homePage #homeBackContainer.auroraBackgroundContainer {
+    position: absolute;
+  }
+
+  .homePicBanner,
+  .homePicBanner2 {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 8;
+  }
+
+  .mainSubTextTable,
+  .mainSubTextTableHome {
+    position: relative;
+    top: 0;
+    left: 0;
+    padding: 18px 18px 8px;
+    width: auto;
+  }
+
+  .mainSubTextTable table,
+  .mainSubTextTableHome table,
+  .mainSubTextTable tbody,
+  .mainSubTextTableHome tbody,
+  .mainSubTextTable tr,
+  .mainSubTextTableHome tr,
+  .mainSubTextTable td,
+  .mainSubTextTableHome td {
+    display: block;
+    width: 100%;
+  }
+
+  .mainSubTextTable td,
+  .mainSubTextTableHome td {
+    padding: 4px 0;
+  }
+
+  .top-left {
+    display: block;
+    padding: 16px 18px 0;
+    font-size: 1.4em;
+  }
+
+  .homeScenePicker {
+    right: 12px;
+    left: 12px;
+    bottom: 12px;
+    max-width: none;
+    transform: none;
+    transform-origin: center;
+  }
+
+  .homeSceneButton {
+    width: calc(50% - 4px);
+  }
+
+  .homeSceneDragHint {
+    left: 50%;
+    bottom: 110px;
+  }
+
+  .homeSceneCredits {
+    left: 0;
+    padding-bottom: 14px;
+  }
+
+  .whiteCell,
+  .blackCell,
+  .barCell,
+  .resumeCell,
+  .botCell,
+  .blurCell,
+  .blurCell2,
+  .levelCell,
+  .pswCell,
+  .pureWhiteCell {
+    padding: 28px 20px;
+  }
+
+  .whiteCellFade {
+    -webkit-mask-image: none;
+    mask-image: none;
+  }
+
+  iframe,
+  .outlineBox iframe {
+    width: 100%;
+    max-width: 100%;
+    height: min(56vw, 420px);
+  }
+
+  img,
+  canvas {
+    max-width: 100%;
+  }
+
+  .projectTable,
+  .projectTable tbody,
+  .projectTable tr,
+  .projectTable td {
+    display: block;
+    width: 100%;
+  }
+
+  .hdLink {
+    position: static;
+    padding: 12px 20px 0;
+    text-align: right;
+  }
+}
+
+@media (max-width: 640px) {
+  #leftBar .smallerText {
+    grid-template-columns: 1fr;
+  }
+
+  .mainSubText {
+    font-size: 1.05em;
+  }
+
+  .homeSceneButton {
+    width: 100%;
+  }
+
+  .homeSceneDragHint {
+    display: none;
+  }
+}
+@media (max-width: 900px) {
+  body:not(.homePage) #leftBar {
+    top: 58px !important;
+    bottom: 12px !important;
+    max-height: none !important;
+    overflow-y: hidden !important;
+    overflow-x: hidden !important;
+    overscroll-behavior-x: none;
+    touch-action: pan-y;
+    box-sizing: border-box;
+  }
+
+  body:not(.homePage) #leftBar .smallerText {
+    align-content: start;
+    min-width: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  body:not(.homePage) #leftBar .smallerText a,
+  body:not(.homePage) #leftBar .linkArrow {
+    min-width: 0;
+    max-width: 100%;
+    overflow-y: hidden !important;
+    overflow-x: hidden;
+  }
+
+  body:not(.homePage) .subpageMobileMenuActions {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 0 0 6px;
+  }
+
+  body:not(.homePage) .subpageMobileHomeLink {
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.22);
+    background: rgba(255, 255, 255, 0.16);
+    color: inherit;
+    font-size: 0.68rem;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  body:not(.homePage) .subpageMobileHomeLink:hover {
+    text-decoration: none;
+  }
+
+  body:not(.homePage).subpageSceneDark .subpageMobileHomeLink {
+    color: rgb(238, 242, 248);
+    border-color: rgba(255, 255, 255, 0.12);
+    background: rgba(10, 14, 20, 0.48);
+  }
+}
+
+/* Final fallback at EOF: force Art page menu button visibility on mobile. */
+@media (max-width: 900px) {
+  .homePage.homeMenuOpen {
+    overflow: hidden !important;
+  }
+
+  .homePage #leftBar {
+    position: fixed !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    width: 100vw !important;
+    height: 100dvh !important;
+    max-height: none !important;
+    margin: 0 !important;
+    padding: 68px 16px 24px !important;
+    overflow-y: hidden !important;
+    overflow-x: hidden !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    box-sizing: border-box !important;
+    display: block !important;
+    visibility: visible !important;
+    opacity: 0 !important;
+    transform: translateY(-10px) !important;
+    pointer-events: none !important;
+    z-index: 1200 !important;
+  }
+
+  /* Blurred cyberpunk city background behind home mobile menu content */
+  .homePage #leftBar::before {
+    content: "" !important;
+    position: fixed !important;
+    inset: 0 !important;
+    z-index: -1 !important;
+    pointer-events: none !important;
+    background-image: url("scene_screenshots/cypberunk_city.png") !important;
+    background-size: cover !important;
+    background-position: center !important;
+    filter: blur(16px) brightness(0.38) !important;
+    transform: scale(1.06) !important;
+  }
+
+  .homePage.homeMenuOpen #leftBar {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+    pointer-events: auto !important;
+  }
+
+  .homePage.homeMenuOpen .homeMobileMenuToggle {
+    opacity: 0 !important;
+    pointer-events: none !important;
+  }
+
+  .homePage #leftBar .padding90 {
+    display: none !important;
+  }
+
+  .homePage #leftBar .smallerText {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 8px !important;
+  }
+
+  .homePage .homeMobileHomeTile {
+    display: block !important;
+    width: 100%;
+  }
+
+  .homePage .homeMobileHomeTile .linkArrow {
+    display: block !important;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 0.9rem !important;
+    font-weight: inherit !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  .homePage .homeDesktopBrandLink {
+    display: none !important;
+  }
+
+  .homePage .homeMobileMenuClose {
+    position: fixed !important;
+    top: 14px !important;
+    right: 14px !important;
+    z-index: 1301 !important;
+    display: inline-block !important;
+    padding: 8px 12px !important;
+    border-radius: 999px !important;
+    border: 1px solid rgba(255, 255, 255, 0.18) !important;
+    background: rgba(255, 255, 255, 0.08) !important;
+    color: rgb(238, 242, 248) !important;
+    font: inherit !important;
+    font-size: 0.72rem !important;
+    line-height: 1 !important;
+    letter-spacing: 0.12em !important;
+    text-transform: uppercase !important;
+    cursor: pointer !important;
+  }
+
+  /* Force home mobile menu to always use dark text/link colors regardless of active scene */
+  .homePage.homeMenuOpen #leftBar a:link,
+  .homePage.homeMenuOpen #leftBar a:visited,
+  .homePage.homeMenuOpen #leftBar a:hover,
+  .homePage.homeMenuOpen #leftBar a:active {
+    color: rgb(238, 242, 248) !important;
+  }
+
+  .homePage.homeMenuOpen #leftBar .linkArrow {
+    color: rgb(238, 242, 248) !important;
+    background-color: rgba(255, 255, 255, 0.06) !important;
+    border-color: rgba(255, 255, 255, 0.08) !important;
+  }
+
+  .homePage.homeMenuOpen #leftBar a:hover .linkArrow {
+    color: rgb(255, 255, 255) !important;
+    background-color: rgba(255, 255, 255, 0.12) !important;
+  }
+
+  .homePage.homeMenuOpen #leftBar .linkArrow::before,
+  .homePage.homeMenuOpen #leftBar .linkArrow::after {
+    opacity: 0 !important;
+    animation: none !important;
+  }
+
+  body:not(.homePage).subpageMenuOpen {
+    overflow: hidden !important;
+  }
+
+  body:not(.homePage) #leftBar {
+    position: fixed !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    width: 100vw !important;
+    height: 100dvh !important;
+    max-height: none !important;
+    margin: 0 !important;
+    padding: 68px 16px 24px !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    background: rgba(7, 10, 14, 0.98) !important;
+    box-sizing: border-box !important;
+    display: block !important;
+    visibility: visible !important;
+    opacity: 0 !important;
+    transform: translateY(-10px) !important;
+    pointer-events: none !important;
+    z-index: 1200 !important;
+  }
+
+  body:not(.homePage).subpageMenuOpen #leftBar,
+  body:not(.homePage) #leftBar.is-subpage-open {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+    pointer-events: auto !important;
+  }
+
+  body:not(.homePage).subpageSceneDark #leftBar,
+  body.artPage #leftBar {
+    background: rgba(7, 10, 14, 0.98) !important;
+  }
+
+  body:not(.homePage).subpageMenuOpen .subpageMobileMenuToggle {
+    opacity: 0 !important;
+    pointer-events: none !important;
+  }
+
+  body:not(.homePage) #leftBar .padding90 {
+    display: none !important;
+  }
+
+  body:not(.homePage) #leftBar .smallerText {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 8px !important;
+  }
+
+  body:not(.homePage) .subpageMobileHomeTile {
+    display: block;
+    width: 100%;
+  }
+
+  body:not(.homePage) .subpageMobileHomeTile .linkArrow {
+    display: block !important;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 0.9rem !important;
+    font-weight: inherit !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  body:not(.homePage) .subpageMobileMenuClose {
+    position: fixed !important;
+    top: 14px !important;
+    right: 14px !important;
+    z-index: 1301 !important;
+    display: inline-block !important;
+    padding: 8px 12px !important;
+    border-radius: 999px !important;
+    border: 1px solid rgba(255, 255, 255, 0.18) !important;
+    background: rgba(255, 255, 255, 0.08) !important;
+    color: rgb(238, 242, 248) !important;
+    font: inherit !important;
+    font-size: 0.72rem !important;
+    line-height: 1 !important;
+    letter-spacing: 0.12em !important;
+    text-transform: uppercase !important;
+    cursor: pointer !important;
+  }
+
+  body.artPage .subpageMobileMenuToggle {
+    position: fixed !important;
+    top: 12px !important;
+    right: 12px !important;
+    z-index: 2147483647 !important;
+    display: inline-block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    pointer-events: auto !important;
+    min-width: 64px !important;
+    min-height: 30px !important;
+    padding: 8px 12px !important;
+    border-radius: 999px !important;
+    border: 1px solid rgba(255, 255, 255, 0.22) !important;
+    background: rgba(10, 14, 20, 0.48) !important;
+    color: rgb(238, 242, 248) !important;
+    font-family: Arial, Times, serif !important;
+    font-size: 12px !important;
+    line-height: 1 !important;
+    letter-spacing: 0.12em !important;
+    text-transform: uppercase !important;
+    cursor: pointer !important;
+    -webkit-appearance: none !important;
+    appearance: none !important;
+  }
+
+  body.artPage #leftBar {
+    opacity: 0 !important;
+    transform: translateY(-10px) scale(0.985) !important;
+    pointer-events: none !important;
+  }
+
+  body.artPage.subpageMenuOpen #leftBar,
+  body.artPage #leftBar.is-subpage-open {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+    pointer-events: auto !important;
+  }
 }

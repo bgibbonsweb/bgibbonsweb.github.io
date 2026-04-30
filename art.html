@@ -3,11 +3,46 @@
 		<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="subpageNav.js" defer></script>
 
 		<link rel="icon" href="profile.jpg"/>
 		<title>Art Gallery</title>
 	</head>
-	<body bgcolor="#f2f2f2">
+	<body class="artPage" bgcolor="#f2f2f2">
+		<button id="subpageMobileMenuToggle" class="subpageMobileMenuToggle" type="button" aria-controls="leftBar" aria-expanded="false">Menu</button>
+		<script>
+			(function() {
+				function bindArtMenuFallback() {
+					var button = document.getElementById("subpageMobileMenuToggle");
+					var menu = document.getElementById("leftBar");
+					if (!button || !menu || button.dataset.fallbackBound === "1") {
+						return;
+					}
+
+					if (document.body.dataset.subpageMobileMenuBound === "1") {
+						return;
+					}
+
+					button.dataset.fallbackBound = "1";
+					button.addEventListener("click", function(event) {
+						if (document.body.dataset.subpageMobileMenuBound === "1") {
+							return;
+						}
+						event.preventDefault();
+						event.stopPropagation();
+						var isOpen = document.body.classList.toggle("subpageMenuOpen");
+						menu.classList.toggle("is-subpage-open", isOpen);
+						button.setAttribute("aria-expanded", isOpen ? "true" : "false");
+					});
+				}
+
+				if (document.readyState === "loading") {
+					document.addEventListener("DOMContentLoaded", bindArtMenuFallback);
+				} else {
+					bindArtMenuFallback();
+				}
+			})();
+		</script>
 		<div class="fixedLeftContent">
 			<div class="topBar"></div>
 		    <div class="whiteCell">
@@ -173,7 +208,7 @@
 							</a>
 						</td>
 						<td class="mainSubText">
-							<a href="vrai" class="topLink">
+							<a href="certifications" class="topLink">
 								<div class="linkArrow2">
 									<span>   </span>VR & AI Enthusiast
 								</div>

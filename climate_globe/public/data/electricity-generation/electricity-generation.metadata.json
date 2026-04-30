@@ -1,0 +1,35 @@
+{
+  "chart": {
+    "title": "Electricity generation",
+    "citation": "Ember (2026); Energy Institute - Statistical Review of World Energy (2025)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/electricity-generation?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "Sweden",
+      "India",
+      "United States",
+      "United Kingdom",
+      "France"
+    ]
+  },
+  "columns": {
+    "Electricity generation - TWh": {
+      "titleShort": "Total electricity generation",
+      "titleLong": "Total electricity generation",
+      "descriptionShort": "Total electricity generated in each country or region, measured in [terawatt-hours](#dod:watt-hours).",
+      "descriptionProcessing": "- Electricity data from 2000 onwards (and from 1990 onwards for European countries, including Turkey) comes from Ember. Earlier data comes from the Energy Institute.",
+      "shortUnit": "TWh",
+      "unit": "terawatt-hours",
+      "timespan": "1985-2025",
+      "type": "Numeric",
+      "owidVariableId": 1134947,
+      "shortName": "total_generation__twh",
+      "lastUpdated": "2026-01-26",
+      "nextUpdate": "2027-01-26",
+      "citationShort": "Ember (2026); Energy Institute - Statistical Review of World Energy (2025) – with major processing by Our World in Data",
+      "citationLong": "Ember (2026); Energy Institute - Statistical Review of World Energy (2025) – with major processing by Our World in Data. “Total electricity generation” [dataset]. Ember, “Yearly Electricity Data Europe”; Ember, “Yearly Electricity Data”; Energy Institute, “Statistical Review of World Energy” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/1134947.metadata.json"
+    }
+  },
+  "dateDownloaded": "2026-03-14",
+  "activeFilters": {}
+}

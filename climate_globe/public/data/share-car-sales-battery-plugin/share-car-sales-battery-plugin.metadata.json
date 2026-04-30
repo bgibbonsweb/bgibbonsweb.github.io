@@ -1,0 +1,48 @@
+{
+  "chart": {
+    "title": "Share of new cars sold that are battery-electric and plug-in hybrid",
+    "subtitle": "[Plug-in hybrids](#dod:plugin_hybrid) cars can run using an electric motor and rechargeable battery, or an internal combustion engine. Their battery is usually smaller than a [fully battery-electric](#dod:battery_electric).",
+    "citation": "International Energy Agency. Global EV Outlook 2025.",
+    "originalChartUrl": "https://ourworldindata.org/grapher/share-car-sales-battery-plugin?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "World",
+      "Norway",
+      "European Union (27)",
+      "United Kingdom",
+      "China",
+      "United States"
+    ]
+  },
+  "columns": {
+    "Plug-in hybrid as a share of cars sold": {
+      "titleShort": "Plug-in hybrid",
+      "titleLong": "Plug-in hybrid",
+      "shortUnit": "%",
+      "unit": "%",
+      "timespan": "2010-2024",
+      "type": "Numeric",
+      "owidVariableId": 820032,
+      "shortName": "phev_share_car_sales",
+      "lastUpdated": "2025-05-15",
+      "citationShort": "International Energy Agency. Global EV Outlook 2025. – processed by Our World in Data",
+      "citationLong": "International Energy Agency. Global EV Outlook 2025. – processed by Our World in Data. “Plug-in hybrid” [dataset]. International Energy Agency. Global EV Outlook 2025., “electric_cars_iea” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/820032.metadata.json"
+    },
+    "Battery-electric as a share of cars sold": {
+      "titleShort": "Battery-electric",
+      "titleLong": "Battery-electric",
+      "shortUnit": "%",
+      "unit": "%",
+      "timespan": "2010-2024",
+      "type": "Numeric",
+      "owidVariableId": 820031,
+      "shortName": "bev_share_car_sales",
+      "lastUpdated": "2025-05-15",
+      "citationShort": "International Energy Agency. Global EV Outlook 2025. – processed by Our World in Data",
+      "citationLong": "International Energy Agency. Global EV Outlook 2025. – processed by Our World in Data. “Battery-electric” [dataset]. International Energy Agency. Global EV Outlook 2025., “electric_cars_iea” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/820031.metadata.json"
+    }
+  },
+  "dateDownloaded": "2026-03-15",
+  "activeFilters": {}
+}

@@ -1,0 +1,37 @@
+{
+  "chart": {
+    "title": "Population",
+    "subtitle": "",
+    "note": "Values as of 1 July of the indicated year.",
+    "citation": "UN, World Population Prospects (2024)",
+    "originalChartUrl": "https://ourworldindata.org/explorers/population-and-demography?hideControls=false&indicator=Population&Sex=Both+sexes&Age=Total&Projection+scenario=None&country=CHN~IND~USA~IDN~PAK~NGA~BRA~JPN",
+    "selection": [
+      "China",
+      "India",
+      "United States",
+      "Indonesia",
+      "Pakistan",
+      "Nigeria",
+      "Brazil",
+      "Japan"
+    ]
+  },
+  "columns": {
+    "Population - Sex: all - Age: all - Variant: estimates": {
+      "titleShort": "Population, total",
+      "titleLong": "Population, total - UN WPP",
+      "descriptionShort": "De facto total population in a country, area or region as of 1 July of the year indicated.",
+      "unit": "people",
+      "timespan": "1950-2023",
+      "type": "Integer",
+      "owidVariableId": 951674,
+      "shortName": "population__sex_all__age_all__variant_estimates",
+      "lastUpdated": "2024-07-12",
+      "citationShort": "UN, World Population Prospects (2024) – processed by Our World in Data",
+      "citationLong": "UN, World Population Prospects (2024) – processed by Our World in Data. “Population, total – UN WPP” [dataset]. United Nations, “World Population Prospects” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/951674.metadata.json"
+    }
+  },
+  "dateDownloaded": "2026-03-05",
+  "activeFilters": {}
+}

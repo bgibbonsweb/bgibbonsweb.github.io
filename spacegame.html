@@ -3,18 +3,21 @@
 		<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="subpageNav.js" defer></script>
 
 		  <link rel="icon" href="profile.jpg"/>
 		  <title>Space Game</title>
 	</head>
-	<body bgcolor="#000000">
+	<body bgcolor="#000000" class="spacegamePage">
 
 
 		<div class="fixedLeftContent2">
+			<div class="topBar"></div>
+			<div class="topBar"></div>
 
 			<image src="spacegame.jpg" width="100%" class="homePic"/>
 				
-	    	<div class="blackCell">
+	    	<div class="pureBlackCell">
 	    		
 	    		<h3> 
 	    			Space Demo Game:
@@ -50,15 +53,96 @@
 
 		</div>
 
-		<div class="blackBackground2">
+		<div id="leftBar" class="blackBackground">
+			<div class="padding90"></div>
+			<div class="smallerText">
+				<a href="work">
+					<div class="linkArrow">
+						<div class="vPadding"></div>
+						Work Experience
+						<div class="vPadding"></div>
+					</div>
+				</a>
+
+				<a href="projects">
+					<div class="linkArrow">
+						<div class="vPadding"></div>
+						Personal Projects
+						<div class="vPadding"></div>
+					</div>
+				</a>
+
+				<a href="resume">
+					<div class="linkArrow">
+						<div class="vPadding"></div>
+						Resume
+						<div class="vPadding"></div>
+					</div>
+				</a>
+
+				<a href="volunteering">
+					<div class="linkArrow">
+						<div class="vPadding"></div>
+						Volunteer Work
+						<div class="vPadding"></div>
+					</div>
+				</a>
+
+				<a href="contact">
+					<div class="linkArrow">
+						<div class="vPadding"></div>
+						Contact
+						<div class="vPadding"></div>
+					</div>
+				</a>
+			</div>
 
 			<div class="socialIcons">
 				<br/>
+				<a href="https://www.linkedin.com/in/bgibbonslinkedin/" target="_blank">
+					<img class="socialIcon" src="In-2C-128px-R.png" width="32"/>
+				</a>
+				<br/>
+			</div>
+		</div>
 
-		    	<a href="http://bgibbonsweb.github.io/"> 
-		    		<img class="socialIcon" src="home.png" width="32"/>
-		    	</a>
-		    </div>
+		
+		<div class="rightContainerHome">
+			<div id="homeBackContainer"></div>
+			<div class="homePicBanner2"/>
+			
+			<div class="top-left">
+				<a href="index" class="topLink">
+					Ben Gibbons
+				</a>
+			</div>
+			<div class="mainSubTextTable">
+				<table>
+					<tr>
+						<td class="mainSubText">
+							<a href="work" class="topLink">
+								<div class="linkArrow2">
+									Creative Software Engineer
+								</div>
+							</a>
+						</td>
+						<td class="mainSubText">
+							<a href="art" class="topLink">
+								<div class="linkArrow2">
+									<span>   </span>Artist
+								</div>
+							</a>
+						</td>
+						<td class="mainSubText">
+							<a href="certifications" class="topLink">
+								<div class="linkArrow2">
+									<span>   </span>VR & AI Enthusiast
+								</div>
+							</a>
+						</td>
+					</tr>
+				</table>
+			</div>
 		</div>
 	</body>
 </html>

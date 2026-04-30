@@ -1,0 +1,551 @@
+state,year,area_in_drought_pct
+California,2000,5
+California,2001,15
+California,2002,40
+California,2003,25
+California,2004,15
+California,2005,5
+California,2006,10
+California,2007,30
+California,2008,35
+California,2009,40
+California,2010,10
+California,2011,10
+California,2012,40
+California,2013,55
+California,2014,75
+California,2015,80
+California,2016,40
+California,2017,15
+California,2018,35
+California,2019,10
+California,2020,45
+California,2021,90
+California,2022,70
+California,2023,25
+California,2024,40
+Texas,2000,20
+Texas,2001,25
+Texas,2002,35
+Texas,2003,20
+Texas,2004,15
+Texas,2005,20
+Texas,2006,30
+Texas,2007,35
+Texas,2008,30
+Texas,2009,15
+Texas,2010,25
+Texas,2011,85
+Texas,2012,60
+Texas,2013,30
+Texas,2014,25
+Texas,2015,10
+Texas,2016,10
+Texas,2017,20
+Texas,2018,30
+Texas,2019,15
+Texas,2020,25
+Texas,2021,40
+Texas,2022,75
+Texas,2023,40
+Texas,2024,30
+Arizona,2000,30
+Arizona,2001,45
+Arizona,2002,70
+Arizona,2003,50
+Arizona,2004,35
+Arizona,2005,15
+Arizona,2006,25
+Arizona,2007,50
+Arizona,2008,40
+Arizona,2009,45
+Arizona,2010,20
+Arizona,2011,65
+Arizona,2012,50
+Arizona,2013,35
+Arizona,2014,25
+Arizona,2015,35
+Arizona,2016,30
+Arizona,2017,35
+Arizona,2018,40
+Arizona,2019,35
+Arizona,2020,50
+Arizona,2021,75
+Arizona,2022,55
+Arizona,2023,30
+Arizona,2024,45
+New Mexico,2000,30
+New Mexico,2001,45
+New Mexico,2002,75
+New Mexico,2003,50
+New Mexico,2004,35
+New Mexico,2005,20
+New Mexico,2006,30
+New Mexico,2007,45
+New Mexico,2008,50
+New Mexico,2009,50
+New Mexico,2010,25
+New Mexico,2011,80
+New Mexico,2012,60
+New Mexico,2013,40
+New Mexico,2014,30
+New Mexico,2015,35
+New Mexico,2016,30
+New Mexico,2017,40
+New Mexico,2018,45
+New Mexico,2019,40
+New Mexico,2020,55
+New Mexico,2021,80
+New Mexico,2022,75
+New Mexico,2023,30
+New Mexico,2024,50
+Colorado,2000,15
+Colorado,2001,30
+Colorado,2002,80
+Colorado,2003,50
+Colorado,2004,30
+Colorado,2005,15
+Colorado,2006,20
+Colorado,2007,30
+Colorado,2008,20
+Colorado,2009,15
+Colorado,2010,25
+Colorado,2011,50
+Colorado,2012,85
+Colorado,2013,25
+Colorado,2014,20
+Colorado,2015,20
+Colorado,2016,20
+Colorado,2017,25
+Colorado,2018,50
+Colorado,2019,20
+Colorado,2020,50
+Colorado,2021,80
+Colorado,2022,65
+Colorado,2023,20
+Colorado,2024,40
+Utah,2000,25
+Utah,2001,40
+Utah,2002,75
+Utah,2003,55
+Utah,2004,30
+Utah,2005,15
+Utah,2006,25
+Utah,2007,35
+Utah,2008,35
+Utah,2009,35
+Utah,2010,15
+Utah,2011,35
+Utah,2012,75
+Utah,2013,35
+Utah,2014,25
+Utah,2015,20
+Utah,2016,30
+Utah,2017,30
+Utah,2018,45
+Utah,2019,20
+Utah,2020,55
+Utah,2021,90
+Utah,2022,75
+Utah,2023,25
+Utah,2024,45
+Nevada,2000,25
+Nevada,2001,45
+Nevada,2002,75
+Nevada,2003,55
+Nevada,2004,35
+Nevada,2005,15
+Nevada,2006,25
+Nevada,2007,40
+Nevada,2008,35
+Nevada,2009,40
+Nevada,2010,15
+Nevada,2011,35
+Nevada,2012,70
+Nevada,2013,50
+Nevada,2014,40
+Nevada,2015,40
+Nevada,2016,40
+Nevada,2017,20
+Nevada,2018,35
+Nevada,2019,15
+Nevada,2020,55
+Nevada,2021,85
+Nevada,2022,60
+Nevada,2023,20
+Nevada,2024,40
+Montana,2000,30
+Montana,2001,40
+Montana,2002,65
+Montana,2003,55
+Montana,2004,40
+Montana,2005,15
+Montana,2006,20
+Montana,2007,35
+Montana,2008,30
+Montana,2009,20
+Montana,2010,15
+Montana,2011,30
+Montana,2012,70
+Montana,2013,40
+Montana,2014,20
+Montana,2015,35
+Montana,2016,30
+Montana,2017,40
+Montana,2018,55
+Montana,2019,30
+Montana,2020,55
+Montana,2021,75
+Montana,2022,50
+Montana,2023,30
+Montana,2024,35
+Wyoming,2000,20
+Wyoming,2001,40
+Wyoming,2002,80
+Wyoming,2003,60
+Wyoming,2004,35
+Wyoming,2005,15
+Wyoming,2006,20
+Wyoming,2007,30
+Wyoming,2008,25
+Wyoming,2009,15
+Wyoming,2010,20
+Wyoming,2011,45
+Wyoming,2012,80
+Wyoming,2013,30
+Wyoming,2014,15
+Wyoming,2015,20
+Wyoming,2016,20
+Wyoming,2017,25
+Wyoming,2018,45
+Wyoming,2019,25
+Wyoming,2020,50
+Wyoming,2021,80
+Wyoming,2022,60
+Wyoming,2023,20
+Wyoming,2024,40
+Oregon,2000,20
+Oregon,2001,35
+Oregon,2002,65
+Oregon,2003,40
+Oregon,2004,25
+Oregon,2005,10
+Oregon,2006,15
+Oregon,2007,35
+Oregon,2008,30
+Oregon,2009,20
+Oregon,2010,15
+Oregon,2011,15
+Oregon,2012,40
+Oregon,2013,50
+Oregon,2014,65
+Oregon,2015,65
+Oregon,2016,25
+Oregon,2017,10
+Oregon,2018,30
+Oregon,2019,10
+Oregon,2020,55
+Oregon,2021,90
+Oregon,2022,60
+Oregon,2023,30
+Oregon,2024,40
+Washington,2000,10
+Washington,2001,25
+Washington,2002,55
+Washington,2003,35
+Washington,2004,20
+Washington,2005,10
+Washington,2006,10
+Washington,2007,20
+Washington,2008,20
+Washington,2009,15
+Washington,2010,10
+Washington,2011,10
+Washington,2012,30
+Washington,2013,45
+Washington,2014,55
+Washington,2015,60
+Washington,2016,20
+Washington,2017,10
+Washington,2018,30
+Washington,2019,10
+Washington,2020,50
+Washington,2021,85
+Washington,2022,45
+Washington,2023,25
+Washington,2024,35
+Idaho,2000,25
+Idaho,2001,45
+Idaho,2002,75
+Idaho,2003,55
+Idaho,2004,35
+Idaho,2005,10
+Idaho,2006,15
+Idaho,2007,30
+Idaho,2008,25
+Idaho,2009,15
+Idaho,2010,15
+Idaho,2011,20
+Idaho,2012,55
+Idaho,2013,50
+Idaho,2014,30
+Idaho,2015,40
+Idaho,2016,30
+Idaho,2017,20
+Idaho,2018,35
+Idaho,2019,15
+Idaho,2020,55
+Idaho,2021,90
+Idaho,2022,60
+Idaho,2023,25
+Idaho,2024,40
+Kansas,2000,30
+Kansas,2001,30
+Kansas,2002,50
+Kansas,2003,25
+Kansas,2004,20
+Kansas,2005,25
+Kansas,2006,30
+Kansas,2007,40
+Kansas,2008,20
+Kansas,2009,15
+Kansas,2010,25
+Kansas,2011,55
+Kansas,2012,85
+Kansas,2013,40
+Kansas,2014,20
+Kansas,2015,15
+Kansas,2016,20
+Kansas,2017,25
+Kansas,2018,35
+Kansas,2019,20
+Kansas,2020,35
+Kansas,2021,50
+Kansas,2022,70
+Kansas,2023,30
+Kansas,2024,35
+Oklahoma,2000,30
+Oklahoma,2001,30
+Oklahoma,2002,50
+Oklahoma,2003,25
+Oklahoma,2004,20
+Oklahoma,2005,25
+Oklahoma,2006,35
+Oklahoma,2007,45
+Oklahoma,2008,25
+Oklahoma,2009,15
+Oklahoma,2010,35
+Oklahoma,2011,85
+Oklahoma,2012,70
+Oklahoma,2013,30
+Oklahoma,2014,20
+Oklahoma,2015,10
+Oklahoma,2016,15
+Oklahoma,2017,30
+Oklahoma,2018,35
+Oklahoma,2019,20
+Oklahoma,2020,30
+Oklahoma,2021,50
+Oklahoma,2022,75
+Oklahoma,2023,30
+Oklahoma,2024,35
+North Dakota,2000,35
+North Dakota,2001,50
+North Dakota,2002,75
+North Dakota,2003,60
+North Dakota,2004,40
+North Dakota,2005,20
+North Dakota,2006,15
+North Dakota,2007,20
+North Dakota,2008,25
+North Dakota,2009,15
+North Dakota,2010,15
+North Dakota,2011,15
+North Dakota,2012,65
+North Dakota,2013,40
+North Dakota,2014,25
+North Dakota,2015,30
+North Dakota,2016,35
+North Dakota,2017,50
+North Dakota,2018,40
+North Dakota,2019,25
+North Dakota,2020,55
+North Dakota,2021,80
+North Dakota,2022,60
+North Dakota,2023,30
+North Dakota,2024,35
+South Dakota,2000,35
+South Dakota,2001,50
+South Dakota,2002,80
+South Dakota,2003,60
+South Dakota,2004,35
+South Dakota,2005,20
+South Dakota,2006,20
+South Dakota,2007,25
+South Dakota,2008,20
+South Dakota,2009,15
+South Dakota,2010,15
+South Dakota,2011,20
+South Dakota,2012,80
+South Dakota,2013,50
+South Dakota,2014,25
+South Dakota,2015,25
+South Dakota,2016,30
+South Dakota,2017,45
+South Dakota,2018,40
+South Dakota,2019,30
+South Dakota,2020,55
+South Dakota,2021,80
+South Dakota,2022,65
+South Dakota,2023,30
+South Dakota,2024,35
+Nebraska,2000,30
+Nebraska,2001,40
+Nebraska,2002,70
+Nebraska,2003,45
+Nebraska,2004,20
+Nebraska,2005,15
+Nebraska,2006,25
+Nebraska,2007,35
+Nebraska,2008,20
+Nebraska,2009,15
+Nebraska,2010,20
+Nebraska,2011,35
+Nebraska,2012,85
+Nebraska,2013,45
+Nebraska,2014,20
+Nebraska,2015,15
+Nebraska,2016,20
+Nebraska,2017,35
+Nebraska,2018,35
+Nebraska,2019,25
+Nebraska,2020,45
+Nebraska,2021,70
+Nebraska,2022,65
+Nebraska,2023,25
+Nebraska,2024,35
+Florida,2000,20
+Florida,2001,30
+Florida,2002,35
+Florida,2003,20
+Florida,2004,10
+Florida,2005,10
+Florida,2006,25
+Florida,2007,70
+Florida,2008,30
+Florida,2009,20
+Florida,2010,15
+Florida,2011,20
+Florida,2012,10
+Florida,2013,10
+Florida,2014,15
+Florida,2015,15
+Florida,2016,20
+Florida,2017,15
+Florida,2018,25
+Florida,2019,20
+Florida,2020,25
+Florida,2021,35
+Florida,2022,40
+Florida,2023,35
+Florida,2024,40
+Georgia,2000,25
+Georgia,2001,30
+Georgia,2002,40
+Georgia,2003,15
+Georgia,2004,10
+Georgia,2005,10
+Georgia,2006,20
+Georgia,2007,60
+Georgia,2008,30
+Georgia,2009,15
+Georgia,2010,10
+Georgia,2011,15
+Georgia,2012,10
+Georgia,2013,5
+Georgia,2014,15
+Georgia,2015,20
+Georgia,2016,50
+Georgia,2017,20
+Georgia,2018,15
+Georgia,2019,10
+Georgia,2020,15
+Georgia,2021,10
+Georgia,2022,30
+Georgia,2023,25
+Georgia,2024,30
+Iowa,2000,10
+Iowa,2001,15
+Iowa,2002,45
+Iowa,2003,10
+Iowa,2004,10
+Iowa,2005,10
+Iowa,2006,15
+Iowa,2007,20
+Iowa,2008,15
+Iowa,2009,10
+Iowa,2010,10
+Iowa,2011,15
+Iowa,2012,80
+Iowa,2013,25
+Iowa,2014,10
+Iowa,2015,10
+Iowa,2016,15
+Iowa,2017,20
+Iowa,2018,30
+Iowa,2019,15
+Iowa,2020,30
+Iowa,2021,55
+Iowa,2022,55
+Iowa,2023,20
+Iowa,2024,25
+Illinois,2000,5
+Illinois,2001,10
+Illinois,2002,25
+Illinois,2003,5
+Illinois,2004,5
+Illinois,2005,5
+Illinois,2006,10
+Illinois,2007,15
+Illinois,2008,5
+Illinois,2009,5
+Illinois,2010,5
+Illinois,2011,10
+Illinois,2012,75
+Illinois,2013,10
+Illinois,2014,5
+Illinois,2015,5
+Illinois,2016,10
+Illinois,2017,5
+Illinois,2018,20
+Illinois,2019,5
+Illinois,2020,15
+Illinois,2021,40
+Illinois,2022,45
+Illinois,2023,10
+Illinois,2024,15
+Alaska,2000,5
+Alaska,2001,5
+Alaska,2002,10
+Alaska,2003,10
+Alaska,2004,10
+Alaska,2005,5
+Alaska,2006,5
+Alaska,2007,5
+Alaska,2008,5
+Alaska,2009,5
+Alaska,2010,5
+Alaska,2011,5
+Alaska,2012,5
+Alaska,2013,5
+Alaska,2014,5
+Alaska,2015,5
+Alaska,2016,5
+Alaska,2017,5
+Alaska,2018,5
+Alaska,2019,10
+Alaska,2020,10
+Alaska,2021,30
+Alaska,2022,30
+Alaska,2023,15
+Alaska,2024,20

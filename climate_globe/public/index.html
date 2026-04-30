@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <title>WebGL Earth Globe</title>
+  <style>
+    * {
+    -webkit-user-select: none; /* Chrome, Safari */
+    -moz-user-select: none;    /* Firefox */
+    -ms-user-select: none;     /* IE/Edge (old) */
+    user-select: none;         /* Standard */
+    }
+
+    body, html {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      width: 100%;
+      height: 100%;
+    }
+    #globe {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+    .hud {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      background: rgba(0, 0, 0, 0.8);
+      color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      font-family: 'Arial', sans-serif;
+      backdrop-filter: blur(10px);
+      z-index: 100;
+      min-width: 320px;
+    }
+    .hud h1 {
+      margin: 0 0 15px 0;
+      font-size: 22px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    .hud p {
+      margin: 8px 0;
+      font-size: 11px;
+      line-height: 1.6;
+    }
+    .legend {
+      margin-top: 15px;
+      border-top: 1px solid #444;
+      padding-top: 15px;
+    }
+    .legend-item {
+      display: flex;
+      align-items: center;
+      margin: 6px 0;
+      font-size: 11px;
+    }
+    .legend-color {
+      width: 16px;
+      height: 16px;
+      border-radius: 2px;
+      margin-right: 8px;
+    }
+    .hover-panel {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin: 10px 0 14px 0;
+      padding: 12px;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+    }
+    .hover-swatch {
+      width: 24px;
+      height: 24px;
+      border-radius: 6px;
+      background: #666;
+      box-shadow: 0 0 12px rgba(255, 255, 255, 0.25);
+      flex-shrink: 0;
+    }
+    .country-panel {
+      position: static;
+      width: 100%;
+      max-height: none;
+      display: flex;
+      flex-direction: column;
+      background: transparent;
+      border-radius: 0;
+      padding: 0;
+      color: #fff;
+      font-family: 'Arial', sans-serif;
+      backdrop-filter: none;
+      z-index: auto;
+      overflow: hidden;
+      border: 0;
+      box-shadow: none;
+    }
+    .country-search {
+      width: 90.5%;
+      padding: 7px 9px;
+      border-radius: 8px;
+      border: 1px solid rgba(120, 180, 255, 0.35);
+      background: rgba(12, 18, 30, 0.8);
+      color: #fff;
+      outline: none;
+      font-size: 11px;
+      margin-bottom: 10px;
+    }
+    .country-list {
+      overflow-y: auto;
+      padding-right: 4px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      scrollbar-width: thin;
+      max-height: min(58vh, 560px);
+    }
+    .country-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 5px 7px;
+      border-radius: 8px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(120, 180, 255, 0.12);
+      font-size: 11px;
+    }
+    .country-item.selected {
+      background: rgba(90, 160, 255, 0.18);
+      border-color: rgba(120, 200, 255, 0.6);
+      box-shadow: 0 0 12px rgba(90, 160, 255, 0.35);
+    }
+    .country-swatch {
+      width: 14px;
+      height: 14px;
+      border-radius: 4px;
+      flex-shrink: 0;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    }
+    .country-name {
+      flex: 1;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      cursor: pointer;
+    }
+    .country-value {
+      color: #cfd8ff;
+      font-size: 10px;
+    }
+    .hover-title {
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+    .hover-value {
+      font-size: 12px;
+      color: #cfd8ff;
+      margin-top: 4px;
+    }
+    .data-citations {
+      margin-top: 10px;
+      padding-top: 10px;
+      border-top: 1px solid rgba(255, 255, 255, 0.12);
+      font-size: 10px;
+      color: #aeb9d9;
+      line-height: 1.45;
+      max-height: min(62vh, 700px);
+      overflow-y: auto;
+      padding-right: 6px;
+    }
+    .data-citations-title {
+      margin: 0 0 6px 0;
+      color: #d9e2ff;
+      font-weight: 600;
+      letter-spacing: 0.3px;
+    }
+    .data-citations ul {
+      margin: 0;
+      padding-left: 14px;
+    }
+    .data-citations li {
+      margin: 2px 0;
+    }
+    .data-citations a {
+      color: #8fc2ff;
+      text-decoration: none;
+    }
+    .data-citations a:hover {
+      text-decoration: underline;
+    }
+    .sources-details {
+      margin-top: 8px;
+    }
+    .sources-button {
+      cursor: pointer;
+      user-select: none;
+      font-size: 11px;
+      color: #cfd8ff;
+      padding: 5px 10px;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      border-radius: 999px;
+      border: 1px solid rgba(120, 180, 255, 0.35);
+      background: rgba(16, 26, 46, 0.6);
+    }
+    .sources-button:hover {
+      color: #f0f6ff;
+      border-color: rgba(140, 200, 255, 0.65);
+      background: rgba(36, 56, 92, 0.7);
+    }
+    .sources-modal {
+      position: fixed;
+      inset: 0;
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 220;
+    }
+    .sources-modal.open {
+      display: flex;
+    }
+    .sources-modal-backdrop {
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.6);
+      backdrop-filter: blur(2px);
+    }
+    .sources-modal-content {
+      position: fixed;
+      left: 0%;
+      top: 0%;
+      /* transform: translate(-50%, -50%); */
+      width: min(980px, 92vw);
+      max-height: min(78vh, 820px);
+      overflow: auto;
+      background: rgba(8, 12, 24, 0.96);
+      border: 1px solid rgba(120, 180, 255, 0.35);
+      border-radius: 12px;
+      padding: 14px 16px 16px;
+      box-shadow: 0 18px 40px rgba(0, 0, 0, 0.55);
+    }
+    .sources-modal-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 10px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+    }
+    .sources-modal-title {
+      margin: 0;
+      font-size: 14px;
+      color: #e4edff;
+      letter-spacing: 0.2px;
+    }
+    .sources-close {
+      border: 1px solid rgba(120, 180, 255, 0.35);
+      background: rgba(24, 36, 62, 0.72);
+      color: #cfe0ff;
+      border-radius: 8px;
+      font-size: 12px;
+      line-height: 1;
+      padding: 6px 9px;
+      cursor: pointer;
+    }
+    .sources-close:hover {
+      background: rgba(42, 64, 102, 0.78);
+      border-color: rgba(140, 200, 255, 0.65);
+      color: #f0f6ff;
+    }
+    .hover-tooltip {
+      position: absolute;
+      pointer-events: none;
+      background: rgba(0, 0, 0, 0.85);
+      color: #fff;
+      padding: 8px 10px;
+      border-radius: 8px;
+      font-family: 'Arial', sans-serif;
+      font-size: 11px;
+      display: none;
+      z-index: 20;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      transform: translate(12px, 12px);
+      white-space: nowrap;
+    }
+    .hover-tooltip-dot {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      margin-right: 8px;
+      background: #666;
+      box-shadow: 0 0 8px rgba(255, 255, 255, 0.25);
+      vertical-align: middle;
+    }
+    .hover-tooltip-line1 {
+      display: flex;
+      align-items: center;
+    }
+    .hover-tooltip-temp {
+      margin-top: 4px;
+      padding-left: 18px;
+      font-size: 10px;
+      display: none;
+    }
+    .thermal-toggle-wrap {
+      position: absolute;
+      top: 14px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 6px;
+      z-index: 100;
+    }
+    .thermal-toggle {
+      background: rgba(0, 0, 0, 0.78);
+      border: 1px solid rgba(120, 180, 255, 0.28);
+      color: #9ab8d8;
+      font-size: 12px;
+      padding: 9px 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-family: 'Arial', sans-serif;
+      backdrop-filter: blur(10px);
+      transition: all 0.2s ease;
+      letter-spacing: 0.3px;
+    }
+    .thermal-toggle:hover {
+      background: rgba(20, 30, 60, 0.88);
+      border-color: rgba(140, 200, 255, 0.5);
+      color: #ddeeff;
+    }
+    .thermal-toggle.active {
+      background: rgba(200, 50, 10, 0.28);
+      border-color: rgba(255, 120, 60, 0.72);
+      color: #ffb080;
+      box-shadow: 0 0 18px rgba(255, 80, 20, 0.30);
+    }
+    .thermal-source-link {
+      font-size: 10px;
+      color: #8fc2ff;
+      text-decoration: none;
+      border: 0px solid rgba(120, 180, 255, 0.2);
+      border-radius: 999px;
+      padding: 3px 8px;
+      opacity: 0.8;
+    }
+    .thermal-source-link:hover {
+      text-decoration: underline;
+      color: #cde8ff;
+      background: rgba(0, 0, 0, 0.5);
+      border-color: rgba(120, 180, 255, 0.45);
+      opacity: 1;
+    }
+    .chart-panel {
+      position: static;
+      left: auto;
+      bottom: auto;
+      background: transparent;
+      border: 0;
+      border-radius: 10px;
+      padding: 0;
+      color: #fff;
+      font-family: 'Arial', sans-serif;
+      z-index: auto;
+      width: 100%;
+      display: none;
+      backdrop-filter: none;
+    }
+    .chart-title {
+      font-size: 11px;
+      margin: 0 0 2px 0;
+      color: #cfd8ff;
+    }
+    .chart-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      margin: 0 0 2px 0;
+    }
+    .chart-header .chart-title {
+      margin: 0;
+      flex: 1;
+      min-width: 0;
+    }
+    .chart-subtitle {
+      font-size: 9px;
+      margin: 0 0 8px 0;
+      color: rgba(180, 200, 255, 0.55);
+      font-style: italic;
+      line-height: 1.35;
+    }
+    .data-badge {
+      display: inline-block;
+      font-size: 9px;
+      font-style: normal;
+      padding: 1px 5px;
+      border-radius: 3px;
+      margin-left: 4px;
+      vertical-align: middle;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+    }
+    .data-badge--observed {
+      background: rgba(45, 156, 255, 0.15);
+      color: rgba(100, 190, 255, 0.95);
+      border: 1px solid rgba(45, 156, 255, 0.35);
+    }
+    .data-badge--estimated {
+      background: rgba(255, 170, 0, 0.12);
+      color: rgba(255, 200, 60, 0.95);
+      border: 1px solid rgba(255, 170, 0, 0.35);
+    }
+    .chart-sources {
+      font-size: 9px;
+      margin: 0;
+      color: rgba(170, 190, 235, 0.9);
+      line-height: 1.3;
+      display: none;
+      flex-wrap: wrap;
+      gap: 6px;
+      justify-content: flex-end;
+    }
+    .chart-source-link {
+      color: #8fc2ff;
+      text-decoration: none;
+    }
+    .chart-source-link:hover {
+      text-decoration: underline;
+    }
+    .metric-buttons {
+      display: flex;
+      gap: 6px;
+      margin-bottom: 10px;
+      flex-wrap: wrap;
+    }
+    .metric-subcontrols {
+      display: none;
+      gap: 6px;
+      margin: -2px 0 10px 0;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .metric-subcontrols-label {
+      font-size: 9px;
+      color: rgba(186, 204, 246, 0.82);
+      margin-right: 2px;
+    }
+    .metric-subcontrol-btn {
+      padding: 3px 8px;
+      border-radius: 999px;
+      border: 1px solid rgba(120, 180, 255, 0.24);
+      background: rgba(10, 16, 28, 0.62);
+      color: #a8b7da;
+      font-size: 9px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      line-height: 1.2;
+    }
+    .metric-subcontrol-btn:hover {
+      background: rgba(40, 60, 100, 0.45);
+      border-color: rgba(120, 180, 255, 0.42);
+      color: #dbe6ff;
+    }
+    .metric-subcontrol-btn.active {
+      background: rgba(75, 130, 255, 0.28);
+      border-color: rgba(120, 200, 255, 0.65);
+      color: #fff;
+      box-shadow: 0 0 10px rgba(90, 160, 255, 0.22);
+    }
+    .metric-group-tabs {
+      display: flex;
+      gap: 6px;
+      margin-bottom: 8px;
+      flex-wrap: wrap;
+    }
+    .metric-group-tab {
+      padding: 5px 9px;
+      border-radius: 999px;
+      border: 1px solid rgba(120, 180, 255, 0.22);
+      background: rgba(10, 16, 28, 0.72);
+      color: #9fb0d6;
+      font-size: 9px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      white-space: nowrap;
+    }
+    .metric-group-tab:hover {
+      background: rgba(40, 60, 100, 0.45);
+      border-color: rgba(120, 180, 255, 0.4);
+      color: #dbe6ff;
+    }
+    .metric-group-tab.active {
+      background: rgba(75, 130, 255, 0.28);
+      border-color: rgba(120, 200, 255, 0.65);
+      color: #fff;
+      box-shadow: 0 0 10px rgba(90, 160, 255, 0.22);
+    }
+    .metric-btn {
+      /* flex: 1; */
+      width: 110px;
+      padding: 5px 7px;
+      border-radius: 6px;
+      border: 1px solid rgba(120, 180, 255, 0.25);
+      background: rgba(12, 18, 30, 0.6);
+      color: #aaa;
+      font-size: 9px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      text-align: center;
+      white-space: nowrap;
+      /* overflow: hidden; */
+      text-overflow: ellipsis;
+    }
+    .metric-btn:hover {
+      background: rgba(40, 60, 100, 0.5);
+      border-color: rgba(120, 180, 255, 0.4);
+    }
+    .metric-btn.active {
+      background: rgba(70, 130, 255, 0.4);
+      border-color: rgba(120, 200, 255, 0.7);
+      color: #fff;
+      box-shadow: 0 0 10px rgba(90, 160, 255, 0.3);
+    }
+    .metric-btn.scenario-bad { border-color: rgba(255, 80, 60, 0.45); color: #ffb0a8; }
+    .metric-btn.scenario-bad:hover { background: rgba(160, 30, 20, 0.4); border-color: rgba(255, 100, 80, 0.75); color: #ffd0cc; }
+    .metric-btn.scenario-bad.active { background: rgba(180, 35, 25, 0.5); border-color: rgba(255, 100, 80, 0.85); box-shadow: 0 0 10px rgba(255, 80, 60, 0.4); }
+    .metric-btn.scenario-mid { border-color: rgba(255, 185, 60, 0.45); color: #ffd580; }
+    .metric-btn.scenario-mid:hover { background: rgba(140, 95, 10, 0.4); border-color: rgba(255, 185, 60, 0.75); color: #ffe8a8; }
+    .metric-btn.scenario-mid.active { background: rgba(155, 105, 15, 0.5); border-color: rgba(255, 185, 60, 0.85); box-shadow: 0 0 10px rgba(255, 185, 60, 0.4); }
+    .metric-btn.scenario-good { border-color: rgba(60, 210, 100, 0.45); color: #88eeaa; }
+    .metric-btn.scenario-good:hover { background: rgba(20, 120, 50, 0.4); border-color: rgba(60, 210, 100, 0.75); color: #b0f5c8; }
+    .metric-btn.scenario-good.active { background: rgba(20, 130, 55, 0.5); border-color: rgba(60, 210, 100, 0.85); box-shadow: 0 0 10px rgba(60, 210, 100, 0.4); }
+    #chartTooltip {
+      position: absolute;
+      pointer-events: none;
+      background: rgba(0, 0, 0, 0.85);
+      color: #fff;
+      padding: 4px 8px;
+      border-radius: 6px;
+      font-size: 11px;
+      display: none;
+      z-index: 30;
+      transform: translate(-50%, -100%);
+      margin-top: -8px;
+      white-space: nowrap;
+    }
+    #chartDot {
+      position: absolute;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: #fff;
+      border: 2px solid rgba(100, 160, 255, 0.8);
+      box-shadow: 0 0 8px rgba(120, 180, 255, 0.6);
+      pointer-events: none;
+      display: none;
+      transform: translate(-50%, -50%);
+      z-index: 25;
+    }
+    #trendChart {
+      display: block;
+      width: 100%;
+      height: 180px;
+    }
+
+    .snapshot-panel {
+      position: static;
+      right: auto;
+      bottom: auto;
+      width: 100%;
+      max-height: min(58vh, 560px);
+      overflow-y: auto;
+      background: transparent;
+      border: 0;
+      border-radius: 12px;
+      padding: 0;
+      color: #fff;
+      font-family: 'Arial', sans-serif;
+      z-index: auto;
+      display: none;
+      backdrop-filter: none;
+      box-shadow: none;
+    }
+
+    .snapshot-title {
+      margin: 0 0 10px 0;
+      font-size: 11px;
+      color: #cfd8ff;
+      letter-spacing: 0.3px;
+    }
+
+    .snapshot-tab-buttons {
+      display: flex;
+      gap: 6px;
+      margin-bottom: 10px;
+      flex-wrap: wrap;
+    }
+
+    .snapshot-tab {
+      border: 1px solid rgba(120, 180, 255, 0.35);
+      background: rgba(20, 28, 48, 0.6);
+      color: #d6e2ff;
+      border-radius: 999px;
+      padding: 4px 10px;
+      font-size: 10px;
+      line-height: 1;
+      cursor: pointer;
+    }
+
+    .snapshot-tab.active {
+      background: rgba(90, 160, 255, 0.25);
+      border-color: rgba(130, 200, 255, 0.7);
+      box-shadow: 0 0 8px rgba(90, 160, 255, 0.35);
+      color: #f0f6ff;
+    }
+
+    .snapshot-grid {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 3px 4px;
+      font-size: 10px;
+      line-height: 1.4;
+    }
+
+    .snapshot-key {
+      color: #aeb9d9;
+    }
+
+    .snapshot-source-dropdown {
+      position: relative;
+      display: inline-block;
+      margin-left: 6px;
+    }
+
+    .snapshot-source-toggle {
+      border: 0px solid rgba(120, 180, 255, 0.35);
+      background: rgba(18, 28, 48, 0.65);
+      color: #8fc2ff;
+      border-radius: 999px;
+      padding: 1px 7px;
+      font-size: 9px;
+      line-height: 1.2;
+      cursor: pointer;
+    }
+
+    .snapshot-source-toggle:hover {
+      color: #cfe8ff;
+      border-color: rgba(140, 200, 255, 0.6);
+      background: rgba(28, 46, 78, 0.75);
+    }
+
+    .snapshot-source-menu {
+      position: absolute;
+      left: 0;
+      top: calc(100% + 5px);
+      min-width: 128px;
+      display: none;
+      flex-direction: column;
+      gap: 2px;
+      padding: 6px;
+      border-radius: 8px;
+      border: 1px solid rgba(120, 180, 255, 0.35);
+      background: rgba(6, 12, 24, 0.96);
+      box-shadow: 0 8px 18px rgba(0, 0, 0, 0.45);
+      z-index: 25;
+    }
+
+    .snapshot-source-dropdown.open .snapshot-source-menu {
+      display: flex;
+    }
+
+    .snapshot-source-option {
+      color: #8fc2ff;
+      text-decoration: none;
+      font-size: 9px;
+      border-radius: 5px;
+      padding: 2px 5px;
+      white-space: nowrap;
+    }
+
+    .snapshot-source-option:hover {
+      color: #dff1ff;
+      background: rgba(60, 100, 170, 0.28);
+    }
+
+    .snapshot-value {
+      color: #eaf0ff;
+      font-weight: 600;
+      text-align: right;
+      white-space: nowrap;
+    }
+
+    .snapshot-empty {
+      font-size: 10px;
+      color: #aeb9d9;
+      line-height: 1.4;
+    }
+
+    .co2-ribbon {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      height: 42px;
+      background: linear-gradient(180deg, rgba(6, 8, 16, 0.75), rgba(6, 8, 16, 0.95));
+      border-top: 1px solid rgba(255, 255, 255, 0.12);
+      display: flex;
+      flex-direction: column;
+      z-index: 11;
+      pointer-events: auto;
+      backdrop-filter: blur(8px);
+      opacity: 0.25;
+      transition: opacity 0.15s ease;
+    }
+
+    .co2-ribbon:hover {
+      opacity: 1;
+    }
+
+    .co2-ribbon-label {
+      font-family: 'Arial', sans-serif;
+      font-size: 9px;
+      color: #cfd8ff;
+      opacity: 0.9;
+      letter-spacing: 0.4px;
+      padding: 4px 10px 2px 10px;
+      user-select: none;
+    }
+
+    .co2-ribbon-track {
+      flex: 1;
+      display: flex;
+      width: 100%;
+      min-height: 0;
+      overflow: hidden;
+    }
+
+    .co2-ribbon-block {
+      height: 100%;
+      min-width: 1px;
+      cursor: pointer;
+      transition: filter 0.12s ease;
+    }
+
+    .co2-ribbon-block:hover {
+      filter: brightness(1.2) saturate(1.15);
+    }
+
+    .co2-ribbon-tooltip {
+      position: absolute;
+      pointer-events: none;
+      background: rgba(0, 0, 0, 0.9);
+      color: #fff;
+      padding: 6px 9px;
+      border-radius: 8px;
+      font-family: 'Arial', sans-serif;
+      font-size: 11px;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
+      display: none;
+      z-index: 40;
+      white-space: nowrap;
+      transform: translate(-50%, -120%);
+    }
+
+    .info-dock {
+      position: absolute;
+      left: 20px;
+      right: auto;
+      top: auto;
+      bottom: 20px;
+      width: min(420px, 36vw);
+      max-height: calc(100vh - 86px);
+      display: flex;
+      flex-direction: column;
+      background: linear-gradient(180deg, rgba(14, 20, 36, 0.94), rgba(8, 12, 24, 0.94));
+      border: 1px solid rgba(120, 180, 255, 0.35);
+      border-radius: 14px;
+      box-shadow: 0 0 24px rgba(70, 140, 255, 0.18), inset 0 0 14px rgba(120, 180, 255, 0.08);
+      backdrop-filter: blur(12px);
+      z-index: 14;
+      overflow: hidden;
+    }
+
+    .explore-dock {
+      position: absolute;
+      right: 20px;
+      top: 20px;
+      width: min(280px, 24vw);
+      max-height: calc(100vh - 120px);
+      display: flex;
+      flex-direction: column;
+      background: linear-gradient(180deg, rgba(14, 20, 36, 0.94), rgba(8, 12, 24, 0.94));
+      border: 1px solid rgba(120, 180, 255, 0.35);
+      border-radius: 14px;
+      box-shadow: 0 0 24px rgba(70, 140, 255, 0.18), inset 0 0 14px rgba(120, 180, 255, 0.08);
+      backdrop-filter: blur(12px);
+      z-index: 14;
+      overflow: hidden;
+    }
+
+    .dock-tabs {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 6px;
+      padding: 10px;
+      border-bottom: 1px solid rgba(120, 180, 255, 0.2);
+      background: rgba(7, 12, 24, 0.55);
+    }
+
+    .dock-tab {
+      border: 1px solid rgba(120, 180, 255, 0.24);
+      background: rgba(12, 18, 34, 0.75);
+      color: #b8c7e9;
+      border-radius: 999px;
+      font-size: 10px;
+      padding: 6px 9px;
+      cursor: pointer;
+      transition: all 0.15s ease;
+      white-space: nowrap;
+    }
+
+    .dock-tab:hover {
+      color: #edf3ff;
+      border-color: rgba(140, 200, 255, 0.48);
+      background: rgba(35, 54, 90, 0.65);
+    }
+
+    .dock-tab.active {
+      color: #ffffff;
+      background: rgba(75, 130, 255, 0.3);
+      border-color: rgba(130, 200, 255, 0.75);
+      box-shadow: 0 0 10px rgba(90, 160, 255, 0.22);
+    }
+
+    .dock-content {
+      padding: 12px;
+      overflow-y: auto;
+      min-height: 0;
+    }
+
+    .dock-pane {
+      display: none;
+    }
+
+    .dock-pane.active {
+      display: block;
+    }
+
+    .dock-empty {
+      display: none;
+      border: 1px dashed rgba(120, 180, 255, 0.35);
+      border-radius: 10px;
+      padding: 10px 12px;
+      color: #aeb9d9;
+      font-size: 11px;
+      line-height: 1.4;
+      background: rgba(8, 12, 24, 0.5);
+    }
+
+    .dock-empty.visible {
+      display: block;
+    }
+
+    @media (max-width: 1100px) {
+      .hud {
+        min-width: 0;
+        width: min(420px, calc(100vw - 40px));
+        padding: 16px;
+      }
+
+      .info-dock {
+        width: min(420px, calc(100vw - 40px));
+        top: auto;
+        bottom: 54px;
+        max-height: 44vh;
+      }
+
+      .explore-dock {
+        width: min(280px, calc(100vw - 40px));
+        top: 20px;
+        right: 20px;
+        max-height: 36vh;
+      }
+    }
+
+    @media (max-width: 760px) {
+      .hud {
+        left: 10px;
+        top: 10px;
+        width: calc(100vw - 20px);
+      }
+
+      .hud h1 {
+        font-size: 20px;
+      }
+
+      .thermal-toggle-wrap {
+        top: auto;
+        bottom: 50px;
+      }
+
+      .info-dock {
+        left: 10px;
+        right: auto;
+        width: auto;
+        bottom: 86px;
+        max-height: 42vh;
+      }
+
+      .explore-dock {
+        left: 10px;
+        right: 10px;
+        width: auto;
+        top: 10px;
+        max-height: 34vh;
+      }
+
+      .dock-tabs {
+        grid-template-columns: 1fr;
+      }
+
+      .co2-ribbon {
+        height: 54px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <canvas id="globe"></canvas>
+
+  <div id="hoverTooltip" class="hover-tooltip">
+    <div class="hover-tooltip-line1">
+      <span id="hoverTooltipDot" class="hover-tooltip-dot"></span>
+      <span id="hoverTooltipText">Hover a country</span>
+    </div>
+    <div id="hoverTooltipTemp" class="hover-tooltip-temp"></div>
+  </div>
+
+  <div class="thermal-toggle-wrap">
+    <button id="thermalToggleBtn" class="thermal-toggle">🌡 Thermal View</button>
+    <a class="thermal-source-link" href="https://data.giss.nasa.gov/gistemp/maps/" target="_blank" rel="noopener noreferrer">Thermal map source</a>
+  </div>
+
+<div id="chartTooltip"></div>
+<div id="chartDot"></div>
+
+  <div id="exploreDock" class="explore-dock">
+    <div class="dock-content">
+      <div class="country-panel">
+        <input id="countrySearch" class="country-search" type="text" placeholder="Search countries..." />
+        <div id="countryList" class="country-list"></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="infoDock" class="info-dock">
+    <div id="dockTabs" class="dock-tabs">
+      <button type="button" class="dock-tab active" data-dock-tab="trends">Trends</button>
+      <button type="button" class="dock-tab" data-dock-tab="snapshot">Snapshot</button>
+    </div>
+    <div class="dock-content">
+      <div class="dock-pane active" data-dock-pane="trends">
+        <div id="chartEmpty" class="dock-empty visible">Select any country, state, or ocean area to view metric trends.</div>
+        <div id="chartPanel" class="chart-panel">
+          <div class="chart-header">
+            <p id="chartTitle" class="chart-title">Renewable energy trend</p>
+            <div id="chartSources" class="chart-sources"></div>
+          </div>
+          <p id="chartSubtitle" class="chart-subtitle"></p>
+          <div id="metricGroupTabs" class="metric-group-tabs"></div>
+          <div id="metricButtons" class="metric-buttons"></div>
+          <div id="metricSubcontrols" class="metric-subcontrols"></div>
+          <canvas id="trendChart" width="500" height="180"></canvas>
+        </div>
+      </div>
+
+      <div class="dock-pane" data-dock-pane="snapshot">
+        <div id="snapshotEmpty" class="dock-empty visible">Select a country to open climate snapshot fields and source links.</div>
+        <div id="snapshotPanel" class="snapshot-panel">
+          <p id="snapshotTitle" class="snapshot-title">Climate snapshot (2026)</p>
+          <div id="snapshotTabButtons" class="snapshot-tab-buttons"></div>
+          <div id="snapshotContent" class="snapshot-empty">No country selected.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="hud">
+    <h1>🌍 Renewable Energy Globe</h1>
+    <p>Country borders colored by renewable energy usage (% of electricity)</p>
+    <div class="hover-panel" id="hoverPanel">
+      <div class="hover-swatch" id="hoverSwatch"></div>
+      <div>
+        <div class="hover-title" id="hoverName">Hover a country</div>
+        <div class="hover-value" id="hoverValue">Move your mouse over land or ocean</div>
+      </div>
+    </div>
+    <div class="sources-details">
+      <button id="sourcesOpenBtn" type="button" class="sources-button">Sources</button>
+    </div>
+    <div id="sourcesModal" class="sources-modal" aria-hidden="true">
+      <div id="sourcesModalBackdrop" class="sources-modal-backdrop"></div>
+      <div class="sources-modal-content" role="dialog" aria-modal="true" aria-labelledby="sourcesModalTitle">
+        <div class="sources-modal-header">
+          <p id="sourcesModalTitle" class="sources-modal-title">Data sources</p>
+          <button id="sourcesCloseBtn" type="button" class="sources-close" aria-label="Close sources">Close</button>
+        </div>
+        <div class="data-citations">
+        <p class="data-citations-title">Data sources & citations</p>
+        
+        <h3>Runtime Data (loaded by the application)</h3>
+        <ul>
+          <li><strong>World country boundaries</strong> (GeoJSON) — johan/world.geo.json (GitHub maintainer: johan). <a href="https://raw.githubusercontent.com/johan/world.geo.json/master/countries.geo.json" target="_blank" rel="noopener noreferrer">Source</a></li>
+          <li><strong>US state boundaries</strong> — PublicaMundi MappingAPI. <a href="https://raw.githubusercontent.com/PublicaMundi/MappingAPI/master/data/us-states.json" target="_blank" rel="noopener noreferrer">Original source</a> (<a href="data/us-states.json" target="_blank" rel="noopener noreferrer">local copy</a>)</li>
+          
+          <li><strong>Energy Systems:</strong>
+            <ul>
+              <li>Share of renewables by country — Ember (2026); Energy Institute - Statistical Review of World Energy (2025) – with major processing by Our World in Data. <a href="data/share-electricity-renewables/share-electricity-renewables.csv" target="_blank" rel="noopener noreferrer">Dataset</a></li>
+              <li>Share of electricity by source (Coal, Gas, Hydropower, Solar, Wind, Oil, Nuclear, Other renewables, Bioenergy) by country — Ember (2026); Energy Institute - Statistical Review (2025) – processed by Our World in Data. <a href="data/share-elec-by-source/share-elec-by-source.csv" target="_blank" rel="noopener noreferrer">Dataset</a></li>
+              <li>Total electricity generation by country — Ember (2026); Energy Institute - Statistical Review (2025) – processed by Our World in Data. <a href="data/electricity-generation/electricity-generation.csv" target="_blank" rel="noopener noreferrer">Dataset</a></li>
+              <li>Energy use per person by country — U.S. Energy Information Administration (2025); Energy Institute - Statistical Review (2025); population data (2024) – processed by Our World in Data. <a href="data/energy-use-per-person/energy-use-per-person.csv" target="_blank" rel="noopener noreferrer">Dataset</a></li>
+              <li>Access to electricity by country — SDG 7.1.1, World Bank (2026) – processed by Our World in Data. <a href="data/share-of-the-population-with-access-to-electricity/share-of-the-population-with-access-to-electricity.csv" target="_blank" rel="noopener noreferrer">Dataset</a></li>
+              <li>Cost of electricity by country (USD/kWh) — World Population Review (2026). <a href="https://worldpopulationreview.com/country-rankings/cost-of-electricity-by-country" target="_blank" rel="noopener noreferrer">Source page</a> (<a href="data/cost_of_electricity_by_country_wpr_2026.csv" target="_blank" rel="noopener noreferrer">local dataset</a>)</li>
+              <li>Generation cost by source and country (USD/MWh, 2026 proxy) — OECD-NEA LCOE and IRENA 2024 costs. <a href="https://www.oecd-nea.org/lcoe/" target="_blank" rel="noopener noreferrer">OECD-NEA</a>, <a href="https://www.irena.org/Publications/2025/Jun/Renewable-Power-Generation-Costs-in-2024" target="_blank" rel="noopener noreferrer">IRENA 2024</a> (<a href="data/generation_cost_country_source_usd_per_mwh_2026_proxy.csv" target="_blank" rel="noopener noreferrer">dataset</a>)</li>
+              <li>Battery-electric/plug-in hybrid vehicle sales share by country — International Energy Agency, Global EV Outlook 2025 – processed by Our World in Data. <a href="data/share-car-sales-battery-plugin/share-car-sales-battery-plugin.csv" target="_blank" rel="noopener noreferrer">Dataset</a></li>
+              <li>Carbon intensity of electricity by country — Ember (2026) – processed by Our World in Data. <a href="data/carbon-intensity-electricity/carbon-intensity-electricity.csv" target="_blank" rel="noopener noreferrer">Dataset</a></li>
+              <li>Coal units shut down by country (cumulative, 2000–2025) — Global Energy Monitor (GEM). <a href="https://globalenergymonitor.org/projects/global-coal-plant-tracker/summary-tables/" target="_blank" rel="noopener noreferrer">Summary tables</a> (<a href="data/coal_units_shut_down_by_country_gem_2000_2025.csv" target="_blank" rel="noopener noreferrer">local dataset</a>)</li>
+              <li>Grid battery storage capacity by country (2023, top 10) — Visualized via Voronoi/Decarbonization Channel (Energy Institute). <a href="https://www.voronoiapp.com/energy/Visualized-Countries-by-Grid-Storage-Battery-Capacity-in-2023-2903" target="_blank" rel="noopener noreferrer">Visualization</a> (<a href="data/grid_storage_battery_capacity_2023_top10.csv" target="_blank" rel="noopener noreferrer">dataset</a>)</li>
+              <li>Energy trade by country (imports, exports, production, consumption; 2026 proxy for oil/gas/coal) — <a href="data/energy_trade_import_export_by_country_2026.csv" target="_blank" rel="noopener noreferrer">Dataset</a></li>
+            </ul>
+          </li>
+
+          <li><strong>Climate &amp; Weather Impacts:</strong>
+            <ul>
+              <li>Heatwave days by country (annual mean, past 7 years, latest quarter) — Climate-Conflict Vulnerability Index (CCVI). <a href="https://climate-conflict.org/www/data-pages/CLI_accumulated_heatwave" target="_blank" rel="noopener noreferrer">Indicator page</a> (<a href="data/heatwave_days_by_country_ccvi_2025q4.csv" target="_blank" rel="noopener noreferrer">local dataset</a>)</li>
+              <li>Extreme weather events by country (2024 count; meteorological, hydrological, climatological disasters) — EM-DAT via HDX. <a href="https://data.humdata.org/dataset/emdat-country-profiles" target="_blank" rel="noopener noreferrer">Dataset page</a> (<a href="data/extreme_weather_events_by_country_emdat_2024.csv" target="_blank" rel="noopener noreferrer">local dataset</a>)</li>
+              <li>Deaths from extreme weather by country (floods, droughts, storms, extreme temperatures) — EM-DAT/CRED – processed by Our World in Data. <a href="https://ourworldindata.org/grapher/number-of-deaths-from-natural-disasters" target="_blank" rel="noopener noreferrer">OWID source</a> (<a href="data/number-of-deaths-from-natural-disasters/number-of-deaths-from-natural-disasters.csv" target="_blank" rel="noopener noreferrer">dataset</a>)</li>
+              <li>Annual surface temperature change by country — IMF Climate Change Indicators. <a href="https://climatedata.imf.org/datasets/4063314923d74187be9596f10d034914_0/about" target="_blank" rel="noopener noreferrer">Citation source</a> (<a href="data/Indicator_3_1_Climate_Indicators_Annual_Mean_Global_Surface_Temperature_6121427861384429071.csv" target="_blank" rel="noopener noreferrer">dataset</a>)</li>
+              <li>Wildfire burned area by country — Global Wildfire Information System (GWIS). <a href="https://gwis.jrc.ec.europa.eu/" target="_blank" rel="noopener noreferrer">GWIS source</a> (<a href="data/wildfire_burned_area_by_country_gwis.csv" target="_blank" rel="noopener noreferrer">dataset</a>)</li>
+            </ul>
+          </li>
+
+          <li><strong>Global Baseline Metrics:</strong>
+            <ul>
+              <li>Population by country — UN World Population Prospects (2024) – processed by Our World in Data. <a href="data/population/population.csv" target="_blank" rel="noopener noreferrer">Dataset</a></li>
+              <li>CO₂ emissions by country (annual) — Global Carbon Budget (2025) – processed by Our World in Data. <a href="data/annual-co-emissions-by-region/annual-co-emissions-by-region.csv" target="_blank" rel="noopener noreferrer">Dataset</a></li>
+              <li>CO₂ per capita by country — Our World in Data (OWID) / Global Carbon Budget. <a href="https://ourworldindata.org/co2-and-greenhouse-gas-emissions" target="_blank" rel="noopener noreferrer">OWID source</a> (<a href="data/co2_per_capita_by_country_owid.csv" target="_blank" rel="noopener noreferrer">dataset</a>)</li>
+              <li>Methane emissions by country — Our World in Data (OWID). <a href="https://ourworldindata.org/grapher/methane-emissions" target="_blank" rel="noopener noreferrer">OWID source</a> (<a href="data/methane_by_country_owid.csv" target="_blank" rel="noopener noreferrer">dataset</a>)</li>
+              <li>Land-use change CO₂ by country — Our World in Data (OWID). <a href="https://ourworldindata.org/grapher/co2-emissions-from-land-use-change" target="_blank" rel="noopener noreferrer">OWID source</a> (<a href="data/land_use_change_co2_by_country_owid.csv" target="_blank" rel="noopener noreferrer">dataset</a>)</li>
+              <li>GDP by country — Feenstra et al., Penn World Table (2025) – processed by Our World in Data. <a href="data/gdp-penn-world-table/gdp-penn-world-table.csv" target="_blank" rel="noopener noreferrer">Dataset</a></li>
+            </ul>
+          </li>
+
+          <li><strong>Climate Risk &amp; Resilience:</strong>
+            <ul>
+              <li>Climate resilience snapshot by country (sea-level exposure, extreme weather deaths, cereal yield anomaly, water stress, freshwater resources, PM2.5, air-pollution mortality, ND-GAIN readiness, coal power share) — World Bank API, ND-GAIN Country Index (2026), OWID disaster data, Ember/Energy Institute. <a href="https://api.worldbank.org/v2/country/all/indicator/EN.POP.EL5M.ZS?format=json" target="_blank" rel="noopener noreferrer">World Bank API example</a>; <a href="https://gain.nd.edu/our-work/country-index/download-data/" target="_blank" rel="noopener noreferrer">ND-GAIN</a> (<a href="data/climate_resilience_snapshot_by_country_2026.csv" target="_blank" rel="noopener noreferrer">local aggregated dataset</a>)</li>
+              <li>Sea-level rise by country (2026 projection) — World Bank Climate Knowledge Portal (CCKP). <a href="https://climateknowledgeportal.worldbank.org/" target="_blank" rel="noopener noreferrer">CCKP source</a> (<a href="data/sea_level_rise_by_country_cckp_2026.csv" target="_blank" rel="noopener noreferrer">dataset</a>)</li>
+              <li>Climate GDP losses/benefits scenarios (Hot House, Delayed, Net Zero; 2023–2050) — IMF Climate Change Indicators (NGFS framework). <a href="https://climatedata.imf.org/" target="_blank" rel="noopener noreferrer">IMF Climate Data</a> (<a href="data/Climate_GDP_Losses_Benefits.csv" target="_blank" rel="noopener noreferrer">dataset</a>)</li>
+            </ul>
+          </li>
+
+          <li><strong>Climate Policy:</strong>
+            <ul>
+              <li>Carbon pricing by country — World Bank Carbon Pricing Dashboard. <a href="https://carbonpricingdashboard.worldbank.org/" target="_blank" rel="noopener noreferrer">World Bank CPD</a> (<a href="data/carbon_price_by_country_wb_2025.csv" target="_blank" rel="noopener noreferrer">dataset</a>)</li>
+              <li>Fossil-fuel subsidies by country (2024) — IMF Working Paper 24/11. <a href="https://www.imf.org/en/Publications/WP/Issues/2024/08/18/IMF-Working-Paper-Fossil-Fuel-Subsidies-2024" target="_blank" rel="noopener noreferrer">IMF WP/24/11</a> (<a href="data/fossil_fuel_subsidies_by_country_imf_2024.csv" target="_blank" rel="noopener noreferrer">dataset</a>)</li>
+              <li>NDC net-zero status by country — Climate Watch. <a href="https://www.climatewatchdata.org/" target="_blank" rel="noopener noreferrer">Climate Watch</a> (<a href="data/ndc_net_zero_status_by_country_2025.csv" target="_blank" rel="noopener noreferrer">dataset</a>)</li>
+            </ul>
+          </li>
+
+          <li><strong>US State Data:</strong>
+            <ul>
+              <li>Existing electricity capacity by state/fuel type — U.S. Energy Information Administration (EIA). <a href="data/existcapacity_annual.csv" target="_blank" rel="noopener noreferrer">Dataset</a></li>
+              <li>Historical state population by year — Josh Tauberer, historical-state-population-csv. <a href="https://github.com/JoshData/historical-state-population-csv?tab=readme-ov-file" target="_blank" rel="noopener noreferrer">Original source</a> (<a href="data/historical_state_population_by_year.csv" target="_blank" rel="noopener noreferrer">local copy</a>)</li>
+              <li>CO₂ emissions by state — U.S. Energy Information Administration (EIA). <a href="data/co2_emissions_by_state.csv" target="_blank" rel="noopener noreferrer">Dataset</a></li>
+              <li>State GDP (SAGDP) — U.S. Bureau of Economic Analysis (BEA). <a href="data/per_state_gdp.csv" target="_blank" rel="noopener noreferrer">Dataset</a></li>
+              <li>Homeowners insurance premiums by state — Insurance Information Institute table archive (NAIC). <a href="https://www.iii.org/table-archive/21407" target="_blank" rel="noopener noreferrer">Citation source</a> (<a href="data/state_homeowners_insurance_premiums.csv" target="_blank" rel="noopener noreferrer">dataset</a>)</li>
+              <li>Drought severity by state (area in D1+) — NOAA Drought Information System / U.S. Drought Monitor. <a href="https://www.drought.gov/" target="_blank" rel="noopener noreferrer">Source page</a> (<a href="data/drought_severity_by_state_noaa.csv" target="_blank" rel="noopener noreferrer">dataset</a>)</li>
+              <li>Wildfire burned acres by state (annual) — National Interagency Fire Center (NIFC). <a href="https://www.nifc.gov/fire-information/statistics" target="_blank" rel="noopener noreferrer">Source page</a> (<a href="data/wildfire_burned_acres_by_state_nifc.csv" target="_blank" rel="noopener noreferrer">dataset</a>)</li>
+            </ul>
+          </li>
+
+          <li><strong>Ocean &amp; Cryosphere:</strong>
+            <ul>
+              <li>Global sea-level rise (annual) — U.S. EPA climate indicators, NOAA altimetry. <a href="https://www.epa.gov/climate-indicators" target="_blank" rel="noopener noreferrer">EPA indicators</a> (<a href="data/ocean_sea_level_global_annual_2026_proxy.csv" target="_blank" rel="noopener noreferrer">dataset</a>)</li>
+              <li>Ocean acidity (pH scale) — U.S. EPA climate indicators. <a href="https://www.epa.gov/climate-indicators" target="_blank" rel="noopener noreferrer">EPA</a> (<a href="data/epa_ocean_data/ocean-acidity_fig-1.csv" target="_blank" rel="noopener noreferrer">dataset</a>)</li>
+              <li>Ocean heat content anomaly — U.S. EPA climate indicators. <a href="https://www.epa.gov/climate-indicators" target="_blank" rel="noopener noreferrer">EPA</a> (<a href="data/epa_ocean_data/ocean-heat_fig-1.csv" target="_blank" rel="noopener noreferrer">dataset</a>)</li>
+              <li>Sea surface temperature anomaly — U.S. EPA climate indicators. <a href="https://www.epa.gov/climate-indicators" target="_blank" rel="noopener noreferrer">EPA</a> (<a href="data/epa_ocean_data/sea-surface-temp_fig-1.csv" target="_blank" rel="noopener noreferrer">dataset</a>)</li>
+              <li>Arctic sea ice extent (annual minimum) — NSIDC Sea Ice Index. <a href="https://nsidc.org/data/seaice_index" target="_blank" rel="noopener noreferrer">NSIDC source</a> (<a href="data/arctic_sea_ice_nsidc_annual.csv" target="_blank" rel="noopener noreferrer">dataset</a>)</li>
+              <li>Antarctic sea ice extent (annual minimum) — NSIDC Sea Ice Index. <a href="https://nsidc.org/data/seaice_index" target="_blank" rel="noopener noreferrer">NSIDC source</a> (<a href="data/antarctic_sea_ice_nsidc_annual.csv" target="_blank" rel="noopener noreferrer">dataset</a>)</li>
+            </ul>
+          </li>
+
+          <li><strong>Visualization Layers:</strong>
+            <ul>
+              <li>Thermal/temperature anomaly map layer — NASA GISS temperature anomaly maps. <a href="https://data.giss.nasa.gov/gistemp/maps/" target="_blank" rel="noopener noreferrer">NASA GISS source</a> (<a href="data/nasa_temperature_data.txt" target="_blank" rel="noopener noreferrer">local grid dataset</a>)</li>
+            </ul>
+          </li>
+
+        <h3>Method Documentation</h3>
+        <ul>
+          <li><strong>Generation cost (2026 proxy) methodology</strong> — Documents baseline OECD-NEA LCOE and IRENA 2024 cost-change rate adjustments. <a href="data/generation_cost_country_source_usd_per_mwh_2026_proxy_method.md" target="_blank" rel="noopener noreferrer">Method notes</a></li>
+          <li><strong>Energy trade (2026 proxy) methodology</strong> — Documents compilation approach for oil/gas/coal trade flows. <a href="data/energy_trade_import_export_by_country_2026_proxy_method.md" target="_blank" rel="noopener noreferrer">Method notes</a></li>
+          <li><strong>Ocean sea-level (2026 proxy) methodology</strong> — Documents aggregation of NOAA altimetry and projection method. <a href="data/ocean_sea_level_global_annual_2026_proxy_method.md" target="_blank" rel="noopener noreferrer">Method notes</a></li>
+        </ul>
+        </ul>
+      </div>
+      </div>
+    </div>
+    </div>
+
+  <div id="co2Ribbon" class="co2-ribbon">
+    <div class="co2-ribbon-label">2023 CO₂ contribution by country (% of global total)</div>
+    <div id="co2RibbonTrack" class="co2-ribbon-track"></div>
+  </div>
+  <div id="co2RibbonTooltip" class="co2-ribbon-tooltip"></div>
+
+  <!-- import map to let bare imports like "three" resolve to unpkg URL -->
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://unpkg.com/three@0.152.0/build/three.module.js"
+    }
+  }
+  </script>
+
+  <!-- load app as ES module which imports three and orbit controls -->
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
