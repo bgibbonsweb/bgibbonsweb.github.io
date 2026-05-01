@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Ben Gibbons favicon">
+  <defs>
+    <linearGradient id="bg" x1="8" y1="6" x2="56" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#08111b"/>
+      <stop offset="0.55" stop-color="#132233"/>
+      <stop offset="1" stop-color="#0b1018"/>
+    </linearGradient>
+    <linearGradient id="flare" x1="14" y1="12" x2="50" y2="48" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#61f0d2" stop-opacity="0.95"/>
+      <stop offset="0.5" stop-color="#8ac6ff" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#ffb24c" stop-opacity="0.92"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="14" fill="url(#bg)"/>
+  <path d="M16 18C25 13 39 13 48 18" fill="none" stroke="url(#flare)" stroke-width="4" stroke-linecap="round" opacity="0.95"/>
+  <path d="M18 47C27 52 40 51 48 45" fill="none" stroke="url(#flare)" stroke-width="3.2" stroke-linecap="round" opacity="0.8"/>
+  <text x="32" y="41" text-anchor="middle" font-size="26" font-weight="700" font-family="Avenir Next, Montserrat, Segoe UI, Arial, sans-serif" fill="#f6f8fb">BG</text>
+</svg>

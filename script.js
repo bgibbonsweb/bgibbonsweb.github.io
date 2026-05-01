@@ -379,7 +379,7 @@ function persistHomepageSceneSelection(scene) {
         return;
 
     try {
-        if (window.localStorage)
+        if (window.localStorage && !scene.openInNewTab)
             localStorage.setItem(homepageSceneStorageKey, scene.id);
     } catch (error) {
     }
@@ -389,8 +389,15 @@ function getInitialHomepageSceneId() {
     try {
         if (window.localStorage) {
             var savedSceneId = localStorage.getItem(homepageSceneStorageKey);
-            if (savedSceneId && getHomepageScene(savedSceneId).id === savedSceneId)
-                return savedSceneId;
+            if (savedSceneId) {
+                var savedScene = getHomepageScene(savedSceneId);
+                if (savedScene.id === savedSceneId) {
+                    if (!savedScene.openInNewTab)
+                        return savedSceneId;
+
+                    localStorage.removeItem(homepageSceneStorageKey);
+                }
+            }
         }
     } catch (error) {
     }
