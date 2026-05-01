@@ -1,0 +1,5933 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-04-24T20:51:16Z",
+    "timestamp_areas_base": "2026-04-24T15:53:36Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 367811135,
+      "lat": 42.7083333,
+      "lon": -90.9847222,
+      "tags": {
+        "addr:state": "WI",
+        "ele": "186",
+        "gnis:feature_id": "2392049",
+        "name": "E J Stoneman Generating Station",
+        "power": "plant",
+        "source": "USGS Geonames",
+        "wikidata": "Q5321971"
+      }
+    },
+    {
+      "type": "way",
+      "id": 36896369,
+      "center": {
+        "lat": 41.6719564,
+        "lon": -93.6759009
+      },
+      "tags": {
+        "addr:city": "Johnston",
+        "addr:country": "US",
+        "addr:housenumber": "6141",
+        "addr:postcode": "50131",
+        "addr:state": "IA",
+        "addr:street": "Northwest Beaver Drive",
+        "landuse": "industrial",
+        "name": "Mid American Energy Sycamore Combustion Turbines",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:method": "combustion",
+        "plant:output:electricity": "157.6 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "8029",
+        "source": "https://www.industryabout.com/country-territories-3/873-usa/fossil-fuels-energy/22060-sycamore-iowa-gas-power-plant;http://www.energyjustice.net/map/displayfacility-66732.htm",
+        "start_date": "1974-08",
+        "website": "https://www.iowadnr.gov/air/prof/oper/tv/final/98-TV-014R1.pdf"
+      },
+      "lat": 41.6719564,
+      "lon": -93.6759009
+    },
+    {
+      "type": "way",
+      "id": 46144110,
+      "center": {
+        "lat": 41.5904669,
+        "lon": -93.6195302
+      },
+      "tags": {
+        "addr:city": "Des Moines",
+        "addr:postcode": "50309",
+        "addr:state": "IA",
+        "addr:street": "Grand Avenue",
+        "landuse": "industrial",
+        "name": "MidAmerican Energy River Hills Gas Plant",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:method": "combustion",
+        "plant:output:electricity": "128 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "1084",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1966-05"
+      },
+      "lat": 41.5904669,
+      "lon": -93.6195302
+    },
+    {
+      "type": "way",
+      "id": 65583868,
+      "center": {
+        "lat": 41.5878567,
+        "lon": -93.5993467
+      },
+      "tags": {
+        "addr:city": "Des Moines",
+        "addr:housenumber": "110",
+        "addr:postcode": "50316",
+        "addr:state": "IA",
+        "addr:street": "Southeast 13th Street",
+        "building": "industrial",
+        "landuse": "industrial",
+        "name": "Energy Plant",
+        "plant:output:electricity": "yes",
+        "power": "plant"
+      },
+      "lat": 41.5878567,
+      "lon": -93.5993467
+    },
+    {
+      "type": "way",
+      "id": 183191045,
+      "center": {
+        "lat": 42.0277944,
+        "lon": -93.6394869
+      },
+      "tags": {
+        "addr:city": "Ames",
+        "addr:housenumber": "616",
+        "addr:postcode": "50011",
+        "addr:state": "IA",
+        "addr:street": "Beach Road",
+        "building": "university",
+        "building:levels": "10",
+        "height": "100",
+        "landuse": "industrial",
+        "name": "Iowa State University Power Plant",
+        "operator": "Iowa State University",
+        "plant:method": "combustion",
+        "plant:output:electricity": "39.8 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "54201",
+        "source": "Bing;https://www.gem.wiki/Iowa_State_University_Power_Plant",
+        "start_date": "1949-06",
+        "wikidata": "Q116714343"
+      },
+      "lat": 42.0277944,
+      "lon": -93.6394869
+    },
+    {
+      "type": "way",
+      "id": 208499069,
+      "center": {
+        "lat": 40.6221252,
+        "lon": -95.7838311
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "OPPD Nebraska City Power Station",
+        "operator": "Omaha Public Power District",
+        "plant:method": "combustion",
+        "plant:output:electricity": "1389.6 MW",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "6096",
+        "source": "bing",
+        "start_date": "1979-04",
+        "wikidata": "Q11991027"
+      },
+      "lat": 40.6221252,
+      "lon": -95.7838311
+    },
+    {
+      "type": "way",
+      "id": 249936499,
+      "center": {
+        "lat": 41.3884583,
+        "lon": -91.0601585
+      },
+      "tags": {
+        "addr:city": "Muscatine",
+        "addr:housenumber": "1700",
+        "addr:postcode": "52761",
+        "addr:state": "IA",
+        "addr:street": "Dick Drake Way",
+        "landuse": "industrial",
+        "name": "Muscatine Power Plant",
+        "operator": "Muscatine Power and Water",
+        "plant:method": "combustion",
+        "plant:output:electricity": "293.5 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "1167",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1958-04",
+        "wikidata": "Q11990214"
+      },
+      "lat": 41.3884583,
+      "lon": -91.0601585
+    },
+    {
+      "type": "way",
+      "id": 307747828,
+      "center": {
+        "lat": 43.0945192,
+        "lon": -93.2931281
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Emery Generating Station",
+        "operator": "Alliant Energy",
+        "operator:wikidata": "Q4732492",
+        "plant:method": "combustion",
+        "plant:output:electricity": "602.8 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "8031",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2004-05",
+        "wikidata": "Q11967321"
+      },
+      "lat": 43.0945192,
+      "lon": -93.2931281
+    },
+    {
+      "type": "way",
+      "id": 389629673,
+      "center": {
+        "lat": 41.3253887,
+        "lon": -91.0906264
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Louisa Generating Station",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:method": "combustion",
+        "plant:output:electricity": "811.9 MW",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "6664",
+        "source": "https://www.gem.wiki/Louisa_Generating_Station",
+        "start_date": "1983-10",
+        "wikidata": "Q19380190"
+      },
+      "lat": 41.3253887,
+      "lon": -91.0906264
+    },
+    {
+      "type": "way",
+      "id": 419909888,
+      "center": {
+        "lat": 41.9434071,
+        "lon": -91.6407662
+      },
+      "tags": {
+        "addr:city": "Cedar Rapids",
+        "addr:housenumber": "3304",
+        "addr:postcode": "52404",
+        "addr:state": "IA",
+        "addr:street": "C Street Southwest",
+        "landuse": "industrial",
+        "name": "Prairie Creek Generating Station",
+        "operator": "Alliant Energy",
+        "operator:wikidata": "Q4732492",
+        "plant:method": "combustion",
+        "plant:output:electricity": "198.8 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "gas;coal",
+        "power": "plant",
+        "ref:US:EIA": "1073",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1951-05",
+        "wikidata": "Q19385619"
+      },
+      "lat": 41.9434071,
+      "lon": -91.6407662
+    },
+    {
+      "type": "way",
+      "id": 487322711,
+      "center": {
+        "lat": 41.0163517,
+        "lon": -92.4148824
+      },
+      "tags": {
+        "building": "yes",
+        "name": "City of Ottumwa Power Plant",
+        "operator": "Ottumwa City of",
+        "plant:output:electricity": "3.2 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "1173",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1931-08"
+      },
+      "lat": 41.0163517,
+      "lon": -92.4148824
+    },
+    {
+      "type": "way",
+      "id": 526263829,
+      "center": {
+        "lat": 42.4405349,
+        "lon": -92.4200727
+      },
+      "tags": {
+        "frequency": "60",
+        "landuse": "industrial",
+        "name": "Electrifarm Power Plant",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:method": "combustion",
+        "plant:output:electricity": "264.1 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "6063",
+        "source": "https://www.industryabout.com/country-territories-3/873-usa/fossil-fuels-energy/22066-electrifarm-gas-power-plant;http://www.energyjustice.net/map/displayfacility-65964.htm",
+        "start_date": "1975-05"
+      },
+      "lat": 42.4405349,
+      "lon": -92.4200727
+    },
+    {
+      "type": "way",
+      "id": 544614153,
+      "center": {
+        "lat": 42.526725,
+        "lon": -92.4398735
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Streeter Station Power Plant",
+        "operator": "Cedar Falls Utilities",
+        "plant:method": "combustion",
+        "plant:output:electricity": "51.5 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "1131",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1963-09"
+      },
+      "lat": 42.526725,
+      "lon": -92.4398735
+    },
+    {
+      "type": "way",
+      "id": 545306068,
+      "center": {
+        "lat": 42.4818566,
+        "lon": -92.4579154
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Cedar Falls Solar Farm",
+        "operator": "Altus Power America Management, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "62321",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2016-04"
+      },
+      "lat": 42.4818566,
+      "lon": -92.4579154
+    },
+    {
+      "type": "way",
+      "id": 595902259,
+      "center": {
+        "lat": 42.3001706,
+        "lon": -96.3610129
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "George Neal Station South",
+        "note": "gem.wiki is not a valid source",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:method": "combustion",
+        "plant:output:electricity": "695.9 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "7343",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1979-07",
+        "wikidata": "Q17776065"
+      },
+      "lat": 42.3001706,
+      "lon": -96.3610129
+    },
+    {
+      "type": "way",
+      "id": 599134998,
+      "center": {
+        "lat": 41.5138645,
+        "lon": -94.919683
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Exira Station",
+        "operator": "Western Minnesota Mun Pwr Agny",
+        "plant:method": "combustion",
+        "plant:output:electricity": "181.5 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "56013",
+        "source": "https://www.mrenergy.com/energy-resources/generation/fossil-fuels",
+        "start_date": "2004-04"
+      },
+      "lat": 41.5138645,
+      "lon": -94.919683
+    },
+    {
+      "type": "way",
+      "id": 633590998,
+      "center": {
+        "lat": 41.0988548,
+        "lon": -92.5557375
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Ottumwa Generating Station",
+        "operator": "Interstate Power and Light",
+        "plant:method": "combustion",
+        "plant:output:electricity": "725.9 MW",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "6254",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1981-05",
+        "wikidata": "Q11994438"
+      },
+      "lat": 41.0988548,
+      "lon": -92.5557375
+    },
+    {
+      "type": "way",
+      "id": 656181207,
+      "center": {
+        "lat": 40.9723147,
+        "lon": -91.5514669
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Mt Pleasant Power Plant",
+        "operator": "City of Mt Pleasant - (IA)",
+        "plant:method": "combustion",
+        "plant:output:electricity": "24 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "1166",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "1966-10"
+      },
+      "lat": 40.9723147,
+      "lon": -91.5514669
+    },
+    {
+      "type": "way",
+      "id": 664181912,
+      "center": {
+        "lat": 41.5965249,
+        "lon": -91.0352898
+      },
+      "tags": {
+        "name": "Eastern Iowa Solar",
+        "operator": "Central Iowa Power Cooperative",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.8 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60876",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2016-11"
+      },
+      "lat": 41.5965249,
+      "lon": -91.0352898
+    },
+    {
+      "type": "way",
+      "id": 682515550,
+      "center": {
+        "lat": 42.5079433,
+        "lon": -90.6582046
+      },
+      "tags": {
+        "addr:city": "Dubuque",
+        "addr:housenumber": "1001",
+        "addr:postcode": "52001",
+        "addr:state": "IA",
+        "addr:street": "East 12th Street",
+        "name": "Downtown Dubuque Solar Garden",
+        "operator": "Alliant Energy",
+        "operator:wikidata": "Q4732492",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "start_date": "2017-09-01"
+      },
+      "lat": 42.5079433,
+      "lon": -90.6582046
+    },
+    {
+      "type": "way",
+      "id": 685513632,
+      "center": {
+        "lat": 41.5691415,
+        "lon": -91.2640889
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "West Liberty Power Plant",
+        "operator": "City of West Liberty - (IA)",
+        "plant:output:electricity": "16.5 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "1200",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1948-06"
+      },
+      "lat": 41.5691415,
+      "lon": -91.2640889
+    },
+    {
+      "type": "way",
+      "id": 733094417,
+      "center": {
+        "lat": 41.1538755,
+        "lon": -91.6590873
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.1538755,
+      "lon": -91.6590873
+    },
+    {
+      "type": "way",
+      "id": 735289776,
+      "center": {
+        "lat": 41.7262357,
+        "lon": -90.3059689
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Quad Cities Nuclear Generating Station",
+        "name:es": "Central nuclear de Quad Cities",
+        "name:fr": "Centrale nucl\u00e9aire de Quad Cities",
+        "operator": "Exelon Nuclear",
+        "plant:method": "fission",
+        "plant:output:electricity": "2018.6 MW",
+        "plant:source": "nuclear",
+        "power": "plant",
+        "ref:US:EIA": "880",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1972-12",
+        "wikidata": "Q2944614",
+        "wikipedia": "en:Quad Cities Nuclear Generating Station"
+      },
+      "lat": 41.7262357,
+      "lon": -90.3059689
+    },
+    {
+      "type": "way",
+      "id": 741437480,
+      "center": {
+        "lat": 43.160032,
+        "lon": -95.2576849
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Earl F. Wisdom Generating Station",
+        "operator": "Corn Belt Power Cooperative",
+        "plant:method": "combustion;steam",
+        "plant:output:electricity": "119.1 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "1217"
+      },
+      "lat": 43.160032,
+      "lon": -95.2576849
+    },
+    {
+      "type": "way",
+      "id": 757443381,
+      "center": {
+        "lat": 41.5548541,
+        "lon": -93.5275515
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Greater Des Moines Energy Center",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:method": "combustion",
+        "plant:output:electricity": "576.3 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "7985",
+        "source": "http://www.energyjustice.net/map/displayfacility-66697.htm",
+        "start_date": "2003-05",
+        "wikidata": "Q11972503"
+      },
+      "lat": 41.5548541,
+      "lon": -93.5275515
+    },
+    {
+      "type": "way",
+      "id": 757443382,
+      "center": {
+        "lat": 41.5564083,
+        "lon": -93.5239774
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Pleasant Hill Power Plant",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:method": "combustion",
+        "plant:output:electricity": "179.8 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "7145",
+        "source": "https://www.industryabout.com/country-territories-3/873-usa/fossil-fuels-energy/22057-pleasant-hill-gas-power-plant;http://www.energyjustice.net/map/displayfacilityadvanced-66302.htm",
+        "start_date": "1990-06"
+      },
+      "lat": 41.5564083,
+      "lon": -93.5239774
+    },
+    {
+      "type": "way",
+      "id": 767999391,
+      "center": {
+        "lat": 41.1802454,
+        "lon": -95.8378487
+      },
+      "tags": {
+        "alt_name": "Walter Scott Jr. Energy Center",
+        "landuse": "industrial",
+        "name": "Council Bluffs Energy Center",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:method": "combustion",
+        "plant:output:electricity": "1648.3 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "1082",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1954-03",
+        "wikidata": "Q11964147"
+      },
+      "lat": 41.1802454,
+      "lon": -95.8378487
+    },
+    {
+      "type": "way",
+      "id": 788694690,
+      "center": {
+        "lat": 42.506147,
+        "lon": -92.3456012
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Waterloo Lundquist",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:method": "combustion",
+        "plant:output:electricity": "18 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "7851",
+        "source": "http://www.energyjustice.net/map/displayfacility-66588.htm",
+        "start_date": "2000-04"
+      },
+      "lat": 42.506147,
+      "lon": -92.3456012
+    },
+    {
+      "type": "way",
+      "id": 834323739,
+      "center": {
+        "lat": 42.4914895,
+        "lon": -90.7917792
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "West Dubuque Solar Garden",
+        "operator": "Interstate Power and Light Co",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "3.8 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60951",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2017-09"
+      },
+      "lat": 42.4914895,
+      "lon": -90.7917792
+    },
+    {
+      "type": "way",
+      "id": 839988238,
+      "center": {
+        "lat": 42.0418705,
+        "lon": -92.8723041
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Marshalltown Generating Station",
+        "operator": "Alliant Energy",
+        "operator:wikidata": "Q4732492",
+        "plant:method": "combustion",
+        "plant:output:electricity": "708.8 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "58236",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2017-04"
+      },
+      "lat": 42.0418705,
+      "lon": -92.8723041
+    },
+    {
+      "type": "way",
+      "id": 841061589,
+      "center": {
+        "lat": 42.2658439,
+        "lon": -90.426625
+      },
+      "tags": {
+        "addr:city": "Bellevue",
+        "addr:housenumber": "900",
+        "addr:postcode": "52031",
+        "addr:state": "IA",
+        "addr:street": "North Riverview Street",
+        "building": "yes",
+        "landuse": "industrial",
+        "name": "Bellevue Municipal Utilities",
+        "not:operator:wikidata": "Q815958",
+        "operator": "City of Bellevue",
+        "plant:method": "combustion",
+        "plant:output:electricity": "9.8 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "start_date": "1953"
+      },
+      "lat": 42.2658439,
+      "lon": -90.426625
+    },
+    {
+      "type": "way",
+      "id": 851908333,
+      "center": {
+        "lat": 43.3791413,
+        "lon": -92.9064101
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.3791413,
+      "lon": -92.9064101
+    },
+    {
+      "type": "way",
+      "id": 853592502,
+      "center": {
+        "lat": 42.0288769,
+        "lon": -93.6369638
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.0288769,
+      "lon": -93.6369638
+    },
+    {
+      "type": "way",
+      "id": 863415371,
+      "center": {
+        "lat": 42.0560381,
+        "lon": -92.8970499
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Alliant SBD 9107 JBS USA",
+        "operator": "Industrial Energy Applications Inc",
+        "plant:method": "combustion",
+        "plant:output:electricity": "11.4 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "54715",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1992-08"
+      },
+      "lat": 42.0560381,
+      "lon": -92.8970499
+    },
+    {
+      "type": "way",
+      "id": 863415377,
+      "center": {
+        "lat": 42.0482813,
+        "lon": -92.8626368
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Marshalltown Power Station",
+        "operator": "Alliant Energy",
+        "operator:wikidata": "Q4732492",
+        "plant:method": "combustion",
+        "plant:output:electricity": "189 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "1068",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1978-06",
+        "wikidata": "Q11988461"
+      },
+      "lat": 42.0482813,
+      "lon": -92.8626368
+    },
+    {
+      "type": "way",
+      "id": 871745304,
+      "center": {
+        "lat": 42.0270157,
+        "lon": -93.5827534
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Ames Gas Turbines",
+        "operator": "City of Ames",
+        "plant:method": "combustion",
+        "plant:output:electricity": "78.7 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "6463",
+        "wikidata": "Q116697314"
+      },
+      "lat": 42.0270157,
+      "lon": -93.5827534
+    },
+    {
+      "type": "way",
+      "id": 891667629,
+      "center": {
+        "lat": 42.5122123,
+        "lon": -92.4764594
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Cedar Falls Utilities Gas Turbine",
+        "operator": "Cedar Falls Utilities",
+        "plant:method": "combustion",
+        "plant:output:electricity": "43.4 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "1130",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1968-01"
+      },
+      "lat": 42.5122123,
+      "lon": -92.4764594
+    },
+    {
+      "type": "way",
+      "id": 908614453,
+      "center": {
+        "lat": 42.5335029,
+        "lon": -90.6653493
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.5335029,
+      "lon": -90.6653493
+    },
+    {
+      "type": "way",
+      "id": 914445372,
+      "center": {
+        "lat": 43.2477163,
+        "lon": -93.2050592
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Lime Creek",
+        "operator": "Alliant Energy",
+        "operator:wikidata": "Q4732492",
+        "plant:method": "combustion",
+        "plant:output:electricity": "90.2 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "7155",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1991-05",
+        "wikidata": "Q19379447"
+      },
+      "lat": 43.2477163,
+      "lon": -93.2050592
+    },
+    {
+      "type": "way",
+      "id": 921329659,
+      "center": {
+        "lat": 42.3233292,
+        "lon": -96.3772848
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "George Neal Station North",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:method": "combustion",
+        "plant:output:electricity": "584.1 MW",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "1091",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1964-05",
+        "wikidata": "Q11971852"
+      },
+      "lat": 42.3233292,
+      "lon": -96.3772848
+    },
+    {
+      "type": "way",
+      "id": 924429515,
+      "center": {
+        "lat": 42.2660621,
+        "lon": -90.4267438
+      },
+      "tags": {
+        "landuse": "industrial",
+        "power": "plant"
+      },
+      "lat": 42.2660621,
+      "lon": -90.4267438
+    },
+    {
+      "type": "way",
+      "id": 925615983,
+      "center": {
+        "lat": 42.0254364,
+        "lon": -93.6088377
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Ames Municipal Power Plant",
+        "operator": "City of Ames",
+        "plant:method": "combustion",
+        "plant:output:electricity": "108.8 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "1122",
+        "source": "https://www.gem.wiki/Ames_Municipal_Power_Plant",
+        "start_date": "1968-05"
+      },
+      "lat": 42.0254364,
+      "lon": -93.6088377
+    },
+    {
+      "type": "way",
+      "id": 953084796,
+      "center": {
+        "lat": 43.3227871,
+        "lon": -91.8096522
+      },
+      "tags": {
+        "barrier": "fence",
+        "industrial": "power",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.3227871,
+      "lon": -91.8096522
+    },
+    {
+      "type": "way",
+      "id": 953084797,
+      "center": {
+        "lat": 43.3211441,
+        "lon": -91.8081723
+      },
+      "tags": {
+        "barrier": "fence",
+        "industrial": "power",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.3211441,
+      "lon": -91.8081723
+    },
+    {
+      "type": "way",
+      "id": 953600372,
+      "center": {
+        "lat": 41.5176793,
+        "lon": -90.5667918
+      },
+      "tags": {
+        "building": "yes",
+        "heritage": "2",
+        "heritage:operator": "nrhp",
+        "heritage:website": "https://www.nps.gov/subjects/nationalregister/index.htm",
+        "historic": "maritime",
+        "name": "Power House",
+        "nrhp:criteria": "(A), (C)",
+        "nrhp:inscription_date": "2004-03-10",
+        "plant:output:electricity": "yes",
+        "plant:source": "hydro",
+        "power": "plant",
+        "protection_title": "U.S. Army Corps of Engineers",
+        "ref:nrhp": "04000175",
+        "source_ref": "https://catalog.archives.gov/id/28891426",
+        "start_date": "1934"
+      },
+      "lat": 41.5176793,
+      "lon": -90.5667918
+    },
+    {
+      "type": "way",
+      "id": 957891534,
+      "center": {
+        "lat": 42.6785174,
+        "lon": -91.5451278
+      },
+      "tags": {
+        "industrial": "power_panels",
+        "landuse": "industrial",
+        "name": "Strawberry Point DPC Solar",
+        "operator": "SoCore Energy LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.3 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60955",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2017-11"
+      },
+      "lat": 42.6785174,
+      "lon": -91.5451278
+    },
+    {
+      "type": "way",
+      "id": 967957985,
+      "center": {
+        "lat": 42.4315248,
+        "lon": -96.4080665
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "South Sioux City Solar",
+        "operator": "Tesla Inc.",
+        "operator:wikidata": "Q478214",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2.3 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60823",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2016-12"
+      },
+      "lat": 42.4315248,
+      "lon": -96.4080665
+    },
+    {
+      "type": "way",
+      "id": 977011630,
+      "center": {
+        "lat": 42.1862145,
+        "lon": -93.6006598
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Story City Power Plant",
+        "operator": "City of Story City - (IA)",
+        "plant:method": "combustion",
+        "plant:output:electricity": "13.9 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "1188",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1964-01"
+      },
+      "lat": 42.1862145,
+      "lon": -93.6006598
+    },
+    {
+      "type": "way",
+      "id": 977477227,
+      "center": {
+        "lat": 41.5740926,
+        "lon": -93.8525619
+      },
+      "tags": {
+        "barrier": "wall",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.5740926,
+      "lon": -93.8525619
+    },
+    {
+      "type": "way",
+      "id": 997268973,
+      "center": {
+        "lat": 42.5211232,
+        "lon": -90.7688871
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.5211232,
+      "lon": -90.7688871
+    },
+    {
+      "type": "way",
+      "id": 1011366105,
+      "center": {
+        "lat": 40.7469058,
+        "lon": -92.4368376
+      },
+      "tags": {
+        "name": "Bloomfield Solar Farm",
+        "operator": "City of Bloomfield",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.86 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "62607",
+        "start_date": "2017-12-29",
+        "website": "https://bloomfield.solar/"
+      },
+      "lat": 40.7469058,
+      "lon": -92.4368376
+    },
+    {
+      "type": "way",
+      "id": 1011368177,
+      "center": {
+        "lat": 42.0054332,
+        "lon": -93.1582657
+      },
+      "tags": {
+        "name": "State Center Solar Farm",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "0.979 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "start_date": "2017-12-00"
+      },
+      "lat": 42.0054332,
+      "lon": -93.1582657
+    },
+    {
+      "type": "way",
+      "id": 1017666666,
+      "center": {
+        "lat": 41.6719326,
+        "lon": -91.5638974
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Coralville Turbines",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:method": "combustion",
+        "plant:output:electricity": "72 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "1079",
+        "source": "http://www.energyjustice.net/map/displayfacility-64430.htm",
+        "start_date": "1970-06"
+      },
+      "lat": 41.6719326,
+      "lon": -91.5638974
+    },
+    {
+      "type": "way",
+      "id": 1020957606,
+      "center": {
+        "lat": 40.8018613,
+        "lon": -91.1744137
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 40.8018613,
+      "lon": -91.1744137
+    },
+    {
+      "type": "way",
+      "id": 1020979975,
+      "center": {
+        "lat": 41.002168,
+        "lon": -91.9851445
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.002168,
+      "lon": -91.9851445
+    },
+    {
+      "type": "way",
+      "id": 1021021085,
+      "center": {
+        "lat": 41.7146288,
+        "lon": -92.7260589
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.7146288,
+      "lon": -92.7260589
+    },
+    {
+      "type": "way",
+      "id": 1021221620,
+      "center": {
+        "lat": 41.410946,
+        "lon": -92.8893226
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.410946,
+      "lon": -92.8893226
+    },
+    {
+      "type": "way",
+      "id": 1021221645,
+      "center": {
+        "lat": 41.4092976,
+        "lon": -92.9438933
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.4092976,
+      "lon": -92.9438933
+    },
+    {
+      "type": "way",
+      "id": 1021489867,
+      "center": {
+        "lat": 42.0500688,
+        "lon": -94.726674
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.0500688,
+      "lon": -94.726674
+    },
+    {
+      "type": "way",
+      "id": 1023567756,
+      "center": {
+        "lat": 43.3214355,
+        "lon": -91.7970516
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.3214355,
+      "lon": -91.7970516
+    },
+    {
+      "type": "way",
+      "id": 1026123179,
+      "center": {
+        "lat": 41.9674709,
+        "lon": -91.5875974
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.9674709,
+      "lon": -91.5875974
+    },
+    {
+      "type": "way",
+      "id": 1034008868,
+      "center": {
+        "lat": 41.964587,
+        "lon": -91.703583
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.964587,
+      "lon": -91.703583
+    },
+    {
+      "type": "way",
+      "id": 1034611883,
+      "center": {
+        "lat": 41.6563726,
+        "lon": -91.5399003
+      },
+      "tags": {
+        "addr:city": "Iowa City",
+        "addr:housenumber": "207",
+        "addr:postcode": "52242",
+        "addr:state": "IA",
+        "addr:street": "West Burlington Street",
+        "landuse": "industrial",
+        "name": "University of Iowa Power Plant",
+        "operator": "University of Iowa",
+        "plant:method": "combustion",
+        "plant:output:electricity": "24.7 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "gas;oil",
+        "power": "plant",
+        "ref:US:EIA": "54775",
+        "source": "Bing",
+        "start_date": "1947-01",
+        "website": "https://facilities.uiowa.edu"
+      },
+      "lat": 41.6563726,
+      "lon": -91.5399003
+    },
+    {
+      "type": "way",
+      "id": 1051915184,
+      "center": {
+        "lat": 42.1817181,
+        "lon": -94.8775059
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.1817181,
+      "lon": -94.8775059
+    },
+    {
+      "type": "way",
+      "id": 1054560975,
+      "center": {
+        "lat": 41.3696472,
+        "lon": -92.9793049
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Red Rock Hydroelectric Project",
+        "operator": "Western Minnesota Mun Pwr Agny",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "55.2 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "58434",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2020-08-01"
+      },
+      "lat": 41.3696472,
+      "lon": -92.9793049
+    },
+    {
+      "type": "way",
+      "id": 1054801950,
+      "center": {
+        "lat": 42.4550379,
+        "lon": -94.9933689
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.4550379,
+      "lon": -94.9933689
+    },
+    {
+      "type": "way",
+      "id": 1059070933,
+      "center": {
+        "lat": 42.3331612,
+        "lon": -96.3483046
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Neal Solar Array",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "4 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "65393",
+        "website": "https://www.midamericanenergy.com/solar-energy"
+      },
+      "lat": 42.3331612,
+      "lon": -96.3483046
+    },
+    {
+      "type": "way",
+      "id": 1060877903,
+      "center": {
+        "lat": 42.0149277,
+        "lon": -91.6786845
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.0149277,
+      "lon": -91.6786845
+    },
+    {
+      "type": "way",
+      "id": 1084341267,
+      "center": {
+        "lat": 42.0034456,
+        "lon": -93.6175629
+      },
+      "tags": {
+        "name": "SunSmart Ames",
+        "operator": "Forefront Power, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64179",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2020-12"
+      },
+      "lat": 42.0034456,
+      "lon": -93.6175629
+    },
+    {
+      "type": "way",
+      "id": 1086303437,
+      "center": {
+        "lat": 40.7707685,
+        "lon": -95.3768823
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Shenandoah Power Plant",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:method": "combustion",
+        "plant:output:electricity": "20 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "7850",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2000-04"
+      },
+      "lat": 40.7707685,
+      "lon": -95.3768823
+    },
+    {
+      "type": "way",
+      "id": 1086303438,
+      "center": {
+        "lat": 41.8710169,
+        "lon": -94.6808433
+      },
+      "tags": {
+        "building": "yes",
+        "landuse": "industrial",
+        "name": "Coon Rapids II",
+        "operator": "City of Coon Rapids",
+        "plant:method": "combustion",
+        "plant:output:electricity": "5.4 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "7847",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2001-10"
+      },
+      "lat": 41.8710169,
+      "lon": -94.6808433
+    },
+    {
+      "type": "way",
+      "id": 1086303441,
+      "center": {
+        "lat": 41.644441,
+        "lon": -95.3154871
+      },
+      "tags": {
+        "name": "Harlan Power Plant",
+        "operator": "Harlan Municipal Utilities - (IA)",
+        "plant:output:electricity": "3.4 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "1146",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2001-07"
+      },
+      "lat": 41.644441,
+      "lon": -95.3154871
+    },
+    {
+      "type": "way",
+      "id": 1086303446,
+      "center": {
+        "lat": 41.409492,
+        "lon": -95.0007461
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Atlantic Power Plant",
+        "operator": "Atlantic Municipal Utilities",
+        "plant:method": "combustion",
+        "plant:output:electricity": "10 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "1124",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1966-09"
+      },
+      "lat": 41.409492,
+      "lon": -95.0007461
+    },
+    {
+      "type": "way",
+      "id": 1086303447,
+      "center": {
+        "lat": 41.1135964,
+        "lon": -94.3479842
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Summit Lake Generating Station",
+        "operator": "CIPCO",
+        "operator:wikidata": "Q5061277",
+        "plant:method": "combustion",
+        "plant:output:electricity": "118.7 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "1206",
+        "source": "https://www.cipco.net/cipcos-summit-lake-expansion-project-reaches-commercial-operation",
+        "start_date": "2021-04-15"
+      },
+      "lat": 41.1135964,
+      "lon": -94.3479842
+    },
+    {
+      "type": "way",
+      "id": 1088042247,
+      "center": {
+        "lat": 41.5877215,
+        "lon": -91.0194798
+      },
+      "tags": {
+        "name": "Wilton Power Plant",
+        "operator": "City of Wilton",
+        "plant:output:electricity": "9.2 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "1202",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1958-10"
+      },
+      "lat": 41.5877215,
+      "lon": -91.0194798
+    },
+    {
+      "type": "way",
+      "id": 1088636710,
+      "center": {
+        "lat": 41.1386596,
+        "lon": -92.6469259
+      },
+      "tags": {
+        "fixme": "position",
+        "landuse": "industrial",
+        "name": "Cargill Corn Milling Division Power Plant",
+        "operator": "Cargill Inc North America Sweetners",
+        "plant:method": "combustion",
+        "plant:output:electricity": "40 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "10855",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1952-12"
+      },
+      "lat": 41.1386596,
+      "lon": -92.6469259
+    },
+    {
+      "type": "way",
+      "id": 1088636711,
+      "center": {
+        "lat": 41.5860504,
+        "lon": -92.5227634
+      },
+      "tags": {
+        "name": "Montezuma Power Plant",
+        "operator": "City of Montezuma - (IA)",
+        "plant:output:electricity": "9.8 MW",
+        "plant:source": "gas;oil",
+        "power": "plant",
+        "ref:US:EIA": "1165",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1940-08"
+      },
+      "lat": 41.5860504,
+      "lon": -92.5227634
+    },
+    {
+      "type": "way",
+      "id": 1088636712,
+      "center": {
+        "lat": 41.3595921,
+        "lon": -93.56298
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Indianola Power Plant",
+        "operator": "Indianola Municipal Utilities",
+        "plant:output:electricity": "40.9 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "1150",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1946-01"
+      },
+      "lat": 41.3595921,
+      "lon": -93.56298
+    },
+    {
+      "type": "way",
+      "id": 1088636713,
+      "center": {
+        "lat": 41.5989414,
+        "lon": -93.3549888
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Metro Methane Recovery Facility",
+        "operator": "WM Renewable Energy LLC",
+        "plant:output:electricity": "11.2 MW",
+        "plant:source": "biogas",
+        "power": "plant",
+        "ref:US:EIA": "54700",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1998-01"
+      },
+      "lat": 41.5989414,
+      "lon": -93.3549888
+    },
+    {
+      "type": "way",
+      "id": 1088636714,
+      "center": {
+        "lat": 41.315934,
+        "lon": -93.0608256
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Knoxville Power Plant",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:output:electricity": "17.1 MW",
+        "plant:source": "oil;battery",
+        "power": "plant",
+        "ref:US:EIA": "62569;7849",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2000-04"
+      },
+      "lat": 41.315934,
+      "lon": -93.0608256
+    },
+    {
+      "type": "way",
+      "id": 1088636715,
+      "center": {
+        "lat": 41.4104997,
+        "lon": -92.9385008
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Pella Peaking",
+        "operator": "City of Pella - (IA)",
+        "plant:output:electricity": "28 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "7971",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2001-06"
+      },
+      "lat": 41.4104997,
+      "lon": -92.9385008
+    },
+    {
+      "type": "way",
+      "id": 1089478203,
+      "center": {
+        "lat": 43.1445563,
+        "lon": -95.1442781
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Spencer Gas Turbine",
+        "operator": "City of Spencer - (IA)",
+        "plant:method": "combustion",
+        "plant:output:electricity": "23.8 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "1186",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1970-01"
+      },
+      "lat": 43.1445563,
+      "lon": -95.1442781
+    },
+    {
+      "type": "way",
+      "id": 1089478205,
+      "center": {
+        "lat": 43.2630539,
+        "lon": -93.6352663
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Forest City Light Plant",
+        "operator": "City of Forest City- (IA)",
+        "plant:method": "combustion",
+        "plant:output:electricity": "22 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "1138",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1950-01"
+      },
+      "lat": 43.2630539,
+      "lon": -93.6352663
+    },
+    {
+      "type": "way",
+      "id": 1089478206,
+      "center": {
+        "lat": 42.4711062,
+        "lon": -93.8150504
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Webster City Power Plant",
+        "operator": "City of Webster City - (IA)",
+        "plant:method": "combustion",
+        "plant:output:electricity": "21.3 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "1198",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1972-04"
+      },
+      "lat": 42.4711062,
+      "lon": -93.8150504
+    },
+    {
+      "type": "way",
+      "id": 1089478207,
+      "center": {
+        "lat": 42.4331192,
+        "lon": -96.4073108
+      },
+      "tags": {
+        "name": "South Sioux City Energy Storage",
+        "operator": "DG Nebraska Energy Storage, LLC",
+        "plant:output:electricity": "1.5 MW",
+        "plant:source": "battery",
+        "power": "plant",
+        "ref:US:EIA": "65098",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2020-12"
+      },
+      "lat": 42.4331192,
+      "lon": -96.4073108
+    },
+    {
+      "type": "way",
+      "id": 1089778540,
+      "center": {
+        "lat": 42.1698303,
+        "lon": -92.0224641
+      },
+      "tags": {
+        "name": "Vinton Power Plant",
+        "operator": "City of Vinton - (IA)",
+        "plant:method": "combustion",
+        "plant:output:electricity": "17.5 MW",
+        "plant:source": "gas;oil",
+        "power": "plant",
+        "ref:US:EIA": "1194",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1946-06"
+      },
+      "lat": 42.1698303,
+      "lon": -92.0224641
+    },
+    {
+      "type": "way",
+      "id": 1089778541,
+      "center": {
+        "lat": 41.3370478,
+        "lon": -94.0127578
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Winterset Power Plant",
+        "operator": "City of Winterset - (IA)",
+        "plant:method": "combustion",
+        "plant:output:electricity": "13.6 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "1203",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1956-07"
+      },
+      "lat": 41.3370478,
+      "lon": -94.0127578
+    },
+    {
+      "type": "way",
+      "id": 1089778542,
+      "center": {
+        "lat": 42.0338887,
+        "lon": -91.6460072
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Alliant SBD 9106 Rockwell CR",
+        "operator": "Industrial Energy Applications Inc",
+        "plant:method": "combustion",
+        "plant:output:electricity": "16 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "54717",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1992-06"
+      },
+      "lat": 42.0338887,
+      "lon": -91.6460072
+    },
+    {
+      "type": "way",
+      "id": 1089778543,
+      "center": {
+        "lat": 42.0459305,
+        "lon": -93.5789955
+      },
+      "tags": {
+        "name": "NCAH Central Utility Plant",
+        "operator": "National Centers for Animal Health",
+        "plant:method": "combustion",
+        "plant:output:electricity": "14.9 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "gas;oil",
+        "power": "plant",
+        "ref:US:EIA": "58265",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1996-06",
+        "wikidata": "Q116718501"
+      },
+      "lat": 42.0459305,
+      "lon": -93.5789955
+    },
+    {
+      "type": "way",
+      "id": 1089778544,
+      "center": {
+        "lat": 41.7932047,
+        "lon": -91.8917977
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Amana Society Service Company",
+        "operator": "Amana Society Service Co",
+        "plant:method": "combustion",
+        "plant:output:electricity": "21.6 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "61850",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2001-05"
+      },
+      "lat": 41.7932047,
+      "lon": -91.8917977
+    },
+    {
+      "type": "way",
+      "id": 1089778546,
+      "center": {
+        "lat": 41.924199,
+        "lon": -91.686989
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Archer Daniels Midland Cedar Rapids",
+        "operator": "Archer Daniels Midland Co",
+        "plant:method": "combustion",
+        "plant:output:electricity": "294.6 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "gas;coal",
+        "power": "plant",
+        "ref:US:EIA": "10864",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1988-11"
+      },
+      "lat": 41.924199,
+      "lon": -91.686989
+    },
+    {
+      "type": "way",
+      "id": 1096830835,
+      "center": {
+        "lat": 42.72098,
+        "lon": -93.2067026
+      },
+      "tags": {
+        "name": "Franklin Solar",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "7 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64986",
+        "start_date": "2021"
+      },
+      "lat": 42.72098,
+      "lon": -93.2067026
+    },
+    {
+      "type": "way",
+      "id": 1096831267,
+      "center": {
+        "lat": 42.543795,
+        "lon": -92.3555353
+      },
+      "tags": {
+        "name": "Waterloo Solar",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "3 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64984",
+        "start_date": "2021"
+      },
+      "lat": 42.543795,
+      "lon": -92.3555353
+    },
+    {
+      "type": "way",
+      "id": 1096836038,
+      "center": {
+        "lat": 41.457855,
+        "lon": -94.2835173
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Arbor Hill Solar",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "24 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "start_date": "2021"
+      },
+      "lat": 41.457855,
+      "lon": -94.2835173
+    },
+    {
+      "type": "way",
+      "id": 1096836039,
+      "center": {
+        "lat": 41.4618828,
+        "lon": -94.2754102
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Arbor Hill Solar",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "25 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64755",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2022-01"
+      },
+      "lat": 41.4618828,
+      "lon": -94.2754102
+    },
+    {
+      "type": "way",
+      "id": 1132074282,
+      "center": {
+        "lat": 43.4613547,
+        "lon": -95.7113022
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.4613547,
+      "lon": -95.7113022
+    },
+    {
+      "type": "way",
+      "id": 1138514414,
+      "center": {
+        "lat": 42.0267846,
+        "lon": -96.0689938
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.0267846,
+      "lon": -96.0689938
+    },
+    {
+      "type": "way",
+      "id": 1138514418,
+      "center": {
+        "lat": 42.0273709,
+        "lon": -96.0798293
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.0273709,
+      "lon": -96.0798293
+    },
+    {
+      "type": "way",
+      "id": 1153919887,
+      "center": {
+        "lat": 43.2748383,
+        "lon": -93.6286831
+      },
+      "tags": {
+        "name": "Forest City Solar",
+        "operator": "Butter Solar, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "3 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "62861",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2019-09"
+      },
+      "lat": 43.2748383,
+      "lon": -93.6286831
+    },
+    {
+      "type": "way",
+      "id": 1158811800,
+      "center": {
+        "lat": 43.2934125,
+        "lon": -92.8138443
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "1172"
+      },
+      "lat": 43.2934125,
+      "lon": -92.8138443
+    },
+    {
+      "type": "way",
+      "id": 1158876571,
+      "center": {
+        "lat": 42.0412682,
+        "lon": -92.8747075
+      },
+      "tags": {
+        "operator": "Alliant Energy",
+        "operator:wikidata": "Q4732492",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2.6 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref": "PV1"
+      },
+      "lat": 42.0412682,
+      "lon": -92.8747075
+    },
+    {
+      "type": "way",
+      "id": 1160952424,
+      "center": {
+        "lat": 42.4676147,
+        "lon": -91.7387633
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.4676147,
+      "lon": -91.7387633
+    },
+    {
+      "type": "way",
+      "id": 1161481413,
+      "center": {
+        "lat": 41.7623524,
+        "lon": -92.7152748
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Grinnell College",
+        "operator": "Azimuth 180 Solar Electric, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "3.9 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "65164",
+        "source": "U.S. Energy Information Administration - EIA-860m - 2025",
+        "start_date": "2024-04"
+      },
+      "lat": 41.7623524,
+      "lon": -92.7152748
+    },
+    {
+      "type": "way",
+      "id": 1177362113,
+      "center": {
+        "lat": 41.951305,
+        "lon": -91.6939826
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Deer Run Battery Storage",
+        "operator": "Alliant Energy",
+        "operator:wikidata": "Q4732492",
+        "plant:output:electricity": "5 MW",
+        "plant:source": "battery",
+        "plant:storage": "10 MWh",
+        "plant:type": "lithium_ion",
+        "power": "plant",
+        "ref:US:EIA": "65531",
+        "source": "https://www.alliantenergy.com/alliantenergynews/newscenter/2-deerrunbattery",
+        "start_date": "2022-08"
+      },
+      "lat": 41.951305,
+      "lon": -91.6939826
+    },
+    {
+      "type": "way",
+      "id": 1180727888,
+      "center": {
+        "lat": 41.0539408,
+        "lon": -93.7629146
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.0539408,
+      "lon": -93.7629146
+    },
+    {
+      "type": "way",
+      "id": 1189748868,
+      "center": {
+        "lat": 42.4643116,
+        "lon": -91.7393967
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.4643116,
+      "lon": -91.7393967
+    },
+    {
+      "type": "way",
+      "id": 1198464891,
+      "center": {
+        "lat": 42.7840621,
+        "lon": -94.9525646
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.7840621,
+      "lon": -94.9525646
+    },
+    {
+      "type": "way",
+      "id": 1198666578,
+      "center": {
+        "lat": 42.8649162,
+        "lon": -94.9855163
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.8649162,
+      "lon": -94.9855163
+    },
+    {
+      "type": "way",
+      "id": 1200967060,
+      "center": {
+        "lat": 42.7357077,
+        "lon": -92.4697154
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "South Power Plant",
+        "operator": "Waverly Utilities",
+        "plant:method": "combustion",
+        "plant:output:electricity": "12 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "7758",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2000-05"
+      },
+      "lat": 42.7357077,
+      "lon": -92.4697154
+    },
+    {
+      "type": "way",
+      "id": 1212041201,
+      "center": {
+        "lat": 42.0387026,
+        "lon": -90.6627424
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Maquoketa 1 Power Station",
+        "operator": "City of Maquoketa - (IA)",
+        "plant:method": "combustion",
+        "plant:output:electricity": "24.4 MW",
+        "plant:source": "gas;oil",
+        "power": "plant",
+        "ref:US:EIA": "1162",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "1938-11"
+      },
+      "lat": 42.0387026,
+      "lon": -90.6627424
+    },
+    {
+      "type": "way",
+      "id": 1219916848,
+      "center": {
+        "lat": 42.0560841,
+        "lon": -91.4581177
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.0560841,
+      "lon": -91.4581177
+    },
+    {
+      "type": "way",
+      "id": 1220329406,
+      "center": {
+        "lat": 43.2907257,
+        "lon": -91.7570618
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.2907257,
+      "lon": -91.7570618
+    },
+    {
+      "type": "way",
+      "id": 1221851299,
+      "center": {
+        "lat": 41.5544266,
+        "lon": -93.8021576
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.5544266,
+      "lon": -93.8021576
+    },
+    {
+      "type": "way",
+      "id": 1221851318,
+      "center": {
+        "lat": 41.5538216,
+        "lon": -93.8082525
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.5538216,
+      "lon": -93.8082525
+    },
+    {
+      "type": "way",
+      "id": 1221853961,
+      "center": {
+        "lat": 40.9813044,
+        "lon": -94.7605079
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 40.9813044,
+      "lon": -94.7605079
+    },
+    {
+      "type": "way",
+      "id": 1226631121,
+      "center": {
+        "lat": 41.2120335,
+        "lon": -91.536661
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.2120335,
+      "lon": -91.536661
+    },
+    {
+      "type": "way",
+      "id": 1238106771,
+      "center": {
+        "lat": 42.5694984,
+        "lon": -90.6863709
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "John Deere Dubuque Works Power Plant",
+        "operator": "John Deere Dubuque Works",
+        "plant:method": "combustion",
+        "plant:output:electricity": "9 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "54414",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "1949-06"
+      },
+      "lat": 42.5694984,
+      "lon": -90.6863709
+    },
+    {
+      "type": "way",
+      "id": 1245425316,
+      "center": {
+        "lat": 41.9487618,
+        "lon": -91.6923746
+      },
+      "tags": {
+        "name": "Community Solar Garden",
+        "operator": "Alliant Energy",
+        "operator:wikidata": "Q4732492",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "4.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "start_date": "2024-02",
+        "website": "https://www.alliantenergy.com/alliantenergynews/newscenter/021324-cedarrapidssolaroperational"
+      },
+      "lat": 41.9487618,
+      "lon": -91.6923746
+    },
+    {
+      "type": "way",
+      "id": 1247808817,
+      "center": {
+        "lat": 41.0236773,
+        "lon": -91.9720667
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.0236773,
+      "lon": -91.9720667
+    },
+    {
+      "type": "way",
+      "id": 1283296070,
+      "center": {
+        "lat": 42.3952019,
+        "lon": -90.7058653
+      },
+      "tags": {
+        "name": "Airport Terminal Solar Array",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.3952019,
+      "lon": -90.7058653
+    },
+    {
+      "type": "way",
+      "id": 1290488089,
+      "center": {
+        "lat": 40.9655524,
+        "lon": -91.5683031
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 40.9655524,
+      "lon": -91.5683031
+    },
+    {
+      "type": "way",
+      "id": 1330494028,
+      "center": {
+        "lat": 43.165201,
+        "lon": -93.1963501
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.165201,
+      "lon": -93.1963501
+    },
+    {
+      "type": "way",
+      "id": 1330715274,
+      "center": {
+        "lat": 43.1390535,
+        "lon": -93.2298133
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.1390535,
+      "lon": -93.2298133
+    },
+    {
+      "type": "way",
+      "id": 1331159026,
+      "center": {
+        "lat": 43.1615575,
+        "lon": -93.1342054
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.1615575,
+      "lon": -93.1342054
+    },
+    {
+      "type": "way",
+      "id": 1331159039,
+      "center": {
+        "lat": 43.1587792,
+        "lon": -93.1364977
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.1587792,
+      "lon": -93.1364977
+    },
+    {
+      "type": "way",
+      "id": 1331159056,
+      "center": {
+        "lat": 43.1554457,
+        "lon": -93.1350468
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.1554457,
+      "lon": -93.1350468
+    },
+    {
+      "type": "way",
+      "id": 1331159065,
+      "center": {
+        "lat": 43.1590866,
+        "lon": -93.1297339
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.1590866,
+      "lon": -93.1297339
+    },
+    {
+      "type": "way",
+      "id": 1331159066,
+      "center": {
+        "lat": 43.1586494,
+        "lon": -93.1295977
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.1586494,
+      "lon": -93.1295977
+    },
+    {
+      "type": "way",
+      "id": 1331159067,
+      "center": {
+        "lat": 43.1591552,
+        "lon": -93.1287294
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.1591552,
+      "lon": -93.1287294
+    },
+    {
+      "type": "way",
+      "id": 1332603912,
+      "center": {
+        "lat": 40.5809959,
+        "lon": -91.4334214
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 40.5809959,
+      "lon": -91.4334214
+    },
+    {
+      "type": "way",
+      "id": 1336837731,
+      "center": {
+        "lat": 41.094937,
+        "lon": -91.2495919
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.094937,
+      "lon": -91.2495919
+    },
+    {
+      "type": "way",
+      "id": 1337603993,
+      "center": {
+        "lat": 42.0629385,
+        "lon": -93.8563514
+      },
+      "tags": {
+        "name": "Fareway Customer Hosted 1 MW Solar",
+        "operator": "Interstate Power and Light Co",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "67096",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2024-05"
+      },
+      "lat": 42.0629385,
+      "lon": -93.8563514
+    },
+    {
+      "type": "way",
+      "id": 1339088344,
+      "center": {
+        "lat": 41.8434748,
+        "lon": -94.1205304
+      },
+      "tags": {
+        "name": "Perry Customer Hosted 1MW Solar Project",
+        "operator": "Interstate Power and Light Co",
+        "operator:wikidata": "Q4732492",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "67099",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2024-07"
+      },
+      "lat": 41.8434748,
+      "lon": -94.1205304
+    },
+    {
+      "type": "way",
+      "id": 1344626296,
+      "center": {
+        "lat": 42.0056145,
+        "lon": -93.0284487
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.0056145,
+      "lon": -93.0284487
+    },
+    {
+      "type": "way",
+      "id": 1344627953,
+      "center": {
+        "lat": 42.3749338,
+        "lon": -93.099985
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.3749338,
+      "lon": -93.099985
+    },
+    {
+      "type": "way",
+      "id": 1344629153,
+      "center": {
+        "lat": 42.4096582,
+        "lon": -93.0706392
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.4096582,
+      "lon": -93.0706392
+    },
+    {
+      "type": "way",
+      "id": 1344631111,
+      "center": {
+        "lat": 42.0101018,
+        "lon": -93.4545701
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.0101018,
+      "lon": -93.4545701
+    },
+    {
+      "type": "way",
+      "id": 1344631113,
+      "center": {
+        "lat": 42.0158658,
+        "lon": -93.4803547
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.0158658,
+      "lon": -93.4803547
+    },
+    {
+      "type": "way",
+      "id": 1350053462,
+      "center": {
+        "lat": 40.9932229,
+        "lon": -91.961659
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 40.9932229,
+      "lon": -91.961659
+    },
+    {
+      "type": "way",
+      "id": 1350053466,
+      "center": {
+        "lat": 41.012488,
+        "lon": -91.9755864
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.012488,
+      "lon": -91.9755864
+    },
+    {
+      "type": "way",
+      "id": 1355088481,
+      "center": {
+        "lat": 43.3941449,
+        "lon": -94.8338245
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.3941449,
+      "lon": -94.8338245
+    },
+    {
+      "type": "way",
+      "id": 1411650007,
+      "center": {
+        "lat": 41.0733779,
+        "lon": -94.372044
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.0733779,
+      "lon": -94.372044
+    },
+    {
+      "type": "way",
+      "id": 1431214973,
+      "center": {
+        "lat": 41.6862706,
+        "lon": -92.7236387
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.6862706,
+      "lon": -92.7236387
+    },
+    {
+      "type": "way",
+      "id": 1446407636,
+      "center": {
+        "lat": 41.6841813,
+        "lon": -92.9015
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.6841813,
+      "lon": -92.9015
+    },
+    {
+      "type": "way",
+      "id": 1464602551,
+      "center": {
+        "lat": 43.3241694,
+        "lon": -91.7928804
+      },
+      "tags": {
+        "name": "Decorah Battery",
+        "operator": "Interstate Power and Light Co",
+        "plant:output:electricity": "2.5 MW",
+        "plant:source": "battery",
+        "power": "plant",
+        "ref:US:EIA": "64375",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2021-06"
+      },
+      "lat": 43.3241694,
+      "lon": -91.7928804
+    },
+    {
+      "type": "way",
+      "id": 1466601124,
+      "center": {
+        "lat": 43.0891297,
+        "lon": -93.9834948
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.0891297,
+      "lon": -93.9834948
+    },
+    {
+      "type": "way",
+      "id": 1475136326,
+      "center": {
+        "lat": 43.3826735,
+        "lon": -92.7354321
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Little Cedar Solar",
+        "operator": "OneEnergy, Inc.",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "69492",
+        "start_date": "2025-12"
+      },
+      "lat": 43.3826735,
+      "lon": -92.7354321
+    },
+    {
+      "type": "relation",
+      "id": 368946,
+      "center": {
+        "lat": 42.0943168,
+        "lon": -93.2963142
+      },
+      "tags": {
+        "name": "Story County I Wind Energy Center",
+        "operator": "NextEra Energy",
+        "operator:wikidata": "Q967868",
+        "operator:wikipedia": "en:NextEra Energy",
+        "plant:output:electricity": "150 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56924",
+        "start_date": "2008-12",
+        "type": "site"
+      },
+      "lat": 42.0943168,
+      "lon": -93.2963142
+    },
+    {
+      "type": "relation",
+      "id": 369210,
+      "center": {
+        "lat": 42.544302,
+        "lon": -93.6543927
+      },
+      "tags": {
+        "name": "Century Wind Project",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "201.2 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56252",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2005-09",
+        "type": "site"
+      },
+      "lat": 42.544302,
+      "lon": -93.6543927
+    },
+    {
+      "type": "relation",
+      "id": 1184839,
+      "center": {
+        "lat": 43.013362,
+        "lon": -93.6852954
+      },
+      "tags": {
+        "name": "Hancock County Wind Energy Center",
+        "operator": "NextEra Energy",
+        "operator:wikidata": "Q967868",
+        "operator:wikipedia": "en:NextEra Energy",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "98 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56010",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2002-12",
+        "type": "site"
+      },
+      "lat": 43.013362,
+      "lon": -93.6852954
+    },
+    {
+      "type": "relation",
+      "id": 1185174,
+      "center": {
+        "lat": 43.3622159,
+        "lon": -93.4155919
+      },
+      "tags": {
+        "name": "Top of Iowa Wind Farm",
+        "operator": "Entergy Corporation and Shell Wind Corporation",
+        "plant:output:electricity": "80 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "55804",
+        "start_date": "2001-10",
+        "type": "site"
+      },
+      "lat": 43.3622159,
+      "lon": -93.4155919
+    },
+    {
+      "type": "relation",
+      "id": 1185866,
+      "center": {
+        "lat": 42.6308773,
+        "lon": -93.2440053
+      },
+      "tags": {
+        "name": "Whispering Willow Wind Farm - East",
+        "operator": "Alliant Energy",
+        "operator:wikidata": "Q4732492",
+        "plant:output:electricity": "199.7 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56355",
+        "start_date": "2009-12",
+        "type": "site",
+        "wikidata": "Q7993967"
+      },
+      "lat": 42.6308773,
+      "lon": -93.2440053
+    },
+    {
+      "type": "relation",
+      "id": 1187074,
+      "center": {
+        "lat": 42.2370156,
+        "lon": -93.3792273
+      },
+      "tags": {
+        "alt_name": "Garden Wind LLC",
+        "name": "Story County II Wind Energy Center",
+        "operator": "NextEra Energy",
+        "operator:wikidata": "Q967868",
+        "operator:wikipedia": "en:NextEra Energy",
+        "plant:output:electricity": "150 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57469",
+        "start_date": "2009-12",
+        "type": "site"
+      },
+      "lat": 42.2370156,
+      "lon": -93.3792273
+    },
+    {
+      "type": "relation",
+      "id": 1187101,
+      "center": {
+        "lat": 43.1927453,
+        "lon": -93.8425036
+      },
+      "tags": {
+        "name": "Crystal Lake Wind",
+        "operator": "NextEra Energy",
+        "operator:wikidata": "Q967868",
+        "operator:wikipedia": "en:NextEra Energy",
+        "plant:output:electricity": "150 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56923",
+        "start_date": "2008-12",
+        "type": "site"
+      },
+      "lat": 43.1927453,
+      "lon": -93.8425036
+    },
+    {
+      "type": "relation",
+      "id": 1187113,
+      "center": {
+        "lat": 41.5951048,
+        "lon": -93.5488956
+      },
+      "tags": {
+        "name": "Wind Energy Education Center",
+        "plant:source": "wind",
+        "power": "plant",
+        "type": "site"
+      },
+      "lat": 41.5951048,
+      "lon": -93.5488956
+    },
+    {
+      "type": "relation",
+      "id": 1188322,
+      "center": {
+        "lat": 42.7040255,
+        "lon": -95.3431895
+      },
+      "tags": {
+        "name": "Storm Lake I Wind Farm",
+        "operator": "Allete Clean Energy",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "113.9 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "54793",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "1999-05",
+        "type": "site"
+      },
+      "lat": 42.7040255,
+      "lon": -95.3431895
+    },
+    {
+      "type": "relation",
+      "id": 1188323,
+      "center": {
+        "lat": 42.5157194,
+        "lon": -95.328751
+      },
+      "tags": {
+        "name": "Intrepid Wind Farm",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "175.5 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56251",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2004-12",
+        "type": "site",
+        "wikidata": "Q6058630"
+      },
+      "lat": 42.5157194,
+      "lon": -95.328751
+    },
+    {
+      "type": "relation",
+      "id": 1188338,
+      "center": {
+        "lat": 42.0856875,
+        "lon": -94.3504807
+      },
+      "tags": {
+        "name": "Hardin Hilltop Wind",
+        "operator": "NRG Energy Gas & Wind Holdings Inc",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "14.7 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56860",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2007-05",
+        "type": "site"
+      },
+      "lat": 42.0856875,
+      "lon": -94.3504807
+    },
+    {
+      "type": "relation",
+      "id": 1189108,
+      "center": {
+        "lat": 43.385377,
+        "lon": -94.8156135
+      },
+      "tags": {
+        "name": "Iowa Lakes Community College Wind Turbine",
+        "operator": "Iowa Lakes Community College",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57257",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2005-02",
+        "type": "site"
+      },
+      "lat": 43.385377,
+      "lon": -94.8156135
+    },
+    {
+      "type": "relation",
+      "id": 1189192,
+      "center": {
+        "lat": 41.4623784,
+        "lon": -95.2351709
+      },
+      "tags": {
+        "name": "Walnut Wind Farm",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "165.2 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56811",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2008-12",
+        "type": "site",
+        "wikidata": "Q7963704"
+      },
+      "lat": 41.4623784,
+      "lon": -95.2351709
+    },
+    {
+      "type": "relation",
+      "id": 1189218,
+      "center": {
+        "lat": 42.1522104,
+        "lon": -94.9388924
+      },
+      "tags": {
+        "name": "Carroll Wind Farm",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "159.1 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56809",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2008-12",
+        "type": "site"
+      },
+      "lat": 42.1522104,
+      "lon": -94.9388924
+    },
+    {
+      "type": "relation",
+      "id": 1189271,
+      "center": {
+        "lat": 43.4364266,
+        "lon": -95.4558995
+      },
+      "tags": {
+        "alt_name": "Osceola Windpower I and II",
+        "name": "Endeavor Wind Farm",
+        "operator": "NextEra Energy",
+        "operator:wikidata": "Q967868",
+        "operator:wikipedia": "en:NextEra Energy",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "147.8 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56645;56913",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2008-07",
+        "type": "site"
+      },
+      "lat": 43.4364266,
+      "lon": -95.4558995
+    },
+    {
+      "type": "relation",
+      "id": 1189276,
+      "center": {
+        "lat": 43.384135,
+        "lon": -95.297989
+      },
+      "tags": {
+        "name": "Flying Cloud Wind Farm",
+        "operator": "Avangrid Renewables",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "43.5 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56172",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2003-12",
+        "type": "site"
+      },
+      "lat": 43.384135,
+      "lon": -95.297989
+    },
+    {
+      "type": "relation",
+      "id": 1189277,
+      "center": {
+        "lat": 43.3423186,
+        "lon": -95.2784553
+      },
+      "tags": {
+        "name": "Lost Lakes Wind Farm",
+        "operator": "EDP Renewables North America",
+        "operator:wikidata": "Q5322866",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "100 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57111",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2009-12",
+        "type": "site",
+        "website": "https://www.edpr.com/north-america/lost-lakes-wind-farm"
+      },
+      "lat": 43.3423186,
+      "lon": -95.2784553
+    },
+    {
+      "type": "relation",
+      "id": 1189555,
+      "center": {
+        "lat": 43.0678391,
+        "lon": -94.9011676
+      },
+      "tags": {
+        "name": "Crosswinds Wind Farm",
+        "operator": "NRG Energy Gas & Wind Holdings Inc",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "21 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56859",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2007-06",
+        "type": "site"
+      },
+      "lat": 43.0678391,
+      "lon": -94.9011676
+    },
+    {
+      "type": "relation",
+      "id": 1189950,
+      "center": {
+        "lat": 42.5936097,
+        "lon": -94.7550768
+      },
+      "tags": {
+        "name": "Pomeroy Wind Farm",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "286.4 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56501",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2007-12",
+        "type": "site"
+      },
+      "lat": 42.5936097,
+      "lon": -94.7550768
+    },
+    {
+      "type": "relation",
+      "id": 1190207,
+      "center": {
+        "lat": 43.407273,
+        "lon": -92.4710183
+      },
+      "tags": {
+        "name": "Crane Creek Wind Farm",
+        "operator": "Wisconsin Public Service",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "99 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56831",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2009-12",
+        "type": "site",
+        "website": "https://www.wisconsinpublicservice.com/environment/crane_creek.aspx"
+      },
+      "lat": 43.407273,
+      "lon": -92.4710183
+    },
+    {
+      "type": "relation",
+      "id": 1190208,
+      "center": {
+        "lat": 43.4672495,
+        "lon": -92.6331446
+      },
+      "tags": {
+        "name": "Pioneer Prairie Wind Farm",
+        "operator": "EDP Renewables North America",
+        "operator:wikidata": "Q5322866",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "300 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56797",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2008-10",
+        "type": "site",
+        "wikidata": "Q7196768"
+      },
+      "lat": 43.4672495,
+      "lon": -92.6331446
+    },
+    {
+      "type": "relation",
+      "id": 1190908,
+      "center": {
+        "lat": 43.376562,
+        "lon": -94.1372353
+      },
+      "tags": {
+        "name": "Iowa Lakes Lakota Wind Farm",
+        "operator": "Iowa Lakes Electric Cooperative",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "10.5 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57251",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2009-03",
+        "type": "site"
+      },
+      "lat": 43.376562,
+      "lon": -94.1372353
+    },
+    {
+      "type": "relation",
+      "id": 1190979,
+      "center": {
+        "lat": 43.4455866,
+        "lon": -94.9824528
+      },
+      "tags": {
+        "name": "Iowa Lakes Superior Wind Farm",
+        "operator": "Iowa Lakes Electric Cooperative",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "10.5 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57252",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2009-04",
+        "type": "site"
+      },
+      "lat": 43.4455866,
+      "lon": -94.9824528
+    },
+    {
+      "type": "relation",
+      "id": 1191220,
+      "center": {
+        "lat": 42.4734092,
+        "lon": -93.5673018
+      },
+      "tags": {
+        "name": "Boondocks Truck Stop Wind Farm",
+        "plant:output:electricity": "0.700 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "type": "site"
+      },
+      "lat": 42.4734092,
+      "lon": -93.5673018
+    },
+    {
+      "type": "relation",
+      "id": 1191483,
+      "center": {
+        "lat": 43.3934739,
+        "lon": -93.0893936
+      },
+      "tags": {
+        "name": "Barton Wind Farm",
+        "operator": "Avangrid Renewables",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "160 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56765",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2009-06",
+        "type": "site"
+      },
+      "lat": 43.3934739,
+      "lon": -93.0893936
+    },
+    {
+      "type": "relation",
+      "id": 1193389,
+      "center": {
+        "lat": 42.281982,
+        "lon": -95.0941402
+      },
+      "tags": {
+        "name": "Wall Lake Municipal Utilities Wind Farm",
+        "plant:output:electricity": "0.66 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "type": "site"
+      },
+      "lat": 42.281982,
+      "lon": -95.0941402
+    },
+    {
+      "type": "relation",
+      "id": 1193508,
+      "center": {
+        "lat": 42.1335434,
+        "lon": -95.1349695
+      },
+      "tags": {
+        "name": "Victory Wind Farm",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "105 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56379",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2006-12",
+        "type": "site"
+      },
+      "lat": 42.1335434,
+      "lon": -95.1349695
+    },
+    {
+      "type": "relation",
+      "id": 1198235,
+      "center": {
+        "lat": 43.034227,
+        "lon": -92.7236998
+      },
+      "tags": {
+        "name": "Charles City Wind Farm",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "80 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56677",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2008-04",
+        "type": "site"
+      },
+      "lat": 43.034227,
+      "lon": -92.7236998
+    },
+    {
+      "type": "relation",
+      "id": 1199953,
+      "center": {
+        "lat": 40.8967226,
+        "lon": -94.5380618
+      },
+      "tags": {
+        "name": "Lenox Municipal Utilities Wind Farm",
+        "plant:source": "wind",
+        "power": "plant",
+        "type": "site"
+      },
+      "lat": 40.8967226,
+      "lon": -94.5380618
+    },
+    {
+      "type": "relation",
+      "id": 6239274,
+      "center": {
+        "lat": 41.460428,
+        "lon": -94.6685219
+      },
+      "tags": {
+        "name": "Adair Wind Farm",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "174.8 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56810",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2008-12",
+        "type": "site"
+      },
+      "lat": 41.460428,
+      "lon": -94.6685219
+    },
+    {
+      "type": "relation",
+      "id": 6239276,
+      "center": {
+        "lat": 41.2112651,
+        "lon": -94.7578418
+      },
+      "tags": {
+        "name": "Rolling Hills Wind Farm",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "443.9 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57501",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2011-12",
+        "type": "site"
+      },
+      "lat": 41.2112651,
+      "lon": -94.7578418
+    },
+    {
+      "type": "relation",
+      "id": 11772508,
+      "center": {
+        "lat": 41.8924236,
+        "lon": -92.9839118
+      },
+      "tags": {
+        "manufacturer": "Siemens",
+        "manufacturer:type": "SWT-2.3-101",
+        "name": "Laurel Wind Farm",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "119.6 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57500",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2011-12",
+        "type": "site"
+      },
+      "lat": 41.8924236,
+      "lon": -92.9839118
+    },
+    {
+      "type": "relation",
+      "id": 11772509,
+      "center": {
+        "lat": 41.4541066,
+        "lon": -92.660554
+      },
+      "tags": {
+        "manufacturer": "Vestas",
+        "manufacturer:type": "V110-2.0",
+        "name": "Prairie Wind Farm",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "168 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "60873",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2018-01",
+        "type": "site"
+      },
+      "lat": 41.4541066,
+      "lon": -92.660554
+    },
+    {
+      "type": "relation",
+      "id": 11787058,
+      "center": {
+        "lat": 43.1924453,
+        "lon": -95.6223714
+      },
+      "tags": {
+        "name": "O'Brien Wind",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:output:electricity": "250.3 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "60326",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "type": "site"
+      },
+      "lat": 43.1924453,
+      "lon": -95.6223714
+    },
+    {
+      "type": "relation",
+      "id": 11787059,
+      "center": {
+        "lat": 43.4066025,
+        "lon": -95.6519938
+      },
+      "tags": {
+        "name": "Allendorf Wind Farm",
+        "operator": "E&E Enterprises LLC",
+        "plant:output:electricity": "3.8 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56215",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "type": "site"
+      },
+      "lat": 43.4066025,
+      "lon": -95.6519938
+    },
+    {
+      "type": "relation",
+      "id": 11787060,
+      "center": {
+        "lat": 43.0687224,
+        "lon": -95.6040251
+      },
+      "tags": {
+        "name": "Highland Wind Project",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:output:electricity": "502.04 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "58883",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "type": "site",
+        "wikidata": "Q5759261"
+      },
+      "lat": 43.0687224,
+      "lon": -95.6040251
+    },
+    {
+      "type": "relation",
+      "id": 11998877,
+      "center": {
+        "lat": 43.3055307,
+        "lon": -93.7895327
+      },
+      "tags": {
+        "name": "Crystal Lake Wind II",
+        "operator": "NextEra Energy",
+        "operator:wikidata": "Q967868",
+        "operator:wikipedia": "en:NextEra Energy",
+        "plant:output:electricity": "200 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56925",
+        "start_date": "2009-01",
+        "type": "site"
+      },
+      "lat": 43.3055307,
+      "lon": -93.7895327
+    },
+    {
+      "type": "relation",
+      "id": 11998878,
+      "center": {
+        "lat": 43.3467312,
+        "lon": -93.8871379
+      },
+      "tags": {
+        "name": "Crystal Lake Wind III",
+        "operator": "NextEra Energy",
+        "operator:wikidata": "Q967868",
+        "operator:wikipedia": "en:NextEra Energy",
+        "plant:output:electricity": "66 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57468",
+        "start_date": "2009-12",
+        "type": "site"
+      },
+      "lat": 43.3467312,
+      "lon": -93.8871379
+    },
+    {
+      "type": "relation",
+      "id": 11998879,
+      "center": {
+        "lat": 43.3187996,
+        "lon": -93.7722737
+      },
+      "tags": {
+        "name": "Winnebago Wind Power Project",
+        "operator": "Avangrid Renewables",
+        "plant:output:electricity": "20 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56764",
+        "start_date": "2008-09",
+        "type": "site"
+      },
+      "lat": 43.3187996,
+      "lon": -93.7722737
+    },
+    {
+      "type": "relation",
+      "id": 12001954,
+      "center": {
+        "lat": 43.3502905,
+        "lon": -93.3016956
+      },
+      "tags": {
+        "name": "Top of Iowa Wind Farm II",
+        "operator": "Avangrid Renewables",
+        "plant:output:electricity": "80 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56383",
+        "start_date": "2008-01",
+        "type": "site"
+      },
+      "lat": 43.3502905,
+      "lon": -93.3016956
+    },
+    {
+      "type": "relation",
+      "id": 12001955,
+      "center": {
+        "lat": 43.3669831,
+        "lon": -93.3163541
+      },
+      "tags": {
+        "name": "Top of Iowa Wind Farm III",
+        "operator": "Madison Gas and Electric",
+        "plant:output:electricity": "29.7 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56386",
+        "start_date": "2008-02",
+        "type": "site"
+      },
+      "lat": 43.3669831,
+      "lon": -93.3163541
+    },
+    {
+      "type": "relation",
+      "id": 12045138,
+      "center": {
+        "lat": 42.6164486,
+        "lon": -93.3271828
+      },
+      "tags": {
+        "name": "Franklin County Wind Farm",
+        "operator": "Alliant Energy",
+        "operator:wikidata": "Q4732492",
+        "plant:output:electricity": "99 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57844",
+        "start_date": "2012-12",
+        "type": "site"
+      },
+      "lat": 42.6164486,
+      "lon": -93.3271828
+    },
+    {
+      "type": "relation",
+      "id": 12045477,
+      "center": {
+        "lat": 42.398541,
+        "lon": -92.9550809
+      },
+      "tags": {
+        "name": "Wellsburg Wind Project",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:output:electricity": "140.8 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "58886",
+        "start_date": "2014-12",
+        "type": "site"
+      },
+      "lat": 42.398541,
+      "lon": -92.9550809
+    },
+    {
+      "type": "relation",
+      "id": 12045478,
+      "center": {
+        "lat": 42.3410343,
+        "lon": -92.9341228
+      },
+      "tags": {
+        "name": "Ivester Wind Farm",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:output:electricity": "90.8 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "61911",
+        "start_date": "2018-12",
+        "type": "site"
+      },
+      "lat": 42.3410343,
+      "lon": -92.9341228
+    },
+    {
+      "type": "relation",
+      "id": 12089882,
+      "center": {
+        "lat": 42.5973607,
+        "lon": -91.3798621
+      },
+      "tags": {
+        "name": "Elk Wind Farm",
+        "operator": "Greenbacker Renewable Energy",
+        "plant:output:electricity": "42.5 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57417",
+        "start_date": "2011-12",
+        "type": "site"
+      },
+      "lat": 42.5973607,
+      "lon": -91.3798621
+    },
+    {
+      "type": "relation",
+      "id": 12122021,
+      "center": {
+        "lat": 43.2065002,
+        "lon": -95.3162049
+      },
+      "tags": {
+        "name": "Upland Prairie",
+        "operator": "Alliant Energy",
+        "operator:wikidata": "Q4732492",
+        "plant:output:electricity": "299.3 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "61564",
+        "start_date": "2019-03",
+        "type": "site"
+      },
+      "lat": 43.2065002,
+      "lon": -95.3162049
+    },
+    {
+      "type": "relation",
+      "id": 12165652,
+      "center": {
+        "lat": 42.8658214,
+        "lon": -95.775097
+      },
+      "tags": {
+        "name": "Glaciers Edge Wind Project",
+        "operator": "EDF Renewables",
+        "operator:wikidata": "Q3045868",
+        "plant:output:electricity": "211.7 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "62035",
+        "start_date": "2019-12",
+        "type": "site"
+      },
+      "lat": 42.8658214,
+      "lon": -95.775097
+    },
+    {
+      "type": "relation",
+      "id": 12321979,
+      "center": {
+        "lat": 42.3441174,
+        "lon": -94.1885513
+      },
+      "tags": {
+        "name": "Lundgren Wind Project",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:output:electricity": "251 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "58884",
+        "start_date": "2014-08",
+        "type": "site"
+      },
+      "lat": 42.3441174,
+      "lon": -94.1885513
+    },
+    {
+      "type": "relation",
+      "id": 12375374,
+      "center": {
+        "lat": 42.9337082,
+        "lon": -92.0322215
+      },
+      "tags": {
+        "name": "Hawkeye Wind Farm",
+        "operator": "Greenbacker Renewable Energy",
+        "plant:output:electricity": "37.5 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57832",
+        "start_date": "2012-10",
+        "type": "site"
+      },
+      "lat": 42.9337082,
+      "lon": -92.0322215
+    },
+    {
+      "type": "relation",
+      "id": 13505076,
+      "center": {
+        "lat": 41.5584118,
+        "lon": -94.6764754
+      },
+      "tags": {
+        "name": "Eclipse Wind Farm",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "200.1 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57873",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2012-09",
+        "type": "site"
+      },
+      "lat": 41.5584118,
+      "lon": -94.6764754
+    },
+    {
+      "type": "relation",
+      "id": 13505278,
+      "center": {
+        "lat": 41.4401044,
+        "lon": -94.5821742
+      },
+      "tags": {
+        "name": "Morning Light Wind Farm",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "101.2 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57875",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2012-10",
+        "type": "site"
+      },
+      "lat": 41.4401044,
+      "lon": -94.5821742
+    },
+    {
+      "type": "relation",
+      "id": 13505332,
+      "center": {
+        "lat": 41.2048567,
+        "lon": -94.13658
+      },
+      "tags": {
+        "name": "Macksburg Wind Farm",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "119.6 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "58885",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2014-12",
+        "type": "site"
+      },
+      "lat": 41.2048567,
+      "lon": -94.13658
+    },
+    {
+      "type": "relation",
+      "id": 13507169,
+      "center": {
+        "lat": 41.4406912,
+        "lon": -94.35042
+      },
+      "tags": {
+        "name": "Arbor Hill Wind Farm",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "310.4 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "62132",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2018-12",
+        "type": "site"
+      },
+      "lat": 41.4406912,
+      "lon": -94.35042
+    },
+    {
+      "type": "relation",
+      "id": 13507362,
+      "center": {
+        "lat": 40.9309794,
+        "lon": -94.6749936
+      },
+      "tags": {
+        "name": "Adams Wind Farm",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "154.3 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "59637",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2015-10",
+        "type": "site"
+      },
+      "lat": 40.9309794,
+      "lon": -94.6749936
+    },
+    {
+      "type": "relation",
+      "id": 13507801,
+      "center": {
+        "lat": 41.9899703,
+        "lon": -94.2011859
+      },
+      "tags": {
+        "name": "Rippey Wind Farm",
+        "operator": "Greenbacker Renewable Energy",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "50 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57830",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2012-08",
+        "type": "site"
+      },
+      "lat": 41.9899703,
+      "lon": -94.2011859
+    },
+    {
+      "type": "relation",
+      "id": 13507834,
+      "center": {
+        "lat": 41.8196693,
+        "lon": -94.0800182
+      },
+      "tags": {
+        "name": "Perry Wind Farm",
+        "operator": "Mason Wind",
+        "plant:output:electricity": "6 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "type": "site"
+      },
+      "lat": 41.8196693,
+      "lon": -94.0800182
+    },
+    {
+      "type": "relation",
+      "id": 13507883,
+      "center": {
+        "lat": 41.1207462,
+        "lon": -94.3974766
+      },
+      "tags": {
+        "name": "Southern Hills Wind Farm",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:output:electricity": "254.1 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "63640",
+        "type": "site"
+      },
+      "lat": 41.1207462,
+      "lon": -94.3974766
+    },
+    {
+      "type": "relation",
+      "id": 13507923,
+      "center": {
+        "lat": 41.2208494,
+        "lon": -94.4157537
+      },
+      "tags": {
+        "name": "Orient Wind Farm",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "500.8 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "61077",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2018-12",
+        "type": "site"
+      },
+      "lat": 41.2208494,
+      "lon": -94.4157537
+    },
+    {
+      "type": "relation",
+      "id": 13631239,
+      "center": {
+        "lat": 41.5533635,
+        "lon": -92.4001909
+      },
+      "tags": {
+        "name": "English Farms Wind Farm",
+        "operator": "Alliant Energy",
+        "operator:wikidata": "Q4732492",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "171.5 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "61565",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2019-03",
+        "type": "site"
+      },
+      "lat": 41.5533635,
+      "lon": -92.4001909
+    },
+    {
+      "type": "relation",
+      "id": 13631240,
+      "center": {
+        "lat": 41.6478034,
+        "lon": -92.4943793
+      },
+      "tags": {
+        "name": "North English Wind Farm",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "340 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "62133",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2018-12",
+        "type": "site"
+      },
+      "lat": 41.6478034,
+      "lon": -92.4943793
+    },
+    {
+      "type": "relation",
+      "id": 13631311,
+      "center": {
+        "lat": 43.4112852,
+        "lon": -93.9609641
+      },
+      "tags": {
+        "name": "Golden Plains Wind Farm",
+        "operator": "Alliant Energy",
+        "operator:wikidata": "Q4732492",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "199.8 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "62081",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2020-03",
+        "type": "site"
+      },
+      "lat": 43.4112852,
+      "lon": -93.9609641
+    },
+    {
+      "type": "relation",
+      "id": 13631338,
+      "center": {
+        "lat": 42.3335646,
+        "lon": -95.2112747
+      },
+      "tags": {
+        "name": "Richland Wind Farm",
+        "operator": "Alliant Energy",
+        "operator:wikidata": "Q4732492",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "130.9 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "62080",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2020-09",
+        "type": "site"
+      },
+      "lat": 42.3335646,
+      "lon": -95.2112747
+    },
+    {
+      "type": "relation",
+      "id": 13631382,
+      "center": {
+        "lat": 42.7828946,
+        "lon": -93.4401919
+      },
+      "tags": {
+        "name": "Whispering Willow Wind Farm - North",
+        "operator": "Alliant Energy",
+        "operator:wikidata": "Q4732492",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "201.3 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "62079",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2020-01",
+        "type": "site"
+      },
+      "lat": 42.7828946,
+      "lon": -93.4401919
+    },
+    {
+      "type": "relation",
+      "id": 13631620,
+      "center": {
+        "lat": 42.170073,
+        "lon": -92.767368
+      },
+      "tags": {
+        "name": "Vienna Wind Farm",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "150.1 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57874",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2012-11",
+        "type": "site"
+      },
+      "lat": 42.170073,
+      "lon": -92.767368
+    },
+    {
+      "type": "relation",
+      "id": 13631847,
+      "center": {
+        "lat": 42.4092652,
+        "lon": -95.4640635
+      },
+      "tags": {
+        "name": "Ida Grove II Wind Farm",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "201 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "62795",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2019-12",
+        "type": "site"
+      },
+      "lat": 42.4092652,
+      "lon": -95.4640635
+    },
+    {
+      "type": "relation",
+      "id": 13631848,
+      "center": {
+        "lat": 42.3403256,
+        "lon": -95.428499
+      },
+      "tags": {
+        "name": "Ida Grove Wind Farm",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:output:electricity": "301.06 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "60342",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2016-09",
+        "type": "site"
+      },
+      "lat": 42.3403256,
+      "lon": -95.428499
+    },
+    {
+      "type": "relation",
+      "id": 13632007,
+      "center": {
+        "lat": 42.1030416,
+        "lon": -94.1505872
+      },
+      "tags": {
+        "name": "Beaver Creek I Wind Farm",
+        "note": "170 MW",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:source": "wind",
+        "power": "plant",
+        "type": "site"
+      },
+      "lat": 42.1030416,
+      "lon": -94.1505872
+    },
+    {
+      "type": "relation",
+      "id": 13632008,
+      "center": {
+        "lat": 42.1076058,
+        "lon": -94.2421818
+      },
+      "tags": {
+        "name": "Beaver Creek II Wind Farm",
+        "note": "170 MW",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:source": "wind",
+        "power": "plant",
+        "type": "site"
+      },
+      "lat": 42.1076058,
+      "lon": -94.2421818
+    },
+    {
+      "type": "relation",
+      "id": 13632089,
+      "center": {
+        "lat": 43.181918,
+        "lon": -94.5649207
+      },
+      "tags": {
+        "name": "Palo Alto Wind Farm",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "340 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "63053",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2020-01",
+        "type": "site"
+      },
+      "lat": 43.181918,
+      "lon": -94.5649207
+    },
+    {
+      "type": "relation",
+      "id": 13632126,
+      "center": {
+        "lat": 41.6731329,
+        "lon": -92.1682079
+      },
+      "tags": {
+        "name": "Diamond Trail Wind Farm",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "252.5 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "63641",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2020-12",
+        "type": "site"
+      },
+      "lat": 41.6731329,
+      "lon": -92.1682079
+    },
+    {
+      "type": "relation",
+      "id": 13632241,
+      "center": {
+        "lat": 40.6657281,
+        "lon": -94.8431777
+      },
+      "tags": {
+        "name": "Contrail Wind Farm",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "112.4 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "63639",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2020-12",
+        "type": "site"
+      },
+      "lat": 40.6657281,
+      "lon": -94.8431777
+    },
+    {
+      "type": "relation",
+      "id": 13635825,
+      "center": {
+        "lat": 41.7280888,
+        "lon": -94.8078881
+      },
+      "tags": {
+        "name": "Heartland Divide I Wind Farm",
+        "operator": "NextEra Energy",
+        "operator:wikidata": "Q967868",
+        "operator:wikipedia": "en:NextEra Energy",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "103.5 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "61609",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2018-12",
+        "type": "site"
+      },
+      "lat": 41.7280888,
+      "lon": -94.8078881
+    },
+    {
+      "type": "relation",
+      "id": 13643006,
+      "center": {
+        "lat": 42.1676381,
+        "lon": -95.4495934
+      },
+      "tags": {
+        "name": "New Harvest Wind Farm",
+        "operator": "Avangrid Renewables",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "100 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57609",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2011-12",
+        "type": "site"
+      },
+      "lat": 42.1676381,
+      "lon": -95.4495934
+    },
+    {
+      "type": "relation",
+      "id": 13658532,
+      "center": {
+        "lat": 42.5922036,
+        "lon": -94.6039044
+      },
+      "tags": {
+        "name": "Pocahontas Prairie Wind Farm",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "80 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57976",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2012-02",
+        "type": "site"
+      },
+      "lat": 42.5922036,
+      "lon": -94.6039044
+    },
+    {
+      "type": "relation",
+      "id": 13680831,
+      "center": {
+        "lat": 43.4285517,
+        "lon": -92.8478387
+      },
+      "tags": {
+        "name": "Turtle Creek Wind Farm",
+        "operator": "EDP Renewables North America",
+        "operator:wikidata": "Q5322866",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "200.1 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "61638",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2018-12",
+        "type": "site"
+      },
+      "lat": 43.4285517,
+      "lon": -92.8478387
+    },
+    {
+      "type": "relation",
+      "id": 13680945,
+      "center": {
+        "lat": 43.3826819,
+        "lon": -92.3450893
+      },
+      "tags": {
+        "name": "Saratoga Wind Farm",
+        "operator": "Madison Gas and Electric",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "66 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "61070",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2019-02",
+        "type": "site"
+      },
+      "lat": 43.3826819,
+      "lon": -92.3450893
+    },
+    {
+      "type": "relation",
+      "id": 13683034,
+      "center": {
+        "lat": 41.9423902,
+        "lon": -94.8940995
+      },
+      "tags": {
+        "name": "Carroll Area Wind Farm",
+        "operator": "NJR Clean Energy Ventures",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "20.7 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "59071",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2015-01",
+        "type": "site"
+      },
+      "lat": 41.9423902,
+      "lon": -94.8940995
+    },
+    {
+      "type": "relation",
+      "id": 13705201,
+      "center": {
+        "lat": 41.1530814,
+        "lon": -91.175855
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Wapello Solar",
+        "operator": "Cl\u0113nera LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "100 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "63378",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2021-03-08",
+        "type": "multipolygon"
+      },
+      "lat": 41.1530814,
+      "lon": -91.175855
+    },
+    {
+      "type": "relation",
+      "id": 14126681,
+      "center": {
+        "lat": 40.764914,
+        "lon": -94.475628
+      },
+      "tags": {
+        "name": "August Wind Farm",
+        "operator": "August Wind Energy, LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "1.8 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "61644",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2017-02",
+        "type": "site"
+      },
+      "lat": 40.764914,
+      "lon": -94.475628
+    },
+    {
+      "type": "relation",
+      "id": 14126682,
+      "center": {
+        "lat": 40.767636,
+        "lon": -94.474375
+      },
+      "tags": {
+        "name": "Birch",
+        "operator": "Birch Power LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "1.8 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "62172",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2017-02",
+        "type": "site"
+      },
+      "lat": 40.767636,
+      "lon": -94.474375
+    },
+    {
+      "type": "relation",
+      "id": 14126687,
+      "center": {
+        "lat": 41.225671,
+        "lon": -94.440525
+      },
+      "tags": {
+        "name": "Bulldog Wind Energy",
+        "operator": "Bulldog Wind Energy, LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "1.5 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57632",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2010-10",
+        "type": "site"
+      },
+      "lat": 41.225671,
+      "lon": -94.440525
+    },
+    {
+      "type": "relation",
+      "id": 14126688,
+      "center": {
+        "lat": 41.2271094,
+        "lon": -94.4349265
+      },
+      "tags": {
+        "name": "Cumberland Rose Wind Energy",
+        "operator": "Cumberland Rose Wind Energy, LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "1.6 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "58456",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2012-08",
+        "type": "site"
+      },
+      "lat": 41.2271094,
+      "lon": -94.4349265
+    },
+    {
+      "type": "relation",
+      "id": 14151897,
+      "center": {
+        "lat": 42.7474811,
+        "lon": -92.403446
+      },
+      "tags": {
+        "name": "Waverly Community Wind Project",
+        "operator": "Waverly Municipal Elec Utility",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "2.7 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57214",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2001-12",
+        "type": "site"
+      },
+      "lat": 42.7474811,
+      "lon": -92.403446
+    },
+    {
+      "type": "relation",
+      "id": 14151898,
+      "center": {
+        "lat": 42.0068468,
+        "lon": -93.5236824
+      },
+      "tags": {
+        "name": "Optimum Wind 6",
+        "operator": "Optimum Wind 6 LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "3 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "59224",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2017-03",
+        "type": "site"
+      },
+      "lat": 42.0068468,
+      "lon": -93.5236824
+    },
+    {
+      "type": "relation",
+      "id": 14151899,
+      "center": {
+        "lat": 41.9776298,
+        "lon": -93.7004775
+      },
+      "tags": {
+        "name": "Michelangelo Wind 4",
+        "operator": "Michelangelo Wind 4 LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "3 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "59232",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2016-12",
+        "type": "site"
+      },
+      "lat": 41.9776298,
+      "lon": -93.7004775
+    },
+    {
+      "type": "relation",
+      "id": 14151900,
+      "center": {
+        "lat": 41.8824961,
+        "lon": -93.6328365
+      },
+      "tags": {
+        "name": "Michelangelo Wind 3",
+        "operator": "Michelangelo Wind 3 LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "3 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "59053",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2017-02",
+        "type": "site"
+      },
+      "lat": 41.8824961,
+      "lon": -93.6328365
+    },
+    {
+      "type": "relation",
+      "id": 14151901,
+      "center": {
+        "lat": 41.8814975,
+        "lon": -93.623019
+      },
+      "tags": {
+        "name": "Michelangelo Wind 1",
+        "operator": "Michelangelo Wind 1 LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "3 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "59231",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2017-03",
+        "type": "site"
+      },
+      "lat": 41.8814975,
+      "lon": -93.623019
+    },
+    {
+      "type": "relation",
+      "id": 14151902,
+      "center": {
+        "lat": 42.0136447,
+        "lon": -93.5180846
+      },
+      "tags": {
+        "name": "Optimum Wind 5",
+        "operator": "Optimum Wind 5 LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "3 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "59223",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2017-03",
+        "type": "site"
+      },
+      "lat": 42.0136447,
+      "lon": -93.5180846
+    },
+    {
+      "type": "relation",
+      "id": 14151903,
+      "center": {
+        "lat": 42.0163865,
+        "lon": -93.5158864
+      },
+      "tags": {
+        "name": "Optimum Wind 4",
+        "operator": "Optimum Wind 4 LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "3 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "59226",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2017-03",
+        "type": "site"
+      },
+      "lat": 42.0163865,
+      "lon": -93.5158864
+    },
+    {
+      "type": "relation",
+      "id": 14151904,
+      "center": {
+        "lat": 42.0191341,
+        "lon": -93.5137188
+      },
+      "tags": {
+        "name": "Optimum Wind 3",
+        "operator": "Optimum Wind 3 LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "3 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "59227",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2017-03",
+        "type": "site"
+      },
+      "lat": 42.0191341,
+      "lon": -93.5137188
+    },
+    {
+      "type": "relation",
+      "id": 14151905,
+      "center": {
+        "lat": 42.0282526,
+        "lon": -93.4303844
+      },
+      "tags": {
+        "name": "Optimum Wind 7",
+        "operator": "Optimum Wind 7 LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "3 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "59225",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2017-03",
+        "type": "site"
+      },
+      "lat": 42.0282526,
+      "lon": -93.4303844
+    },
+    {
+      "type": "relation",
+      "id": 14151906,
+      "center": {
+        "lat": 42.1076058,
+        "lon": -94.1931592
+      },
+      "tags": {
+        "name": "Beaver Creek Wind Farm",
+        "operator": "MidAmerican Energy",
+        "operator:wikidata": "Q6840876",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "340 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "61079",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2018-10",
+        "type": "site"
+      },
+      "lat": 42.1076058,
+      "lon": -94.1931592
+    },
+    {
+      "type": "relation",
+      "id": 14151907,
+      "center": {
+        "lat": 42.207909,
+        "lon": -93.5989961
+      },
+      "tags": {
+        "name": "Story City Wind Project",
+        "operator": "Hamilton Wind Energy LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "1.5 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "58927",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2010-10",
+        "type": "site"
+      },
+      "lat": 42.207909,
+      "lon": -93.5989961
+    },
+    {
+      "type": "relation",
+      "id": 14151908,
+      "center": {
+        "lat": 41.2904761,
+        "lon": -94.4885695
+      },
+      "tags": {
+        "name": "Greenfield Wind",
+        "operator": "Greenfield Wind Power, LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "1.6 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "58458",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2012-08",
+        "type": "site"
+      },
+      "lat": 41.2904761,
+      "lon": -94.4885695
+    },
+    {
+      "type": "relation",
+      "id": 14151909,
+      "center": {
+        "lat": 41.2907422,
+        "lon": -94.485265
+      },
+      "tags": {
+        "name": "Sky Volt",
+        "operator": "Sky Volt, LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "1.6 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "58460",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2012-08",
+        "type": "site"
+      },
+      "lat": 41.2907422,
+      "lon": -94.485265
+    },
+    {
+      "type": "relation",
+      "id": 14151911,
+      "center": {
+        "lat": 41.4699929,
+        "lon": -94.3393099
+      },
+      "tags": {
+        "name": "Wind GEM",
+        "operator": "Wind GEM, LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "1.9 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "60541",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2015-09",
+        "type": "site"
+      },
+      "lat": 41.4699929,
+      "lon": -94.3393099
+    },
+    {
+      "type": "relation",
+      "id": 14151912,
+      "center": {
+        "lat": 41.9166004,
+        "lon": -91.6508528
+      },
+      "tags": {
+        "name": "Kirkwood Wind Turbine",
+        "operator": "Kirkwood Community College",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "2.5 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "59735",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2012-02",
+        "type": "site"
+      },
+      "lat": 41.9166004,
+      "lon": -91.6508528
+    },
+    {
+      "type": "relation",
+      "id": 14151913,
+      "center": {
+        "lat": 40.9547743,
+        "lon": -91.3951644
+      },
+      "tags": {
+        "name": "NLMU Wind",
+        "operator": "New London Municipal Utilities",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "1.5 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "58414",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2011-11",
+        "type": "site"
+      },
+      "lat": 40.9547743,
+      "lon": -91.3951644
+    },
+    {
+      "type": "relation",
+      "id": 14151914,
+      "center": {
+        "lat": 41.391427,
+        "lon": -94.8768729
+      },
+      "tags": {
+        "name": "Wiota Wind Energy",
+        "operator": "Wiota Wind Energy, LLC #1",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "1.6 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "58461",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2012-05",
+        "type": "site"
+      },
+      "lat": 41.391427,
+      "lon": -94.8768729
+    },
+    {
+      "type": "relation",
+      "id": 14151915,
+      "center": {
+        "lat": 42.4979692,
+        "lon": -93.3677924
+      },
+      "tags": {
+        "name": "Leonardo Wind 1",
+        "operator": "Leonardo Wind 1 LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "3 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "59228",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2016-12",
+        "type": "site"
+      },
+      "lat": 42.4979692,
+      "lon": -93.3677924
+    },
+    {
+      "type": "relation",
+      "id": 14151916,
+      "center": {
+        "lat": 41.3900647,
+        "lon": -94.4462885
+      },
+      "tags": {
+        "name": "Meadow Ridge Wind Energy",
+        "operator": "Meadow Ridge Wind Energy, LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "1.6 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "58459",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2012-07",
+        "type": "site"
+      },
+      "lat": 41.3900647,
+      "lon": -94.4462885
+    },
+    {
+      "type": "relation",
+      "id": 14151917,
+      "center": {
+        "lat": 41.3930856,
+        "lon": -94.4447812
+      },
+      "tags": {
+        "name": "Wolverine Wind Energy",
+        "operator": "Wolverine Wind Energy, LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "1.5 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57631",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2010-10",
+        "type": "site"
+      },
+      "lat": 41.3930856,
+      "lon": -94.4447812
+    },
+    {
+      "type": "relation",
+      "id": 14151918,
+      "center": {
+        "lat": 41.8526689,
+        "lon": -91.2326467
+      },
+      "tags": {
+        "name": "Anchor Wind",
+        "operator": "Acciona Energy USA Global, LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "6 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "58044",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2012-10",
+        "type": "site"
+      },
+      "lat": 41.8526689,
+      "lon": -91.2326467
+    },
+    {
+      "type": "relation",
+      "id": 14151919,
+      "center": {
+        "lat": 41.3395756,
+        "lon": -94.5707256
+      },
+      "tags": {
+        "name": "Forward Fontanelle Power",
+        "operator": "Forward Fontanelle Power, LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "1.6 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "58457",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2012-08",
+        "type": "site"
+      },
+      "lat": 41.3395756,
+      "lon": -94.5707256
+    },
+    {
+      "type": "relation",
+      "id": 14151920,
+      "center": {
+        "lat": 42.161284,
+        "lon": -92.4425429
+      },
+      "tags": {
+        "name": "Traer Wind Project",
+        "operator": "Norsemen Wind Energy, LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "1.5 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "58932",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2010-10",
+        "type": "site"
+      },
+      "lat": 42.161284,
+      "lon": -92.4425429
+    },
+    {
+      "type": "relation",
+      "id": 14151921,
+      "center": {
+        "lat": 41.3701865,
+        "lon": -94.7536469
+      },
+      "tags": {
+        "name": "Roseman Energy",
+        "operator": "Roseman Energy, LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "1.8 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "62130",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2017-02",
+        "type": "site"
+      },
+      "lat": 41.3701865,
+      "lon": -94.7536469
+    },
+    {
+      "type": "relation",
+      "id": 14151922,
+      "center": {
+        "lat": 41.3731011,
+        "lon": -94.7539526
+      },
+      "tags": {
+        "name": "Green Energy Machine",
+        "operator": "Green Energy Machine, LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "1.7 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "60911",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2016-06",
+        "type": "site"
+      },
+      "lat": 41.3731011,
+      "lon": -94.7539526
+    },
+    {
+      "type": "relation",
+      "id": 14151923,
+      "center": {
+        "lat": 41.7420509,
+        "lon": -92.6721025
+      },
+      "tags": {
+        "name": "Venus Wind 3",
+        "operator": "Venus Wind 3 LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "3 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "59230",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2017-03",
+        "type": "site"
+      },
+      "lat": 41.7420509,
+      "lon": -92.6721025
+    },
+    {
+      "type": "relation",
+      "id": 14151924,
+      "center": {
+        "lat": 42.0984371,
+        "lon": -94.2702914
+      },
+      "tags": {
+        "name": "Junction Hilltop Wind Farm",
+        "operator": "Junction Hilltop Management LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "8 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "58444",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2012-03",
+        "type": "site"
+      },
+      "lat": 42.0984371,
+      "lon": -94.2702914
+    },
+    {
+      "type": "relation",
+      "id": 14157319,
+      "center": {
+        "lat": 43.1419626,
+        "lon": -93.097694
+      },
+      "tags": {
+        "name": "CED Mason City Wind",
+        "operator": "Consolidated Edison Development Inc.",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "7.5 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "63521",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2020-05",
+        "type": "site"
+      },
+      "lat": 43.1419626,
+      "lon": -93.097694
+    },
+    {
+      "type": "relation",
+      "id": 14157326,
+      "center": {
+        "lat": 43.2924624,
+        "lon": -92.8406632
+      },
+      "tags": {
+        "name": "Osage Wind Turbine",
+        "operator": "City of Osage - (IA)",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "1.6 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "1172",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2009-12",
+        "type": "site"
+      },
+      "lat": 43.2924624,
+      "lon": -92.8406632
+    },
+    {
+      "type": "relation",
+      "id": 14157327,
+      "center": {
+        "lat": 43.3090885,
+        "lon": -91.8176931
+      },
+      "tags": {
+        "name": "Luther College Wind Project",
+        "operator": "Luther College Wind Energy Project LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "1.6 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "58407",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2011-10",
+        "type": "site"
+      },
+      "lat": 43.3090885,
+      "lon": -91.8176931
+    },
+    {
+      "type": "relation",
+      "id": 14157337,
+      "center": {
+        "lat": 42.9882767,
+        "lon": -94.0893547
+      },
+      "tags": {
+        "name": "Kossuth Wind Farm",
+        "operator": "Alliant Energy",
+        "operator:wikidata": "Q4732492",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "152.2 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "62103",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2020-10",
+        "type": "site"
+      },
+      "lat": 42.9882767,
+      "lon": -94.0893547
+    },
+    {
+      "type": "relation",
+      "id": 14157338,
+      "center": {
+        "lat": 43.3844038,
+        "lon": -92.7607012
+      },
+      "tags": {
+        "name": "Buffalo Center Wind",
+        "operator": "Buffalo Center Wind LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "1.5 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "58038",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2011-11",
+        "type": "site"
+      },
+      "lat": 43.3844038,
+      "lon": -92.7607012
+    },
+    {
+      "type": "relation",
+      "id": 14157345,
+      "center": {
+        "lat": 43.2973468,
+        "lon": -93.2832062
+      },
+      "tags": {
+        "name": "Roeder Family Wind Farm",
+        "operator": "Consolidated Edison Development Inc.",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "1.6 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "58089",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2011-09",
+        "type": "site"
+      },
+      "lat": 43.2973468,
+      "lon": -93.2832062
+    },
+    {
+      "type": "relation",
+      "id": 14157349,
+      "center": {
+        "lat": 43.0348977,
+        "lon": -94.1408694
+      },
+      "tags": {
+        "name": "Iowa Distributed Wind Generation Project",
+        "operator": "City of Algona - (IA)",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "2.3 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "7966",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2000-06",
+        "type": "site"
+      },
+      "lat": 43.0348977,
+      "lon": -94.1408694
+    },
+    {
+      "type": "relation",
+      "id": 14157355,
+      "center": {
+        "lat": 43.0650045,
+        "lon": -93.4501337
+      },
+      "tags": {
+        "name": "Cerro Gordo Wind Farm",
+        "operator": "Cerro Gordo Wind Farm",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "42 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "63287",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2020-08",
+        "type": "site"
+      },
+      "lat": 43.0650045,
+      "lon": -93.4501337
+    },
+    {
+      "type": "relation",
+      "id": 14157370,
+      "center": {
+        "lat": 43.3847332,
+        "lon": -93.2214323
+      },
+      "tags": {
+        "name": "Windwalkers",
+        "operator": "Consolidated Edison Development Inc.",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "1.6 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "58071",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2011-09",
+        "type": "site"
+      },
+      "lat": 43.3847332,
+      "lon": -93.2214323
+    },
+    {
+      "type": "relation",
+      "id": 14715493,
+      "center": {
+        "lat": 40.701268,
+        "lon": -92.8531731
+      },
+      "tags": {
+        "name": "CED Centerville Wind",
+        "operator": "Consolidated Edison Development Inc.",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "7.9 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "64178",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2021-12",
+        "type": "site"
+      },
+      "lat": 40.701268,
+      "lon": -92.8531731
+    },
+    {
+      "type": "relation",
+      "id": 14939303,
+      "center": {
+        "lat": 42.4059601,
+        "lon": -91.5317091
+      },
+      "tags": {
+        "name": "Independence Wind Farm",
+        "operator": "BHE Renewables",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "55.4 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "64183",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2021-12",
+        "type": "site"
+      },
+      "lat": 42.4059601,
+      "lon": -91.5317091
+    },
+    {
+      "type": "relation",
+      "id": 15058999,
+      "center": {
+        "lat": 43.4365747,
+        "lon": -94.1019715
+      },
+      "tags": {
+        "name": "Ledyard Windpower",
+        "operator": "Duke Energy",
+        "operator:wikidata": "Q1264404",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "207 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "65390",
+        "site": "wind_farm",
+        "source": "https://news.duke-energy.com/releases/duke-energy-sustainable-solutions-announces-its-first-wind-energy-project-in-iowa-207-mw-ledyard-windpower",
+        "start_date": "2022-12",
+        "type": "site"
+      },
+      "lat": 43.4365747,
+      "lon": -94.1019715
+    },
+    {
+      "type": "relation",
+      "id": 15697742,
+      "center": {
+        "lat": 42.5671497,
+        "lon": -94.101957
+      },
+      "tags": {
+        "name": "Holliday Creek Solar",
+        "operator": "MidAmerican Energy Co",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "100 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64738",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2022-07",
+        "type": "multipolygon"
+      },
+      "lat": 42.5671497,
+      "lon": -94.101957
+    },
+    {
+      "type": "relation",
+      "id": 15698160,
+      "center": {
+        "lat": 41.5724557,
+        "lon": -91.5431907
+      },
+      "tags": {
+        "name": "Johnson County Hills Solar",
+        "operator": "MidAmerican Energy Co",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "3 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64985",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2022-01",
+        "type": "multipolygon"
+      },
+      "lat": 41.5724557,
+      "lon": -91.5431907
+    },
+    {
+      "type": "relation",
+      "id": 15824122,
+      "center": {
+        "lat": 42.2205005,
+        "lon": -93.8725372
+      },
+      "tags": {
+        "name": "Great Pathfinder Wind",
+        "operator": "Apex Clean Energy",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "224.4 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "65715",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "type": "site"
+      },
+      "lat": 42.2205005,
+      "lon": -93.8725372
+    },
+    {
+      "type": "relation",
+      "id": 17041588,
+      "center": {
+        "lat": 42.0439307,
+        "lon": -92.8697928
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Marshall Town Power Plant",
+        "power": "plant",
+        "source": "https://www.gem.wiki/Marshalltown_generating_station ,https://www.gem.wiki/Marshalltown_power_station",
+        "type": "multipolygon"
+      },
+      "lat": 42.0439307,
+      "lon": -92.8697928
+    },
+    {
+      "type": "relation",
+      "id": 17323316,
+      "center": {
+        "lat": 41.7972097,
+        "lon": -94.8846676
+      },
+      "tags": {
+        "name": "Heartland Divide II Wind",
+        "operator": "NextEra Energy",
+        "operator:wikidata": "Q967868",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "200 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "64661",
+        "source": "https://www.nexteraenergyresources.com/heartland-divide-II-wind/project-overview.html",
+        "start_date": "2022-03",
+        "type": "site"
+      },
+      "lat": 41.7972097,
+      "lon": -94.8846676
+    },
+    {
+      "type": "relation",
+      "id": 17383913,
+      "center": {
+        "lat": 42.8379979,
+        "lon": -95.362173
+      },
+      "tags": {
+        "name": "Storm Lake II Wind Farm",
+        "operator": "Allete Clean Energy",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "80.2 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "55287",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "1999-04",
+        "type": "site"
+      },
+      "lat": 42.8379979,
+      "lon": -95.362173
+    },
+    {
+      "type": "relation",
+      "id": 17387411,
+      "center": {
+        "lat": 42.8096589,
+        "lon": -95.9267593
+      },
+      "tags": {
+        "name": "Plymouth Wind",
+        "operator": "MidAmerican Energy Co",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "202.7 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "64688",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2022-01",
+        "type": "site"
+      },
+      "lat": 42.8096589,
+      "lon": -95.9267593
+    },
+    {
+      "type": "relation",
+      "id": 17387415,
+      "center": {
+        "lat": 42.389317,
+        "lon": -95.1833914
+      },
+      "tags": {
+        "name": "Sac County Wind, LLC",
+        "operator": "Sac County Wind",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "80 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "64662",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2021-12",
+        "type": "site"
+      },
+      "lat": 42.389317,
+      "lon": -95.1833914
+    },
+    {
+      "type": "relation",
+      "id": 17388731,
+      "center": {
+        "lat": 42.4584473,
+        "lon": -91.5324412
+      },
+      "tags": {
+        "name": "CED Manchester Wind",
+        "operator": "Consolidated Edison Development Inc.",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "7.9 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "64177",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2022-04",
+        "type": "site"
+      },
+      "lat": 42.4584473,
+      "lon": -91.5324412
+    },
+    {
+      "type": "relation",
+      "id": 17438042,
+      "center": {
+        "lat": 43.0351726,
+        "lon": -94.1141587
+      },
+      "tags": {
+        "name": "Kossuth County Wind",
+        "operator": "Kossuth County Wind, LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "70 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "65725",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2022-12",
+        "type": "site"
+      },
+      "lat": 43.0351726,
+      "lon": -94.1141587
+    },
+    {
+      "type": "relation",
+      "id": 17923393,
+      "center": {
+        "lat": 42.1193687,
+        "lon": -91.8020582
+      },
+      "tags": {
+        "alt_name": "Duane Arnold Solar I & II",
+        "name": "Pleasant Creek Solar Project 1 & 2",
+        "operator": "Interstate Power and Light Co",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "200 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "67537;67140",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2024-03",
+        "type": "multipolygon"
+      },
+      "lat": 42.1193687,
+      "lon": -91.8020582
+    },
+    {
+      "type": "relation",
+      "id": 19987003,
+      "center": {
+        "lat": 43.1515021,
+        "lon": -92.3120903
+      },
+      "tags": {
+        "fixme": "66 wind turbines",
+        "name": "Chickasaw Wind Farm",
+        "operator": "MidAmerican Energy Co",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "202.4 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "66668",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2023-12",
+        "type": "site"
+      },
+      "lat": 43.1515021,
+      "lon": -92.3120903
+    },
+    {
+      "type": "relation",
+      "id": 19988305,
+      "center": {
+        "lat": 41.1174549,
+        "lon": -94.6135504
+      },
+      "tags": {
+        "name": "Prescott Wind Farm",
+        "operator": "Prescott Wind Energy LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "38.7 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "66952",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2024-09",
+        "type": "site"
+      },
+      "lat": 41.1174549,
+      "lon": -94.6135504
+    },
+    {
+      "type": "relation",
+      "id": 20083513,
+      "center": {
+        "lat": 40.7191277,
+        "lon": -91.2530154
+      },
+      "tags": {
+        "name": "Wever Solar",
+        "operator": "Interstate Power and Light Co",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "150 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "67538",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2024-11",
+        "type": "multipolygon"
+      },
+      "lat": 40.7191277,
+      "lon": -91.2530154
+    }
+  ]
+}

@@ -1,0 +1,5993 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-04-24T18:15:17Z",
+    "timestamp_areas_base": "2026-04-24T09:42:59Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 10912560120,
+      "lat": 44.6338755,
+      "lon": -73.0316243,
+      "tags": {
+        "addr:city": "Westford",
+        "addr:housenumber": "147",
+        "addr:postcode": "05494",
+        "addr:state": "VT",
+        "addr:street": "Westford Milton Road",
+        "power": "substation",
+        "ref:vcgi:esiteid": "281365"
+      }
+    },
+    {
+      "type": "way",
+      "id": 135695037,
+      "center": {
+        "lat": 44.2498762,
+        "lon": -72.6033258
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:housenumber": "115",
+        "addr:postcode": "05602",
+        "addr:state": "VT",
+        "addr:street": "Nelson Drive",
+        "name": "Berlin Substation",
+        "operator": "Vermont Electric Power Company",
+        "operator:wikidata": "Q130232535",
+        "power": "substation",
+        "ref:vcgi:esiteid": "752152",
+        "source": "esri/Vermont_US_Addresses",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.2498762,
+      "lon": -72.6033258
+    },
+    {
+      "type": "way",
+      "id": 138895633,
+      "center": {
+        "lat": 44.1187727,
+        "lon": -72.498941
+      },
+      "tags": {
+        "addr:city": "Williamstown",
+        "addr:housenumber": "936",
+        "addr:postcode": "05679",
+        "addr:state": "VT",
+        "addr:street": "Baptist Street",
+        "name": "Granite Substation",
+        "operator": "Vermont Electric Power Company",
+        "power": "substation",
+        "ref:vcgi:esiteid": "287760",
+        "source": "esri/Vermont_US_Addresses",
+        "substation": "transmission",
+        "voltage": "230000;115000"
+      },
+      "lat": 44.1187727,
+      "lon": -72.498941
+    },
+    {
+      "type": "way",
+      "id": 138895652,
+      "center": {
+        "lat": 44.3192425,
+        "lon": -71.9933583
+      },
+      "tags": {
+        "disused:substation": "converter",
+        "frequency": "0",
+        "name": "Monroe Converter Station",
+        "operator": "National Grid",
+        "operator:wikidata": "Q1465461",
+        "power": "substation",
+        "voltage": "230000"
+      },
+      "lat": 44.3192425,
+      "lon": -71.9933583
+    },
+    {
+      "type": "way",
+      "id": 138912070,
+      "center": {
+        "lat": 42.7830745,
+        "lon": -72.5184045
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Vernon VT Substation",
+        "operator": "Vermont Electric Power Company",
+        "operator:wikidata": "Q130232535",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "345000;115000"
+      },
+      "lat": 42.7830745,
+      "lon": -72.5184045
+    },
+    {
+      "type": "way",
+      "id": 138917114,
+      "center": {
+        "lat": 43.565174,
+        "lon": -72.9456829
+      },
+      "tags": {
+        "addr:city": "Clarendon",
+        "addr:housenumber": "777",
+        "addr:postcode": "05759",
+        "addr:state": "VT",
+        "addr:street": "Cold River Road",
+        "barrier": "fence",
+        "location": "outdoor",
+        "name": "Cold River Substation",
+        "operator": "Vermont Electric Power Company",
+        "power": "substation",
+        "ref:vcgi:esiteid": "333858",
+        "source": "esri/Vermont_US_Addresses",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 43.565174,
+      "lon": -72.9456829
+    },
+    {
+      "type": "way",
+      "id": 138917420,
+      "center": {
+        "lat": 43.6337734,
+        "lon": -73.0578345
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "West Rutland Substation",
+        "operator": "Vermont Electric Power Company",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "345000;115000"
+      },
+      "lat": 43.6337734,
+      "lon": -73.0578345
+    },
+    {
+      "type": "way",
+      "id": 138918900,
+      "center": {
+        "lat": 43.4011017,
+        "lon": -72.4193892
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Ascutney Substation",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000;46000"
+      },
+      "lat": 43.4011017,
+      "lon": -72.4193892
+    },
+    {
+      "type": "way",
+      "id": 138927366,
+      "center": {
+        "lat": 42.8654442,
+        "lon": -72.5557989
+      },
+      "tags": {
+        "addr:city": "Brattleboro",
+        "addr:housenumber": "387",
+        "addr:postcode": "05301",
+        "addr:state": "VT",
+        "addr:street": "Putney Road",
+        "barrier": "fence",
+        "frequency": "60",
+        "location": "outdoor",
+        "name": "North Battleboro Substation",
+        "operator": "Green Mountain Power",
+        "power": "substation",
+        "ref:vcgi:esiteid": "36358",
+        "source": "esri/Vermont_US_Addresses",
+        "substation": "distribution",
+        "voltage": "69000;46000"
+      },
+      "lat": 42.8654442,
+      "lon": -72.5557989
+    },
+    {
+      "type": "way",
+      "id": 138927367,
+      "center": {
+        "lat": 42.9680829,
+        "lon": -72.6523328
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Newfane Substation",
+        "operator": "Vermont Electric Power Company",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "345000;46000"
+      },
+      "lat": 42.9680829,
+      "lon": -72.6523328
+    },
+    {
+      "type": "way",
+      "id": 139239699,
+      "center": {
+        "lat": 43.3845238,
+        "lon": -72.5993139
+      },
+      "tags": {
+        "frequency": "60",
+        "location": "outdoor",
+        "name": "Cavendish Substation",
+        "operator": "CVPS",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "46000"
+      },
+      "lat": 43.3845238,
+      "lon": -72.5993139
+    },
+    {
+      "type": "way",
+      "id": 139241758,
+      "center": {
+        "lat": 42.7573508,
+        "lon": -72.9287248
+      },
+      "tags": {
+        "addr:housenumber": "1098",
+        "addr:state": "VT",
+        "addr:street": "Harriman Station Drive",
+        "name": "Harriman Substation",
+        "operator": "National Grid",
+        "operator:wikidata": "Q1465461",
+        "power": "substation",
+        "ref:vcgi:esiteid": "611302",
+        "substation": "distribution",
+        "voltage": "69000"
+      },
+      "lat": 42.7573508,
+      "lon": -72.9287248
+    },
+    {
+      "type": "way",
+      "id": 139241763,
+      "center": {
+        "lat": 42.8708449,
+        "lon": -72.9251457
+      },
+      "tags": {
+        "addr:city": "Wilmington",
+        "addr:housenumber": "63",
+        "addr:postcode": "05363",
+        "addr:state": "VT",
+        "addr:street": "New England Power Road",
+        "name": "Searsburg Substation",
+        "operator": "National Grid",
+        "operator:wikidata": "Q1465461",
+        "power": "substation",
+        "ref:vcgi:esiteid": "752789",
+        "source": "esri/Vermont_US_Addresses",
+        "substation": "distribution",
+        "voltage": "69000"
+      },
+      "lat": 42.8708449,
+      "lon": -72.9251457
+    },
+    {
+      "type": "way",
+      "id": 139271279,
+      "center": {
+        "lat": 42.8816197,
+        "lon": -73.1725013
+      },
+      "tags": {
+        "addr:housenumber": "1016",
+        "addr:state": "VT",
+        "addr:street": "Main Street",
+        "frequency": "60",
+        "operator": "Green Mountain Power",
+        "power": "substation",
+        "ref:vcgi:esiteid": "21296",
+        "substation": "minor_distribution",
+        "voltage": "46000"
+      },
+      "lat": 42.8816197,
+      "lon": -73.1725013
+    },
+    {
+      "type": "way",
+      "id": 139591744,
+      "center": {
+        "lat": 43.6341642,
+        "lon": -72.9727211
+      },
+      "tags": {
+        "name": "North Rutland Substation",
+        "operator": "Vermont Electric Power Company",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000;46000"
+      },
+      "lat": 43.6341642,
+      "lon": -72.9727211
+    },
+    {
+      "type": "way",
+      "id": 139634988,
+      "center": {
+        "lat": 43.6691949,
+        "lon": -72.3043816
+      },
+      "tags": {
+        "addr:city": "Hartford",
+        "addr:housenumber": "240",
+        "addr:postcode": "05001",
+        "addr:state": "VT",
+        "addr:street": "Wilder Dam Road",
+        "barrier": "fence",
+        "name": "Wilder Substation",
+        "operator": "National Grid",
+        "operator:wikidata": "Q1465461",
+        "power": "substation",
+        "ref:vcgi:esiteid": "610598",
+        "source": "esri/Vermont_US_Addresses",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 43.6691949,
+      "lon": -72.3043816
+    },
+    {
+      "type": "way",
+      "id": 139635081,
+      "center": {
+        "lat": 43.6941447,
+        "lon": -72.2907047
+      },
+      "tags": {
+        "name": "Hanover Substation",
+        "operator": "Liberty Utilities",
+        "power": "substation",
+        "substation": "minor_distribution",
+        "voltage": "13200"
+      },
+      "lat": 43.6941447,
+      "lon": -72.2907047
+    },
+    {
+      "type": "way",
+      "id": 140644695,
+      "center": {
+        "lat": 43.5761703,
+        "lon": -73.2331197
+      },
+      "tags": {
+        "name": "Blissville Substation",
+        "operator": "Vermont Electric Power Company",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 43.5761703,
+      "lon": -73.2331197
+    },
+    {
+      "type": "way",
+      "id": 141078310,
+      "center": {
+        "lat": 42.7801202,
+        "lon": -72.5159397
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Vermont Yankee Substation",
+        "operator": "Vermont Electric Power Company",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "345000;115000"
+      },
+      "lat": 42.7801202,
+      "lon": -72.5159397
+    },
+    {
+      "type": "way",
+      "id": 143929950,
+      "center": {
+        "lat": 43.604002,
+        "lon": -73.233998
+      },
+      "tags": {
+        "addr:city": "Castleton",
+        "addr:housenumber": "1347",
+        "addr:postcode": "05743",
+        "addr:state": "VT",
+        "addr:street": "Vermont Route 4A West",
+        "operator": "Central Vermont Public Service",
+        "power": "substation",
+        "ref:vcgi:esiteid": "60878",
+        "source": "esri/Vermont_US_Addresses"
+      },
+      "lat": 43.604002,
+      "lon": -73.233998
+    },
+    {
+      "type": "way",
+      "id": 143930219,
+      "center": {
+        "lat": 43.601079,
+        "lon": -73.175473
+      },
+      "tags": {
+        "barrier": "fence",
+        "location": "outdoor",
+        "operator": "Green Mountain Power",
+        "power": "substation",
+        "substation": "distribution"
+      },
+      "lat": 43.601079,
+      "lon": -73.175473
+    },
+    {
+      "type": "way",
+      "id": 145873870,
+      "center": {
+        "lat": 44.8044254,
+        "lon": -73.0988643
+      },
+      "tags": {
+        "name": "St. Albans Substation",
+        "operator": "Vermont Electric Power Company",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.8044254,
+      "lon": -73.0988643
+    },
+    {
+      "type": "way",
+      "id": 145875306,
+      "center": {
+        "lat": 44.8078563,
+        "lon": -73.0904963
+      },
+      "tags": {
+        "access": "no",
+        "barrier": "fence",
+        "name": "Welden Street Substation",
+        "operator": "Green Mountain Energy",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.8078563,
+      "lon": -73.0904963
+    },
+    {
+      "type": "way",
+      "id": 152163210,
+      "center": {
+        "lat": 44.4402467,
+        "lon": -73.1116075
+      },
+      "tags": {
+        "name": "Williston Substation",
+        "operator": "Vermont Electric Power Company",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.4402467,
+      "lon": -73.1116075
+    },
+    {
+      "type": "way",
+      "id": 155014821,
+      "center": {
+        "lat": 44.4589208,
+        "lon": -73.136037
+      },
+      "tags": {
+        "addr:city": "Williston",
+        "addr:housenumber": "4501",
+        "addr:postcode": "05495",
+        "addr:state": "VT",
+        "addr:street": "Williston Road",
+        "name": "44 Substation",
+        "operator": "Green Mountain Power",
+        "operator:short": "GMP",
+        "operator:wikidata": "Q71871622",
+        "power": "substation",
+        "ref:vcgi:esiteid": "292155",
+        "source": "esri/Vermont_US_Addresses",
+        "voltage": "34500"
+      },
+      "lat": 44.4589208,
+      "lon": -73.136037
+    },
+    {
+      "type": "way",
+      "id": 170528200,
+      "center": {
+        "lat": 44.94034,
+        "lon": -73.0515156
+      },
+      "tags": {
+        "name": "Highgate Substation",
+        "operator": "Vermont Electric Power Company",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.94034,
+      "lon": -73.0515156
+    },
+    {
+      "type": "way",
+      "id": 170528324,
+      "center": {
+        "lat": 44.9382693,
+        "lon": -73.0543011
+      },
+      "tags": {
+        "converter": "back-to-back",
+        "name": "Highgate 200MW HVDC Converter Station",
+        "operator": "Vermont Electric Power Company",
+        "power": "substation",
+        "substation": "converter",
+        "voltage": "115000"
+      },
+      "lat": 44.9382693,
+      "lon": -73.0543011
+    },
+    {
+      "type": "way",
+      "id": 189843544,
+      "center": {
+        "lat": 43.0581214,
+        "lon": -73.1488449
+      },
+      "tags": {
+        "addr:city": "Arlington",
+        "addr:housenumber": "310",
+        "addr:postcode": "05250",
+        "addr:state": "VT",
+        "addr:street": "Warm Brook Road",
+        "name": "Arlington Substation",
+        "operator": "Green Mountain Power",
+        "power": "substation",
+        "ref:vcgi:esiteid": "4600",
+        "source": "esri/Vermont_US_Addresses",
+        "substation": "distribution",
+        "voltage": "46000"
+      },
+      "lat": 43.0581214,
+      "lon": -73.1488449
+    },
+    {
+      "type": "way",
+      "id": 189843545,
+      "center": {
+        "lat": 42.9452526,
+        "lon": -72.8775658
+      },
+      "tags": {
+        "addr:housenumber": "99",
+        "addr:state": "VT",
+        "addr:street": "Kingswood Road",
+        "frequency": "60",
+        "location": "outdoor",
+        "name": "Dover Substation",
+        "operator": "Green Mountain Power",
+        "power": "substation",
+        "ref:vcgi:esiteid": "87624",
+        "substation": "distribution",
+        "voltage": "69000"
+      },
+      "lat": 42.9452526,
+      "lon": -72.8775658
+    },
+    {
+      "type": "way",
+      "id": 189843546,
+      "center": {
+        "lat": 44.4810485,
+        "lon": -73.1128341
+      },
+      "tags": {
+        "addr:city": "Williston",
+        "addr:housenumber": "77",
+        "addr:postcode": "05495",
+        "addr:state": "VT",
+        "addr:street": "Essex Road",
+        "name": "Essex Substation",
+        "operator": "Vermont Electric Power Company",
+        "power": "substation",
+        "ref:vcgi:esiteid": "288464",
+        "source": "esri/Vermont_US_Addresses",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.4810485,
+      "lon": -73.1128341
+    },
+    {
+      "type": "way",
+      "id": 189843547,
+      "center": {
+        "lat": 44.6092496,
+        "lon": -73.2059129
+      },
+      "tags": {
+        "name": "Sandbar Substation",
+        "operator": "Vermont Electric Power Company",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.6092496,
+      "lon": -73.2059129
+    },
+    {
+      "type": "way",
+      "id": 189843548,
+      "center": {
+        "lat": 42.7715476,
+        "lon": -72.5153141
+      },
+      "tags": {
+        "frequency": "60",
+        "location": "outdoor",
+        "name": "Vernon Substation",
+        "operator": "National Grid",
+        "operator:wikidata": "Q1465461",
+        "power": "substation",
+        "ref": "23",
+        "substation": "distribution",
+        "voltage": "69000"
+      },
+      "lat": 42.7715476,
+      "lon": -72.5153141
+    },
+    {
+      "type": "way",
+      "id": 190012533,
+      "center": {
+        "lat": 44.480632,
+        "lon": -73.1886558
+      },
+      "tags": {
+        "name": "East Avenue Substation",
+        "operator": "Vermont Electric Power Company",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.480632,
+      "lon": -73.1886558
+    },
+    {
+      "type": "way",
+      "id": 190012534,
+      "center": {
+        "lat": 44.714198,
+        "lon": -73.1552646
+      },
+      "tags": {
+        "name": "Georgia Switching Station",
+        "operator": "Vermont Electric Power Company",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.714198,
+      "lon": -73.1552646
+    },
+    {
+      "type": "way",
+      "id": 190012537,
+      "center": {
+        "lat": 44.6355044,
+        "lon": -73.1201698
+      },
+      "tags": {
+        "name": "Milton Substation",
+        "operator": "Green Mountain Energy",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.6355044,
+      "lon": -73.1201698
+    },
+    {
+      "type": "way",
+      "id": 190012538,
+      "center": {
+        "lat": 44.4879648,
+        "lon": -73.1696074
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Lime Kiln Substation",
+        "operator": "Vermont Electric Power Company",
+        "operator:wikidata": "Q130232535",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.4879648,
+      "lon": -73.1696074
+    },
+    {
+      "type": "way",
+      "id": 190020516,
+      "center": {
+        "lat": 44.4793028,
+        "lon": -73.0955743
+      },
+      "tags": {
+        "name": "IBM Substation",
+        "operator": "Vermont Electric Power Company",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.4793028,
+      "lon": -73.0955743
+    },
+    {
+      "type": "way",
+      "id": 191574147,
+      "center": {
+        "lat": 44.6669894,
+        "lon": -73.3386297
+      },
+      "tags": {
+        "name": "South Hero Substation",
+        "operator": "Vermont Electric Power Company",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.6669894,
+      "lon": -73.3386297
+    },
+    {
+      "type": "way",
+      "id": 192430286,
+      "center": {
+        "lat": 43.1738717,
+        "lon": -73.0497979
+      },
+      "tags": {
+        "addr:city": "Manchester",
+        "addr:housenumber": "49",
+        "addr:postcode": "05255",
+        "addr:state": "VT",
+        "addr:street": "Center Hill Road",
+        "power": "substation",
+        "ref:vcgi:esiteid": "151777"
+      },
+      "lat": 43.1738717,
+      "lon": -73.0497979
+    },
+    {
+      "type": "way",
+      "id": 239073261,
+      "center": {
+        "lat": 42.7580693,
+        "lon": -72.9302611
+      },
+      "tags": {
+        "frequency": "60",
+        "location": "outdoor",
+        "name": "Harriman 115kV Substation",
+        "operator": "National Grid",
+        "operator:wikidata": "Q1465461",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 42.7580693,
+      "lon": -72.9302611
+    },
+    {
+      "type": "way",
+      "id": 239076868,
+      "center": {
+        "lat": 43.1718503,
+        "lon": -73.0501907
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "46000"
+      },
+      "lat": 43.1718503,
+      "lon": -73.0501907
+    },
+    {
+      "type": "way",
+      "id": 239076869,
+      "center": {
+        "lat": 42.924537,
+        "lon": -72.8957767
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.924537,
+      "lon": -72.8957767
+    },
+    {
+      "type": "way",
+      "id": 243360258,
+      "center": {
+        "lat": 44.2496132,
+        "lon": -72.5558483
+      },
+      "tags": {
+        "addr:city": "Montpelier",
+        "addr:housenumber": "203",
+        "addr:postcode": "05602",
+        "addr:state": "VT",
+        "addr:street": "River Street",
+        "name": "Montpelier-3 Substation",
+        "operator": "Green Mountain Power",
+        "operator:short": "GMP",
+        "operator:wikidata": "Q71871622",
+        "power": "substation",
+        "ref:vcgi:esiteid": "166839",
+        "voltage": "34500"
+      },
+      "lat": 44.2496132,
+      "lon": -72.5558483
+    },
+    {
+      "type": "way",
+      "id": 272031919,
+      "center": {
+        "lat": 43.2027394,
+        "lon": -72.7854541
+      },
+      "tags": {
+        "addr:housenumber": "2631",
+        "addr:state": "VT",
+        "addr:street": "Thompsonburg Road",
+        "power": "substation",
+        "ref:vcgi:esiteid": "141917",
+        "voltage": "46000"
+      },
+      "lat": 43.2027394,
+      "lon": -72.7854541
+    },
+    {
+      "type": "way",
+      "id": 272520624,
+      "center": {
+        "lat": 43.2798049,
+        "lon": -72.5988272
+      },
+      "tags": {
+        "name": "Chester Substation",
+        "operator": "Green Mountain Power",
+        "operator:short": "GMP",
+        "operator:wikidata": "Q71871622",
+        "power": "substation",
+        "voltage": "46000"
+      },
+      "lat": 43.2798049,
+      "lon": -72.5988272
+    },
+    {
+      "type": "way",
+      "id": 287809219,
+      "center": {
+        "lat": 43.9606112,
+        "lon": -72.470548
+      },
+      "tags": {
+        "addr:city": "Chelsea",
+        "addr:housenumber": "45",
+        "addr:postcode": "05038",
+        "addr:state": "VT",
+        "addr:street": "East Randolph Road",
+        "barrier": "fence",
+        "name": "Chelsea VT Substation",
+        "operator": "Vermont Electric Power Company",
+        "operator:wikidata": "Q130232535",
+        "power": "substation",
+        "ref:vcgi:esiteid": "65694",
+        "source": "esri/Vermont_US_Addresses",
+        "substation": "distribution",
+        "voltage": "115000;46000"
+      },
+      "lat": 43.9606112,
+      "lon": -72.470548
+    },
+    {
+      "type": "way",
+      "id": 295951351,
+      "center": {
+        "lat": 43.7015682,
+        "lon": -72.285814
+      },
+      "tags": {
+        "addr:city": "Hanover",
+        "addr:housenumber": "6",
+        "addr:postcode": "03755",
+        "addr:state": "NH",
+        "addr:street": "Vox Lane",
+        "building": "university",
+        "name": "McKenzie Substation",
+        "power": "substation"
+      },
+      "lat": 43.7015682,
+      "lon": -72.285814
+    },
+    {
+      "type": "way",
+      "id": 318654975,
+      "center": {
+        "lat": 43.6070548,
+        "lon": -72.9893908
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.6070548,
+      "lon": -72.9893908
+    },
+    {
+      "type": "way",
+      "id": 324044510,
+      "center": {
+        "lat": 44.4826447,
+        "lon": -73.1161465
+      },
+      "tags": {
+        "addr:city": "Essex Junction",
+        "addr:housenumber": "5",
+        "addr:postcode": "05452",
+        "addr:state": "VT",
+        "addr:street": "Cascade Street",
+        "name": "Essex Hilltop-19 Substation",
+        "operator": "Green Mountain Power",
+        "operator:short": "GMP",
+        "operator:wikidata": "Q71871622",
+        "power": "substation",
+        "ref:vcgi:esiteid": "100309",
+        "source": "esri/Vermont_US_Addresses",
+        "substation": "yes",
+        "voltage": "34500"
+      },
+      "lat": 44.4826447,
+      "lon": -73.1161465
+    },
+    {
+      "type": "way",
+      "id": 324044994,
+      "center": {
+        "lat": 44.4838652,
+        "lon": -73.1070959
+      },
+      "tags": {
+        "name": "IBM Substation",
+        "operator": "Vermont Electric Power Company",
+        "operator:wikidata": "Q130232535",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.4838652,
+      "lon": -73.1070959
+    },
+    {
+      "type": "way",
+      "id": 325274099,
+      "center": {
+        "lat": 44.6393034,
+        "lon": -72.670378
+      },
+      "tags": {
+        "addr:city": "Johnson",
+        "addr:housenumber": "372",
+        "addr:state": "VT",
+        "addr:street": "College Hill",
+        "name": "Johnson Substation",
+        "operator": "Johnson Water & Light Department",
+        "power": "substation",
+        "ref:vcgi:esiteid": "328803",
+        "voltage": "34500"
+      },
+      "lat": 44.6393034,
+      "lon": -72.670378
+    },
+    {
+      "type": "way",
+      "id": 325316444,
+      "center": {
+        "lat": 44.2916606,
+        "lon": -72.6861244
+      },
+      "tags": {
+        "addr:city": "Moretown",
+        "addr:housenumber": "7510",
+        "addr:postcode": "05602",
+        "addr:state": "VT",
+        "addr:street": "Vermont Route 100B",
+        "name": "Middlesex-2 Substation",
+        "operator": "Green Mountain Power",
+        "operator:short": "GMP",
+        "operator:wikidata": "Q71871622",
+        "power": "substation",
+        "ref:vcgi:esiteid": "339303",
+        "source": "esri/USA_NAD_Addresses",
+        "substation": "yes",
+        "voltage": "34500"
+      },
+      "lat": 44.2916606,
+      "lon": -72.6861244
+    },
+    {
+      "type": "way",
+      "id": 325316446,
+      "center": {
+        "lat": 44.2891644,
+        "lon": -72.6794477
+      },
+      "tags": {
+        "addr:city": "Moretown",
+        "addr:housenumber": "183",
+        "addr:postcode": "05660",
+        "addr:state": "VT",
+        "addr:street": "Henning Road",
+        "name": "Middlesex Substation",
+        "operator": "Vermont Electric Power Company",
+        "power": "substation",
+        "ref:vcgi:esiteid": "167782",
+        "source": "esri/USA_NAD_Addresses",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.2891644,
+      "lon": -72.6794477
+    },
+    {
+      "type": "way",
+      "id": 325325373,
+      "center": {
+        "lat": 44.1888742,
+        "lon": -72.8359956
+      },
+      "tags": {
+        "name": "Irasville-39 Substation",
+        "operator": "Green Mountain Power",
+        "operator:short": "GMP",
+        "operator:wikidata": "Q71871622",
+        "power": "substation",
+        "substation": "yes",
+        "voltage": "34500"
+      },
+      "lat": 44.1888742,
+      "lon": -72.8359956
+    },
+    {
+      "type": "way",
+      "id": 330736222,
+      "center": {
+        "lat": 44.4457089,
+        "lon": -73.2186105
+      },
+      "tags": {
+        "addr:city": "South Burlington",
+        "addr:housenumber": "10",
+        "addr:state": "VT",
+        "addr:street": "Central Avenue",
+        "barrier": "fence",
+        "name": "Queen City Substation",
+        "operator": "Vermont Electric Power Company",
+        "power": "substation",
+        "ref:vcgi:esiteid": "315330",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.4457089,
+      "lon": -73.2186105
+    },
+    {
+      "type": "way",
+      "id": 354297927,
+      "center": {
+        "lat": 44.3001002,
+        "lon": -72.0642156
+      },
+      "tags": {
+        "name": "Barnet-14 Substation",
+        "operator": "Green Mountain Power",
+        "operator:short": "GMP",
+        "operator:wikidata": "Q71871622",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.3001002,
+      "lon": -72.0642156
+    },
+    {
+      "type": "way",
+      "id": 354331181,
+      "center": {
+        "lat": 44.7111931,
+        "lon": -72.5490493
+      },
+      "tags": {
+        "addr:city": "Eden",
+        "addr:housenumber": "308",
+        "addr:postcode": "05652",
+        "addr:state": "VT",
+        "addr:street": "Belvidere Road",
+        "name": "Eden Substation",
+        "operator": "Vermont Electric Cooperative",
+        "power": "substation",
+        "ref:vcgi:esiteid": "92457",
+        "source": "esri/Vermont_US_Addresses",
+        "voltage": "34500"
+      },
+      "lat": 44.7111931,
+      "lon": -72.5490493
+    },
+    {
+      "type": "way",
+      "id": 354331183,
+      "center": {
+        "lat": 44.8034528,
+        "lon": -72.4476113
+      },
+      "tags": {
+        "name": "Lowell Substation",
+        "operator": "Green Mountain Energy",
+        "power": "substation",
+        "voltage": "46000"
+      },
+      "lat": 44.8034528,
+      "lon": -72.4476113
+    },
+    {
+      "type": "way",
+      "id": 354331184,
+      "center": {
+        "lat": 44.8446707,
+        "lon": -72.2842054
+      },
+      "tags": {
+        "name": "Irasburg Substation",
+        "operator": "Vermont Electric Power Company",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.8446707,
+      "lon": -72.2842054
+    },
+    {
+      "type": "way",
+      "id": 354331186,
+      "center": {
+        "lat": 44.8039375,
+        "lon": -72.4473253
+      },
+      "tags": {
+        "addr:city": "Lowell",
+        "addr:housenumber": "2305",
+        "addr:postcode": "05847",
+        "addr:state": "VT",
+        "addr:street": "Vermont Route 100",
+        "name": "Lowell Substation",
+        "operator": "Vermont Electric Cooperative",
+        "power": "substation",
+        "ref:vcgi:esiteid": "453872",
+        "source": "esri/Vermont_US_Addresses",
+        "substation": "yes",
+        "voltage": "46000"
+      },
+      "lat": 44.8039375,
+      "lon": -72.4473253
+    },
+    {
+      "type": "way",
+      "id": 360091233,
+      "center": {
+        "lat": 43.2069321,
+        "lon": -72.9446262
+      },
+      "tags": {
+        "addr:city": "Winhall",
+        "addr:housenumber": "401",
+        "addr:postcode": "05340",
+        "addr:state": "VT",
+        "addr:street": "Vermont Route 11",
+        "power": "substation",
+        "ref:vcgi:esiteid": "298331",
+        "source": "esri/Vermont_US_Addresses"
+      },
+      "lat": 43.2069321,
+      "lon": -72.9446262
+    },
+    {
+      "type": "way",
+      "id": 390468415,
+      "center": {
+        "lat": 44.1790237,
+        "lon": -73.249334
+      },
+      "tags": {
+        "name": "Vergennes Substation",
+        "operator": "Vermont Electric Power Company",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.1790237,
+      "lon": -73.249334
+    },
+    {
+      "type": "way",
+      "id": 423641296,
+      "center": {
+        "lat": 44.1666187,
+        "lon": -73.2578562
+      },
+      "tags": {
+        "addr:city": "Vergennes",
+        "addr:housenumber": "3",
+        "addr:postcode": "05491",
+        "addr:state": "VT",
+        "addr:street": "Green Mountain Drive",
+        "barrier": "fence",
+        "power": "substation",
+        "ref:vcgi:esiteid": "264680",
+        "source": "esri/Vermont_US_Addresses"
+      },
+      "lat": 44.1666187,
+      "lon": -73.2578562
+    },
+    {
+      "type": "way",
+      "id": 423874222,
+      "center": {
+        "lat": 44.1191362,
+        "lon": -73.1654661
+      },
+      "tags": {
+        "name": "New Haven Substation",
+        "operator": "Vermont Electric Power Company",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "345000;115000;46000"
+      },
+      "lat": 44.1191362,
+      "lon": -73.1654661
+    },
+    {
+      "type": "way",
+      "id": 423944772,
+      "center": {
+        "lat": 44.4138689,
+        "lon": -73.1287238
+      },
+      "tags": {
+        "addr:city": "Williston",
+        "addr:housenumber": "4952",
+        "addr:state": "VT",
+        "addr:street": "Saint George Road",
+        "barrier": "fence",
+        "name": "Williston Substation",
+        "operator": "Vermont Electric Power Company",
+        "power": "substation",
+        "ref:vcgi:esiteid": "291062",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.4138689,
+      "lon": -73.1287238
+    },
+    {
+      "type": "way",
+      "id": 442949419,
+      "center": {
+        "lat": 44.2217061,
+        "lon": -72.5585475
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:housenumber": "1549",
+        "addr:postcode": "05602",
+        "addr:state": "VT",
+        "addr:street": "Berlin State Highway",
+        "name": "Berlin-40 Substation",
+        "operator": "Green Mountain Power",
+        "operator:short": "GMP",
+        "operator:wikidata": "Q71871622",
+        "power": "substation",
+        "ref:vcgi:esiteid": "752170",
+        "source": "esri/Vermont_US_Addresses",
+        "substation": "yes",
+        "voltage": "34500"
+      },
+      "lat": 44.2217061,
+      "lon": -72.5585475
+    },
+    {
+      "type": "way",
+      "id": 442972813,
+      "center": {
+        "lat": 43.2917966,
+        "lon": -72.4768801
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.2917966,
+      "lon": -72.4768801
+    },
+    {
+      "type": "way",
+      "id": 462195169,
+      "center": {
+        "lat": 44.515209,
+        "lon": -72.7691591
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Mount Mansfield Substation",
+        "operator": "Stowe Electric Department",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.515209,
+      "lon": -72.7691591
+    },
+    {
+      "type": "way",
+      "id": 495564972,
+      "center": {
+        "lat": 44.3227691,
+        "lon": -71.9980273
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.3227691,
+      "lon": -71.9980273
+    },
+    {
+      "type": "way",
+      "id": 495564973,
+      "center": {
+        "lat": 44.3232773,
+        "lon": -71.9993577
+      },
+      "tags": {
+        "operator": "National Grid",
+        "operator:wikidata": "Q1465461",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "230000"
+      },
+      "lat": 44.3232773,
+      "lon": -71.9993577
+    },
+    {
+      "type": "way",
+      "id": 495564978,
+      "center": {
+        "lat": 44.3209246,
+        "lon": -72.0030749
+      },
+      "tags": {
+        "name": "Comerford Substation",
+        "operator": "National Grid",
+        "operator:wikidata": "Q1465461",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "230000"
+      },
+      "lat": 44.3209246,
+      "lon": -72.0030749
+    },
+    {
+      "type": "way",
+      "id": 495564984,
+      "center": {
+        "lat": 44.4179412,
+        "lon": -71.9838623
+      },
+      "tags": {
+        "name": "St. Johnsbury Substation",
+        "operator": "Vermont Electric Power Company",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.4179412,
+      "lon": -71.9838623
+    },
+    {
+      "type": "way",
+      "id": 509979116,
+      "center": {
+        "lat": 44.9340561,
+        "lon": -73.0496727
+      },
+      "tags": {
+        "addr:city": "Highgate",
+        "addr:housenumber": "70",
+        "addr:postcode": "05459",
+        "addr:state": "VT",
+        "addr:street": "Baker Road",
+        "name": "Highgate Falls Substation",
+        "operator": "Swanton Village Electric Department",
+        "power": "substation",
+        "ref:vcgi:esiteid": "758236",
+        "source": "esri/Vermont_US_Addresses",
+        "voltage": "46000"
+      },
+      "lat": 44.9340561,
+      "lon": -73.0496727
+    },
+    {
+      "type": "way",
+      "id": 509979118,
+      "center": {
+        "lat": 44.9069046,
+        "lon": -72.9815995
+      },
+      "tags": {
+        "name": "Sheldon Substation",
+        "operator": "Vermont Electric Cooperative",
+        "power": "substation",
+        "voltage": "46000"
+      },
+      "lat": 44.9069046,
+      "lon": -72.9815995
+    },
+    {
+      "type": "way",
+      "id": 514833914,
+      "center": {
+        "lat": 44.9784179,
+        "lon": -72.4823036
+      },
+      "tags": {
+        "addr:city": "Jay",
+        "addr:housenumber": "181",
+        "addr:postcode": "05859",
+        "addr:state": "VT",
+        "addr:street": "Leavitt Circle",
+        "name": "Jay Tap Substation",
+        "operator": "Vermont Electric Power Company",
+        "power": "substation",
+        "ref:vcgi:esiteid": "342627",
+        "source": "esri/Vermont_US_Addresses",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.9784179,
+      "lon": -72.4823036
+    },
+    {
+      "type": "way",
+      "id": 514833916,
+      "center": {
+        "lat": 44.9423013,
+        "lon": -72.5037081
+      },
+      "tags": {
+        "name": "Jay Peak Substation",
+        "operator": "Vermont Electric Cooperative",
+        "power": "substation",
+        "voltage": "46000"
+      },
+      "lat": 44.9423013,
+      "lon": -72.5037081
+    },
+    {
+      "type": "way",
+      "id": 517482582,
+      "center": {
+        "lat": 42.88561,
+        "lon": -73.1871983
+      },
+      "tags": {
+        "addr:city": "Bennington",
+        "addr:housenumber": "125",
+        "addr:postcode": "05201",
+        "addr:state": "VT",
+        "addr:street": "Lyons Street",
+        "power": "substation",
+        "ref:vcgi:esiteid": "341488",
+        "source": "esri/Vermont_US_Addresses"
+      },
+      "lat": 42.88561,
+      "lon": -73.1871983
+    },
+    {
+      "type": "way",
+      "id": 517482584,
+      "center": {
+        "lat": 42.8944594,
+        "lon": -73.1714099
+      },
+      "tags": {
+        "addr:city": "Bennington",
+        "addr:housenumber": "800",
+        "addr:postcode": "05201",
+        "addr:state": "VT",
+        "addr:street": "Bedrock Road",
+        "barrier": "fence",
+        "name": "Bennington Substation",
+        "operator": "Vermont Electric Power Company",
+        "operator:wikidata": "Q130232535",
+        "power": "substation",
+        "ref:vcgi:esiteid": "344971",
+        "source": "esri/Vermont_US_Addresses",
+        "substation": "distribution",
+        "voltage": "115000;69000;46000"
+      },
+      "lat": 42.8944594,
+      "lon": -73.1714099
+    },
+    {
+      "type": "way",
+      "id": 543401228,
+      "center": {
+        "lat": 44.066702,
+        "lon": -73.2157131
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "46000"
+      },
+      "lat": 44.066702,
+      "lon": -73.2157131
+    },
+    {
+      "type": "way",
+      "id": 543401231,
+      "center": {
+        "lat": 44.0279265,
+        "lon": -73.1779646
+      },
+      "tags": {
+        "addr:city": "Middlebury",
+        "addr:country": "US",
+        "addr:housenumber": "83",
+        "addr:postcode": "05753",
+        "addr:state": "VT",
+        "addr:street": "Seymour Street Extension",
+        "power": "substation",
+        "ref:vcgi:esiteid": "342919",
+        "voltage": "46000"
+      },
+      "lat": 44.0279265,
+      "lon": -73.1779646
+    },
+    {
+      "type": "way",
+      "id": 562309350,
+      "center": {
+        "lat": 44.5346961,
+        "lon": -71.9936757
+      },
+      "tags": {
+        "addr:city": "Lyndon",
+        "addr:housenumber": "196",
+        "addr:postcode": "05851",
+        "addr:state": "VT",
+        "addr:street": "Hill Street",
+        "name": "Lyndonville Substation",
+        "operator": "Vermont Electric Power Company",
+        "operator:wikidata": "Q130232535",
+        "power": "substation",
+        "ref:vcgi:esiteid": "339053",
+        "source": "esri/Vermont_US_Addresses",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.5346961,
+      "lon": -71.9936757
+    },
+    {
+      "type": "way",
+      "id": 562916282,
+      "center": {
+        "lat": 44.6636503,
+        "lon": -72.1229223
+      },
+      "tags": {
+        "addr:city": "Sheffield",
+        "addr:housenumber": "75",
+        "addr:state": "VT",
+        "addr:street": "Howling Wind Road",
+        "name": "Sheffield Substation",
+        "operator": "Vermont Electric Power Company",
+        "operator:wikidata": "Q130232535",
+        "power": "substation",
+        "ref:vcgi:esiteid": "610756",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.6636503,
+      "lon": -72.1229223
+    },
+    {
+      "type": "way",
+      "id": 564111444,
+      "center": {
+        "lat": 44.4592018,
+        "lon": -72.6981966
+      },
+      "tags": {
+        "name": "Stowe Substation",
+        "operator": "Vermont Electric Power Company",
+        "operator:wikidata": "Q130232535",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.4592018,
+      "lon": -72.6981966
+    },
+    {
+      "type": "way",
+      "id": 569711736,
+      "center": {
+        "lat": 43.9112506,
+        "lon": -72.6544928
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "46000"
+      },
+      "lat": 43.9112506,
+      "lon": -72.6544928
+    },
+    {
+      "type": "way",
+      "id": 569926129,
+      "center": {
+        "lat": 43.8048657,
+        "lon": -73.0879619
+      },
+      "tags": {
+        "addr:city": "Brandon",
+        "addr:housenumber": "7",
+        "addr:state": "VT",
+        "addr:street": "Walnut Street",
+        "power": "substation",
+        "ref:vcgi:esiteid": "28493",
+        "voltage": "46000"
+      },
+      "lat": 43.8048657,
+      "lon": -73.0879619
+    },
+    {
+      "type": "way",
+      "id": 570050905,
+      "center": {
+        "lat": 43.6327876,
+        "lon": -72.8001756
+      },
+      "tags": {
+        "addr:city": "Killington",
+        "addr:housenumber": "3358",
+        "addr:postcode": "05751",
+        "addr:state": "VT",
+        "addr:street": "Killington Road",
+        "power": "substation",
+        "ref:vcgi:esiteid": "225408",
+        "source": "esri/Vermont_US_Addresses"
+      },
+      "lat": 43.6327876,
+      "lon": -72.8001756
+    },
+    {
+      "type": "way",
+      "id": 575389852,
+      "center": {
+        "lat": 44.4572219,
+        "lon": -73.1798185
+      },
+      "tags": {
+        "addr:city": "South Burlington",
+        "addr:housenumber": "423",
+        "addr:state": "VT",
+        "addr:street": "Dorset Street",
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "power": "substation",
+        "ref:vcgi:esiteid": "309638"
+      },
+      "lat": 44.4572219,
+      "lon": -73.1798185
+    },
+    {
+      "type": "way",
+      "id": 575393430,
+      "center": {
+        "lat": 44.4458989,
+        "lon": -73.2170547
+      },
+      "tags": {
+        "addr:city": "South Burlington",
+        "addr:housenumber": "371",
+        "addr:state": "VT",
+        "addr:street": "Queen City Park Road",
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "power": "substation",
+        "ref:vcgi:esiteid": "315329"
+      },
+      "lat": 44.4458989,
+      "lon": -73.2170547
+    },
+    {
+      "type": "way",
+      "id": 586472073,
+      "center": {
+        "lat": 44.4891175,
+        "lon": -73.1691848
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.4891175,
+      "lon": -73.1691848
+    },
+    {
+      "type": "way",
+      "id": 586472077,
+      "center": {
+        "lat": 44.4903162,
+        "lon": -73.1712212
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.4903162,
+      "lon": -73.1712212
+    },
+    {
+      "type": "way",
+      "id": 609834498,
+      "center": {
+        "lat": 44.7634572,
+        "lon": -72.4378075
+      },
+      "tags": {
+        "addr:housenumber": "1302",
+        "addr:state": "VT",
+        "addr:street": "Edward Drive",
+        "name": "Kingdom Community Wind Substation",
+        "operator": "Green Mountain Energy",
+        "power": "substation",
+        "ref:vcgi:esiteid": "761036",
+        "voltage": "46000"
+      },
+      "lat": 44.7634572,
+      "lon": -72.4378075
+    },
+    {
+      "type": "way",
+      "id": 626494073,
+      "center": {
+        "lat": 44.3570383,
+        "lon": -72.8162312
+      },
+      "tags": {
+        "addr:city": "Duxbury",
+        "addr:housenumber": "200",
+        "addr:postcode": "05676",
+        "addr:state": "VT",
+        "addr:street": "Power Plant Road",
+        "name": "Bolton Falls Substation",
+        "operator": "Green Mountain Power",
+        "operator:short": "GMP",
+        "operator:wikidata": "Q71871622",
+        "power": "substation",
+        "ref:vcgi:esiteid": "752585",
+        "source": "esri/Vermont_US_Addresses",
+        "substation": "yes",
+        "voltage": "34500"
+      },
+      "lat": 44.3570383,
+      "lon": -72.8162312
+    },
+    {
+      "type": "way",
+      "id": 639061008,
+      "center": {
+        "lat": 44.4745299,
+        "lon": -73.0887372
+      },
+      "tags": {
+        "addr:city": "Williston",
+        "addr:housenumber": "425",
+        "addr:state": "VT",
+        "addr:street": "Chip Alley",
+        "name": "IBM Substation",
+        "operator": "Vermont Electric Power Company",
+        "power": "substation",
+        "ref:vcgi:esiteid": "339045",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.4745299,
+      "lon": -73.0887372
+    },
+    {
+      "type": "way",
+      "id": 661844990,
+      "center": {
+        "lat": 44.3124409,
+        "lon": -73.2614143
+      },
+      "tags": {
+        "addr:city": "Charlotte",
+        "addr:housenumber": "820",
+        "addr:postcode": "05445",
+        "addr:state": "VT",
+        "addr:street": "Ferry Road",
+        "barrier": "fence",
+        "name": "Charlotte Substation",
+        "operator": "Vermont Electric Power Company",
+        "power": "substation",
+        "ref:vcgi:esiteid": "63853",
+        "source": "esri/Vermont_US_Addresses",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.3124409,
+      "lon": -73.2614143
+    },
+    {
+      "type": "way",
+      "id": 661847933,
+      "center": {
+        "lat": 44.3835739,
+        "lon": -73.238621
+      },
+      "tags": {
+        "addr:city": "Shelburne",
+        "addr:housenumber": "578",
+        "addr:state": "VT",
+        "addr:street": "Harbor Road",
+        "name": "Shelburne Substation",
+        "operator": "Vermont Electric Power Company",
+        "power": "substation",
+        "ref:vcgi:esiteid": "310655",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.3835739,
+      "lon": -73.238621
+    },
+    {
+      "type": "way",
+      "id": 683976057,
+      "center": {
+        "lat": 44.3718308,
+        "lon": -72.4900641
+      },
+      "tags": {
+        "name": "Maple Corner Substation",
+        "operator": "Washington Electric Coop",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.3718308,
+      "lon": -72.4900641
+    },
+    {
+      "type": "way",
+      "id": 687138794,
+      "center": {
+        "lat": 44.2505126,
+        "lon": -72.7570602
+      },
+      "tags": {
+        "name": "Moretown-66 Substation",
+        "operator": "Green Mountain Power",
+        "operator:short": "GMP",
+        "operator:wikidata": "Q71871622",
+        "power": "substation",
+        "substation": "yes",
+        "voltage": "34500"
+      },
+      "lat": 44.2505126,
+      "lon": -72.7570602
+    },
+    {
+      "type": "way",
+      "id": 725474910,
+      "center": {
+        "lat": 44.3234461,
+        "lon": -72.7490588
+      },
+      "tags": {
+        "addr:city": "Duxbury",
+        "addr:housenumber": "42",
+        "addr:postcode": "05676",
+        "addr:state": "VT",
+        "addr:street": "State Farm Road",
+        "name": "Waterbury-60 Substation",
+        "operator": "Green Mountain Power",
+        "operator:short": "GMP",
+        "operator:wikidata": "Q71871622",
+        "power": "substation",
+        "ref:vcgi:esiteid": "455134",
+        "source": "esri/Vermont_US_Addresses",
+        "substation": "yes",
+        "voltage": "34500"
+      },
+      "lat": 44.3234461,
+      "lon": -72.7490588
+    },
+    {
+      "type": "way",
+      "id": 725474915,
+      "center": {
+        "lat": 43.6067776,
+        "lon": -73.0542667
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.6067776,
+      "lon": -73.0542667
+    },
+    {
+      "type": "way",
+      "id": 725474922,
+      "center": {
+        "lat": 43.4291692,
+        "lon": -72.6600739
+      },
+      "tags": {
+        "addr:city": "Cavendish",
+        "addr:housenumber": "456",
+        "addr:postcode": "05153",
+        "addr:state": "VT",
+        "addr:street": "Quent Phelan Road",
+        "location": "outdoor",
+        "name": "Coolodge Substation",
+        "operator": "Vermont Electric Power Company",
+        "operator:wikidata": "Q130232535",
+        "power": "substation",
+        "ref:vcgi:esiteid": "61551",
+        "source": "esri/Vermont_US_Addresses",
+        "substation": "transmission",
+        "voltage": "345000;115000"
+      },
+      "lat": 43.4291692,
+      "lon": -72.6600739
+    },
+    {
+      "type": "way",
+      "id": 753511648,
+      "center": {
+        "lat": 44.9390343,
+        "lon": -72.1794277
+      },
+      "tags": {
+        "addr:city": "Newport",
+        "addr:housenumber": "917",
+        "addr:postcode": "05855",
+        "addr:state": "VT",
+        "addr:street": "Clyde Street",
+        "name": "Newport Substation",
+        "operator": "Vermont Electric Power Company;Vermont Electric Cooperative",
+        "power": "substation",
+        "ref:vcgi:esiteid": "176949",
+        "source": "esri/Vermont_US_Addresses",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.9390343,
+      "lon": -72.1794277
+    },
+    {
+      "type": "way",
+      "id": 772781505,
+      "center": {
+        "lat": 43.6524342,
+        "lon": -72.3274953
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.6524342,
+      "lon": -72.3274953
+    },
+    {
+      "type": "way",
+      "id": 791994594,
+      "center": {
+        "lat": 43.3028331,
+        "lon": -72.4946631
+      },
+      "tags": {
+        "addr:housenumber": "2",
+        "addr:state": "VT",
+        "addr:street": "Chester Road",
+        "power": "substation",
+        "ref:vcgi:esiteid": "452973"
+      },
+      "lat": 43.3028331,
+      "lon": -72.4946631
+    },
+    {
+      "type": "way",
+      "id": 814284444,
+      "center": {
+        "lat": 42.7818154,
+        "lon": -72.5162673
+      },
+      "tags": {
+        "name": "Vernon VT Substation",
+        "operator": "Vermont Electric Power Company",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 42.7818154,
+      "lon": -72.5162673
+    },
+    {
+      "type": "way",
+      "id": 814284449,
+      "center": {
+        "lat": 42.8376413,
+        "lon": -72.5510408
+      },
+      "tags": {
+        "addr:city": "Brattleboro",
+        "addr:housenumber": "567",
+        "addr:postcode": "05301",
+        "addr:state": "VT",
+        "addr:street": "Vernon Street",
+        "name": "Vernon Road Substation",
+        "operator": "Vermont Electric Power Company",
+        "power": "substation",
+        "ref:vcgi:esiteid": "36001",
+        "source": "esri/Vermont_US_Addresses",
+        "substation": "distribution",
+        "voltage": "115000;69000"
+      },
+      "lat": 42.8376413,
+      "lon": -72.5510408
+    },
+    {
+      "type": "way",
+      "id": 814286700,
+      "center": {
+        "lat": 42.8938829,
+        "lon": -72.5454883
+      },
+      "tags": {
+        "addr:city": "Brattleboro",
+        "addr:housenumber": "160",
+        "addr:state": "VT",
+        "addr:street": "Old Ferry Road",
+        "name": "Old Ferry Road Substation",
+        "operator": "National Grid",
+        "operator:wikidata": "Q1465461",
+        "power": "substation",
+        "ref:vcgi:esiteid": "36433",
+        "substation": "distribution",
+        "voltage": "69000"
+      },
+      "lat": 42.8938829,
+      "lon": -72.5454883
+    },
+    {
+      "type": "way",
+      "id": 814286705,
+      "center": {
+        "lat": 42.8870606,
+        "lon": -72.5489993
+      },
+      "tags": {
+        "addr:city": "Brattleboro",
+        "addr:housenumber": "153",
+        "addr:postcode": "05301",
+        "addr:state": "VT",
+        "addr:street": "Wellington Road",
+        "name": "Brudies Road Substation",
+        "operator": "Green Mountain Power",
+        "power": "substation",
+        "ref:vcgi:esiteid": "36335",
+        "source": "esri/Vermont_US_Addresses",
+        "substation": "distribution",
+        "voltage": "69000"
+      },
+      "lat": 42.8870606,
+      "lon": -72.5489993
+    },
+    {
+      "type": "way",
+      "id": 827354970,
+      "center": {
+        "lat": 44.030137,
+        "lon": -73.1732563
+      },
+      "tags": {
+        "addr:city": "Middlebury",
+        "addr:housenumber": "815",
+        "addr:state": "VT",
+        "addr:street": "Exchange Street",
+        "power": "substation",
+        "ref:vcgi:esiteid": "611347"
+      },
+      "lat": 44.030137,
+      "lon": -73.1732563
+    },
+    {
+      "type": "way",
+      "id": 827354974,
+      "center": {
+        "lat": 44.253303,
+        "lon": -73.2562097
+      },
+      "tags": {
+        "name": "North Ferrisburg Substation",
+        "operator": "Vermont Electric Power Company",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.253303,
+      "lon": -73.2562097
+    },
+    {
+      "type": "way",
+      "id": 827354976,
+      "center": {
+        "lat": 44.4923641,
+        "lon": -73.2082745
+      },
+      "tags": {
+        "addr:city": "Burlington",
+        "addr:housenumber": "113",
+        "addr:state": "VT",
+        "addr:street": "Intervale Road",
+        "power": "substation",
+        "ref:vcgi:esiteid": "761040"
+      },
+      "lat": 44.4923641,
+      "lon": -73.2082745
+    },
+    {
+      "type": "way",
+      "id": 827354979,
+      "center": {
+        "lat": 44.5106989,
+        "lon": -73.1766856
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.5106989,
+      "lon": -73.1766856
+    },
+    {
+      "type": "way",
+      "id": 832390052,
+      "center": {
+        "lat": 43.3242193,
+        "lon": -72.5304096
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "46000"
+      },
+      "lat": 43.3242193,
+      "lon": -72.5304096
+    },
+    {
+      "type": "way",
+      "id": 832390053,
+      "center": {
+        "lat": 43.3266659,
+        "lon": -72.5298208
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "46000"
+      },
+      "lat": 43.3266659,
+      "lon": -72.5298208
+    },
+    {
+      "type": "way",
+      "id": 832392590,
+      "center": {
+        "lat": 42.9713036,
+        "lon": -72.5121976
+      },
+      "tags": {
+        "addr:city": "Putney",
+        "addr:housenumber": "122",
+        "addr:postcode": "05346",
+        "addr:state": "VT",
+        "addr:street": "River Road South",
+        "name": "Putney Substation",
+        "operator": "Green Mountain Power",
+        "power": "substation",
+        "ref:vcgi:esiteid": "337316",
+        "source": "esri/USA_NAD_Addresses",
+        "substation": "distribution",
+        "voltage": "69000"
+      },
+      "lat": 42.9713036,
+      "lon": -72.5121976
+    },
+    {
+      "type": "way",
+      "id": 840281416,
+      "center": {
+        "lat": 43.489909,
+        "lon": -72.4085618
+      },
+      "tags": {
+        "name": "Windsor Substation",
+        "operator": "Vermont Electric Power Company",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000;46000"
+      },
+      "lat": 43.489909,
+      "lon": -72.4085618
+    },
+    {
+      "type": "way",
+      "id": 842303848,
+      "center": {
+        "lat": 43.4542933,
+        "lon": -72.8223529
+      },
+      "tags": {
+        "addr:city": "Mount Holly",
+        "addr:housenumber": "756",
+        "addr:postcode": "05758",
+        "addr:state": "VT",
+        "addr:street": "Old Turnpike Road",
+        "power": "substation",
+        "ref:vcgi:esiteid": "171920",
+        "source": "esri/USA_NAD_Addresses"
+      },
+      "lat": 43.4542933,
+      "lon": -72.8223529
+    },
+    {
+      "type": "way",
+      "id": 842303851,
+      "center": {
+        "lat": 43.3977831,
+        "lon": -72.6723166
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "46000"
+      },
+      "lat": 43.3977831,
+      "lon": -72.6723166
+    },
+    {
+      "type": "way",
+      "id": 842303858,
+      "center": {
+        "lat": 43.3955863,
+        "lon": -72.4075139
+      },
+      "tags": {
+        "name": "Ascutney Substation",
+        "operator": "Vermont Electric Power Company",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 43.3955863,
+      "lon": -72.4075139
+    },
+    {
+      "type": "way",
+      "id": 842899574,
+      "center": {
+        "lat": 43.1454685,
+        "lon": -72.9185597
+      },
+      "tags": {
+        "addr:housenumber": "11",
+        "addr:state": "VT",
+        "addr:street": "Blackcherry Ridge Road",
+        "barrier": "fence",
+        "power": "substation",
+        "ref:vcgi:esiteid": "333786",
+        "voltage": "46000"
+      },
+      "lat": 43.1454685,
+      "lon": -72.9185597
+    },
+    {
+      "type": "way",
+      "id": 842899578,
+      "center": {
+        "lat": 43.1569688,
+        "lon": -72.8379567
+      },
+      "tags": {
+        "addr:housenumber": "783",
+        "addr:state": "VT",
+        "addr:street": "Vermont Route 100 North",
+        "barrier": "fence",
+        "power": "substation",
+        "ref:vcgi:esiteid": "315494",
+        "voltage": "46000"
+      },
+      "lat": 43.1569688,
+      "lon": -72.8379567
+    },
+    {
+      "type": "way",
+      "id": 842927883,
+      "center": {
+        "lat": 44.4805579,
+        "lon": -73.1710712
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.4805579,
+      "lon": -73.1710712
+    },
+    {
+      "type": "way",
+      "id": 842927884,
+      "center": {
+        "lat": 44.4805117,
+        "lon": -73.1710882
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.4805117,
+      "lon": -73.1710882
+    },
+    {
+      "type": "way",
+      "id": 845830339,
+      "center": {
+        "lat": 43.753981,
+        "lon": -72.5651799
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "46000;34500"
+      },
+      "lat": 43.753981,
+      "lon": -72.5651799
+    },
+    {
+      "type": "way",
+      "id": 845830341,
+      "center": {
+        "lat": 43.8266742,
+        "lon": -72.6115676
+      },
+      "tags": {
+        "addr:city": "Royalton",
+        "addr:housenumber": "2388",
+        "addr:postcode": "05032",
+        "addr:state": "VT",
+        "addr:street": "Vermont Route 107",
+        "power": "substation",
+        "ref:vcgi:esiteid": "206053",
+        "source": "esri/Vermont_US_Addresses",
+        "voltage": "46000"
+      },
+      "lat": 43.8266742,
+      "lon": -72.6115676
+    },
+    {
+      "type": "way",
+      "id": 896905902,
+      "center": {
+        "lat": 43.6832649,
+        "lon": -72.311764
+      },
+      "tags": {
+        "addr:city": "Hartford",
+        "addr:housenumber": "2393",
+        "addr:postcode": "05001",
+        "addr:state": "VT",
+        "addr:street": "Hartford Avenue",
+        "fenced": "yes",
+        "name": "Hartford VT Substation",
+        "operator": "Vermont Electric Power Company",
+        "operator:wikidata": "Q130232535",
+        "power": "substation",
+        "ref:vcgi:esiteid": "120596",
+        "source": "esri/Vermont_US_Addresses",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 43.6832649,
+      "lon": -72.311764
+    },
+    {
+      "type": "way",
+      "id": 900941230,
+      "center": {
+        "lat": 44.5214816,
+        "lon": -72.9477388
+      },
+      "tags": {
+        "addr:city": "Jericho",
+        "addr:housenumber": "369",
+        "addr:postcode": "05465",
+        "addr:state": "VT",
+        "addr:street": "Vermont Route 15",
+        "name": "Underhill Substation",
+        "operator": "Green Mountain Energy",
+        "power": "substation",
+        "ref:vcgi:esiteid": "610912",
+        "source:addr": "esri_Vermont_State",
+        "voltage": "34500"
+      },
+      "lat": 44.5214816,
+      "lon": -72.9477388
+    },
+    {
+      "type": "way",
+      "id": 900941233,
+      "center": {
+        "lat": 44.5443198,
+        "lon": -72.9497176
+      },
+      "tags": {
+        "name": "Underhill Substation",
+        "operator": "Vermont Electric Cooperative",
+        "power": "substation",
+        "substation": "yes",
+        "voltage": "34500"
+      },
+      "lat": 44.5443198,
+      "lon": -72.9497176
+    },
+    {
+      "type": "way",
+      "id": 909012196,
+      "center": {
+        "lat": 43.4265286,
+        "lon": -72.6616002
+      },
+      "tags": {
+        "addr:city": "Ludlow",
+        "addr:housenumber": "402",
+        "addr:postcode": "05149",
+        "addr:state": "VT",
+        "addr:street": "Barker Road",
+        "power": "substation",
+        "ref:vcgi:esiteid": "618321",
+        "source": "esri/Vermont_US_Addresses",
+        "substation": "generation",
+        "voltage": "115000"
+      },
+      "lat": 43.4265286,
+      "lon": -72.6616002
+    },
+    {
+      "type": "way",
+      "id": 918490593,
+      "center": {
+        "lat": 44.3359458,
+        "lon": -71.87535
+      },
+      "tags": {
+        "name": "Moore Substation",
+        "operator": "National Grid",
+        "operator:wikidata": "Q1465461",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "230000;115000;34500"
+      },
+      "lat": 44.3359458,
+      "lon": -71.87535
+    },
+    {
+      "type": "way",
+      "id": 944016587,
+      "center": {
+        "lat": 43.7087023,
+        "lon": -73.0673724
+      },
+      "tags": {
+        "name": "Florence Substation",
+        "operator": "Vermont Electric Power Company",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 43.7087023,
+      "lon": -73.0673724
+    },
+    {
+      "type": "way",
+      "id": 956983223,
+      "center": {
+        "lat": 42.8598068,
+        "lon": -72.9734337
+      },
+      "tags": {
+        "addr:city": "Searsburg",
+        "addr:housenumber": "528",
+        "addr:state": "VT",
+        "addr:street": "Sleepy Hollow Road",
+        "name": "Sleepy Hollow Substation",
+        "operator": "Green Mountain Power",
+        "power": "substation",
+        "ref:vcgi:esiteid": "217377",
+        "substation": "distribution",
+        "voltage": "69000"
+      },
+      "lat": 42.8598068,
+      "lon": -72.9734337
+    },
+    {
+      "type": "way",
+      "id": 968899712,
+      "center": {
+        "lat": 43.1715442,
+        "lon": -73.0502868
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.1715442,
+      "lon": -73.0502868
+    },
+    {
+      "type": "way",
+      "id": 974181261,
+      "center": {
+        "lat": 43.6807556,
+        "lon": -72.3133748
+      },
+      "tags": {
+        "addr:city": "Hartford",
+        "addr:housenumber": "2430",
+        "addr:postcode": "05001",
+        "addr:state": "VT",
+        "addr:street": "Hartford Avenue",
+        "fenced": "yes",
+        "power": "substation",
+        "ref:vcgi:esiteid": "120625",
+        "source": "esri/Vermont_US_Addresses"
+      },
+      "lat": 43.6807556,
+      "lon": -72.3133748
+    },
+    {
+      "type": "way",
+      "id": 978542406,
+      "center": {
+        "lat": 43.8133605,
+        "lon": -72.1927198
+      },
+      "tags": {
+        "addr:city": "Thetford",
+        "addr:housenumber": "507",
+        "addr:postcode": "05043",
+        "addr:state": "VT",
+        "addr:street": "Vermont Route 113",
+        "barrier": "fence",
+        "power": "substation",
+        "ref:vcgi:esiteid": "259373",
+        "source": "esri/Vermont_US_Addresses",
+        "substation": "yes",
+        "voltage": "46000"
+      },
+      "lat": 43.8133605,
+      "lon": -72.1927198
+    },
+    {
+      "type": "way",
+      "id": 982096161,
+      "center": {
+        "lat": 44.9464675,
+        "lon": -72.1382072
+      },
+      "tags": {
+        "name": "Derby Substation",
+        "note": "The powerlines around this this sub station needs to examined in person.",
+        "operator": "Vermont Electric Cooperative",
+        "power": "substation",
+        "substation": "yes",
+        "voltage": "46000"
+      },
+      "lat": 44.9464675,
+      "lon": -72.1382072
+    },
+    {
+      "type": "way",
+      "id": 992493373,
+      "center": {
+        "lat": 43.9885149,
+        "lon": -72.1293717
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "46000"
+      },
+      "lat": 43.9885149,
+      "lon": -72.1293717
+    },
+    {
+      "type": "way",
+      "id": 993712501,
+      "center": {
+        "lat": 43.5942922,
+        "lon": -73.2620276
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.5942922,
+      "lon": -73.2620276
+    },
+    {
+      "type": "way",
+      "id": 993712511,
+      "center": {
+        "lat": 43.5206033,
+        "lon": -73.2358064
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.5206033,
+      "lon": -73.2358064
+    },
+    {
+      "type": "way",
+      "id": 995309460,
+      "center": {
+        "lat": 42.886322,
+        "lon": -72.9865648
+      },
+      "tags": {
+        "addr:city": "Searsburg",
+        "addr:housenumber": "146",
+        "addr:state": "VT",
+        "addr:street": "Putnam Road",
+        "name": "Putnam Road Substation",
+        "operator": "National Grid",
+        "operator:wikidata": "Q1465461",
+        "power": "substation",
+        "ref:vcgi:esiteid": "900396",
+        "substation": "distribution",
+        "voltage": "69000"
+      },
+      "lat": 42.886322,
+      "lon": -72.9865648
+    },
+    {
+      "type": "way",
+      "id": 1001576571,
+      "center": {
+        "lat": 43.6478818,
+        "lon": -72.770131
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "minor_distribution",
+        "voltage": "46000"
+      },
+      "lat": 43.6478818,
+      "lon": -72.770131
+    },
+    {
+      "type": "way",
+      "id": 1001935388,
+      "center": {
+        "lat": 43.4180446,
+        "lon": -72.7077072
+      },
+      "tags": {
+        "power": "substation",
+        "source": "Esri beta",
+        "substation": "minor_distribution"
+      },
+      "lat": 43.4180446,
+      "lon": -72.7077072
+    },
+    {
+      "type": "way",
+      "id": 1002176743,
+      "center": {
+        "lat": 44.8069845,
+        "lon": -73.1191441
+      },
+      "tags": {
+        "name": "St. Albans Tap Substation",
+        "operator": "Vermont Electric Power Company",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.8069845,
+      "lon": -73.1191441
+    },
+    {
+      "type": "way",
+      "id": 1015192600,
+      "center": {
+        "lat": 44.4111877,
+        "lon": -71.7179805
+      },
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "34500"
+      },
+      "lat": 44.4111877,
+      "lon": -71.7179805
+    },
+    {
+      "type": "way",
+      "id": 1015192601,
+      "center": {
+        "lat": 44.4123896,
+        "lon": -71.7335195
+      },
+      "tags": {
+        "addr:city": "Lunenburg",
+        "addr:housenumber": "56",
+        "addr:postcode": "05906",
+        "addr:state": "VT",
+        "addr:street": "East Concord Road",
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "name": "Gilman Substation",
+        "operator": "Green Mountain Power",
+        "operator:short": "GMP",
+        "operator:wikidata": "Q71871622",
+        "power": "substation",
+        "ref:vcgi:esiteid": "454578",
+        "source": "esri/Vermont_US_Addresses",
+        "substation": "minor_distribution",
+        "voltage": "34500"
+      },
+      "lat": 44.4123896,
+      "lon": -71.7335195
+    },
+    {
+      "type": "way",
+      "id": 1018532786,
+      "center": {
+        "lat": 43.6625226,
+        "lon": -73.0342944
+      },
+      "tags": {
+        "name": "Proctor Substation",
+        "operator": "Green Mountain Power",
+        "operator:short": "GMP",
+        "operator:wikidata": "Q71871622",
+        "power": "substation"
+      },
+      "lat": 43.6625226,
+      "lon": -73.0342944
+    },
+    {
+      "type": "way",
+      "id": 1020289845,
+      "center": {
+        "lat": 43.7739045,
+        "lon": -72.7476599
+      },
+      "tags": {
+        "addr:city": "Stockbridge",
+        "addr:housenumber": "1874",
+        "addr:postcode": "05772",
+        "addr:state": "VT",
+        "addr:street": "Blackmer Boulevard",
+        "power": "substation",
+        "ref:vcgi:esiteid": "249301",
+        "source": "esri/Vermont_US_Addresses",
+        "voltage": "46000"
+      },
+      "lat": 43.7739045,
+      "lon": -72.7476599
+    },
+    {
+      "type": "way",
+      "id": 1020876484,
+      "center": {
+        "lat": 43.6543348,
+        "lon": -72.8938898
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.6543348,
+      "lon": -72.8938898
+    },
+    {
+      "type": "way",
+      "id": 1020881943,
+      "center": {
+        "lat": 43.7086019,
+        "lon": -73.0141847
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "46000"
+      },
+      "lat": 43.7086019,
+      "lon": -73.0141847
+    },
+    {
+      "type": "way",
+      "id": 1020881947,
+      "center": {
+        "lat": 43.8952514,
+        "lon": -73.1009912
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "46000"
+      },
+      "lat": 43.8952514,
+      "lon": -73.1009912
+    },
+    {
+      "type": "way",
+      "id": 1021770162,
+      "center": {
+        "lat": 43.5890812,
+        "lon": -72.9634545
+      },
+      "tags": {
+        "addr:city": "Rutland Town",
+        "addr:housenumber": "2929",
+        "addr:postcode": "05701",
+        "addr:state": "VT",
+        "addr:street": "Cold River Road",
+        "power": "substation",
+        "ref:vcgi:esiteid": "215420",
+        "source": "esri/Vermont_US_Addresses",
+        "voltage": "46000"
+      },
+      "lat": 43.5890812,
+      "lon": -72.9634545
+    },
+    {
+      "type": "way",
+      "id": 1022149836,
+      "center": {
+        "lat": 44.5991797,
+        "lon": -72.6164416
+      },
+      "tags": {
+        "addr:city": "Hyde Park",
+        "addr:housenumber": "5",
+        "addr:postcode": "05655",
+        "addr:state": "VT",
+        "addr:street": "Battle Row Road",
+        "name": "Hyde Park Substation",
+        "operator": "Hyde Park Village Water & Light",
+        "power": "substation",
+        "ref:vcgi:esiteid": "133178",
+        "source": "esri/Vermont_US_Addresses",
+        "voltage": "34500"
+      },
+      "lat": 44.5991797,
+      "lon": -72.6164416
+    },
+    {
+      "type": "way",
+      "id": 1025924526,
+      "center": {
+        "lat": 44.6371857,
+        "lon": -72.6683441
+      },
+      "tags": {
+        "addr:city": "Johnson",
+        "addr:housenumber": "432",
+        "addr:postcode": "05656",
+        "addr:state": "VT",
+        "addr:street": "Vermont Route 100C",
+        "name": "Johnson Transmission Substation",
+        "operator": "Green Mountain Energy",
+        "power": "substation",
+        "ref:vcgi:esiteid": "138719",
+        "source": "esri/Vermont_US_Addresses",
+        "voltage": "34500"
+      },
+      "lat": 44.6371857,
+      "lon": -72.6683441
+    },
+    {
+      "type": "way",
+      "id": 1027092737,
+      "center": {
+        "lat": 44.7558688,
+        "lon": -73.0298748
+      },
+      "tags": {
+        "addr:city": "Fairfax",
+        "addr:housenumber": "524",
+        "addr:postcode": "05454",
+        "addr:state": "VT",
+        "addr:street": "Carroll Hill Road",
+        "name": "North Fairfax Substation",
+        "operator": "Vermont Electric Cooperative",
+        "power": "substation",
+        "ref:vcgi:esiteid": "102808",
+        "source": "esri/Vermont_US_Addresses",
+        "substation": "yes",
+        "voltage": "34500"
+      },
+      "lat": 44.7558688,
+      "lon": -73.0298748
+    },
+    {
+      "type": "way",
+      "id": 1032706801,
+      "center": {
+        "lat": 44.9050012,
+        "lon": -72.9837224
+      },
+      "tags": {
+        "addr:city": "Sheldon",
+        "addr:housenumber": "2422",
+        "addr:postcode": "05483",
+        "addr:state": "VT",
+        "addr:street": "Vermont Route 105",
+        "name": "Sheldon Substation",
+        "operator": "Green Mountain Energy",
+        "power": "substation",
+        "ref:vcgi:esiteid": "313169",
+        "source": "esri/Vermont_US_Addresses",
+        "voltage": "34500"
+      },
+      "lat": 44.9050012,
+      "lon": -72.9837224
+    },
+    {
+      "type": "way",
+      "id": 1032706825,
+      "center": {
+        "lat": 44.9435102,
+        "lon": -72.7079806
+      },
+      "tags": {
+        "addr:city": "Berkshire",
+        "addr:housenumber": "2194",
+        "addr:postcode": "05450",
+        "addr:state": "VT",
+        "addr:street": "Vermont Route 105 East",
+        "name": "East Berkshire Substation",
+        "operator": "Vermont Electric Cooperative",
+        "power": "substation",
+        "ref:vcgi:esiteid": "757114",
+        "source": "esri/Vermont_US_Addresses",
+        "voltage": "46000"
+      },
+      "lat": 44.9435102,
+      "lon": -72.7079806
+    },
+    {
+      "type": "way",
+      "id": 1032706830,
+      "center": {
+        "lat": 44.9868992,
+        "lon": -72.6679427
+      },
+      "tags": {
+        "addr:city": "Richford",
+        "addr:housenumber": "596",
+        "addr:postcode": "05476",
+        "addr:state": "VT",
+        "addr:street": "Troy Street",
+        "name": "Richford Substation",
+        "operator": "Vermont Electric Cooperative",
+        "power": "substation",
+        "ref:vcgi:esiteid": "200155",
+        "voltage": "46000"
+      },
+      "lat": 44.9868992,
+      "lon": -72.6679427
+    },
+    {
+      "type": "way",
+      "id": 1032974289,
+      "center": {
+        "lat": 44.805064,
+        "lon": -71.8479306
+      },
+      "tags": {
+        "name": "Island Pond Substation",
+        "operator": "Vermont Electric Cooperative",
+        "power": "substation",
+        "substation": "yes",
+        "voltage": "46000"
+      },
+      "lat": 44.805064,
+      "lon": -71.8479306
+    },
+    {
+      "type": "way",
+      "id": 1034046796,
+      "center": {
+        "lat": 44.6437541,
+        "lon": -72.833708
+      },
+      "tags": {
+        "name": "Jeffersonville Substation",
+        "operator": "Green Mountain Energy",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.6437541,
+      "lon": -72.833708
+    },
+    {
+      "type": "way",
+      "id": 1034528067,
+      "center": {
+        "lat": 43.4550828,
+        "lon": -72.5150749
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.4550828,
+      "lon": -72.5150749
+    },
+    {
+      "type": "way",
+      "id": 1034866080,
+      "center": {
+        "lat": 44.5724804,
+        "lon": -72.6026385
+      },
+      "tags": {
+        "addr:city": "Morrisville",
+        "addr:housenumber": "134",
+        "addr:postcode": "05661",
+        "addr:state": "VT",
+        "addr:street": "Gallery Lane",
+        "name": "Pratt and Reid Substation",
+        "operator": "Village of Morrisville Water & Light Department",
+        "power": "substation",
+        "ref:vcgi:esiteid": "758371",
+        "source": "esri/Vermont_US_Addresses",
+        "voltage": "34500"
+      },
+      "lat": 44.5724804,
+      "lon": -72.6026385
+    },
+    {
+      "type": "way",
+      "id": 1038341511,
+      "center": {
+        "lat": 44.4244553,
+        "lon": -73.003844
+      },
+      "tags": {
+        "addr:city": "Richmond",
+        "addr:housenumber": "254",
+        "addr:postcode": "05477",
+        "addr:state": "VT",
+        "addr:street": "Governor Peck Highway",
+        "power": "substation",
+        "ref:vcgi:esiteid": "338811",
+        "source": "esri/Vermont_US_Addresses"
+      },
+      "lat": 44.4244553,
+      "lon": -73.003844
+    },
+    {
+      "type": "way",
+      "id": 1041419953,
+      "center": {
+        "lat": 43.4062987,
+        "lon": -73.2465247
+      },
+      "tags": {
+        "addr:city": "West Pawlet",
+        "addr:housenumber": "56",
+        "addr:postcode": "05775",
+        "addr:state": "VT",
+        "addr:street": "Bull Frog Hollow Road",
+        "location": "outdoor",
+        "power": "substation",
+        "ref:vcgi:esiteid": "185886",
+        "source": "esri/USA_NAD_Addresses"
+      },
+      "lat": 43.4062987,
+      "lon": -73.2465247
+    },
+    {
+      "type": "way",
+      "id": 1043513543,
+      "center": {
+        "lat": 44.2891946,
+        "lon": -72.444156
+      },
+      "tags": {
+        "addr:city": "East Montpelier",
+        "addr:housenumber": "955",
+        "addr:postcode": "05667",
+        "addr:state": "VT",
+        "addr:street": "Vermont Route 214",
+        "barrier": "fence",
+        "name": "Plainfield-48 Substation",
+        "operator": "Green Mountain Power",
+        "operator:short": "GMP",
+        "operator:wikidata": "Q71871622",
+        "power": "substation",
+        "ref:vcgi:esiteid": "316038",
+        "source": "esri/Vermont_US_Addresses",
+        "voltage": "34500"
+      },
+      "lat": 44.2891946,
+      "lon": -72.444156
+    },
+    {
+      "type": "way",
+      "id": 1043553085,
+      "center": {
+        "lat": 44.3601208,
+        "lon": -72.335222
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Marshfield-6 Substation",
+        "operator": "Green Mountain Power",
+        "operator:short": "GMP",
+        "operator:wikidata": "Q71871622",
+        "power": "substation",
+        "substation": "yes",
+        "voltage": "34500",
+        "wikidata": "Q116696616"
+      },
+      "lat": 44.3601208,
+      "lon": -72.335222
+    },
+    {
+      "type": "way",
+      "id": 1046944585,
+      "center": {
+        "lat": 44.6967207,
+        "lon": -73.3509585
+      },
+      "tags": {
+        "addr:city": "Grand Isle",
+        "addr:housenumber": "93",
+        "addr:postcode": "05458",
+        "addr:state": "VT",
+        "addr:street": "West Shore Road",
+        "barrier": "fence",
+        "operator": "Vermont Electric Power Company",
+        "power": "substation",
+        "ref:vcgi:esiteid": "114096",
+        "source": "esri/Vermont_US_Addresses",
+        "substation": "transition",
+        "voltage": "115000"
+      },
+      "lat": 44.6967207,
+      "lon": -73.3509585
+    },
+    {
+      "type": "way",
+      "id": 1049377918,
+      "center": {
+        "lat": 44.9243612,
+        "lon": -73.2753228
+      },
+      "tags": {
+        "addr:city": "Alburgh",
+        "addr:housenumber": "4752",
+        "addr:postcode": "05440",
+        "addr:state": "VT",
+        "addr:street": "U.S. Route 2 South",
+        "name": "South Alburgh Substation",
+        "operator": "Vermont Electric Cooperative",
+        "power": "substation",
+        "ref:vcgi:esiteid": "613294",
+        "source": "esri/Vermont_US_Addresses",
+        "substation": "yes",
+        "voltage": "46000"
+      },
+      "lat": 44.9243612,
+      "lon": -73.2753228
+    },
+    {
+      "type": "way",
+      "id": 1049377932,
+      "center": {
+        "lat": 44.6372439,
+        "lon": -73.2736477
+      },
+      "tags": {
+        "addr:city": "South Hero",
+        "addr:housenumber": "117",
+        "addr:postcode": "05486",
+        "addr:state": "VT",
+        "addr:street": "U.S. Route 2",
+        "operator": "Vermont Electric Power Company",
+        "power": "substation",
+        "ref:vcgi:esiteid": "233889",
+        "source": "esri/Vermont_US_Addresses",
+        "substation": "transition",
+        "voltage": "115000"
+      },
+      "lat": 44.6372439,
+      "lon": -73.2736477
+    },
+    {
+      "type": "way",
+      "id": 1049971499,
+      "center": {
+        "lat": 44.3725147,
+        "lon": -72.8689921
+      },
+      "tags": {
+        "addr:city": "Bolton",
+        "addr:housenumber": "150",
+        "addr:postcode": "05676",
+        "addr:state": "VT",
+        "addr:street": "Green Mountain Road",
+        "name": "Bolton-41",
+        "operator": "Green Mountain Power",
+        "operator:short": "GMP",
+        "operator:wikidata": "Q71871622",
+        "power": "substation",
+        "ref:vcgi:esiteid": "305478",
+        "source": "esri/Vermont_US_Addresses",
+        "substation": "yes",
+        "voltage": "34500"
+      },
+      "lat": 44.3725147,
+      "lon": -72.8689921
+    },
+    {
+      "type": "way",
+      "id": 1052054054,
+      "center": {
+        "lat": 44.7020821,
+        "lon": -73.384786
+      },
+      "tags": {
+        "operator": "New York Power Authority",
+        "power": "substation",
+        "substation": "transition",
+        "voltage": "115000"
+      },
+      "lat": 44.7020821,
+      "lon": -73.384786
+    },
+    {
+      "type": "way",
+      "id": 1052704237,
+      "center": {
+        "lat": 44.2084102,
+        "lon": -72.060377
+      },
+      "tags": {
+        "addr:city": "Ryegate",
+        "addr:housenumber": "303",
+        "addr:postcode": "05042",
+        "addr:state": "VT",
+        "addr:street": "Papermill Road",
+        "name": "East Ryegate-85 Substation",
+        "operator": "Green Mountain Power",
+        "operator:short": "GMP",
+        "operator:wikidata": "Q71871622",
+        "power": "substation",
+        "ref:vcgi:esiteid": "336655",
+        "source": "esri/USA_NAD_Addresses",
+        "substation": "yes",
+        "voltage": "46000;34500"
+      },
+      "lat": 44.2084102,
+      "lon": -72.060377
+    },
+    {
+      "type": "way",
+      "id": 1052704241,
+      "center": {
+        "lat": 44.5003939,
+        "lon": -71.9996529
+      },
+      "tags": {
+        "addr:city": "Lyndon",
+        "addr:housenumber": "78",
+        "addr:postcode": "05851",
+        "addr:state": "VT",
+        "addr:street": "Great Falls Drive",
+        "name": "Great Falls Substation",
+        "operator": "Lyndonville Electric Department",
+        "power": "substation",
+        "ref:vcgi:esiteid": "759569",
+        "source": "esri/Vermont_US_Addresses",
+        "voltage": "12470"
+      },
+      "lat": 44.5003939,
+      "lon": -71.9996529
+    },
+    {
+      "type": "way",
+      "id": 1053797167,
+      "center": {
+        "lat": 44.9124681,
+        "lon": -72.8140316
+      },
+      "tags": {
+        "addr:city": "Enosburgh",
+        "addr:housenumber": "226",
+        "addr:postcode": "05450",
+        "addr:state": "VT",
+        "addr:street": "Birch Lane",
+        "name": "Enosburg Switch Substation",
+        "operator": "Vermont Electric Cooperative",
+        "power": "substation",
+        "ref:vcgi:esiteid": "343950",
+        "source": "esri/Vermont_US_Addresses",
+        "substation": "yes",
+        "voltage": "46000"
+      },
+      "lat": 44.9124681,
+      "lon": -72.8140316
+    },
+    {
+      "type": "way",
+      "id": 1056627856,
+      "center": {
+        "lat": 43.6310706,
+        "lon": -72.4688871
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "46000"
+      },
+      "lat": 43.6310706,
+      "lon": -72.4688871
+    },
+    {
+      "type": "way",
+      "id": 1056627857,
+      "center": {
+        "lat": 43.6308528,
+        "lon": -72.4686792
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "46000"
+      },
+      "lat": 43.6308528,
+      "lon": -72.4686792
+    },
+    {
+      "type": "way",
+      "id": 1056627858,
+      "center": {
+        "lat": 43.6304987,
+        "lon": -72.4681795
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "46000"
+      },
+      "lat": 43.6304987,
+      "lon": -72.4681795
+    },
+    {
+      "type": "way",
+      "id": 1056627862,
+      "center": {
+        "lat": 43.6317029,
+        "lon": -72.5058238
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "46000"
+      },
+      "lat": 43.6317029,
+      "lon": -72.5058238
+    },
+    {
+      "type": "way",
+      "id": 1068552105,
+      "center": {
+        "lat": 44.9969179,
+        "lon": -71.5337956
+      },
+      "tags": {
+        "addr:city": "Canaan",
+        "addr:housenumber": "108",
+        "addr:postcode": "05903",
+        "addr:state": "VT",
+        "addr:street": "Power House Road",
+        "power": "substation",
+        "ref:vcgi:esiteid": "344840",
+        "source": "esri/Vermont_US_Addresses"
+      },
+      "lat": 44.9969179,
+      "lon": -71.5337956
+    },
+    {
+      "type": "way",
+      "id": 1072387071,
+      "center": {
+        "lat": 43.9315608,
+        "lon": -72.4372133
+      },
+      "tags": {
+        "addr:city": "Tunbridge",
+        "addr:housenumber": "231",
+        "addr:postcode": "05077",
+        "addr:state": "VT",
+        "addr:street": "Bicknell Hill Road",
+        "barrier": "fence",
+        "power": "substation",
+        "ref:vcgi:esiteid": "900501",
+        "source": "esri/Vermont_US_Addresses",
+        "voltage": "46000"
+      },
+      "lat": 43.9315608,
+      "lon": -72.4372133
+    },
+    {
+      "type": "way",
+      "id": 1074286774,
+      "center": {
+        "lat": 43.59968,
+        "lon": -73.0521715
+      },
+      "tags": {
+        "addr:city": "West Rutland",
+        "addr:housenumber": "175",
+        "addr:postcode": "05777",
+        "addr:state": "VT",
+        "addr:street": "Barnes Street",
+        "power": "substation",
+        "ref:vcgi:esiteid": "311805",
+        "source": "esri/Vermont_US_Addresses"
+      },
+      "lat": 43.59968,
+      "lon": -73.0521715
+    },
+    {
+      "type": "way",
+      "id": 1075554959,
+      "center": {
+        "lat": 44.4169362,
+        "lon": -72.0139576
+      },
+      "tags": {
+        "addr:housenumber": "311",
+        "addr:state": "VT",
+        "addr:street": "Bay Street",
+        "name": "Bay Street Substation",
+        "operator": "Green Mountain Power",
+        "operator:short": "GMP",
+        "operator:wikidata": "Q71871622",
+        "power": "substation",
+        "ref:vcgi:esiteid": "246645",
+        "voltage": "34500"
+      },
+      "lat": 44.4169362,
+      "lon": -72.0139576
+    },
+    {
+      "type": "way",
+      "id": 1088818898,
+      "center": {
+        "lat": 42.8559216,
+        "lon": -73.202248
+      },
+      "tags": {
+        "addr:city": "Bennington",
+        "addr:housenumber": "824",
+        "addr:postcode": "05201",
+        "addr:state": "VT",
+        "addr:street": "U.S. Route 7 South",
+        "power": "substation",
+        "ref:vcgi:esiteid": "342667",
+        "source": "esri/USA_NAD_Addresses"
+      },
+      "lat": 42.8559216,
+      "lon": -73.202248
+    },
+    {
+      "type": "way",
+      "id": 1100695762,
+      "center": {
+        "lat": 44.4934017,
+        "lon": -72.3728091
+      },
+      "tags": {
+        "addr:city": "Hardwick",
+        "addr:housenumber": "227",
+        "addr:postcode": "05843",
+        "addr:state": "VT",
+        "addr:street": "Vermont Route 14 South",
+        "name": "Hardwick Substation",
+        "operator": "Hardwick Electric Department",
+        "power": "substation",
+        "ref:vcgi:esiteid": "758239",
+        "source": "esri/Vermont_US_Addresses",
+        "voltage": "34500"
+      },
+      "lat": 44.4934017,
+      "lon": -72.3728091
+    },
+    {
+      "type": "way",
+      "id": 1102369509,
+      "center": {
+        "lat": 44.9467401,
+        "lon": -72.4374967
+      },
+      "tags": {
+        "name": "Jay Substation",
+        "operator": "Vermont Electric Cooperative",
+        "power": "substation",
+        "substation": "minor_distribution",
+        "voltage": "46000"
+      },
+      "lat": 44.9467401,
+      "lon": -72.4374967
+    },
+    {
+      "type": "way",
+      "id": 1107795418,
+      "center": {
+        "lat": 44.3432544,
+        "lon": -71.9311288
+      },
+      "tags": {
+        "addr:city": "Waterford",
+        "addr:housenumber": "1511",
+        "addr:postcode": "05819",
+        "addr:state": "VT",
+        "addr:street": "Lower Waterford Road",
+        "building": "commercial",
+        "power": "substation",
+        "ref:vcgi:esiteid": "275930",
+        "source": "esri/USA_NAD_Addresses"
+      },
+      "lat": 44.3432544,
+      "lon": -71.9311288
+    },
+    {
+      "type": "way",
+      "id": 1108589710,
+      "center": {
+        "lat": 43.6039138,
+        "lon": -72.358273
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.6039138,
+      "lon": -72.358273
+    },
+    {
+      "type": "way",
+      "id": 1109056811,
+      "center": {
+        "lat": 43.5933011,
+        "lon": -72.350846
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.5933011,
+      "lon": -72.350846
+    },
+    {
+      "type": "way",
+      "id": 1122539650,
+      "center": {
+        "lat": 44.1944133,
+        "lon": -72.5225305
+      },
+      "tags": {
+        "addr:city": "Barre Town",
+        "addr:housenumber": "411",
+        "addr:postcode": "05641",
+        "addr:state": "VT",
+        "addr:street": "Upper Prospect Street",
+        "name": "Barre VT Substation",
+        "operator": "Vermont Electric Power Company",
+        "power": "substation",
+        "ref:vcgi:esiteid": "317881",
+        "source": "esri/Vermont_US_Addresses",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.1944133,
+      "lon": -72.5225305
+    },
+    {
+      "type": "way",
+      "id": 1123469025,
+      "center": {
+        "lat": 44.6366235,
+        "lon": -72.9312254
+      },
+      "tags": {
+        "name": "East Fairfax Substation",
+        "operator": "Vermont Electric Power Company",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.6366235,
+      "lon": -72.9312254
+    },
+    {
+      "type": "way",
+      "id": 1123480239,
+      "center": {
+        "lat": 44.699527,
+        "lon": -73.1220479
+      },
+      "tags": {
+        "name": "Ballard Road Substation",
+        "operator": "Green Mountain Energy",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.699527,
+      "lon": -73.1220479
+    },
+    {
+      "type": "way",
+      "id": 1123765130,
+      "center": {
+        "lat": 44.9617669,
+        "lon": -72.4037587
+      },
+      "tags": {
+        "name": "North Troy Substation",
+        "operator": "Vermont Electric Cooperative",
+        "power": "substation",
+        "substation": "yes",
+        "voltage": "46000"
+      },
+      "lat": 44.9617669,
+      "lon": -72.4037587
+    },
+    {
+      "type": "way",
+      "id": 1123768937,
+      "center": {
+        "lat": 44.8515997,
+        "lon": -72.2784803
+      },
+      "tags": {
+        "name": "Irasburg CZN Substation",
+        "operator": "Vermont Electric Cooperative",
+        "power": "substation",
+        "voltage": "46000"
+      },
+      "lat": 44.8515997,
+      "lon": -72.2784803
+    },
+    {
+      "type": "way",
+      "id": 1133518330,
+      "center": {
+        "lat": 44.4145721,
+        "lon": -72.0237302
+      },
+      "tags": {
+        "name": "Barker Avenue",
+        "operator": "Green Mountain Power",
+        "operator:short": "GMP",
+        "operator:wikidata": "Q71871622",
+        "power": "substation",
+        "substation": "yes",
+        "voltage": "34500"
+      },
+      "lat": 44.4145721,
+      "lon": -72.0237302
+    },
+    {
+      "type": "way",
+      "id": 1157794040,
+      "center": {
+        "lat": 43.6684012,
+        "lon": -72.3037783
+      },
+      "tags": {
+        "name": "Wilder Hydro Substation",
+        "operator": "Great River Hydro",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 43.6684012,
+      "lon": -72.3037783
+    },
+    {
+      "type": "way",
+      "id": 1158491859,
+      "center": {
+        "lat": 42.8739544,
+        "lon": -72.8952653
+      },
+      "tags": {
+        "addr:city": "Wilmington",
+        "addr:housenumber": "281",
+        "addr:postcode": "05363",
+        "addr:state": "VT",
+        "addr:street": "Vermont Route 9 West",
+        "name": "Wilmington Substation",
+        "operator": "Green Mountain Power",
+        "power": "substation",
+        "ref:vcgi:esiteid": "454187",
+        "source": "esri/Vermont_US_Addresses",
+        "substation": "distribution",
+        "voltage": "69000"
+      },
+      "lat": 42.8739544,
+      "lon": -72.8952653
+    },
+    {
+      "type": "way",
+      "id": 1168160263,
+      "center": {
+        "lat": 42.8881042,
+        "lon": -72.5462759
+      },
+      "tags": {
+        "name": "Fibermark Substation",
+        "operator": "Green Mountain Power",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "69000"
+      },
+      "lat": 42.8881042,
+      "lon": -72.5462759
+    },
+    {
+      "type": "way",
+      "id": 1168362805,
+      "center": {
+        "lat": 43.1010262,
+        "lon": -72.4554945
+      },
+      "tags": {
+        "addr:city": "Westminster",
+        "addr:housenumber": "877",
+        "addr:postcode": "05158",
+        "addr:state": "VT",
+        "addr:street": "Back Westminster Road",
+        "name": "Westminister Substation",
+        "operator": "Green Mountain Power",
+        "power": "substation",
+        "ref:vcgi:esiteid": "282854",
+        "substation": "distribution",
+        "voltage": "69000"
+      },
+      "lat": 43.1010262,
+      "lon": -72.4554945
+    },
+    {
+      "type": "way",
+      "id": 1173549787,
+      "center": {
+        "lat": 44.8981539,
+        "lon": -72.0569702
+      },
+      "tags": {
+        "name": "West Charleston Substation",
+        "operator": "Vermont Electric Cooperative",
+        "power": "substation",
+        "substation": "yes",
+        "voltage": "46000"
+      },
+      "lat": 44.8981539,
+      "lon": -72.0569702
+    },
+    {
+      "type": "way",
+      "id": 1175212652,
+      "center": {
+        "lat": 42.8859885,
+        "lon": -72.5524957
+      },
+      "tags": {
+        "addr:city": "Brattleboro",
+        "addr:housenumber": "36",
+        "addr:state": "VT",
+        "addr:street": "Justin Holden Drive",
+        "name": "FulFlex Substation",
+        "operator": "Green Mountain Power",
+        "power": "substation",
+        "ref:vcgi:esiteid": "758223",
+        "substation": "distribution",
+        "voltage": "69000"
+      },
+      "lat": 42.8859885,
+      "lon": -72.5524957
+    },
+    {
+      "type": "way",
+      "id": 1175212653,
+      "center": {
+        "lat": 42.8375078,
+        "lon": -72.5548411
+      },
+      "tags": {
+        "addr:city": "Brattleboro",
+        "addr:housenumber": "31",
+        "addr:state": "VT",
+        "addr:street": "Cotton Mill Hill",
+        "name": "South Brattleboro Tap",
+        "operator": "Green Mountain Power",
+        "power": "substation",
+        "ref:vcgi:esiteid": "36437",
+        "substation": "distribution",
+        "voltage": "69000"
+      },
+      "lat": 42.8375078,
+      "lon": -72.5548411
+    },
+    {
+      "type": "way",
+      "id": 1187788591,
+      "center": {
+        "lat": 43.1274206,
+        "lon": -72.9132542
+      },
+      "tags": {
+        "addr:city": "Winhall",
+        "addr:housenumber": "18",
+        "addr:state": "VT",
+        "addr:street": "Mountain View Road Extension",
+        "barrier": "fence",
+        "power": "substation",
+        "ref:vcgi:esiteid": "298569",
+        "voltage": "46000"
+      },
+      "lat": 43.1274206,
+      "lon": -72.9132542
+    },
+    {
+      "type": "way",
+      "id": 1198393968,
+      "center": {
+        "lat": 44.0903285,
+        "lon": -72.5124596
+      },
+      "tags": {
+        "addr:city": "Williamstown",
+        "addr:housenumber": "3047",
+        "addr:postcode": "05679",
+        "addr:state": "VT",
+        "addr:street": "Baptist Street",
+        "name": "Jackson Corners Substation",
+        "operator": "Washington Electric Coop",
+        "power": "substation",
+        "ref:vcgi:esiteid": "288437",
+        "source": "esri/Vermont_US_Addresses",
+        "voltage": "34500"
+      },
+      "lat": 44.0903285,
+      "lon": -72.5124596
+    },
+    {
+      "type": "way",
+      "id": 1206754610,
+      "center": {
+        "lat": 44.2056391,
+        "lon": -72.518356
+      },
+      "tags": {
+        "addr:city": "Barre",
+        "addr:housenumber": "128",
+        "addr:postcode": "05641",
+        "addr:state": "VT",
+        "addr:street": "Railroad Street",
+        "name": "North End-63 Substation",
+        "operator": "Green Mountain Power",
+        "operator:short": "GMP",
+        "operator:wikidata": "Q71871622",
+        "power": "substation",
+        "ref:vcgi:esiteid": "8152",
+        "source": "esri/Vermont_US_Addresses",
+        "substation": "yes",
+        "voltage": "34500"
+      },
+      "lat": 44.2056391,
+      "lon": -72.518356
+    },
+    {
+      "type": "way",
+      "id": 1218810811,
+      "center": {
+        "lat": 44.1484416,
+        "lon": -72.4831968
+      },
+      "tags": {
+        "addr:city": "Barre Town",
+        "addr:housenumber": "719",
+        "addr:postcode": "05654",
+        "addr:state": "VT",
+        "addr:street": "Graniteville Road",
+        "barrier": "fence",
+        "ele": "409",
+        "gnis:feature_id": "2059457",
+        "name": "Graniteville-35 Substation",
+        "operator": "Green Mountain Power",
+        "operator:short": "GMP",
+        "operator:wikidata": "Q71871622",
+        "power": "substation",
+        "ref:vcgi:esiteid": "13699",
+        "source": "USGS Geonames;esri/Vermont_US_Addresses",
+        "substation": "yes",
+        "voltage": "34500"
+      },
+      "lat": 44.1484416,
+      "lon": -72.4831968
+    },
+    {
+      "type": "way",
+      "id": 1219115801,
+      "center": {
+        "lat": 44.150532,
+        "lon": -72.6528497
+      },
+      "tags": {
+        "addr:city": "Northfield",
+        "addr:housenumber": "158",
+        "addr:postcode": "05663",
+        "addr:state": "VT",
+        "addr:street": "King Street",
+        "barrier": "fence",
+        "name": "King Street Substation",
+        "operator": "Town of Northfield Electric Department",
+        "power": "substation",
+        "ref:vcgi:esiteid": "181751",
+        "source": "esri/USA_NAD_Addresses",
+        "voltage": "34500"
+      },
+      "lat": 44.150532,
+      "lon": -72.6528497
+    },
+    {
+      "type": "way",
+      "id": 1225580245,
+      "center": {
+        "lat": 42.9043869,
+        "lon": -73.2248341
+      },
+      "tags": {
+        "addr:housenumber": "834",
+        "addr:state": "VT",
+        "addr:street": "Silk Road",
+        "power": "substation",
+        "ref:vcgi:esiteid": "16665"
+      },
+      "lat": 42.9043869,
+      "lon": -73.2248341
+    },
+    {
+      "type": "way",
+      "id": 1249159949,
+      "center": {
+        "lat": 44.3751467,
+        "lon": -72.0264233
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.3751467,
+      "lon": -72.0264233
+    },
+    {
+      "type": "way",
+      "id": 1253367743,
+      "center": {
+        "lat": 44.2616955,
+        "lon": -72.0565865
+      },
+      "tags": {
+        "name": "Monroe Substation",
+        "operator": "Liberty Utilities",
+        "power": "substation",
+        "substation": "minor_distribution",
+        "voltage": "34500"
+      },
+      "lat": 44.2616955,
+      "lon": -72.0565865
+    },
+    {
+      "type": "way",
+      "id": 1277710044,
+      "center": {
+        "lat": 44.1226781,
+        "lon": -73.0902488
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "46000"
+      },
+      "lat": 44.1226781,
+      "lon": -73.0902488
+    },
+    {
+      "type": "way",
+      "id": 1280225985,
+      "center": {
+        "lat": 44.3616187,
+        "lon": -73.0743241
+      },
+      "tags": {
+        "addr:city": "Hinesburg",
+        "addr:housenumber": "1121",
+        "addr:postcode": "05461",
+        "addr:state": "VT",
+        "addr:street": "Pond Brook Road",
+        "power": "substation",
+        "ref:vcgi:esiteid": "317581",
+        "source": "esri/Vermont_US_Addresses"
+      },
+      "lat": 44.3616187,
+      "lon": -73.0743241
+    },
+    {
+      "type": "way",
+      "id": 1299156073,
+      "center": {
+        "lat": 44.1903552,
+        "lon": -72.4996451
+      },
+      "tags": {
+        "addr:city": "Barre",
+        "addr:housenumber": "121",
+        "addr:postcode": "05641",
+        "addr:state": "VT",
+        "addr:street": "South Main Street",
+        "name": "South End-37 Substation",
+        "operator": "Green Mountain Power",
+        "operator:short": "GMP",
+        "operator:wikidata": "Q71871622",
+        "power": "substation",
+        "ref:vcgi:esiteid": "10774",
+        "source": "esri/Vermont_US_Addresses",
+        "substation": "yes",
+        "voltage": "34500"
+      },
+      "lat": 44.1903552,
+      "lon": -72.4996451
+    },
+    {
+      "type": "way",
+      "id": 1312694967,
+      "center": {
+        "lat": 44.7559897,
+        "lon": -72.2144713
+      },
+      "tags": {
+        "name": "Burton Hill Substation",
+        "operator": "Vermont Electric Cooperative",
+        "power": "substation",
+        "substation": "yes",
+        "voltage": "46000"
+      },
+      "lat": 44.7559897,
+      "lon": -72.2144713
+    },
+    {
+      "type": "way",
+      "id": 1312694969,
+      "center": {
+        "lat": 44.796138,
+        "lon": -72.1628744
+      },
+      "tags": {
+        "operator": "Barton Electric Department;Orleans Electric Department",
+        "power": "substation",
+        "voltage": "46000"
+      },
+      "lat": 44.796138,
+      "lon": -72.1628744
+    },
+    {
+      "type": "way",
+      "id": 1312705103,
+      "center": {
+        "lat": 44.8120181,
+        "lon": -72.2007195
+      },
+      "tags": {
+        "name": "Rainbow Substation",
+        "operator": "Orleans Electric Department",
+        "power": "substation",
+        "substation": "minor_distribution",
+        "voltage": "13200"
+      },
+      "lat": 44.8120181,
+      "lon": -72.2007195
+    },
+    {
+      "type": "way",
+      "id": 1312705126,
+      "center": {
+        "lat": 44.8085074,
+        "lon": -72.2025966
+      },
+      "tags": {
+        "name": "Ethan Allen Manufacturing Substation",
+        "operator": "Orleans Electric Department",
+        "power": "substation",
+        "substation": "industrial",
+        "voltage": "13200"
+      },
+      "lat": 44.8085074,
+      "lon": -72.2025966
+    },
+    {
+      "type": "way",
+      "id": 1312705127,
+      "center": {
+        "lat": 44.8067853,
+        "lon": -72.2041503
+      },
+      "tags": {
+        "name": "Ethan Allen Manufacturing Substation",
+        "operator": "Orleans Electric Department",
+        "power": "substation",
+        "substation": "industrial",
+        "voltage": "13200"
+      },
+      "lat": 44.8067853,
+      "lon": -72.2041503
+    },
+    {
+      "type": "way",
+      "id": 1312705128,
+      "center": {
+        "lat": 44.8054178,
+        "lon": -72.2032511
+      },
+      "tags": {
+        "name": "Ethan Allen Manufacturing Substation",
+        "operator": "Orleans Electric Department",
+        "power": "substation",
+        "substation": "industrial",
+        "voltage": "13200"
+      },
+      "lat": 44.8054178,
+      "lon": -72.2032511
+    },
+    {
+      "type": "way",
+      "id": 1312925847,
+      "center": {
+        "lat": 44.8871562,
+        "lon": -72.0553777
+      },
+      "tags": {
+        "addr:housenumber": "255",
+        "addr:state": "VT",
+        "addr:street": "Great Falls Road",
+        "operator": "Barton Electric Department",
+        "power": "substation",
+        "ref:vcgi:esiteid": "758226",
+        "substation": "yes"
+      },
+      "lat": 44.8871562,
+      "lon": -72.0553777
+    },
+    {
+      "type": "way",
+      "id": 1312925848,
+      "center": {
+        "lat": 44.9109256,
+        "lon": -72.2232016
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.9109256,
+      "lon": -72.2232016
+    },
+    {
+      "type": "way",
+      "id": 1312925851,
+      "center": {
+        "lat": 44.6858291,
+        "lon": -72.0397016
+      },
+      "tags": {
+        "name": "Portland Pipe Substation",
+        "operator": "Vermont Electric Cooperative",
+        "power": "substation",
+        "voltage": "46000"
+      },
+      "lat": 44.6858291,
+      "lon": -72.0397016
+    },
+    {
+      "type": "way",
+      "id": 1312943058,
+      "center": {
+        "lat": 44.9020961,
+        "lon": -72.8088037
+      },
+      "tags": {
+        "name": "Enosburg Substation",
+        "operator": "Enosburg Falls Electric Light Department",
+        "power": "substation",
+        "voltage": "46000"
+      },
+      "lat": 44.9020961,
+      "lon": -72.8088037
+    },
+    {
+      "type": "way",
+      "id": 1313117717,
+      "center": {
+        "lat": 44.9295344,
+        "lon": -73.1317042
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.9295344,
+      "lon": -73.1317042
+    },
+    {
+      "type": "way",
+      "id": 1313117719,
+      "center": {
+        "lat": 44.9196702,
+        "lon": -73.112526
+      },
+      "tags": {
+        "name": "Swanton Substation",
+        "operator": "Swanton Village Electric Department",
+        "power": "substation",
+        "substation": "yes",
+        "voltage": "46000"
+      },
+      "lat": 44.9196702,
+      "lon": -73.112526
+    },
+    {
+      "type": "way",
+      "id": 1313119205,
+      "center": {
+        "lat": 44.9089572,
+        "lon": -72.9773424
+      },
+      "tags": {
+        "name": "Rock Tenn Substation",
+        "operator": "Vermont Electric Cooperative",
+        "power": "substation",
+        "voltage": "46000"
+      },
+      "lat": 44.9089572,
+      "lon": -72.9773424
+    },
+    {
+      "type": "way",
+      "id": 1313119206,
+      "center": {
+        "lat": 44.9099858,
+        "lon": -72.9817778
+      },
+      "tags": {
+        "name": "Sheldon Springs Substation",
+        "operator": "Vermont Electric Cooperative",
+        "power": "substation",
+        "voltage": "46000"
+      },
+      "lat": 44.9099858,
+      "lon": -72.9817778
+    },
+    {
+      "type": "way",
+      "id": 1313119208,
+      "center": {
+        "lat": 44.9102161,
+        "lon": -72.9768192
+      },
+      "tags": {
+        "name": "Rock Tenn Substation",
+        "operator": "Vermont Electric Cooperative",
+        "operator:wikidata": "Q7921713",
+        "power": "substation",
+        "substation": "yes",
+        "voltage": "46000"
+      },
+      "lat": 44.9102161,
+      "lon": -72.9768192
+    },
+    {
+      "type": "way",
+      "id": 1313125214,
+      "center": {
+        "lat": 44.7695511,
+        "lon": -72.6232777
+      },
+      "tags": {
+        "name": "Belvidere Substation",
+        "operator": "Vermont Electric Cooperative",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.7695511,
+      "lon": -72.6232777
+    },
+    {
+      "type": "way",
+      "id": 1313126178,
+      "center": {
+        "lat": 44.8659358,
+        "lon": -72.6099294
+      },
+      "tags": {
+        "name": "Montgomery Substation",
+        "operator": "Vermont Electric Cooperative",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.8659358,
+      "lon": -72.6099294
+    },
+    {
+      "type": "way",
+      "id": 1313129065,
+      "center": {
+        "lat": 44.6777188,
+        "lon": -72.6075844
+      },
+      "tags": {
+        "name": "North Hyde Park Substation",
+        "operator": "Green Mountain Energy",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.6777188,
+      "lon": -72.6075844
+    },
+    {
+      "type": "way",
+      "id": 1313129067,
+      "center": {
+        "lat": 44.6394976,
+        "lon": -72.6702206
+      },
+      "tags": {
+        "name": "Johnson Back-up Substation",
+        "operator": "Johnson Water & Light Department",
+        "power": "substation",
+        "substation": "yes",
+        "voltage": "34500"
+      },
+      "lat": 44.6394976,
+      "lon": -72.6702206
+    },
+    {
+      "type": "way",
+      "id": 1313129068,
+      "center": {
+        "lat": 44.6229909,
+        "lon": -72.6974394
+      },
+      "tags": {
+        "name": "Johnson Substation",
+        "operator": "Vermont Electric Cooperative",
+        "power": "substation",
+        "substation": "yes",
+        "voltage": "34500"
+      },
+      "lat": 44.6229909,
+      "lon": -72.6974394
+    },
+    {
+      "type": "way",
+      "id": 1313196929,
+      "center": {
+        "lat": 44.640806,
+        "lon": -72.8128709
+      },
+      "tags": {
+        "name": "Cambridge Substation",
+        "operator": "Vermont Electric Cooperative",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.640806,
+      "lon": -72.8128709
+    },
+    {
+      "type": "way",
+      "id": 1313196930,
+      "center": {
+        "lat": 44.5854709,
+        "lon": -72.7890964
+      },
+      "tags": {
+        "name": "Madonna Substation",
+        "operator": "Vermont Electric Cooperative",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.5854709,
+      "lon": -72.7890964
+    },
+    {
+      "type": "way",
+      "id": 1313204865,
+      "center": {
+        "lat": 44.5957523,
+        "lon": -72.8668502
+      },
+      "tags": {
+        "name": "Pleasant Valley Substation",
+        "operator": "Vermont Electric Cooperative",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.5957523,
+      "lon": -72.8668502
+    },
+    {
+      "type": "way",
+      "id": 1313206318,
+      "center": {
+        "lat": 44.6517609,
+        "lon": -72.9805896
+      },
+      "tags": {
+        "name": "Fairfax 12 Substation",
+        "operator": "Vermont Electric Cooperative",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.6517609,
+      "lon": -72.9805896
+    },
+    {
+      "type": "way",
+      "id": 1313206320,
+      "center": {
+        "lat": 44.6514609,
+        "lon": -72.9910602
+      },
+      "tags": {
+        "name": "Fairfax Station Substation",
+        "operator": "Green Mountain Energy",
+        "power": "substation",
+        "substation": "yes",
+        "voltage": "34500"
+      },
+      "lat": 44.6514609,
+      "lon": -72.9910602
+    },
+    {
+      "type": "way",
+      "id": 1313352646,
+      "center": {
+        "lat": 44.7966241,
+        "lon": -73.1002196
+      },
+      "tags": {
+        "name": "Ben and Jerrys Substation",
+        "operator": "Green Mountain Energy",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.7966241,
+      "lon": -73.1002196
+    },
+    {
+      "type": "way",
+      "id": 1313352648,
+      "center": {
+        "lat": 44.8201175,
+        "lon": -73.0888311
+      },
+      "tags": {
+        "name": "North Elm Street Substation",
+        "operator": "Green Mountain Energy",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.8201175,
+      "lon": -73.0888311
+    },
+    {
+      "type": "way",
+      "id": 1313352650,
+      "center": {
+        "lat": 44.8263007,
+        "lon": -73.0644922
+      },
+      "tags": {
+        "name": "North St. Albans Substation",
+        "operator": "Green Mountain Energy",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.8263007,
+      "lon": -73.0644922
+    },
+    {
+      "type": "way",
+      "id": 1313352652,
+      "center": {
+        "lat": 44.8040705,
+        "lon": -73.0676246
+      },
+      "tags": {
+        "name": "East St. Albans Substation",
+        "operator": "Green Mountain Energy",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.8040705,
+      "lon": -73.0676246
+    },
+    {
+      "type": "way",
+      "id": 1313456932,
+      "center": {
+        "lat": 44.7122572,
+        "lon": -73.120731
+      },
+      "tags": {
+        "name": "Georgia Substation",
+        "operator": "Green Mountain Energy",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.7122572,
+      "lon": -73.120731
+    },
+    {
+      "type": "way",
+      "id": 1313456935,
+      "center": {
+        "lat": 44.6936956,
+        "lon": -73.0944645
+      },
+      "tags": {
+        "name": "Wyeth Substation",
+        "operator": "Green Mountain Energy",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.6936956,
+      "lon": -73.0944645
+    },
+    {
+      "type": "way",
+      "id": 1313456936,
+      "center": {
+        "lat": 44.6404141,
+        "lon": -73.1150769
+      },
+      "tags": {
+        "name": "Clark Falls Substation",
+        "operator": "Green Mountain Energy",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.6404141,
+      "lon": -73.1150769
+    },
+    {
+      "type": "way",
+      "id": 1313456941,
+      "center": {
+        "lat": 44.6373541,
+        "lon": -73.1628862
+      },
+      "tags": {
+        "name": "West Milton Substation",
+        "operator": "Green Mountain Energy",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.6373541,
+      "lon": -73.1628862
+    },
+    {
+      "type": "way",
+      "id": 1313456943,
+      "center": {
+        "lat": 44.6381584,
+        "lon": -73.1625323
+      },
+      "tags": {
+        "name": "Peterson Substation",
+        "operator": "Green Mountain Energy",
+        "power": "substation",
+        "substation": "yes",
+        "voltage": "34500"
+      },
+      "lat": 44.6381584,
+      "lon": -73.1625323
+    },
+    {
+      "type": "way",
+      "id": 1313592474,
+      "center": {
+        "lat": 44.6337982,
+        "lon": -73.0316722
+      },
+      "tags": {
+        "name": "Westford Substation",
+        "operator": "Vermont Electric Cooperative",
+        "power": "substation",
+        "substation": "yes",
+        "voltage": "34500"
+      },
+      "lat": 44.6337982,
+      "lon": -73.0316722
+    },
+    {
+      "type": "way",
+      "id": 1313596628,
+      "center": {
+        "lat": 44.5771702,
+        "lon": -72.6118515
+      },
+      "tags": {
+        "name": "Substation 1",
+        "operator": "Village of Morrisville Water & Light Department",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.5771702,
+      "lon": -72.6118515
+    },
+    {
+      "type": "way",
+      "id": 1313596632,
+      "center": {
+        "lat": 44.5772498,
+        "lon": -72.5862824
+      },
+      "tags": {
+        "name": "Substation 5",
+        "operator": "Village of Morrisville Water & Light Department",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.5772498,
+      "lon": -72.5862824
+    },
+    {
+      "type": "way",
+      "id": 1313596635,
+      "center": {
+        "lat": 44.5674542,
+        "lon": -72.5602918
+      },
+      "tags": {
+        "name": "Substation 6",
+        "operator": "Village of Morrisville Water & Light Department",
+        "power": "substation"
+      },
+      "lat": 44.5674542,
+      "lon": -72.5602918
+    },
+    {
+      "type": "way",
+      "id": 1313596636,
+      "center": {
+        "lat": 44.6246127,
+        "lon": -72.530298
+      },
+      "tags": {
+        "addr:city": "Hyde Park",
+        "addr:housenumber": "1650",
+        "addr:postcode": "05655",
+        "addr:state": "VT",
+        "addr:street": "Green River Dam Road",
+        "name": "Substation 7",
+        "operator": "Village of Morrisville Water & Light Department",
+        "power": "substation",
+        "ref:vcgi:esiteid": "620590",
+        "source": "esri/Vermont_US_Addresses",
+        "voltage": "34500"
+      },
+      "lat": 44.6246127,
+      "lon": -72.530298
+    },
+    {
+      "type": "way",
+      "id": 1317494194,
+      "center": {
+        "lat": 44.5551792,
+        "lon": -72.6163629
+      },
+      "tags": {
+        "name": "Substation 3",
+        "operator": "Village of Morrisville Water & Light Department",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.5551792,
+      "lon": -72.6163629
+    },
+    {
+      "type": "way",
+      "id": 1317494196,
+      "center": {
+        "lat": 44.5618027,
+        "lon": -72.6029761
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.5618027,
+      "lon": -72.6029761
+    },
+    {
+      "type": "way",
+      "id": 1317494201,
+      "center": {
+        "lat": 44.4916513,
+        "lon": -72.7423141
+      },
+      "tags": {
+        "operator": "Stowe Electric Department",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.4916513,
+      "lon": -72.7423141
+    },
+    {
+      "type": "way",
+      "id": 1317555473,
+      "center": {
+        "lat": 44.536492,
+        "lon": -72.4445967
+      },
+      "tags": {
+        "name": "Wolcott Substation",
+        "operator": "Hardwick Electric Department",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.536492,
+      "lon": -72.4445967
+    },
+    {
+      "type": "way",
+      "id": 1317706223,
+      "center": {
+        "lat": 44.4714335,
+        "lon": -72.2902634
+      },
+      "tags": {
+        "name": "South Walden Substation",
+        "operator": "Washington Electric Coop",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.4714335,
+      "lon": -72.2902634
+    },
+    {
+      "type": "way",
+      "id": 1317734304,
+      "center": {
+        "lat": 44.4051693,
+        "lon": -72.2045675
+      },
+      "tags": {
+        "name": "West Danville Substation",
+        "operator": "Washington Electric Coop",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.4051693,
+      "lon": -72.2045675
+    },
+    {
+      "type": "way",
+      "id": 1317734305,
+      "center": {
+        "lat": 44.4049856,
+        "lon": -72.1885792
+      },
+      "tags": {
+        "name": "West Danville-15 Substation",
+        "operator": "Green Mountain Power",
+        "operator:short": "GMP",
+        "operator:wikidata": "Q71871622",
+        "power": "substation",
+        "substation": "yes",
+        "voltage": "34500"
+      },
+      "lat": 44.4049856,
+      "lon": -72.1885792
+    },
+    {
+      "type": "way",
+      "id": 1317986177,
+      "center": {
+        "lat": 44.428087,
+        "lon": -71.9753089
+      },
+      "tags": {
+        "name": "Fairbanks Substation",
+        "operator": "Green Mountain Power",
+        "operator:short": "GMP",
+        "operator:wikidata": "Q71871622",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.428087,
+      "lon": -71.9753089
+    },
+    {
+      "type": "way",
+      "id": 1317986178,
+      "center": {
+        "lat": 44.4654139,
+        "lon": -72.0047846
+      },
+      "tags": {
+        "name": "St. Johnsbury Center Substation",
+        "operator": "Green Mountain Power",
+        "operator:short": "GMP",
+        "operator:wikidata": "Q71871622",
+        "power": "substation",
+        "substation": "yes",
+        "voltage": "34500"
+      },
+      "lat": 44.4654139,
+      "lon": -72.0047846
+    },
+    {
+      "type": "way",
+      "id": 1317986181,
+      "center": {
+        "lat": 44.5332962,
+        "lon": -71.9951372
+      },
+      "tags": {
+        "addr:housenumber": "360",
+        "addr:state": "VT",
+        "addr:street": "Hill Street",
+        "name": "Hill Street Substation",
+        "operator": "Lyndonville Electric Department",
+        "power": "substation",
+        "ref:vcgi:esiteid": "147553",
+        "voltage": "34500"
+      },
+      "lat": 44.5332962,
+      "lon": -71.9951372
+    },
+    {
+      "type": "way",
+      "id": 1317987540,
+      "center": {
+        "lat": 44.4973214,
+        "lon": -72.0121108
+      },
+      "tags": {
+        "name": "Industrial Park Substation",
+        "operator": "Lyndonville Electric Department",
+        "power": "substation",
+        "substation": "yes",
+        "voltage": "34500"
+      },
+      "lat": 44.4973214,
+      "lon": -72.0121108
+    },
+    {
+      "type": "way",
+      "id": 1317987544,
+      "center": {
+        "lat": 44.5500642,
+        "lon": -72.0152296
+      },
+      "tags": {
+        "name": "Pudding Hill Substation",
+        "operator": "Lyndonville Electric Department",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.5500642,
+      "lon": -72.0152296
+    },
+    {
+      "type": "way",
+      "id": 1317988391,
+      "center": {
+        "lat": 44.5904385,
+        "lon": -71.9171295
+      },
+      "tags": {
+        "name": "Burke Mountain Substation",
+        "operator": "Lyndonville Electric Department",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.5904385,
+      "lon": -71.9171295
+    },
+    {
+      "type": "way",
+      "id": 1318012417,
+      "center": {
+        "lat": 44.2731711,
+        "lon": -72.4873451
+      },
+      "tags": {
+        "name": "East Montpelier Susbtation",
+        "operator": "Washington Electric Coop",
+        "power": "substation",
+        "substation": "yes",
+        "voltage": "34500"
+      },
+      "lat": 44.2731711,
+      "lon": -72.4873451
+    },
+    {
+      "type": "way",
+      "id": 1318203936,
+      "center": {
+        "lat": 44.1978072,
+        "lon": -72.507143
+      },
+      "tags": {
+        "name": "Barre-26 Substation",
+        "operator": "Green Mountain Power",
+        "operator:short": "GMP",
+        "operator:wikidata": "Q71871622",
+        "power": "substation",
+        "substation": "yes",
+        "voltage": "34500"
+      },
+      "lat": 44.1978072,
+      "lon": -72.507143
+    },
+    {
+      "type": "way",
+      "id": 1318342901,
+      "center": {
+        "lat": 44.1563842,
+        "lon": -72.4902745
+      },
+      "tags": {
+        "name": "Rock of Ages-82 Substation",
+        "operator": "Green Mountain Power",
+        "operator:short": "GMP",
+        "operator:wikidata": "Q71871622",
+        "power": "substation",
+        "substation": "yes",
+        "voltage": "34500"
+      },
+      "lat": 44.1563842,
+      "lon": -72.4902745
+    },
+    {
+      "type": "way",
+      "id": 1318348384,
+      "center": {
+        "lat": 44.154737,
+        "lon": -72.4770505
+      },
+      "tags": {
+        "name": "Wetmore & Morse-58 Substation",
+        "operator": "Green Mountain Power",
+        "operator:short": "GMP",
+        "operator:wikidata": "Q71871622",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.154737,
+      "lon": -72.4770505
+    },
+    {
+      "type": "way",
+      "id": 1318348385,
+      "center": {
+        "lat": 44.1616554,
+        "lon": -72.4657906
+      },
+      "tags": {
+        "name": "Websterville-61 Substation",
+        "operator": "Green Mountain Power",
+        "operator:short": "GMP",
+        "operator:wikidata": "Q71871622",
+        "power": "substation",
+        "substation": "yes",
+        "voltage": "34500"
+      },
+      "lat": 44.1616554,
+      "lon": -72.4657906
+    },
+    {
+      "type": "way",
+      "id": 1318348388,
+      "center": {
+        "lat": 44.1674017,
+        "lon": -72.3042436
+      },
+      "tags": {
+        "name": "Mt. Knox Substation",
+        "operator": "Washington Electric Coop",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.1674017,
+      "lon": -72.3042436
+    },
+    {
+      "type": "way",
+      "id": 1318507067,
+      "center": {
+        "lat": 44.2047739,
+        "lon": -72.1696381
+      },
+      "tags": {
+        "name": "Legare-83 Substation",
+        "operator": "Green Mountain Power",
+        "operator:short": "GMP",
+        "operator:wikidata": "Q71871622",
+        "power": "substation",
+        "substation": "yes",
+        "voltage": "34500"
+      },
+      "lat": 44.2047739,
+      "lon": -72.1696381
+    },
+    {
+      "type": "way",
+      "id": 1318507071,
+      "center": {
+        "lat": 44.2597444,
+        "lon": -72.0605119
+      },
+      "tags": {
+        "name": "Mcindoes Falls Substation",
+        "operator": "VELCO",
+        "power": "substation",
+        "substation": "yes",
+        "voltage": "34500"
+      },
+      "lat": 44.2597444,
+      "lon": -72.0605119
+    },
+    {
+      "type": "way",
+      "id": 1318507072,
+      "center": {
+        "lat": 44.2593907,
+        "lon": -72.0608472
+      },
+      "tags": {
+        "name": "Mcindoes Falls Substation",
+        "operator": "VELCO",
+        "power": "substation",
+        "substation": "yes",
+        "voltage": "34500"
+      },
+      "lat": 44.2593907,
+      "lon": -72.0608472
+    },
+    {
+      "type": "way",
+      "id": 1319367434,
+      "center": {
+        "lat": 44.200423,
+        "lon": -72.6333695
+      },
+      "tags": {
+        "name": "Riverton-62 Substation",
+        "operator": "Green Mountain Power",
+        "operator:short": "GMP",
+        "operator:wikidata": "Q71871622",
+        "power": "substation",
+        "substation": "yes",
+        "voltage": "34500"
+      },
+      "lat": 44.200423,
+      "lon": -72.6333695
+    },
+    {
+      "type": "way",
+      "id": 1319367436,
+      "center": {
+        "lat": 44.1390345,
+        "lon": -72.6646395
+      },
+      "tags": {
+        "name": "Norwich University Substation",
+        "operator": "Town of Northfield Electric Department",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.1390345,
+      "lon": -72.6646395
+    },
+    {
+      "type": "way",
+      "id": 1319372901,
+      "center": {
+        "lat": 44.2763922,
+        "lon": -72.719778
+      },
+      "tags": {
+        "name": "Moretown Substation",
+        "operator": "Washington Electric Coop",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.2763922,
+      "lon": -72.719778
+    },
+    {
+      "type": "way",
+      "id": 1319372908,
+      "center": {
+        "lat": 44.2546515,
+        "lon": -72.5874924
+      },
+      "tags": {
+        "addr:city": "Montpelier",
+        "addr:housenumber": "50",
+        "addr:state": "VT",
+        "addr:street": "Mountainview Street",
+        "name": "Mountainview-27 Substation",
+        "operator": "Green Mountain Power",
+        "operator:short": "GMP",
+        "operator:wikidata": "Q71871622",
+        "power": "substation",
+        "ref:vcgi:esiteid": "339302",
+        "voltage": "34500"
+      },
+      "lat": 44.2546515,
+      "lon": -72.5874924
+    },
+    {
+      "type": "way",
+      "id": 1319372911,
+      "center": {
+        "lat": 44.2505029,
+        "lon": -72.6034065
+      },
+      "tags": {
+        "name": "Berlin-5 Substation",
+        "operator": "Green Mountain Power",
+        "operator:short": "GMP",
+        "operator:wikidata": "Q71871622",
+        "power": "substation",
+        "substation": "yes",
+        "voltage": "34500"
+      },
+      "lat": 44.2505029,
+      "lon": -72.6034065
+    },
+    {
+      "type": "way",
+      "id": 1319372914,
+      "center": {
+        "lat": 44.292225,
+        "lon": -72.6841265
+      },
+      "tags": {
+        "name": "Middlesex Dam 2 Substation",
+        "operator": "Green Mountain Power",
+        "operator:short": "GMP",
+        "operator:wikidata": "Q71871622",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.292225,
+      "lon": -72.6841265
+    },
+    {
+      "type": "way",
+      "id": 1319585965,
+      "center": {
+        "lat": 44.3803026,
+        "lon": -72.7703426
+      },
+      "tags": {
+        "name": "Little River-22 Substation",
+        "operator": "Green Mountain Power",
+        "operator:short": "GMP",
+        "operator:wikidata": "Q71871622",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.3803026,
+      "lon": -72.7703426
+    },
+    {
+      "type": "way",
+      "id": 1319746137,
+      "center": {
+        "lat": 44.3729615,
+        "lon": -72.7268906
+      },
+      "tags": {
+        "name": "Waterbury Center-47 Substation",
+        "operator": "Green Mountain Power",
+        "operator:short": "GMP",
+        "operator:wikidata": "Q71871622",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.3729615,
+      "lon": -72.7268906
+    },
+    {
+      "type": "way",
+      "id": 1319840854,
+      "center": {
+        "lat": 44.4244553,
+        "lon": -73.003844
+      },
+      "tags": {
+        "name": "Richmond Substation",
+        "operator": "Vermont Electric Coop",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.4244553,
+      "lon": -73.003844
+    },
+    {
+      "type": "way",
+      "id": 1319840863,
+      "center": {
+        "lat": 44.4825975,
+        "lon": -73.0506313
+      },
+      "tags": {
+        "name": "Sandhill Road-33 Substation",
+        "operator": "Green Mountain Power",
+        "operator:short": "GMP",
+        "operator:wikidata": "Q71871622",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.4825975,
+      "lon": -73.0506313
+    },
+    {
+      "type": "way",
+      "id": 1340657052,
+      "center": {
+        "lat": 43.4751442,
+        "lon": -72.3900718
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "46000"
+      },
+      "lat": 43.4751442,
+      "lon": -72.3900718
+    },
+    {
+      "type": "way",
+      "id": 1388851081,
+      "center": {
+        "lat": 43.2695776,
+        "lon": -73.1130504
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.2695776,
+      "lon": -73.1130504
+    },
+    {
+      "type": "way",
+      "id": 1389198069,
+      "center": {
+        "lat": 44.4517686,
+        "lon": -73.1401049
+      },
+      "tags": {
+        "addr:city": "South Burlington",
+        "addr:housenumber": "915",
+        "addr:state": "VT",
+        "addr:street": "Community Drive",
+        "power": "substation",
+        "ref:vcgi:esiteid": "309613"
+      },
+      "lat": 44.4517686,
+      "lon": -73.1401049
+    },
+    {
+      "type": "way",
+      "id": 1419689608,
+      "center": {
+        "lat": 43.427118,
+        "lon": -72.6608438
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "transition",
+        "voltage": "115000"
+      },
+      "lat": 43.427118,
+      "lon": -72.6608438
+    },
+    {
+      "type": "way",
+      "id": 1419689609,
+      "center": {
+        "lat": 43.4287221,
+        "lon": -72.6589422
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "transition",
+        "voltage": "115000"
+      },
+      "lat": 43.4287221,
+      "lon": -72.6589422
+    },
+    {
+      "type": "way",
+      "id": 1420641104,
+      "center": {
+        "lat": 43.6411064,
+        "lon": -72.4062479
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.6411064,
+      "lon": -72.4062479
+    },
+    {
+      "type": "way",
+      "id": 1420727447,
+      "center": {
+        "lat": 44.5611714,
+        "lon": -72.6023902
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.5611714,
+      "lon": -72.6023902
+    },
+    {
+      "type": "way",
+      "id": 1442404048,
+      "center": {
+        "lat": 43.9807898,
+        "lon": -72.130794
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "46000"
+      },
+      "lat": 43.9807898,
+      "lon": -72.130794
+    },
+    {
+      "type": "way",
+      "id": 1450106311,
+      "center": {
+        "lat": 44.7826248,
+        "lon": -73.0617318
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "operator": "Green Lantern Solar",
+        "power": "substation",
+        "substation": "generation"
+      },
+      "lat": 44.7826248,
+      "lon": -73.0617318
+    },
+    {
+      "type": "way",
+      "id": 1452375381,
+      "center": {
+        "lat": 43.9100909,
+        "lon": -72.6023967
+      },
+      "tags": {
+        "addr:city": "Randolph Center",
+        "addr:housenumber": "2174",
+        "addr:state": "VT",
+        "addr:street": "East Bethel Road",
+        "power": "substation",
+        "ref:vcgi:esiteid": "752132",
+        "voltage": "46000"
+      },
+      "lat": 43.9100909,
+      "lon": -72.6023967
+    },
+    {
+      "type": "way",
+      "id": 1454970349,
+      "center": {
+        "lat": 43.6124612,
+        "lon": -72.9561509
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "46000"
+      },
+      "lat": 43.6124612,
+      "lon": -72.9561509
+    },
+    {
+      "type": "way",
+      "id": 1454970354,
+      "center": {
+        "lat": 43.6938117,
+        "lon": -72.9551207
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "46000"
+      },
+      "lat": 43.6938117,
+      "lon": -72.9551207
+    },
+    {
+      "type": "way",
+      "id": 1454970356,
+      "center": {
+        "lat": 43.921897,
+        "lon": -73.1034157
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "46000"
+      },
+      "lat": 43.921897,
+      "lon": -73.1034157
+    },
+    {
+      "type": "way",
+      "id": 1454970363,
+      "center": {
+        "lat": 43.8538858,
+        "lon": -73.1552961
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "46000"
+      },
+      "lat": 43.8538858,
+      "lon": -73.1552961
+    },
+    {
+      "type": "way",
+      "id": 1454974614,
+      "center": {
+        "lat": 43.9043212,
+        "lon": -73.06656
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "46000"
+      },
+      "lat": 43.9043212,
+      "lon": -73.06656
+    },
+    {
+      "type": "way",
+      "id": 1454974617,
+      "center": {
+        "lat": 43.8752529,
+        "lon": -72.8106691
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "46000"
+      },
+      "lat": 43.8752529,
+      "lon": -72.8106691
+    },
+    {
+      "type": "way",
+      "id": 1454974622,
+      "center": {
+        "lat": 43.9109717,
+        "lon": -72.6545718
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "46000"
+      },
+      "lat": 43.9109717,
+      "lon": -72.6545718
+    },
+    {
+      "type": "way",
+      "id": 1454980320,
+      "center": {
+        "lat": 43.6778134,
+        "lon": -72.3037225
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "46000"
+      },
+      "lat": 43.6778134,
+      "lon": -72.3037225
+    },
+    {
+      "type": "way",
+      "id": 1454980325,
+      "center": {
+        "lat": 44.070792,
+        "lon": -72.0580125
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "46000"
+      },
+      "lat": 44.070792,
+      "lon": -72.0580125
+    },
+    {
+      "type": "way",
+      "id": 1454980328,
+      "center": {
+        "lat": 44.2085737,
+        "lon": -72.056653
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.2085737,
+      "lon": -72.056653
+    },
+    {
+      "type": "way",
+      "id": 1454984233,
+      "center": {
+        "lat": 43.4008437,
+        "lon": -72.4202412
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "46000"
+      },
+      "lat": 43.4008437,
+      "lon": -72.4202412
+    },
+    {
+      "type": "way",
+      "id": 1455135268,
+      "center": {
+        "lat": 43.9702725,
+        "lon": -73.113003
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "46000"
+      },
+      "lat": 43.9702725,
+      "lon": -73.113003
+    },
+    {
+      "type": "way",
+      "id": 1485103190,
+      "center": {
+        "lat": 44.3228948,
+        "lon": -71.9988243
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.3228948,
+      "lon": -71.9988243
+    },
+    {
+      "type": "way",
+      "id": 1485150738,
+      "center": {
+        "lat": 43.6266761,
+        "lon": -73.3075793
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.6266761,
+      "lon": -73.3075793
+    },
+    {
+      "type": "way",
+      "id": 1492872909,
+      "center": {
+        "lat": 44.3228948,
+        "lon": -71.9988243
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.3228948,
+      "lon": -71.9988243
+    },
+    {
+      "type": "way",
+      "id": 1495710246,
+      "center": {
+        "lat": 42.9506107,
+        "lon": -72.6190914
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.9506107,
+      "lon": -72.6190914
+    },
+    {
+      "type": "way",
+      "id": 1495710247,
+      "center": {
+        "lat": 43.0842339,
+        "lon": -72.7583665
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.0842339,
+      "lon": -72.7583665
+    },
+    {
+      "type": "way",
+      "id": 1495710248,
+      "center": {
+        "lat": 42.7949559,
+        "lon": -73.2209151
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.7949559,
+      "lon": -73.2209151
+    },
+    {
+      "type": "way",
+      "id": 1495710249,
+      "center": {
+        "lat": 43.070191,
+        "lon": -73.1540098
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.070191,
+      "lon": -73.1540098
+    },
+    {
+      "type": "way",
+      "id": 1495710251,
+      "center": {
+        "lat": 43.9128065,
+        "lon": -72.6640647
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.9128065,
+      "lon": -72.6640647
+    },
+    {
+      "type": "way",
+      "id": 1495710252,
+      "center": {
+        "lat": 44.0699688,
+        "lon": -73.1959284
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.0699688,
+      "lon": -73.1959284
+    },
+    {
+      "type": "way",
+      "id": 1495710253,
+      "center": {
+        "lat": 43.7752598,
+        "lon": -73.052587
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.7752598,
+      "lon": -73.052587
+    },
+    {
+      "type": "way",
+      "id": 1495710254,
+      "center": {
+        "lat": 43.7090099,
+        "lon": -73.0638933
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.7090099,
+      "lon": -73.0638933
+    },
+    {
+      "type": "way",
+      "id": 1495710255,
+      "center": {
+        "lat": 43.6363661,
+        "lon": -72.9759946
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.6363661,
+      "lon": -72.9759946
+    },
+    {
+      "type": "way",
+      "id": 1495710256,
+      "center": {
+        "lat": 43.5758644,
+        "lon": -72.9596231
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.5758644,
+      "lon": -72.9596231
+    },
+    {
+      "type": "way",
+      "id": 1495710257,
+      "center": {
+        "lat": 43.4773601,
+        "lon": -72.9769675
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.4773601,
+      "lon": -72.9769675
+    },
+    {
+      "type": "way",
+      "id": 1495710258,
+      "center": {
+        "lat": 43.3998341,
+        "lon": -72.6944833
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.3998341,
+      "lon": -72.6944833
+    },
+    {
+      "type": "way",
+      "id": 1495710259,
+      "center": {
+        "lat": 43.6542307,
+        "lon": -72.422395
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.6542307,
+      "lon": -72.422395
+    },
+    {
+      "type": "way",
+      "id": 1495710260,
+      "center": {
+        "lat": 43.8785873,
+        "lon": -72.1771251
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.8785873,
+      "lon": -72.1771251
+    },
+    {
+      "type": "way",
+      "id": 1495710261,
+      "center": {
+        "lat": 44.3085459,
+        "lon": -72.5761895
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.3085459,
+      "lon": -72.5761895
+    },
+    {
+      "type": "way",
+      "id": 1495710262,
+      "center": {
+        "lat": 44.3585173,
+        "lon": -72.8167686
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.3585173,
+      "lon": -72.8167686
+    },
+    {
+      "type": "way",
+      "id": 1495710263,
+      "center": {
+        "lat": 44.5351545,
+        "lon": -73.2444709
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.5351545,
+      "lon": -73.2444709
+    },
+    {
+      "type": "way",
+      "id": 1495710264,
+      "center": {
+        "lat": 44.553801,
+        "lon": -73.1825381
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.553801,
+      "lon": -73.1825381
+    },
+    {
+      "type": "way",
+      "id": 1495783691,
+      "center": {
+        "lat": 42.9124173,
+        "lon": -73.2472554
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation"
+      },
+      "lat": 42.9124173,
+      "lon": -73.2472554
+    },
+    {
+      "type": "way",
+      "id": 1495784183,
+      "center": {
+        "lat": 42.8858016,
+        "lon": -73.2016176
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation"
+      },
+      "lat": 42.8858016,
+      "lon": -73.2016176
+    },
+    {
+      "type": "relation",
+      "id": 5548019,
+      "center": {
+        "lat": 44.0144592,
+        "lon": -73.1704522
+      },
+      "tags": {
+        "addr:city": "Middlebury",
+        "addr:country": "US",
+        "addr:housenumber": "168",
+        "addr:postcode": "05753",
+        "addr:state": "VT",
+        "addr:street": "Maple Street",
+        "power": "substation",
+        "ref:vcgi:esiteid": "156531",
+        "type": "multipolygon",
+        "voltage": "46000"
+      },
+      "lat": 44.0144592,
+      "lon": -73.1704522
+    },
+    {
+      "type": "relation",
+      "id": 5712320,
+      "center": {
+        "lat": 44.0522513,
+        "lon": -73.1760234
+      },
+      "tags": {
+        "power": "substation",
+        "type": "multipolygon"
+      },
+      "lat": 44.0522513,
+      "lon": -73.1760234
+    },
+    {
+      "type": "relation",
+      "id": 6783772,
+      "center": {
+        "lat": 44.014275,
+        "lon": -73.1336772
+      },
+      "tags": {
+        "addr:city": "Middlebury",
+        "addr:country": "US",
+        "addr:housenumber": "522",
+        "addr:postcode": "05753",
+        "addr:state": "VT",
+        "addr:street": "Quarry Road",
+        "name": "Middlebury Substation",
+        "operator": "Vermont Electric Power Company",
+        "power": "substation",
+        "ref:vcgi:esiteid": "154921",
+        "substation": "distribution",
+        "type": "multipolygon",
+        "voltage": "115000;46000"
+      },
+      "lat": 44.014275,
+      "lon": -73.1336772
+    },
+    {
+      "type": "relation",
+      "id": 18102917,
+      "center": {
+        "lat": 44.153993,
+        "lon": -72.8791197
+      },
+      "tags": {
+        "name": "Madbush-38 Substation",
+        "operator": "Green Mountain Power",
+        "operator:short": "GMP",
+        "operator:wikidata": "Q71871622",
+        "power": "substation",
+        "type": "multipolygon",
+        "voltage": "34500"
+      },
+      "lat": 44.153993,
+      "lon": -72.8791197
+    }
+  ]
+}

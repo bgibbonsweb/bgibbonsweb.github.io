@@ -1,0 +1,941 @@
+{
+  "source": {
+    "name": "California Energy Commission annual county electricity consumption",
+    "year": 2024,
+    "workbook": "AGG_CONSUMPTION_ELEC_COUNTY_TBL_ada.xlsx",
+    "workbook_url": "https://www.energy.ca.gov/filebrowser/download/8144?fid=8144",
+    "download_page": "https://www.energy.ca.gov/files/electricity-consumption-data-files",
+    "geometry_source": "https://raw.githubusercontent.com/plotly/datasets/master/geojson-counties-fips.json"
+  },
+  "count": 58,
+  "elements": [
+    {
+      "type": "node",
+      "id": "consumer-county-001",
+      "lat": 37.707565,
+      "lon": -122.135692,
+      "tags": {
+        "name": "Alameda County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "1335.58",
+        "consumption:gwh:annual": "11699.70",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-003",
+      "lat": 38.606597,
+      "lon": -119.801527,
+      "tags": {
+        "name": "Alpine County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "2.24",
+        "consumption:gwh:annual": "19.64",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-005",
+      "lat": 38.461612,
+      "lon": -120.588569,
+      "tags": {
+        "name": "Amador County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "37.50",
+        "consumption:gwh:annual": "328.48",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-007",
+      "lat": 39.702037,
+      "lon": -121.590828,
+      "tags": {
+        "name": "Butte County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "161.68",
+        "consumption:gwh:annual": "1416.32",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-009",
+      "lat": 38.17591,
+      "lon": -120.549054,
+      "tags": {
+        "name": "Calaveras County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "35.29",
+        "consumption:gwh:annual": "309.14",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-011",
+      "lat": 39.209969,
+      "lon": -122.26464,
+      "tags": {
+        "name": "Colusa County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "34.17",
+        "consumption:gwh:annual": "299.32",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-013",
+      "lat": 37.927412,
+      "lon": -122.056978,
+      "tags": {
+        "name": "Contra Costa County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "966.67",
+        "consumption:gwh:annual": "8468.06",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-015",
+      "lat": 41.722652,
+      "lon": -124.041738,
+      "tags": {
+        "name": "Del Norte County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "23.24",
+        "consumption:gwh:annual": "203.60",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-017",
+      "lat": 38.810237,
+      "lon": -120.521446,
+      "tags": {
+        "name": "El Dorado County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "152.88",
+        "consumption:gwh:annual": "1339.21",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-019",
+      "lat": 36.817748,
+      "lon": -119.695297,
+      "tags": {
+        "name": "Fresno County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "909.62",
+        "consumption:gwh:annual": "7968.27",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-021",
+      "lat": 39.585892,
+      "lon": -122.395246,
+      "tags": {
+        "name": "Glenn County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "48.31",
+        "consumption:gwh:annual": "423.20",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-023",
+      "lat": 40.672012,
+      "lon": -124.132315,
+      "tags": {
+        "name": "Humboldt County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "81.62",
+        "consumption:gwh:annual": "714.97",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-025",
+      "lat": 33.000604,
+      "lon": -114.859215,
+      "tags": {
+        "name": "Imperial County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "176.68",
+        "consumption:gwh:annual": "1547.72",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-027",
+      "lat": 36.464458,
+      "lon": -117.389942,
+      "tags": {
+        "name": "Inyo County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "23.71",
+        "consumption:gwh:annual": "207.67",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-029",
+      "lat": 35.336091,
+      "lon": -119.178647,
+      "tags": {
+        "name": "Kern County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "1743.48",
+        "consumption:gwh:annual": "15272.88",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-031",
+      "lat": 36.185857,
+      "lon": -119.832026,
+      "tags": {
+        "name": "Kings County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "200.01",
+        "consumption:gwh:annual": "1752.05",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-033",
+      "lat": 39.139092,
+      "lon": -122.782727,
+      "tags": {
+        "name": "Lake County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "50.06",
+        "consumption:gwh:annual": "438.51",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-035",
+      "lat": 40.254752,
+      "lon": -120.308687,
+      "tags": {
+        "name": "Lassen County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "29.95",
+        "consumption:gwh:annual": "262.38",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-037",
+      "lat": 33.568453,
+      "lon": -118.425985,
+      "tags": {
+        "name": "Los Angeles County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "7408.26",
+        "consumption:gwh:annual": "64896.33",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-039",
+      "lat": 37.221931,
+      "lon": -119.686773,
+      "tags": {
+        "name": "Madera County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "192.53",
+        "consumption:gwh:annual": "1686.55",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-041",
+      "lat": 38.001743,
+      "lon": -122.678786,
+      "tags": {
+        "name": "Marin County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "149.48",
+        "consumption:gwh:annual": "1309.42",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-043",
+      "lat": 37.618216,
+      "lon": -119.973422,
+      "tags": {
+        "name": "Mariposa County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "13.05",
+        "consumption:gwh:annual": "114.36",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-045",
+      "lat": 39.315446,
+      "lon": -123.62636,
+      "tags": {
+        "name": "Mendocino County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "63.57",
+        "consumption:gwh:annual": "556.88",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-047",
+      "lat": 37.159091,
+      "lon": -120.691198,
+      "tags": {
+        "name": "Merced County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "422.21",
+        "consumption:gwh:annual": "3698.52",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-049",
+      "lat": 41.873721,
+      "lon": -121.018079,
+      "tags": {
+        "name": "Modoc County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "17.47",
+        "consumption:gwh:annual": "153.07",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-051",
+      "lat": 38.134108,
+      "lon": -119.122799,
+      "tags": {
+        "name": "Mono County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "22.12",
+        "consumption:gwh:annual": "193.81",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-053",
+      "lat": 36.337702,
+      "lon": -121.58889,
+      "tags": {
+        "name": "Monterey County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "281.22",
+        "consumption:gwh:annual": "2463.49",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-055",
+      "lat": 38.515506,
+      "lon": -122.275609,
+      "tags": {
+        "name": "Napa County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "120.26",
+        "consumption:gwh:annual": "1053.49",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-057",
+      "lat": 39.281927,
+      "lon": -120.815434,
+      "tags": {
+        "name": "Nevada County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "87.88",
+        "consumption:gwh:annual": "769.85",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-059",
+      "lat": 33.6679,
+      "lon": -117.844482,
+      "tags": {
+        "name": "Orange County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "2194.65",
+        "consumption:gwh:annual": "19225.15",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-061",
+      "lat": 39.055382,
+      "lon": -120.625889,
+      "tags": {
+        "name": "Placer County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "361.95",
+        "consumption:gwh:annual": "3170.69",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-063",
+      "lat": 40.030256,
+      "lon": -120.899317,
+      "tags": {
+        "name": "Plumas County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "22.52",
+        "consumption:gwh:annual": "197.25",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-065",
+      "lat": 33.751229,
+      "lon": -115.778837,
+      "tags": {
+        "name": "Riverside County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "1988.40",
+        "consumption:gwh:annual": "17418.39",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-067",
+      "lat": 38.452293,
+      "lon": -121.492049,
+      "tags": {
+        "name": "Sacramento County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "1299.17",
+        "consumption:gwh:annual": "11380.74",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-069",
+      "lat": 36.590948,
+      "lon": -121.175042,
+      "tags": {
+        "name": "San Benito County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "45.01",
+        "consumption:gwh:annual": "394.27",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-071",
+      "lat": 34.739047,
+      "lon": -115.652185,
+      "tags": {
+        "name": "San Bernardino County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "1850.05",
+        "consumption:gwh:annual": "16206.40",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-073",
+      "lat": 32.944654,
+      "lon": -117.137935,
+      "tags": {
+        "name": "San Diego County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "2181.58",
+        "consumption:gwh:annual": "19110.64",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-075",
+      "lat": 37.771362,
+      "lon": -122.53182,
+      "tags": {
+        "name": "San Francisco County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "585.16",
+        "consumption:gwh:annual": "5126.01",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-077",
+      "lat": 37.89621,
+      "lon": -121.385471,
+      "tags": {
+        "name": "San Joaquin County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "688.26",
+        "consumption:gwh:annual": "6029.12",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-079",
+      "lat": 35.347009,
+      "lon": -120.620744,
+      "tags": {
+        "name": "San Luis Obispo County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "191.94",
+        "consumption:gwh:annual": "1681.39",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-081",
+      "lat": 37.457035,
+      "lon": -122.363672,
+      "tags": {
+        "name": "San Mateo County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "486.45",
+        "consumption:gwh:annual": "4261.31",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-083",
+      "lat": 34.231989,
+      "lon": -120.049858,
+      "tags": {
+        "name": "Santa Barbara County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "298.29",
+        "consumption:gwh:annual": "2613.01",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-085",
+      "lat": 37.215733,
+      "lon": -121.684678,
+      "tags": {
+        "name": "Santa Clara County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "2031.23",
+        "consumption:gwh:annual": "17793.58",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-087",
+      "lat": 36.996572,
+      "lon": -121.983419,
+      "tags": {
+        "name": "Santa Cruz County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "133.98",
+        "consumption:gwh:annual": "1173.63",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-089",
+      "lat": 40.579572,
+      "lon": -122.337132,
+      "tags": {
+        "name": "Shasta County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "181.62",
+        "consumption:gwh:annual": "1591.03",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-091",
+      "lat": 39.572985,
+      "lon": -120.527047,
+      "tags": {
+        "name": "Sierra County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "2.48",
+        "consumption:gwh:annual": "21.71",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-093",
+      "lat": 41.677957,
+      "lon": -122.748146,
+      "tags": {
+        "name": "Siskiyou County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "58.82",
+        "consumption:gwh:annual": "515.26",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-095",
+      "lat": 38.222368,
+      "lon": -121.974819,
+      "tags": {
+        "name": "Solano County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "367.08",
+        "consumption:gwh:annual": "3215.63",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-097",
+      "lat": 38.440257,
+      "lon": -123.004087,
+      "tags": {
+        "name": "Sonoma County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "331.24",
+        "consumption:gwh:annual": "2901.70",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-099",
+      "lat": 37.530099,
+      "lon": -121.058541,
+      "tags": {
+        "name": "Stanislaus County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "593.64",
+        "consumption:gwh:annual": "5200.26",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-101",
+      "lat": 38.942372,
+      "lon": -121.651366,
+      "tags": {
+        "name": "Sutter County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "75.28",
+        "consumption:gwh:annual": "659.45",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-103",
+      "lat": 40.199522,
+      "lon": -122.18244,
+      "tags": {
+        "name": "Tehama County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "59.86",
+        "consumption:gwh:annual": "524.41",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-105",
+      "lat": 40.786727,
+      "lon": -123.030288,
+      "tags": {
+        "name": "Trinity County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "16.39",
+        "consumption:gwh:annual": "143.54",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-107",
+      "lat": 36.253904,
+      "lon": -118.802438,
+      "tags": {
+        "name": "Tulare County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "526.86",
+        "consumption:gwh:annual": "4615.26",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-109",
+      "lat": 37.930498,
+      "lon": -119.861589,
+      "tags": {
+        "name": "Tuolumne County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "51.03",
+        "consumption:gwh:annual": "447.00",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-111",
+      "lat": 34.006198,
+      "lon": -119.309772,
+      "tags": {
+        "name": "Ventura County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "594.96",
+        "consumption:gwh:annual": "5211.85",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-113",
+      "lat": 38.619478,
+      "lon": -121.801364,
+      "tags": {
+        "name": "Yolo County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "208.32",
+        "consumption:gwh:annual": "1824.90",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-115",
+      "lat": 39.3888,
+      "lon": -121.238796,
+      "tags": {
+        "name": "Yuba County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "64.17",
+        "consumption:gwh:annual": "562.13",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "California Energy Commission county electricity consumption dataset"
+      }
+    }
+  ]
+}

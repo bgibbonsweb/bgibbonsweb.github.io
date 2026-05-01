@@ -1,0 +1,2177 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-04-24T20:51:16Z",
+    "timestamp_areas_base": "2026-04-24T15:53:36Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 3420302800,
+      "lat": 40.7031836,
+      "lon": -99.1009761,
+      "tags": {
+        "name": "Kearney Hydro",
+        "operator": "Nebraska Public Power District",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "1.5 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "2268",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1921-01"
+      }
+    },
+    {
+      "type": "way",
+      "id": 59139115,
+      "center": {
+        "lat": 40.9230656,
+        "lon": -98.3272719
+      },
+      "tags": {
+        "addr:city": "Grand Island",
+        "addr:housenumber": "800",
+        "addr:postcode": "68801",
+        "addr:state": "NE",
+        "addr:street": "Bischeld Street",
+        "landuse": "industrial",
+        "name": "C.W. Burdick Power Plant",
+        "operator": "City of Grand Island - (NE)",
+        "plant:method": "combustion",
+        "plant:output:electricity": "142.8 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "2241",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021;esri/USA_NAD_Addresses",
+        "start_date": "1957-10",
+        "website": "https://www.grand-island.com/your-government/utilities/c-w-burdick-power-plant",
+        "wikidata": "Q25005048"
+      },
+      "lat": 40.9230656,
+      "lon": -98.3272719
+    },
+    {
+      "type": "way",
+      "id": 129631814,
+      "center": {
+        "lat": 40.9096319,
+        "lon": -96.612942
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Terry Bundy Generating Station",
+        "operator": "Lincoln Electric System",
+        "plant:output:electricity": "216.3 MW",
+        "plant:source": "biogas;oil;gas",
+        "power": "plant",
+        "ref:US:EIA": "7887",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2003-08"
+      },
+      "lat": 40.9096319,
+      "lon": -96.612942
+    },
+    {
+      "type": "way",
+      "id": 130299391,
+      "center": {
+        "lat": 40.7320205,
+        "lon": -96.73621
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Rokeby Power Plant",
+        "operator": "Lincoln Electric System",
+        "plant:method": "combustion",
+        "plant:output:electricity": "266.1 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "6373",
+        "source": "bing",
+        "start_date": "1975-07"
+      },
+      "lat": 40.7320205,
+      "lon": -96.73621
+    },
+    {
+      "type": "way",
+      "id": 141272434,
+      "center": {
+        "lat": 41.4637259,
+        "lon": -97.3281946
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Columbus",
+        "operator": "Loup River Public Power Dist",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "45.6 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "2260",
+        "source": "bing",
+        "start_date": "1936-01",
+        "wikidata": "Q116697169"
+      },
+      "lat": 41.4637259,
+      "lon": -97.3281946
+    },
+    {
+      "type": "way",
+      "id": 146657057,
+      "center": {
+        "lat": 41.4871541,
+        "lon": -97.607827
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Monroe (NE)",
+        "operator": "Loup River Public Power Dist",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "8.4 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "2273",
+        "source": "bing",
+        "start_date": "1936-01"
+      },
+      "lat": 41.4871541,
+      "lon": -97.607827
+    },
+    {
+      "type": "way",
+      "id": 166535825,
+      "center": {
+        "lat": 41.3296757,
+        "lon": -95.945213
+      },
+      "tags": {
+        "building": "yes",
+        "landuse": "industrial",
+        "name": "North Omaha Power Station",
+        "operator": "Omaha Public Power District`",
+        "plant:method": "combustion",
+        "plant:output:electricity": "yes",
+        "plant:source": "coal",
+        "power": "plant",
+        "wikidata": "Q19384023"
+      },
+      "lat": 41.3296757,
+      "lon": -95.945213
+    },
+    {
+      "type": "way",
+      "id": 206973749,
+      "center": {
+        "lat": 40.6659843,
+        "lon": -95.8680081
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Nebraska City # 2",
+        "operator": "City of Nebraska City",
+        "plant:method": "combustion",
+        "plant:output:electricity": "13.5 MW",
+        "plant:source": "gas;oil",
+        "power": "plant",
+        "ref:US:EIA": "7555",
+        "source": "bing",
+        "start_date": "1998-08",
+        "voltage": "69000"
+      },
+      "lat": 40.6659843,
+      "lon": -95.8680081
+    },
+    {
+      "type": "way",
+      "id": 260559856,
+      "center": {
+        "lat": 40.3297918,
+        "lon": -96.80811
+      },
+      "tags": {
+        "name": "Beatrice Power Station",
+        "operator": "Nebraska Public Power District",
+        "plant:output:electricity": "247.1 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "8000",
+        "source": "Bing",
+        "start_date": "2005-01",
+        "website": "http://www.nppd.com/about-us/power-plants-facilities/beatrice-power-station/",
+        "wikidata": "Q4877190"
+      },
+      "lat": 40.3297918,
+      "lon": -96.80811
+    },
+    {
+      "type": "way",
+      "id": 313720408,
+      "center": {
+        "lat": 40.5831083,
+        "lon": -98.4195132
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Don Henry Power Plant",
+        "operator": "City of Hastings - (NE)",
+        "plant:method": "combustion",
+        "plant:output:electricity": "22 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "2243",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1972-06"
+      },
+      "lat": 40.5831083,
+      "lon": -98.4195132
+    },
+    {
+      "type": "way",
+      "id": 334805755,
+      "center": {
+        "lat": 41.0865919,
+        "lon": -100.7594754
+      },
+      "tags": {
+        "addr:city": "North Platte",
+        "addr:state": "NE",
+        "building": "industrial",
+        "building:levels": "4",
+        "name": "North Platte Hydro",
+        "operator": "Nebraska Public Power District",
+        "plant:output:electricity": "26.2 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "2274",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1935-01",
+        "website": "https://www.nppd.com/powering-nebraska/energy-resources/hydropower"
+      },
+      "lat": 41.0865919,
+      "lon": -100.7594754
+    },
+    {
+      "type": "way",
+      "id": 403198412,
+      "center": {
+        "lat": 40.5615613,
+        "lon": -96.7866554
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Sheldon Power Station",
+        "operator": "Nebraska Public Power District",
+        "plant:method": "combustion",
+        "plant:output:electricity": "228.7 MW",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "2277",
+        "source": "bing",
+        "start_date": "1961-01",
+        "wikidata": "Q7493540"
+      },
+      "lat": 40.5615613,
+      "lon": -96.7866554
+    },
+    {
+      "type": "way",
+      "id": 403406041,
+      "center": {
+        "lat": 40.2205166,
+        "lon": -100.6510491
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "McCook Power Plant",
+        "operator": "Nebraska Public Power District",
+        "plant:method": "combustion",
+        "plant:output:electricity": "56.7 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "2271",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "1973-06"
+      },
+      "lat": 40.2205166,
+      "lon": -100.6510491
+    },
+    {
+      "type": "way",
+      "id": 515633969,
+      "center": {
+        "lat": 40.5785688,
+        "lon": -98.3077475
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Whelan Energy Center",
+        "operator": "City of Hastings - (NE)",
+        "plant:method": "combustion",
+        "plant:output:electricity": "324.3 MW",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "60",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1981-07"
+      },
+      "lat": 40.5785688,
+      "lon": -98.3077475
+    },
+    {
+      "type": "way",
+      "id": 553841052,
+      "center": {
+        "lat": 40.9030033,
+        "lon": -97.6017248
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 40.9030033,
+      "lon": -97.6017248
+    },
+    {
+      "type": "way",
+      "id": 556838379,
+      "center": {
+        "lat": 41.082414,
+        "lon": -101.1362551
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Gerald Gentleman Station",
+        "operator": "Nebraska Public Power District",
+        "plant:method": "combustion",
+        "plant:output:electricity": "1362.6 MW",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "6077",
+        "source": "nppd.com",
+        "start_date": "1979-04",
+        "wikidata": "Q5549174"
+      },
+      "lat": 41.082414,
+      "lon": -101.1362551
+    },
+    {
+      "type": "way",
+      "id": 568579715,
+      "center": {
+        "lat": 42.0008612,
+        "lon": -97.6015868
+      },
+      "tags": {
+        "landuse": "industrial",
+        "power": "plant"
+      },
+      "lat": 42.0008612,
+      "lon": -97.6015868
+    },
+    {
+      "type": "way",
+      "id": 706814207,
+      "center": {
+        "lat": 40.7226033,
+        "lon": -99.0410767
+      },
+      "tags": {
+        "addr:city": "Kearney",
+        "addr:housenumber": "4707",
+        "addr:postcode": "68847",
+        "addr:state": "NE",
+        "addr:street": "Antelope Avenue",
+        "landuse": "industrial",
+        "name": "Kearney Solar Park",
+        "operator": "City of Kearney;NPPD",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "5.76 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61884",
+        "source": "EsriWorldImagery",
+        "start_date": "2017-12"
+      },
+      "lat": 40.7226033,
+      "lon": -99.0410767
+    },
+    {
+      "type": "way",
+      "id": 821089143,
+      "center": {
+        "lat": 40.5993536,
+        "lon": -98.3885068
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Hastings Utilities",
+        "operator": "City of Hastings - (NE)",
+        "plant:method": "combustion",
+        "plant:output:electricity": "39 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "2244",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1957-12"
+      },
+      "lat": 40.5993536,
+      "lon": -98.3885068
+    },
+    {
+      "type": "way",
+      "id": 880731030,
+      "center": {
+        "lat": 40.8547014,
+        "lon": -98.3482946
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Platte Generating Station",
+        "operator": "City of Grand Island - (NE)",
+        "plant:method": "combustion",
+        "plant:output:electricity": "109.8 MW",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "59",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1982-12",
+        "wikidata": "Q11995826"
+      },
+      "lat": 40.8547014,
+      "lon": -98.3482946
+    },
+    {
+      "type": "way",
+      "id": 934968415,
+      "center": {
+        "lat": 40.8253266,
+        "lon": -96.8171574
+      },
+      "tags": {
+        "name": "Holdrege Solar Center",
+        "operator": "Adapture Renewables, Inc.",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "4 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "59713",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2016-06"
+      },
+      "lat": 40.8253266,
+      "lon": -96.8171574
+    },
+    {
+      "type": "way",
+      "id": 936556373,
+      "center": {
+        "lat": 40.9489465,
+        "lon": -95.9641584
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Cass County Power Plant",
+        "operator": "Omaha Public Power District",
+        "plant:method": "combustion",
+        "plant:output:electricity": "345 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "55972",
+        "source": "https://www.industryabout.com/country-territories-3/873-usa/fossil-fuels-energy/22128-cass-county-gas-power-plant",
+        "start_date": "2003-05",
+        "wikidata": "Q17761937"
+      },
+      "lat": 40.9489465,
+      "lon": -95.9641584
+    },
+    {
+      "type": "way",
+      "id": 944925302,
+      "center": {
+        "lat": 41.2515183,
+        "lon": -95.9226249
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Jones Street Power Station",
+        "operator": "Omaha Public Power District",
+        "plant:method": "combustion",
+        "plant:output:electricity": "130 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "2290",
+        "source": "https://www.industryabout.com/country-territories-3/873-usa/fossil-fuels-energy/22134-jones-street-oil-power-plant",
+        "start_date": "1973-06",
+        "wikidata": "Q116697177"
+      },
+      "lat": 41.2515183,
+      "lon": -95.9226249
+    },
+    {
+      "type": "way",
+      "id": 946979242,
+      "center": {
+        "lat": 40.694766,
+        "lon": -99.7019883
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Canaday Power Plant",
+        "operator": "Nebraska Public Power District",
+        "plant:method": "combustion",
+        "plant:output:electricity": "108.8 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "2226",
+        "source": "https://www.industryabout.com/country-territories-3/873-usa/fossil-fuels-energy/22117-canaday-gas-power-plant",
+        "start_date": "1958-01",
+        "wikidata": "Q25005044"
+      },
+      "lat": 40.694766,
+      "lon": -99.7019883
+    },
+    {
+      "type": "way",
+      "id": 961660891,
+      "center": {
+        "lat": 40.1881313,
+        "lon": -97.5778988
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Hebron Power Plant",
+        "operator": "Nebraska Public Power District",
+        "plant:method": "combustion",
+        "plant:output:electricity": "56.7 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "2266",
+        "source": "https://www.industryabout.com/country-territories-3/873-usa/fossil-fuels-energy/22137-hebron-oil-power-plant",
+        "start_date": "1973-06"
+      },
+      "lat": 40.1881313,
+      "lon": -97.5778988
+    },
+    {
+      "type": "way",
+      "id": 1023563950,
+      "center": {
+        "lat": 41.4566717,
+        "lon": -96.0047696
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Fort Calhoun Community Solar",
+        "operator": "Omaha Public Power District",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "63844",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2019-12-16",
+        "website": "https://pubdisplay.alsoenergy.com/kiosk/18014398509527082?dashkey=2a5669734965576e4a43513d3d&tag=4246267"
+      },
+      "lat": 41.4566717,
+      "lon": -96.0047696
+    },
+    {
+      "type": "way",
+      "id": 1025174197,
+      "center": {
+        "lat": 40.6030489,
+        "lon": -98.4370623
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Hastings Community Solar Farm",
+        "operator": "City of Hastings - (NE)",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "62833",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2019-09"
+      },
+      "lat": 40.6030489,
+      "lon": -98.4370623
+    },
+    {
+      "type": "way",
+      "id": 1025176884,
+      "center": {
+        "lat": 40.7519007,
+        "lon": -99.7330574
+      },
+      "tags": {
+        "name": "City of Lexington",
+        "operator": "IGS ORIX Solar I",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "3.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61467",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2017-05"
+      },
+      "lat": 40.7519007,
+      "lon": -99.7330574
+    },
+    {
+      "type": "way",
+      "id": 1039930569,
+      "center": {
+        "lat": 40.9592888,
+        "lon": -100.3978673
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Jeffrey Hydro Plant",
+        "operator": "CNPPID",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "21.6 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "2227",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1941-01"
+      },
+      "lat": 40.9592888,
+      "lon": -100.3978673
+    },
+    {
+      "type": "way",
+      "id": 1039930570,
+      "center": {
+        "lat": 40.6836513,
+        "lon": -99.7447476
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Johnson Hydro No. 2",
+        "operator": "CNPPID",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "22.5 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "2229",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1941-04"
+      },
+      "lat": 40.6836513,
+      "lon": -99.7447476
+    },
+    {
+      "type": "way",
+      "id": 1039930571,
+      "center": {
+        "lat": 40.6935339,
+        "lon": -99.8177259
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Johnson Hydro No. 1",
+        "operator": "CNPPID",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "21.6 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "2228",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1941-04"
+      },
+      "lat": 40.6935339,
+      "lon": -99.8177259
+    },
+    {
+      "type": "way",
+      "id": 1085229096,
+      "center": {
+        "lat": 40.0548179,
+        "lon": -95.6086801
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Falls City Power Plant",
+        "operator": "City of Falls City - (NE)",
+        "plant:output:electricity": "31.3 MW",
+        "plant:source": "gas;oil",
+        "power": "plant",
+        "ref:US:EIA": "2237",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1930-08"
+      },
+      "lat": 40.0548179,
+      "lon": -95.6086801
+    },
+    {
+      "type": "way",
+      "id": 1086303436,
+      "center": {
+        "lat": 40.8077435,
+        "lon": -96.7105682
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "J Street",
+        "operator": "Lincoln Electric System",
+        "plant:method": "combustion",
+        "plant:output:electricity": "27 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "2250",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1972-02"
+      },
+      "lat": 40.8077435,
+      "lon": -96.7105682
+    },
+    {
+      "type": "way",
+      "id": 1086303440,
+      "center": {
+        "lat": 41.6683928,
+        "lon": -96.6691216
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Scribner Diesel Generation Facility",
+        "operator": "City of Scribner",
+        "plant:method": "combustion",
+        "plant:output:electricity": "4 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "64420",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2020-09",
+        "wikidata": "Q116724558"
+      },
+      "lat": 41.6683928,
+      "lon": -96.6691216
+    },
+    {
+      "type": "way",
+      "id": 1086303443,
+      "center": {
+        "lat": 40.6756971,
+        "lon": -96.1780662
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Syracuse # 2",
+        "operator": "City of Nebraska City",
+        "plant:method": "combustion",
+        "plant:output:electricity": "4 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "2256",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1969-04"
+      },
+      "lat": 40.6756971,
+      "lon": -96.1780662
+    },
+    {
+      "type": "way",
+      "id": 1086303444,
+      "center": {
+        "lat": 41.1705758,
+        "lon": -95.9703956
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Sarpy County",
+        "operator": "Omaha Public Power District",
+        "plant:method": "combustion",
+        "plant:output:electricity": "338.4 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "2292",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1972-06",
+        "wikidata": "Q19387722"
+      },
+      "lat": 41.1705758,
+      "lon": -95.9703956
+    },
+    {
+      "type": "way",
+      "id": 1086303445,
+      "center": {
+        "lat": 41.3308873,
+        "lon": -95.9464178
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "North Omaha Power Station",
+        "operator": "Omaha Public Power District",
+        "plant:method": "combustion",
+        "plant:output:electricity": "644.7 MW",
+        "plant:source": "coal;gas",
+        "power": "plant",
+        "ref:US:EIA": "2291",
+        "source": "bing",
+        "start_date": "1954-07"
+      },
+      "lat": 41.3308873,
+      "lon": -95.9464178
+    },
+    {
+      "type": "way",
+      "id": 1086303448,
+      "center": {
+        "lat": 40.5587422,
+        "lon": -96.7863171
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Hallam Power Plant",
+        "operator": "Nebraska Public Power District",
+        "plant:method": "combustion",
+        "plant:output:electricity": "56.7 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "2265",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1973-06"
+      },
+      "lat": 40.5587422,
+      "lon": -96.7863171
+    },
+    {
+      "type": "way",
+      "id": 1087619541,
+      "center": {
+        "lat": 41.2115292,
+        "lon": -101.6679746
+      },
+      "tags": {
+        "name": "Kingsley Power Plant",
+        "operator": "Central Nebraska Pub P&I Dist",
+        "plant:output:electricity": "50 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "785",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1984-11",
+        "wikidata": "Q14704936"
+      },
+      "lat": 41.2115292,
+      "lon": -101.6679746
+    },
+    {
+      "type": "way",
+      "id": 1153865501,
+      "center": {
+        "lat": 41.8903248,
+        "lon": -103.6507448
+      },
+      "tags": {
+        "name": "Western Meadowlark Solar SCS NE 1, LLC",
+        "operator": "Sol Systems",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "4.4 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64365",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2020-02"
+      },
+      "lat": 41.8903248,
+      "lon": -103.6507448
+    },
+    {
+      "type": "way",
+      "id": 1155660392,
+      "center": {
+        "lat": 41.8640357,
+        "lon": -96.2327885
+      },
+      "tags": {
+        "name": "Burt County Solar Hybrid",
+        "operator": "BCSB, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.4 MW",
+        "plant:source": "solar;battery",
+        "power": "plant",
+        "ref:US:EIA": "64222",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2021-06"
+      },
+      "lat": 41.8640357,
+      "lon": -96.2327885
+    },
+    {
+      "type": "way",
+      "id": 1155660394,
+      "center": {
+        "lat": 41.6125459,
+        "lon": -96.7531158
+      },
+      "tags": {
+        "name": "Dodge County Solar Hybrid",
+        "operator": "BCSB, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.4 MW",
+        "plant:source": "solar;battery",
+        "power": "plant",
+        "ref:US:EIA": "64223",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2021-06"
+      },
+      "lat": 41.6125459,
+      "lon": -96.7531158
+    },
+    {
+      "type": "way",
+      "id": 1160060904,
+      "center": {
+        "lat": 40.7910809,
+        "lon": -99.7694941
+      },
+      "tags": {
+        "name": "Airport 009239 SCS Lexington, LLC",
+        "operator": "Sol Systems",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "65411",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2021-05"
+      },
+      "lat": 40.7910809,
+      "lon": -99.7694941
+    },
+    {
+      "type": "way",
+      "id": 1160544840,
+      "center": {
+        "lat": 41.098291,
+        "lon": -96.1701777
+      },
+      "tags": {
+        "barrier": "fence",
+        "industrial": "power",
+        "landuse": "industrial",
+        "name": "Turtle Creek Station",
+        "operator": "Omaha Public Power District",
+        "plant:method": "combustion",
+        "plant:output:electricity": "528 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "64547",
+        "source": "U.S. Energy Information Administration - EIA-860m - 2025",
+        "start_date": "2025-06"
+      },
+      "lat": 41.098291,
+      "lon": -96.1701777
+    },
+    {
+      "type": "way",
+      "id": 1160744578,
+      "center": {
+        "lat": 40.8537092,
+        "lon": -99.9938044
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Monroe 009452 SCS Cozad, LLC",
+        "operator": "Sol Systems",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "65416",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2021-07"
+      },
+      "lat": 40.8537092,
+      "lon": -99.9938044
+    },
+    {
+      "type": "way",
+      "id": 1162899260,
+      "center": {
+        "lat": 42.028612,
+        "lon": -97.4824648
+      },
+      "tags": {
+        "name": "South 49th 013445 SCS Norfolk, LLC",
+        "operator": "Sol Systems",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "10.6 MW",
+        "plant:source": "solar;battery",
+        "power": "plant",
+        "ref:US:EIA": "66178",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2022-09"
+      },
+      "lat": 42.028612,
+      "lon": -97.4824648
+    },
+    {
+      "type": "way",
+      "id": 1223081788,
+      "center": {
+        "lat": 41.391991,
+        "lon": -96.4463071
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.391991,
+      "lon": -96.4463071
+    },
+    {
+      "type": "way",
+      "id": 1226754149,
+      "center": {
+        "lat": 41.3006046,
+        "lon": -99.9179255
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.3006046,
+      "lon": -99.9179255
+    },
+    {
+      "type": "way",
+      "id": 1228963304,
+      "center": {
+        "lat": 40.6809656,
+        "lon": -95.8476592
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Nebraska City # 1 Power Plant",
+        "operator": "City of Nebraska City",
+        "plant:method": "combustion",
+        "plant:output:electricity": "26.1 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "2255",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "1953-05"
+      },
+      "lat": 40.6809656,
+      "lon": -95.8476592
+    },
+    {
+      "type": "way",
+      "id": 1238678709,
+      "center": {
+        "lat": 42.2277133,
+        "lon": -97.018261
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Wayne IC Power Plant",
+        "operator": "City of Wayne",
+        "plant:method": "combustion",
+        "plant:output:electricity": "21.8 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "2312",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "1947-01"
+      },
+      "lat": 42.2277133,
+      "lon": -97.018261
+    },
+    {
+      "type": "way",
+      "id": 1238984851,
+      "center": {
+        "lat": 40.3882837,
+        "lon": -95.8463593
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Auburn Power Plant",
+        "operator": "Auburn Board of Public Works",
+        "plant:method": "combustion",
+        "plant:output:electricity": "18.7 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "2215",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "1949-06"
+      },
+      "lat": 40.3882837,
+      "lon": -95.8463593
+    },
+    {
+      "type": "way",
+      "id": 1253336605,
+      "center": {
+        "lat": 41.1231559,
+        "lon": -97.9994485
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.1231559,
+      "lon": -97.9994485
+    },
+    {
+      "type": "way",
+      "id": 1253336606,
+      "center": {
+        "lat": 41.1230398,
+        "lon": -97.9978421
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.1230398,
+      "lon": -97.9978421
+    },
+    {
+      "type": "way",
+      "id": 1260405832,
+      "center": {
+        "lat": 40.0125666,
+        "lon": -98.059101
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 40.0125666,
+      "lon": -98.059101
+    },
+    {
+      "type": "way",
+      "id": 1265003054,
+      "center": {
+        "lat": 40.6345132,
+        "lon": -100.508948
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Heating / Biomass Plant",
+        "power": "plant"
+      },
+      "lat": 40.6345132,
+      "lon": -100.508948
+    },
+    {
+      "type": "way",
+      "id": 1272267886,
+      "center": {
+        "lat": 41.853173,
+        "lon": -103.6597603
+      },
+      "tags": {
+        "name": "Scottsbluff Solar I",
+        "operator": "Nebraska Public Power District",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "128 kW",
+        "plant:source": "solar",
+        "power": "plant",
+        "start_date": "2017"
+      },
+      "lat": 41.853173,
+      "lon": -103.6597603
+    },
+    {
+      "type": "way",
+      "id": 1300878759,
+      "center": {
+        "lat": 41.4629632,
+        "lon": -97.0681561
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.4629632,
+      "lon": -97.0681561
+    },
+    {
+      "type": "way",
+      "id": 1305006972,
+      "center": {
+        "lat": 41.4519364,
+        "lon": -97.0459668
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.4519364,
+      "lon": -97.0459668
+    },
+    {
+      "type": "way",
+      "id": 1410191094,
+      "center": {
+        "lat": 41.4157206,
+        "lon": -97.2868567
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Columbus ADM power station",
+        "operator": "Archer Daniels Midland Co",
+        "plant:method": "combustion",
+        "plant:output:electricity": "71.4 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "57046",
+        "source": "https://www.gem.wiki/Columbus_ADM_power_station",
+        "start_date": "2010-05"
+      },
+      "lat": 41.4157206,
+      "lon": -97.2868567
+    },
+    {
+      "type": "way",
+      "id": 1430744547,
+      "center": {
+        "lat": 41.8328403,
+        "lon": -103.6396715
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.8328403,
+      "lon": -103.6396715
+    },
+    {
+      "type": "way",
+      "id": 1430748861,
+      "center": {
+        "lat": 41.813901,
+        "lon": -103.6394323
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.813901,
+      "lon": -103.6394323
+    },
+    {
+      "type": "way",
+      "id": 1431027589,
+      "center": {
+        "lat": 40.8277273,
+        "lon": -97.0788927
+      },
+      "tags": {
+        "name": "Ruby-Norris",
+        "operator": "Today's Power, Inc.",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "68714",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2023-10"
+      },
+      "lat": 40.8277273,
+      "lon": -97.0788927
+    },
+    {
+      "type": "way",
+      "id": 1436311041,
+      "center": {
+        "lat": 41.2570619,
+        "lon": -96.1925251
+      },
+      "tags": {
+        "landuse": "industrial",
+        "power": "plant"
+      },
+      "lat": 41.2570619,
+      "lon": -96.1925251
+    },
+    {
+      "type": "way",
+      "id": 1467144103,
+      "center": {
+        "lat": 41.3161452,
+        "lon": -96.0949299
+      },
+      "tags": {
+        "addr:city": "Omaha",
+        "addr:housenumber": "11401",
+        "addr:state": "NE",
+        "addr:street": "Military Road",
+        "barrier": "fence",
+        "name": "Standing Bear Lake Station",
+        "operator": "Omaha Public Power District",
+        "plant:method": "combustion",
+        "plant:output:electricity": "162.9 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "64548",
+        "source": "U.S. Energy Information Administration - EIA-860m - 2025",
+        "start_date": "2025-11"
+      },
+      "lat": 41.3161452,
+      "lon": -96.0949299
+    },
+    {
+      "type": "way",
+      "id": 1501229470,
+      "center": {
+        "lat": 41.1455329,
+        "lon": -102.977738
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Sidney Power Plant",
+        "operator": "City of Sidney Electric Department",
+        "plant:method": "combustion",
+        "plant:output:electricity": "5.1 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "start_date": "1949-01"
+      },
+      "lat": 41.1455329,
+      "lon": -102.977738
+    },
+    {
+      "type": "relation",
+      "id": 12226702,
+      "center": {
+        "lat": 41.2873142,
+        "lon": -103.7102675
+      },
+      "tags": {
+        "name": "Kimball Wind Farm",
+        "operator": "Kimball Wind, LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "30 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56106",
+        "site": "wind_farm",
+        "source": "Mapbox",
+        "start_date": "2018-06",
+        "type": "site"
+      },
+      "lat": 41.2873142,
+      "lon": -103.7102675
+    },
+    {
+      "type": "relation",
+      "id": 12281014,
+      "center": {
+        "lat": 42.4594955,
+        "lon": -99.9128426
+      },
+      "tags": {
+        "addr:city": "Ainsworth",
+        "addr:state": "NE",
+        "addr:street": "Wild Turkey Road",
+        "name": "Ainsworth Wind Farm",
+        "operator": "NPPD",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "59.4 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56162",
+        "site": "wind_farm",
+        "source": "Bing",
+        "start_date": "2005-10",
+        "type": "site"
+      },
+      "lat": 42.4594955,
+      "lon": -99.9128426
+    },
+    {
+      "type": "relation",
+      "id": 12284812,
+      "center": {
+        "lat": 41.4628312,
+        "lon": -99.5584158
+      },
+      "tags": {
+        "addr:city": "Broken Bow",
+        "addr:state": "NE",
+        "addr:street": "444 Road",
+        "name": "Broken Bow Wind Farm Phase I",
+        "operator": "NPPD",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "79.9 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57593",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2012-12",
+        "type": "site"
+      },
+      "lat": 41.4628312,
+      "lon": -99.5584158
+    },
+    {
+      "type": "relation",
+      "id": 12284835,
+      "center": {
+        "lat": 41.5061597,
+        "lon": -99.5663296
+      },
+      "tags": {
+        "addr:city": "Broken Bow",
+        "addr:state": "NE",
+        "addr:street": "Round Valley Road",
+        "name": "Broken Bow Wind Farm Phase II",
+        "operator": "NPPD",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "73.1 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "58981",
+        "site": "wind_farm",
+        "source": "Bing",
+        "start_date": "2014-10",
+        "type": "site"
+      },
+      "lat": 41.5061597,
+      "lon": -99.5663296
+    },
+    {
+      "type": "relation",
+      "id": 12305315,
+      "center": {
+        "lat": 42.6088575,
+        "lon": -98.4611118
+      },
+      "tags": {
+        "addr:city": "O'Neill",
+        "addr:housenumber": "88107",
+        "addr:postcode": "68763",
+        "addr:state": "NE",
+        "addr:street": "503rd Avenue",
+        "name": "Grande Prairie Wind Farm",
+        "operator": "Berkshire Hathaway Energy;OPPD",
+        "owner": "Allianz; BHE Renewables",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "400 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "58695",
+        "site": "wind_farm",
+        "source": "Mapbox;USWTDB",
+        "start_date": "2016-12",
+        "type": "site",
+        "wikidata": "Q65063622",
+        "wikipedia": "en:Grande Prairie Wind Farm"
+      },
+      "lat": 42.6088575,
+      "lon": -98.4611118
+    },
+    {
+      "type": "relation",
+      "id": 12336760,
+      "center": {
+        "lat": 42.673733,
+        "lon": -97.6619771
+      },
+      "tags": {
+        "addr:city": "Bloomfield",
+        "addr:county": "Knox, NE",
+        "addr:state": "NE",
+        "name": "Elkhorn Ridge Wind Farm",
+        "operator": "Elkhorn Ridge Wind LLC;NPPD",
+        "owner": "Edison Mission Group",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "81 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56947",
+        "site": "wind_farm",
+        "source": "Mapbox",
+        "start_date": "2009-03",
+        "type": "site"
+      },
+      "lat": 42.673733,
+      "lon": -97.6619771
+    },
+    {
+      "type": "relation",
+      "id": 12343531,
+      "center": {
+        "lat": 42.6994471,
+        "lon": -97.5759443
+      },
+      "tags": {
+        "addr:city": "Crofton",
+        "addr:county": "Knox, NE",
+        "addr:state": "NE",
+        "developer": "Edison Mission Group (EMG);NPPD",
+        "name": "Crofton Bluffs Wind Farm",
+        "operator": "Crofton Bluffs Wind LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "40 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57278",
+        "site": "wind_farm",
+        "source": "Mapbox;USWTDB",
+        "start_date": "2012-11",
+        "type": "site"
+      },
+      "lat": 42.6994471,
+      "lon": -97.5759443
+    },
+    {
+      "type": "relation",
+      "id": 13730325,
+      "center": {
+        "lat": 42.3819944,
+        "lon": -96.8354464
+      },
+      "tags": {
+        "name": "Rattlesnake Creek Wind Project",
+        "plant:output:electricity": "318.1 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "59292",
+        "start_date": "2019-01",
+        "type": "site"
+      },
+      "lat": 42.3819944,
+      "lon": -96.8354464
+    },
+    {
+      "type": "relation",
+      "id": 13736414,
+      "center": {
+        "lat": 42.1458988,
+        "lon": -97.2248086
+      },
+      "tags": {
+        "name": "Plum Creek Wind Farm",
+        "operator": "Plum Creek Wind, LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "230 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "62711",
+        "start_date": "2020-06",
+        "type": "site"
+      },
+      "lat": 42.1458988,
+      "lon": -97.2248086
+    },
+    {
+      "type": "relation",
+      "id": 13736415,
+      "center": {
+        "lat": 42.27475,
+        "lon": -97.3132119
+      },
+      "tags": {
+        "name": "Sholes Wind Energy Center",
+        "plant:output:electricity": "160 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "61889",
+        "start_date": "2019-11",
+        "type": "site"
+      },
+      "lat": 42.27475,
+      "lon": -97.3132119
+    },
+    {
+      "type": "relation",
+      "id": 13741048,
+      "center": {
+        "lat": 42.1779414,
+        "lon": -98.022802
+      },
+      "tags": {
+        "name": "Upstream Wind Energy",
+        "plant:output:electricity": "202.5 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "61784",
+        "start_date": "2018-12",
+        "type": "site"
+      },
+      "lat": 42.1779414,
+      "lon": -98.022802
+    },
+    {
+      "type": "relation",
+      "id": 13753063,
+      "center": {
+        "lat": 41.9758595,
+        "lon": -97.9891399
+      },
+      "tags": {
+        "name": "Prairie Breeze III",
+        "note": "wind turbines allocated via visible collector line paths during construction; might not be fully correct and needs to be checked via on the ground survey",
+        "plant:output:electricity": "35.8 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "60314",
+        "start_date": "2016-04",
+        "type": "site"
+      },
+      "lat": 41.9758595,
+      "lon": -97.9891399
+    },
+    {
+      "type": "relation",
+      "id": 13753064,
+      "center": {
+        "lat": 41.9311548,
+        "lon": -97.9452457
+      },
+      "tags": {
+        "name": "Prairie Breeze II",
+        "note": "wind turbines allocated via visible collector line paths during construction; might not be fully correct and needs to be checked via on the ground survey",
+        "plant:output:electricity": "73.4 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "60262",
+        "start_date": "2015-10",
+        "type": "site"
+      },
+      "lat": 41.9311548,
+      "lon": -97.9452457
+    },
+    {
+      "type": "relation",
+      "id": 13753065,
+      "center": {
+        "lat": 41.9308368,
+        "lon": -98.0830414
+      },
+      "tags": {
+        "name": "Prairie Breeze",
+        "plant:output:electricity": "206.5 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "58322",
+        "start_date": "2014-05",
+        "type": "site"
+      },
+      "lat": 41.9308368,
+      "lon": -98.0830414
+    },
+    {
+      "type": "relation",
+      "id": 13797441,
+      "center": {
+        "lat": 41.8751482,
+        "lon": -98.0220767
+      },
+      "tags": {
+        "name": "Laredo Ridge Wind",
+        "plant:output:electricity": "79.9 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57262",
+        "start_date": "2011-02",
+        "type": "site"
+      },
+      "lat": 41.8751482,
+      "lon": -98.0220767
+    },
+    {
+      "type": "relation",
+      "id": 13797442,
+      "center": {
+        "lat": 41.8612878,
+        "lon": -97.9662483
+      },
+      "tags": {
+        "name": "TPW Petersburg",
+        "plant:output:electricity": "40.5 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57755",
+        "start_date": "2011-11",
+        "type": "site"
+      },
+      "lat": 41.8612878,
+      "lon": -97.9662483
+    },
+    {
+      "type": "relation",
+      "id": 13797541,
+      "center": {
+        "lat": 40.5024913,
+        "lon": -97.223432
+      },
+      "tags": {
+        "name": "Milligan 1 Wind Farm",
+        "operator": "EDF Renewables",
+        "operator:wikidata": "Q3045868",
+        "plant:output:electricity": "300 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "64377",
+        "site": "wind_farm",
+        "source": "https://www.edf-re.com/project/milligan-1-wind-project/",
+        "start_date": "2020-12",
+        "type": "site"
+      },
+      "lat": 40.5024913,
+      "lon": -97.223432
+    },
+    {
+      "type": "relation",
+      "id": 13799906,
+      "center": {
+        "lat": 40.2773909,
+        "lon": -98.4280933
+      },
+      "tags": {
+        "name": "Cottonwood Wind Energy Center",
+        "plant:output:electricity": "89.7 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "61407",
+        "start_date": "2017-11",
+        "type": "site"
+      },
+      "lat": 40.2773909,
+      "lon": -98.4280933
+    },
+    {
+      "type": "relation",
+      "id": 14126679,
+      "center": {
+        "lat": 40.0095954,
+        "lon": -95.9089935
+      },
+      "tags": {
+        "name": "Flat Water Wind Farm",
+        "operator": "Flat Water Wind Farm LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "60 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57283",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2010-12",
+        "type": "site"
+      },
+      "lat": 40.0095954,
+      "lon": -95.9089935
+    },
+    {
+      "type": "relation",
+      "id": 14159685,
+      "center": {
+        "lat": 41.1652963,
+        "lon": -97.5700951
+      },
+      "tags": {
+        "name": "Polk County Renewables",
+        "operator": "Polk County Renewables, LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "2.5 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "62333",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2018-12",
+        "type": "site"
+      },
+      "lat": 41.1652963,
+      "lon": -97.5700951
+    },
+    {
+      "type": "relation",
+      "id": 14159686,
+      "center": {
+        "lat": 40.0446786,
+        "lon": -96.9340146
+      },
+      "tags": {
+        "name": "Steele Flats Wind Farm",
+        "operator": "Steele Flats Wind Project LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "74.8 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "58594",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2013-10",
+        "type": "site"
+      },
+      "lat": 40.0446786,
+      "lon": -96.9340146
+    },
+    {
+      "type": "relation",
+      "id": 14159687,
+      "center": {
+        "lat": 40.8953244,
+        "lon": -97.1877408
+      },
+      "tags": {
+        "name": "Seward Wind Farm",
+        "operator": "Seward Wind LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "1.7 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "61056",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2017-12",
+        "type": "site"
+      },
+      "lat": 40.8953244,
+      "lon": -97.1877408
+    },
+    {
+      "type": "relation",
+      "id": 14159696,
+      "center": {
+        "lat": 40.5692288,
+        "lon": -98.3345193
+      },
+      "tags": {
+        "name": "CCC Hastings Wind Turbine",
+        "operator": "CCC Hastings Renewable Energy, LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "1.7 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "60931",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2016-12",
+        "type": "site"
+      },
+      "lat": 40.5692288,
+      "lon": -98.3345193
+    },
+    {
+      "type": "relation",
+      "id": 14159700,
+      "center": {
+        "lat": 40.6328896,
+        "lon": -97.6282185
+      },
+      "tags": {
+        "name": "Perennial Windfarm",
+        "operator": "Perennial Wind, LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "6.9 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "61677",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2018-07",
+        "type": "site"
+      },
+      "lat": 40.6328896,
+      "lon": -97.6282185
+    },
+    {
+      "type": "relation",
+      "id": 14159701,
+      "center": {
+        "lat": 40.9037599,
+        "lon": -96.6248351
+      },
+      "tags": {
+        "name": "Salt Valley Wind Plant",
+        "operator": "Lincoln Electric System",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "1.2 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "7965",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1998-12",
+        "type": "site"
+      },
+      "lat": 40.9037599,
+      "lon": -96.6248351
+    },
+    {
+      "type": "relation",
+      "id": 14167401,
+      "center": {
+        "lat": 42.0381594,
+        "lon": -98.2341671
+      },
+      "tags": {
+        "name": "Thunderhead Wind Energy",
+        "operator": "Invenergy Services LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "300 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "62956",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "type": "site"
+      },
+      "lat": 42.0381594,
+      "lon": -98.2341671
+    },
+    {
+      "type": "relation",
+      "id": 14167402,
+      "center": {
+        "lat": 41.6776279,
+        "lon": -97.3853231
+      },
+      "tags": {
+        "name": "Creston Ridge Wind Farm",
+        "operator": "Creston Ridge, LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "6.8 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "60932",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2015-12",
+        "type": "site"
+      },
+      "lat": 41.6776279,
+      "lon": -97.3853231
+    },
+    {
+      "type": "relation",
+      "id": 14167403,
+      "center": {
+        "lat": 41.6775397,
+        "lon": -97.4026716
+      },
+      "tags": {
+        "name": "Creston Ridge II Wind Farm",
+        "operator": "Creston Ridge II, LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "6.9 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "61668",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2017-06",
+        "type": "site"
+      },
+      "lat": 41.6775397,
+      "lon": -97.4026716
+    },
+    {
+      "type": "relation",
+      "id": 14167404,
+      "center": {
+        "lat": 42.0199876,
+        "lon": -96.8618578
+      },
+      "tags": {
+        "name": "Cuming County Renewables",
+        "operator": "Cuming County Renewables. LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "2.5 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "63393",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2019-12",
+        "type": "site"
+      },
+      "lat": 42.0199876,
+      "lon": -96.8618578
+    },
+    {
+      "type": "relation",
+      "id": 14167406,
+      "center": {
+        "lat": 42.8264814,
+        "lon": -99.776039
+      },
+      "tags": {
+        "name": "Springview",
+        "operator": "Bluestem LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "3 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "7771",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2011-06",
+        "type": "site"
+      },
+      "lat": 42.8264814,
+      "lon": -99.776039
+    },
+    {
+      "type": "relation",
+      "id": 14460008,
+      "center": {
+        "lat": 41.4283176,
+        "lon": -96.4572488
+      },
+      "tags": {
+        "name": "Lon D Wright Power Plant",
+        "operator": "City of Freemont, Nebraska",
+        "plant:output:electricity": "172.3 MW",
+        "plant:source": "solar;coal;gas",
+        "power": "plant",
+        "ref:US:EIA": "2240",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "1957-08",
+        "type": "multipolygon",
+        "wikidata": "Q24061848"
+      },
+      "lat": 41.4283176,
+      "lon": -96.4572488
+    },
+    {
+      "type": "relation",
+      "id": 15518940,
+      "center": {
+        "lat": 40.3135013,
+        "lon": -98.9585793
+      },
+      "tags": {
+        "name": "Franklin County Wind Project",
+        "operator": "SPPW1, LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "5.6 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "66195",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2022-07",
+        "type": "site"
+      },
+      "lat": 40.3135013,
+      "lon": -98.9585793
+    },
+    {
+      "type": "relation",
+      "id": 15767490,
+      "center": {
+        "lat": 42.8603864,
+        "lon": -100.6222929
+      },
+      "tags": {
+        "name": "Valentine Wind, LLC",
+        "operator": "Valentine Wind, LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "1.9 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "59736",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2014-09",
+        "type": "site"
+      },
+      "lat": 42.8603864,
+      "lon": -100.6222929
+    },
+    {
+      "type": "relation",
+      "id": 17027113,
+      "center": {
+        "lat": 40.2617367,
+        "lon": -98.6626718
+      },
+      "tags": {
+        "name": "Little Blue Wind Energy Center",
+        "operator": "NextEra Energy",
+        "operator:wikidata": "Q967868",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "250.7 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "64336",
+        "site": "wind_farm",
+        "source": "https://www.nexteraenergyresources.com/little-blue-wind/project-overview.html",
+        "start_date": "2021-12",
+        "type": "site"
+      },
+      "lat": 40.2617367,
+      "lon": -98.6626718
+    },
+    {
+      "type": "relation",
+      "id": 17387436,
+      "center": {
+        "lat": 42.2641395,
+        "lon": -97.1935237
+      },
+      "tags": {
+        "name": "Haystack Wind Project",
+        "operator": "Haystack Wind Project, LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "298 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "64139",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2022-03",
+        "type": "site"
+      },
+      "lat": 42.2641395,
+      "lon": -97.1935237
+    },
+    {
+      "type": "relation",
+      "id": 18033169,
+      "center": {
+        "lat": 40.3610702,
+        "lon": -95.6426247
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Cooper Nuclear Power Station",
+        "operator": "Nebraska Public Power District",
+        "plant:method": "fission",
+        "plant:output:electricity": "801 MW",
+        "plant:source": "nuclear",
+        "power": "plant",
+        "ref:US:EIA": "8036",
+        "start_date": "1974-03",
+        "type": "multipolygon",
+        "wikidata": "Q1739383",
+        "wikipedia": "en:Cooper Nuclear Station"
+      },
+      "lat": 40.3610702,
+      "lon": -95.6426247
+    }
+  ]
+}

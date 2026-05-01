@@ -1,0 +1,256 @@
+{
+  "source": {
+    "name": "EIA Form 861 Annual Electric Power Industry Report (2024)",
+    "year": 2024,
+    "state": "Arizona",
+    "methodology": "Utility annual electricity sales (MWh) from Sales_Ult_Cust worksheet distributed equally across each utility's Arizona service counties (Service_Territory worksheet). County centroid geometry from US Census GeoJSON.",
+    "workbook": "Sales_Ult_Cust_2024.xlsx + Service_Territory_2024.xlsx",
+    "workbook_url": "https://www.eia.gov/electricity/data/eia861/zip/f8612024.zip",
+    "download_page": "https://www.eia.gov/electricity/data/eia861/",
+    "geometry_source": "https://raw.githubusercontent.com/plotly/datasets/master/geojson-counties-fips.json"
+  },
+  "count": 15,
+  "total_gwh_annual": 87228.4,
+  "elements": [
+    {
+      "type": "node",
+      "id": "consumer-county-001",
+      "lat": 35.612687,
+      "lon": -109.367861,
+      "tags": {
+        "name": "Apache County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "307.94",
+        "consumption:gwh:annual": "2697.57",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-003",
+      "lat": 31.916589,
+      "lon": -109.303522,
+      "tags": {
+        "name": "Cochise County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "815.98",
+        "consumption:gwh:annual": "7148.00",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-005",
+      "lat": 35.632357,
+      "lon": -112.216753,
+      "tags": {
+        "name": "Coconino County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "327.75",
+        "consumption:gwh:annual": "2871.12",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-007",
+      "lat": 33.864702,
+      "lon": -111.01687,
+      "tags": {
+        "name": "Gila County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "1573.92",
+        "consumption:gwh:annual": "13787.52",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-009",
+      "lat": 33.026977,
+      "lon": -109.990405,
+      "tags": {
+        "name": "Graham County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "306.75",
+        "consumption:gwh:annual": "2687.17",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-011",
+      "lat": 33.027423,
+      "lon": -109.109138,
+      "tags": {
+        "name": "Greenlee County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "600.97",
+        "consumption:gwh:annual": "5264.46",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-012",
+      "lat": 33.671764,
+      "lon": -114.333813,
+      "tags": {
+        "name": "La Paz County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "2.84",
+        "consumption:gwh:annual": "24.84",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-013",
+      "lat": 33.593589,
+      "lon": -112.035497,
+      "tags": {
+        "name": "Maricopa County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "1658.40",
+        "consumption:gwh:annual": "14527.62",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-015",
+      "lat": 35.775288,
+      "lon": -114.057137,
+      "tags": {
+        "name": "Mohave County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "425.25",
+        "consumption:gwh:annual": "3725.20",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-017",
+      "lat": 35.2383,
+      "lon": -110.168942,
+      "tags": {
+        "name": "Navajo County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "307.94",
+        "consumption:gwh:annual": "2697.57",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-019",
+      "lat": 32.099922,
+      "lon": -111.505657,
+      "tags": {
+        "name": "Pima County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "855.49",
+        "consumption:gwh:annual": "7494.10",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-021",
+      "lat": 32.976617,
+      "lon": -111.229831,
+      "tags": {
+        "name": "Pinal County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "1745.04",
+        "consumption:gwh:annual": "15286.56",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-023",
+      "lat": 31.518987,
+      "lon": -111.024606,
+      "tags": {
+        "name": "Santa Cruz County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "443.52",
+        "consumption:gwh:annual": "3885.20",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-025",
+      "lat": 34.694952,
+      "lon": -112.448874,
+      "tags": {
+        "name": "Yavapai County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "308.15",
+        "consumption:gwh:annual": "2699.36",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-027",
+      "lat": 32.79905,
+      "lon": -114.371873,
+      "tags": {
+        "name": "Yuma County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "277.63",
+        "consumption:gwh:annual": "2432.08",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    }
+  ]
+}

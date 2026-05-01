@@ -1,0 +1,3503 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-04-24T18:15:17Z",
+    "timestamp_areas_base": "2026-04-24T09:42:59Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 68286515,
+      "center": {
+        "lat": 39.4896254,
+        "lon": -75.7427471
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2021-10-14",
+        "fence_type": "chain_link",
+        "name": "Mount Pleasant Substation",
+        "note": "Reference the map on page 4.",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/2021/20211014/20211014-reliability-analysis-update.ashx",
+        "voltage": "138000"
+      },
+      "lat": 39.4896254,
+      "lon": -75.7427471
+    },
+    {
+      "type": "way",
+      "id": 68301618,
+      "center": {
+        "lat": 39.3950008,
+        "lon": -75.7534577
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2024-06-01",
+        "description": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2024/20241203/20241203-item-11---reliability-analysis-update.pdf",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Townsend Substation",
+        "note": "Refer to source 1 & 2 on page 11 & 40 map. Substation mapped via Bing Maps Aerial 2022. Street level photos indicate the operator.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2023/20231031/20231031-item-15---reliability-analysis-update.ashx;Bing Maps Aerial 6/4/2022 to 7/3/2022",
+        "substation": "minor_distribution",
+        "voltage": "138000;12470"
+      },
+      "lat": 39.3950008,
+      "lon": -75.7534577
+    },
+    {
+      "type": "way",
+      "id": 68848845,
+      "center": {
+        "lat": 38.4655094,
+        "lon": -75.583085
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2022-11-17",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Nelson Substation",
+        "note": "Refer to source 1 on page 3 map. Substation mapped via Bing Maps Aerial 2022. Street level photos confirm the operator.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/2022/20221117/item-05---dpl-supplemental-projects.ashx;Bing Maps Aerial 5/29/2022 to 7/3/2022",
+        "substation": "transmission",
+        "voltage": "138000;69000;12470"
+      },
+      "lat": 38.4655094,
+      "lon": -75.583085
+    },
+    {
+      "type": "way",
+      "id": 68890867,
+      "center": {
+        "lat": 38.5629929,
+        "lon": -75.5780245
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2022-11-17",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Laurel Substation",
+        "note": "Refer to source 1 on page 3 map. Substation mapped via Bing Maps Aerial 2022. Street level photos confirm the operator and substation name.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/2022/20221117/item-05---dpl-supplemental-projects.ashx;Bing Maps Aerial 5/29/2022 to 7/3/2022",
+        "substation": "minor_distribution",
+        "voltage": "69000;12470"
+      },
+      "lat": 38.5629929,
+      "lon": -75.5780245
+    },
+    {
+      "type": "way",
+      "id": 69468741,
+      "center": {
+        "lat": 38.5837731,
+        "lon": -75.2406739
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2020-01-01",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Indian River South Substation",
+        "note": "Refer to source 1 on page 2 map. Sign by the road by the other 230kv substation indicates that as being Indian River 230kv North Substation as such this must be South.  Substation mapped via Bing Maps Aerial 2022.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/20181207/20181207-phi-supplementals.ashx;Bing Maps Aerial 5/29/2022 to 7/3/2022",
+        "substation": "transmission",
+        "voltage": "230000;138000"
+      },
+      "lat": 38.5837731,
+      "lon": -75.2406739
+    },
+    {
+      "type": "way",
+      "id": 69468758,
+      "center": {
+        "lat": 38.5857176,
+        "lon": -75.2394627
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2018-12-07",
+        "fence_type": "chain_link",
+        "name": "Indian River Generation Substation",
+        "note": "Referenced the map on page 2 for information.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/20181207/20181207-phi-supplementals.ashx",
+        "substation": "distribution",
+        "voltage": "138000;69000"
+      },
+      "lat": 38.5857176,
+      "lon": -75.2394627
+    },
+    {
+      "type": "way",
+      "id": 69468764,
+      "center": {
+        "lat": 38.5856748,
+        "lon": -75.2435985
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2020-01-01",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Indian River North Substation",
+        "note": "Refer to source 1 on page 2 map. Sign out front on roadway indicates this is the Indian River North 230kv Substation. Substation mapped via Bing Maps Aerial 2022.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/20181207/20181207-phi-supplementals.ashx;Bing Maps Aerial 5/29/2022 to 7/3/2022",
+        "substation": "transmission",
+        "voltage": "230000;138000"
+      },
+      "lat": 38.5856748,
+      "lon": -75.2435985
+    },
+    {
+      "type": "way",
+      "id": 69576159,
+      "center": {
+        "lat": 38.53528,
+        "lon": -75.1742469
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2020-01-01",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Omar Substation",
+        "note": "Refer to source 1 on page 2 map. Substation mapped via Bing Maps Aerial 2022. Street level photos confirm the operator and substation name.",
+        "operator": "Delaware Electric Cooperative",
+        "operator:wikidata": "Q39057203",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/20181207/20181207-phi-supplementals.ashx;Bing Maps Aerial 5/29/2022 to 7/3/2022",
+        "substation": "minor_distribution",
+        "voltage": "138000;12470"
+      },
+      "lat": 38.53528,
+      "lon": -75.1742469
+    },
+    {
+      "type": "way",
+      "id": 69576162,
+      "center": {
+        "lat": 38.5238439,
+        "lon": -75.0628295
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2020-01-01",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Roxana Substation",
+        "note": "Refer to source 1 on page 2 map. Determined next door substation was Bethany which meant this was Roxana. Substation mapped via Bing Maps Aerial 2022. Street Level Photos indicate the operator of the substation. Substation must be 69kv with no 138kv feed.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/20181207/20181207-phi-supplementals.ashx;Bing Maps Aerial 5/29/2022 to 7/3/2022",
+        "substation": "minor_distribution",
+        "voltage": "69000;12470"
+      },
+      "lat": 38.5238439,
+      "lon": -75.0628295
+    },
+    {
+      "type": "way",
+      "id": 69576174,
+      "center": {
+        "lat": 38.5278897,
+        "lon": -75.1264123
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2020-01-01",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Bayard Substation",
+        "note": "Referenced the map on page 2 for information. Substation mapped via Bing Maps Aerial 2022. Street Level Photos indicate the name and operator of the substation. This is not listed on the map but helped to determine voltage.",
+        "operator": "Delaware Electric Cooperative",
+        "operator:wikidata": "Q39057203",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/20181207/20181207-phi-supplementals.ashx;Bing Maps Aerial 5/29/2022 to 7/3/2022",
+        "substation": "distribution",
+        "voltage": "138000;69000"
+      },
+      "lat": 38.5278897,
+      "lon": -75.1264123
+    },
+    {
+      "type": "way",
+      "id": 69576185,
+      "center": {
+        "lat": 38.5240357,
+        "lon": -75.0646061
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2020-01-01",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Bethany Substation",
+        "note": "Referenced the map on page 2 for information. Substation mapped via Bing Maps Aerial 2022. Street Level Photos indicate the operator of the substation. PJM planning tool indicates the line flow direction and confirms this as Bethany via Capacitor added.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/20181207/20181207-phi-supplementals.ashx;Bing Maps Aerial 5/29/2022 to 7/3/2022",
+        "substation": "distribution",
+        "voltage": "138000;69000"
+      },
+      "lat": 38.5240357,
+      "lon": -75.0646061
+    },
+    {
+      "type": "way",
+      "id": 69678656,
+      "center": {
+        "lat": 38.7135539,
+        "lon": -75.1916025
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2023-04-20",
+        "fence_type": "chain_link",
+        "name": "Robinsonville Substation",
+        "note": "Reference the map on page 3. Otherwise information confirmed via street level photos.",
+        "operator": "Deleware Electric Cooperative",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/2023/20230420/20230420-item-01---dpl-supplemental-projects.ashx",
+        "substation": "minor_distribution",
+        "voltage": "138000;12470"
+      },
+      "lat": 38.7135539,
+      "lon": -75.1916025
+    },
+    {
+      "type": "way",
+      "id": 69678684,
+      "center": {
+        "lat": 38.6760666,
+        "lon": -75.1671276
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2023-04-20",
+        "fence_type": "chain_link",
+        "name": "Angola Substation",
+        "note": "Refer to source 1 & 2 on page 3 & 2 map. Not indicated on map but street level photos continue the 138kv line from Robinsonville Substation. https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/20181207/20181207-phi-supplementals.ashx",
+        "operator": "Delaware Electric Cooperative",
+        "operator:wikidata": "Q39057203",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/2023/20230420/20230420-item-01---dpl-supplemental-projects.ashx",
+        "substation": "minor_distribution",
+        "voltage": "138000;12470"
+      },
+      "lat": 38.6760666,
+      "lon": -75.1671276
+    },
+    {
+      "type": "way",
+      "id": 69678685,
+      "center": {
+        "lat": 38.7087683,
+        "lon": -75.0966701
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2023-04-20",
+        "fence_type": "chain_link",
+        "name": "Renhoboth Substation",
+        "note": "Reference the map on page 3. Otherwise information confirmed via street level photos.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/2023/20230420/20230420-item-01---dpl-supplemental-projects.ashx",
+        "substation": "distribution",
+        "voltage": "138000;69000"
+      },
+      "lat": 38.7087683,
+      "lon": -75.0966701
+    },
+    {
+      "type": "way",
+      "id": 69809995,
+      "center": {
+        "lat": 38.8810117,
+        "lon": -75.3998621
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2022-01-01",
+        "description": "Second Source map on page 40= https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2024/20241203/20241203-item-11---reliability-analysis-update.pdf",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Milford Substation",
+        "note": "Refer to source 1 on page 3 map. Street level photos confirm the operator and substation name. Substation mapped via Bing Maps Aerial 2022.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/20190222/20190222-phi-supp.ashx;Bing Maps Aerial 5/29/2022 to 7/3/2022",
+        "substation": "transmission",
+        "voltage": "230000;138000"
+      },
+      "lat": 38.8810117,
+      "lon": -75.3998621
+    },
+    {
+      "type": "way",
+      "id": 69810004,
+      "center": {
+        "lat": 38.8821708,
+        "lon": -75.3986646
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2022-01-01",
+        "description": "Second Source map on page 40= https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2024/20241203/20241203-item-11---reliability-analysis-update.pdf",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Main Substation",
+        "note": "Refer to source 1 on page 3 map. Street level photos confirm the operator and substation name. Substation mapped via Bing Maps Aerial 2022. Substation not on map used for area reference.",
+        "operator": "City of Milford",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/20190222/20190222-phi-supp.ashx;Bing Maps Aerial 5/29/2022 to 7/3/2022",
+        "substation": "minor_distribution",
+        "voltage": "138000"
+      },
+      "lat": 38.8821708,
+      "lon": -75.3986646
+    },
+    {
+      "type": "way",
+      "id": 69812320,
+      "center": {
+        "lat": 38.6658608,
+        "lon": -75.6176078
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2022-11-17",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "North Seaford Substation",
+        "note": "Refer to source 1 on page 3 map. Substation mapped via Bing Maps Aerial 2022. Street level photos confirm the operator and map indicates name.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/2022/20221117/item-05---dpl-supplemental-projects.ashx;Bing Maps Aerial 5/29/2022 to 7/3/2022",
+        "substation": "distribution",
+        "voltage": "138000;69000;12470"
+      },
+      "lat": 38.6658608,
+      "lon": -75.6176078
+    },
+    {
+      "type": "way",
+      "id": 69824915,
+      "center": {
+        "lat": 38.7351838,
+        "lon": -75.6069751
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2022-11-17",
+        "fence_type": "chain_link",
+        "fixme": "Substation has had a mobile transformer for at least a year unsure if its a permeant feature or upgrade coming?",
+        "location": "outdoor",
+        "name": "Bridgeville Substation",
+        "note": "Refer to source 1 on page 3 map. Substation mapped via Bing Maps Aerial 2022. Street level photos confirm the operator and substation name.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/2022/20221117/item-05---dpl-supplemental-projects.ashx;Bing Maps Aerial 5/29/2022 to 7/3/2022",
+        "substation": "minor_distribution",
+        "voltage": "69000;12470"
+      },
+      "lat": 38.7351838,
+      "lon": -75.6069751
+    },
+    {
+      "type": "way",
+      "id": 69824917,
+      "center": {
+        "lat": 38.6837947,
+        "lon": -75.617702
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2022-11-17",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Taylor Substation",
+        "note": "Refer to source 1 on page 3 map. Substation mapped via Bing Maps Aerial 2022. Street level photos confirm the operator and substation name.",
+        "operator": "Delaware Electric Cooperative",
+        "operator:wikidata": "Q39057203",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/2022/20221117/item-05---dpl-supplemental-projects.ashx;Bing Maps Aerial 5/29/2022 to 7/3/2022",
+        "substation": "minor_distribution",
+        "voltage": "69000;12470"
+      },
+      "lat": 38.6837947,
+      "lon": -75.617702
+    },
+    {
+      "type": "way",
+      "id": 69824921,
+      "center": {
+        "lat": 38.8940379,
+        "lon": -75.5792722
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2022-01-01",
+        "description": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/20190222/20190222-phi-supp.ashx\nFinal=pg 40=https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2024/20241203/20241203-item-11---reliability-analysis-update.pdf",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "South Harrington Substation",
+        "note": "Refer to source 1 & 2 on page 3 map. Substation mapped via Bing Maps Aerial 2022. Street level photos confirm operator and substation name.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/2022/20221117/item-05---dpl-supplemental-projects.ashx;Bing Maps Aerial 5/29-7/3/2022",
+        "substation": "transmission",
+        "voltage": "138000;69000"
+      },
+      "lat": 38.8940379,
+      "lon": -75.5792722
+    },
+    {
+      "type": "way",
+      "id": 69963093,
+      "center": {
+        "lat": 39.4356967,
+        "lon": -75.7252988
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2021-10-14",
+        "fence_type": "chain_link",
+        "name": "Town of Middletown",
+        "note": "Reference the map on page 4. Information confirmed via street level photos.",
+        "operator": "Town of Middletown",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/2021/20211014/20211014-reliability-analysis-update.ashx;https://www.middletown.delaware.gov/departments/Electric",
+        "substation": "minor_distribution",
+        "voltage": "138000"
+      },
+      "lat": 39.4356967,
+      "lon": -75.7252988
+    },
+    {
+      "type": "way",
+      "id": 69963095,
+      "center": {
+        "lat": 39.0154268,
+        "lon": -75.5747817
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2022-01-01",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Felton Substation",
+        "note": "Refer to source 1, 2 on page 40 & 4 map for info. Substation mapped via Bing Maps Aerial 2022. https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/2021/20211014/20211014-reliability-analysis-update.ashx",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2024/20241203/20241203-item-11---reliability-analysis-update.pdf;Bing Maps Aerial 5/29-7/3/2022",
+        "substation": "minor_distribution",
+        "voltage": "138000;12470"
+      },
+      "lat": 39.0154268,
+      "lon": -75.5747817
+    },
+    {
+      "type": "way",
+      "id": 69963098,
+      "center": {
+        "lat": 39.2040877,
+        "lon": -75.5711418
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2021-10-14",
+        "fence_type": "chain_link",
+        "name": "Cheswold Substation",
+        "note": "Reference the map on page 4. Street level photos confirm the operator and substation name.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/2021/20211014/20211014-reliability-analysis-update.ashx",
+        "substation": "distribution",
+        "voltage": "138000;69000;12470"
+      },
+      "lat": 39.2040877,
+      "lon": -75.5711418
+    },
+    {
+      "type": "way",
+      "id": 71374985,
+      "center": {
+        "lat": 39.8011644,
+        "lon": -75.447117
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2019-09-24",
+        "fence_type": "chain_link",
+        "name": "Claymont Substation",
+        "note": "Referenced information from the map on page 12.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/20191021/20191021-reliability-analysis-update.ashx",
+        "substation": "distribution",
+        "voltage": "230000;69000"
+      },
+      "lat": 39.8011644,
+      "lon": -75.447117
+    },
+    {
+      "type": "way",
+      "id": 71516126,
+      "center": {
+        "lat": 39.612808,
+        "lon": -75.7715343
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2018-09-21",
+        "fence_type": "chain_link",
+        "name": "Glasgow Substation",
+        "note": "Referenced the map on page 5 and 29 for information. Street Level Photos indicate the name and operator of the substation.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/postings/2020/dpl-local-plan-submission-for-2020-rtep.ashx;https://www.pjm.com/-/media/committees-groups/committees/teac/2021/20210106/20210106-appendix-february-2021-board-teac-review.ash",
+        "substation": "minor_distribution",
+        "voltage": "138000;12470"
+      },
+      "lat": 39.612808,
+      "lon": -75.7715343
+    },
+    {
+      "type": "way",
+      "id": 71516148,
+      "center": {
+        "lat": 39.6338758,
+        "lon": -75.7264458
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2018-09-21",
+        "location": "outdoor",
+        "note": "Reference page 5 map for information.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/20180921/20180921-reliability-analysis-update.ashx",
+        "voltage": "138000"
+      },
+      "lat": 39.6338758,
+      "lon": -75.7264458
+    },
+    {
+      "type": "way",
+      "id": 71516164,
+      "center": {
+        "lat": 39.6333128,
+        "lon": -75.7307512
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2023-05-01",
+        "location": "outdoor",
+        "name": "Keeney Substation",
+        "note": "Reference the map on page 5 for information.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "500000;230000;138000"
+      },
+      "lat": 39.6333128,
+      "lon": -75.7307512
+    },
+    {
+      "type": "way",
+      "id": 71583187,
+      "center": {
+        "lat": 39.6929832,
+        "lon": -75.6938383
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2018-09-21",
+        "fence_type": "chain_link",
+        "name": "Harmony Substation",
+        "note": "Referenced the map on page 5 for information.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/20180921/20180921-reliability-analysis-update.ashx",
+        "substation": "distribution",
+        "voltage": "230000;138000"
+      },
+      "lat": 39.6929832,
+      "lon": -75.6938383
+    },
+    {
+      "type": "way",
+      "id": 71583374,
+      "center": {
+        "lat": 39.7750762,
+        "lon": -75.7133237
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2023-07-12",
+        "fence_type": "chain_link",
+        "name": "Valley Road Switch",
+        "note": "Referenced the map on page 11 for information. Potentially a former substation as it doesn't appear to have any transformers.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/postings/2023/peco-local-plan-submission-for-2023-rtep.ashx",
+        "voltage": "138000"
+      },
+      "lat": 39.7750762,
+      "lon": -75.7133237
+    },
+    {
+      "type": "way",
+      "id": 71583376,
+      "center": {
+        "lat": 39.6881104,
+        "lon": -75.7501709
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2018-09-21",
+        "fence_type": "chain_link",
+        "name": "Kershaw Substation",
+        "note": "Referenced the map on page 5 for information.",
+        "operator": "City of Newark",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/20180921/20180921-reliability-analysis-update.ashx",
+        "substation": "minor_distribution",
+        "voltage": "138000"
+      },
+      "lat": 39.6881104,
+      "lon": -75.7501709
+    },
+    {
+      "type": "way",
+      "id": 71583411,
+      "center": {
+        "lat": 39.7304249,
+        "lon": -75.6689773
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2019-11-18",
+        "fence_type": "chain_link",
+        "name": "Milltown Substation",
+        "note": "Referenced information from the map on page 4. Street level photos indicate the operator and substation name.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/20191118/20191118-reliability-analysis-update.ashx",
+        "substation": "minor_distribution",
+        "voltage": "138000;12470"
+      },
+      "lat": 39.7304249,
+      "lon": -75.6689773
+    },
+    {
+      "type": "way",
+      "id": 71583518,
+      "center": {
+        "lat": 39.7257029,
+        "lon": -75.6301395
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2018-09-21",
+        "fence_type": "chain_link",
+        "name": "Kiamensi Substation",
+        "note": "Referenced the map on page 5 for information.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/20180921/20180921-reliability-analysis-update.ashx",
+        "voltage": "138000"
+      },
+      "lat": 39.7257029,
+      "lon": -75.6301395
+    },
+    {
+      "type": "way",
+      "id": 71583534,
+      "center": {
+        "lat": 39.7284311,
+        "lon": -75.6285029
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation"
+      },
+      "lat": 39.7284311,
+      "lon": -75.6285029
+    },
+    {
+      "type": "way",
+      "id": 95131338,
+      "center": {
+        "lat": 39.4631495,
+        "lon": -75.5325869
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2023-09-14",
+        "fence_type": "chain_link",
+        "frequency": "60",
+        "location": "outdoor",
+        "name": "Salem Substation",
+        "note": "Reference page 3 for information.",
+        "operator": "Public Service Enterprise Group",
+        "operator:wikidata": "Q930919",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/2023/20230914/20230914-item-01---ace-supplemental-projects.ashx",
+        "substation": "transmission",
+        "voltage": "500000"
+      },
+      "lat": 39.4631495,
+      "lon": -75.5325869
+    },
+    {
+      "type": "way",
+      "id": 95131356,
+      "center": {
+        "lat": 39.4679756,
+        "lon": -75.5339087
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2023-09-14",
+        "fence_type": "chain_link",
+        "frequency": "60",
+        "location": "outdoor",
+        "name": "Hope Creek Substation",
+        "note": "Reference page 3 for information.",
+        "operator": "Public Service Enterprise Group",
+        "operator:wikidata": "Q930919",
+        "power": "substation",
+        "ref": "HOP",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/2023/20230914/20230914-item-01---ace-supplemental-projects.ashx",
+        "substation": "transmission",
+        "voltage": "500000;230000"
+      },
+      "lat": 39.4679756,
+      "lon": -75.5339087
+    },
+    {
+      "type": "way",
+      "id": 95133370,
+      "center": {
+        "lat": 39.6081429,
+        "lon": -75.6260117
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2020-11-04",
+        "fence_type": "chain_link",
+        "frequency": "60",
+        "name": "Red Lion Substation",
+        "note": "Reference page 2 for information.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/postings/2020/dpl-local-plan-submission-for-2020-rtep.ashx",
+        "substation": "transmission",
+        "voltage": "500000;230000;138000"
+      },
+      "lat": 39.6081429,
+      "lon": -75.6260117
+    },
+    {
+      "type": "way",
+      "id": 108984063,
+      "center": {
+        "lat": 39.7811055,
+        "lon": -75.5077707
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2019-11-18",
+        "fence_type": "chain_link",
+        "name": "Carrcroft Substation",
+        "note": "Referenced information from the map on page 4. Street level photos indicate the operator.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/20191118/20191118-reliability-analysis-update.ashx",
+        "substation": "distribution",
+        "voltage": "138000;69000;12470"
+      },
+      "lat": 39.7811055,
+      "lon": -75.5077707
+    },
+    {
+      "type": "way",
+      "id": 108984972,
+      "center": {
+        "lat": 39.8116194,
+        "lon": -75.4735725
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2019-09-24",
+        "fence_type": "chain_link",
+        "name": "Darley Substation",
+        "note": "Referenced information from the map on page 12.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/20191021/20191021-reliability-analysis-update.ashx",
+        "substation": "minor_distribution",
+        "voltage": "69000;12470"
+      },
+      "lat": 39.8116194,
+      "lon": -75.4735725
+    },
+    {
+      "type": "way",
+      "id": 108984975,
+      "center": {
+        "lat": 39.7970655,
+        "lon": -75.4987893
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2019-09-24",
+        "fence_type": "chain_link",
+        "name": "Silver Side Road Substation",
+        "note": "Referenced information from the map on page 12.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/20191021/20191021-reliability-analysis-update.ashx",
+        "substation": "minor_distribution",
+        "voltage": "69000;12470"
+      },
+      "lat": 39.7970655,
+      "lon": -75.4987893
+    },
+    {
+      "type": "way",
+      "id": 136248358,
+      "center": {
+        "lat": 39.689306,
+        "lon": -75.662501
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2018-09-21",
+        "location": "outdoor",
+        "name": "Churchmans Substation",
+        "note": "Reference the map on page 5 for information.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/20180921/20180921-reliability-analysis-update.ashx",
+        "voltage": "138000"
+      },
+      "lat": 39.689306,
+      "lon": -75.662501
+    },
+    {
+      "type": "way",
+      "id": 181212687,
+      "center": {
+        "lat": 39.696544,
+        "lon": -75.6031637
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2019-11-18",
+        "fence_type": "chain_link",
+        "name": "Basin Road Substation",
+        "note": "Referenced information from the map on page 4. Street level photos indicate the operator and substation name.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/20191118/20191118-reliability-analysis-update.ashx",
+        "voltage": "138000"
+      },
+      "lat": 39.696544,
+      "lon": -75.6031637
+    },
+    {
+      "type": "way",
+      "id": 225510412,
+      "center": {
+        "lat": 39.6583759,
+        "lon": -75.581168
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2018-09-21",
+        "fence_type": "chain_link",
+        "note": "Referenced information from the map on page 5.",
+        "operator": "City of New Castle",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/20180921/20180921-reliability-analysis-update.ashx",
+        "voltage": "138000"
+      },
+      "lat": 39.6583759,
+      "lon": -75.581168
+    },
+    {
+      "type": "way",
+      "id": 257703067,
+      "center": {
+        "lat": 38.6251843,
+        "lon": -75.1439735
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2023-04-20",
+        "fence_type": "chain_link",
+        "note": "Refer to source 1 & 2 on page 3 & 2 map. Not indicated on map but street level photos continue the 69kv line from Fairmont Substation. https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/20181207/20181207-phi-supplementals.ashx",
+        "operator": "Delaware Electric Cooperative",
+        "operator:wikidata": "Q39057203",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/2023/20230420/20230420-item-01---dpl-supplemental-projects.ashx",
+        "substation": "minor_distribution",
+        "voltage": "69000"
+      },
+      "lat": 38.6251843,
+      "lon": -75.1439735
+    },
+    {
+      "type": "way",
+      "id": 305644092,
+      "center": {
+        "lat": 39.1556824,
+        "lon": -75.4847544
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2021-11-01",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Horsepond Substation",
+        "note": "Refer to source 1 & 2 on pg 10 & 40 map. Substation mapped via Bing Maps Aerial 2022. Street level photos confirm the operator and substation name. Maps show area substations not actually this substation.",
+        "operator": "City of Dover",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/20171031/20171031-reliability-analysis-update.ashx;Bing Maps Aerial 6/4 to 7/3/2022",
+        "substation": "minor_distribution",
+        "voltage": "69000;12470"
+      },
+      "lat": 39.1556824,
+      "lon": -75.4847544
+    },
+    {
+      "type": "way",
+      "id": 305743929,
+      "center": {
+        "lat": 39.1511837,
+        "lon": -75.5588359
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2017-10-31",
+        "fence_type": "chain_link",
+        "name": "Kent Substation",
+        "note": "Referenced the map on page 12 for information. Street Level Photos indicate the name and operator of the substation.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/20171031/20171031-reliability-analysis-update.ashx",
+        "substation": "minor_distribution",
+        "voltage": "69000"
+      },
+      "lat": 39.1511837,
+      "lon": -75.5588359
+    },
+    {
+      "type": "way",
+      "id": 305743930,
+      "center": {
+        "lat": 39.1506888,
+        "lon": -75.5594915
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2017-10-31",
+        "fence_type": "chain_link",
+        "name": "Scuse Substation",
+        "note": "Referenced the map on page 12 for information. Street Level Photos indicate the name and operator of the substation. This substation is not on the map but adding for context of the area.",
+        "operator": "Deleware Electric Cooperative",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/20171031/20171031-reliability-analysis-update.ashx",
+        "substation": "minor_distribution",
+        "voltage": "69000"
+      },
+      "lat": 39.1506888,
+      "lon": -75.5594915
+    },
+    {
+      "type": "way",
+      "id": 305743931,
+      "center": {
+        "lat": 39.1506064,
+        "lon": -75.5487856
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2021-11-01",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "North Substation",
+        "note": "Refer to source 1 & 2 on page 10 & 40 map. Substation mapped via Bing Maps Aerial 2022. Maps show area substations not actually this substation. Street level photos confirm the operator and indicate the name.",
+        "operator": "City of Dover",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/20171031/20171031-reliability-analysis-update.ashx;Bing Maps Aerial 6/4 to 7/3/2022",
+        "substation": "minor_distribution",
+        "voltage": "69000;12470"
+      },
+      "lat": 39.1506064,
+      "lon": -75.5487856
+    },
+    {
+      "type": "way",
+      "id": 305809248,
+      "center": {
+        "lat": 38.918943,
+        "lon": -75.4737277
+      },
+      "tags": {
+        "addr:city": "Houston",
+        "addr:housenumber": "590",
+        "addr:postcode": "19954",
+        "addr:state": "DE",
+        "addr:street": "Holly Hill Road",
+        "barrier": "fence",
+        "name": "Kirby Substation",
+        "operator": "Delaware Electric Cooperative",
+        "operator:wikidata": "Q39057203",
+        "power": "substation",
+        "source": "esri/USA_NAD_Addresses"
+      },
+      "lat": 38.918943,
+      "lon": -75.4737277
+    },
+    {
+      "type": "way",
+      "id": 335980570,
+      "center": {
+        "lat": 39.7676556,
+        "lon": -75.4839654
+      },
+      "tags": {
+        "frequency": "25",
+        "name": "Bellevue Substation",
+        "operator": "Amtrak",
+        "operator:wikidata": "Q23239",
+        "power": "substation",
+        "ref": "12",
+        "substation": "traction",
+        "voltage": "138000"
+      },
+      "lat": 39.7676556,
+      "lon": -75.4839654
+    },
+    {
+      "type": "way",
+      "id": 350676126,
+      "center": {
+        "lat": 39.1946389,
+        "lon": -75.5324234
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2021-11-01",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "note": "Refer to source 1 & 2 on pg 10 & 40 map. Substation mapped via Bing Maps Aerial 2022. Maps show area substations not actually this substation.",
+        "operator": "City of Dover",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/20171031/20171031-reliability-analysis-update.ashx;Bing Maps Aerial 6/4 to 7/3/2022",
+        "substation": "minor_distribution",
+        "voltage": "69000;12470"
+      },
+      "lat": 39.1946389,
+      "lon": -75.5324234
+    },
+    {
+      "type": "way",
+      "id": 423189903,
+      "center": {
+        "lat": 38.9164863,
+        "lon": -75.5812254
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2022-01-01",
+        "description": "Second source on page 40 map= https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2024/20241203/20241203-item-11---reliability-analysis-update.pdf",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Harrington Substation",
+        "note": "Refer to source 1 on page 3 map. Substation mapped via Bing Maps Aerial 2022. Street level photos confirm operator and substation name.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/20190222/20190222-phi-supp.ashx;Bing Maps Aerial 5/29-7/3/2022",
+        "substation": "minor_distribution",
+        "voltage": "69000"
+      },
+      "lat": 38.9164863,
+      "lon": -75.5812254
+    },
+    {
+      "type": "way",
+      "id": 423257598,
+      "center": {
+        "lat": 39.0186797,
+        "lon": -75.5846197
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2022-01-01",
+        "description": "Second source on page 40 map= https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2024/20241203/20241203-item-11---reliability-analysis-update.pdf",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Wells Substation",
+        "note": "Refer to source 1 on page 3 map. Substation mapped via Bing Maps Aerial 2022. Street level photos confirm operator and substation name.",
+        "operator": "Delaware Electric Cooperative",
+        "operator:wikidata": "Q39057203",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/20190222/20190222-phi-supp.ashx;Bing Maps Aerial 6/4-7/3/2022",
+        "substation": "minor_distribution",
+        "voltage": "69000"
+      },
+      "lat": 39.0186797,
+      "lon": -75.5846197
+    },
+    {
+      "type": "way",
+      "id": 423485494,
+      "center": {
+        "lat": 38.8095166,
+        "lon": -75.5966232
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2022-11-17",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Kratz Substation",
+        "note": "Refer to source 1 on page 3 map. Substation mapped via Bing Maps Aerial 2022. Street level photos from 2023/2024 confirm the operator.",
+        "operator": "Delaware Electric Cooperative",
+        "operator:wikidata": "Q39057203",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/2022/20221117/item-05---dpl-supplemental-projects.ashx;Bing Maps Aerial 5/29/2022 to 7/3/2022",
+        "substation": "minor_distribution",
+        "voltage": "69000;12470"
+      },
+      "lat": 38.8095166,
+      "lon": -75.5966232
+    },
+    {
+      "type": "way",
+      "id": 428943952,
+      "center": {
+        "lat": 38.5582689,
+        "lon": -75.0691192
+      },
+      "tags": {
+        "addr:city": "Bethany Beach",
+        "addr:country": "US",
+        "addr:housenumber": "30670",
+        "addr:postcode": "19930",
+        "addr:state": "DE",
+        "addr:street": "Coastal Highway",
+        "barrier": "fence",
+        "check_date": "2020-01-01",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Cedar Neck Substation",
+        "note": "Refer to source 1 on page 2 map. Substation mapped via Bing Maps Aerial 2022.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/20181207/20181207-phi-supplementals.ashx;Bing Maps Aerial 5/29/2022 to 7/3/2022",
+        "substation": "minor_distribution",
+        "voltage": "69000;12470"
+      },
+      "lat": 38.5582689,
+      "lon": -75.0691192
+    },
+    {
+      "type": "way",
+      "id": 430454248,
+      "center": {
+        "lat": 38.7367431,
+        "lon": -75.2237529
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2023-04-20",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Lank Substation",
+        "note": "Refer to source 1 on page 3 map. Substation mapped via Bing Maps Aerial 2022. Street level photos confirm the operator and substation name.",
+        "operator": "Delaware Electric Cooperative",
+        "operator:wikidata": "Q39057203",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/2023/20230420/20230420-item-01---dpl-supplemental-projects.ashx;Bing Maps Aerial 5/29/2022 to 7/3/2022",
+        "substation": "minor_distribution",
+        "voltage": "69000;12470"
+      },
+      "lat": 38.7367431,
+      "lon": -75.2237529
+    },
+    {
+      "type": "way",
+      "id": 430456450,
+      "center": {
+        "lat": 38.7338486,
+        "lon": -75.2645498
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2023-04-20",
+        "fence_type": "chain_link",
+        "fixme": "Add the two 15 MVAR Capacitors when aerial imagery updates for the 69kv section.",
+        "location": "outdoor",
+        "name": "Cool Spring Substation",
+        "note": "Refer to source 1 on page 3 map. Substation mapped via Bing Maps Aerial 2022. Street level photos confirm the operator and substation name.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/2023/20230420/20230420-item-01---dpl-supplemental-projects.ashx;Bing Maps Aerial 5/29/2022 to 7/3/2022",
+        "substation": "transmission",
+        "voltage": "230000;69000"
+      },
+      "lat": 38.7338486,
+      "lon": -75.2645498
+    },
+    {
+      "type": "way",
+      "id": 430458694,
+      "center": {
+        "lat": 38.7453021,
+        "lon": -75.1803754
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2023-04-20",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Five Points Substation",
+        "note": "Refer to source 1 on page 3 map. Substation mapped via Bing Maps Aerial 2022. Street level photos confirm the operator and substation name.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/2023/20230420/20230420-item-01---dpl-supplemental-projects.ashx;Bing Maps Aerial 5/29/2022 to 7/3/2022",
+        "substation": "minor_distribution",
+        "voltage": "69000;12470"
+      },
+      "lat": 38.7453021,
+      "lon": -75.1803754
+    },
+    {
+      "type": "way",
+      "id": 434164280,
+      "center": {
+        "lat": 39.7316517,
+        "lon": -75.5383935
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2019-11-18",
+        "fence_type": "chain_link",
+        "name": "Christina Substation",
+        "note": "Referenced information from the map on page 4. Street level photos indicate the operator.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/20191118/20191118-reliability-analysis-update.ashx",
+        "voltage": "138000"
+      },
+      "lat": 39.7316517,
+      "lon": -75.5383935
+    },
+    {
+      "type": "way",
+      "id": 435110699,
+      "center": {
+        "lat": 39.7478469,
+        "lon": -75.5048562
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2019-11-18",
+        "fence_type": "chain_link",
+        "name": "Dupont Edgemoor Substation",
+        "note": "Referenced information from the map on page 2.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/postings/2021/ace-local-plan-submission-for-2021-rtep.ashx",
+        "voltage": "69000"
+      },
+      "lat": 39.7478469,
+      "lon": -75.5048562
+    },
+    {
+      "type": "way",
+      "id": 435224768,
+      "center": {
+        "lat": 39.7503349,
+        "lon": -75.5395482
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2019-11-18",
+        "fence_type": "chain_link",
+        "name": "Brandywine North Substation",
+        "note": "Referenced information from the map on page 4. Street level photos indicate the substation name.",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/20191118/20191118-reliability-analysis-update.ashx",
+        "voltage": "138000"
+      },
+      "lat": 39.7503349,
+      "lon": -75.5395482
+    },
+    {
+      "type": "way",
+      "id": 435224769,
+      "center": {
+        "lat": 39.749956,
+        "lon": -75.5389431
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2019-11-18",
+        "fence_type": "chain_link",
+        "name": "Brandywine South Substation",
+        "note": "Referenced information from the map on page 4. Street level photos indicate the substation name.",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/20191118/20191118-reliability-analysis-update.ashx",
+        "voltage": "138000"
+      },
+      "lat": 39.749956,
+      "lon": -75.5389431
+    },
+    {
+      "type": "way",
+      "id": 435511383,
+      "center": {
+        "lat": 39.740794,
+        "lon": -75.509537
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2019-09-24",
+        "fence_type": "chain_link",
+        "name": "Edgemoor Substation",
+        "note": "Referenced information from the map on page 12.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/20191021/20191021-reliability-analysis-update.ashx",
+        "substation": "transmission",
+        "voltage": "230000;138000"
+      },
+      "lat": 39.740794,
+      "lon": -75.509537
+    },
+    {
+      "type": "way",
+      "id": 435741256,
+      "center": {
+        "lat": 38.7578735,
+        "lon": -75.1563781
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2023-04-20",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "note": "Refer to source 1 on page 3 map. Substation mapped via Bing Maps Aerial 2022. Name remains unknown report: https://www.lewesbpwde.gov/wp-content/uploads/2020/05/9-Lewes-BPW-Electric-System-Analysis-and-Study.pdf",
+        "operator": "Lewes Board of Public Works",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/2023/20230420/20230420-item-01---dpl-supplemental-projects.ashx;Bing Maps Aerial 5/29/2022 to 7/3/2022",
+        "voltage": "69000"
+      },
+      "lat": 38.7578735,
+      "lon": -75.1563781
+    },
+    {
+      "type": "way",
+      "id": 435741257,
+      "center": {
+        "lat": 38.7717846,
+        "lon": -75.1377506
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2023-04-20",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Schley Ave/Lewes Substation",
+        "note": "Refer to source 1 on page 3 map. Substation mapped via Bing Maps Aerial 2022. Report: https://www.lewesbpwde.gov/wp-content/uploads/2020/05/9-Lewes-BPW-Electric-System-Analysis-and-Study.pdf Refer to page 10,17,30,32,33 for various info on the network.",
+        "operator": "Lewes Board of Public Works",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/2023/20230420/20230420-item-01---dpl-supplemental-projects.ashx;Bing Maps Aerial 5/29/2022 to 7/3/2022",
+        "substation": "minor_distribution",
+        "voltage": "69000;12470"
+      },
+      "lat": 38.7717846,
+      "lon": -75.1377506
+    },
+    {
+      "type": "way",
+      "id": 435742228,
+      "center": {
+        "lat": 38.7258762,
+        "lon": -75.2836564
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2021-01-01",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Harbeson Substation",
+        "note": "Refer to source 1 on page 3 map. Substation mapped via Bing Maps Aerial 2022. Street level photos confirm the operator and substation name.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/2023/20230420/20230420-item-01---dpl-supplemental-projects.ashx;Bing Maps Aerial 5/29/2022 to 7/3/2022",
+        "substation": "minor_distribution",
+        "voltage": "69000;12470"
+      },
+      "lat": 38.7258762,
+      "lon": -75.2836564
+    },
+    {
+      "type": "way",
+      "id": 436980385,
+      "center": {
+        "lat": 38.7434818,
+        "lon": -75.1526591
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2023-04-20",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Midway Substation",
+        "note": "Refer to source 1 on page 3 map. Substation mapped via Bing Maps Aerial 2022. Street level photos confirm the operator.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/2023/20230420/20230420-item-01---dpl-supplemental-projects.ashx;Bing Maps Aerial 5/29/2022 to 7/3/2022",
+        "substation": "minor_distribution",
+        "voltage": "69000;12470"
+      },
+      "lat": 38.7434818,
+      "lon": -75.1526591
+    },
+    {
+      "type": "way",
+      "id": 460660179,
+      "center": {
+        "lat": 38.6540464,
+        "lon": -75.2171606
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2023-04-20",
+        "fence_type": "chain_link",
+        "name": "Fairmont Substation",
+        "note": "Refer to source 1 & 2 on page 3 & 2 map. Not indicated on map but street level photos continue the 138kv line from Robinsonville Substation. https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/20181207/20181207-phi-supplementals.ashx",
+        "operator": "Delaware Electric Cooperative",
+        "operator:wikidata": "Q39057203",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/2023/20230420/20230420-item-01---dpl-supplemental-projects.ashx",
+        "substation": "distribution",
+        "voltage": "138000;69000;12470"
+      },
+      "lat": 38.6540464,
+      "lon": -75.2171606
+    },
+    {
+      "type": "way",
+      "id": 461962322,
+      "center": {
+        "lat": 38.5969565,
+        "lon": -75.2905317
+      },
+      "tags": {
+        "addr:city": "Millsboro",
+        "addr:housenumber": "30007",
+        "addr:postcode": "19966",
+        "addr:state": "DE",
+        "addr:street": "John J Williams Highway",
+        "barrier": "fence",
+        "check_date": "2021-01-01",
+        "description": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/postings/2023/dpl-local-plan-submission-for-2023-rtep.pdf",
+        "fence_type": "chain_link",
+        "fixme": "Substation currently undergoing a project to add a second transformer aerial imagery doesn't reflect this addition. portal change for entrance for Indian River to Millsboro 69kv line between 2023-2024.",
+        "location": "outdoor",
+        "name": "Millsboro Substation",
+        "note": "Refer to source 1 & 3 on page 2 map. Substation mapped via Bing Maps Aerial 2022. Street level photos confirm the operator and substation name.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/20181207/20181207-phi-supplementals.ashx;Bing Maps Aerial 5/29/2022 to 7/3/2022",
+        "substation": "minor_distribution",
+        "voltage": "69000;12470"
+      },
+      "lat": 38.5969565,
+      "lon": -75.2905317
+    },
+    {
+      "type": "way",
+      "id": 469112094,
+      "center": {
+        "lat": 38.6094952,
+        "lon": -75.5213397
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2022-11-17",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Mumford Substation",
+        "note": "Refer to source 1 on page 3 map. Substation and line not indicated on map. Substation mapped via Bing Maps Aerial 2022. Street level photos confirm the operator and substation name.",
+        "operator": "Delaware Electric Cooperative",
+        "operator:wikidata": "Q39057203",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/2022/20221117/item-05---dpl-supplemental-projects.ashx;Bing Maps Aerial 5/29/2022 to 7/3/2022",
+        "substation": "minor_distribution",
+        "voltage": "69000;12470"
+      },
+      "lat": 38.6094952,
+      "lon": -75.5213397
+    },
+    {
+      "type": "way",
+      "id": 470162804,
+      "center": {
+        "lat": 38.5664359,
+        "lon": -75.3789114
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2022-11-17",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Conaway Substation",
+        "note": "Refer to source 1 on page 3 map. Substation mapped via Bing Maps Aerial 2022. Substation is two separate yards and operators. Street level photos confirm the operator and map indicates name.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/2022/20221117/item-05---dpl-supplemental-projects.ashx;Bing Maps Aerial 5/29/2022 to 7/3/2022",
+        "substation": "transmission",
+        "voltage": "138000"
+      },
+      "lat": 38.5664359,
+      "lon": -75.3789114
+    },
+    {
+      "type": "way",
+      "id": 471832243,
+      "center": {
+        "lat": 38.8346457,
+        "lon": -75.3465335
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2023-04-20",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Bennett Substation",
+        "note": "Refer to source 1 on page 3 map. Substation/line not indicated on map but connects into the 69kv section of Lank substation. Substation mapped via Bing Maps Aerial 2022. Street level photos confirm the operator and substation name.",
+        "operator": "Delaware Electric Cooperative",
+        "operator:wikidata": "Q39057203",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/2023/20230420/20230420-item-01---dpl-supplemental-projects.ashx;Bing Maps Aerial 5/29/2022 to 7/3/2022",
+        "substation": "minor_distribution",
+        "voltage": "69000;12470"
+      },
+      "lat": 38.8346457,
+      "lon": -75.3465335
+    },
+    {
+      "type": "way",
+      "id": 471952775,
+      "center": {
+        "lat": 38.4746629,
+        "lon": -75.1139474
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2020-01-01",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "note": "Referenced the map on page 2 for information. Substation mapped via Bing Maps Aerial 2022. Street Level Photos indicate the operator of the substation. This is not listed on the map but helped to determine voltage.",
+        "operator": "Delaware Electric Cooperative",
+        "operator:wikidata": "Q39057203",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/20181207/20181207-phi-supplementals.ashx;Bing Maps Aerial 5/29/2022 to 7/3/2022",
+        "substation": "minor_distribution",
+        "voltage": "69000;12470"
+      },
+      "lat": 38.4746629,
+      "lon": -75.1139474
+    },
+    {
+      "type": "way",
+      "id": 480684580,
+      "center": {
+        "lat": 38.6652773,
+        "lon": -75.4135595
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2022-11-17",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Pepper Substation",
+        "note": "Reference the map on page 3. Street level photos confirm the operator and substation name.",
+        "operator": "Delaware Electric Cooperative",
+        "operator:wikidata": "Q39057203",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/2022/20221117/item-05---dpl-supplemental-projects.ashx;Bing Maps Aerial 5/29/2022 to 7/3/2022",
+        "substation": "minor_distribution",
+        "voltage": "69000;12470"
+      },
+      "lat": 38.6652773,
+      "lon": -75.4135595
+    },
+    {
+      "type": "way",
+      "id": 485556261,
+      "center": {
+        "lat": 39.8085688,
+        "lon": -75.5459883
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2019-11-18",
+        "fence_type": "chain_link",
+        "name": "Talleyville Substation",
+        "note": "Referenced information from the map on page 4. Street level photos indicate the operator and substation name.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/20191118/20191118-reliability-analysis-update.ashx",
+        "substation": "minor_distribution",
+        "voltage": "138000;12470"
+      },
+      "lat": 39.8085688,
+      "lon": -75.5459883
+    },
+    {
+      "type": "way",
+      "id": 506187866,
+      "center": {
+        "lat": 38.6963633,
+        "lon": -75.3795947
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2022-11-17",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Sussex Substation",
+        "note": "Reference the map on page 3. Street level photos confirm the operator.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/2022/20221117/item-05---dpl-supplemental-projects.ashx;Bing Maps Aerial 5/29/2022 to 7/3/2022",
+        "substation": "minor_distribution",
+        "voltage": "69000;12470"
+      },
+      "lat": 38.6963633,
+      "lon": -75.3795947
+    },
+    {
+      "type": "way",
+      "id": 508046770,
+      "center": {
+        "lat": 38.5243381,
+        "lon": -75.2460916
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2020-01-01",
+        "description": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/20090313/20090313-reliability-analysis-update.ashx https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/2022/20221117/item-01---reliability-analysis-update.ashx",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Frankford Substation",
+        "note": "Refer to source 1, 2 & 3 on page 2, 11 & 3 map. Substation mapped via Bing Maps Aerial 2022. Street level photos confirm operator.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/20181207/20181207-phi-supplementals.ashx;Bing Maps Aerial 5/29 to 7/3/2022",
+        "substation": "minor_distribution",
+        "voltage": "138000"
+      },
+      "lat": 38.5243381,
+      "lon": -75.2460916
+    },
+    {
+      "type": "way",
+      "id": 527031600,
+      "center": {
+        "lat": 38.6626555,
+        "lon": -75.6125081
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2022-11-17",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Seaford Substation",
+        "note": "Refer to map on page 3 & Source 2 for info. Given lack of signage and this being located in Seaford its seems likely this substation is owned/operated by Seaford Electric Department. Substation mapped via Bing Maps Aerial 2022.",
+        "operator": "Seaford Electric",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/2022/20221117/item-05---dpl-supplemental-projects.ashx;https://www.seafordde.com/government/departments_offices/electric;Bing Maps Aerial 5/29-7/3/2022",
+        "substation": "minor_distribution",
+        "voltage": "69000;12470"
+      },
+      "lat": 38.6626555,
+      "lon": -75.6125081
+    },
+    {
+      "type": "way",
+      "id": 527395306,
+      "center": {
+        "lat": 39.2021569,
+        "lon": -75.4692938
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2014-09-24",
+        "fence_type": "chain_link",
+        "name": "Cartanza Substation",
+        "note": "Referenced information from the map on page 34.",
+        "operator": "City of Dover",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/20141006/20140924-reliability-analysis-update.ashx",
+        "substation": "distribution",
+        "voltage": "230000;69000"
+      },
+      "lat": 39.2021569,
+      "lon": -75.4692938
+    },
+    {
+      "type": "way",
+      "id": 527395308,
+      "center": {
+        "lat": 39.3740229,
+        "lon": -75.5628013
+      },
+      "tags": {
+        "addr:city": "Townsend",
+        "addr:housenumber": "673",
+        "addr:postcode": "19734",
+        "addr:state": "DE",
+        "addr:street": "Fleming Landing Road",
+        "barrier": "fence",
+        "check_date": "2023-09-14",
+        "fence_type": "chain_link",
+        "name": "Cedar Creek Substation",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "230000;138000"
+      },
+      "lat": 39.3740229,
+      "lon": -75.5628013
+    },
+    {
+      "type": "way",
+      "id": 536272640,
+      "center": {
+        "lat": 38.5313542,
+        "lon": -75.4107034
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2022-11-17",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Workman Substation",
+        "note": "Refer to source 1 on page 3 map. Substation and line not indicated on map. Substation mapped via Bing Maps Aerial 2022. Street level photos confirm the operator and substation name.",
+        "operator": "Delaware Electric Cooperative",
+        "operator:wikidata": "Q39057203",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/2022/20221117/item-05---dpl-supplemental-projects.ashx;Bing Maps Aerial 5/29/2022 to 7/3/2022",
+        "substation": "minor_distribution",
+        "voltage": "69000;12470"
+      },
+      "lat": 38.5313542,
+      "lon": -75.4107034
+    },
+    {
+      "type": "way",
+      "id": 538577690,
+      "center": {
+        "lat": 39.6086687,
+        "lon": -75.6291792
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2020-11-04",
+        "fence_type": "chain_link",
+        "frequency": "60",
+        "name": "Red Lion Substation",
+        "note": "Reference page 2 for information.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/postings/2020/dpl-local-plan-submission-for-2020-rtep.ashx",
+        "substation": "transmission",
+        "voltage": "230000;138000"
+      },
+      "lat": 39.6086687,
+      "lon": -75.6291792
+    },
+    {
+      "type": "way",
+      "id": 538577692,
+      "center": {
+        "lat": 39.6121158,
+        "lon": -75.6265629
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2020-11-04",
+        "fence_type": "chain_link",
+        "note": "Reference page 2 for information.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/postings/2020/dpl-local-plan-submission-for-2020-rtep.ashx",
+        "substation": "generation",
+        "voltage": "138000"
+      },
+      "lat": 39.6121158,
+      "lon": -75.6265629
+    },
+    {
+      "type": "way",
+      "id": 620945038,
+      "center": {
+        "lat": 39.5956975,
+        "lon": -75.6317516
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 39.5956975,
+      "lon": -75.6317516
+    },
+    {
+      "type": "way",
+      "id": 620945040,
+      "center": {
+        "lat": 39.5936472,
+        "lon": -75.6310226
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2020-11-04",
+        "fence_type": "chain_link",
+        "note": "Reference page 2 for information.",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/postings/2020/dpl-local-plan-submission-for-2020-rtep.ashx",
+        "voltage": "138000"
+      },
+      "lat": 39.5936472,
+      "lon": -75.6310226
+    },
+    {
+      "type": "way",
+      "id": 669383315,
+      "center": {
+        "lat": 39.6755267,
+        "lon": -75.7417734
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2018-09-21",
+        "fence_type": "chain_link",
+        "location": "overground",
+        "note": "Referenced the map on page 5 for information.",
+        "operator": "Newark Electric",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/20180921/20180921-reliability-analysis-update.ashx",
+        "substation": "minor_distribution",
+        "voltage": "26000"
+      },
+      "lat": 39.6755267,
+      "lon": -75.7417734
+    },
+    {
+      "type": "way",
+      "id": 669449451,
+      "center": {
+        "lat": 39.672607,
+        "lon": -75.7434004
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2018-09-21",
+        "fence_type": "chain_link",
+        "frequency": "25",
+        "name": "Davis Substation",
+        "note": "Referenced the map on page 5 for information.",
+        "operator": "Amtrak",
+        "operator:wikidata": "Q23239",
+        "power": "substation",
+        "ref": "14",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/20180921/20180921-reliability-analysis-update.ashx",
+        "substation": "traction",
+        "voltage": "138000"
+      },
+      "lat": 39.672607,
+      "lon": -75.7434004
+    },
+    {
+      "type": "way",
+      "id": 669565174,
+      "center": {
+        "lat": 39.6853136,
+        "lon": -75.741063
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2018-09-21",
+        "fence_type": "chain_link",
+        "note": "Referenced the map on page 5 for information.",
+        "operator": "Newark Electric",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/20180921/20180921-reliability-analysis-update.ashx",
+        "substation": "minor_distribution",
+        "voltage": "26000"
+      },
+      "lat": 39.6853136,
+      "lon": -75.741063
+    },
+    {
+      "type": "way",
+      "id": 670325704,
+      "center": {
+        "lat": 38.6510153,
+        "lon": -75.6188757
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2022-11-17",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Pine Street Switchyard",
+        "note": "Refer to map on page 3 & Source 2 for info. Given lack of signage and this being located in Seaford its seems likely this substation is owned/operated by Seaford Electric Department. Substation mapped via Bing Maps Aerial 2022.",
+        "operator": "Seaford Electric",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/2022/20221117/item-05---dpl-supplemental-projects.ashx;https://www.seafordde.com/government/departments_offices/electric;Bing Maps Aerial 5/29-7/3/2022",
+        "substation": "minor_distribution",
+        "voltage": "69000"
+      },
+      "lat": 38.6510153,
+      "lon": -75.6188757
+    },
+    {
+      "type": "way",
+      "id": 682026541,
+      "center": {
+        "lat": 38.9215089,
+        "lon": -75.4470306
+      },
+      "tags": {
+        "addr:housenumber": "252",
+        "addr:street": "Milford Harrington Highway",
+        "barrier": "fence",
+        "check_date": "2022-01-01",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Milford Solar Farm Substation",
+        "note": "Refer to source 1, 2 on page 3 & 40 map for info. Substation mapped via Bing Maps Aerial 2022. Not indicated on map. https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2024/20241203/20241203-item-11---reliability-analysis-update.pdf",
+        "operator": "City of Milford",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/20190222/20190222-phi-supp.ashx;Bing Maps Aerial 5/29 to 7/3/2022",
+        "voltage": "138000"
+      },
+      "lat": 38.9215089,
+      "lon": -75.4470306
+    },
+    {
+      "type": "way",
+      "id": 684651565,
+      "center": {
+        "lat": 38.6306439,
+        "lon": -75.6245128
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2022-11-17",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Dupont Seaford Substation",
+        "note": "Refer to source 1 on page 3 map. Substation mapped via Bing Maps Aerial 2022.",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/2022/20221117/item-05---dpl-supplemental-projects.ashx;Bing Maps Aerial 5/29/2022 to 7/3/2022",
+        "substation": "industrial",
+        "voltage": "69000"
+      },
+      "lat": 38.6306439,
+      "lon": -75.6245128
+    },
+    {
+      "type": "way",
+      "id": 701197250,
+      "center": {
+        "lat": 38.523387,
+        "lon": -75.5726042
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2022-11-17",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Short Substation",
+        "note": "Refer to source 1 on page 3 map. Substation mapped via Bing Maps Aerial 2022. Street level photos confirm the operator and substation name.",
+        "operator": "Delaware Electric Cooperative",
+        "operator:wikidata": "Q39057203",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/2022/20221117/item-05---dpl-supplemental-projects.ashx;Bing Maps Aerial 5/29/2022 to 7/3/2022",
+        "substation": "minor_distribution",
+        "voltage": "69000;12470"
+      },
+      "lat": 38.523387,
+      "lon": -75.5726042
+    },
+    {
+      "type": "way",
+      "id": 719077366,
+      "center": {
+        "lat": 38.8464595,
+        "lon": -75.724379
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Hickman Substation",
+        "operator": "Choptank Electric Cooperative",
+        "power": "substation"
+      },
+      "lat": 38.8464595,
+      "lon": -75.724379
+    },
+    {
+      "type": "way",
+      "id": 765181164,
+      "center": {
+        "lat": 39.2865409,
+        "lon": -75.6309332
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2021-10-14",
+        "fence_type": "chain_link",
+        "name": "Clayton Substation",
+        "note": "Reference the map on page 4. Street level photos confirmed information.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/2021/20211014/20211014-reliability-analysis-update.ashx",
+        "voltage": "138000"
+      },
+      "lat": 39.2865409,
+      "lon": -75.6309332
+    },
+    {
+      "type": "way",
+      "id": 775110659,
+      "center": {
+        "lat": 39.137373,
+        "lon": -75.5406447
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2021-11-01",
+        "description": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2024/20241203/20241203-item-11---reliability-analysis-update.pdf",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Mayfair Substation",
+        "note": "Refer to source 1 & 2 on pg 10 & 40 map. Substation mapped via Bing Maps Aerial 2022. Street level photos confirm the operator and substation name. Maps show area substations not actually this substation.",
+        "operator": "City of Dover Electric Department",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/20171031/20171031-reliability-analysis-update.ashx;Bing Maps Aerial 6/4 to 7/3/2022",
+        "substation": "minor_distribution",
+        "voltage": "69000;12470"
+      },
+      "lat": 39.137373,
+      "lon": -75.5406447
+    },
+    {
+      "type": "way",
+      "id": 816591938,
+      "center": {
+        "lat": 39.7144963,
+        "lon": -75.7403341
+      },
+      "tags": {
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation"
+      },
+      "lat": 39.7144963,
+      "lon": -75.7403341
+    },
+    {
+      "type": "way",
+      "id": 821221698,
+      "center": {
+        "lat": 39.6721752,
+        "lon": -75.5603399
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2018-09-21",
+        "fence_type": "chain_link",
+        "note": "Referenced information from the map on page 5.",
+        "operator": "City of New Castle",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/20180921/20180921-reliability-analysis-update.ashx",
+        "voltage": "138000"
+      },
+      "lat": 39.6721752,
+      "lon": -75.5603399
+    },
+    {
+      "type": "way",
+      "id": 821258752,
+      "center": {
+        "lat": 39.6764307,
+        "lon": -75.5586354
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 39.6764307,
+      "lon": -75.5586354
+    },
+    {
+      "type": "way",
+      "id": 821266226,
+      "center": {
+        "lat": 39.760672,
+        "lon": -75.555196
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2021-10-31",
+        "fence_type": "chain_link",
+        "note": "Referenced information from the map on page 2.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/postings/2021/ace-local-plan-submission-for-2021-rtep.ashx",
+        "substation": "transition",
+        "voltage": "138000"
+      },
+      "lat": 39.760672,
+      "lon": -75.555196
+    },
+    {
+      "type": "way",
+      "id": 839610557,
+      "center": {
+        "lat": 39.2787397,
+        "lon": -75.6245324
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2021-11-18",
+        "fence_type": "chain_link",
+        "name": "Demec NUG",
+        "note": "Referenced information from the map on page 4.",
+        "operator": "DEMEC",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/2021/20211118/20211118-item-03-reliability-analysis-update.ashx",
+        "substation": "generation",
+        "voltage": "138000"
+      },
+      "lat": 39.2787397,
+      "lon": -75.6245324
+    },
+    {
+      "type": "way",
+      "id": 839610559,
+      "center": {
+        "lat": 39.2800229,
+        "lon": -75.6245642
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2021-10-14",
+        "fence_type": "chain_link",
+        "name": "Smyrna Substation",
+        "note": "Reference the map on page 4. Street level photos confirmed information.",
+        "operator": "Town of Smyrna",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/2021/20211014/20211014-reliability-analysis-update.ashx",
+        "substation": "minor_distribution",
+        "voltage": "138000"
+      },
+      "lat": 39.2800229,
+      "lon": -75.6245642
+    },
+    {
+      "type": "way",
+      "id": 839610561,
+      "center": {
+        "lat": 39.1456591,
+        "lon": -75.5482645
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2021-11-01",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Vansant Substation",
+        "note": "Refer to source 1 & 2 on page 10 & 40 map. Substation mapped via Bing Maps Aerial 2022. Maps show area substations not actually this substation. Street level photos confirm the operator and indicate the name.",
+        "operator": "City of Dover",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/20171031/20171031-reliability-analysis-update.ashx;Bing Maps Aerial 6/4 to 7/3/2022",
+        "substation": "generation",
+        "voltage": "69000"
+      },
+      "lat": 39.1456591,
+      "lon": -75.5482645
+    },
+    {
+      "type": "way",
+      "id": 839610563,
+      "center": {
+        "lat": 39.1507321,
+        "lon": -75.5471032
+      },
+      "tags": {
+        "check_date": "2025-07-13",
+        "power": "substation"
+      },
+      "lat": 39.1507321,
+      "lon": -75.5471032
+    },
+    {
+      "type": "way",
+      "id": 839610564,
+      "center": {
+        "lat": 39.1494967,
+        "lon": -75.5479414
+      },
+      "tags": {
+        "check_date": "2025-07-13",
+        "power": "substation"
+      },
+      "lat": 39.1494967,
+      "lon": -75.5479414
+    },
+    {
+      "type": "way",
+      "id": 846703951,
+      "center": {
+        "lat": 39.1633085,
+        "lon": -75.5177239
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2021-11-01",
+        "description": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2024/20241203/20241203-item-11---reliability-analysis-update.pdf",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "note": "Refer to source 1 & 2 on page 10 & 40 map. Substation mapped via Bing Maps Aerial 2022. Street level photos confirm the operator. Maps show area substations not actually this substation.",
+        "operator": "City of Dover Electric Department",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/20171031/20171031-reliability-analysis-update.ashx;Bing Maps Aerial 6/4 to 7/3/2022",
+        "substation": "minor_distribution",
+        "voltage": "69000;12470"
+      },
+      "lat": 39.1633085,
+      "lon": -75.5177239
+    },
+    {
+      "type": "way",
+      "id": 878064513,
+      "center": {
+        "lat": 39.7524295,
+        "lon": -75.5947969
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2021-10-31",
+        "fence_type": "chain_link",
+        "name": "Silverbrook Substation",
+        "note": "Referenced information from the map on page 2.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/postings/2021/ace-local-plan-submission-for-2021-rtep.ashx",
+        "voltage": "138000"
+      },
+      "lat": 39.7524295,
+      "lon": -75.5947969
+    },
+    {
+      "type": "way",
+      "id": 893421159,
+      "center": {
+        "lat": 39.5948945,
+        "lon": -75.6316555
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 39.5948945,
+      "lon": -75.6316555
+    },
+    {
+      "type": "way",
+      "id": 912537222,
+      "center": {
+        "lat": 39.6536341,
+        "lon": -75.6139605
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2018-09-21",
+        "fence_type": "chain_link",
+        "note": "Referenced information from the map on page 5.",
+        "operator": "City of New Castle",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/20180921/20180921-reliability-analysis-update.ashx",
+        "voltage": "138000"
+      },
+      "lat": 39.6536341,
+      "lon": -75.6139605
+    },
+    {
+      "type": "way",
+      "id": 923787674,
+      "center": {
+        "lat": 39.6597757,
+        "lon": -75.7797965
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 39.6597757,
+      "lon": -75.7797965
+    },
+    {
+      "type": "way",
+      "id": 938461794,
+      "center": {
+        "lat": 39.1785223,
+        "lon": -75.5488881
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2021-11-01",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "note": "Refer to source 1 & 2 on pg 10 & 40 map. Substation mapped via Bing Maps Aerial 2022. Maps show area substations not actually this substation.",
+        "operator": "City of Dover",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/20171031/20171031-reliability-analysis-update.ashx;Bing Maps Aerial 6/4 to 7/3/2022",
+        "substation": "minor_distribution",
+        "voltage": "69000;12470"
+      },
+      "lat": 39.1785223,
+      "lon": -75.5488881
+    },
+    {
+      "type": "way",
+      "id": 964502781,
+      "center": {
+        "lat": 38.8090952,
+        "lon": -75.5965518
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2022-11-17",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "note": "Refer to source 1 on page 3 map. Substation mapped via Bing Maps Aerial 2022. Street level photos confirm the operator.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/2022/20221117/item-05---dpl-supplemental-projects.ashx;Bing Maps Aerial 5/29/2022 to 7/3/2022",
+        "substation": "transmission",
+        "voltage": "69000"
+      },
+      "lat": 38.8090952,
+      "lon": -75.5965518
+    },
+    {
+      "type": "way",
+      "id": 1011614089,
+      "center": {
+        "lat": 39.6133274,
+        "lon": -75.7279805
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2018-09-21",
+        "name": "Sunset Lake Substation",
+        "note": "Reference page 5 map for information.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/20180921/20180921-reliability-analysis-update.ashx",
+        "substation": "minor_distribution",
+        "voltage": "138000;12470"
+      },
+      "lat": 39.6133274,
+      "lon": -75.7279805
+    },
+    {
+      "type": "way",
+      "id": 1013364920,
+      "center": {
+        "lat": 39.6594523,
+        "lon": -75.6658978
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2019-11-18",
+        "fence_type": "chain_link",
+        "name": "Bear Substation",
+        "note": "Referenced information from the map on page 5. Street level photos indicate the operator and substation name.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/20180921/20180921-reliability-analysis-update.ashx",
+        "substation": "minor_distribution",
+        "voltage": "138000;12470"
+      },
+      "lat": 39.6594523,
+      "lon": -75.6658978
+    },
+    {
+      "type": "way",
+      "id": 1090892515,
+      "center": {
+        "lat": 39.1329322,
+        "lon": -75.4907938
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2021-11-01",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "note": "Refer to source 1 & 2 on pg 10 & 40 map. Substation mapped via Bing Maps Aerial 2022. Maps show area substations not actually this substation.",
+        "operator": "City of Dover",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/20171031/20171031-reliability-analysis-update.ashx;Bing Maps Aerial 6/4 to 7/3/2022",
+        "substation": "minor_distribution",
+        "voltage": "69000;12470"
+      },
+      "lat": 39.1329322,
+      "lon": -75.4907938
+    },
+    {
+      "type": "way",
+      "id": 1093922187,
+      "center": {
+        "lat": 39.6944874,
+        "lon": -75.7610606
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 39.6944874,
+      "lon": -75.7610606
+    },
+    {
+      "type": "way",
+      "id": 1120249042,
+      "center": {
+        "lat": 39.6828643,
+        "lon": -75.7571306
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 39.6828643,
+      "lon": -75.7571306
+    },
+    {
+      "type": "way",
+      "id": 1156710267,
+      "center": {
+        "lat": 39.4568144,
+        "lon": -75.6293699
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2023-09-14",
+        "fence_type": "chain_link",
+        "name": "Silver Run Substation",
+        "note": "Reference page 3 for information.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/2023/20230914/20230914-item-01---ace-supplemental-projects.ashx",
+        "substation": "transmission",
+        "voltage": "230000"
+      },
+      "lat": 39.4568144,
+      "lon": -75.6293699
+    },
+    {
+      "type": "way",
+      "id": 1160625218,
+      "center": {
+        "lat": 39.0528951,
+        "lon": -75.5784408
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2022-01-01",
+        "description": "Second source on page 40 map= https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2024/20241203/20241203-item-11---reliability-analysis-update.pdf",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Vaughn Substation",
+        "note": "Refer to source 1 on page 3 map. Substation mapped via Bing Maps Aerial 2022. Street level photos confirm operator and substation name.",
+        "operator": "Delaware Electric Cooperative",
+        "operator:wikidata": "Q39057203",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/20190222/20190222-phi-supp.ashx;Bing Maps Aerial 6/4-7/3/2022",
+        "substation": "minor_distribution",
+        "voltage": "69000"
+      },
+      "lat": 39.0528951,
+      "lon": -75.5784408
+    },
+    {
+      "type": "way",
+      "id": 1197551701,
+      "center": {
+        "lat": 38.6061417,
+        "lon": -75.5118452
+      },
+      "tags": {
+        "addr:city": "Laurel",
+        "addr:housenumber": "13133",
+        "addr:postcode": "19956",
+        "addr:state": "DE",
+        "addr:street": "County Seat Highway",
+        "barrier": "fence",
+        "check_date": "2022-11-17",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Concord 2 Substation",
+        "note": "Refer to source 1 on page 3 map. Substation mapped via Bing Maps Aerial 2022. Street level photos confirm the operator and substation name.",
+        "operator": "Delaware Electric Cooperative",
+        "operator:wikidata": "Q39057203",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/2022/20221117/item-05---dpl-supplemental-projects.ashx;Bing Maps Aerial 5/29/2022 to 7/3/2022",
+        "voltage": "69000"
+      },
+      "lat": 38.6061417,
+      "lon": -75.5118452
+    },
+    {
+      "type": "way",
+      "id": 1197551702,
+      "center": {
+        "lat": 38.603205,
+        "lon": -75.5165928
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2022-11-17",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Concord Switching Station",
+        "note": "Refer to source 1 on page 3 map. Substation mapped via Bing Maps Aerial 2022. Street level photos confirm the operator and substation name.",
+        "operator": "Delaware Electric Cooperative",
+        "operator:wikidata": "Q39057203",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/2022/20221117/item-05---dpl-supplemental-projects.ashx;Bing Maps Aerial 5/29/2022 to 7/3/2022",
+        "voltage": "69000"
+      },
+      "lat": 38.603205,
+      "lon": -75.5165928
+    },
+    {
+      "type": "way",
+      "id": 1197551704,
+      "center": {
+        "lat": 39.4595662,
+        "lon": -75.5865639
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "transition",
+        "voltage": "230000"
+      },
+      "lat": 39.4595662,
+      "lon": -75.5865639
+    },
+    {
+      "type": "way",
+      "id": 1197551705,
+      "center": {
+        "lat": 39.471304,
+        "lon": -75.5417125
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "transition",
+        "voltage": "230000"
+      },
+      "lat": 39.471304,
+      "lon": -75.5417125
+    },
+    {
+      "type": "way",
+      "id": 1224674505,
+      "center": {
+        "lat": 39.6883628,
+        "lon": -75.7490114
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2018-09-21",
+        "fence_type": "chain_link",
+        "name": "Chapel Street Substation",
+        "note": "Referenced the map on page 5 for information. Street Level Photos indicate the name and operator of the substation.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/20180921/20180921-reliability-analysis-update.ashx",
+        "substation": "minor_distribution",
+        "voltage": "138000"
+      },
+      "lat": 39.6883628,
+      "lon": -75.7490114
+    },
+    {
+      "type": "way",
+      "id": 1244774994,
+      "center": {
+        "lat": 39.1842776,
+        "lon": -75.6676564
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2023-01-01",
+        "description": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2024/20241203/20241203-item-11---reliability-analysis-update.pdf",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Meredith Substation",
+        "note": "Refer to source 1 on page 3 map and source 2 on page 40 map. Substation mapped via Bing Maps Aerial 2022. Street level photos confirm operator and substation name.",
+        "operator": "Delaware Electric Cooperative",
+        "operator:wikidata": "Q39057203",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/20190222/20190222-phi-supp.ashx;Bing Maps Aerial 6/4-7/3/2022",
+        "substation": "minor_distribution",
+        "voltage": "69000;12470"
+      },
+      "lat": 39.1842776,
+      "lon": -75.6676564
+    },
+    {
+      "type": "way",
+      "id": 1251324705,
+      "center": {
+        "lat": 38.8821953,
+        "lon": -75.4426024
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2022-01-01",
+        "description": "Second Source map on page 40= https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2024/20241203/20241203-item-11---reliability-analysis-update.pdf",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Farmview Station",
+        "note": "Refer to source 1 on page 3 map. PJM Planning tool indicates DPL built/manages this substation. Given there are two separate yards assuming the other is City of Milford but unknown name. Substation mapped via Bing Maps Aerial 2022.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/20190222/20190222-phi-supp.ashx;Bing Maps Aerial 5/29/2022 to 7/3/2022",
+        "substation": "transmission",
+        "voltage": "138000"
+      },
+      "lat": 38.8821953,
+      "lon": -75.4426024
+    },
+    {
+      "type": "way",
+      "id": 1253447359,
+      "center": {
+        "lat": 39.751752,
+        "lon": -75.5778504
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2021-10-31",
+        "fence_type": "chain_link",
+        "name": "West Wilmington Substation",
+        "note": "Referenced information from the map on page 2.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/postings/2021/ace-local-plan-submission-for-2021-rtep.ashx",
+        "voltage": "138000"
+      },
+      "lat": 39.751752,
+      "lon": -75.5778504
+    },
+    {
+      "type": "way",
+      "id": 1254189330,
+      "center": {
+        "lat": 39.1872923,
+        "lon": -75.4981911
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2014-09-24",
+        "fence_type": "chain_link",
+        "note": "Referenced information from the map on page 34. Not actually on the map using it for area background/common knowledge for voltage.",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/20141006/20140924-reliability-analysis-update.ashx",
+        "substation": "transmission",
+        "voltage": "230000"
+      },
+      "lat": 39.1872923,
+      "lon": -75.4981911
+    },
+    {
+      "type": "way",
+      "id": 1254189331,
+      "center": {
+        "lat": 39.1870352,
+        "lon": -75.5005304
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2014-09-24",
+        "fence_type": "chain_link",
+        "note": "Referenced information from the map on page 34. Not actually on the map using it for area background/common knowledge for voltage.",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/20141006/20140924-reliability-analysis-update.ashx",
+        "substation": "generation",
+        "voltage": "230000"
+      },
+      "lat": 39.1870352,
+      "lon": -75.5005304
+    },
+    {
+      "type": "way",
+      "id": 1257658880,
+      "center": {
+        "lat": 39.2580314,
+        "lon": -75.6126357
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2024-03-03",
+        "fence_type": "chain_link",
+        "name": "Jones Substation",
+        "note": "Substation voltage indicated by its connection to the 138kv line. Substation name determined via old street level photos.",
+        "operator": "Deleware Electric Cooperative",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/2021/20211014/20211014-reliability-analysis-update.ashx",
+        "substation": "minor_distribution",
+        "voltage": "138000"
+      },
+      "lat": 39.2580314,
+      "lon": -75.6126357
+    },
+    {
+      "type": "way",
+      "id": 1258915824,
+      "center": {
+        "lat": 39.3936846,
+        "lon": -75.7521243
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "138000"
+      },
+      "lat": 39.3936846,
+      "lon": -75.7521243
+    },
+    {
+      "type": "way",
+      "id": 1262667980,
+      "center": {
+        "lat": 39.5710281,
+        "lon": -75.7232051
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2018-09-21",
+        "name": "Lums Pond Substation",
+        "note": "Reference page 5 map for information.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/20180921/20180921-reliability-analysis-update.ashx",
+        "substation": "minor_distribution",
+        "voltage": "138000;12470"
+      },
+      "lat": 39.5710281,
+      "lon": -75.7232051
+    },
+    {
+      "type": "way",
+      "id": 1272592326,
+      "center": {
+        "lat": 39.7900624,
+        "lon": -75.6889882
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2023-07-12",
+        "fence_type": "chain_link",
+        "name": "Hockessin Substation",
+        "note": "Referenced the map on page 11 for information. Street level photos confirm the operator and substation name.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/postings/2023/peco-local-plan-submission-for-2023-rtep.ashx",
+        "substation": "minor_distribution",
+        "voltage": "138000;12470"
+      },
+      "lat": 39.7900624,
+      "lon": -75.6889882
+    },
+    {
+      "type": "way",
+      "id": 1276555998,
+      "center": {
+        "lat": 39.7421042,
+        "lon": -75.697049
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2023-07-12",
+        "fence_type": "chain_link",
+        "note": "Referenced the map on page 11 and 4 for line information and street level photos as this substation and line aren't on the map.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/postings/2023/peco-local-plan-submission-for-2023-rtep.ashx;https://www.pjm.com/-/media/committees-groups/committees/srrtep-ma/20191118/20191118-reliability-analysis-update.ashx",
+        "voltage": "138000"
+      },
+      "lat": 39.7421042,
+      "lon": -75.697049
+    },
+    {
+      "type": "way",
+      "id": 1337588117,
+      "center": {
+        "lat": 38.9160724,
+        "lon": -75.6570234
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2022-01-01",
+        "description": "Second source on page 40 map= https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2024/20241203/20241203-item-11---reliability-analysis-update.pdf",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Vernon Substation",
+        "note": "Refer to source 1 on page 3 map. Substation mapped via Bing Maps Aerial 2022. Street level photos confirm operator and substation name. Substation not included on either map. Line connection into the 69kv section of Harrington substation.",
+        "operator": "Delaware Electric Cooperative",
+        "operator:wikidata": "Q39057203",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/20190222/20190222-phi-supp.ashx;Bing Maps Aerial 5/29-7/3/2022",
+        "substation": "minor_distribution",
+        "voltage": "69000"
+      },
+      "lat": 38.9160724,
+      "lon": -75.6570234
+    },
+    {
+      "type": "way",
+      "id": 1344589978,
+      "center": {
+        "lat": 39.7286309,
+        "lon": -75.5703154
+      },
+      "tags": {
+        "frequency": "25",
+        "name": "West Yard Substation",
+        "operator": "Amtrak",
+        "operator:wikidata": "Q23239",
+        "power": "substation",
+        "ref": "13",
+        "substation": "traction",
+        "voltage": "138000"
+      },
+      "lat": 39.7286309,
+      "lon": -75.5703154
+    },
+    {
+      "type": "way",
+      "id": 1365452455,
+      "center": {
+        "lat": 38.646512,
+        "lon": -75.2850571
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2021-01-01",
+        "description": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/postings/2023/dpl-local-plan-submission-for-2023-rtep.pdf Project Info= https://www.delaware.coop/press-room/completion-dorey-substation-slated-fall-2022",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Dorey Substation",
+        "note": "Refer to source 1 & 3 on page 2 map. Substation mapped via Bing Maps Aerial 2022. Street level photos confirm the operator and substation name.",
+        "operator": "Delaware Electric Cooperative",
+        "operator:wikidata": "Q39057203",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/20181207/20181207-phi-supplementals.ashx;Bing Maps Aerial 5/29/2022 to 7/3/2022",
+        "substation": "minor_distribution",
+        "voltage": "69000;12470"
+      },
+      "lat": 38.646512,
+      "lon": -75.2850571
+    },
+    {
+      "type": "way",
+      "id": 1382740029,
+      "center": {
+        "lat": 39.7390706,
+        "lon": -75.504589
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 39.7390706,
+      "lon": -75.504589
+    },
+    {
+      "type": "way",
+      "id": 1395367204,
+      "center": {
+        "lat": 38.6463692,
+        "lon": -75.2855896
+      },
+      "tags": {
+        "check_date": "2021-01-01",
+        "description": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/postings/2023/dpl-local-plan-submission-for-2023-rtep.pdf Project Info= https://www.delaware.coop/press-room/completion-dorey-substation-slated-fall-2022",
+        "location": "outdoor",
+        "name": "Zoar Switching Station",
+        "note": "Refer to source 1 & 3 on page 2 map. Substation mapped via Bing Maps Aerial 2022. Street level photos confirm the operator and substation name.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/20181207/20181207-phi-supplementals.ashx;Bing Maps Aerial 5/29/2022 to 7/3/2022",
+        "substation": "transmission",
+        "voltage": "69000"
+      },
+      "lat": 38.6463692,
+      "lon": -75.2855896
+    },
+    {
+      "type": "way",
+      "id": 1408651564,
+      "center": {
+        "lat": 38.9138318,
+        "lon": -75.5768223
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2024-01-01",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Harrington Fair Substation",
+        "note": "Substation mapped via Bing Maps Aerial 2022. Bing Maps Aerial 5/29/2022 to 7/3/2022. Street level photos indicated all information for this substation.",
+        "operator": "Delmarva Power",
+        "operator:wikidata": "Q33127799",
+        "power": "substation",
+        "source": "Bing Maps Aerial 5/29/2022 to 7/3/2022"
+      },
+      "lat": 38.9138318,
+      "lon": -75.5768223
+    },
+    {
+      "type": "way",
+      "id": 1408651565,
+      "center": {
+        "lat": 38.9137023,
+        "lon": -75.5768215
+      },
+      "tags": {
+        "check_date": "2024-01-01",
+        "location": "outdoor",
+        "name": "Chandler Substation",
+        "note": "Substation mapped via Bing Maps Aerial 2022. Bing Maps Aerial 5/29/2022 to 7/3/2022. Street level photos indicated all information for this substation.",
+        "operator": "Deleware State Fair/Harrington",
+        "power": "substation",
+        "source": "Bing Maps Aerial 5/29/2022 to 7/3/2022"
+      },
+      "lat": 38.9137023,
+      "lon": -75.5768215
+    },
+    {
+      "type": "way",
+      "id": 1414183776,
+      "center": {
+        "lat": 39.1846887,
+        "lon": -75.5044366
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2021-11-01",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "note": "Refer to source 1 & 2 on pg 10 & 40 map. Substation mapped via Bing Maps Aerial 2022. Maps show area substations not actually this substation.",
+        "operator": "City of Dover",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/20171031/20171031-reliability-analysis-update.ashx;Bing Maps Aerial 6/4 to 7/3/2022",
+        "substation": "generation",
+        "voltage": "69000"
+      },
+      "lat": 39.1846887,
+      "lon": -75.5044366
+    },
+    {
+      "type": "way",
+      "id": 1414183779,
+      "center": {
+        "lat": 39.1908029,
+        "lon": -75.5507176
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2021-11-01",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "note": "Refer to source 1 & 2 on pg 10 & 40 map. Substation mapped via Bing Maps Aerial 2022. Maps show area substations not actually this substation.",
+        "operator": "City of Dover",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/20171031/20171031-reliability-analysis-update.ashx;Bing Maps Aerial 6/4 to 7/3/2022",
+        "substation": "minor_distribution",
+        "voltage": "69000;12470"
+      },
+      "lat": 39.1908029,
+      "lon": -75.5507176
+    },
+    {
+      "type": "way",
+      "id": 1414183788,
+      "center": {
+        "lat": 39.1780478,
+        "lon": -75.5018793
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2021-11-01",
+        "fence_type": "chain_link",
+        "fixme": "New Substation under construction.",
+        "location": "outdoor",
+        "note": "Refer to source 1 & 2 on pg 10 & 40 map. Substation mapped via Bing Maps Aerial 2022. Maps show area substations not actually this substation. Street level photos from 2025 show a new substation under construction in this area.",
+        "operator": "City of Dover",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/20171031/20171031-reliability-analysis-update.ashx;Bing Maps Aerial 6/4 to 7/3/2022",
+        "voltage": "0"
+      },
+      "lat": 39.1780478,
+      "lon": -75.5018793
+    },
+    {
+      "type": "way",
+      "id": 1414492231,
+      "center": {
+        "lat": 39.1504263,
+        "lon": -75.5492861
+      },
+      "tags": {
+        "check_date": "2025-07-13",
+        "power": "substation"
+      },
+      "lat": 39.1504263,
+      "lon": -75.5492861
+    },
+    {
+      "type": "way",
+      "id": 1415294196,
+      "center": {
+        "lat": 38.8819369,
+        "lon": -75.4419491
+      },
+      "tags": {
+        "check_date": "2022-01-01",
+        "description": "Second Source map on page 40= https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2024/20241203/20241203-item-11---reliability-analysis-update.pdf",
+        "location": "outdoor",
+        "note": "Refer to source 1 on page 3 map. PJM Planning tool indicates DPL built/manages the switching station. Given there are two separate yards assuming this is City of Milford but unknown name. Substation mapped via Bing Maps Aerial 2022.",
+        "operator": "City of Milford",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/20190222/20190222-phi-supp.ashx;Bing Maps Aerial 5/29/2022 to 7/3/2022",
+        "voltage": "138000"
+      },
+      "lat": 38.8819369,
+      "lon": -75.4419491
+    },
+    {
+      "type": "way",
+      "id": 1416025544,
+      "center": {
+        "lat": 38.5665916,
+        "lon": -75.3782893
+      },
+      "tags": {
+        "check_date": "2022-11-17",
+        "location": "outdoor",
+        "name": "Wharton Substation",
+        "note": "Refer to source 1 on page 3 map. Substation mapped via Bing Maps Aerial 2022. Substation is two separate yards and operators. Street level photos confirm the operator and indicate the name. Substation name differs from the map.",
+        "operator": "Delaware Electric Cooperative",
+        "operator:wikidata": "Q39057203",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/2022/20221117/item-05---dpl-supplemental-projects.ashx;Bing Maps Aerial 5/29/2022 to 7/3/2022",
+        "voltage": "138000"
+      },
+      "lat": 38.5665916,
+      "lon": -75.3782893
+    },
+    {
+      "type": "way",
+      "id": 1416242467,
+      "center": {
+        "lat": 39.1292757,
+        "lon": -75.4958605
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2021-11-01",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Lebanon Substation",
+        "note": "Refer to source 1 & 2 on pg 10 & 40 map. Substation mapped via Bing Maps Aerial 2022. Street level photos confirm the operator and substation name. Maps show area substations not actually this substation.",
+        "operator": "City of Dover",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/20171031/20171031-reliability-analysis-update.ashx;Bing Maps Aerial 6/4 to 7/3/2022",
+        "substation": "minor_distribution",
+        "voltage": "69000;12470"
+      },
+      "lat": 39.1292757,
+      "lon": -75.4958605
+    },
+    {
+      "type": "way",
+      "id": 1416242476,
+      "center": {
+        "lat": 39.1447333,
+        "lon": -75.5058381
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2021-11-01",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "note": "Refer to source 1 & 2 on pg 10 & 40 map. Substation mapped via Bing Maps Aerial 2022. Street level photos confirm the operator. Maps show area substations not actually this substation.",
+        "operator": "City of Dover",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/20171031/20171031-reliability-analysis-update.ashx;Bing Maps Aerial 6/4 to 7/3/2022",
+        "substation": "minor_distribution",
+        "voltage": "69000;12470"
+      },
+      "lat": 39.1447333,
+      "lon": -75.5058381
+    },
+    {
+      "type": "way",
+      "id": 1416242490,
+      "center": {
+        "lat": 39.1216801,
+        "lon": -75.4716284
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2021-11-01",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "note": "Refer to source 1 & 2 on pg 10 & 40 map. Substation mapped via Bing Maps Aerial 2022. Maps show area substations not actually this substation.",
+        "operator": "City of Dover",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/20171031/20171031-reliability-analysis-update.ashx;Bing Maps Aerial 6/4 to 7/3/2022",
+        "substation": "minor_distribution",
+        "voltage": "69000;12470"
+      },
+      "lat": 39.1216801,
+      "lon": -75.4716284
+    },
+    {
+      "type": "way",
+      "id": 1416242491,
+      "center": {
+        "lat": 39.1493931,
+        "lon": -75.5260212
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2021-11-01",
+        "description": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2024/20241203/20241203-item-11---reliability-analysis-update.pdf",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Mid City Substation",
+        "note": "Refer to source 1 & 2 on pg 10 & 40 map. Substation mapped via Bing Maps Aerial 2022. Street level photos confirm the operator and substation name. Maps show area substations not actually this substation.",
+        "operator": "City of Dover Electric Department",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/20171031/20171031-reliability-analysis-update.ashx;Bing Maps Aerial 6/4 to 7/3/2022",
+        "substation": "minor_distribution",
+        "voltage": "69000;12470"
+      },
+      "lat": 39.1493931,
+      "lon": -75.5260212
+    },
+    {
+      "type": "way",
+      "id": 1422648331,
+      "center": {
+        "lat": 39.6692711,
+        "lon": -75.7569574
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation"
+      },
+      "lat": 39.6692711,
+      "lon": -75.7569574
+    },
+    {
+      "type": "way",
+      "id": 1424650287,
+      "center": {
+        "lat": 39.1599844,
+        "lon": -75.5323346
+      },
+      "tags": {
+        "barrier": "fence",
+        "check_date": "2021-11-01",
+        "description": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/teac/2024/20241203/20241203-item-11---reliability-analysis-update.pdf",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Division Street Substation",
+        "note": "Refer to source 1 & 2 on pg 10 & 40 map. Substation mapped via Bing Maps Aerial 2022. Street level photos confirm the operator and substation name. Maps show area substations not actually this substation.",
+        "operator": "City of Dover Electric Department",
+        "power": "substation",
+        "source": "https://www.pjm.com/-/media/DotCom/committees-groups/committees/srrtep-ma/20171031/20171031-reliability-analysis-update.ashx;Bing Maps Aerial 6/4 to 7/3/2022",
+        "substation": "minor_distribution",
+        "voltage": "69000;12470"
+      },
+      "lat": 39.1599844,
+      "lon": -75.5323346
+    },
+    {
+      "type": "way",
+      "id": 1485092964,
+      "center": {
+        "lat": 39.7445522,
+        "lon": -75.5054498
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 39.7445522,
+      "lon": -75.5054498
+    },
+    {
+      "type": "way",
+      "id": 1485092965,
+      "center": {
+        "lat": 39.7431189,
+        "lon": -75.5072395
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 39.7431189,
+      "lon": -75.5072395
+    },
+    {
+      "type": "way",
+      "id": 1485092966,
+      "center": {
+        "lat": 39.7832956,
+        "lon": -75.5516126
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 39.7832956,
+      "lon": -75.5516126
+    },
+    {
+      "type": "way",
+      "id": 1485092967,
+      "center": {
+        "lat": 39.7537199,
+        "lon": -75.6017035
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 39.7537199,
+      "lon": -75.6017035
+    },
+    {
+      "type": "way",
+      "id": 1485092968,
+      "center": {
+        "lat": 39.7096092,
+        "lon": -75.6129098
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 39.7096092,
+      "lon": -75.6129098
+    },
+    {
+      "type": "way",
+      "id": 1485092969,
+      "center": {
+        "lat": 39.6834108,
+        "lon": -75.7258681
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 39.6834108,
+      "lon": -75.7258681
+    },
+    {
+      "type": "way",
+      "id": 1485092970,
+      "center": {
+        "lat": 39.2877843,
+        "lon": -75.6421767
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 39.2877843,
+      "lon": -75.6421767
+    },
+    {
+      "type": "way",
+      "id": 1485092973,
+      "center": {
+        "lat": 38.646416,
+        "lon": -75.285345
+      },
+      "tags": {
+        "name": "Zoar Switching Station",
+        "power": "substation"
+      },
+      "lat": 38.646416,
+      "lon": -75.285345
+    },
+    {
+      "type": "way",
+      "id": 1491243991,
+      "center": {
+        "lat": 39.7700501,
+        "lon": -75.5758459
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 39.7700501,
+      "lon": -75.5758459
+    },
+    {
+      "type": "way",
+      "id": 1492306670,
+      "center": {
+        "lat": 38.6472008,
+        "lon": -75.2858933
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 38.6472008,
+      "lon": -75.2858933
+    },
+    {
+      "type": "way",
+      "id": 1492306671,
+      "center": {
+        "lat": 39.174161,
+        "lon": -75.5448729
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 39.174161,
+      "lon": -75.5448729
+    },
+    {
+      "type": "way",
+      "id": 1492819837,
+      "center": {
+        "lat": 38.646416,
+        "lon": -75.285345
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 38.646416,
+      "lon": -75.285345
+    },
+    {
+      "type": "way",
+      "id": 1498930798,
+      "center": {
+        "lat": 39.4683276,
+        "lon": -75.5283539
+      },
+      "tags": {
+        "name": "Wind Port Substation",
+        "power": "substation",
+        "substation": "industrial",
+        "voltage": "69000"
+      },
+      "lat": 39.4683276,
+      "lon": -75.5283539
+    }
+  ]
+}

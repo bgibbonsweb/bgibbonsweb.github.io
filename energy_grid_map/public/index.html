@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Energy Grid Map | WebGL Starter</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <section class="controls" aria-label="State selector controls">
+        <label for="stateSelect">State</label>
+        <select id="stateSelect" name="stateSelect"></select>
+        <label for="dataLayerSelect">Layer</label>
+        <select id="dataLayerSelect" name="dataLayerSelect">
+          <option value="infrastructure" selected>Grid infrastructure</option>
+          <option value="solar-density">Residential solar density</option>
+          <option value="generation-heatmap">Generation heatmap</option>
+        </select>
+        <label id="generationSubtypeLabel" class="is-hidden" for="generationSubtypeSelect">Generation Type</label>
+        <select id="generationSubtypeSelect" class="is-hidden" name="generationSubtypeSelect">
+          <option value="all" selected>All generation</option>
+          <option value="renewables">Renewables</option>
+          <option value="fossil-fuels">Fossil fuels</option>
+          <option value="nuclear">Nuclear</option>
+          <option value="battery-storage">Battery storage</option>
+          <option value="other">Other / unknown</option>
+        </select>
+        <p id="stateSummary" class="state-summary" aria-live="polite"></p>
+      </section>
+
+      <section id="globalStatsPanel" class="global-stats" aria-live="polite">
+        <div class="global-brand global-stats-pane" aria-label="Application title">
+          <p class="global-brand-kicker">US grid atlas</p>
+          <h1>Energy Grid Map</h1>
+        </div>
+        <div class="global-stats-pane">
+          <h2>Statewide Totals</h2>
+          <h3 class="gen-pie-heading">Generation by Type</h3>
+          <div class="gen-pie-wrap">
+            <svg id="genPieChart" viewBox="0 0 140 140" width="140" height="140" aria-label="Generation by type pie chart"></svg>
+            <ul id="pieLegend" class="pie-legend"></ul>
+          </div>
+        </div>
+        <dl id="globalStatsTotals" class="global-stats-totals global-stats-pane"></dl>
+        <p id="globalStatsMeta" class="global-stats-meta global-stats-pane">No statewide totals available.</p>
+      </section>
+
+      <div class="map-legend-float" aria-label="Map legend">
+        <p class="legend-subhead" style="margin:0 0 6px">Map Legend</p>
+        <div class="legend-actions" aria-label="Legend visibility controls">
+          <button id="legendShowAll" class="legend-action" type="button">Show all</button>
+          <button id="legendHideAll" class="legend-action" type="button">Hide all</button>
+        </div>
+        <ul class="legend-list">
+          <li data-legend-source="outline"><span class="legend-swatch legend-swatch-outline"></span> State outline</li>
+          <li data-legend-source="transmission-line"><span class="legend-swatch legend-swatch-transmission-line"></span> Transmission line</li>
+          <li data-legend-source="transmission-minor-line"><span class="legend-swatch legend-swatch-transmission-minor-line"></span> Transmission minor line</li>
+          <li data-legend-source="transmission-cable"><span class="legend-swatch legend-swatch-transmission-cable"></span> Transmission cable</li>
+          <li data-legend-source="ghost-project"><span class="legend-dot legend-dot--ring legend-dot-ghost-project"></span> Ghost project</li>
+          <li data-legend-source="consumer"><span class="legend-dot legend-dot--square legend-dot-consumer"></span> Consumer nodes</li>
+        </ul>
+        <p class="legend-subhead" style="margin:8px 0 4px">Substation roles</p>
+        <ul class="legend-list legend-list--grid legend-list--substations">
+          <li data-legend-source="substation-generator-step-up"><span class="legend-dot legend-dot--square legend-dot-substation-gen"></span> Generator step-up</li>
+          <li data-legend-source="substation-transmission-switching"><span class="legend-dot legend-dot--ring legend-dot-substation-transmission"></span> Transmission switching</li>
+          <li data-legend-source="substation-regional-transfer"><span class="legend-dot legend-dot-substation-regional"></span> Regional transfer</li>
+          <li data-legend-source="substation-distribution-step-down"><span class="legend-dot legend-dot--diamond legend-dot-substation-distribution"></span> Distribution step-down</li>
+        </ul>
+        <p class="legend-subhead" style="margin:8px 0 4px">Plants — sized by output</p>
+        <ul class="legend-list legend-list--grid">
+          <li data-legend-source="solar"><span class="legend-dot legend-dot-solar"></span> Solar</li>
+          <li data-legend-source="wind"><span class="legend-dot legend-dot--diamond legend-dot-wind"></span> Wind</li>
+          <li data-legend-source="hydro"><span class="legend-dot legend-dot-hydro"></span> Hydro</li>
+          <li data-legend-source="gas"><span class="legend-dot legend-dot--square legend-dot-gas"></span> Gas</li>
+          <li data-legend-source="nuclear"><span class="legend-dot legend-dot--ring legend-dot-nuclear"></span> Nuclear</li>
+          <li data-legend-source="geothermal"><span class="legend-dot legend-dot-geothermal"></span> Geothermal</li>
+          <li data-legend-source="biomass"><span class="legend-dot legend-dot-biomass"></span> Biomass</li>
+          <li data-legend-source="battery"><span class="legend-dot legend-dot--ring legend-dot-battery"></span> Battery</li>
+          <li data-legend-source="other"><span class="legend-dot legend-dot--square legend-dot-other"></span> Other</li>
+        </ul>
+        <div id="densityLegend" class="density-legend is-hidden" aria-label="Residential solar density legend">
+          <p class="legend-subhead">Solar density grid</p>
+          <div class="density-ramp" role="img" aria-label="Low to high density"></div>
+          <div class="density-ramp-labels"><span>Low</span><span>High</span></div>
+        </div>
+        <div id="generationHeatmapLegend" class="density-legend is-hidden" aria-label="Generation heatmap legend">
+          <p class="legend-subhead">Generation heatmap</p>
+          <div class="generation-ramp" role="img" aria-label="Low to high generation"></div>
+          <div class="density-ramp-labels"><span>Low</span><span>High</span></div>
+        </div>
+      </div>
+
+      <section id="radiusControl" class="radius-control is-hidden" aria-label="Radius size control">
+        <label for="radiusSizeSlider">Radius Size</label>
+        <input id="radiusSizeSlider" type="range" min="0.08" max="2.25" step="0.01" value="0.28" />
+        <span id="radiusSizeValue">0.28</span>
+      </section>
+
+      <section id="radiusEffectsToggle" class="radius-effects-toggle is-hidden" aria-label="Radius hover effects toggle">
+        <div class="radius-effects-row">
+          <input id="landmarkLabelsCheckbox" type="checkbox" checked />
+          <label for="landmarkLabelsCheckbox">Major cities / locations</label>
+        </div>
+        <div class="radius-effects-row">
+          <input id="radiusEffectsCheckbox" type="checkbox" checked />
+          <label for="radiusEffectsCheckbox">Radius hover lines</label>
+        </div>
+      </section>
+
+      <div class="bottom-controls-group" aria-label="Bottom controls">
+        <section id="stateTotalsControl" class="state-totals-control" aria-label="State totals control">
+          <button id="stateTotalsButton" type="button">State totals</button>
+        </section>
+
+        <section id="sourcesControl" class="sources-control" aria-label="Data sources control">
+          <button id="sourcesButton" type="button">Sources</button>
+        </section>
+      </div>
+
+      <div id="stateTotalsPopover" class="sources-popover is-hidden" aria-hidden="true">
+        <div id="stateTotalsPopoverBackdrop" class="sources-popover-backdrop"></div>
+        <section class="sources-popover-card" role="dialog" aria-modal="true" aria-labelledby="stateTotalsPopoverTitle">
+          <header class="sources-popover-header">
+            <div>
+              <p class="sources-popover-kicker">Current state snapshot</p>
+              <h2 id="stateTotalsPopoverTitle">State Totals</h2>
+            </div>
+            <button id="stateTotalsPopoverClose" class="sources-popover-close" type="button" aria-label="Close state totals">Close</button>
+          </header>
+          <div id="stateTotalsPopoverBody" class="sources-popover-body state-totals-popover-body" aria-live="polite"></div>
+        </section>
+      </div>
+
+      <div id="sourcesPopover" class="sources-popover main-sources-popover is-hidden" aria-hidden="true">
+        <div id="sourcesPopoverBackdrop" class="sources-popover-backdrop"></div>
+        <section class="sources-popover-card main-sources-popover-card" role="dialog" aria-modal="true" aria-labelledby="sourcesPopoverTitle">
+          <header class="sources-popover-header">
+            <div>
+              <p class="sources-popover-kicker">Current map layer sources</p>
+              <h2 id="sourcesPopoverTitle">Map Layer Sources</h2>
+            </div>
+            <button id="sourcesPopoverClose" class="sources-popover-close" type="button" aria-label="Close sources">Close</button>
+          </header>
+          <div id="sourcesPopoverBody" class="sources-popover-body" aria-live="polite"></div>
+        </section>
+      </div>
+
+      <div id="webglWarningPopover" class="sources-popover webgl-warning-popover is-hidden" aria-hidden="true">
+        <div id="webglWarningBackdrop" class="sources-popover-backdrop"></div>
+        <section class="sources-popover-card webgl-warning-card" role="dialog" aria-modal="true" aria-labelledby="webglWarningTitle">
+          <header class="sources-popover-header webgl-warning-header">
+            <div>
+              <p class="sources-popover-kicker">Browser compatibility issue</p>
+              <h2 id="webglWarningTitle">WebGL Couldn&apos;t Start</h2>
+            </div>
+            <button id="webglWarningClose" class="sources-popover-close" type="button" aria-label="Close WebGL warning">Close</button>
+          </header>
+          <div class="sources-popover-body webgl-warning-body">
+            <p>This map needs WebGL for rendering, but your browser could not start it.</p>
+            <p id="webglWarningDetail" class="webgl-warning-detail"></p>
+            <ol class="webgl-warning-steps">
+              <li>Open the site in the latest version of Chrome, Edge, Firefox, or Safari.</li>
+              <li>Turn hardware acceleration on in your browser settings, then fully restart the browser.</li>
+              <li>Update macOS, Windows, or Linux graphics drivers and install pending browser updates.</li>
+              <li>If you are using remote desktop, a VM, battery saver, or privacy extensions, try disabling them or switching to a local browser session.</li>
+              <li>Test WebGL support directly at <a href="https://get.webgl.org/" target="_blank" rel="noopener noreferrer">get.webgl.org</a>.</li>
+            </ol>
+            <p class="webgl-warning-note">If WebGL still fails after those steps, your device or browser security settings may be blocking GPU rendering.</p>
+          </div>
+        </section>
+      </div>
+
+      <div id="mobileLegendDock" class="mobile-legend-dock" aria-hidden="true"></div>
+
+      <section class="canvas-wrap">
+        <canvas id="glCanvas" width="960" height="600" aria-label="WebGL rendering canvas"></canvas>
+        <div id="landmarkOverlay" class="landmark-overlay" aria-hidden="true"></div>
+        <div class="canvas-overlay">
+          <section id="detailPanel" class="detail-panel" aria-label="Selection details">
+            <div class="detail-tabs" role="tablist" aria-label="Selection detail views">
+              <button id="detailTabNode" class="detail-tab" type="button" role="tab" aria-selected="false" aria-controls="inspectionPanel">Node</button>
+              <button id="detailTabRadius" class="detail-tab" type="button" role="tab" aria-selected="false" aria-controls="radiusStatsPanel">Radius</button>
+            </div>
+
+            <section id="inspectionPanel" class="inspection-panel detail-pane is-empty" aria-live="polite">
+              <h2>Node Inspection</h2>
+              <p id="inspectionHint" class="inspection-hint">Hover or click a plant or substation.</p>
+              <dl id="inspectionDetails" class="inspection-details"></dl>
+            </section>
+
+            <section id="radiusStatsPanel" class="radius-stats detail-pane is-empty" aria-live="polite">
+              <div class="radius-subtabs" role="tablist" aria-label="Radius output views">
+                <button id="radiusSubtabOverview" class="radius-subtab is-active" type="button" role="tab" aria-selected="true" aria-controls="radiusOverviewPanel">Overview</button>
+                <button id="radiusSubtabSubstations" class="radius-subtab" type="button" role="tab" aria-selected="false" aria-controls="radiusSubstationPanel">Substations</button>
+                <button id="radiusSubtabPowerLines" class="radius-subtab" type="button" role="tab" aria-selected="false" aria-controls="radiusPowerLinesPanel">Power lines</button>
+                <button id="radiusSubtabGhostProjects" class="radius-subtab" type="button" role="tab" aria-selected="false" aria-controls="radiusGhostProjectsPanel">Ghost projects</button>
+              </div>
+              <p id="radiusStatsHint" class="inspection-hint">Move over the map to sample an area.</p>
+              <div id="radiusStatsBody" class="radius-stats-body is-hidden">
+                <div class="radius-subtab-panels">
+                  <div id="radiusOverviewPanel" class="radius-subtab-panel" role="tabpanel" aria-labelledby="radiusSubtabOverview">
+                    <h2>Radius Totals</h2>
+                    <p id="radiusStatsSummary">0 nodes in radius | 0 MW combined output</p>
+                    <div class="radius-pie-wrap">
+                      <svg id="radiusPieChart" class="radius-pie" viewBox="0 0 120 120" width="120" height="120" aria-label="Hovered radius generation mix pie chart"></svg>
+                      <div class="radius-pie-aside">
+                        <div id="radiusPieSummary" class="radius-pie-summary" aria-live="polite"></div>
+                        <div id="radiusBatteryReadout" class="radius-battery-readout" aria-live="polite"></div>
+                      </div>
+                    </div>
+                    <ul id="radiusStatsBreakdown" class="radius-stats-breakdown"></ul>
+                    <div id="radiusEmissionsReadout" class="radius-emissions-readout" aria-live="polite"></div>
+                    <div id="radiusConsumptionReadout" class="radius-consumption-readout" aria-live="polite"></div>
+                    <div id="radiusGhostReadout" class="radius-ghost-readout" aria-live="polite"></div>
+                  </div>
+                  <div id="radiusSubstationPanel" class="radius-subtab-panel is-hidden" role="tabpanel" aria-labelledby="radiusSubtabSubstations">
+                    <div id="radiusSubstationReadout" class="radius-substation-readout" aria-live="polite"></div>
+                  </div>
+                  <div id="radiusPowerLinesPanel" class="radius-subtab-panel is-hidden" role="tabpanel" aria-labelledby="radiusSubtabPowerLines">
+                    <div id="radiusPowerLineReadout" class="radius-power-lines-readout" aria-live="polite"></div>
+                  </div>
+                  <div id="radiusGhostProjectsPanel" class="radius-subtab-panel is-hidden" role="tabpanel" aria-labelledby="radiusSubtabGhostProjects">
+                    <div id="radiusGhostProjectsReadout" class="radius-ghost-projects-readout" aria-live="polite"></div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </section>
+        </div>
+      </section>
+
+      <div id="mobileControlsDock" class="mobile-controls-dock" aria-hidden="true"></div>
+    </main>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>

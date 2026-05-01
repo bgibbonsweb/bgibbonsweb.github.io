@@ -13,12 +13,29 @@
     user-select: none;         /* Standard */
     }
 
+    :root {
+      --app-vh: 100dvh;
+      --app-vw: 100vw;
+    }
+
     body, html {
       margin: 0;
       padding: 0;
       overflow: hidden;
       width: 100%;
-      height: 100%;
+      height: var(--app-vh);
+      max-width: var(--app-vw);
+      max-height: var(--app-vh);
+      overscroll-behavior: none;
+    }
+    html {
+      position: fixed;
+      inset: 0;
+    }
+    body {
+      position: fixed;
+      inset: 0;
+      touch-action: none;
     }
     #globe {
       width: 100%;
@@ -749,6 +766,28 @@
       overflow: hidden;
     }
 
+    .co2-ribbon-labels {
+      display: none;
+    }
+
+    .co2-ribbon-country-label {
+      position: absolute;
+      bottom: 9px;
+      transform: translateX(-50%);
+      font-family: 'Arial', sans-serif;
+      font-size: 9px;
+      line-height: 1;
+      color: #ffffff;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.85);
+      pointer-events: none;
+      white-space: nowrap;
+      max-width: 72px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      text-align: center;
+      opacity: 0.95;
+    }
+
     .co2-ribbon-block {
       height: 100%;
       min-width: 1px;
@@ -876,6 +915,30 @@
       display: block;
     }
 
+    .mobile-toolbar {
+      display: none;
+    }
+
+    .mobile-toolbar-button {
+      border: 1px solid rgba(120, 180, 255, 0.3);
+      background: rgba(10, 16, 28, 0.86);
+      color: #d8e5ff;
+      border-radius: 999px;
+      padding: 9px 12px;
+      font-size: 11px;
+      line-height: 1;
+      cursor: pointer;
+      white-space: nowrap;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 6px 18px rgba(0, 0, 0, 0.28);
+    }
+
+    .mobile-toolbar-button.active {
+      background: rgba(75, 130, 255, 0.28);
+      border-color: rgba(140, 200, 255, 0.7);
+      color: #ffffff;
+    }
+
     @media (max-width: 1100px) {
       .hud {
         min-width: 0;
@@ -937,11 +1000,184 @@
       .co2-ribbon {
         height: 54px;
       }
+
+      .mobile-toolbar {
+        position: fixed;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: grid !important;
+        visibility: visible;
+        opacity: 1;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 8px;
+        padding: 0 10px calc(10px + env(safe-area-inset-bottom, 0px));
+        z-index: 200;
+        transform: translate3d(0, 0, 0);
+        will-change: transform;
+        pointer-events: none;
+      }
+
+      .mobile-toolbar-button {
+        min-width: 0;
+        padding: 10px 8px;
+        pointer-events: auto;
+      }
+
+      .thermal-toggle-wrap,
+      .explore-dock,
+      .info-dock,
+      .co2-ribbon {
+        display: none;
+      }
+
+      .hud {
+        display: block;
+        position: fixed;
+        left: 10px;
+        right: 10px;
+        top: 10px;
+        width: auto;
+        min-width: 0;
+        padding: 8px 10px;
+        border-radius: 12px;
+        z-index: 155;
+      }
+
+      .hud h1 {
+        margin: 0;
+        font-size: 13px;
+        line-height: 1.2;
+        letter-spacing: 0.8px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      .hud > p {
+        margin: 2px 0 0 0;
+        font-size: 10px;
+        line-height: 1.2;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      .hud .hover-panel {
+        margin: 2px 0 0 0;
+        padding: 0;
+        gap: 0;
+        background: transparent;
+        border: 0;
+      }
+
+      .hud .hover-swatch {
+        display: none;
+      }
+
+      .hud .hover-title,
+      .hud .hover-value {
+        font-size: 10px;
+        line-height: 1.2;
+      }
+
+      .hud .hover-value {
+        margin-top: 0;
+      }
+
+      .hud .sources-details {
+        display: none;
+      }
+
+      body[data-mobile-panel='explore'] .explore-dock,
+      body[data-mobile-panel='insights'] .info-dock,
+      body[data-mobile-panel='climate'] .thermal-toggle-wrap,
+      body[data-mobile-panel='emissions'] .co2-ribbon {
+        display: flex;
+      }
+
+      body[data-mobile-panel='explore'] .explore-dock,
+      body[data-mobile-panel='insights'] .info-dock,
+      body[data-mobile-panel='climate'] .thermal-toggle-wrap {
+        position: fixed;
+        left: 10px;
+        right: 10px;
+        top: 84px;
+        width: auto;
+        max-width: none;
+        max-height: calc(var(--app-vh, 100dvh) - 188px - env(safe-area-inset-bottom, 0px));
+        overflow: auto;
+        z-index: 150;
+      }
+
+      body[data-mobile-panel='explore'] .explore-dock,
+      body[data-mobile-panel='insights'] .info-dock {
+        bottom: auto;
+      }
+
+      body[data-mobile-panel='climate'] .thermal-toggle-wrap {
+        transform: none;
+        align-items: stretch;
+        gap: 10px;
+        padding: 14px;
+        border: 1px solid rgba(120, 180, 255, 0.35);
+        border-radius: 14px;
+        background: linear-gradient(180deg, rgba(14, 20, 36, 0.94), rgba(8, 12, 24, 0.94));
+        box-shadow: 0 0 24px rgba(70, 140, 255, 0.18), inset 0 0 14px rgba(120, 180, 255, 0.08);
+      }
+
+      body[data-mobile-panel='climate'] .thermal-toggle {
+        width: 100%;
+      }
+
+      body[data-mobile-panel='climate'] .thermal-source-link {
+        display: inline-flex;
+        justify-content: center;
+      }
+
+      body[data-mobile-panel='emissions'] .co2-ribbon {
+        position: fixed;
+        left: 10px;
+        right: 10px;
+        bottom: calc(98px + env(safe-area-inset-bottom, 0px));
+        height: 128px;
+        border: 1px solid rgba(120, 180, 255, 0.3);
+        border-radius: 14px;
+        overflow: hidden;
+        opacity: 1;
+        z-index: 150;
+      }
+
+      body[data-mobile-panel='emissions'] .co2-ribbon-label {
+        padding-top: 8px;
+      }
+
+      body[data-mobile-panel='emissions'] .co2-ribbon-track {
+        padding-bottom: 2px;
+      }
+
+      body[data-mobile-panel='emissions'] .co2-ribbon-labels {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        height: 36px;
+        display: block;
+        pointer-events: none;
+        z-index: 3;
+      }
     }
   </style>
 </head>
 <body>
   <canvas id="globe"></canvas>
+
+  <div id="mobileToolbar" class="mobile-toolbar" aria-label="Mobile controls">
+    <button type="button" class="mobile-toolbar-button" data-mobile-panel-button="explore">Search</button>
+    <button type="button" class="mobile-toolbar-button" data-mobile-panel-button="insights">Data</button>
+    <button type="button" class="mobile-toolbar-button" data-mobile-panel-button="climate">Heat</button>
+    <button type="button" class="mobile-toolbar-button" data-mobile-panel-button="emissions">CO2</button>
+  </div>
 
   <div id="hoverTooltip" class="hover-tooltip">
     <div class="hover-tooltip-line1">
@@ -1126,6 +1362,7 @@
   <div id="co2Ribbon" class="co2-ribbon">
     <div class="co2-ribbon-label">2023 CO₂ contribution by country (% of global total)</div>
     <div id="co2RibbonTrack" class="co2-ribbon-track"></div>
+    <div id="co2RibbonLabels" class="co2-ribbon-labels" aria-hidden="true"></div>
   </div>
   <div id="co2RibbonTooltip" class="co2-ribbon-tooltip"></div>
 

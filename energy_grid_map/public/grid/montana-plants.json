@@ -1,0 +1,1572 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-04-24T20:51:16Z",
+    "timestamp_areas_base": "2026-04-24T15:53:36Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 148773435,
+      "center": {
+        "lat": 45.4878762,
+        "lon": -111.6338085
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Madison Dam",
+        "operator": "NorthWestern Energy",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "16.4 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "6422",
+        "source": "Bing",
+        "start_date": "1906-09"
+      },
+      "lat": 45.4878762,
+      "lon": -111.6338085
+    },
+    {
+      "type": "way",
+      "id": 170263865,
+      "center": {
+        "lat": 46.105708,
+        "lon": -112.8770646
+      },
+      "tags": {
+        "landuse": "industrial",
+        "location": "outdoor",
+        "name": "Dave Gates Mill Creek Generating Station",
+        "operator": "NorthWestern Energy",
+        "operator:wikidata": "Q7053620",
+        "plant:method": "combustion",
+        "plant:output:electricity": "203.1 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "56908",
+        "source": "https://www.countyoffice.org/dave-gates-generating-station-mill-creek-power-plant-anaconda-mt-392/",
+        "wikidata": "Q11989488"
+      },
+      "lat": 46.105708,
+      "lon": -112.8770646
+    },
+    {
+      "type": "way",
+      "id": 181216989,
+      "center": {
+        "lat": 47.960981,
+        "lon": -115.7337675
+      },
+      "tags": {
+        "ele": "690",
+        "gnis:feature_id": "795206",
+        "name": "Noxon Rapids Dam",
+        "operator": "Avista Corp",
+        "plant:output:electricity": "487.8 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "2199",
+        "ref:US:NID": "MT00223",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1959-09",
+        "waterway": "dam",
+        "wikidata": "Q7067316",
+        "wikipedia": "en:Noxon Rapids Dam"
+      },
+      "lat": 47.960981,
+      "lon": -115.7337675
+    },
+    {
+      "type": "way",
+      "id": 270271799,
+      "center": {
+        "lat": 45.8828436,
+        "lon": -106.6115007
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Colstrip Power Plant",
+        "operator": "Talen Montana LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "1647.4 MW",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "6076",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1975-11",
+        "wikidata": "Q11963995"
+      },
+      "lat": 45.8828436,
+      "lon": -106.6115007
+    },
+    {
+      "type": "way",
+      "id": 289491012,
+      "center": {
+        "lat": 46.1201492,
+        "lon": -111.4081291
+      },
+      "tags": {
+        "name": "BROADWATER POWER PROJECT",
+        "plant:source": "hydro",
+        "power": "plant",
+        "source": "Bing",
+        "waterway": "dam"
+      },
+      "lat": 46.1201492,
+      "lon": -111.4081291
+    },
+    {
+      "type": "way",
+      "id": 295431143,
+      "center": {
+        "lat": 48.0591658,
+        "lon": -114.0713989
+      },
+      "tags": {
+        "building": "yes",
+        "landuse": "industrial",
+        "name": "Big Fork Hydro Power Plant",
+        "operator": "PacifiCorp",
+        "operator:wikidata": "Q2045479",
+        "plant:output:electricity": "4.1 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "6459"
+      },
+      "lat": 48.0591658,
+      "lon": -114.0713989
+    },
+    {
+      "type": "way",
+      "id": 340194490,
+      "center": {
+        "lat": 45.2434801,
+        "lon": -109.7323042
+      },
+      "tags": {
+        "building": "yes",
+        "operator": "PPL",
+        "plant:output:electricity": "12.5 MW",
+        "plant:source": "hydro",
+        "power": "plant"
+      },
+      "lat": 45.2434801,
+      "lon": -109.7323042
+    },
+    {
+      "type": "way",
+      "id": 343512470,
+      "center": {
+        "lat": 48.5329021,
+        "lon": -112.1568071
+      },
+      "tags": {
+        "name": "Glacier Wind Farm",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "yes",
+        "plant:source": "wind",
+        "power": "plant"
+      },
+      "lat": 48.5329021,
+      "lon": -112.1568071
+    },
+    {
+      "type": "way",
+      "id": 468644692,
+      "center": {
+        "lat": 48.2102379,
+        "lon": -104.3917603
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Culbertson Generation Station",
+        "operator": "Basin Electric Power Cooperative",
+        "plant:method": "combustion",
+        "plant:output:electricity": "108 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "56606",
+        "start_date": "2010-12"
+      },
+      "lat": 48.2102379,
+      "lon": -104.3917603
+    },
+    {
+      "type": "way",
+      "id": 478702206,
+      "center": {
+        "lat": 47.6796921,
+        "lon": -104.1544428
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Lewis & Clark Power Plant",
+        "operator": "Montana-Dakota Utilities Co",
+        "plant:output:electricity": "68.6 MW",
+        "plant:source": "coal;gas",
+        "power": "plant",
+        "ref:US:EIA": "6089",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020;https://www.gem.wiki/Lewis_%26_Clark_Station",
+        "start_date": "1958-10"
+      },
+      "lat": 47.6796921,
+      "lon": -104.1544428
+    },
+    {
+      "type": "way",
+      "id": 543107828,
+      "center": {
+        "lat": 45.8108985,
+        "lon": -108.4285743
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Yellowstone Energy",
+        "operator": "Yellowstone Energy LP",
+        "plant:method": "combustion",
+        "plant:output:electricity": "68 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "50931",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1995-06"
+      },
+      "lat": 45.8108985,
+      "lon": -108.4285743
+    },
+    {
+      "type": "way",
+      "id": 552481914,
+      "center": {
+        "lat": 46.4112546,
+        "lon": -105.7952617
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Miles City GT",
+        "operator": "Montana-Dakota Utilities Co",
+        "plant:output:electricity": "23.3 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "2177",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1972-05"
+      },
+      "lat": 46.4112546,
+      "lon": -105.7952617
+    },
+    {
+      "type": "way",
+      "id": 606787831,
+      "center": {
+        "lat": 48.0616829,
+        "lon": -114.0527206
+      },
+      "tags": {
+        "landuse": "industrial",
+        "power": "plant"
+      },
+      "lat": 48.0616829,
+      "lon": -114.0527206
+    },
+    {
+      "type": "way",
+      "id": 615913480,
+      "center": {
+        "lat": 47.569805,
+        "lon": -111.122153
+      },
+      "tags": {
+        "building": "yes",
+        "building:levels": "3",
+        "name": "Ryan Dam Hydroplant",
+        "operator": "NorthWestern Energy",
+        "operator:wikidata": "Q7053620",
+        "plant:output:electricity": "52.8 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "2194",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1915-08",
+        "wikidata": "Q7384002"
+      },
+      "lat": 47.569805,
+      "lon": -111.122153
+    },
+    {
+      "type": "way",
+      "id": 620079339,
+      "center": {
+        "lat": 45.9756281,
+        "lon": -106.6555994
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Rosebud Power Plant",
+        "operator": "Colstrip Energy LP",
+        "plant:output:electricity": "46.1 MW",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "10784",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1990-02"
+      },
+      "lat": 45.9756281,
+      "lon": -106.6555994
+    },
+    {
+      "type": "way",
+      "id": 725388666,
+      "center": {
+        "lat": 47.5515089,
+        "lon": -111.0343458
+      },
+      "tags": {
+        "power": "plant"
+      },
+      "lat": 47.5515089,
+      "lon": -111.0343458
+    },
+    {
+      "type": "way",
+      "id": 732510995,
+      "center": {
+        "lat": 48.3415538,
+        "lon": -114.0142406
+      },
+      "tags": {
+        "building": "yes",
+        "landuse": "industrial",
+        "layer": "1",
+        "name": "Hungry Horse Power Plant",
+        "operator": "United States Bureau of Reclamation",
+        "operator:short": "USBR",
+        "operator:wikidata": "Q1010548",
+        "plant:output:electricity": "428 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "2203",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1952-10",
+        "wikidata": "Q1637929"
+      },
+      "lat": 48.3415538,
+      "lon": -114.0142406
+    },
+    {
+      "type": "way",
+      "id": 732542034,
+      "center": {
+        "lat": 47.6778993,
+        "lon": -114.2377645
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Seli\u2019\u0161 Ksanka Qlispe\u2019 Power Plant",
+        "operator": "Energy Keepers Inc., Confederated Salish and Kootenai Tribes",
+        "plant:output:electricity": "227.8 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "2188",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1938-10",
+        "wikidata": "Q4688016"
+      },
+      "lat": 47.6778993,
+      "lon": -114.2377645
+    },
+    {
+      "type": "way",
+      "id": 733071630,
+      "center": {
+        "lat": 46.6490868,
+        "lon": -111.7280379
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Canyon Ferry Dam Power Plant",
+        "operator": "U S Bureau of Reclamation",
+        "plant:output:electricity": "49.8 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "6400",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1953-12",
+        "wikidata": "Q5034202"
+      },
+      "lat": 46.6490868,
+      "lon": -111.7280379
+    },
+    {
+      "type": "way",
+      "id": 733072717,
+      "center": {
+        "lat": 46.7658116,
+        "lon": -111.887507
+      },
+      "tags": {
+        "building": "industrial",
+        "name": "Hauser Dam Power Plant",
+        "operator": "NorthWestern Energy",
+        "operator:wikidata": "Q7053620",
+        "plant:output:electricity": "17.7 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "2185",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1911-11",
+        "wikidata": "Q1268280"
+      },
+      "lat": 46.7658116,
+      "lon": -111.887507
+    },
+    {
+      "type": "way",
+      "id": 733073893,
+      "center": {
+        "lat": 46.9907783,
+        "lon": -112.0056782
+      },
+      "tags": {
+        "building": "industrial",
+        "name": "Holter Dam Power Plant",
+        "operator": "NorthWestern Energy",
+        "plant:output:electricity": "54.6 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "2186",
+        "source": "Bing",
+        "start_date": "1918-07"
+      },
+      "lat": 46.9907783,
+      "lon": -112.0056782
+    },
+    {
+      "type": "way",
+      "id": 749551569,
+      "center": {
+        "lat": 47.5397502,
+        "lon": -111.1947452
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Rainbow Power Station",
+        "operator": "NorthWestern Energy (MT Hydro)",
+        "operator:wikidata": "Q7053620",
+        "plant:output:electricity": "59 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "2193",
+        "source": "U.S. Energy Information Administration - EIA-860m - 2025",
+        "start_date": "1910-07"
+      },
+      "lat": 47.5397502,
+      "lon": -111.1947452
+    },
+    {
+      "type": "way",
+      "id": 753664626,
+      "center": {
+        "lat": 48.0126093,
+        "lon": -106.4116147
+      },
+      "tags": {
+        "addr:city": "Nashua",
+        "addr:postcode": "59248",
+        "addr:state": "MT",
+        "addr:street": "Yellowstone Road",
+        "landuse": "industrial",
+        "name": "Fort Peck Power Plant",
+        "operator": "USACE-Omaha",
+        "plant:output:electricity": "179.7 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "6623",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1943-07",
+        "wikidata": "Q1426242",
+        "wikipedia": "en:Fort Peck Dam"
+      },
+      "lat": 48.0126093,
+      "lon": -106.4116147
+    },
+    {
+      "type": "way",
+      "id": 767989459,
+      "center": {
+        "lat": 45.9299104,
+        "lon": -112.5248708
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Basin Creek Plant",
+        "operator": "Basin Creek Power Services LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "54.9 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "55866",
+        "source": "U.S. Energy Information Administration - EIA-860m - 2025",
+        "start_date": "2006-06"
+      },
+      "lat": 45.9299104,
+      "lon": -112.5248708
+    },
+    {
+      "type": "way",
+      "id": 835971369,
+      "center": {
+        "lat": 46.6959683,
+        "lon": -112.0660611
+      },
+      "tags": {
+        "name": "Green Meadow Solar, LLC",
+        "operator": "Adapture Renewables, Inc.",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "3 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61291",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2017-04"
+      },
+      "lat": 46.6959683,
+      "lon": -112.0660611
+    },
+    {
+      "type": "way",
+      "id": 880014531,
+      "center": {
+        "lat": 45.7648208,
+        "lon": -107.599079
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Hardin Generating Station",
+        "operator": "Heorot Power Management",
+        "plant:method": "combustion",
+        "plant:output:electricity": "115.7 MW",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "55749",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2006-03",
+        "wikidata": "Q11974321"
+      },
+      "lat": 45.7648208,
+      "lon": -107.599079
+    },
+    {
+      "type": "way",
+      "id": 940784637,
+      "center": {
+        "lat": 48.3190579,
+        "lon": -111.0987413
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Tiber Dam Hydroelectric Plant",
+        "operator": "Tiber Montana LLC",
+        "plant:output:electricity": "7.5 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "56499",
+        "source": "U.S. Energy Information Administration - EIA-860m - 2025",
+        "start_date": "2004-06"
+      },
+      "lat": 48.3190579,
+      "lon": -111.0987413
+    },
+    {
+      "type": "way",
+      "id": 960216301,
+      "center": {
+        "lat": 47.0538055,
+        "lon": -104.7393178
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Glendive GT Power Plant",
+        "operator": "Montana-Dakota Utilities Co",
+        "plant:method": "combustion",
+        "plant:output:electricity": "83.7 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "2176",
+        "source": "https://www.industryabout.com/country-territories-3/873-usa/fossil-fuels-energy/20641-glendive-gas-power-plant",
+        "start_date": "1979-06"
+      },
+      "lat": 47.0538055,
+      "lon": -104.7393178
+    },
+    {
+      "type": "way",
+      "id": 1007491810,
+      "center": {
+        "lat": 47.5936074,
+        "lon": -115.3601353
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Thompson Falls Hydroelectric Power Station",
+        "operator": "NorthWestern Energy",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "98.1 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "2195",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1915-07",
+        "wikidata": "Q7795724"
+      },
+      "lat": 47.5936074,
+      "lon": -115.3601353
+    },
+    {
+      "type": "way",
+      "id": 1023099625,
+      "center": {
+        "lat": 46.2271035,
+        "lon": -113.2944626
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Flint Creek Hydroelectric LLC",
+        "operator": "Hydrodynamics Inc",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "58392",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2013-03"
+      },
+      "lat": 46.2271035,
+      "lon": -113.2944626
+    },
+    {
+      "type": "way",
+      "id": 1059933203,
+      "center": {
+        "lat": 45.3072092,
+        "lon": -107.9581699
+      },
+      "tags": {
+        "name": "Yellowtail Powerhouse",
+        "operator": "United States Bureau of Reclamation",
+        "operator:short": "USBR",
+        "operator:wikidata": "Q1010548",
+        "plant:output:electricity": "278.2 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "2204",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1966-08",
+        "wikidata": "Q2600045"
+      },
+      "lat": 45.3072092,
+      "lon": -107.9581699
+    },
+    {
+      "type": "way",
+      "id": 1064187794,
+      "center": {
+        "lat": 48.2149337,
+        "lon": -104.3974386
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "OREG 2",
+        "operator": "Ormat Nevada Inc",
+        "plant:output:electricity": "30 MW",
+        "plant:source": "waste_heat",
+        "power": "plant",
+        "ref:US:EIA": "56880",
+        "source": "https://www.gridinfo.com/plant/oreg-2-inc/56880",
+        "start_date": "2008-12"
+      },
+      "lat": 48.2149337,
+      "lon": -104.3974386
+    },
+    {
+      "type": "way",
+      "id": 1087377555,
+      "center": {
+        "lat": 45.7275864,
+        "lon": -107.635248
+      },
+      "tags": {
+        "name": "South Mills Solar",
+        "operator": "Adapture Renewables, Inc.",
+        "plant:output:electricity": "3 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61290",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2017-04"
+      },
+      "lat": 45.7275864,
+      "lon": -107.635248
+    },
+    {
+      "type": "way",
+      "id": 1104550950,
+      "center": {
+        "lat": 45.8257215,
+        "lon": -108.5058293
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 45.8257215,
+      "lon": -108.5058293
+    },
+    {
+      "type": "way",
+      "id": 1145431471,
+      "center": {
+        "lat": 45.6595191,
+        "lon": -108.7457305
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Yellowstone County Generating Station",
+        "operator": "NorthWestern Energy",
+        "operator:wikidata": "Q7053620",
+        "plant:method": "combustion",
+        "plant:output:electricity": "207 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "67766",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2024-07"
+      },
+      "lat": 45.6595191,
+      "lon": -108.7457305
+    },
+    {
+      "type": "way",
+      "id": 1151206333,
+      "center": {
+        "lat": 48.995537,
+        "lon": -112.7898246
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 48.995537,
+      "lon": -112.7898246
+    },
+    {
+      "type": "way",
+      "id": 1153917852,
+      "center": {
+        "lat": 46.8077811,
+        "lon": -112.2513711
+      },
+      "tags": {
+        "name": "Great Divide Solar, LLC",
+        "operator": "Adapture Renewables, Inc.",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "3 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61335",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2017-09"
+      },
+      "lat": 46.8077811,
+      "lon": -112.2513711
+    },
+    {
+      "type": "way",
+      "id": 1153917905,
+      "center": {
+        "lat": 47.5481358,
+        "lon": -111.2499321
+      },
+      "tags": {
+        "name": "Black Eagle Solar, LLC",
+        "operator": "Adapture Renewables, Inc.",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "3 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61336",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2017-09"
+      },
+      "lat": 47.5481358,
+      "lon": -111.2499321
+    },
+    {
+      "type": "way",
+      "id": 1153917950,
+      "center": {
+        "lat": 46.2914363,
+        "lon": -108.9352334
+      },
+      "tags": {
+        "name": "Magpie Solar, LLC",
+        "operator": "Adapture Renewables, Inc.",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "3 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61337",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2017-09"
+      },
+      "lat": 46.2914363,
+      "lon": -108.9352334
+    },
+    {
+      "type": "way",
+      "id": 1155437035,
+      "center": {
+        "lat": 45.7043331,
+        "lon": -109.5651488
+      },
+      "tags": {
+        "name": "River Bend Solar, LLC",
+        "operator": "Adapture Renewables, Inc.",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61289",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2017-04"
+      },
+      "lat": 45.7043331,
+      "lon": -109.5651488
+    },
+    {
+      "type": "way",
+      "id": 1266577329,
+      "center": {
+        "lat": 46.9269297,
+        "lon": -114.0946598
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 46.9269297,
+      "lon": -114.0946598
+    },
+    {
+      "type": "way",
+      "id": 1297589652,
+      "center": {
+        "lat": 46.3242894,
+        "lon": -114.1540878
+      },
+      "tags": {
+        "name": "Valley Solar",
+        "operator": "Ravalli Electric Cooperative",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "50 KW",
+        "plant:source": "solar",
+        "power": "plant",
+        "start_date": "2016"
+      },
+      "lat": 46.3242894,
+      "lon": -114.1540878
+    },
+    {
+      "type": "way",
+      "id": 1299145664,
+      "center": {
+        "lat": 45.7236638,
+        "lon": -111.0749145
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 45.7236638,
+      "lon": -111.0749145
+    },
+    {
+      "type": "way",
+      "id": 1313586352,
+      "center": {
+        "lat": 46.7439598,
+        "lon": -114.0803669
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 46.7439598,
+      "lon": -114.0803669
+    },
+    {
+      "type": "way",
+      "id": 1342757555,
+      "center": {
+        "lat": 45.2323914,
+        "lon": -112.7464242
+      },
+      "tags": {
+        "name": "Apex Solar",
+        "operator": "Apex Solar LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "80 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64189",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2023-08"
+      },
+      "lat": 45.2323914,
+      "lon": -112.7464242
+    },
+    {
+      "type": "way",
+      "id": 1382632661,
+      "center": {
+        "lat": 48.410111,
+        "lon": -115.3158505
+      },
+      "tags": {
+        "name": "Libby Dam Powerhouse",
+        "operator": "USACE Northwestern Division",
+        "operator:wikidata": "Q7060302",
+        "plant:output:electricity": "525 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "6172",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1975-08",
+        "wikidata": "Q6540423"
+      },
+      "lat": 48.410111,
+      "lon": -115.3158505
+    },
+    {
+      "type": "way",
+      "id": 1383623791,
+      "center": {
+        "lat": 48.2452943,
+        "lon": -114.3102854
+      },
+      "tags": {
+        "name": "FEC Community Solar Farm",
+        "operator": "Flathead Electric Cooperative",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 48.2452943,
+      "lon": -114.3102854
+    },
+    {
+      "type": "way",
+      "id": 1467178269,
+      "center": {
+        "lat": 47.5816349,
+        "lon": -111.0606686
+      },
+      "tags": {
+        "name": "Morony Power Station",
+        "operator": "NorthWestern Energy (MT Hydro)",
+        "plant:output:electricity": "63 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "2191",
+        "source": "U.S. Energy Information Administration - EIA-860m - 2025",
+        "start_date": "1930-01"
+      },
+      "lat": 47.5816349,
+      "lon": -111.0606686
+    },
+    {
+      "type": "way",
+      "id": 1467183856,
+      "center": {
+        "lat": 47.5534986,
+        "lon": -111.1491031
+      },
+      "tags": {
+        "name": "Cochrane Power Station",
+        "operator": "NorthWestern Energy (MT Hydro)",
+        "plant:output:electricity": "60.4 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "2182",
+        "source": "U.S. Energy Information Administration - EIA-860m - 2025",
+        "start_date": "1958-07"
+      },
+      "lat": 47.5534986,
+      "lon": -111.1491031
+    },
+    {
+      "type": "relation",
+      "id": 5277169,
+      "center": {
+        "lat": 46.5723629,
+        "lon": -109.7463242
+      },
+      "tags": {
+        "name": "Judith Gap Wind Energy Center",
+        "operator": "Invenergy Services LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "135 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56377",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2005-12",
+        "type": "site",
+        "website": "https://www.invenergyllc.com/ProjectsbyCountry/UnitedStates/JudithGap.aspx"
+      },
+      "lat": 46.5723629,
+      "lon": -109.7463242
+    },
+    {
+      "type": "relation",
+      "id": 5277170,
+      "center": {
+        "lat": 46.4442302,
+        "lon": -110.0931194
+      },
+      "tags": {
+        "plant:source": "wind",
+        "power": "plant",
+        "type": "site"
+      },
+      "lat": 46.4442302,
+      "lon": -110.0931194
+    },
+    {
+      "type": "relation",
+      "id": 5279240,
+      "center": {
+        "lat": 47.5007,
+        "lon": -111.4379326
+      },
+      "tags": {
+        "name": "Horseshoe Bend Wind Park",
+        "operator": "Cycle Power Partners",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "9 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56591",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2006-02",
+        "type": "site"
+      },
+      "lat": 47.5007,
+      "lon": -111.4379326
+    },
+    {
+      "type": "relation",
+      "id": 5282380,
+      "center": {
+        "lat": 48.833776,
+        "lon": -112.1421791
+      },
+      "tags": {
+        "name": "NaturEner Rim Rock Energy",
+        "operator": "NaturEner Rim Rock Energy LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "189 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref": "RR",
+        "ref:US:EIA": "57995",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2012-12",
+        "type": "site",
+        "wikidata": "Q25111237"
+      },
+      "lat": 48.833776,
+      "lon": -112.1421791
+    },
+    {
+      "type": "relation",
+      "id": 5282624,
+      "center": {
+        "lat": 48.5413517,
+        "lon": -112.1935627
+      },
+      "tags": {
+        "name": "NaturEner Glacier Wind Energy 1",
+        "operator": "NaturEner Glacier Wind Energy 1 LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "106.5 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57049",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2008-10",
+        "type": "site"
+      },
+      "lat": 48.5413517,
+      "lon": -112.1935627
+    },
+    {
+      "type": "relation",
+      "id": 5282625,
+      "center": {
+        "lat": 48.5190509,
+        "lon": -112.1167536
+      },
+      "tags": {
+        "name": "NaturEner Glacier Wind Energy 2",
+        "operator": "NaturEner Glacier Wind Energy 2 LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "103.5 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57050",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2009-11",
+        "type": "site"
+      },
+      "lat": 48.5190509,
+      "lon": -112.1167536
+    },
+    {
+      "type": "relation",
+      "id": 5282885,
+      "center": {
+        "lat": 47.7139547,
+        "lon": -111.9573777
+      },
+      "tags": {
+        "name": "Fairfield Wind",
+        "operator": "Greenbacker Renewable Energy Corporation",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "10 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "58966",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2014-05",
+        "type": "site"
+      },
+      "lat": 47.7139547,
+      "lon": -111.9573777
+    },
+    {
+      "type": "relation",
+      "id": 5283210,
+      "center": {
+        "lat": 46.4191641,
+        "lon": -110.3488713
+      },
+      "tags": {
+        "name": "Gordon Butte Wind Farm",
+        "operator": "Gordon Butte Wind LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "17.7 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57748",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2012-01",
+        "type": "site"
+      },
+      "lat": 46.4191641,
+      "lon": -110.3488713
+    },
+    {
+      "type": "relation",
+      "id": 5283226,
+      "center": {
+        "lat": 46.2654257,
+        "lon": -109.505327
+      },
+      "tags": {
+        "name": "Musselshell Wind 1",
+        "operator": "Musselshell Wind Project LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "10 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57963",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2012-12",
+        "type": "site"
+      },
+      "lat": 46.2654257,
+      "lon": -109.505327
+    },
+    {
+      "type": "relation",
+      "id": 5283227,
+      "center": {
+        "lat": 46.2829319,
+        "lon": -109.470579
+      },
+      "tags": {
+        "name": "Musselshell Wind II",
+        "operator": "Musselshell Wind Project Two LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "10 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57965",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2012-12",
+        "type": "site"
+      },
+      "lat": 46.2829319,
+      "lon": -109.470579
+    },
+    {
+      "type": "relation",
+      "id": 5283254,
+      "center": {
+        "lat": 46.2738622,
+        "lon": -104.177818
+      },
+      "tags": {
+        "name": "Diamond Willow Wind Farm",
+        "operator": "Montana-Dakota Utilities Co",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "30 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56782",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2007-12",
+        "type": "site"
+      },
+      "lat": 46.2738622,
+      "lon": -104.177818
+    },
+    {
+      "type": "relation",
+      "id": 5283300,
+      "center": {
+        "lat": 47.3405291,
+        "lon": -110.6349159
+      },
+      "tags": {
+        "name": "Spion Kop Wind Farm",
+        "operator": "NorthWestern Energy",
+        "operator:wikidata": "Q7053620",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "40 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "58218",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2012-12",
+        "type": "site"
+      },
+      "lat": 47.3405291,
+      "lon": -110.6349159
+    },
+    {
+      "type": "relation",
+      "id": 14125311,
+      "center": {
+        "lat": 47.7167738,
+        "lon": -111.9195968
+      },
+      "tags": {
+        "name": "Greenfield Wind",
+        "operator": "Greenbacker Renewable Energy Corporation",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "25 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "60486",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2016-10",
+        "type": "site"
+      },
+      "lat": 47.7167738,
+      "lon": -111.9195968
+    },
+    {
+      "type": "relation",
+      "id": 14125312,
+      "center": {
+        "lat": 47.3075851,
+        "lon": -110.6296421
+      },
+      "tags": {
+        "name": "South Peak Wind",
+        "operator": "Allete Clean Energy",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "80 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "62939",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2020-04",
+        "type": "site"
+      },
+      "lat": 47.3075851,
+      "lon": -110.6296421
+    },
+    {
+      "type": "relation",
+      "id": 14125313,
+      "center": {
+        "lat": 45.8361296,
+        "lon": -109.6527737
+      },
+      "tags": {
+        "name": "Big Timber Wind Farm",
+        "operator": "Consolidated Edison Development Inc.",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "25 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "61155",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2018-02",
+        "type": "site"
+      },
+      "lat": 45.8361296,
+      "lon": -109.6527737
+    },
+    {
+      "type": "relation",
+      "id": 14125314,
+      "center": {
+        "lat": 45.8697954,
+        "lon": -109.5005189
+      },
+      "tags": {
+        "name": "Stillwater Wind",
+        "operator": "Pattern Operators LP",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "79.7 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "61858",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2018-10",
+        "type": "site"
+      },
+      "lat": 45.8697954,
+      "lon": -109.5005189
+    },
+    {
+      "type": "relation",
+      "id": 14125315,
+      "center": {
+        "lat": 46.4503505,
+        "lon": -110.0879214
+      },
+      "tags": {
+        "name": "Two Dot Wind Farm",
+        "operator": "NorthWestern Energy",
+        "operator:wikidata": "Q7053620",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "9.7 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "59003",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2014-06",
+        "type": "site"
+      },
+      "lat": 46.4503505,
+      "lon": -110.0879214
+    },
+    {
+      "type": "relation",
+      "id": 14258831,
+      "center": {
+        "lat": 46.1028905,
+        "lon": -108.8068986
+      },
+      "tags": {
+        "name": "Two Dot Wind Broadview East",
+        "operator": "Two Dot Wind Broadview East LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "1.8 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "64332",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2018-10",
+        "type": "site"
+      },
+      "lat": 46.1028905,
+      "lon": -108.8068986
+    },
+    {
+      "type": "relation",
+      "id": 14712282,
+      "center": {
+        "lat": 45.1595726,
+        "lon": -108.6934714
+      },
+      "tags": {
+        "name": "Pryor Mountain Wind",
+        "operator": "PacifiCorp",
+        "operator:wikidata": "Q2045479",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "239.8 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "59757",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2021-04",
+        "type": "site"
+      },
+      "lat": 45.1595726,
+      "lon": -108.6934714
+    },
+    {
+      "type": "relation",
+      "id": 15711312,
+      "center": {
+        "lat": 45.8737766,
+        "lon": -108.6429122
+      },
+      "tags": {
+        "name": "MTSUN",
+        "operator": "Greenbacker Renewable Energy Company",
+        "operator:wikidata": "Q130382431",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64032",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "type": "multipolygon"
+      },
+      "lat": 45.8737766,
+      "lon": -108.6429122
+    },
+    {
+      "type": "relation",
+      "id": 16244768,
+      "center": {
+        "lat": 46.8295182,
+        "lon": -106.3956915
+      },
+      "tags": {
+        "name": "Clearwater Wind Farm",
+        "operator": "Clearwater Energy Resources LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "365.5 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "65577",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2022-11",
+        "type": "site",
+        "wikidata": "Q116725185"
+      },
+      "lat": 46.8295182,
+      "lon": -106.3956915
+    },
+    {
+      "type": "relation",
+      "id": 17841818,
+      "center": {
+        "lat": 47.6017064,
+        "lon": -112.0820522
+      },
+      "tags": {
+        "name": "Turnbull Hydro",
+        "operator": "NorthWestern Energy",
+        "operator:wikidata": "Q7053620",
+        "plant:output:electricity": "13 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "start_date": "2011-06",
+        "type": "multipolygon"
+      },
+      "lat": 47.6017064,
+      "lon": -112.0820522
+    },
+    {
+      "type": "relation",
+      "id": 19988271,
+      "center": {
+        "lat": 46.827625,
+        "lon": -106.2950221
+      },
+      "tags": {
+        "name": "Clearwater Wind III",
+        "operator": "Clearwater Wind III, LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "100 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "66811",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2024-09",
+        "type": "site"
+      },
+      "lat": 46.827625,
+      "lon": -106.2950221
+    },
+    {
+      "type": "relation",
+      "id": 19988272,
+      "center": {
+        "lat": 46.8023365,
+        "lon": -106.1972046
+      },
+      "tags": {
+        "name": "Clearwater Wind II",
+        "operator": "Clearwater Wind II, LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "102.8 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "66184",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2023-12",
+        "type": "site"
+      },
+      "lat": 46.8023365,
+      "lon": -106.1972046
+    },
+    {
+      "type": "relation",
+      "id": 19988273,
+      "center": {
+        "lat": 46.8029541,
+        "lon": -106.0013507
+      },
+      "tags": {
+        "name": "Clearwater Wind East",
+        "operator": "Clearwater Wind East, LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "207.9 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "66183",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2024-01",
+        "type": "site"
+      },
+      "lat": 46.8029541,
+      "lon": -106.0013507
+    }
+  ]
+}

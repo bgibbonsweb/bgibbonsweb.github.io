@@ -1,0 +1,3123 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-04-24T20:51:16Z",
+    "timestamp_areas_base": "2026-04-24T15:53:36Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 368158219,
+      "lat": 36.5306457,
+      "lon": -83.1318384,
+      "tags": {
+        "addr:state": "TN",
+        "ele": "357",
+        "gnis:feature_id": "1298482",
+        "name": "Pressmens Home Power Plant",
+        "power": "plant",
+        "source": "USGS Geonames"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8140199971,
+      "lat": 35.0583018,
+      "lon": -85.4081813,
+      "tags": {
+        "layer": "-1",
+        "location": "underground",
+        "name": "Raccoon Mountain Pumped-Storage Plant",
+        "operator": "Tennessee Valley Authority",
+        "operator:short": "TVA",
+        "operator:wikidata": "Q1367577",
+        "plant:method": "water-pumped-storage",
+        "plant:output:electricity": "1713.6 MW",
+        "plant:source": "hydro",
+        "plant:storage": "36344 MWh",
+        "power": "plant",
+        "ref:US:EIA": "6151",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1978-12",
+        "wikidata": "Q2125134",
+        "wikipedia": "en:Raccoon Mountain Pumped-Storage Plant"
+      }
+    },
+    {
+      "type": "way",
+      "id": 98010038,
+      "center": {
+        "lat": 35.5436244,
+        "lon": -89.1979779
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Brownsville Combustion Turbine Plant",
+        "operator": "Tennessee Valley Authority",
+        "operator:short": "TVA",
+        "operator:wikidata": "Q1367577",
+        "plant:method": "combustion",
+        "plant:output:electricity": "468 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "55081",
+        "start_date": "1999-06",
+        "wikidata": "Q11962365"
+      },
+      "lat": 35.5436244,
+      "lon": -89.1979779
+    },
+    {
+      "type": "way",
+      "id": 108805167,
+      "center": {
+        "lat": 36.3746895,
+        "lon": -82.9651015
+      },
+      "tags": {
+        "name": "John Sevier Combined Cycle Plant",
+        "operator": "Tennessee Valley Authority",
+        "operator:short": "TVA",
+        "operator:wikidata": "Q1367577",
+        "operator:wikipedia": "en:Tennessee Valley Authority",
+        "plant:method": "combustion",
+        "plant:output:electricity": "996.9 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "3405",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1955-07",
+        "wikidata": "Q11979050"
+      },
+      "lat": 36.3746895,
+      "lon": -82.9651015
+    },
+    {
+      "type": "way",
+      "id": 158794201,
+      "center": {
+        "lat": 36.034838,
+        "lon": -87.9845164
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Johnsonville Combustion Turbine Plant",
+        "operator": "Tennessee Valley Authority",
+        "operator:short": "TVA",
+        "operator:wikidata": "Q1367577",
+        "plant:method": "combustion",
+        "plant:output:electricity": "1372 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "3406",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1975-07",
+        "wikidata": "Q11979092"
+      },
+      "lat": 36.034838,
+      "lon": -87.9845164
+    },
+    {
+      "type": "way",
+      "id": 158980767,
+      "center": {
+        "lat": 35.6203704,
+        "lon": -84.7837752
+      },
+      "tags": {
+        "building": "yes",
+        "landuse": "industrial",
+        "name": "Watts Bar Dam Powerhouse",
+        "operator": "Tennessee Valley Authority",
+        "operator:short": "TVA",
+        "operator:wikidata": "Q1367577",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "174.6 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3420",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1942-03",
+        "wikidata": "Q4027232"
+      },
+      "lat": 35.6203704,
+      "lon": -84.7837752
+    },
+    {
+      "type": "way",
+      "id": 192461299,
+      "center": {
+        "lat": 36.537903,
+        "lon": -85.4517355
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Dale Hollow Dam",
+        "operator": "United States Army Corps of Engineers",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "54 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3424",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1948-12",
+        "wikidata": "Q65211418"
+      },
+      "lat": 36.537903,
+      "lon": -85.4517355
+    },
+    {
+      "type": "way",
+      "id": 193194879,
+      "center": {
+        "lat": 36.2895709,
+        "lon": -85.9440805
+      },
+      "tags": {
+        "building": "yes",
+        "landuse": "industrial",
+        "name": "Cordell Hull Dam",
+        "operator": "United States Army Corps of Engineers",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "99.9 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3423",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1973-08",
+        "wikidata": "Q65209592"
+      },
+      "lat": 36.2895709,
+      "lon": -85.9440805
+    },
+    {
+      "type": "way",
+      "id": 259086925,
+      "center": {
+        "lat": 35.0749449,
+        "lon": -84.4831322
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Ocoee #3 Dam",
+        "operator": "Tennessee Valley Authority",
+        "operator:short": "TVA",
+        "operator:wikidata": "Q1367577",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "28.8 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3414",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1943-04"
+      },
+      "lat": 35.0749449,
+      "lon": -84.4831322
+    },
+    {
+      "type": "way",
+      "id": 379808120,
+      "center": {
+        "lat": 36.2973174,
+        "lon": -86.6556192
+      },
+      "tags": {
+        "building": "yes",
+        "frequency": "60",
+        "generator:type": "francis_turbine",
+        "name": "Old Hickory Power Plant",
+        "operator": "United States Army Corps of Engineers",
+        "operator:short": "USACE",
+        "operator:type": "military",
+        "operator:wikidata": "Q1049334",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "103.7 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3426",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1957-04",
+        "website": "https://www.lrd.usace.army.mil/Missions/Hydropower/Article/3642652/old-hickory-dam/",
+        "wikidata": "Q7084206"
+      },
+      "lat": 36.2973174,
+      "lon": -86.6556192
+    },
+    {
+      "type": "way",
+      "id": 419366186,
+      "center": {
+        "lat": 36.3891382,
+        "lon": -87.6521863
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Cumberland Fossil Plant",
+        "operator": "Tennessee Valley Authority",
+        "operator:short": "TVA",
+        "operator:wikidata": "Q1367577",
+        "plant:method": "combustion",
+        "plant:output:electricity": "2600 MW",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "3399",
+        "start_date": "1973-03",
+        "wikidata": "Q2796942"
+      },
+      "lat": 36.3891382,
+      "lon": -87.6521863
+    },
+    {
+      "type": "way",
+      "id": 419919323,
+      "center": {
+        "lat": 36.1672643,
+        "lon": -83.4980043
+      },
+      "tags": {
+        "building": "yes",
+        "landuse": "industrial",
+        "name": "Cherokee Dam Powerhouse",
+        "operator": "Tennessee Valley Authority",
+        "operator:short": "TVA",
+        "operator:wikidata": "Q1367577",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "135 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3397",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1942-04",
+        "wikidata": "Q3431413"
+      },
+      "lat": 36.1672643,
+      "lon": -83.4980043
+    },
+    {
+      "type": "way",
+      "id": 421287652,
+      "center": {
+        "lat": 35.6625256,
+        "lon": -89.9466971
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Plum Point Energy Station",
+        "operator": "NRG Energy Services - Plum Point",
+        "plant:method": "combustion",
+        "plant:output:electricity": "720 MW",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "56456",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2010-09"
+      },
+      "lat": 35.6625256,
+      "lon": -89.9466971
+    },
+    {
+      "type": "way",
+      "id": 425177302,
+      "center": {
+        "lat": 36.2456134,
+        "lon": -88.6121273
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Gleason Generating Facility",
+        "operator": "Tennessee Valley Authority",
+        "operator:short": "TVA",
+        "operator:wikidata": "Q1367577",
+        "plant:method": "combustion",
+        "plant:output:electricity": "567.8 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "55251",
+        "start_date": "2000-06",
+        "wikidata": "Q11972184"
+      },
+      "lat": 36.2456134,
+      "lon": -88.6121273
+    },
+    {
+      "type": "way",
+      "id": 425223018,
+      "center": {
+        "lat": 35.9616331,
+        "lon": -83.5389055
+      },
+      "tags": {
+        "building": "yes",
+        "landuse": "industrial",
+        "name": "Douglas Dam Powerhouse",
+        "operator": "Tennessee Valley Authority",
+        "operator:short": "TVA",
+        "operator:wikidata": "Q1367577",
+        "operator:wikipedia": "en:Tennessee Valley Authority",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "150.8 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3400",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1943-03",
+        "wikidata": "Q1756108"
+      },
+      "lat": 35.9616331,
+      "lon": -83.5389055
+    },
+    {
+      "type": "way",
+      "id": 606850538,
+      "center": {
+        "lat": 35.1956827,
+        "lon": -86.2781633
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Tims Ford Hydroelectric Station",
+        "operator": "Tennessee Valley Authority",
+        "operator:short": "TVA",
+        "operator:wikidata": "Q1367577",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "45.7 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3417",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1972-03"
+      },
+      "lat": 35.1956827,
+      "lon": -86.2781633
+    },
+    {
+      "type": "way",
+      "id": 708130025,
+      "center": {
+        "lat": 35.0259623,
+        "lon": -85.2081842
+      },
+      "tags": {
+        "name": "Chattanooga Metropolitan Airport Photovoltaic Solar Power Plant",
+        "operator": "Chattanooga Metropolitan Airport",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2.7 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "58515",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2011-12"
+      },
+      "lat": 35.0259623,
+      "lon": -85.2081842
+    },
+    {
+      "type": "way",
+      "id": 745176484,
+      "center": {
+        "lat": 36.3299387,
+        "lon": -82.1264351
+      },
+      "tags": {
+        "addr:state": "TN",
+        "building": "yes",
+        "ele": "508",
+        "gnis:feature_id": "1273875",
+        "name": "Watauga Powerhouse",
+        "operator": "Tennessee Valley Authority",
+        "operator:short": "TVA",
+        "operator:wikidata": "Q1367577",
+        "plant:output:electricity": "57.6 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3418",
+        "source": "USGS Geonames",
+        "start_date": "1949-08",
+        "wikidata": "Q7973027"
+      },
+      "lat": 36.3299387,
+      "lon": -82.1264351
+    },
+    {
+      "type": "way",
+      "id": 745176485,
+      "center": {
+        "lat": 35.8068749,
+        "lon": -85.6339536
+      },
+      "tags": {
+        "addr:state": "TN",
+        "building": "yes",
+        "ele": "197",
+        "gnis:feature_id": "1286050",
+        "landuse": "industrial",
+        "name": "Great Falls Hydro Plant",
+        "operator": "Tennessee Valley Authority",
+        "operator:short": "TVA",
+        "operator:wikidata": "Q1367577",
+        "plant:output:electricity": "33.7 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3404",
+        "source": "USGS Geonames",
+        "start_date": "1916-12"
+      },
+      "lat": 35.8068749,
+      "lon": -85.6339536
+    },
+    {
+      "type": "way",
+      "id": 768597839,
+      "center": {
+        "lat": 35.9790503,
+        "lon": -85.0562003
+      },
+      "tags": {
+        "building": "industrial",
+        "landuse": "industrial",
+        "plant:method": "combustion",
+        "plant:output:electricity": "yes",
+        "plant:source": "gas",
+        "power": "plant"
+      },
+      "lat": 35.9790503,
+      "lon": -85.0562003
+    },
+    {
+      "type": "way",
+      "id": 826539717,
+      "center": {
+        "lat": 35.1319972,
+        "lon": -89.8125193
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.1319972,
+      "lon": -89.8125193
+    },
+    {
+      "type": "way",
+      "id": 833171132,
+      "center": {
+        "lat": 35.350991,
+        "lon": -89.8562876
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Millington Solar Farm",
+        "operator": "SR Millington, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "53 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60560",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2019-04-19"
+      },
+      "lat": 35.350991,
+      "lon": -89.8562876
+    },
+    {
+      "type": "way",
+      "id": 833719435,
+      "center": {
+        "lat": 35.9574498,
+        "lon": -83.9606696
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.9574498,
+      "lon": -83.9606696
+    },
+    {
+      "type": "way",
+      "id": 844128335,
+      "center": {
+        "lat": 36.0161753,
+        "lon": -86.5126021
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 36.0161753,
+      "lon": -86.5126021
+    },
+    {
+      "type": "way",
+      "id": 864879692,
+      "center": {
+        "lat": 35.5772415,
+        "lon": -89.0498945
+      },
+      "tags": {
+        "name": "Providence Solar",
+        "operator": "Providence Solar Center, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "16 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60337",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2017-10"
+      },
+      "lat": 35.5772415,
+      "lon": -89.0498945
+    },
+    {
+      "type": "way",
+      "id": 899652986,
+      "center": {
+        "lat": 36.044948,
+        "lon": -83.7143075
+      },
+      "tags": {
+        "name": "Strawberry Plains Solar Farm",
+        "operator": "Knoxville Utilities Board",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 36.044948,
+      "lon": -83.7143075
+    },
+    {
+      "type": "way",
+      "id": 905904477,
+      "center": {
+        "lat": 36.3441378,
+        "lon": -83.2717856
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 36.3441378,
+      "lon": -83.2717856
+    },
+    {
+      "type": "way",
+      "id": 910918977,
+      "center": {
+        "lat": 36.2612531,
+        "lon": -83.2854976
+      },
+      "tags": {
+        "gnis:feature_id": "1320000",
+        "landuse": "industrial",
+        "name": "Morristown Municipal Powerhouse",
+        "plant:output:electricity": "yes",
+        "plant:source": "hydro",
+        "power": "plant"
+      },
+      "lat": 36.2612531,
+      "lon": -83.2854976
+    },
+    {
+      "type": "way",
+      "id": 910918978,
+      "center": {
+        "lat": 36.261113,
+        "lon": -83.2855831
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Morristown Municipal Powerhouse",
+        "operator": "Morristown Utility Systems",
+        "power": "plant"
+      },
+      "lat": 36.261113,
+      "lon": -83.2855831
+    },
+    {
+      "type": "way",
+      "id": 913306692,
+      "center": {
+        "lat": 36.0935855,
+        "lon": -83.5830551
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "New Market Solar Farm",
+        "operator": "Appalachian Electric Cooperative",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 36.0935855,
+      "lon": -83.5830551
+    },
+    {
+      "type": "way",
+      "id": 929936303,
+      "center": {
+        "lat": 36.0142752,
+        "lon": -86.4919015
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 36.0142752,
+      "lon": -86.4919015
+    },
+    {
+      "type": "way",
+      "id": 934422584,
+      "center": {
+        "lat": 36.0813101,
+        "lon": -83.7274497
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Eastbridge Solar Farm",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "start_date": "2017",
+        "website": "https://www.knoxvilletn.gov/blog/One.aspx?portalId=132035&postId=7796891&portletAction=viewpost"
+      },
+      "lat": 36.0813101,
+      "lon": -83.7274497
+    },
+    {
+      "type": "way",
+      "id": 941065698,
+      "center": {
+        "lat": 36.4403974,
+        "lon": -82.4376209
+      },
+      "tags": {
+        "gnis:feature_id": "1305348",
+        "name": "Boone Dam",
+        "operator": "Tennessee Valley Authority",
+        "operator:short": "TVA",
+        "operator:wikidata": "Q1367577",
+        "plant:output:electricity": "105.9 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3395",
+        "ref:US:NID": "TN16306",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1953-03",
+        "waterway": "dam",
+        "wikidata": "Q14709818"
+      },
+      "lat": 36.4403974,
+      "lon": -82.4376209
+    },
+    {
+      "type": "way",
+      "id": 941663689,
+      "center": {
+        "lat": 36.5185227,
+        "lon": -82.5349956
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Tennessee Eastman Operations Power Plant",
+        "note": "19 coal or gas-fired steam turbines. Maybe in other places on the site.",
+        "operator": "Eastman Chemical Co-TN Ops",
+        "plant:method": "combustion",
+        "plant:output:electricity": "194.3 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "gas;coal",
+        "power": "plant",
+        "ref:US:EIA": "50481",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1936-09",
+        "wikidata": "Q12005485"
+      },
+      "lat": 36.5185227,
+      "lon": -82.5349956
+    },
+    {
+      "type": "way",
+      "id": 941968307,
+      "center": {
+        "lat": 35.1673268,
+        "lon": -88.6451158
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Selmer II Solar",
+        "operator": "Selmer North Solar II, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "8 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60556",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2016-12"
+      },
+      "lat": 35.1673268,
+      "lon": -88.6451158
+    },
+    {
+      "type": "way",
+      "id": 956446317,
+      "center": {
+        "lat": 35.7348883,
+        "lon": -84.3332843
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.7348883,
+      "lon": -84.3332843
+    },
+    {
+      "type": "way",
+      "id": 963850297,
+      "center": {
+        "lat": 36.1569092,
+        "lon": -86.6187624
+      },
+      "tags": {
+        "building": "yes",
+        "name": "J P Priest Power Plant",
+        "operator": "United States Army Corps of Engineers",
+        "operator:short": "USACE",
+        "operator:wikidata": "Q1049334",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "28 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3428",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1970-02"
+      },
+      "lat": 36.1569092,
+      "lon": -86.6187624
+    },
+    {
+      "type": "way",
+      "id": 971407524,
+      "center": {
+        "lat": 36.2240475,
+        "lon": -84.0916318
+      },
+      "tags": {
+        "building": "yes",
+        "landuse": "industrial",
+        "name": "Norris Dam Powerhouse",
+        "operator": "Tennessee Valley Authority",
+        "operator:short": "TVA",
+        "operator:wikidata": "Q1367577",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "131.4 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3411",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1936-07",
+        "wikidata": "Q1632797"
+      },
+      "lat": 36.2240475,
+      "lon": -84.0916318
+    },
+    {
+      "type": "way",
+      "id": 977619074,
+      "center": {
+        "lat": 35.7921933,
+        "lon": -84.2438496
+      },
+      "tags": {
+        "building": "industrial",
+        "gnis:feature_id": "1306451",
+        "name": "Fort Loudon Hydro",
+        "operator": "Tennessee Valley Authority",
+        "operator:short": "TVA",
+        "operator:wikidata": "Q1367577",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "153.3 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3402",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1943-11",
+        "wikidata": "Q4027197",
+        "wikipedia": "en:Fort Loudoun Dam"
+      },
+      "lat": 35.7921933,
+      "lon": -84.2438496
+    },
+    {
+      "type": "way",
+      "id": 979340756,
+      "center": {
+        "lat": 35.8920748,
+        "lon": -84.7526693
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.8920748,
+      "lon": -84.7526693
+    },
+    {
+      "type": "way",
+      "id": 980378472,
+      "center": {
+        "lat": 35.9502297,
+        "lon": -84.1631769
+      },
+      "tags": {
+        "name": "Pellissippi State Solar Farm",
+        "operator": "Pellissippi State Community College",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.9502297,
+      "lon": -84.1631769
+    },
+    {
+      "type": "way",
+      "id": 998696851,
+      "center": {
+        "lat": 35.1826979,
+        "lon": -84.438133
+      },
+      "tags": {
+        "ele": "266",
+        "gnis:feature_id": "1327466",
+        "landuse": "industrial",
+        "name": "Apalachia Powerhouse",
+        "operator": "Tennessee Valley Authority",
+        "operator:short": "TVA",
+        "operator:wikidata": "Q1367577",
+        "operator:wikipedia": "en:Tennessee Valley Authority",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "93.6 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3394",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1943-09",
+        "wikidata": "Q4779005"
+      },
+      "lat": 35.1826979,
+      "lon": -84.438133
+    },
+    {
+      "type": "way",
+      "id": 998696853,
+      "center": {
+        "lat": 35.1829789,
+        "lon": -84.4380625
+      },
+      "tags": {
+        "building": "yes",
+        "layer": "1",
+        "plant:output:electricity": "yes",
+        "plant:source": "hydro",
+        "power": "plant"
+      },
+      "lat": 35.1829789,
+      "lon": -84.4380625
+    },
+    {
+      "type": "way",
+      "id": 1009118078,
+      "center": {
+        "lat": 35.4939879,
+        "lon": -83.9887874
+      },
+      "tags": {
+        "building": "industrial",
+        "landuse": "industrial",
+        "name": "Calderwood",
+        "operator": "Brookfield Smoky Mountain Hydropower LP",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "156.6 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "54900",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1930-04",
+        "wikidata": "Q65209589"
+      },
+      "lat": 35.4939879,
+      "lon": -83.9887874
+    },
+    {
+      "type": "way",
+      "id": 1040986141,
+      "center": {
+        "lat": 36.4290854,
+        "lon": -84.9822339
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 36.4290854,
+      "lon": -84.9822339
+    },
+    {
+      "type": "way",
+      "id": 1056023950,
+      "center": {
+        "lat": 35.0950068,
+        "lon": -84.5343431
+      },
+      "tags": {
+        "addr:state": "TN",
+        "building": "yes",
+        "ele": "264",
+        "gnis:feature_id": "1329046",
+        "name": "Ocoee Dam #2",
+        "operator": "Tennessee Valley Authority",
+        "operator:short": "TVA",
+        "operator:wikidata": "Q1367577",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "23 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3413",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1913-10"
+      },
+      "lat": 35.0950068,
+      "lon": -84.5343431
+    },
+    {
+      "type": "way",
+      "id": 1059932894,
+      "center": {
+        "lat": 35.4479122,
+        "lon": -83.9382059
+      },
+      "tags": {
+        "name": "Cheoah Power Plant",
+        "operator": "Brookfield Smoky Mountain Hydropower LP",
+        "plant:output:electricity": "140 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "54899",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1919-04",
+        "wikidata": "Q723194"
+      },
+      "lat": 35.4479122,
+      "lon": -83.9382059
+    },
+    {
+      "type": "way",
+      "id": 1059932895,
+      "center": {
+        "lat": 35.1030346,
+        "lon": -85.2292985
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Chickamauga Power Plant",
+        "operator": "Tennessee Valley Authority",
+        "operator:short": "TVA",
+        "operator:wikidata": "Q1367577",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "159.6 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3398",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1940-03",
+        "wikidata": "Q2884932"
+      },
+      "lat": 35.1030346,
+      "lon": -85.2292985
+    },
+    {
+      "type": "way",
+      "id": 1059983267,
+      "center": {
+        "lat": 35.77461,
+        "lon": -83.099214
+      },
+      "tags": {
+        "building": "industrial",
+        "name": "Walters Power Plant",
+        "operator": "Duke Energy Progress",
+        "operator:wikidata": "Q1264404",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "108 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "2715",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1930-07",
+        "wikidata": "Q65209171"
+      },
+      "lat": 35.77461,
+      "lon": -83.099214
+    },
+    {
+      "type": "way",
+      "id": 1059983268,
+      "center": {
+        "lat": 36.0973653,
+        "lon": -85.827346
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Center Hill Hydroelectric Station",
+        "operator": "United States Army Corps of Engineers",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "140 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "6417",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1950-11",
+        "wikidata": "Q32832372"
+      },
+      "lat": 36.0973653,
+      "lon": -85.827346
+    },
+    {
+      "type": "way",
+      "id": 1086296305,
+      "center": {
+        "lat": 35.7327389,
+        "lon": -84.3188574
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Tate & Lyle Loudon Cogen",
+        "operator": "Green Plains Obion LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "61.4 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "63632",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2016-10"
+      },
+      "lat": 35.7327389,
+      "lon": -84.3188574
+    },
+    {
+      "type": "way",
+      "id": 1086296306,
+      "center": {
+        "lat": 35.8516353,
+        "lon": -86.3651706
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "MTSU Power Co-Gen Plant",
+        "operator": "Middle Tennessee State University",
+        "plant:method": "combustion",
+        "plant:output:electricity": "5 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "58179",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1997-07"
+      },
+      "lat": 35.8516353,
+      "lon": -86.3651706
+    },
+    {
+      "type": "way",
+      "id": 1086296307,
+      "center": {
+        "lat": 35.885266,
+        "lon": -84.3003257
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Melton Hill Power Plant",
+        "operator": "Tennessee Valley Authority",
+        "operator:short": "TVA",
+        "operator:wikidata": "Q1367577",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "72 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3408",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1964-07",
+        "wikidata": "Q6813786"
+      },
+      "lat": 35.885266,
+      "lon": -84.3003257
+    },
+    {
+      "type": "way",
+      "id": 1086296308,
+      "center": {
+        "lat": 35.0951131,
+        "lon": -84.6480465
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Ocoee Dam #1",
+        "operator": "Tennessee Valley Authority",
+        "operator:short": "TVA",
+        "operator:wikidata": "Q1367577",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "19 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3412",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1912-01",
+        "wikidata": "Q7076591"
+      },
+      "lat": 35.0951131,
+      "lon": -84.6480465
+    },
+    {
+      "type": "way",
+      "id": 1086296309,
+      "center": {
+        "lat": 36.1205495,
+        "lon": -84.038195
+      },
+      "tags": {
+        "name": "Chestnut Ridge Gas Recovery",
+        "operator": "WM Renewable Energy LLC",
+        "plant:output:electricity": "4.8 MW",
+        "plant:source": "biogas",
+        "power": "plant",
+        "ref:US:EIA": "50570",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1992-01"
+      },
+      "lat": 36.1205495,
+      "lon": -84.038195
+    },
+    {
+      "type": "way",
+      "id": 1086296310,
+      "center": {
+        "lat": 35.704897,
+        "lon": -85.7439702
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "McMinnville Power Plant",
+        "operator": "McMinnville Electric System",
+        "plant:method": "combustion",
+        "plant:output:electricity": "24 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "55928",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2001-06"
+      },
+      "lat": 35.704897,
+      "lon": -85.7439702
+    },
+    {
+      "type": "way",
+      "id": 1086296312,
+      "center": {
+        "lat": 35.5453714,
+        "lon": -84.0503084
+      },
+      "tags": {
+        "building": "industrial",
+        "name": "Chilhowee Power Plant",
+        "operator": "Brookfield Smoky Mountain Hydropower LP",
+        "plant:output:electricity": "49.8 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "54901",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1957-08",
+        "wikidata": "Q5098914"
+      },
+      "lat": 35.5453714,
+      "lon": -84.0503084
+    },
+    {
+      "type": "way",
+      "id": 1086296313,
+      "center": {
+        "lat": 35.0965207,
+        "lon": -85.1284821
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Volkswagen Solar System",
+        "operator": "SR Enterprise South LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "9.6 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "58401",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2012-11"
+      },
+      "lat": 35.0965207,
+      "lon": -85.1284821
+    },
+    {
+      "type": "way",
+      "id": 1087368076,
+      "center": {
+        "lat": 36.5495176,
+        "lon": -82.5693222
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Domtar Kingsport Mill Power Plant",
+        "operator": "Domtar Paper Co LLC Kingsport Mill",
+        "plant:output:electricity": "50 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "biomass",
+        "power": "plant",
+        "ref:US:EIA": "10252",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021"
+      },
+      "lat": 36.5495176,
+      "lon": -82.5693222
+    },
+    {
+      "type": "way",
+      "id": 1087368077,
+      "center": {
+        "lat": 36.2486049,
+        "lon": -82.5220067
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "SR Jonesborough",
+        "operator": "SR Jonesborough II, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "4.4 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "62173",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2018-12"
+      },
+      "lat": 36.2486049,
+      "lon": -82.5220067
+    },
+    {
+      "type": "way",
+      "id": 1087368078,
+      "center": {
+        "lat": 36.5240825,
+        "lon": -82.0904167
+      },
+      "tags": {
+        "building": "yes",
+        "layer": "1",
+        "name": "South Holston Power Plant",
+        "operator": "Tennessee Valley Authority",
+        "operator:short": "TVA",
+        "operator:wikidata": "Q1367577",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "38.5 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3416",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1951-02"
+      },
+      "lat": 36.5240825,
+      "lon": -82.0904167
+    },
+    {
+      "type": "way",
+      "id": 1087368079,
+      "center": {
+        "lat": 36.5748656,
+        "lon": -83.0321216
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Powell Valley Power Plant",
+        "operator": "Powell Valley Electric Cooperative",
+        "plant:method": "combustion",
+        "plant:output:electricity": "22 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "7883",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2000-07"
+      },
+      "lat": 36.5748656,
+      "lon": -83.0321216
+    },
+    {
+      "type": "way",
+      "id": 1087368080,
+      "center": {
+        "lat": 36.3416061,
+        "lon": -82.126357
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Wilbur Power Plant",
+        "operator": "Tennessee Valley Authority",
+        "operator:short": "TVA",
+        "operator:wikidata": "Q1367577",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "10.6 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3421",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1912-12"
+      },
+      "lat": 36.3416061,
+      "lon": -82.126357
+    },
+    {
+      "type": "way",
+      "id": 1087618880,
+      "center": {
+        "lat": 35.0477265,
+        "lon": -88.2660029
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Packaging Corp of America Power Plant",
+        "operator": "Packaging Corp of America",
+        "plant:output:electricity": "72.5 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "biomass",
+        "power": "plant",
+        "ref:US:EIA": "50296",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1985-02"
+      },
+      "lat": 35.0477265,
+      "lon": -88.2660029
+    },
+    {
+      "type": "way",
+      "id": 1087618885,
+      "center": {
+        "lat": 35.0617096,
+        "lon": -89.3695951
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Wildberry Solar",
+        "operator": "Adapture Renewables, Inc.",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "15 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "62775",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2018-07"
+      },
+      "lat": 35.0617096,
+      "lon": -89.3695951
+    },
+    {
+      "type": "way",
+      "id": 1087618888,
+      "center": {
+        "lat": 35.1483102,
+        "lon": -88.5578513
+      },
+      "tags": {
+        "name": "Selmer Solar Farm",
+        "operator": "Onward Energy",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "15.8 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "59188",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2014-10"
+      },
+      "lat": 35.1483102,
+      "lon": -88.5578513
+    },
+    {
+      "type": "way",
+      "id": 1089481275,
+      "center": {
+        "lat": 35.3065146,
+        "lon": -89.1680056
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Latitude Solar Center",
+        "operator": "CD Arevon USA, Inc.",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "15 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61412",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2018-12"
+      },
+      "lat": 35.3065146,
+      "lon": -89.1680056
+    },
+    {
+      "type": "way",
+      "id": 1149169858,
+      "center": {
+        "lat": 35.0514473,
+        "lon": -86.3507709
+      },
+      "tags": {
+        "name": "Elora Solar",
+        "operator": "NextEra Energy",
+        "operator:wikidata": "Q967868",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "150 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "63719",
+        "start_date": "2022"
+      },
+      "lat": 35.0514473,
+      "lon": -86.3507709
+    },
+    {
+      "type": "way",
+      "id": 1153867889,
+      "center": {
+        "lat": 35.4090581,
+        "lon": -89.3891713
+      },
+      "tags": {
+        "name": "West Tennessee Solar Farm",
+        "operator": "UT West Tennessee Solar Farm",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "4.2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "58431",
+        "start_date": "2012-12"
+      },
+      "lat": 35.4090581,
+      "lon": -89.3891713
+    },
+    {
+      "type": "way",
+      "id": 1157526997,
+      "center": {
+        "lat": 36.2478262,
+        "lon": -86.7461604
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Music City Community Solar",
+        "operator": "Nashville Electric Service",
+        "operator:short": "NES",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.6 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "62468",
+        "start_date": "2018-08",
+        "wikidata": "Q116722684"
+      },
+      "lat": 36.2478262,
+      "lon": -86.7461604
+    },
+    {
+      "type": "way",
+      "id": 1158879311,
+      "center": {
+        "lat": 35.3336393,
+        "lon": -86.1772214
+      },
+      "tags": {
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.3336393,
+      "lon": -86.1772214
+    },
+    {
+      "type": "way",
+      "id": 1159679212,
+      "center": {
+        "lat": 35.6139005,
+        "lon": -89.2393225
+      },
+      "tags": {
+        "name": "Haywood Solar",
+        "operator": "Haywood Solar, SMLLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "3 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61733",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2017-12"
+      },
+      "lat": 35.6139005,
+      "lon": -89.2393225
+    },
+    {
+      "type": "way",
+      "id": 1162906792,
+      "center": {
+        "lat": 35.6093187,
+        "lon": -88.9153699
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "SR Jackson II",
+        "operator": "SR Jackson II, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "65642",
+        "start_date": "2021"
+      },
+      "lat": 35.6093187,
+      "lon": -88.9153699
+    },
+    {
+      "type": "way",
+      "id": 1162906809,
+      "center": {
+        "lat": 36.4468482,
+        "lon": -88.3270212
+      },
+      "tags": {
+        "name": "SR Paris",
+        "operator": "SR Paris, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "6.8 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "65641",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2022-12"
+      },
+      "lat": 36.4468482,
+      "lon": -88.3270212
+    },
+    {
+      "type": "way",
+      "id": 1162907097,
+      "center": {
+        "lat": 36.191528,
+        "lon": -82.7408956
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "SR Greenville II",
+        "operator": "SR Greenville II, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "4.8 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "65639",
+        "start_date": "2022"
+      },
+      "lat": 36.191528,
+      "lon": -82.7408956
+    },
+    {
+      "type": "way",
+      "id": 1162907239,
+      "center": {
+        "lat": 36.2939781,
+        "lon": -82.694477
+      },
+      "tags": {
+        "name": "SR Greenville I",
+        "operator": "SR Greenville I, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "4.8 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "65638",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2022-12"
+      },
+      "lat": 36.2939781,
+      "lon": -82.694477
+    },
+    {
+      "type": "way",
+      "id": 1208849021,
+      "center": {
+        "lat": 36.0578729,
+        "lon": -88.1420397
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "West Camden Landfill Gas Capture",
+        "operator": "WM Renewable Energy LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "4.8 MW",
+        "plant:source": "biogas",
+        "power": "plant",
+        "ref:US:EIA": "57409",
+        "start_date": "2012-03"
+      },
+      "lat": 36.0578729,
+      "lon": -88.1420397
+    },
+    {
+      "type": "way",
+      "id": 1212005098,
+      "center": {
+        "lat": 36.3190308,
+        "lon": -87.223609
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Cheatham Hydroelectric Station",
+        "operator": "United States Army Corps of Engineers",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "36 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "6418",
+        "start_date": "1958-05"
+      },
+      "lat": 36.3190308,
+      "lon": -87.223609
+    },
+    {
+      "type": "way",
+      "id": 1212176728,
+      "center": {
+        "lat": 36.5407418,
+        "lon": -87.5444837
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Bi-County Gas Producers",
+        "operator": "Cube District Energy, LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "3 MW",
+        "plant:source": "biogas",
+        "power": "plant",
+        "ref:US:EIA": "58559",
+        "start_date": "2011-08",
+        "wikidata": "Q116718705"
+      },
+      "lat": 36.5407418,
+      "lon": -87.5444837
+    },
+    {
+      "type": "way",
+      "id": 1213799426,
+      "center": {
+        "lat": 35.6011288,
+        "lon": -84.7920661
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Watts Bar Nuclear Power Plant",
+        "operator": "Tennessee Valley Authority",
+        "operator:short": "TVA",
+        "operator:wikidata": "Q1367577",
+        "plant:method": "fission",
+        "plant:output:electricity": "2539.8 MW",
+        "plant:source": "nuclear",
+        "power": "plant",
+        "ref:US:EIA": "7722",
+        "ref:US:EPA": "110007843646",
+        "start_date": "1996-05",
+        "wikidata": "Q1739496",
+        "wikipedia": "en:Watts Bar Nuclear Plant"
+      },
+      "lat": 35.6011288,
+      "lon": -84.7920661
+    },
+    {
+      "type": "way",
+      "id": 1215533552,
+      "center": {
+        "lat": 35.2251512,
+        "lon": -85.0913962
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Sequoyah Nuclear Generating Station",
+        "operator": "Tennessee Valley Authority",
+        "operator:short": "TVA",
+        "operator:wikidata": "Q1367577",
+        "plant:method": "fission",
+        "plant:output:electricity": "2441 MW",
+        "plant:source": "nuclear",
+        "power": "plant",
+        "ref:US:EIA": "6152",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1981-06-01",
+        "wikidata": "Q1639556",
+        "wikipedia": "en:Sequoyah Nuclear Plant"
+      },
+      "lat": 35.2251512,
+      "lon": -85.0913962
+    },
+    {
+      "type": "way",
+      "id": 1217810564,
+      "center": {
+        "lat": 36.2301018,
+        "lon": -86.3157079
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 36.2301018,
+      "lon": -86.3157079
+    },
+    {
+      "type": "way",
+      "id": 1217810907,
+      "center": {
+        "lat": 36.2235528,
+        "lon": -86.341117
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 36.2235528,
+      "lon": -86.341117
+    },
+    {
+      "type": "way",
+      "id": 1225663798,
+      "center": {
+        "lat": 36.085955,
+        "lon": -83.8424696
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 36.085955,
+      "lon": -83.8424696
+    },
+    {
+      "type": "way",
+      "id": 1233861830,
+      "center": {
+        "lat": 36.1840243,
+        "lon": -86.7870959
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Central Wastewater Solar",
+        "operator": "Metro Water Services",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "437 kW",
+        "plant:source": "solar",
+        "power": "plant",
+        "start_date": "2022"
+      },
+      "lat": 36.1840243,
+      "lon": -86.7870959
+    },
+    {
+      "type": "way",
+      "id": 1236683384,
+      "center": {
+        "lat": 35.8637976,
+        "lon": -88.9198248
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.8637976,
+      "lon": -88.9198248
+    },
+    {
+      "type": "way",
+      "id": 1284681806,
+      "center": {
+        "lat": 35.0811624,
+        "lon": -85.3359356
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.0811624,
+      "lon": -85.3359356
+    },
+    {
+      "type": "way",
+      "id": 1291647446,
+      "center": {
+        "lat": 36.5323924,
+        "lon": -83.219515
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 36.5323924,
+      "lon": -83.219515
+    },
+    {
+      "type": "way",
+      "id": 1291647448,
+      "center": {
+        "lat": 36.5326623,
+        "lon": -83.2194395
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 36.5326623,
+      "lon": -83.2194395
+    },
+    {
+      "type": "way",
+      "id": 1295015690,
+      "center": {
+        "lat": 35.5053124,
+        "lon": -86.4202013
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.5053124,
+      "lon": -86.4202013
+    },
+    {
+      "type": "way",
+      "id": 1302815240,
+      "center": {
+        "lat": 35.525104,
+        "lon": -84.3480737
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.525104,
+      "lon": -84.3480737
+    },
+    {
+      "type": "way",
+      "id": 1302880141,
+      "center": {
+        "lat": 35.6101328,
+        "lon": -85.9009308
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.6101328,
+      "lon": -85.9009308
+    },
+    {
+      "type": "way",
+      "id": 1302880143,
+      "center": {
+        "lat": 35.6091589,
+        "lon": -85.9002881
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.6091589,
+      "lon": -85.9002881
+    },
+    {
+      "type": "way",
+      "id": 1320123390,
+      "center": {
+        "lat": 35.3598792,
+        "lon": -85.3729148
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.3598792,
+      "lon": -85.3729148
+    },
+    {
+      "type": "way",
+      "id": 1332470473,
+      "center": {
+        "lat": 35.1481923,
+        "lon": -86.5574074
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.1481923,
+      "lon": -86.5574074
+    },
+    {
+      "type": "way",
+      "id": 1332470479,
+      "center": {
+        "lat": 35.079127,
+        "lon": -86.5692747
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.079127,
+      "lon": -86.5692747
+    },
+    {
+      "type": "way",
+      "id": 1332513545,
+      "center": {
+        "lat": 35.016067,
+        "lon": -86.5857464
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.016067,
+      "lon": -86.5857464
+    },
+    {
+      "type": "way",
+      "id": 1337558919,
+      "center": {
+        "lat": 35.0510745,
+        "lon": -85.7015671
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.0510745,
+      "lon": -85.7015671
+    },
+    {
+      "type": "way",
+      "id": 1340116644,
+      "center": {
+        "lat": 35.66272,
+        "lon": -85.9127037
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.66272,
+      "lon": -85.9127037
+    },
+    {
+      "type": "way",
+      "id": 1340116645,
+      "center": {
+        "lat": 35.6616019,
+        "lon": -85.9111697
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.6616019,
+      "lon": -85.9111697
+    },
+    {
+      "type": "way",
+      "id": 1340116646,
+      "center": {
+        "lat": 35.6616359,
+        "lon": -85.9130268
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.6616359,
+      "lon": -85.9130268
+    },
+    {
+      "type": "way",
+      "id": 1340138122,
+      "center": {
+        "lat": 35.6135395,
+        "lon": -85.8870319
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.6135395,
+      "lon": -85.8870319
+    },
+    {
+      "type": "way",
+      "id": 1354308927,
+      "center": {
+        "lat": 36.0436863,
+        "lon": -88.1298668
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 36.0436863,
+      "lon": -88.1298668
+    },
+    {
+      "type": "way",
+      "id": 1395562561,
+      "center": {
+        "lat": 35.1419009,
+        "lon": -89.5892276
+      },
+      "tags": {
+        "name": "Canadaville Solar",
+        "operator": "SR Canadaville Solar, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "16 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "67298",
+        "start_date": "2023-03"
+      },
+      "lat": 35.1419009,
+      "lon": -89.5892276
+    },
+    {
+      "type": "way",
+      "id": 1418296599,
+      "center": {
+        "lat": 35.9643301,
+        "lon": -86.8196878
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.9643301,
+      "lon": -86.8196878
+    },
+    {
+      "type": "way",
+      "id": 1418784248,
+      "center": {
+        "lat": 35.9437872,
+        "lon": -86.871449
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.9437872,
+      "lon": -86.871449
+    },
+    {
+      "type": "way",
+      "id": 1418784249,
+      "center": {
+        "lat": 35.9413933,
+        "lon": -86.8707668
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.9413933,
+      "lon": -86.8707668
+    },
+    {
+      "type": "way",
+      "id": 1422352233,
+      "center": {
+        "lat": 35.6158508,
+        "lon": -84.2762984
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Vonore Battery Energy Storage System",
+        "operator": "Tennessee Valley Authority",
+        "operator:short": "TVA",
+        "operator:wikidata": "Q1367577",
+        "plant:output:electricity": "20 MW",
+        "plant:source": "battery",
+        "power": "plant",
+        "ref:US:EIA": "64255",
+        "start_date": "2025"
+      },
+      "lat": 35.6158508,
+      "lon": -84.2762984
+    },
+    {
+      "type": "way",
+      "id": 1426250796,
+      "center": {
+        "lat": 36.5335779,
+        "lon": -82.5454515
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 36.5335779,
+      "lon": -82.5454515
+    },
+    {
+      "type": "way",
+      "id": 1426289916,
+      "center": {
+        "lat": 35.7336661,
+        "lon": -84.3338794
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.7336661,
+      "lon": -84.3338794
+    },
+    {
+      "type": "way",
+      "id": 1444723698,
+      "center": {
+        "lat": 35.3359382,
+        "lon": -89.8713926
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.3359382,
+      "lon": -89.8713926
+    },
+    {
+      "type": "way",
+      "id": 1446817033,
+      "center": {
+        "lat": 35.7650709,
+        "lon": -89.5259024
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.7650709,
+      "lon": -89.5259024
+    },
+    {
+      "type": "way",
+      "id": 1447253833,
+      "center": {
+        "lat": 35.2743983,
+        "lon": -89.0269604
+      },
+      "tags": {
+        "landuse": "industrial",
+        "plant:method": "combustion",
+        "plant:output:electricity": "yes",
+        "plant:source": "coal",
+        "power": "plant"
+      },
+      "lat": 35.2743983,
+      "lon": -89.0269604
+    },
+    {
+      "type": "way",
+      "id": 1453780394,
+      "center": {
+        "lat": 36.4335295,
+        "lon": -82.3014962
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 36.4335295,
+      "lon": -82.3014962
+    },
+    {
+      "type": "way",
+      "id": 1454228000,
+      "center": {
+        "lat": 36.0512146,
+        "lon": -89.3434564
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 36.0512146,
+      "lon": -89.3434564
+    },
+    {
+      "type": "way",
+      "id": 1456999681,
+      "center": {
+        "lat": 35.7209338,
+        "lon": -88.3724946
+      },
+      "tags": {
+        "name": "SR Lexington",
+        "operator": "SR Lexington, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "6.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "68107",
+        "start_date": "2025-12"
+      },
+      "lat": 35.7209338,
+      "lon": -88.3724946
+    },
+    {
+      "type": "way",
+      "id": 1458282286,
+      "center": {
+        "lat": 36.0007763,
+        "lon": -88.6190433
+      },
+      "tags": {
+        "name": "SR Trezevant",
+        "operator": "SR Trezevant, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "6.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "68114",
+        "start_date": "2025-07"
+      },
+      "lat": 36.0007763,
+      "lon": -88.6190433
+    },
+    {
+      "type": "way",
+      "id": 1458359311,
+      "center": {
+        "lat": 36.0037876,
+        "lon": -83.9638002
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 36.0037876,
+      "lon": -83.9638002
+    },
+    {
+      "type": "way",
+      "id": 1475136305,
+      "center": {
+        "lat": 35.4811975,
+        "lon": -84.6431395
+      },
+      "tags": {
+        "name": "DMAT Denso - SEAT Solar Holdings, LLC",
+        "operator": "Solarity Aggregator, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "5.3 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "69536",
+        "start_date": "2025-11"
+      },
+      "lat": 35.4811975,
+      "lon": -84.6431395
+    },
+    {
+      "type": "way",
+      "id": 1477325152,
+      "center": {
+        "lat": 35.4279015,
+        "lon": -84.5900672
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.4279015,
+      "lon": -84.5900672
+    },
+    {
+      "type": "way",
+      "id": 1488681996,
+      "center": {
+        "lat": 36.3695339,
+        "lon": -82.429683
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 36.3695339,
+      "lon": -82.429683
+    },
+    {
+      "type": "way",
+      "id": 1489136447,
+      "center": {
+        "lat": 36.1816204,
+        "lon": -86.8549128
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Whites Creek Wastewater Solar",
+        "operator": "Metro Water Services",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "949 kW",
+        "plant:source": "solar",
+        "power": "plant",
+        "start_date": "2023-02"
+      },
+      "lat": 36.1816204,
+      "lon": -86.8549128
+    },
+    {
+      "type": "way",
+      "id": 1490722067,
+      "center": {
+        "lat": 36.4703587,
+        "lon": -86.6889884
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "100 kW",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 36.4703587,
+      "lon": -86.6889884
+    },
+    {
+      "type": "way",
+      "id": 1498559073,
+      "center": {
+        "lat": 36.5230336,
+        "lon": -87.3166175
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "SR Clarksville, LLC",
+        "operator": "SR Clarksville, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "67079",
+        "start_date": "2023-12"
+      },
+      "lat": 36.5230336,
+      "lon": -87.3166175
+    },
+    {
+      "type": "relation",
+      "id": 6287651,
+      "center": {
+        "lat": 35.6541517,
+        "lon": -89.3952638
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Lagoon Creek Plant",
+        "operator": "Tennessee Valley Authority",
+        "operator:short": "TVA",
+        "operator:wikidata": "Q1367577",
+        "plant:method": "combustion",
+        "plant:output:electricity": "1466 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "7845",
+        "start_date": "2001-06",
+        "type": "multipolygon",
+        "wikidata": "Q19378731"
+      },
+      "lat": 35.6541517,
+      "lon": -89.3952638
+    },
+    {
+      "type": "relation",
+      "id": 11638742,
+      "center": {
+        "lat": 35.0702949,
+        "lon": -88.25076
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Pickwick Landing Dam Powerhouse",
+        "operator": "Tennessee Valley Authority",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "240 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3415",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1938-06",
+        "type": "multipolygon",
+        "wikidata": "Q4027235"
+      },
+      "lat": 35.0702949,
+      "lon": -88.25076
+    },
+    {
+      "type": "relation",
+      "id": 13587497,
+      "center": {
+        "lat": 36.1353528,
+        "lon": -85.5623533
+      },
+      "tags": {
+        "name": "Highlands Park Solar Farm",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "type": "multipolygon"
+      },
+      "lat": 36.1353528,
+      "lon": -85.5623533
+    },
+    {
+      "type": "relation",
+      "id": 13708516,
+      "center": {
+        "lat": 35.9275537,
+        "lon": -84.3822846
+      },
+      "tags": {
+        "name": "K-25  Solar Farm",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "type": "multipolygon"
+      },
+      "lat": 35.9275537,
+      "lon": -84.3822846
+    },
+    {
+      "type": "relation",
+      "id": 13734202,
+      "center": {
+        "lat": 36.498391,
+        "lon": -82.5086286
+      },
+      "tags": {
+        "building": "yes",
+        "landuse": "industrial",
+        "name": "Fort Patrick Henry Powerhouse",
+        "operator": "Tennessee Valley Authority",
+        "operator:short": "TVA",
+        "operator:wikidata": "Q1367577",
+        "operator:wikipedia": "en:Tennessee Valley Authority",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "59.4 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3401",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1953-12",
+        "type": "multipolygon"
+      },
+      "lat": 36.498391,
+      "lon": -82.5086286
+    },
+    {
+      "type": "relation",
+      "id": 13749273,
+      "center": {
+        "lat": 35.9034788,
+        "lon": -84.5134738
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Kingston Steam Plant",
+        "operator": "Tennessee Valley Authority",
+        "operator:short": "TVA",
+        "operator:wikidata": "Q1367577",
+        "plant:method": "combustion",
+        "plant:output:electricity": "1700 MW",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "3407",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1954-02",
+        "type": "multipolygon",
+        "wikidata": "Q2465266",
+        "wikipedia": "en:Kingston Fossil Plant"
+      },
+      "lat": 35.9034788,
+      "lon": -84.5134738
+    },
+    {
+      "type": "relation",
+      "id": 14126454,
+      "center": {
+        "lat": 36.1256738,
+        "lon": -84.3473563
+      },
+      "tags": {
+        "manufacturer": "Vestas",
+        "manufacturer:type": "V80-1.8",
+        "name": "Buffalo Mountain Energy Center",
+        "operator": "Invenergy Services LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "27 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56493",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2004-12",
+        "type": "site"
+      },
+      "lat": 36.1256738,
+      "lon": -84.3473563
+    },
+    {
+      "type": "relation",
+      "id": 14126455,
+      "center": {
+        "lat": 36.1208349,
+        "lon": -84.3387207
+      },
+      "tags": {
+        "name": "Buffalo Mountain",
+        "operator": "Tennessee Valley Authority",
+        "operator:short": "TVA",
+        "operator:wikidata": "Q1367577",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "1.8 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "7927",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2000-10",
+        "type": "site"
+      },
+      "lat": 36.1208349,
+      "lon": -84.3387207
+    },
+    {
+      "type": "relation",
+      "id": 14137172,
+      "center": {
+        "lat": 36.4622402,
+        "lon": -82.8101621
+      },
+      "tags": {
+        "name": "Phipps Bend Solar Farm",
+        "operator": "Tennessee Valley Authority",
+        "operator:short": "TVA",
+        "operator:wikidata": "Q1367577",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "type": "multipolygon"
+      },
+      "lat": 36.4622402,
+      "lon": -82.8101621
+    },
+    {
+      "type": "relation",
+      "id": 14226010,
+      "center": {
+        "lat": 36.3178049,
+        "lon": -86.4013007
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Gallatin Power Plant",
+        "operator": "Tennessee Valley Authority",
+        "operator:short": "TVA",
+        "operator:wikidata": "Q1367577",
+        "plant:method": "combustion",
+        "plant:output:electricity": "1918.4 MW",
+        "plant:source": "coal;gas",
+        "power": "plant",
+        "ref:US:EIA": "3403",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1956-11",
+        "type": "multipolygon",
+        "wikidata": "Q11971441"
+      },
+      "lat": 36.3178049,
+      "lon": -86.4013007
+    },
+    {
+      "type": "relation",
+      "id": 14260731,
+      "center": {
+        "lat": 35.0687229,
+        "lon": -90.1434492
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Allen Power Plant",
+        "operator": "Memphis Light, Gas and Water",
+        "operator:short": "MLGW",
+        "operator:wikidata": "Q6815841",
+        "plant:method": "combustion",
+        "plant:output:electricity": "1791.7 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "3393",
+        "source": "https://www.tva.com/energy/our-power-system/natural-gas/allen-combustion-turbine-plant;https://www.tva.com/energy/our-power-system/natural-gas/allen-combined-cycle-plant",
+        "start_date": "1959-05",
+        "type": "multipolygon",
+        "wikidata": "Q19391777"
+      },
+      "lat": 35.0687229,
+      "lon": -90.1434492
+    },
+    {
+      "type": "relation",
+      "id": 14281278,
+      "center": {
+        "lat": 35.0025867,
+        "lon": -85.6204522
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Nickajack Dam",
+        "operator": "Tennessee Valley Authority",
+        "operator:short": "TVA",
+        "operator:wikidata": "Q1367577",
+        "plant:output:electricity": "103.9 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3409",
+        "start_date": "1968-02",
+        "type": "multipolygon",
+        "wikidata": "Q4027209"
+      },
+      "lat": 35.0025867,
+      "lon": -85.6204522
+    },
+    {
+      "type": "relation",
+      "id": 14478345,
+      "center": {
+        "lat": 35.1339966,
+        "lon": -88.5874924
+      },
+      "tags": {
+        "name": "Mulberry Solar Farm",
+        "operator": "Onward Energy",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "15.8 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "59184",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2014-12",
+        "type": "multipolygon"
+      },
+      "lat": 35.1339966,
+      "lon": -88.5874924
+    },
+    {
+      "type": "relation",
+      "id": 14478346,
+      "center": {
+        "lat": 35.1410945,
+        "lon": -88.5484395
+      },
+      "tags": {
+        "name": "Selmer I Solar",
+        "operator": "Selmer North Solar I, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "16 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60555",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2016-12",
+        "type": "multipolygon"
+      },
+      "lat": 35.1410945,
+      "lon": -88.5484395
+    },
+    {
+      "type": "relation",
+      "id": 15675510,
+      "center": {
+        "lat": 35.1903561,
+        "lon": -89.7988992
+      },
+      "tags": {
+        "name": "IKEA Memphis 508",
+        "operator": "IKEA Property Inc",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61211",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2016-12",
+        "type": "multipolygon"
+      },
+      "lat": 35.1903561,
+      "lon": -89.7988992
+    },
+    {
+      "type": "relation",
+      "id": 15687560,
+      "center": {
+        "lat": 36.3458213,
+        "lon": -82.5954519
+      },
+      "tags": {
+        "name": "SR Washington I, LLC",
+        "operator": "SR Washington I, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "9 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64843",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2021-12",
+        "type": "multipolygon"
+      },
+      "lat": 36.3458213,
+      "lon": -82.5954519
+    },
+    {
+      "type": "relation",
+      "id": 15728459,
+      "center": {
+        "lat": 35.258451,
+        "lon": -89.0188267
+      },
+      "tags": {
+        "fixme": "geometry",
+        "name": "SR Bolivar",
+        "operator": "SR Bolivar, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "3.3 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "65640",
+        "start_date": "2022-09",
+        "type": "multipolygon"
+      },
+      "lat": 35.258451,
+      "lon": -89.0188267
+    },
+    {
+      "type": "relation",
+      "id": 15731279,
+      "center": {
+        "lat": 35.2342151,
+        "lon": -89.9625409
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Nike PV",
+        "operator": "SR Innovation, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61332",
+        "start_date": "2020-01",
+        "type": "multipolygon"
+      },
+      "lat": 35.2342151,
+      "lon": -89.9625409
+    },
+    {
+      "type": "relation",
+      "id": 15822774,
+      "center": {
+        "lat": 35.5783915,
+        "lon": -86.4617441
+      },
+      "tags": {
+        "name": "SR Bell Buckle",
+        "operator": "SR Bell Buckle, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "35 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "65630",
+        "start_date": "2023-08",
+        "type": "multipolygon"
+      },
+      "lat": 35.5783915,
+      "lon": -86.4617441
+    },
+    {
+      "type": "relation",
+      "id": 16331326,
+      "center": {
+        "lat": 35.2235869,
+        "lon": -89.3519456
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Somerville Solar",
+        "operator": "Somerville Solar, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2.3 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "62900",
+        "start_date": "2019-08",
+        "type": "multipolygon"
+      },
+      "lat": 35.2235869,
+      "lon": -89.3519456
+    },
+    {
+      "type": "relation",
+      "id": 16341283,
+      "center": {
+        "lat": 36.3871182,
+        "lon": -88.9853322
+      },
+      "tags": {
+        "name": "Skyhawk Solar",
+        "operator": "Tennessee Valley Authority",
+        "operator:short": "TVA",
+        "operator:wikidata": "Q1367577",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "100 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64507",
+        "start_date": "2023-03",
+        "type": "multipolygon"
+      },
+      "lat": 36.3871182,
+      "lon": -88.9853322
+    },
+    {
+      "type": "relation",
+      "id": 19414563,
+      "center": {
+        "lat": 35.5789712,
+        "lon": -88.9383332
+      },
+      "tags": {
+        "name": "McKellar Solar",
+        "operator": "SR McKellar, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "70 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "65629",
+        "start_date": "2023-07",
+        "type": "multipolygon"
+      },
+      "lat": 35.5789712,
+      "lon": -88.9383332
+    },
+    {
+      "type": "relation",
+      "id": 19448621,
+      "center": {
+        "lat": 35.9319056,
+        "lon": -86.8594398
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "type": "multipolygon"
+      },
+      "lat": 35.9319056,
+      "lon": -86.8594398
+    },
+    {
+      "type": "relation",
+      "id": 19550508,
+      "center": {
+        "lat": 35.1634984,
+        "lon": -86.5649054
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "type": "multipolygon"
+      },
+      "lat": 35.1634984,
+      "lon": -86.5649054
+    },
+    {
+      "type": "relation",
+      "id": 19572043,
+      "center": {
+        "lat": 35.627068,
+        "lon": -88.7819826
+      },
+      "tags": {
+        "generator:output:electricity": "yes",
+        "generator:source": "solar",
+        "generator:type": "solar_photovoltaic_panel",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "type": "multipolygon"
+      },
+      "lat": 35.627068,
+      "lon": -88.7819826
+    },
+    {
+      "type": "relation",
+      "id": 19885066,
+      "center": {
+        "lat": 36.2947755,
+        "lon": -89.479512
+      },
+      "tags": {
+        "name": "Ridgely Solar Farm",
+        "operator": "Leeward Asset Management, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "177 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "65445",
+        "start_date": "2025-08",
+        "type": "multipolygon"
+      },
+      "lat": 36.2947755,
+      "lon": -89.479512
+    },
+    {
+      "type": "relation",
+      "id": 20327285,
+      "center": {
+        "lat": 36.1580743,
+        "lon": -86.727316
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Omohundro Water Treatment Solar",
+        "operator": "Metro Water Services",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2.6 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "start_date": "2022",
+        "type": "multipolygon"
+      },
+      "lat": 36.1580743,
+      "lon": -86.727316
+    }
+  ]
+}

@@ -1,0 +1,2966 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-04-24T20:51:16Z",
+    "timestamp_areas_base": "2026-04-24T15:53:36Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 26196330,
+      "center": {
+        "lat": 35.3130923,
+        "lon": -93.2316973
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Arkansas Nuclear One",
+        "operator": "Entergy Arkansas",
+        "plant:method": "fission",
+        "plant:output:electricity": "1824 MW",
+        "plant:source": "nuclear",
+        "power": "plant",
+        "ref:US:EIA": "8055",
+        "start_date": "1974-12",
+        "wikidata": "Q985274",
+        "wikipedia": "en:Arkansas Nuclear One"
+      },
+      "lat": 35.3130923,
+      "lon": -93.2316973
+    },
+    {
+      "type": "way",
+      "id": 144720725,
+      "center": {
+        "lat": 36.2490785,
+        "lon": -92.2386049
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Norfork",
+        "operator": "USCE-Little Rock District",
+        "plant:output:electricity": "80.4 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "196",
+        "source": "bing",
+        "start_date": "1944-06",
+        "wikidata": "Q65210982"
+      },
+      "lat": 36.2490785,
+      "lon": -92.2386049
+    },
+    {
+      "type": "way",
+      "id": 164475618,
+      "center": {
+        "lat": 33.2981278,
+        "lon": -92.5890433
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Union Power Station",
+        "operator": "Entergy",
+        "operator:wikidata": "Q1344587",
+        "plant:method": "combustion",
+        "plant:output:electricity": "2428 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "55380",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2003-01",
+        "wikidata": "Q19393937"
+      },
+      "lat": 33.2981278,
+      "lon": -92.5890433
+    },
+    {
+      "type": "way",
+      "id": 164551412,
+      "center": {
+        "lat": 34.2979923,
+        "lon": -92.8681458
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Hot Spring Generating Station",
+        "operator": "Entergy Arkansas",
+        "plant:method": "combustion",
+        "plant:output:electricity": "714.8 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "55418",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2002-06",
+        "wikidata": "Q11979784"
+      },
+      "lat": 34.2979923,
+      "lon": -92.8681458
+    },
+    {
+      "type": "way",
+      "id": 199430371,
+      "center": {
+        "lat": 34.7957375,
+        "lon": -92.3570585
+      },
+      "tags": {
+        "name": "Murray Hydroelectric Power Plant",
+        "operator": "City of North Little Rock",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "45.4 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "7166",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1988-10"
+      },
+      "lat": 34.7957375,
+      "lon": -92.3570585
+    },
+    {
+      "type": "way",
+      "id": 199430372,
+      "center": {
+        "lat": 35.4707748,
+        "lon": -93.8163352
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Ozark Power Station",
+        "operator": "United States Army Corps of Engineers",
+        "operator:short": "USACE",
+        "operator:wikidata": "Q1049334",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "100 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "6142",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1972-11",
+        "wikidata": "Q65204209"
+      },
+      "lat": 35.4707748,
+      "lon": -93.8163352
+    },
+    {
+      "type": "way",
+      "id": 199430375,
+      "center": {
+        "lat": 35.3513262,
+        "lon": -94.2943204
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Ellis Hydro",
+        "operator": "Arkansas Electric Cooperative Cooperation",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "32.4 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "7040",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1988-12"
+      },
+      "lat": 35.3513262,
+      "lon": -94.2943204
+    },
+    {
+      "type": "way",
+      "id": 199430376,
+      "center": {
+        "lat": 33.9864269,
+        "lon": -91.3157244
+      },
+      "tags": {
+        "name": "Wilbur D. Mills Dam",
+        "operator": "Arkansas Electric Cooperative Corporation",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "102.6 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "7246",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1999-06",
+        "wikidata": "Q65204190"
+      },
+      "lat": 33.9864269,
+      "lon": -91.3157244
+    },
+    {
+      "type": "way",
+      "id": 199430377,
+      "center": {
+        "lat": 35.127584,
+        "lon": -92.790238
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Whillock Hydroelectric Plant",
+        "operator": "Arkansas Electric Cooperative Corporation",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "32.4 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "7135",
+        "start_date": "1993-10"
+      },
+      "lat": 35.127584,
+      "lon": -92.790238
+    },
+    {
+      "type": "way",
+      "id": 199430378,
+      "center": {
+        "lat": 35.2475172,
+        "lon": -93.1724169
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Dardanelle Power Plant",
+        "operator": "United States Army Corps of Engineers",
+        "operator:short": "USACE",
+        "operator:wikidata": "Q1049334",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "160.8 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "199",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1965-04",
+        "wikidata": "Q11964768"
+      },
+      "lat": 35.2475172,
+      "lon": -93.1724169
+    },
+    {
+      "type": "way",
+      "id": 212498246,
+      "center": {
+        "lat": 36.1854669,
+        "lon": -94.2840854
+      },
+      "tags": {
+        "addr:city": "Springdale",
+        "addr:country": "US",
+        "addr:full": "3046 Liberty Avenue",
+        "addr:housenumber": "3046",
+        "addr:postcode": "72762",
+        "addr:state": "AR",
+        "addr:street": "Liberty Avenue",
+        "landuse": "industrial",
+        "name": "Harry D. Mattison Power Plant",
+        "operator": "Southwestern Electric Power Company",
+        "plant:method": "combustion",
+        "plant:output:electricity": "349 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "56328",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2007-07",
+        "wikidata": "Q19373670"
+      },
+      "lat": 36.1854669,
+      "lon": -94.2840854
+    },
+    {
+      "type": "way",
+      "id": 389629675,
+      "center": {
+        "lat": 34.4227171,
+        "lon": -92.134364
+      },
+      "tags": {
+        "ele": "95",
+        "gnis:feature_id": "2392969",
+        "landuse": "industrial",
+        "name": "White Bluff Power Plant",
+        "operator": "Entergy Arkansas",
+        "plant:method": "combustion",
+        "plant:output:electricity": "1800 MW",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "6009",
+        "source": "USGS Geonames",
+        "start_date": "1980-08",
+        "wikidata": "Q2188703"
+      },
+      "lat": 34.4227171,
+      "lon": -92.134364
+    },
+    {
+      "type": "way",
+      "id": 452742484,
+      "center": {
+        "lat": 33.609837,
+        "lon": -93.7922545
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Fulton Power Plant",
+        "operator": "Arkansas Electric Cooperative Corporation",
+        "plant:method": "combustion",
+        "plant:output:electricity": "154.8 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "7825",
+        "source": "https://www.industryabout.com/country-territories-3/873-usa/fossil-fuels-energy/20717-fulton-gas-power-plant",
+        "start_date": "2001-05"
+      },
+      "lat": 33.609837,
+      "lon": -93.7922545
+    },
+    {
+      "type": "way",
+      "id": 484775059,
+      "center": {
+        "lat": 35.4623486,
+        "lon": -93.8047021
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Thomas Fitzhugh Power Plant",
+        "operator": "Arkansas Electric Cooperative Corporation",
+        "plant:method": "combustion",
+        "plant:output:electricity": "185 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "201",
+        "start_date": "1963-05"
+      },
+      "lat": 35.4623486,
+      "lon": -93.8047021
+    },
+    {
+      "type": "way",
+      "id": 511182804,
+      "center": {
+        "lat": 34.4305478,
+        "lon": -92.8331597
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Magnet Cove Generating Station",
+        "operator": "Arkansas Electric Cooperative Corporation",
+        "plant:method": "combustion",
+        "plant:output:electricity": "746 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "55714",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2005-07",
+        "wikidata": "Q11975882"
+      },
+      "lat": 34.4305478,
+      "lon": -92.8331597
+    },
+    {
+      "type": "way",
+      "id": 603887440,
+      "center": {
+        "lat": 34.5914343,
+        "lon": -92.2162101
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Harry L. Oswald Generating Station",
+        "operator": "AECC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "599.5 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "55221",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2002-07",
+        "wikidata": "Q11974367"
+      },
+      "lat": 34.5914343,
+      "lon": -92.2162101
+    },
+    {
+      "type": "way",
+      "id": 650709832,
+      "center": {
+        "lat": 33.6527856,
+        "lon": -93.8082913
+      },
+      "tags": {
+        "alt_name": "Hempstead",
+        "landuse": "industrial",
+        "name": "John W. Turk Jr. Power Plant",
+        "operator": "Southwestern Electric Power Company",
+        "plant:method": "combustion",
+        "plant:output:electricity": "609 MW",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "56564",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2012-12",
+        "wikidata": "Q12007909"
+      },
+      "lat": 33.6527856,
+      "lon": -93.8082913
+    },
+    {
+      "type": "way",
+      "id": 683007773,
+      "center": {
+        "lat": 36.257273,
+        "lon": -94.5192164
+      },
+      "tags": {
+        "addr:city": "Gentry",
+        "addr:country": "US",
+        "addr:full": "21797 Swepco Plant Road",
+        "addr:housenumber": "21797",
+        "addr:postcode": "72734",
+        "addr:state": "AR",
+        "addr:street": "Swepco Plant Road",
+        "landuse": "industrial",
+        "name": "Flint Creek Power Plant",
+        "operator": "Southwestern Electric Power Company",
+        "plant:method": "combustion",
+        "plant:output:electricity": "558 MW",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "6138",
+        "source": "https://aecc.com/about-us/generation-facilities/",
+        "start_date": "1978-05",
+        "wikidata": "Q5459489"
+      },
+      "lat": 36.257273,
+      "lon": -94.5192164
+    },
+    {
+      "type": "way",
+      "id": 707079592,
+      "center": {
+        "lat": 33.5647011,
+        "lon": -92.7925911
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "McClellan Gas Power Plant",
+        "operator": "Arkansas Electric Cooperative Corporation",
+        "plant:method": "combustion",
+        "plant:output:electricity": "136 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "203",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1972-05"
+      },
+      "lat": 33.5647011,
+      "lon": -92.7925911
+    },
+    {
+      "type": "way",
+      "id": 720665482,
+      "center": {
+        "lat": 35.8484528,
+        "lon": -90.7250332
+      },
+      "tags": {
+        "name": "Jonesboro Power Plant",
+        "operator": "Jonesboro City Water and Light",
+        "plant:method": "combustion",
+        "plant:output:electricity": "224.3 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "56505",
+        "start_date": "1999-07"
+      },
+      "lat": 35.8484528,
+      "lon": -90.7250332
+    },
+    {
+      "type": "way",
+      "id": 727930712,
+      "center": {
+        "lat": 36.3647678,
+        "lon": -92.5751695
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Bull Shoals Dam Hydroelectric Plant",
+        "operator": "United States Corps of Engineers",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "340 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "198",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1952-09",
+        "wikidata": "Q4996633"
+      },
+      "lat": 36.3647678,
+      "lon": -92.5751695
+    },
+    {
+      "type": "way",
+      "id": 727932369,
+      "center": {
+        "lat": 36.4222268,
+        "lon": -93.8471834
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Beaver Dam",
+        "operator": "United States Corps of Engineers",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "112 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "182",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1965-05",
+        "wikidata": "Q32827907"
+      },
+      "lat": 36.4222268,
+      "lon": -93.8471834
+    },
+    {
+      "type": "way",
+      "id": 728135417,
+      "center": {
+        "lat": 35.5210052,
+        "lon": -91.9945983
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Greers Ferry Lake Hydroelectric Station",
+        "operator": "United States Army Corps of Engineers",
+        "operator:short": "USACE",
+        "operator:wikidata": "Q1049334",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "96 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "188",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1964-03",
+        "wikidata": "Q5605145"
+      },
+      "lat": 35.5210052,
+      "lon": -91.9945983
+    },
+    {
+      "type": "way",
+      "id": 732166417,
+      "center": {
+        "lat": 35.8613888,
+        "lon": -90.026346
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Dell Power Station",
+        "operator": "Associated Electric Coop, Inc",
+        "plant:method": "combustion",
+        "plant:output:electricity": "490 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "55340",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2007-08",
+        "wikidata": "Q17765213"
+      },
+      "lat": 35.8613888,
+      "lon": -90.026346
+    },
+    {
+      "type": "way",
+      "id": 755009470,
+      "center": {
+        "lat": 34.7813742,
+        "lon": -92.1415195
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "L'Oreal Solar",
+        "operator": "L'Oreal USA Products, Inc.",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "start_date": "2017",
+        "website": "https://www.loreal.com/en/articles/sharing-beauty-with-all/stepping-up-the-deployment-of-renewable-energy/"
+      },
+      "lat": 34.7813742,
+      "lon": -92.1415195
+    },
+    {
+      "type": "way",
+      "id": 780003401,
+      "center": {
+        "lat": 36.0419569,
+        "lon": -94.1700864
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 36.0419569,
+      "lon": -94.1700864
+    },
+    {
+      "type": "way",
+      "id": 865378647,
+      "center": {
+        "lat": 35.6762687,
+        "lon": -91.4051432
+      },
+      "tags": {
+        "ele": "73",
+        "gnis:feature_id": "2392970",
+        "landuse": "industrial",
+        "name": "Independence Steam Electric Station",
+        "operator": "Entergy Arkansas",
+        "plant:method": "combustion",
+        "plant:output:electricity": "1800 MW",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "6641",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1983-01",
+        "wikidata": "Q2583825"
+      },
+      "lat": 35.6762687,
+      "lon": -91.4051432
+    },
+    {
+      "type": "way",
+      "id": 888543868,
+      "center": {
+        "lat": 35.0392759,
+        "lon": -90.8241802
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Woodruff Electric Cooperative",
+        "operator": "Today's Power, Inc.",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "68728",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2019-05"
+      },
+      "lat": 35.0392759,
+      "lon": -90.8241802
+    },
+    {
+      "type": "way",
+      "id": 895806567,
+      "center": {
+        "lat": 35.0697557,
+        "lon": -93.3982838
+      },
+      "tags": {
+        "addr:city": "Danville",
+        "addr:housenumber": "800",
+        "addr:postcode": "72833",
+        "addr:state": "AR",
+        "addr:street": "State Highway 10 W",
+        "name": "Arkwest Solar Farm",
+        "operator": "Arkwest Communications",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "360 kW",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.0697557,
+      "lon": -93.3982838
+    },
+    {
+      "type": "way",
+      "id": 923595757,
+      "center": {
+        "lat": 34.5709139,
+        "lon": -93.1943596
+      },
+      "tags": {
+        "building": "service",
+        "name": "Blakely Mountain Power Plant",
+        "operator": "United States Army Corps of Engineers",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "75 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "197",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1955-09",
+        "wikidata": "Q65204149"
+      },
+      "lat": 34.5709139,
+      "lon": -93.1943596
+    },
+    {
+      "type": "way",
+      "id": 931807086,
+      "center": {
+        "lat": 34.4345346,
+        "lon": -92.9030935
+      },
+      "tags": {
+        "addr:city": "Malvern",
+        "addr:housenumber": "141",
+        "addr:postcode": "72104",
+        "addr:state": "AR",
+        "addr:street": "West County Line Road",
+        "name": "Lake Catherine Power Plant",
+        "operator": "Entergy",
+        "operator:wikidata": "Q1344587",
+        "plant:method": "combustion",
+        "plant:output:electricity": "552.5 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "170",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1950-04",
+        "wikidata": "Q19378741"
+      },
+      "lat": 34.4345346,
+      "lon": -92.9030935
+    },
+    {
+      "type": "way",
+      "id": 940187720,
+      "center": {
+        "lat": 34.2177707,
+        "lon": -91.9028769
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Pine Bluff Energy Center",
+        "operator": "Pine Bluff Energy LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "236 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "55075",
+        "start_date": "2001-08",
+        "wikidata": "Q11995711"
+      },
+      "lat": 34.2177707,
+      "lon": -91.9028769
+    },
+    {
+      "type": "way",
+      "id": 1004956302,
+      "center": {
+        "lat": 33.9796262,
+        "lon": -93.8377416
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 33.9796262,
+      "lon": -93.8377416
+    },
+    {
+      "type": "way",
+      "id": 1008167515,
+      "center": {
+        "lat": 34.1623752,
+        "lon": -93.0858334
+      },
+      "tags": {
+        "name": "South Central Electric Cooperative",
+        "operator": "Today's Power, Inc.",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "68717",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2019-08"
+      },
+      "lat": 34.1623752,
+      "lon": -93.0858334
+    },
+    {
+      "type": "way",
+      "id": 1021164808,
+      "center": {
+        "lat": 35.265946,
+        "lon": -91.7158732
+      },
+      "tags": {
+        "name": "Searcy Water I",
+        "operator": "Entegrity Solar SWU, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "67522",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2021-06"
+      },
+      "lat": 35.265946,
+      "lon": -91.7158732
+    },
+    {
+      "type": "way",
+      "id": 1024937659,
+      "center": {
+        "lat": 36.0802891,
+        "lon": -94.0662942
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Noland Wastewater Treatment Plant Hybrid",
+        "operator": "Today's Power, Inc.",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "11 MW",
+        "plant:source": "solar;battery",
+        "power": "plant",
+        "ref:US:EIA": "62682",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2019-07"
+      },
+      "lat": 36.0802891,
+      "lon": -94.0662942
+    },
+    {
+      "type": "way",
+      "id": 1058275069,
+      "center": {
+        "lat": 33.4765647,
+        "lon": -91.3576725
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Chicot Solar",
+        "operator": "Chicot Solar, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "100 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "63295",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2020-09"
+      },
+      "lat": 33.4765647,
+      "lon": -91.3576725
+    },
+    {
+      "type": "way",
+      "id": 1070460992,
+      "center": {
+        "lat": 35.4844632,
+        "lon": -94.3928586
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Lee Creek Water Treatment Facility",
+        "operator": "City of Fort Smith",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "1.3 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "54283",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1992-11"
+      },
+      "lat": 35.4844632,
+      "lon": -94.3928586
+    },
+    {
+      "type": "way",
+      "id": 1086568561,
+      "center": {
+        "lat": 34.2206418,
+        "lon": -91.9069441
+      },
+      "tags": {
+        "fixme": "position",
+        "landuse": "industrial",
+        "name": "Pine Bluff Mill Cogen",
+        "operator": "Pactiv LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "85 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "biomass",
+        "power": "plant",
+        "ref:US:EIA": "10627",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1958-05"
+      },
+      "lat": 34.2206418,
+      "lon": -91.9069441
+    },
+    {
+      "type": "way",
+      "id": 1086568562,
+      "center": {
+        "lat": 34.2118915,
+        "lon": -93.1109319
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Degray Hydroelectric Plant",
+        "operator": "United States Corps of Engineers",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "70 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "187",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1972-02",
+        "wikidata": "Q65204145"
+      },
+      "lat": 34.2118915,
+      "lon": -93.1109319
+    },
+    {
+      "type": "way",
+      "id": 1086568563,
+      "center": {
+        "lat": 34.4432874,
+        "lon": -93.0260366
+      },
+      "tags": {
+        "name": "Carpenter Dam",
+        "operator": "Entergy Arkansas",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "56 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "166",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1932-01",
+        "wikidata": "Q65204204"
+      },
+      "lat": 34.4432874,
+      "lon": -93.0260366
+    },
+    {
+      "type": "way",
+      "id": 1086568564,
+      "center": {
+        "lat": 34.8333097,
+        "lon": -92.1570875
+      },
+      "tags": {
+        "name": "Two Pine Landfill Gas Recovery",
+        "operator": "WM Renewable Energy LLC",
+        "plant:output:electricity": "4.8 MW",
+        "plant:source": "biogas",
+        "power": "plant",
+        "ref:US:EIA": "56523",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2006-10"
+      },
+      "lat": 34.8333097,
+      "lon": -92.1570875
+    },
+    {
+      "type": "way",
+      "id": 1086568565,
+      "center": {
+        "lat": 34.4272132,
+        "lon": -92.8941286
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Remmel Power Plant",
+        "operator": "Entergy Arkansas",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "9 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "174",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1925-01"
+      },
+      "lat": 34.4272132,
+      "lon": -92.8941286
+    },
+    {
+      "type": "way",
+      "id": 1088476917,
+      "center": {
+        "lat": 33.6360733,
+        "lon": -92.7051124
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Camden Solar",
+        "operator": "SR Camden, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "12 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "59947",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2015-12"
+      },
+      "lat": 33.6360733,
+      "lon": -92.7051124
+    },
+    {
+      "type": "way",
+      "id": 1088476918,
+      "center": {
+        "lat": 33.6401114,
+        "lon": -94.1132013
+      },
+      "tags": {
+        "fixme": "position",
+        "landuse": "industrial",
+        "name": "Ashdown Cogen",
+        "operator": "Domtar Industries Inc",
+        "plant:method": "combustion",
+        "plant:output:electricity": "156.5 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "biomass",
+        "power": "plant",
+        "ref:US:EIA": "54104",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1968-01"
+      },
+      "lat": 33.6401114,
+      "lon": -94.1132013
+    },
+    {
+      "type": "way",
+      "id": 1088476919,
+      "center": {
+        "lat": 34.1484569,
+        "lon": -93.7151217
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Narrows Hydroelectric Station",
+        "operator": "United States Corps of Engineers",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "25.5 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "195",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1950-05"
+      },
+      "lat": 34.1484569,
+      "lon": -93.7151217
+    },
+    {
+      "type": "way",
+      "id": 1088479157,
+      "center": {
+        "lat": 36.0242668,
+        "lon": -90.5091557
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Paragould Power Plant",
+        "operator": "Paragould Light & Water Commission",
+        "plant:method": "combustion",
+        "plant:output:electricity": "33.1 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "8015;7283",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1990-08",
+        "wikidata": "Q116711834"
+      },
+      "lat": 36.0242668,
+      "lon": -90.5091557
+    },
+    {
+      "type": "way",
+      "id": 1089481265,
+      "center": {
+        "lat": 33.7062088,
+        "lon": -91.2377476
+      },
+      "tags": {
+        "fixme": "position",
+        "landuse": "industrial",
+        "name": "Clearwater Paper Cogen",
+        "operator": "Clearwater Paper Corporation",
+        "plant:method": "combustion",
+        "plant:output:electricity": "28 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "biomass",
+        "power": "plant",
+        "ref:US:EIA": "50638",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1977-11"
+      },
+      "lat": 33.7062088,
+      "lon": -91.2377476
+    },
+    {
+      "type": "way",
+      "id": 1094579804,
+      "center": {
+        "lat": 34.842456,
+        "lon": -92.3117022
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 34.842456,
+      "lon": -92.3117022
+    },
+    {
+      "type": "way",
+      "id": 1094944585,
+      "center": {
+        "lat": 34.8061095,
+        "lon": -92.194338
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 34.8061095,
+      "lon": -92.194338
+    },
+    {
+      "type": "way",
+      "id": 1153845684,
+      "center": {
+        "lat": 35.4672986,
+        "lon": -93.5154022
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Scenic Hill Solar III",
+        "operator": "Scenic Hill Solar III LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61869",
+        "start_date": "2017-12"
+      },
+      "lat": 35.4672986,
+      "lon": -93.5154022
+    },
+    {
+      "type": "way",
+      "id": 1153931816,
+      "center": {
+        "lat": 35.4696915,
+        "lon": -93.4449736
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Scenic Hill Solar IV",
+        "operator": "Scenic Hill Solar IV, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2.2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "63627",
+        "start_date": "2019-12"
+      },
+      "lat": 35.4696915,
+      "lon": -93.4449736
+    },
+    {
+      "type": "way",
+      "id": 1154612910,
+      "center": {
+        "lat": 34.9668528,
+        "lon": -92.0414894
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 34.9668528,
+      "lon": -92.0414894
+    },
+    {
+      "type": "way",
+      "id": 1155422593,
+      "center": {
+        "lat": 34.4837079,
+        "lon": -94.3757239
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 34.4837079,
+      "lon": -94.3757239
+    },
+    {
+      "type": "way",
+      "id": 1155653888,
+      "center": {
+        "lat": 35.3001316,
+        "lon": -93.7368436
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Paris Solar",
+        "operator": "Today's Power, Inc.",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64444",
+        "start_date": "2020-05"
+      },
+      "lat": 35.3001316,
+      "lon": -93.7368436
+    },
+    {
+      "type": "way",
+      "id": 1155679928,
+      "center": {
+        "lat": 36.1641788,
+        "lon": -94.0824563
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Ozarks Natural Energy Community Solar",
+        "operator": "Ozarks Electric Cooperative Corporation",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60924",
+        "start_date": "2016-03"
+      },
+      "lat": 36.1641788,
+      "lon": -94.0824563
+    },
+    {
+      "type": "way",
+      "id": 1155681550,
+      "center": {
+        "lat": 34.6384243,
+        "lon": -92.5785205
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Benton Solar",
+        "operator": "Today's Power, Inc.",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61839",
+        "start_date": "2017",
+        "website": "https://www.firstelectric.coop/solar"
+      },
+      "lat": 34.6384243,
+      "lon": -92.5785205
+    },
+    {
+      "type": "way",
+      "id": 1155920110,
+      "center": {
+        "lat": 34.985302,
+        "lon": -90.8005005
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Prison Solar",
+        "operator": "Greenbacker Renewable Energy Corporation",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64261",
+        "start_date": "2021-03"
+      },
+      "lat": 34.985302,
+      "lon": -90.8005005
+    },
+    {
+      "type": "way",
+      "id": 1162909607,
+      "center": {
+        "lat": 33.595855,
+        "lon": -92.5470909
+      },
+      "tags": {
+        "name": "General Dynamics Solar",
+        "operator": "Todays Power, Inc.",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "65351"
+      },
+      "lat": 33.595855,
+      "lon": -92.5470909
+    },
+    {
+      "type": "way",
+      "id": 1162916178,
+      "center": {
+        "lat": 35.3077244,
+        "lon": -93.9244621
+      },
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "wire",
+        "name": "Branch Solar Farm",
+        "operator": "Oklahoma Gas & Electric",
+        "operator:short": "OG+E",
+        "operator:wikidata": "Q2007484",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64392",
+        "start_date": "2021"
+      },
+      "lat": 35.3077244,
+      "lon": -93.9244621
+    },
+    {
+      "type": "way",
+      "id": 1201524753,
+      "center": {
+        "lat": 34.7715125,
+        "lon": -91.7274573
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "3 MW",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 34.7715125,
+      "lon": -91.7274573
+    },
+    {
+      "type": "way",
+      "id": 1202473891,
+      "center": {
+        "lat": 35.2376841,
+        "lon": -91.6876873
+      },
+      "tags": {
+        "building": "yes",
+        "landuse": "industrial",
+        "name": "Searcy Solar Battery Storage",
+        "operator": "Searcy Solar, LLC",
+        "plant:output:electricity": "10 MW",
+        "plant:source": "battery",
+        "power": "plant",
+        "start_date": "2022-01"
+      },
+      "lat": 35.2376841,
+      "lon": -91.6876873
+    },
+    {
+      "type": "way",
+      "id": 1202582222,
+      "center": {
+        "lat": 35.0393052,
+        "lon": -90.8064843
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Eldridge Road Solar",
+        "operator": "Greenbacker Renewable Energy Corporation",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64262",
+        "start_date": "2021-03"
+      },
+      "lat": 35.0393052,
+      "lon": -90.8064843
+    },
+    {
+      "type": "way",
+      "id": 1202896105,
+      "center": {
+        "lat": 35.3276782,
+        "lon": -90.3158835
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Big Cypress Solar",
+        "operator": "Big Cypress Solar, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "180 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "65483",
+        "start_date": "2023"
+      },
+      "lat": 35.3276782,
+      "lon": -90.3158835
+    },
+    {
+      "type": "way",
+      "id": 1202896118,
+      "center": {
+        "lat": 35.2707217,
+        "lon": -90.551869
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.2707217,
+      "lon": -90.551869
+    },
+    {
+      "type": "way",
+      "id": 1202954685,
+      "center": {
+        "lat": 35.7053858,
+        "lon": -89.9689979
+      },
+      "tags": {
+        "building": "industrial",
+        "name": "Osceola Power Plant",
+        "operator": "City of Osceola",
+        "plant:method": "combustion",
+        "plant:output:electricity": "1.6 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "172",
+        "start_date": "1992-05"
+      },
+      "lat": 35.7053858,
+      "lon": -89.9689979
+    },
+    {
+      "type": "way",
+      "id": 1203052388,
+      "center": {
+        "lat": 36.0256362,
+        "lon": -90.4871895
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Paragould Solar Farm",
+        "operator": "Paragould Municipal Utilities",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "67188",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2021-11"
+      },
+      "lat": 36.0256362,
+      "lon": -90.4871895
+    },
+    {
+      "type": "way",
+      "id": 1203422439,
+      "center": {
+        "lat": 35.7437059,
+        "lon": -91.7648009
+      },
+      "tags": {
+        "building": "yes",
+        "name": "White River Lock/Dam #2",
+        "operator": "White River Hydroelectric",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "3.5 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "57161",
+        "start_date": "2007-03"
+      },
+      "lat": 35.7437059,
+      "lon": -91.7648009
+    },
+    {
+      "type": "way",
+      "id": 1203908307,
+      "center": {
+        "lat": 35.7537835,
+        "lon": -91.6190197
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.7537835,
+      "lon": -91.6190197
+    },
+    {
+      "type": "way",
+      "id": 1205565264,
+      "center": {
+        "lat": 35.9710005,
+        "lon": -94.0014763
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Elkins Generating Center",
+        "operator": "Arkansas Electric Cooperative Corporation",
+        "plant:method": "combustion",
+        "plant:output:electricity": "66 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "56489",
+        "start_date": "2010-05"
+      },
+      "lat": 35.9710005,
+      "lon": -94.0014763
+    },
+    {
+      "type": "way",
+      "id": 1205583988,
+      "center": {
+        "lat": 36.0701953,
+        "lon": -94.2318054
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Westside Wastewater Treatment Plant Hybrid",
+        "operator": "Today's Power, Inc.",
+        "plant:output:electricity": "6 MW",
+        "plant:source": "battery",
+        "power": "plant",
+        "ref:US:EIA": "62683",
+        "start_date": "2019-07"
+      },
+      "lat": 36.0701953,
+      "lon": -94.2318054
+    },
+    {
+      "type": "way",
+      "id": 1217893244,
+      "center": {
+        "lat": 35.922768,
+        "lon": -90.5637611
+      },
+      "tags": {
+        "addr:city": "Brookland",
+        "addr:housenumber": "775",
+        "addr:postcode": "72417",
+        "addr:state": "AR",
+        "addr:street": "CR 230 Hwy E",
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Craighead Electric Solar One",
+        "operator": "Today's Power, Inc.",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "66608",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2018-08"
+      },
+      "lat": 35.922768,
+      "lon": -90.5637611
+    },
+    {
+      "type": "way",
+      "id": 1220057359,
+      "center": {
+        "lat": 36.0313505,
+        "lon": -94.1748256
+      },
+      "tags": {
+        "addr:city": "Fayetteville",
+        "addr:housenumber": "2847",
+        "addr:postcode": "72701",
+        "addr:state": "AR",
+        "addr:street": "South Tim Helder Drive",
+        "landuse": "industrial",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 36.0313505,
+      "lon": -94.1748256
+    },
+    {
+      "type": "way",
+      "id": 1222065028,
+      "center": {
+        "lat": 35.6179026,
+        "lon": -90.1048426
+      },
+      "tags": {
+        "name": "Rivercrest SD",
+        "operator": "Entegrity Solar Rivercrest SD, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "67521",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2022-03"
+      },
+      "lat": 35.6179026,
+      "lon": -90.1048426
+    },
+    {
+      "type": "way",
+      "id": 1223911897,
+      "center": {
+        "lat": 34.3645422,
+        "lon": -92.1126966
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 34.3645422,
+      "lon": -92.1126966
+    },
+    {
+      "type": "way",
+      "id": 1224436250,
+      "center": {
+        "lat": 36.0265481,
+        "lon": -92.7967175
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 36.0265481,
+      "lon": -92.7967175
+    },
+    {
+      "type": "way",
+      "id": 1226780899,
+      "center": {
+        "lat": 35.5984006,
+        "lon": -90.0815695
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.5984006,
+      "lon": -90.0815695
+    },
+    {
+      "type": "way",
+      "id": 1233837262,
+      "center": {
+        "lat": 34.7990229,
+        "lon": -92.0612434
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 34.7990229,
+      "lon": -92.0612434
+    },
+    {
+      "type": "way",
+      "id": 1236649486,
+      "center": {
+        "lat": 34.2293424,
+        "lon": -92.0002009
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 34.2293424,
+      "lon": -92.0002009
+    },
+    {
+      "type": "way",
+      "id": 1254187612,
+      "center": {
+        "lat": 35.2848938,
+        "lon": -91.3525558
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.2848938,
+      "lon": -91.3525558
+    },
+    {
+      "type": "way",
+      "id": 1280032964,
+      "center": {
+        "lat": 33.7245303,
+        "lon": -91.4523042
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 33.7245303,
+      "lon": -91.4523042
+    },
+    {
+      "type": "way",
+      "id": 1295429008,
+      "center": {
+        "lat": 36.1283295,
+        "lon": -90.9335603
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 36.1283295,
+      "lon": -90.9335603
+    },
+    {
+      "type": "way",
+      "id": 1303025585,
+      "center": {
+        "lat": 36.1550663,
+        "lon": -93.9734015
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 36.1550663,
+      "lon": -93.9734015
+    },
+    {
+      "type": "way",
+      "id": 1317416752,
+      "center": {
+        "lat": 35.1272216,
+        "lon": -92.463736
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.1272216,
+      "lon": -92.463736
+    },
+    {
+      "type": "way",
+      "id": 1319919880,
+      "center": {
+        "lat": 35.6644334,
+        "lon": -90.5027483
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.6644334,
+      "lon": -90.5027483
+    },
+    {
+      "type": "way",
+      "id": 1326144769,
+      "center": {
+        "lat": 35.6794424,
+        "lon": -91.1831841
+      },
+      "tags": {
+        "name": "Newport Solar",
+        "operator": "Newport Solar, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "180 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "66112",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2023-10"
+      },
+      "lat": 35.6794424,
+      "lon": -91.1831841
+    },
+    {
+      "type": "way",
+      "id": 1337581079,
+      "center": {
+        "lat": 34.5465766,
+        "lon": -91.9731855
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 34.5465766,
+      "lon": -91.9731855
+    },
+    {
+      "type": "way",
+      "id": 1337581088,
+      "center": {
+        "lat": 34.5438027,
+        "lon": -91.9527887
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 34.5438027,
+      "lon": -91.9527887
+    },
+    {
+      "type": "way",
+      "id": 1338609909,
+      "center": {
+        "lat": 34.5565123,
+        "lon": -92.5807976
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 34.5565123,
+      "lon": -92.5807976
+    },
+    {
+      "type": "way",
+      "id": 1338609933,
+      "center": {
+        "lat": 34.7231987,
+        "lon": -92.3131867
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 34.7231987,
+      "lon": -92.3131867
+    },
+    {
+      "type": "way",
+      "id": 1338609941,
+      "center": {
+        "lat": 34.7244296,
+        "lon": -92.196106
+      },
+      "tags": {
+        "name": "Southside SD",
+        "operator": "Entegrity Solar Southside SD, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "67524",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2023-06"
+      },
+      "lat": 34.7244296,
+      "lon": -92.196106
+    },
+    {
+      "type": "way",
+      "id": 1338864352,
+      "center": {
+        "lat": 33.9522508,
+        "lon": -93.8581973
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 33.9522508,
+      "lon": -93.8581973
+    },
+    {
+      "type": "way",
+      "id": 1338914066,
+      "center": {
+        "lat": 34.0745103,
+        "lon": -91.830072
+      },
+      "tags": {
+        "name": "C&L",
+        "operator": "Today's Power, Inc.",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "66590",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2020-06"
+      },
+      "lat": 34.0745103,
+      "lon": -91.830072
+    },
+    {
+      "type": "way",
+      "id": 1338956256,
+      "center": {
+        "lat": 35.6294625,
+        "lon": -91.2306964
+      },
+      "tags": {
+        "name": "Farmers Electric Cooperative",
+        "operator": "Today's Power, Inc.",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "66610",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2019-06"
+      },
+      "lat": 35.6294625,
+      "lon": -91.2306964
+    },
+    {
+      "type": "way",
+      "id": 1339059364,
+      "center": {
+        "lat": 33.2289403,
+        "lon": -92.6688371
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 33.2289403,
+      "lon": -92.6688371
+    },
+    {
+      "type": "way",
+      "id": 1339233927,
+      "center": {
+        "lat": 34.7700654,
+        "lon": -91.7267016
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 34.7700654,
+      "lon": -91.7267016
+    },
+    {
+      "type": "way",
+      "id": 1346031625,
+      "center": {
+        "lat": 35.3296958,
+        "lon": -91.5579169
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.3296958,
+      "lon": -91.5579169
+    },
+    {
+      "type": "way",
+      "id": 1346031626,
+      "center": {
+        "lat": 35.3298176,
+        "lon": -91.5606268
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.3298176,
+      "lon": -91.5606268
+    },
+    {
+      "type": "way",
+      "id": 1346031930,
+      "center": {
+        "lat": 35.3263582,
+        "lon": -91.5525069
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.3263582,
+      "lon": -91.5525069
+    },
+    {
+      "type": "way",
+      "id": 1346048999,
+      "center": {
+        "lat": 36.3942384,
+        "lon": -91.9868899
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 36.3942384,
+      "lon": -91.9868899
+    },
+    {
+      "type": "way",
+      "id": 1346057489,
+      "center": {
+        "lat": 35.2053133,
+        "lon": -91.7020697
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.2053133,
+      "lon": -91.7020697
+    },
+    {
+      "type": "way",
+      "id": 1346058780,
+      "center": {
+        "lat": 35.1672846,
+        "lon": -91.6492215
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.1672846,
+      "lon": -91.6492215
+    },
+    {
+      "type": "way",
+      "id": 1346072622,
+      "center": {
+        "lat": 34.5867473,
+        "lon": -94.1993683
+      },
+      "tags": {
+        "name": "Rich Mountain Electric Cooperative",
+        "operator": "Today's Power, Inc.",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "68713",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2020-05"
+      },
+      "lat": 34.5867473,
+      "lon": -94.1993683
+    },
+    {
+      "type": "way",
+      "id": 1370602158,
+      "center": {
+        "lat": 33.9260297,
+        "lon": -93.8587878
+      },
+      "tags": {
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 33.9260297,
+      "lon": -93.8587878
+    },
+    {
+      "type": "way",
+      "id": 1370602159,
+      "center": {
+        "lat": 33.9271912,
+        "lon": -93.8581252
+      },
+      "tags": {
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 33.9271912,
+      "lon": -93.8581252
+    },
+    {
+      "type": "way",
+      "id": 1370602160,
+      "center": {
+        "lat": 33.9307431,
+        "lon": -93.8570504
+      },
+      "tags": {
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 33.9307431,
+      "lon": -93.8570504
+    },
+    {
+      "type": "way",
+      "id": 1370602161,
+      "center": {
+        "lat": 33.9259967,
+        "lon": -93.8613835
+      },
+      "tags": {
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 33.9259967,
+      "lon": -93.8613835
+    },
+    {
+      "type": "way",
+      "id": 1375048791,
+      "center": {
+        "lat": 34.5520261,
+        "lon": -91.9806635
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 34.5520261,
+      "lon": -91.9806635
+    },
+    {
+      "type": "way",
+      "id": 1375048792,
+      "center": {
+        "lat": 34.5774152,
+        "lon": -91.9881282
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 34.5774152,
+      "lon": -91.9881282
+    },
+    {
+      "type": "way",
+      "id": 1375048795,
+      "center": {
+        "lat": 34.7190692,
+        "lon": -92.2471465
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 34.7190692,
+      "lon": -92.2471465
+    },
+    {
+      "type": "way",
+      "id": 1377066822,
+      "center": {
+        "lat": 35.6652561,
+        "lon": -91.8475141
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.6652561,
+      "lon": -91.8475141
+    },
+    {
+      "type": "way",
+      "id": 1387644989,
+      "center": {
+        "lat": 33.8028091,
+        "lon": -93.3718586
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 33.8028091,
+      "lon": -93.3718586
+    },
+    {
+      "type": "way",
+      "id": 1389325658,
+      "center": {
+        "lat": 33.1308287,
+        "lon": -91.941265
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Crossett SD",
+        "operator": "Entegrity Solar Crossett SD, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "67515",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2022-05"
+      },
+      "lat": 33.1308287,
+      "lon": -91.941265
+    },
+    {
+      "type": "way",
+      "id": 1389413097,
+      "center": {
+        "lat": 36.3740947,
+        "lon": -93.588744
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Berryville School District Solar",
+        "operator": "Today's Power, Inc.",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "66589",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2018-02"
+      },
+      "lat": 36.3740947,
+      "lon": -93.588744
+    },
+    {
+      "type": "way",
+      "id": 1395768332,
+      "center": {
+        "lat": 34.2927427,
+        "lon": -93.5162323
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 34.2927427,
+      "lon": -93.5162323
+    },
+    {
+      "type": "way",
+      "id": 1396635654,
+      "center": {
+        "lat": 35.2104117,
+        "lon": -90.7879664
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.2104117,
+      "lon": -90.7879664
+    },
+    {
+      "type": "way",
+      "id": 1427570444,
+      "center": {
+        "lat": 35.9563414,
+        "lon": -89.9563072
+      },
+      "tags": {
+        "landuse": "industrial",
+        "power": "plant"
+      },
+      "lat": 35.9563414,
+      "lon": -89.9563072
+    },
+    {
+      "type": "way",
+      "id": 1429531990,
+      "center": {
+        "lat": 35.9471362,
+        "lon": -89.9399932
+      },
+      "tags": {
+        "landuse": "industrial",
+        "power": "plant"
+      },
+      "lat": 35.9471362,
+      "lon": -89.9399932
+    },
+    {
+      "type": "way",
+      "id": 1430683190,
+      "center": {
+        "lat": 33.661727,
+        "lon": -93.5681448
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 33.661727,
+      "lon": -93.5681448
+    },
+    {
+      "type": "way",
+      "id": 1430683194,
+      "center": {
+        "lat": 33.6374235,
+        "lon": -93.5986703
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 33.6374235,
+      "lon": -93.5986703
+    },
+    {
+      "type": "way",
+      "id": 1430896616,
+      "center": {
+        "lat": 36.1259339,
+        "lon": -90.9293964
+      },
+      "tags": {
+        "landuse": "industrial",
+        "power": "plant"
+      },
+      "lat": 36.1259339,
+      "lon": -90.9293964
+    },
+    {
+      "type": "way",
+      "id": 1431003191,
+      "center": {
+        "lat": 35.9311356,
+        "lon": -89.9062981
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.9311356,
+      "lon": -89.9062981
+    },
+    {
+      "type": "way",
+      "id": 1433586713,
+      "center": {
+        "lat": 36.3918319,
+        "lon": -91.8772455
+      },
+      "tags": {
+        "name": "North Arkansas Electric Cooperative",
+        "operator": "Today's Power, Inc.",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "68709",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2021-05"
+      },
+      "lat": 36.3918319,
+      "lon": -91.8772455
+    },
+    {
+      "type": "way",
+      "id": 1442803773,
+      "center": {
+        "lat": 35.2464593,
+        "lon": -93.1729051
+      },
+      "tags": {
+        "area": "yes",
+        "landuse": "industrial",
+        "operator": "United States Army Corps of Engineers",
+        "operator:short": "USACE",
+        "operator:type": "military",
+        "operator:wikidata": "Q1049334",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "yes",
+        "plant:source": "hydro",
+        "power": "plant"
+      },
+      "lat": 35.2464593,
+      "lon": -93.1729051
+    },
+    {
+      "type": "way",
+      "id": 1454374828,
+      "center": {
+        "lat": 33.606495,
+        "lon": -92.5486001
+      },
+      "tags": {
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 33.606495,
+      "lon": -92.5486001
+    },
+    {
+      "type": "way",
+      "id": 1454547074,
+      "center": {
+        "lat": 35.9444315,
+        "lon": -89.8695149
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.9444315,
+      "lon": -89.8695149
+    },
+    {
+      "type": "way",
+      "id": 1462603453,
+      "center": {
+        "lat": 34.8725772,
+        "lon": -91.0713566
+      },
+      "tags": {
+        "name": "Walnut Bend Solar Station",
+        "operator": "Walnut Bend Solar Station",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "100 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "67504",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2024-09"
+      },
+      "lat": 34.8725772,
+      "lon": -91.0713566
+    },
+    {
+      "type": "way",
+      "id": 1462834822,
+      "center": {
+        "lat": 35.6099272,
+        "lon": -91.2588478
+      },
+      "tags": {
+        "name": "White River Medical Center solar farm",
+        "operator": "Entegrity Solar WRMC, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2.9 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "67527",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2023-10"
+      },
+      "lat": 35.6099272,
+      "lon": -91.2588478
+    },
+    {
+      "type": "way",
+      "id": 1466642627,
+      "center": {
+        "lat": 35.2578659,
+        "lon": -91.3531948
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Woodruff County Solar",
+        "operator": "Arkansas Electric Coop Corp",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "122 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "66282",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2024-10"
+      },
+      "lat": 35.2578659,
+      "lon": -91.3531948
+    },
+    {
+      "type": "way",
+      "id": 1466897847,
+      "center": {
+        "lat": 33.2535103,
+        "lon": -91.6683179
+      },
+      "tags": {
+        "name": "Prairie Mist Solar",
+        "operator": "Prairie Mist Solar Project, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "109.2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "66625",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2024-09"
+      },
+      "lat": 33.2535103,
+      "lon": -91.6683179
+    },
+    {
+      "type": "way",
+      "id": 1472409799,
+      "center": {
+        "lat": 33.5538896,
+        "lon": -92.8264074
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 33.5538896,
+      "lon": -92.8264074
+    },
+    {
+      "type": "way",
+      "id": 1472409800,
+      "center": {
+        "lat": 33.5523172,
+        "lon": -92.8262437
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 33.5523172,
+      "lon": -92.8262437
+    },
+    {
+      "type": "way",
+      "id": 1472410112,
+      "center": {
+        "lat": 33.5404116,
+        "lon": -92.8299143
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 33.5404116,
+      "lon": -92.8299143
+    },
+    {
+      "type": "way",
+      "id": 1479895131,
+      "center": {
+        "lat": 34.8840407,
+        "lon": -91.1789492
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 34.8840407,
+      "lon": -91.1789492
+    },
+    {
+      "type": "way",
+      "id": 1481555055,
+      "center": {
+        "lat": 34.7790777,
+        "lon": -91.9141719
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 34.7790777,
+      "lon": -91.9141719
+    },
+    {
+      "type": "way",
+      "id": 1489707261,
+      "center": {
+        "lat": 33.2507205,
+        "lon": -91.922151
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Ashley-Chicot Solar",
+        "operator": "Today's Power, Inc.",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "66588",
+        "start_date": "2018-08"
+      },
+      "lat": 33.2507205,
+      "lon": -91.922151
+    },
+    {
+      "type": "way",
+      "id": 1495950917,
+      "center": {
+        "lat": 34.5698668,
+        "lon": -90.6699476
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 34.5698668,
+      "lon": -90.6699476
+    },
+    {
+      "type": "relation",
+      "id": 14506442,
+      "center": {
+        "lat": 34.4393869,
+        "lon": -91.441733
+      },
+      "tags": {
+        "name": "Stuttgart Solar",
+        "operator": "Stuttgart Solar, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "81 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61262",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2018-01",
+        "type": "multipolygon"
+      },
+      "lat": 34.4393869,
+      "lon": -91.441733
+    },
+    {
+      "type": "relation",
+      "id": 15587381,
+      "center": {
+        "lat": 35.2226575,
+        "lon": -91.7035693
+      },
+      "tags": {
+        "name": "Searcy Solar Hybrid",
+        "operator": "Searcy Solar, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "100 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "62617",
+        "start_date": "2022-01",
+        "type": "multipolygon"
+      },
+      "lat": 35.2226575,
+      "lon": -91.7035693
+    },
+    {
+      "type": "relation",
+      "id": 15684219,
+      "center": {
+        "lat": 36.0684017,
+        "lon": -94.2356765
+      },
+      "tags": {
+        "name": "Westside Wastewater Treatment Solar Plant",
+        "operator": "Today's Power, Inc.",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "62683",
+        "start_date": "2019-07",
+        "type": "multipolygon"
+      },
+      "lat": 36.0684017,
+      "lon": -94.2356765
+    },
+    {
+      "type": "relation",
+      "id": 15705812,
+      "center": {
+        "lat": 35.1673494,
+        "lon": -91.6616507
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Happy Solar #1",
+        "operator": "Lightsource Renewable Energy Asset Management, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "95 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "63766",
+        "start_date": "2023-07",
+        "type": "multipolygon"
+      },
+      "lat": 35.1673494,
+      "lon": -91.6616507
+    },
+    {
+      "type": "relation",
+      "id": 15728682,
+      "center": {
+        "lat": 34.4169891,
+        "lon": -93.2015847
+      },
+      "tags": {
+        "name": "Hot Springs 2020",
+        "operator": "Greenbacker Renewable Energy Corporation",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64263",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2021-03",
+        "type": "multipolygon"
+      },
+      "lat": 34.4169891,
+      "lon": -93.2015847
+    },
+    {
+      "type": "relation",
+      "id": 16234937,
+      "center": {
+        "lat": 34.470304,
+        "lon": -91.5609305
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "OZK Solar",
+        "operator": "OZK Renewable Energy, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "4.8 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "start_date": "2020",
+        "type": "multipolygon"
+      },
+      "lat": 34.470304,
+      "lon": -91.5609305
+    },
+    {
+      "type": "relation",
+      "id": 19436354,
+      "center": {
+        "lat": 35.8140047,
+        "lon": -90.5796321
+      },
+      "tags": {
+        "name": "Jonesboro CWL Solar Park",
+        "operator": "City Water and Light Plant",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "10 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "67487",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2022-06",
+        "type": "multipolygon"
+      },
+      "lat": 35.8140047,
+      "lon": -90.5796321
+    },
+    {
+      "type": "relation",
+      "id": 19976660,
+      "center": {
+        "lat": 35.6394234,
+        "lon": -89.9796307
+      },
+      "tags": {
+        "name": "Driver Solar Facility",
+        "operator": "Entergy Arkansas",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "150 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "65736",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2024-11",
+        "type": "multipolygon",
+        "website": "https://www.entergyarkansas.com/generation/driver-solar"
+      },
+      "lat": 35.6394234,
+      "lon": -89.9796307
+    },
+    {
+      "type": "relation",
+      "id": 20080155,
+      "center": {
+        "lat": 35.1589415,
+        "lon": -90.319325
+      },
+      "tags": {
+        "name": "West Memphis Solar Station",
+        "operator": "Entergy Arkansas LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "180 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "65482",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2024-12",
+        "type": "multipolygon"
+      },
+      "lat": 35.1589415,
+      "lon": -90.319325
+    },
+    {
+      "type": "relation",
+      "id": 20082095,
+      "center": {
+        "lat": 33.0932495,
+        "lon": -91.9365428
+      },
+      "tags": {
+        "name": "Crossett Solar",
+        "operator": "Cubico USA, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "100 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "67915",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2024-09",
+        "type": "multipolygon"
+      },
+      "lat": 33.0932495,
+      "lon": -91.9365428
+    },
+    {
+      "type": "relation",
+      "id": 20083319,
+      "center": {
+        "lat": 35.9099444,
+        "lon": -89.8119825
+      },
+      "tags": {
+        "name": "Crooked Lake Solar",
+        "operator": "Crooked Lake Solar, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "175 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "66185",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2024-05",
+        "type": "multipolygon"
+      },
+      "lat": 35.9099444,
+      "lon": -89.8119825
+    },
+    {
+      "type": "relation",
+      "id": 20343808,
+      "center": {
+        "lat": 35.6679657,
+        "lon": -89.9672777
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "type": "multipolygon"
+      },
+      "lat": 35.6679657,
+      "lon": -89.9672777
+    }
+  ]
+}
