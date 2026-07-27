@@ -176,6 +176,24 @@
   color: rgb(0, 0, 100);
 }
 
+body:not(.homePage) .darkLink,
+body:not(.homePage) .darkLink:visited {
+  color: inherit;
+  text-decoration-line: underline;
+  text-decoration-color: rgba(0, 0, 0, 0.18);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.12em;
+  transition: text-decoration-color 180ms ease, text-shadow 180ms ease, color 180ms ease;
+}
+
+body:not(.homePage) .darkLink:hover,
+body:not(.homePage) .darkLink:focus-visible,
+body:not(.homePage) .darkLink:visited:hover,
+body:not(.homePage) .darkLink:visited:focus-visible {
+  color: rgb(32, 64, 210);
+  /* text-decoration-color: rgba(0, 0, 255, 0.95); */
+}
+
 .linkArrow2 {
   padding-right: 1.5em;
 }
