@@ -3428,87 +3428,87 @@ gl.bufferData(gl.ARRAY_BUFFER, gridVertices, gl.STATIC_DRAW);
 
 // Removed duplicate transmissionFileByState mapping block causing syntax error
 const transmissionFileByState = {
-  Alaska: '/grid/alaska-transmission.json',
-  Alabama: '/grid/alabama-transmission.json',
-  Arkansas: '/grid/arkansas-transmission.json',
-  Arizona: '/grid/arizona-transmission.json',
-  California: '/grid/california-transmission.json',
-  Connecticut: '/grid/connecticut-transmission.json',
-  Colorado: '/grid/colorado-transmission.json',
-  Delaware: '/grid/delaware-transmission.json',
-  Florida: '/grid/florida-transmission.json',
-  Georgia: '/grid/georgia-transmission.json',
-  Hawaii: '/grid/hawaii-transmission.json',
-  Idaho: '/grid/idaho-transmission.json',
-  Illinois: '/grid/illinois-transmission.json',
-  Indiana: '/grid/indiana-transmission.json',
-  Iowa: '/grid/iowa-transmission.json',
-  Kansas: '/grid/kansas-transmission.json',
-  Kentucky: '/grid/kentucky-transmission.json',
-  Louisiana: '/grid/louisiana-transmission.json',
-  Maine: '/grid/maine-transmission.json',
-  Maryland: '/grid/maryland-transmission.json',
+  Alaska: 'grid/alaska-transmission.json',
+  Alabama: 'grid/alabama-transmission.json',
+  Arkansas: 'grid/arkansas-transmission.json',
+  Arizona: 'grid/arizona-transmission.json',
+  California: 'grid/california-transmission.json',
+  Connecticut: 'grid/connecticut-transmission.json',
+  Colorado: 'grid/colorado-transmission.json',
+  Delaware: 'grid/delaware-transmission.json',
+  Florida: 'grid/florida-transmission.json',
+  Georgia: 'grid/georgia-transmission.json',
+  Hawaii: 'grid/hawaii-transmission.json',
+  Idaho: 'grid/idaho-transmission.json',
+  Illinois: 'grid/illinois-transmission.json',
+  Indiana: 'grid/indiana-transmission.json',
+  Iowa: 'grid/iowa-transmission.json',
+  Kansas: 'grid/kansas-transmission.json',
+  Kentucky: 'grid/kentucky-transmission.json',
+  Louisiana: 'grid/louisiana-transmission.json',
+  Maine: 'grid/maine-transmission.json',
+  Maryland: 'grid/maryland-transmission.json',
 };
 
 const substationFileByState = {
-  Alaska: '/grid/alaska-substations.json',
-  Alabama: '/grid/alabama-substations.json',
-  Arkansas: '/grid/arkansas-substations.json',
-  Arizona: '/grid/arizona-substations.json',
-  California: '/grid/california-substations.json',
-  Connecticut: '/grid/connecticut-substations.json',
-  Colorado: '/grid/colorado-substations.json',
-  Delaware: '/grid/delaware-substations.json',
-  Florida: '/grid/florida-substations.json',
-  Georgia: '/grid/georgia-substations.json',
-  Hawaii: '/grid/hawaii-substations.json',
-  Idaho: '/grid/idaho-substations.json',
-  Illinois: '/grid/illinois-substations.json',
-  Indiana: '/grid/indiana-substations.json',
-  Kansas: '/grid/kansas-substations.json',
-  Louisiana: '/grid/louisiana-substations.json',
-  Maine: '/grid/maine-substations.json',
+  Alaska: 'grid/alaska-substations.json',
+  Alabama: 'grid/alabama-substations.json',
+  Arkansas: 'grid/arkansas-substations.json',
+  Arizona: 'grid/arizona-substations.json',
+  California: 'grid/california-substations.json',
+  Connecticut: 'grid/connecticut-substations.json',
+  Colorado: 'grid/colorado-substations.json',
+  Delaware: 'grid/delaware-substations.json',
+  Florida: 'grid/florida-substations.json',
+  Georgia: 'grid/georgia-substations.json',
+  Hawaii: 'grid/hawaii-substations.json',
+  Idaho: 'grid/idaho-substations.json',
+  Illinois: 'grid/illinois-substations.json',
+  Indiana: 'grid/indiana-substations.json',
+  Kansas: 'grid/kansas-substations.json',
+  Louisiana: 'grid/louisiana-substations.json',
+  Maine: 'grid/maine-substations.json',
 };
 
 const plantFileByState = {
-    Maine: '/grid/maine-plants.json',
-  Alaska: '/grid/alaska-plants.json',
-  Alabama: '/grid/alabama-plants.json',
-  Arkansas: '/grid/arkansas-plants.json',
-  Arizona: '/grid/arizona-plants.json',
-  California: '/grid/california-plants.json',
-  Connecticut: '/grid/connecticut-plants.json',
-  Colorado: '/grid/colorado-plants.json',
-  Delaware: '/grid/delaware-plants.json',
-  Florida: '/grid/florida-plants.json',
-  Georgia: '/grid/georgia-plants.json',
-  Hawaii: '/grid/hawaii-plants.json',
-  Idaho: '/grid/idaho-plants.json',
-  Illinois: '/grid/illinois-plants.json',
-  Indiana: '/grid/indiana-plants.json',
-  Kansas: '/grid/kansas-plants.json',
-  Iowa: '/grid/iowa-plants.json',
-  Kentucky: '/grid/kentucky-plants.json',
-  Louisiana: '/grid/louisiana-plants.json',
+    Maine: 'grid/maine-plants.json',
+  Alaska: 'grid/alaska-plants.json',
+  Alabama: 'grid/alabama-plants.json',
+  Arkansas: 'grid/arkansas-plants.json',
+  Arizona: 'grid/arizona-plants.json',
+  California: 'grid/california-plants.json',
+  Connecticut: 'grid/connecticut-plants.json',
+  Colorado: 'grid/colorado-plants.json',
+  Delaware: 'grid/delaware-plants.json',
+  Florida: 'grid/florida-plants.json',
+  Georgia: 'grid/georgia-plants.json',
+  Hawaii: 'grid/hawaii-plants.json',
+  Idaho: 'grid/idaho-plants.json',
+  Illinois: 'grid/illinois-plants.json',
+  Indiana: 'grid/indiana-plants.json',
+  Kansas: 'grid/kansas-plants.json',
+  Iowa: 'grid/iowa-plants.json',
+  Kentucky: 'grid/kentucky-plants.json',
+  Louisiana: 'grid/louisiana-plants.json',
 };
 
 const consumerFileByState = {
-  Hawaii: '/grid/hawaii-consumers.json',
-  Florida: '/grid/florida-consumers.json',
-  Delaware: '/grid/delaware-consumers.json',
-  Connecticut: '/grid/connecticut-consumers.json',
-  Arizona: '/grid/arizona-consumers.json',
-  Alaska: '/grid/alaska-consumers.json',
-  Alabama: '/grid/alabama-consumers.json',
-  California: '/grid/california-consumers.json',
-  Maryland: '/grid/maryland-consumers.json',
-  Idaho: '/grid/idaho-consumers.json',
-  Illinois: '/grid/illinois-consumers.json',
-  Indiana: '/grid/indiana-consumers.json',
-  Kansas: '/grid/kansas-consumers.json',
-  Kentucky: '/grid/kentucky-consumers.json',
-  Louisiana: '/grid/louisiana-consumers.json',
-  Maine: '/grid/maine-consumers.json',
+  Hawaii: 'grid/hawaii-consumers.json',
+  Florida: 'grid/florida-consumers.json',
+  Delaware: 'grid/delaware-consumers.json',
+  Connecticut: 'grid/connecticut-consumers.json',
+  Arizona: 'grid/arizona-consumers.json',
+  Alaska: 'grid/alaska-consumers.json',
+  Alabama: 'grid/alabama-consumers.json',
+  California: 'grid/california-consumers.json',
+  Maryland: 'grid/maryland-consumers.json',
+  Idaho: 'grid/idaho-consumers.json',
+  Illinois: 'grid/illinois-consumers.json',
+  Indiana: 'grid/indiana-consumers.json',
+  Kansas: 'grid/kansas-consumers.json',
+  Kentucky: 'grid/kentucky-consumers.json',
+  Louisiana: 'grid/louisiana-consumers.json',
+  Maine: 'grid/maine-consumers.json',
 };
 const MAINE_ESTIMATE_DISCLAIMER_TEXT = 'County-level electricity consumption for Maine is estimated by population share. Actual consumption may differ.';
 
@@ -3529,61 +3529,61 @@ function showMaineDisclaimer(show) {
 }
 
 const solarZipDensityFileByState = {
-  California: '/grid/california-residential-solar-zip-density.json',
+  California: 'grid/california-residential-solar-zip-density.json',
 };
 
 const ghostPowerFileByState = {
-  Alabama: '/grid/alabama-ghost-power.json',
-  Alaska: '/grid/alaska-ghost-power.json',
-  Arizona: '/grid/arizona-ghost-power.json',
-  Arkansas: '/grid/arkansas-ghost-power.json',
-  California: '/grid/california-ghost-power.json',
-  Colorado: '/grid/colorado-ghost-power.json',
-  Connecticut: '/grid/connecticut-ghost-power.json',
-  Delaware: '/grid/delaware-ghost-power.json',
-  'District of Columbia': '/grid/district-of-columbia-ghost-power.json',
-  Florida: '/grid/florida-ghost-power.json',
-  Georgia: '/grid/georgia-ghost-power.json',
-  Hawaii: '/grid/hawaii-ghost-power.json',
-  Idaho: '/grid/idaho-ghost-power.json',
-  Illinois: '/grid/illinois-ghost-power.json',
-  Indiana: '/grid/indiana-ghost-power.json',
-  Iowa: '/grid/iowa-ghost-power.json',
-  Kansas: '/grid/kansas-ghost-power.json',
-  Kentucky: '/grid/kentucky-ghost-power.json',
-  Louisiana: '/grid/louisiana-ghost-power.json',
-  Maine: '/grid/maine-ghost-power.json',
-  Maryland: '/grid/maryland-ghost-power.json',
-  Massachusetts: '/grid/massachusetts-ghost-power.json',
-  Michigan: '/grid/michigan-ghost-power.json',
-  Minnesota: '/grid/minnesota-ghost-power.json',
-  Mississippi: '/grid/mississippi-ghost-power.json',
-  Missouri: '/grid/missouri-ghost-power.json',
-  Montana: '/grid/montana-ghost-power.json',
-  Nebraska: '/grid/nebraska-ghost-power.json',
-  Nevada: '/grid/nevada-ghost-power.json',
-  'New Hampshire': '/grid/new-hampshire-ghost-power.json',
-  'New Jersey': '/grid/new-jersey-ghost-power.json',
-  'New Mexico': '/grid/new-mexico-ghost-power.json',
-  'New York': '/grid/new-york-ghost-power.json',
-  'North Carolina': '/grid/north-carolina-ghost-power.json',
-  'North Dakota': '/grid/north-dakota-ghost-power.json',
-  Ohio: '/grid/ohio-ghost-power.json',
-  Oklahoma: '/grid/oklahoma-ghost-power.json',
-  Oregon: '/grid/oregon-ghost-power.json',
-  Pennsylvania: '/grid/pennsylvania-ghost-power.json',
-  'Rhode Island': '/grid/rhode-island-ghost-power.json',
-  'South Carolina': '/grid/south-carolina-ghost-power.json',
-  'South Dakota': '/grid/south-dakota-ghost-power.json',
-  Tennessee: '/grid/tennessee-ghost-power.json',
-  Texas: '/grid/texas-ghost-power.json',
-  Utah: '/grid/utah-ghost-power.json',
-  Vermont: '/grid/vermont-ghost-power.json',
-  Virginia: '/grid/virginia-ghost-power.json',
-  Washington: '/grid/washington-ghost-power.json',
-  'West Virginia': '/grid/west-virginia-ghost-power.json',
-  Wisconsin: '/grid/wisconsin-ghost-power.json',
-  Wyoming: '/grid/wyoming-ghost-power.json',
+  Alabama: 'grid/alabama-ghost-power.json',
+  Alaska: 'grid/alaska-ghost-power.json',
+  Arizona: 'grid/arizona-ghost-power.json',
+  Arkansas: 'grid/arkansas-ghost-power.json',
+  California: 'grid/california-ghost-power.json',
+  Colorado: 'grid/colorado-ghost-power.json',
+  Connecticut: 'grid/connecticut-ghost-power.json',
+  Delaware: 'grid/delaware-ghost-power.json',
+  'District of Columbia': 'grid/district-of-columbia-ghost-power.json',
+  Florida: 'grid/florida-ghost-power.json',
+  Georgia: 'grid/georgia-ghost-power.json',
+  Hawaii: 'grid/hawaii-ghost-power.json',
+  Idaho: 'grid/idaho-ghost-power.json',
+  Illinois: 'grid/illinois-ghost-power.json',
+  Indiana: 'grid/indiana-ghost-power.json',
+  Iowa: 'grid/iowa-ghost-power.json',
+  Kansas: 'grid/kansas-ghost-power.json',
+  Kentucky: 'grid/kentucky-ghost-power.json',
+  Louisiana: 'grid/louisiana-ghost-power.json',
+  Maine: 'grid/maine-ghost-power.json',
+  Maryland: 'grid/maryland-ghost-power.json',
+  Massachusetts: 'grid/massachusetts-ghost-power.json',
+  Michigan: 'grid/michigan-ghost-power.json',
+  Minnesota: 'grid/minnesota-ghost-power.json',
+  Mississippi: 'grid/mississippi-ghost-power.json',
+  Missouri: 'grid/missouri-ghost-power.json',
+  Montana: 'grid/montana-ghost-power.json',
+  Nebraska: 'grid/nebraska-ghost-power.json',
+  Nevada: 'grid/nevada-ghost-power.json',
+  'New Hampshire': 'grid/new-hampshire-ghost-power.json',
+  'New Jersey': 'grid/new-jersey-ghost-power.json',
+  'New Mexico': 'grid/new-mexico-ghost-power.json',
+  'New York': 'grid/new-york-ghost-power.json',
+  'North Carolina': 'grid/north-carolina-ghost-power.json',
+  'North Dakota': 'grid/north-dakota-ghost-power.json',
+  Ohio: 'grid/ohio-ghost-power.json',
+  Oklahoma: 'grid/oklahoma-ghost-power.json',
+  Oregon: 'grid/oregon-ghost-power.json',
+  Pennsylvania: 'grid/pennsylvania-ghost-power.json',
+  'Rhode Island': 'grid/rhode-island-ghost-power.json',
+  'South Carolina': 'grid/south-carolina-ghost-power.json',
+  'South Dakota': 'grid/south-dakota-ghost-power.json',
+  Tennessee: 'grid/tennessee-ghost-power.json',
+  Texas: 'grid/texas-ghost-power.json',
+  Utah: 'grid/utah-ghost-power.json',
+  Vermont: 'grid/vermont-ghost-power.json',
+  Virginia: 'grid/virginia-ghost-power.json',
+  Washington: 'grid/washington-ghost-power.json',
+  'West Virginia': 'grid/west-virginia-ghost-power.json',
+  Wisconsin: 'grid/wisconsin-ghost-power.json',
+  Wyoming: 'grid/wyoming-ghost-power.json',
 };
 
 const OVERPASS_DEFAULT_ENDPOINT = 'https://overpass-api.de/api/interpreter';
@@ -3624,7 +3624,7 @@ const consumerDataCache = new Map();
 const solarZipDensityDataCache = new Map();
 const ghostPowerDataCache = new Map();
 const stateGlobalTotalsCache = new Map();
-const stateGlobalTotalsFilePath = '/grid/state-global-totals.json';
+const stateGlobalTotalsFilePath = 'grid/state-global-totals.json';
 
 let outlineVertexCount = 0;
 let transmissionLineVertexCount = 0;
@@ -3684,7 +3684,7 @@ async function ensureGeneratedLandmarksLoaded() {
 
   generatedLandmarksLoadPromise = (async () => {
     try {
-      const response = await fetch('/grid/us-landmarks-generated.json');
+      const response = await fetch('grid/us-landmarks-generated.json');
       if (!response.ok) {
         return;
       }
@@ -4315,13 +4315,10 @@ const LANDMARKS_BY_STATE = {
 let landmarkLabels = []; // { el, wx, wz, screenX, screenY }
 const landmarkOverlay = document.getElementById('landmarkOverlay');
 let isDragging = false;
-let isPinching = false;
 let movedDuringDrag = false;
 let previousMouseX = 0;
 let previousMouseY = 0;
 let suppressMouseUntil = 0;
-let pinchStartDistance = 0;
-let pinchStartOrbitDistance = 0;
 let lastProjectionMatrix = identityMatrix();
 let lastViewMatrix = identityMatrix();
 let lastModelMatrix = identityMatrix();
@@ -4393,7 +4390,7 @@ async function loadJson(filePath, cache) {
 }
 
 async function setTransmissionForState(stateName) {
-  const fallbackTransmissionPath = `/grid/${stateName
+  const fallbackTransmissionPath = `grid/${stateName
     .toLowerCase()
     .replace(/[^a-z0-9\s]/g, ' ')
     .trim()
@@ -4432,7 +4429,7 @@ function renderTransmissionSourcesPopover() {
   }
 
   const transmissionFilePath = transmissionFileByState[selectedStateName]
-    || `/grid/${selectedStateName
+    || `grid/${selectedStateName
       .toLowerCase()
       .replace(/[^a-z0-9\s]/g, ' ')
       .trim()
@@ -4445,7 +4442,7 @@ function renderTransmissionSourcesPopover() {
   const consumerFilePath = consumerFileByState[selectedStateName] || 'Unavailable';
   const consumerSource = currentConsumerSource;
   const solarDensityFilePath = solarZipDensityFileByState[selectedStateName]
-    || `/grid/${selectedStateName
+    || `grid/${selectedStateName
       .toLowerCase()
       .replace(/[^a-z0-9\s]/g, ' ')
       .trim()
@@ -4837,7 +4834,7 @@ async function setSolarDensityLayerForState(stateName) {
     return;
   }
 
-  const fallbackSolarDensityPath = `/grid/${stateName
+  const fallbackSolarDensityPath = `grid/${stateName
     .toLowerCase()
     .replace(/[^a-z0-9\s]/g, ' ')
     .trim()
@@ -4898,13 +4895,13 @@ async function setPointLayerForState(stateName, type) {
   const buffer = type === 'plant' ? plantBuffer : type === 'consumer' ? consumerBuffer : type === 'ghost' ? ghostPowerBuffer : substationBuffer;
   const slogan = stateName.toLowerCase().replace(/[^a-z0-9\s]/g, ' ').trim().replace(/\s+/g, '-');
   const fallbackPath = type === 'substation'
-    ? `/grid/${slogan}-substations.json`
+    ? `grid/${slogan}-substations.json`
     : type === 'plant'
-    ? `/grid/${slogan}-plants.json`
+    ? `grid/${slogan}-plants.json`
     : type === 'consumer'
-    ? `/grid/${slogan}-consumers.json`
+    ? `grid/${slogan}-consumers.json`
     : type === 'ghost'
-    ? `/grid/${slogan}-ghost-projects.json`
+    ? `grid/${slogan}-ghost-projects.json`
     : undefined;
   const filePath = fileMap[stateName] || fallbackPath;
 
@@ -5115,7 +5112,7 @@ async function setOutlineForState(stateName) {
 }
 
 async function loadStates() {
-  const response = await fetch('/us-states.json');
+  const response = await fetch('us-states.json');
   const geojson = await response.json();
 
   const features = geojson.features || [];
@@ -6772,36 +6769,13 @@ canvas.addEventListener('click', (event) => {
   handleCanvasSelectionAt(event.clientX, event.clientY);
 });
 
-function getTouchDistance(touchA, touchB) {
-  const dx = touchA.clientX - touchB.clientX;
-  const dy = touchA.clientY - touchB.clientY;
-  return Math.hypot(dx, dy);
-}
-
 canvas.addEventListener(
   'touchstart',
   (event) => {
-    if (!event.touches || event.touches.length === 0) {
+    if (!event.touches || event.touches.length !== 1) {
       return;
     }
-
-    if (event.touches.length >= 2) {
-      const first = event.touches[0];
-      const second = event.touches[1];
-      const distance = getTouchDistance(first, second);
-      if (distance > 0) {
-        isPinching = true;
-        isDragging = false;
-        movedDuringDrag = true;
-        pinchStartDistance = distance;
-        pinchStartOrbitDistance = orbit.distance;
-      }
-      updateCanvasCursor();
-      return;
-    }
-
     const touch = event.touches[0];
-    isPinching = false;
     isDragging = true;
     movedDuringDrag = false;
     previousMouseX = touch.clientX;
@@ -6815,35 +6789,9 @@ canvas.addEventListener(
 canvas.addEventListener(
   'touchmove',
   (event) => {
-    if (!event.touches || event.touches.length === 0) {
+    if (!event.touches || event.touches.length !== 1 || !isDragging) {
       return;
     }
-
-    if (event.touches.length >= 2) {
-      event.preventDefault();
-      const first = event.touches[0];
-      const second = event.touches[1];
-      const currentDistance = getTouchDistance(first, second);
-
-      if (!isPinching) {
-        isPinching = true;
-        isDragging = false;
-        movedDuringDrag = true;
-        pinchStartDistance = currentDistance;
-        pinchStartOrbitDistance = orbit.distance;
-      } else if (currentDistance > 0 && pinchStartDistance > 0) {
-        const scale = pinchStartDistance / currentDistance;
-        orbit.distance = pinchStartOrbitDistance * scale;
-        orbit.distance = Math.max(orbit.minDistance, Math.min(orbit.maxDistance, orbit.distance));
-        requestRender();
-      }
-      return;
-    }
-
-    if (!isDragging || isPinching) {
-      return;
-    }
-
     event.preventDefault();
     const touch = event.touches[0];
     const dx = touch.clientX - previousMouseX;
@@ -6866,25 +6814,6 @@ canvas.addEventListener(
 canvas.addEventListener(
   'touchend',
   (event) => {
-    const remainingTouches = event.touches ? event.touches.length : 0;
-
-    if (isPinching || remainingTouches > 0) {
-      if (remainingTouches >= 2) {
-        const first = event.touches[0];
-        const second = event.touches[1];
-        pinchStartDistance = getTouchDistance(first, second);
-        pinchStartOrbitDistance = orbit.distance;
-      } else {
-        isPinching = false;
-        pinchStartDistance = 0;
-      }
-      isDragging = false;
-      movedDuringDrag = true;
-      suppressMouseUntil = Date.now() + 600;
-      updateCanvasCursor();
-      return;
-    }
-
     const touch = event.changedTouches && event.changedTouches[0];
     isDragging = false;
     if (touch && !movedDuringDrag) {
@@ -6900,8 +6829,6 @@ canvas.addEventListener(
 canvas.addEventListener('touchcancel', () => {
   movedDuringDrag = false;
   isDragging = false;
-  isPinching = false;
-  pinchStartDistance = 0;
   updateCanvasCursor();
 });
 
@@ -6924,36 +6851,9 @@ function buildLandmarkLabels(stateName) {
   if (!currentProjection) {
     return;
   }
-  const sanitizeCities = (cities) => {
-    if (!Array.isArray(cities) || cities.length === 0) {
-      return [];
-    }
-
-    const unique = new Set();
-    const filtered = [];
-    for (const city of cities) {
-      const name = String(city?.name || '').trim();
-      const lat = Number(city?.lat);
-      const lon = Number(city?.lon);
-      if (!name || !Number.isFinite(lat) || !Number.isFinite(lon)) {
-        continue;
-      }
-
-      const key = name.toLowerCase();
-      if (unique.has(key)) {
-        continue;
-      }
-      unique.add(key);
-      filtered.push({ name, lat, lon });
-    }
-
-    return filtered;
-  };
-
-  const generatedCities = sanitizeCities(generatedLandmarksByState[stateName] || []);
-  const hardcodedCities = sanitizeCities(LANDMARKS_BY_STATE[stateName] || []);
-  const cities = generatedCities.length > 0 ? generatedCities : hardcodedCities;
-
+  const hardcodedCities = LANDMARKS_BY_STATE[stateName] || [];
+  const generatedCities = generatedLandmarksByState[stateName] || [];
+  const cities = hardcodedCities.length > 0 ? hardcodedCities : generatedCities;
   for (let i = 0; i < cities.length; i += 1) {
     const city = cities[i];
     const [wx, , wz] = currentProjection.project(city.lon, city.lat, 0.01);
