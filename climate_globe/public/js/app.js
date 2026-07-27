@@ -118,11 +118,14 @@ window.addEventListener('mousemove', onMouseMove, false);
 window.addEventListener('pointerdown', onPointerDown, false);
 window.addEventListener('pointermove', onPointerMove, false);
 window.addEventListener('pointerup', onPointerUp, false);
+window.addEventListener('pointercancel', onPointerCancel, false);
 
 let pointerDown = false;
 let dragMoved = false;
 let downX = 0;
 let downY = 0;
+let activePrimaryPointerId = null;
+const activeTouchPointers = new Set();
 const DRAG_THRESHOLD_PX = 5;
 
 function setDockTab(tabId) {
@@ -2107,15 +2110,30 @@ function onMouseMove(event) {
 }
 
 function onPointerDown(event) {
-  // Only track left-click for custom drag detection
-  if (event.button !== 0) return;
+  if (event.pointerType === 'touch') {
+    activeTouchPointers.add(event.pointerId);
+    // Don't treat multi-touch gestures (pinch/rotate) as taps.
+    if (activeTouchPointers.size > 1) {
+      pointerDown = false;
+      activePrimaryPointerId = null;
+      dragMoved = true;
+      return;
+    }
+  }
+
+  // Only track primary pointer. For mouse, require left button.
+  if (!event.isPrimary) return;
+  if (event.pointerType === 'mouse' && event.button !== 0) return;
+
   pointerDown = true;
+  activePrimaryPointerId = event.pointerId;
   dragMoved = false;
   downX = event.clientX;
   downY = event.clientY;
 }
 
 function onPointerMove(event) {
+  if (activePrimaryPointerId !== null && event.pointerId !== activePrimaryPointerId) return;
   if (!pointerDown) return;
   const dx = event.clientX - downX;
   const dy = event.clientY - downY;
@@ -2125,10 +2143,30 @@ function onPointerMove(event) {
 }
 
 function onPointerUp(event) {
+  if (event.pointerType === 'touch') {
+    activeTouchPointers.delete(event.pointerId);
+  }
+
   if (!pointerDown) return;
+  if (activePrimaryPointerId !== null && event.pointerId !== activePrimaryPointerId) return;
+
   pointerDown = false;
+  activePrimaryPointerId = null;
+
+  // Never trigger click logic immediately after a multi-touch interaction.
+  if (event.pointerType === 'touch' && activeTouchPointers.size > 0) return;
   if (dragMoved) return;
   onClick(event);
+}
+
+function onPointerCancel(event) {
+  if (event.pointerType === 'touch') {
+    activeTouchPointers.delete(event.pointerId);
+  }
+  if (activePrimaryPointerId === event.pointerId) {
+    pointerDown = false;
+    activePrimaryPointerId = null;
+  }
 }
 
 function onClick(event) {
@@ -2877,6 +2915,49 @@ function updateRenewableEnergyData() {
   });
 }
 
+// Re-apply correct colors to already-built border and particle geometry after
+// metric data finishes loading (fixing the first-load yellow-everywhere race).
+function refreshBorderColors() {
+  if (!borders) return;
+  borders.children.forEach((line) => {
+    const countryName = line.userData && line.userData.countryName;
+    if (!countryName) return;
+    const pct = renewableEnergyData[countryName] || 15;
+    const color = getRenewableColor(pct);
+    if (line.material) {
+      line.material.color.set(color);
+      // Update stored baseColor so selection/deselection stays consistent.
+      line.userData.renewablePercent = pct;
+    }
+  });
+
+  // Re-color country particles too.
+  if (countryParticles) {
+    countryParticles.children.forEach((points) => {
+      const countryName = points.userData && points.userData.countryName;
+      if (!countryName || countryName === US_COUNTRY_NAME) return;
+      const pct = renewableEnergyData[countryName] || 15;
+      const color = getRenewableColor(pct);
+      const baseColors = points.userData.baseColors;
+      const colorAttr = points.geometry && points.geometry.getAttribute('color');
+      if (baseColors && colorAttr) {
+        for (let i = 0; i < baseColors.length; i += 3) {
+          baseColors[i]     = color.r;
+          baseColors[i + 1] = color.g;
+          baseColors[i + 2] = color.b;
+          colorAttr.array[i]     = color.r;
+          colorAttr.array[i + 1] = color.g;
+          colorAttr.array[i + 2] = color.b;
+        }
+        colorAttr.needsUpdate = true;
+      }
+    });
+  }
+
+  buildCountryList();
+  requestRender();
+}
+
 function getCo2ContributionColor(percent) {
   const t = Math.max(0, Math.min(1, percent / 20)); // 20%+ clamped to max intensity
   // deep blue -> cyan -> yellow -> red
@@ -3007,6 +3088,8 @@ async function loadAllMetrics() {
   ]);
   buildRenewableNameMaps();
   updateRenewableEnergyData();
+  // If GeoJSON loaded first and built borders with empty data, re-color now.
+  refreshBorderColors();
   buildCo2Ribbon();
 }
 
@@ -4002,10 +4085,12 @@ camera.position.set(0, 0, 2.5);
 const controls = new OrbitControls(camera, renderer.domElement);
 controls.enableDamping = true;
 controls.dampingFactor = 0.05;
+controls.enableZoom = true;
 controls.minDistance = 1.5;
 controls.maxDistance = 5;
 controls.enablePan = false; // Disable panning entirely
 controls.mouseButtons = { LEFT: THREE.MOUSE.ROTATE, MIDDLE: THREE.MOUSE.ZOOM, RIGHT: THREE.MOUSE.ROTATE };
+controls.touches = { ONE: THREE.TOUCH.ROTATE, TWO: THREE.TOUCH.DOLLY_ROTATE };
 
 // Prevent context menu on canvas to allow right-click drag
 renderer.domElement.addEventListener('contextmenu', (e) => e.preventDefault());
