@@ -1,0 +1,1632 @@
+{
+  "source": {
+    "name": "EIA Form 861 Annual Electric Power Industry Report (2024)",
+    "year": 2024,
+    "state": "Illinois",
+    "methodology": "Utility annual electricity sales (MWh) from Sales_Ult_Cust worksheet distributed equally across each utility's Illinois service counties (Service_Territory worksheet). County centroid geometry from US Census GeoJSON.",
+    "workbook": "Sales_Ult_Cust_2024.xlsx + Service_Territory_2024.xlsx",
+    "workbook_url": "https://www.eia.gov/electricity/data/eia861/zip/f8612024.zip",
+    "download_page": "https://www.eia.gov/electricity/data/eia861/",
+    "geometry_source": "https://raw.githubusercontent.com/plotly/datasets/master/geojson-counties-fips.json"
+  },
+  "count": 101,
+  "total_gwh_annual": 128832.7,
+  "elements": [
+    {
+      "type": "node",
+      "id": "consumer-county-001",
+      "lat": 39.940433,
+      "lon": -91.295709,
+      "tags": {
+        "name": "Adams County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "47.31",
+        "consumption:gwh:annual": "414.40",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-003",
+      "lat": 37.087864,
+      "lon": -89.297494,
+      "tags": {
+        "name": "Alexander County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "47.31",
+        "consumption:gwh:annual": "414.40",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-005",
+      "lat": 38.895362,
+      "lon": -89.477324,
+      "tags": {
+        "name": "Bond County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "52.32",
+        "consumption:gwh:annual": "458.36",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-007",
+      "lat": 42.39653,
+      "lon": -88.783484,
+      "tags": {
+        "name": "Boone County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "407.57",
+        "consumption:gwh:annual": "3570.31",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-009",
+      "lat": 39.940487,
+      "lon": -90.666257,
+      "tags": {
+        "name": "Brown County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "47.31",
+        "consumption:gwh:annual": "414.40",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-011",
+      "lat": 41.325396,
+      "lon": -89.604682,
+      "tags": {
+        "name": "Bureau County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "452.66",
+        "consumption:gwh:annual": "3965.32",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-013",
+      "lat": 39.055139,
+      "lon": -90.632533,
+      "tags": {
+        "name": "Calhoun County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "47.31",
+        "consumption:gwh:annual": "414.40",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-015",
+      "lat": 42.070515,
+      "lon": -90.110888,
+      "tags": {
+        "name": "Carroll County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "415.56",
+        "consumption:gwh:annual": "3640.34",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-017",
+      "lat": 40.004622,
+      "lon": -90.294969,
+      "tags": {
+        "name": "Cass County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "49.87",
+        "consumption:gwh:annual": "436.86",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-019",
+      "lat": 40.206322,
+      "lon": -88.285507,
+      "tags": {
+        "name": "Champaign County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "54.00",
+        "consumption:gwh:annual": "473.04",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-021",
+      "lat": 39.654573,
+      "lon": -89.2436,
+      "tags": {
+        "name": "Christian County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "50.28",
+        "consumption:gwh:annual": "440.50",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-023",
+      "lat": 39.337046,
+      "lon": -87.655271,
+      "tags": {
+        "name": "Clark County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "54.28",
+        "consumption:gwh:annual": "475.47",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-025",
+      "lat": 38.767894,
+      "lon": -88.476156,
+      "tags": {
+        "name": "Clay County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "64.83",
+        "consumption:gwh:annual": "567.93",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-027",
+      "lat": 38.615921,
+      "lon": -89.444441,
+      "tags": {
+        "name": "Clinton County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "56.62",
+        "consumption:gwh:annual": "496.01",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-029",
+      "lat": 39.533806,
+      "lon": -88.211336,
+      "tags": {
+        "name": "Coles County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "50.15",
+        "consumption:gwh:annual": "439.35",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-031",
+      "lat": 41.936588,
+      "lon": -87.747118,
+      "tags": {
+        "name": "Cook County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "401.36",
+        "consumption:gwh:annual": "3515.89",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-033",
+      "lat": 38.980579,
+      "lon": -87.638485,
+      "tags": {
+        "name": "Crawford County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "51.43",
+        "consumption:gwh:annual": "450.52",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-035",
+      "lat": 39.260575,
+      "lon": -88.284551,
+      "tags": {
+        "name": "Cumberland County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "57.26",
+        "consumption:gwh:annual": "501.57",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-037",
+      "lat": 41.892393,
+      "lon": -88.72092,
+      "tags": {
+        "name": "DeKalb County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "401.36",
+        "consumption:gwh:annual": "3515.89",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-041",
+      "lat": 39.776553,
+      "lon": -88.22189,
+      "tags": {
+        "name": "Douglas County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "52.85",
+        "consumption:gwh:annual": "462.95",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-043",
+      "lat": 41.875832,
+      "lon": -88.101919,
+      "tags": {
+        "name": "DuPage County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "497.58",
+        "consumption:gwh:annual": "4358.78",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-045",
+      "lat": 39.657427,
+      "lon": -87.595773,
+      "tags": {
+        "name": "Edgar County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "52.85",
+        "consumption:gwh:annual": "462.95",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-047",
+      "lat": 38.344271,
+      "lon": -88.011303,
+      "tags": {
+        "name": "Edwards County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "51.39",
+        "consumption:gwh:annual": "450.20",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-049",
+      "lat": 39.081354,
+      "lon": -88.575544,
+      "tags": {
+        "name": "Effingham County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "59.43",
+        "consumption:gwh:annual": "520.58",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-051",
+      "lat": 39.074761,
+      "lon": -89.021259,
+      "tags": {
+        "name": "Fayette County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "55.30",
+        "consumption:gwh:annual": "484.46",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-053",
+      "lat": 40.682593,
+      "lon": -88.154075,
+      "tags": {
+        "name": "Ford County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "455.36",
+        "consumption:gwh:annual": "3988.93",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-055",
+      "lat": 37.9371,
+      "lon": -88.908955,
+      "tags": {
+        "name": "Franklin County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "67.69",
+        "consumption:gwh:annual": "592.99",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-057",
+      "lat": 40.560556,
+      "lon": -90.262647,
+      "tags": {
+        "name": "Fulton County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "47.31",
+        "consumption:gwh:annual": "414.40",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-059",
+      "lat": 37.777728,
+      "lon": -88.196316,
+      "tags": {
+        "name": "Gallatin County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "59.77",
+        "consumption:gwh:annual": "523.60",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-061",
+      "lat": 39.339715,
+      "lon": -90.418887,
+      "tags": {
+        "name": "Greene County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "47.31",
+        "consumption:gwh:annual": "414.40",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-063",
+      "lat": 41.238279,
+      "lon": -88.350288,
+      "tags": {
+        "name": "Grundy County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "401.36",
+        "consumption:gwh:annual": "3515.89",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-065",
+      "lat": 37.998893,
+      "lon": -88.506302,
+      "tags": {
+        "name": "Hamilton County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "16.76",
+        "consumption:gwh:annual": "146.85",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-067",
+      "lat": 40.46084,
+      "lon": -91.311417,
+      "tags": {
+        "name": "Hancock County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "47.31",
+        "consumption:gwh:annual": "414.40",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-069",
+      "lat": 37.505211,
+      "lon": -88.216236,
+      "tags": {
+        "name": "Hardin County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "8.38",
+        "consumption:gwh:annual": "73.40",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-071",
+      "lat": 40.812283,
+      "lon": -91.007846,
+      "tags": {
+        "name": "Henderson County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "47.31",
+        "consumption:gwh:annual": "414.40",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-073",
+      "lat": 41.347649,
+      "lon": -90.089508,
+      "tags": {
+        "name": "Henry County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "135.16",
+        "consumption:gwh:annual": "1184.00",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-075",
+      "lat": 40.745729,
+      "lon": -87.620702,
+      "tags": {
+        "name": "Iroquois County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "50.00",
+        "consumption:gwh:annual": "438.00",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-077",
+      "lat": 37.714056,
+      "lon": -89.442703,
+      "tags": {
+        "name": "Jackson County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "50.93",
+        "consumption:gwh:annual": "446.15",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-079",
+      "lat": 39.019284,
+      "lon": -88.156826,
+      "tags": {
+        "name": "Jasper County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "51.43",
+        "consumption:gwh:annual": "450.52",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-081",
+      "lat": 38.283519,
+      "lon": -88.922012,
+      "tags": {
+        "name": "Jefferson County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "55.69",
+        "consumption:gwh:annual": "487.84",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-083",
+      "lat": 39.05758,
+      "lon": -90.389585,
+      "tags": {
+        "name": "Jersey County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "47.31",
+        "consumption:gwh:annual": "414.40",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-085",
+      "lat": 42.443624,
+      "lon": -90.351647,
+      "tags": {
+        "name": "Jo Daviess County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "415.57",
+        "consumption:gwh:annual": "3640.41",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-087",
+      "lat": 37.46186,
+      "lon": -88.903925,
+      "tags": {
+        "name": "Johnson County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "59.31",
+        "consumption:gwh:annual": "519.55",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-089",
+      "lat": 41.881872,
+      "lon": -88.351766,
+      "tags": {
+        "name": "Kane County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "515.66",
+        "consumption:gwh:annual": "4517.22",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-091",
+      "lat": 41.115633,
+      "lon": -87.844145,
+      "tags": {
+        "name": "Kankakee County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "401.36",
+        "consumption:gwh:annual": "3515.89",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-093",
+      "lat": 41.622057,
+      "lon": -88.395298,
+      "tags": {
+        "name": "Kendall County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "452.66",
+        "consumption:gwh:annual": "3965.32",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-095",
+      "lat": 40.946211,
+      "lon": -90.205408,
+      "tags": {
+        "name": "Knox County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "51.31",
+        "consumption:gwh:annual": "449.43",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-097",
+      "lat": 42.324246,
+      "lon": -87.854516,
+      "tags": {
+        "name": "Lake County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "401.36",
+        "consumption:gwh:annual": "3515.89",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-099",
+      "lat": 41.338151,
+      "lon": -88.951831,
+      "tags": {
+        "name": "LaSalle County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "479.60",
+        "consumption:gwh:annual": "4201.33",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-101",
+      "lat": 38.704804,
+      "lon": -87.625643,
+      "tags": {
+        "name": "Lawrence County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "51.43",
+        "consumption:gwh:annual": "450.52",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-103",
+      "lat": 41.705003,
+      "lon": -89.372327,
+      "tags": {
+        "name": "Lee County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "424.34",
+        "consumption:gwh:annual": "3717.22",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-105",
+      "lat": 40.881653,
+      "lon": -88.524455,
+      "tags": {
+        "name": "Livingston County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "455.36",
+        "consumption:gwh:annual": "3988.93",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-107",
+      "lat": 40.131749,
+      "lon": -89.337387,
+      "tags": {
+        "name": "Logan County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "53.87",
+        "consumption:gwh:annual": "471.89",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-115",
+      "lat": 39.812637,
+      "lon": -89.03497,
+      "tags": {
+        "name": "Macon County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "56.85",
+        "consumption:gwh:annual": "497.99",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-117",
+      "lat": 39.251882,
+      "lon": -89.855102,
+      "tags": {
+        "name": "Macoupin County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "52.32",
+        "consumption:gwh:annual": "458.36",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-119",
+      "lat": 38.851509,
+      "lon": -89.968691,
+      "tags": {
+        "name": "Madison County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "52.32",
+        "consumption:gwh:annual": "458.36",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-121",
+      "lat": 38.599311,
+      "lon": -88.994005,
+      "tags": {
+        "name": "Marion County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "60.71",
+        "consumption:gwh:annual": "531.81",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-123",
+      "lat": 41.063646,
+      "lon": -89.386155,
+      "tags": {
+        "name": "Marshall County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "452.66",
+        "consumption:gwh:annual": "3965.32",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-125",
+      "lat": 40.211141,
+      "lon": -89.956461,
+      "tags": {
+        "name": "Mason County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "49.87",
+        "consumption:gwh:annual": "436.86",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-127",
+      "lat": 37.151852,
+      "lon": -88.661768,
+      "tags": {
+        "name": "Massac County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "55.69",
+        "consumption:gwh:annual": "487.80",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-109",
+      "lat": 40.533994,
+      "lon": -90.740478,
+      "tags": {
+        "name": "McDonough County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "47.31",
+        "consumption:gwh:annual": "414.40",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-111",
+      "lat": 42.380521,
+      "lon": -88.366455,
+      "tags": {
+        "name": "McHenry County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "407.57",
+        "consumption:gwh:annual": "3570.31",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-113",
+      "lat": 40.523103,
+      "lon": -88.845208,
+      "tags": {
+        "name": "McLean County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "54.00",
+        "consumption:gwh:annual": "473.04",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-129",
+      "lat": 40.053313,
+      "lon": -89.792192,
+      "tags": {
+        "name": "Menard County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "49.87",
+        "consumption:gwh:annual": "436.86",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-131",
+      "lat": 41.161406,
+      "lon": -90.838119,
+      "tags": {
+        "name": "Mercer County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "116.95",
+        "consumption:gwh:annual": "1024.51",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-133",
+      "lat": 38.281547,
+      "lon": -90.234323,
+      "tags": {
+        "name": "Monroe County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "50.93",
+        "consumption:gwh:annual": "446.15",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-135",
+      "lat": 39.158873,
+      "lon": -89.489838,
+      "tags": {
+        "name": "Montgomery County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "55.30",
+        "consumption:gwh:annual": "484.46",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-137",
+      "lat": 39.731156,
+      "lon": -90.348656,
+      "tags": {
+        "name": "Morgan County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "49.87",
+        "consumption:gwh:annual": "436.86",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-139",
+      "lat": 39.626454,
+      "lon": -88.643925,
+      "tags": {
+        "name": "Moultrie County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "55.83",
+        "consumption:gwh:annual": "489.05",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-141",
+      "lat": 42.04496,
+      "lon": -89.353504,
+      "tags": {
+        "name": "Ogle County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "424.34",
+        "consumption:gwh:annual": "3717.22",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-143",
+      "lat": 40.795172,
+      "lon": -89.82006,
+      "tags": {
+        "name": "Peoria County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "47.31",
+        "consumption:gwh:annual": "414.40",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-145",
+      "lat": 38.11525,
+      "lon": -89.340724,
+      "tags": {
+        "name": "Perry County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "55.23",
+        "consumption:gwh:annual": "483.79",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-147",
+      "lat": 39.989197,
+      "lon": -88.561292,
+      "tags": {
+        "name": "Piatt County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "56.85",
+        "consumption:gwh:annual": "497.99",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-149",
+      "lat": 39.652945,
+      "lon": -91.000384,
+      "tags": {
+        "name": "Pike County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "47.31",
+        "consumption:gwh:annual": "414.40",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-151",
+      "lat": 37.279618,
+      "lon": -88.48652,
+      "tags": {
+        "name": "Pope County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "8.38",
+        "consumption:gwh:annual": "73.40",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-153",
+      "lat": 37.220787,
+      "lon": -89.039952,
+      "tags": {
+        "name": "Pulaski County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "47.31",
+        "consumption:gwh:annual": "414.40",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-155",
+      "lat": 41.192329,
+      "lon": -89.344973,
+      "tags": {
+        "name": "Putnam County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "51.31",
+        "consumption:gwh:annual": "449.43",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-157",
+      "lat": 37.972487,
+      "lon": -89.891285,
+      "tags": {
+        "name": "Randolph County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "50.93",
+        "consumption:gwh:annual": "446.15",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-159",
+      "lat": 38.651332,
+      "lon": -88.031618,
+      "tags": {
+        "name": "Richland County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "55.52",
+        "consumption:gwh:annual": "486.32",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-161",
+      "lat": 41.560702,
+      "lon": -90.485098,
+      "tags": {
+        "name": "Rock Island County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "69.65",
+        "consumption:gwh:annual": "610.11",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-165",
+      "lat": 37.836884,
+      "lon": -88.510601,
+      "tags": {
+        "name": "Saline County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "55.69",
+        "consumption:gwh:annual": "487.80",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-167",
+      "lat": 39.746661,
+      "lon": -89.552868,
+      "tags": {
+        "name": "Sangamon County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "220.48",
+        "consumption:gwh:annual": "1931.45",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-169",
+      "lat": 40.144757,
+      "lon": -90.612656,
+      "tags": {
+        "name": "Schuyler County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "47.31",
+        "consumption:gwh:annual": "414.40",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-171",
+      "lat": 39.639098,
+      "lon": -90.469237,
+      "tags": {
+        "name": "Scott County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "47.31",
+        "consumption:gwh:annual": "414.40",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-173",
+      "lat": 39.350173,
+      "lon": -88.838129,
+      "tags": {
+        "name": "Shelby County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "62.28",
+        "consumption:gwh:annual": "545.53",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-163",
+      "lat": 38.534875,
+      "lon": -90.095491,
+      "tags": {
+        "name": "St. Clair County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "60.25",
+        "consumption:gwh:annual": "527.75",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-175",
+      "lat": 41.122179,
+      "lon": -89.787225,
+      "tags": {
+        "name": "Stark County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "51.31",
+        "consumption:gwh:annual": "449.43",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-177",
+      "lat": 42.474946,
+      "lon": -89.628237,
+      "tags": {
+        "name": "Stephenson County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "407.58",
+        "consumption:gwh:annual": "3570.38",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-179",
+      "lat": 40.518079,
+      "lon": -89.542098,
+      "tags": {
+        "name": "Tazewell County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "53.87",
+        "consumption:gwh:annual": "471.89",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-181",
+      "lat": 37.447986,
+      "lon": -89.393506,
+      "tags": {
+        "name": "Union County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "50.93",
+        "consumption:gwh:annual": "446.15",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-183",
+      "lat": 40.184782,
+      "lon": -87.588264,
+      "tags": {
+        "name": "Vermilion County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "50.00",
+        "consumption:gwh:annual": "438.00",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-185",
+      "lat": 38.435653,
+      "lon": -87.852873,
+      "tags": {
+        "name": "Wabash County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "65.07",
+        "consumption:gwh:annual": "570.00",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-187",
+      "lat": 40.723386,
+      "lon": -90.493462,
+      "tags": {
+        "name": "Warren County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "47.31",
+        "consumption:gwh:annual": "414.40",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-189",
+      "lat": 38.399254,
+      "lon": -89.431078,
+      "tags": {
+        "name": "Washington County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "55.23",
+        "consumption:gwh:annual": "483.79",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-191",
+      "lat": 38.447972,
+      "lon": -88.443741,
+      "tags": {
+        "name": "Wayne County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "55.69",
+        "consumption:gwh:annual": "487.84",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-193",
+      "lat": 38.11289,
+      "lon": -88.032681,
+      "tags": {
+        "name": "White County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "59.77",
+        "consumption:gwh:annual": "523.60",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-195",
+      "lat": 41.739775,
+      "lon": -90.029992,
+      "tags": {
+        "name": "Whiteside County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "415.56",
+        "consumption:gwh:annual": "3640.34",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-197",
+      "lat": 41.489682,
+      "lon": -87.845823,
+      "tags": {
+        "name": "Will County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "470.54",
+        "consumption:gwh:annual": "4121.94",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-199",
+      "lat": 37.674025,
+      "lon": -88.903083,
+      "tags": {
+        "name": "Williamson County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "59.31",
+        "consumption:gwh:annual": "519.55",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-201",
+      "lat": 42.451444,
+      "lon": -89.136137,
+      "tags": {
+        "name": "Winnebago County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "407.57",
+        "consumption:gwh:annual": "3570.31",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-203",
+      "lat": 40.748022,
+      "lon": -89.191053,
+      "tags": {
+        "name": "Woodford County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "452.66",
+        "consumption:gwh:annual": "3965.32",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    }
+  ]
+}

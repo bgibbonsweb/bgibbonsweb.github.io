@@ -1,0 +1,96 @@
+{
+  "source": {
+    "name": "EIA Form 861 Annual Electric Power Industry Report (2024)",
+    "year": 2024,
+    "state": "Hawaii",
+    "methodology": "Utility annual electricity sales (MWh) from Sales_Ult_Cust worksheet distributed equally across each utility's Hawaii service counties (Service_Territory worksheet). County centroid geometry from US Census GeoJSON.",
+    "workbook": "Sales_Ult_Cust_2024.xlsx + Service_Territory_2024.xlsx",
+    "workbook_url": "https://www.eia.gov/electricity/data/eia861/zip/f8612024.zip",
+    "download_page": "https://www.eia.gov/electricity/data/eia861/",
+    "geometry_source": "https://raw.githubusercontent.com/plotly/datasets/master/geojson-counties-fips.json"
+  },
+  "count": 5,
+  "total_gwh_annual": 8691.4,
+  "elements": [
+    {
+      "type": "node",
+      "id": "consumer-county-001",
+      "lat": 19.604206,
+      "lon": -155.540011,
+      "tags": {
+        "name": "Hawaii County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "119.49",
+        "consumption:gwh:annual": "1046.70",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-003",
+      "lat": 21.428678,
+      "lon": -157.909919,
+      "tags": {
+        "name": "Honolulu County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "700.29",
+        "consumption:gwh:annual": "6134.55",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-005",
+      "lat": 21.186755,
+      "lon": -156.966111,
+      "tags": {
+        "name": "Kalawao County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "59.23",
+        "consumption:gwh:annual": "518.83",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-007",
+      "lat": 22.00906,
+      "lon": -159.766336,
+      "tags": {
+        "name": "Kauai County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "53.93",
+        "consumption:gwh:annual": "472.47",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-009",
+      "lat": 20.875053,
+      "lon": -156.638435,
+      "tags": {
+        "name": "Maui County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "59.23",
+        "consumption:gwh:annual": "518.83",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    }
+  ]
+}

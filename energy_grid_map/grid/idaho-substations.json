@@ -1,0 +1,8835 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-04-24T18:15:17Z",
+    "timestamp_areas_base": "2026-04-24T09:42:59Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 53130300,
+      "center": {
+        "lat": 43.5280344,
+        "lon": -116.0584531
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "generation",
+        "voltage": "138000"
+      },
+      "lat": 43.5280344,
+      "lon": -116.0584531
+    },
+    {
+      "type": "way",
+      "id": 53140902,
+      "center": {
+        "lat": 43.5066435,
+        "lon": -116.3334603
+      },
+      "tags": {
+        "addr:city": "Kuna",
+        "addr:housenumber": "10548",
+        "addr:postcode": "83634",
+        "addr:state": "ID",
+        "addr:street": "South Cloverdale Road",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.5066435,
+      "lon": -116.3334603
+    },
+    {
+      "type": "way",
+      "id": 55950058,
+      "center": {
+        "lat": 46.5284829,
+        "lon": -116.3672977
+      },
+      "tags": {
+        "name": "Dworshak Substation",
+        "power": "substation",
+        "source": "yahoo_wms",
+        "substation": "transmission",
+        "voltage": "500000"
+      },
+      "lat": 46.5284829,
+      "lon": -116.3672977
+    },
+    {
+      "type": "way",
+      "id": 98830488,
+      "center": {
+        "lat": 46.4692299,
+        "lon": -116.910354
+      },
+      "tags": {
+        "name": "Hatwai Substation",
+        "power": "substation",
+        "source": "bing",
+        "substation": "transmission",
+        "voltage": "500000;230000"
+      },
+      "lat": 46.4692299,
+      "lon": -116.910354
+    },
+    {
+      "type": "way",
+      "id": 99451597,
+      "center": {
+        "lat": 47.7854233,
+        "lon": -116.9196107
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Lancaster",
+        "operator": "Bonneville Power Administration",
+        "operator:short": "BPA",
+        "operator:wikidata": "Q2910288",
+        "power": "substation",
+        "source": "bing",
+        "voltage": "230000"
+      },
+      "lat": 47.7854233,
+      "lon": -116.9196107
+    },
+    {
+      "type": "way",
+      "id": 102794987,
+      "center": {
+        "lat": 43.1750892,
+        "lon": -115.6247961
+      },
+      "tags": {
+        "name": "Mountain Home",
+        "power": "substation",
+        "source": "usgs",
+        "substation": "transmission",
+        "voltage": "138000;115000"
+      },
+      "lat": 43.1750892,
+      "lon": -115.6247961
+    },
+    {
+      "type": "way",
+      "id": 102891399,
+      "center": {
+        "lat": 42.7682504,
+        "lon": -112.9145226
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "source": "bing",
+        "substation": "industrial",
+        "voltage": "138000"
+      },
+      "lat": 42.7682504,
+      "lon": -112.9145226
+    },
+    {
+      "type": "way",
+      "id": 102891417,
+      "center": {
+        "lat": 42.7500071,
+        "lon": -112.9303433
+      },
+      "tags": {
+        "barrier": "wall",
+        "name": "Borah Substation",
+        "operator": "Idaho Power",
+        "operator:wikidata": "Q3147780",
+        "power": "substation",
+        "source": "bing",
+        "substation": "transmission",
+        "voltage": "345000;230000"
+      },
+      "lat": 42.7500071,
+      "lon": -112.9303433
+    },
+    {
+      "type": "way",
+      "id": 102968066,
+      "center": {
+        "lat": 42.7105346,
+        "lon": -111.5963223
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Three Mile Knoll Substation",
+        "power": "substation",
+        "source": "bing",
+        "substation": "transmission",
+        "voltage": "345000;138000"
+      },
+      "lat": 42.7105346,
+      "lon": -111.5963223
+    },
+    {
+      "type": "way",
+      "id": 102996330,
+      "center": {
+        "lat": 42.4246194,
+        "lon": -112.1554096
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Populus Substation",
+        "operator": "Idaho Power",
+        "operator:wikidata": "Q3147780",
+        "power": "substation",
+        "source": "bing",
+        "voltage": "345000"
+      },
+      "lat": 42.4246194,
+      "lon": -112.1554096
+    },
+    {
+      "type": "way",
+      "id": 103077409,
+      "center": {
+        "lat": 42.7730443,
+        "lon": -112.8702606
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Brady Substation",
+        "operator": "Idaho Power",
+        "operator:wikidata": "Q3147780",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "230000;138000"
+      },
+      "lat": 42.7730443,
+      "lon": -112.8702606
+    },
+    {
+      "type": "way",
+      "id": 103077418,
+      "center": {
+        "lat": 42.7753422,
+        "lon": -112.8732675
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "138000"
+      },
+      "lat": 42.7753422,
+      "lon": -112.8732675
+    },
+    {
+      "type": "way",
+      "id": 103236961,
+      "center": {
+        "lat": 42.8926903,
+        "lon": -112.5587431
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Kinport Substation",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "345000;230000"
+      },
+      "lat": 42.8926903,
+      "lon": -112.5587431
+    },
+    {
+      "type": "way",
+      "id": 103393516,
+      "center": {
+        "lat": 43.3504547,
+        "lon": -116.6630069
+      },
+      "tags": {
+        "addr:city": "Melba",
+        "addr:housenumber": "10565",
+        "addr:postcode": "83641",
+        "addr:state": "ID",
+        "addr:street": "Wilson Cemetery Road",
+        "barrier": "fence",
+        "name": "Hemingway Substation",
+        "operator": "Idaho Power",
+        "operator:wikidata": "Q3147780",
+        "power": "substation",
+        "source": "usgs",
+        "substation": "transmission",
+        "voltage": "500000;230000"
+      },
+      "lat": 43.3504547,
+      "lon": -116.6630069
+    },
+    {
+      "type": "way",
+      "id": 103403739,
+      "center": {
+        "lat": 42.6703771,
+        "lon": -113.4818561
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "138000"
+      },
+      "lat": 42.6703771,
+      "lon": -113.4818561
+    },
+    {
+      "type": "way",
+      "id": 103403760,
+      "center": {
+        "lat": 42.7055393,
+        "lon": -113.668707
+      },
+      "tags": {
+        "name": "Adelaide Substation",
+        "operator": "Idaho Power",
+        "operator:wikidata": "Q3147780",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "345000;138000"
+      },
+      "lat": 42.7055393,
+      "lon": -113.668707
+    },
+    {
+      "type": "way",
+      "id": 103505877,
+      "center": {
+        "lat": 42.2225717,
+        "lon": -111.8498298
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Treasureton Substation",
+        "operator": "PacifiCorp",
+        "operator:wikidata": "Q2045479",
+        "power": "substation",
+        "voltage": "230000;138000"
+      },
+      "lat": 42.2225717,
+      "lon": -111.8498298
+    },
+    {
+      "type": "way",
+      "id": 103594039,
+      "center": {
+        "lat": 42.8579832,
+        "lon": -112.4704366
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.8579832,
+      "lon": -112.4704366
+    },
+    {
+      "type": "way",
+      "id": 103594041,
+      "center": {
+        "lat": 42.848691,
+        "lon": -112.672923
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.848691,
+      "lon": -112.672923
+    },
+    {
+      "type": "way",
+      "id": 103601145,
+      "center": {
+        "lat": 42.9048131,
+        "lon": -112.5393226
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "138000"
+      },
+      "lat": 42.9048131,
+      "lon": -112.5393226
+    },
+    {
+      "type": "way",
+      "id": 105569303,
+      "center": {
+        "lat": 42.1089077,
+        "lon": -111.2631442
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.1089077,
+      "lon": -111.2631442
+    },
+    {
+      "type": "way",
+      "id": 135241079,
+      "center": {
+        "lat": 43.5123531,
+        "lon": -111.9645914
+      },
+      "tags": {
+        "name": "Sand Creek Substation",
+        "power": "substation"
+      },
+      "lat": 43.5123531,
+      "lon": -111.9645914
+    },
+    {
+      "type": "way",
+      "id": 140432168,
+      "center": {
+        "lat": 47.783095,
+        "lon": -116.787829
+      },
+      "tags": {
+        "operator": "Avista",
+        "operator:wikidata": "Q4828988",
+        "power": "substation",
+        "source": "Bing"
+      },
+      "lat": 47.783095,
+      "lon": -116.787829
+    },
+    {
+      "type": "way",
+      "id": 149769687,
+      "center": {
+        "lat": 47.5245551,
+        "lon": -116.0490873
+      },
+      "tags": {
+        "barrier": "fence",
+        "location": "outdoor",
+        "power": "substation",
+        "source": "Bing",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 47.5245551,
+      "lon": -116.0490873
+    },
+    {
+      "type": "way",
+      "id": 151524407,
+      "center": {
+        "lat": 48.329754,
+        "lon": -116.4001765
+      },
+      "tags": {
+        "power": "substation",
+        "source": "Bing",
+        "voltage": "115000"
+      },
+      "lat": 48.329754,
+      "lon": -116.4001765
+    },
+    {
+      "type": "way",
+      "id": 152214493,
+      "center": {
+        "lat": 47.7121408,
+        "lon": -116.8065659
+      },
+      "tags": {
+        "operator": "Avista",
+        "operator:wikidata": "Q4828988",
+        "power": "substation",
+        "source": "Bing",
+        "substation": "yes",
+        "voltage": "115000"
+      },
+      "lat": 47.7121408,
+      "lon": -116.8065659
+    },
+    {
+      "type": "way",
+      "id": 152220611,
+      "center": {
+        "lat": 47.6910103,
+        "lon": -116.7656458
+      },
+      "tags": {
+        "operator": "Avista",
+        "operator:wikidata": "Q4828988",
+        "power": "substation",
+        "source": "Bing",
+        "voltage": "115000"
+      },
+      "lat": 47.6910103,
+      "lon": -116.7656458
+    },
+    {
+      "type": "way",
+      "id": 156277897,
+      "center": {
+        "lat": 48.273336,
+        "lon": -116.574934
+      },
+      "tags": {
+        "name": "Sandpoint",
+        "operator": "Avista",
+        "operator:wikidata": "Q4828988",
+        "power": "substation",
+        "voltage": "115000"
+      },
+      "lat": 48.273336,
+      "lon": -116.574934
+    },
+    {
+      "type": "way",
+      "id": 159767893,
+      "center": {
+        "lat": 43.4610523,
+        "lon": -111.9885441
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Washington Substation",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "161000"
+      },
+      "lat": 43.4610523,
+      "lon": -111.9885441
+    },
+    {
+      "type": "way",
+      "id": 160184279,
+      "center": {
+        "lat": 43.6476214,
+        "lon": -116.3725993
+      },
+      "tags": {
+        "addr:city": "Meridian",
+        "addr:housenumber": "4750",
+        "addr:postcode": "83646",
+        "addr:state": "ID",
+        "addr:street": "North Locust Grove Road",
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "230000;138000"
+      },
+      "lat": 43.6476214,
+      "lon": -116.3725993
+    },
+    {
+      "type": "way",
+      "id": 160643685,
+      "center": {
+        "lat": 42.8420738,
+        "lon": -114.9018697
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "source": "bing",
+        "voltage": "138000"
+      },
+      "lat": 42.8420738,
+      "lon": -114.9018697
+    },
+    {
+      "type": "way",
+      "id": 160643691,
+      "center": {
+        "lat": 42.8783421,
+        "lon": -115.0164341
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "source": "bing",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.8783421,
+      "lon": -115.0164341
+    },
+    {
+      "type": "way",
+      "id": 160643693,
+      "center": {
+        "lat": 42.8404306,
+        "lon": -114.9007596
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "source": "bing",
+        "substation": "transmission",
+        "voltage": "138000"
+      },
+      "lat": 42.8404306,
+      "lon": -114.9007596
+    },
+    {
+      "type": "way",
+      "id": 162934427,
+      "center": {
+        "lat": 42.6326817,
+        "lon": -114.2325267
+      },
+      "tags": {
+        "name": "Hunt Substation",
+        "operator": "Idaho Power",
+        "operator:wikidata": "Q3147780",
+        "power": "substation",
+        "source": "bing",
+        "substation": "transmission",
+        "voltage": "230000;138000"
+      },
+      "lat": 42.6326817,
+      "lon": -114.2325267
+    },
+    {
+      "type": "way",
+      "id": 167144323,
+      "center": {
+        "lat": 43.4384762,
+        "lon": -116.5349073
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Bowmont Substation",
+        "operator": "Idaho Power",
+        "operator:wikidata": "Q3147780",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "230000;138000"
+      },
+      "lat": 43.4384762,
+      "lon": -116.5349073
+    },
+    {
+      "type": "way",
+      "id": 167241712,
+      "center": {
+        "lat": 43.5592122,
+        "lon": -116.1548183
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "compensation",
+        "voltage": "230000"
+      },
+      "lat": 43.5592122,
+      "lon": -116.1548183
+    },
+    {
+      "type": "way",
+      "id": 167284671,
+      "center": {
+        "lat": 43.1773242,
+        "lon": -115.6042655
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "230000"
+      },
+      "lat": 43.1773242,
+      "lon": -115.6042655
+    },
+    {
+      "type": "way",
+      "id": 167291893,
+      "center": {
+        "lat": 43.525536,
+        "lon": -116.1410107
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "industrial",
+        "voltage": "230000;138000"
+      },
+      "lat": 43.525536,
+      "lon": -116.1410107
+    },
+    {
+      "type": "way",
+      "id": 167378061,
+      "center": {
+        "lat": 43.5693917,
+        "lon": -116.1270164
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.5693917,
+      "lon": -116.1270164
+    },
+    {
+      "type": "way",
+      "id": 167378064,
+      "center": {
+        "lat": 44.5911797,
+        "lon": -116.7341339
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.5911797,
+      "lon": -116.7341339
+    },
+    {
+      "type": "way",
+      "id": 168663107,
+      "center": {
+        "lat": 43.5069244,
+        "lon": -116.3355475
+      },
+      "tags": {
+        "addr:city": "Kuna",
+        "addr:housenumber": "10555",
+        "addr:postcode": "83634",
+        "addr:state": "ID",
+        "addr:street": "South Cloverdale Road",
+        "barrier": "fence",
+        "name": "Mora Substation",
+        "operator": "Idaho Power",
+        "operator:wikidata": "Q3147780",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "230000"
+      },
+      "lat": 43.5069244,
+      "lon": -116.3355475
+    },
+    {
+      "type": "way",
+      "id": 169005308,
+      "center": {
+        "lat": 46.4306285,
+        "lon": -116.9759175
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 46.4306285,
+      "lon": -116.9759175
+    },
+    {
+      "type": "way",
+      "id": 169483375,
+      "center": {
+        "lat": 46.7223219,
+        "lon": -116.9373188
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Moscow Substation",
+        "operator": "Avista",
+        "operator:wikidata": "Q4828988",
+        "operator:wikipedia": "en:Avista",
+        "power": "substation",
+        "voltage": "230000;115000"
+      },
+      "lat": 46.7223219,
+      "lon": -116.9373188
+    },
+    {
+      "type": "way",
+      "id": 169486726,
+      "center": {
+        "lat": 46.3569007,
+        "lon": -116.9154286
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Lolo Substation",
+        "operator": "Avista",
+        "operator:wikidata": "Q4828988",
+        "power": "substation",
+        "voltage": "230000;115000"
+      },
+      "lat": 46.3569007,
+      "lon": -116.9154286
+    },
+    {
+      "type": "way",
+      "id": 169759068,
+      "center": {
+        "lat": 47.8040819,
+        "lon": -116.8705667
+      },
+      "tags": {
+        "name": "Rathdrum",
+        "operator": "Avista",
+        "operator:wikidata": "Q4828988",
+        "power": "substation",
+        "voltage": "230000;115000"
+      },
+      "lat": 47.8040819,
+      "lon": -116.8705667
+    },
+    {
+      "type": "way",
+      "id": 170229057,
+      "center": {
+        "lat": 43.5336674,
+        "lon": -112.9263885
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Antelope Substation",
+        "operator": "PacifiCorp",
+        "operator:wikidata": "Q2045479",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "230000;161000;138000"
+      },
+      "lat": 43.5336674,
+      "lon": -112.9263885
+    },
+    {
+      "type": "way",
+      "id": 170229059,
+      "center": {
+        "lat": 43.5374508,
+        "lon": -112.9367349
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Scoville Substation",
+        "power": "substation",
+        "source": "https://sturgeonelectric.com/projects/raghorn-transmission-line/",
+        "substation": "transmission",
+        "voltage": "138000"
+      },
+      "lat": 43.5374508,
+      "lon": -112.9367349
+    },
+    {
+      "type": "way",
+      "id": 170263869,
+      "center": {
+        "lat": 44.089985,
+        "lon": -112.6143702
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "230000"
+      },
+      "lat": 44.089985,
+      "lon": -112.6143702
+    },
+    {
+      "type": "way",
+      "id": 171849698,
+      "center": {
+        "lat": 43.6051978,
+        "lon": -116.4531662
+      },
+      "tags": {
+        "addr:city": "Meridian",
+        "addr:housenumber": "4770",
+        "addr:postcode": "83642",
+        "addr:state": "ID",
+        "addr:street": "West Franklin Road",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.6051978,
+      "lon": -116.4531662
+    },
+    {
+      "type": "way",
+      "id": 171849699,
+      "center": {
+        "lat": 43.6860954,
+        "lon": -116.6072297
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.6860954,
+      "lon": -116.6072297
+    },
+    {
+      "type": "way",
+      "id": 171849700,
+      "center": {
+        "lat": 43.6368789,
+        "lon": -116.4342769
+      },
+      "tags": {
+        "addr:city": "Meridian",
+        "addr:housenumber": "3539",
+        "addr:postcode": "83646",
+        "addr:state": "ID",
+        "addr:street": "North Ten Mile Road",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.6368789,
+      "lon": -116.4342769
+    },
+    {
+      "type": "way",
+      "id": 171849701,
+      "center": {
+        "lat": 43.7214506,
+        "lon": -116.6418437
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.7214506,
+      "lon": -116.6418437
+    },
+    {
+      "type": "way",
+      "id": 171849702,
+      "center": {
+        "lat": 43.6791205,
+        "lon": -116.6859691
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "230000;138000"
+      },
+      "lat": 43.6791205,
+      "lon": -116.6859691
+    },
+    {
+      "type": "way",
+      "id": 172232682,
+      "center": {
+        "lat": 42.941835,
+        "lon": -115.7463654
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.941835,
+      "lon": -115.7463654
+    },
+    {
+      "type": "way",
+      "id": 172232683,
+      "center": {
+        "lat": 42.9448989,
+        "lon": -115.9776129
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "generation",
+        "voltage": "138000"
+      },
+      "lat": 42.9448989,
+      "lon": -115.9776129
+    },
+    {
+      "type": "way",
+      "id": 172232684,
+      "center": {
+        "lat": 43.6061222,
+        "lon": -116.2991583
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.6061222,
+      "lon": -116.2991583
+    },
+    {
+      "type": "way",
+      "id": 172232686,
+      "center": {
+        "lat": 43.3678385,
+        "lon": -115.9587332
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.3678385,
+      "lon": -115.9587332
+    },
+    {
+      "type": "way",
+      "id": 172232688,
+      "center": {
+        "lat": 43.1776784,
+        "lon": -115.7164537
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000;115000"
+      },
+      "lat": 43.1776784,
+      "lon": -115.7164537
+    },
+    {
+      "type": "way",
+      "id": 172232689,
+      "center": {
+        "lat": 43.3570894,
+        "lon": -115.4523472
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.3570894,
+      "lon": -115.4523472
+    },
+    {
+      "type": "way",
+      "id": 172232693,
+      "center": {
+        "lat": 42.9435444,
+        "lon": -115.9818267
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "138000"
+      },
+      "lat": 42.9435444,
+      "lon": -115.9818267
+    },
+    {
+      "type": "way",
+      "id": 172232695,
+      "center": {
+        "lat": 42.9713424,
+        "lon": -115.383527
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "generation",
+        "voltage": "138000"
+      },
+      "lat": 42.9713424,
+      "lon": -115.383527
+    },
+    {
+      "type": "way",
+      "id": 172232696,
+      "center": {
+        "lat": 43.6030969,
+        "lon": -116.2556178
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.6030969,
+      "lon": -116.2556178
+    },
+    {
+      "type": "way",
+      "id": 172232699,
+      "center": {
+        "lat": 43.1514204,
+        "lon": -115.6544793
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "138000"
+      },
+      "lat": 43.1514204,
+      "lon": -115.6544793
+    },
+    {
+      "type": "way",
+      "id": 172232700,
+      "center": {
+        "lat": 43.4683602,
+        "lon": -116.0839147
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.4683602,
+      "lon": -116.0839147
+    },
+    {
+      "type": "way",
+      "id": 172232702,
+      "center": {
+        "lat": 42.8622842,
+        "lon": -114.8989895
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.8622842,
+      "lon": -114.8989895
+    },
+    {
+      "type": "way",
+      "id": 172232705,
+      "center": {
+        "lat": 43.14766,
+        "lon": -115.6659923
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "230000"
+      },
+      "lat": 43.14766,
+      "lon": -115.6659923
+    },
+    {
+      "type": "way",
+      "id": 172232707,
+      "center": {
+        "lat": 42.9446675,
+        "lon": -115.3811249
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "industrial",
+        "voltage": "138000"
+      },
+      "lat": 42.9446675,
+      "lon": -115.3811249
+    },
+    {
+      "type": "way",
+      "id": 172232712,
+      "center": {
+        "lat": 43.5859667,
+        "lon": -116.2048298
+      },
+      "tags": {
+        "addr:city": "Boise",
+        "addr:housenumber": "1903",
+        "addr:postcode": "83705",
+        "addr:state": "ID",
+        "addr:street": "West Spaulding Street",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.5859667,
+      "lon": -116.2048298
+    },
+    {
+      "type": "way",
+      "id": 172232722,
+      "center": {
+        "lat": 43.1268557,
+        "lon": -115.6906953
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.1268557,
+      "lon": -115.6906953
+    },
+    {
+      "type": "way",
+      "id": 172232725,
+      "center": {
+        "lat": 42.8653033,
+        "lon": -114.9060365
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.8653033,
+      "lon": -114.9060365
+    },
+    {
+      "type": "way",
+      "id": 172232728,
+      "center": {
+        "lat": 42.9083311,
+        "lon": -115.1812456
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.9083311,
+      "lon": -115.1812456
+    },
+    {
+      "type": "way",
+      "id": 172232729,
+      "center": {
+        "lat": 42.7660841,
+        "lon": -114.9089992
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "generation",
+        "voltage": "138000"
+      },
+      "lat": 42.7660841,
+      "lon": -114.9089992
+    },
+    {
+      "type": "way",
+      "id": 172232730,
+      "center": {
+        "lat": 43.0606494,
+        "lon": -115.4713097
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.0606494,
+      "lon": -115.4713097
+    },
+    {
+      "type": "way",
+      "id": 172232735,
+      "center": {
+        "lat": 42.7669739,
+        "lon": -114.924633
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "generation",
+        "voltage": "138000"
+      },
+      "lat": 42.7669739,
+      "lon": -114.924633
+    },
+    {
+      "type": "way",
+      "id": 172232742,
+      "center": {
+        "lat": 43.1784452,
+        "lon": -115.7337659
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "generation",
+        "voltage": "230000;138000"
+      },
+      "lat": 43.1784452,
+      "lon": -115.7337659
+    },
+    {
+      "type": "way",
+      "id": 172447921,
+      "center": {
+        "lat": 47.5395994,
+        "lon": -116.2302455
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Pine Creek Substation",
+        "operator": "Avista",
+        "operator:wikidata": "Q4828988",
+        "power": "substation",
+        "voltage": "230000;115000"
+      },
+      "lat": 47.5395994,
+      "lon": -116.2302455
+    },
+    {
+      "type": "way",
+      "id": 172459089,
+      "center": {
+        "lat": 48.0872811,
+        "lon": -116.0575051
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Cabinet Gorge Substation",
+        "power": "substation",
+        "substation": "generation",
+        "voltage": "230000"
+      },
+      "lat": 48.0872811,
+      "lon": -116.0575051
+    },
+    {
+      "type": "way",
+      "id": 172459098,
+      "center": {
+        "lat": 47.965577,
+        "lon": -116.4459287
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation"
+      },
+      "lat": 47.965577,
+      "lon": -116.4459287
+    },
+    {
+      "type": "way",
+      "id": 173871303,
+      "center": {
+        "lat": 42.6221208,
+        "lon": -114.9485227
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.6221208,
+      "lon": -114.9485227
+    },
+    {
+      "type": "way",
+      "id": 173871304,
+      "center": {
+        "lat": 42.0165377,
+        "lon": -114.6745137
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.0165377,
+      "lon": -114.6745137
+    },
+    {
+      "type": "way",
+      "id": 173871307,
+      "center": {
+        "lat": 42.5886989,
+        "lon": -114.3561939
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "generation",
+        "voltage": "138000"
+      },
+      "lat": 42.5886989,
+      "lon": -114.3561939
+    },
+    {
+      "type": "way",
+      "id": 173871308,
+      "center": {
+        "lat": 42.7400551,
+        "lon": -114.7761855
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.7400551,
+      "lon": -114.7761855
+    },
+    {
+      "type": "way",
+      "id": 174002068,
+      "center": {
+        "lat": 42.6911325,
+        "lon": -113.8720503
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.6911325,
+      "lon": -113.8720503
+    },
+    {
+      "type": "way",
+      "id": 174002072,
+      "center": {
+        "lat": 42.6292799,
+        "lon": -114.1743945
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "generation",
+        "voltage": "138000"
+      },
+      "lat": 42.6292799,
+      "lon": -114.1743945
+    },
+    {
+      "type": "way",
+      "id": 174002073,
+      "center": {
+        "lat": 42.5870379,
+        "lon": -114.0672842
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "generation",
+        "voltage": "138000"
+      },
+      "lat": 42.5870379,
+      "lon": -114.0672842
+    },
+    {
+      "type": "way",
+      "id": 174002081,
+      "center": {
+        "lat": 42.6120857,
+        "lon": -113.7522671
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "industrial",
+        "voltage": "138000"
+      },
+      "lat": 42.6120857,
+      "lon": -113.7522671
+    },
+    {
+      "type": "way",
+      "id": 174002086,
+      "center": {
+        "lat": 42.6045004,
+        "lon": -113.7516832
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.6045004,
+      "lon": -113.7516832
+    },
+    {
+      "type": "way",
+      "id": 174002091,
+      "center": {
+        "lat": 42.5194456,
+        "lon": -114.0139197
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "138000"
+      },
+      "lat": 42.5194456,
+      "lon": -114.0139197
+    },
+    {
+      "type": "way",
+      "id": 174019122,
+      "center": {
+        "lat": 42.1290272,
+        "lon": -113.3543307
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.1290272,
+      "lon": -113.3543307
+    },
+    {
+      "type": "way",
+      "id": 174019124,
+      "center": {
+        "lat": 42.2851645,
+        "lon": -113.3939315
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.2851645,
+      "lon": -113.3939315
+    },
+    {
+      "type": "way",
+      "id": 174019126,
+      "center": {
+        "lat": 42.5409536,
+        "lon": -113.5855598
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.5409536,
+      "lon": -113.5855598
+    },
+    {
+      "type": "way",
+      "id": 174019128,
+      "center": {
+        "lat": 42.4813233,
+        "lon": -113.6276195
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.4813233,
+      "lon": -113.6276195
+    },
+    {
+      "type": "way",
+      "id": 174019129,
+      "center": {
+        "lat": 42.1299018,
+        "lon": -113.3568144
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.1299018,
+      "lon": -113.3568144
+    },
+    {
+      "type": "way",
+      "id": 174245128,
+      "center": {
+        "lat": 43.9056561,
+        "lon": -116.8212192
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "generation",
+        "voltage": "230000;138000"
+      },
+      "lat": 43.9056561,
+      "lon": -116.8212192
+    },
+    {
+      "type": "way",
+      "id": 174338798,
+      "center": {
+        "lat": 44.2475155,
+        "lon": -116.9860623
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Weiser Substation",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 44.2475155,
+      "lon": -116.9860623
+    },
+    {
+      "type": "way",
+      "id": 176265441,
+      "center": {
+        "lat": 42.5360978,
+        "lon": -111.793797
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "generation",
+        "voltage": "161000;138000"
+      },
+      "lat": 42.5360978,
+      "lon": -111.793797
+    },
+    {
+      "type": "way",
+      "id": 176265443,
+      "center": {
+        "lat": 42.6874574,
+        "lon": -111.5901123
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "industrial",
+        "voltage": "138000"
+      },
+      "lat": 42.6874574,
+      "lon": -111.5901123
+    },
+    {
+      "type": "way",
+      "id": 176265446,
+      "center": {
+        "lat": 42.7328421,
+        "lon": -111.547827
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.7328421,
+      "lon": -111.547827
+    },
+    {
+      "type": "way",
+      "id": 176265447,
+      "center": {
+        "lat": 42.6418162,
+        "lon": -111.88786
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.6418162,
+      "lon": -111.88786
+    },
+    {
+      "type": "way",
+      "id": 176265448,
+      "center": {
+        "lat": 42.6448924,
+        "lon": -111.6969061
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "generation",
+        "voltage": "138000"
+      },
+      "lat": 42.6448924,
+      "lon": -111.6969061
+    },
+    {
+      "type": "way",
+      "id": 176265449,
+      "center": {
+        "lat": 42.8232171,
+        "lon": -111.9105268
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.8232171,
+      "lon": -111.9105268
+    },
+    {
+      "type": "way",
+      "id": 176408743,
+      "center": {
+        "lat": 43.4555522,
+        "lon": -111.3686601
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "115000"
+      },
+      "lat": 43.4555522,
+      "lon": -111.3686601
+    },
+    {
+      "type": "way",
+      "id": 176408757,
+      "center": {
+        "lat": 43.3757736,
+        "lon": -111.8489692
+      },
+      "tags": {
+        "barrier": "fence",
+        "location": "outdoor",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "161000"
+      },
+      "lat": 43.3757736,
+      "lon": -111.8489692
+    },
+    {
+      "type": "way",
+      "id": 176408761,
+      "center": {
+        "lat": 43.6415264,
+        "lon": -111.7602513
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.6415264,
+      "lon": -111.7602513
+    },
+    {
+      "type": "way",
+      "id": 176408764,
+      "center": {
+        "lat": 43.6836863,
+        "lon": -111.9126474
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "161000"
+      },
+      "lat": 43.6836863,
+      "lon": -111.9126474
+    },
+    {
+      "type": "way",
+      "id": 176408765,
+      "center": {
+        "lat": 43.3355252,
+        "lon": -111.203341
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "115000"
+      },
+      "lat": 43.3355252,
+      "lon": -111.203341
+    },
+    {
+      "type": "way",
+      "id": 176411934,
+      "center": {
+        "lat": 42.2668745,
+        "lon": -111.7494849
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "generation",
+        "voltage": "138000"
+      },
+      "lat": 42.2668745,
+      "lon": -111.7494849
+    },
+    {
+      "type": "way",
+      "id": 177015962,
+      "center": {
+        "lat": 42.3084133,
+        "lon": -111.3599061
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.3084133,
+      "lon": -111.3599061
+    },
+    {
+      "type": "way",
+      "id": 177018614,
+      "center": {
+        "lat": 42.0886738,
+        "lon": -111.8215774
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.0886738,
+      "lon": -111.8215774
+    },
+    {
+      "type": "way",
+      "id": 177018615,
+      "center": {
+        "lat": 42.1837841,
+        "lon": -111.8283849
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.1837841,
+      "lon": -111.8283849
+    },
+    {
+      "type": "way",
+      "id": 177038567,
+      "center": {
+        "lat": 43.7147652,
+        "lon": -112.220793
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Jefferson Substation",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "161000"
+      },
+      "lat": 43.7147652,
+      "lon": -112.220793
+    },
+    {
+      "type": "way",
+      "id": 177038568,
+      "center": {
+        "lat": 43.5549197,
+        "lon": -112.2204148
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "161000"
+      },
+      "lat": 43.5549197,
+      "lon": -112.2204148
+    },
+    {
+      "type": "way",
+      "id": 177038570,
+      "center": {
+        "lat": 43.467975,
+        "lon": -112.1622116
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "161000"
+      },
+      "lat": 43.467975,
+      "lon": -112.1622116
+    },
+    {
+      "type": "way",
+      "id": 177038571,
+      "center": {
+        "lat": 44.0011176,
+        "lon": -112.1703316
+      },
+      "tags": {
+        "name": "Big Grassy Substation",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "161000"
+      },
+      "lat": 44.0011176,
+      "lon": -112.1703316
+    },
+    {
+      "type": "way",
+      "id": 177038572,
+      "center": {
+        "lat": 43.4390931,
+        "lon": -112.1617868
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "161000"
+      },
+      "lat": 43.4390931,
+      "lon": -112.1617868
+    },
+    {
+      "type": "way",
+      "id": 182487470,
+      "center": {
+        "lat": 44.4449128,
+        "lon": -114.1330779
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "230000"
+      },
+      "lat": 44.4449128,
+      "lon": -114.1330779
+    },
+    {
+      "type": "way",
+      "id": 182487477,
+      "center": {
+        "lat": 44.2951353,
+        "lon": -114.028496
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "230000"
+      },
+      "lat": 44.2951353,
+      "lon": -114.028496
+    },
+    {
+      "type": "way",
+      "id": 182487479,
+      "center": {
+        "lat": 44.2845574,
+        "lon": -114.4708566
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "230000"
+      },
+      "lat": 44.2845574,
+      "lon": -114.4708566
+    },
+    {
+      "type": "way",
+      "id": 182487484,
+      "center": {
+        "lat": 43.782967,
+        "lon": -113.3362681
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "230000"
+      },
+      "lat": 43.782967,
+      "lon": -113.3362681
+    },
+    {
+      "type": "way",
+      "id": 184160696,
+      "center": {
+        "lat": 48.2091151,
+        "lon": -116.5632222
+      },
+      "tags": {
+        "power": "substation",
+        "source": "Bing"
+      },
+      "lat": 48.2091151,
+      "lon": -116.5632222
+    },
+    {
+      "type": "way",
+      "id": 184166904,
+      "center": {
+        "lat": 48.3279616,
+        "lon": -116.5462759
+      },
+      "tags": {
+        "power": "substation",
+        "source": "Bing"
+      },
+      "lat": 48.3279616,
+      "lon": -116.5462759
+    },
+    {
+      "type": "way",
+      "id": 184166910,
+      "center": {
+        "lat": 48.3394725,
+        "lon": -116.5458624
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "115000"
+      },
+      "lat": 48.3394725,
+      "lon": -116.5458624
+    },
+    {
+      "type": "way",
+      "id": 184177957,
+      "center": {
+        "lat": 48.7346503,
+        "lon": -116.296042
+      },
+      "tags": {
+        "power": "substation",
+        "source": "Bing",
+        "voltage": "115000"
+      },
+      "lat": 48.7346503,
+      "lon": -116.296042
+    },
+    {
+      "type": "way",
+      "id": 211635390,
+      "center": {
+        "lat": 42.593013,
+        "lon": -114.5212072
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.593013,
+      "lon": -114.5212072
+    },
+    {
+      "type": "way",
+      "id": 219686201,
+      "center": {
+        "lat": 43.6975795,
+        "lon": -116.9124207
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.6975795,
+      "lon": -116.9124207
+    },
+    {
+      "type": "way",
+      "id": 220139506,
+      "center": {
+        "lat": 43.6185587,
+        "lon": -116.2195454
+      },
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "chain",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.6185587,
+      "lon": -116.2195454
+    },
+    {
+      "type": "way",
+      "id": 232842713,
+      "center": {
+        "lat": 43.6941288,
+        "lon": -116.4642099
+      },
+      "tags": {
+        "addr:city": "Star",
+        "addr:housenumber": "240",
+        "addr:postcode": "83669",
+        "addr:state": "ID",
+        "addr:street": "North Dawes Place",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.6941288,
+      "lon": -116.4642099
+    },
+    {
+      "type": "way",
+      "id": 232842714,
+      "center": {
+        "lat": 43.6948142,
+        "lon": -116.3498966
+      },
+      "tags": {
+        "addr:city": "Eagle",
+        "addr:housenumber": "313",
+        "addr:postcode": "83616",
+        "addr:state": "ID",
+        "addr:street": "East State Street",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.6948142,
+      "lon": -116.3498966
+    },
+    {
+      "type": "way",
+      "id": 234110798,
+      "center": {
+        "lat": 43.6683638,
+        "lon": -114.3277857
+      },
+      "tags": {
+        "power": "substation",
+        "source": "Bing",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.6683638,
+      "lon": -114.3277857
+    },
+    {
+      "type": "way",
+      "id": 234738027,
+      "center": {
+        "lat": 43.6852073,
+        "lon": -114.3584805
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.6852073,
+      "lon": -114.3584805
+    },
+    {
+      "type": "way",
+      "id": 234852455,
+      "center": {
+        "lat": 43.6111196,
+        "lon": -116.1972171
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.6111196,
+      "lon": -116.1972171
+    },
+    {
+      "type": "way",
+      "id": 238525012,
+      "center": {
+        "lat": 43.6388697,
+        "lon": -116.2304444
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.6388697,
+      "lon": -116.2304444
+    },
+    {
+      "type": "way",
+      "id": 243379117,
+      "center": {
+        "lat": 47.5283522,
+        "lon": -115.7880914
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "100000"
+      },
+      "lat": 47.5283522,
+      "lon": -115.7880914
+    },
+    {
+      "type": "way",
+      "id": 245297205,
+      "center": {
+        "lat": 43.2054661,
+        "lon": -116.3950137
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "138000"
+      },
+      "lat": 43.2054661,
+      "lon": -116.3950137
+    },
+    {
+      "type": "way",
+      "id": 246435453,
+      "center": {
+        "lat": 44.5641115,
+        "lon": -116.6558526
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.5641115,
+      "lon": -116.6558526
+    },
+    {
+      "type": "way",
+      "id": 254847578,
+      "center": {
+        "lat": 44.9127131,
+        "lon": -116.1248381
+      },
+      "tags": {
+        "name": "McCall",
+        "power": "substation",
+        "substation": "minor_distribution",
+        "voltage": "138000"
+      },
+      "lat": 44.9127131,
+      "lon": -116.1248381
+    },
+    {
+      "type": "way",
+      "id": 255391844,
+      "center": {
+        "lat": 46.7239379,
+        "lon": -116.99656
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "115000"
+      },
+      "lat": 46.7239379,
+      "lon": -116.99656
+    },
+    {
+      "type": "way",
+      "id": 271378518,
+      "center": {
+        "lat": 43.5587311,
+        "lon": -116.5566155
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.5587311,
+      "lon": -116.5566155
+    },
+    {
+      "type": "way",
+      "id": 276793431,
+      "center": {
+        "lat": 47.7095911,
+        "lon": -116.9605968
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 47.7095911,
+      "lon": -116.9605968
+    },
+    {
+      "type": "way",
+      "id": 284764239,
+      "center": {
+        "lat": 42.5714979,
+        "lon": -114.5950723
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.5714979,
+      "lon": -114.5950723
+    },
+    {
+      "type": "way",
+      "id": 284764724,
+      "center": {
+        "lat": 42.6007319,
+        "lon": -114.756929
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.6007319,
+      "lon": -114.756929
+    },
+    {
+      "type": "way",
+      "id": 303797850,
+      "center": {
+        "lat": 48.1794169,
+        "lon": -116.9134233
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 48.1794169,
+      "lon": -116.9134233
+    },
+    {
+      "type": "way",
+      "id": 304084412,
+      "center": {
+        "lat": 47.7561581,
+        "lon": -116.8490982
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Hayden Substation",
+        "operator": "Kootenai Electric Cooperative",
+        "power": "substation",
+        "source": "Bing",
+        "voltage": "115000"
+      },
+      "lat": 47.7561581,
+      "lon": -116.8490982
+    },
+    {
+      "type": "way",
+      "id": 305658305,
+      "center": {
+        "lat": 42.6954803,
+        "lon": -114.4817323
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.6954803,
+      "lon": -114.4817323
+    },
+    {
+      "type": "way",
+      "id": 306766162,
+      "center": {
+        "lat": 47.5221516,
+        "lon": -115.8143707
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "115000"
+      },
+      "lat": 47.5221516,
+      "lon": -115.8143707
+    },
+    {
+      "type": "way",
+      "id": 306777440,
+      "center": {
+        "lat": 47.5377246,
+        "lon": -116.1357717
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 47.5377246,
+      "lon": -116.1357717
+    },
+    {
+      "type": "way",
+      "id": 306782613,
+      "center": {
+        "lat": 47.4960073,
+        "lon": -115.9812709
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "115000"
+      },
+      "lat": 47.4960073,
+      "lon": -115.9812709
+    },
+    {
+      "type": "way",
+      "id": 307081281,
+      "center": {
+        "lat": 47.4714775,
+        "lon": -115.7854978
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "115000"
+      },
+      "lat": 47.4714775,
+      "lon": -115.7854978
+    },
+    {
+      "type": "way",
+      "id": 307647843,
+      "center": {
+        "lat": 47.487983,
+        "lon": -115.8983171
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "115000"
+      },
+      "lat": 47.487983,
+      "lon": -115.8983171
+    },
+    {
+      "type": "way",
+      "id": 309666020,
+      "center": {
+        "lat": 43.4865531,
+        "lon": -116.415596
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.4865531,
+      "lon": -116.415596
+    },
+    {
+      "type": "way",
+      "id": 310012809,
+      "center": {
+        "lat": 43.9180154,
+        "lon": -116.1962711
+      },
+      "tags": {
+        "name": "Horseshoe Bend Substation",
+        "power": "substation",
+        "substation": "distribution"
+      },
+      "lat": 43.9180154,
+      "lon": -116.1962711
+    },
+    {
+      "type": "way",
+      "id": 310181258,
+      "center": {
+        "lat": 43.9715953,
+        "lon": -116.8121326
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.9715953,
+      "lon": -116.8121326
+    },
+    {
+      "type": "way",
+      "id": 311063789,
+      "center": {
+        "lat": 43.6351308,
+        "lon": -113.2953266
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.6351308,
+      "lon": -113.2953266
+    },
+    {
+      "type": "way",
+      "id": 315998604,
+      "center": {
+        "lat": 44.7285026,
+        "lon": -116.433119
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.7285026,
+      "lon": -116.433119
+    },
+    {
+      "type": "way",
+      "id": 320327048,
+      "center": {
+        "lat": 46.0637586,
+        "lon": -116.3527402
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "115000"
+      },
+      "lat": 46.0637586,
+      "lon": -116.3527402
+    },
+    {
+      "type": "way",
+      "id": 321578479,
+      "center": {
+        "lat": 43.5450367,
+        "lon": -112.8689688
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "138000"
+      },
+      "lat": 43.5450367,
+      "lon": -112.8689688
+    },
+    {
+      "type": "way",
+      "id": 333374736,
+      "center": {
+        "lat": 47.7456854,
+        "lon": -116.936594
+      },
+      "tags": {
+        "operator": "Avista",
+        "operator:wikidata": "Q4828988",
+        "power": "substation",
+        "voltage": "115000"
+      },
+      "lat": 47.7456854,
+      "lon": -116.936594
+    },
+    {
+      "type": "way",
+      "id": 333374747,
+      "center": {
+        "lat": 47.7042065,
+        "lon": -116.7958545
+      },
+      "tags": {
+        "name": "Appleway Substation",
+        "operator": "Avista",
+        "operator:wikidata": "Q4828988",
+        "power": "substation",
+        "voltage": "115000"
+      },
+      "lat": 47.7042065,
+      "lon": -116.7958545
+    },
+    {
+      "type": "way",
+      "id": 339697778,
+      "center": {
+        "lat": 43.6056323,
+        "lon": -116.335369
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "source": "Bing",
+        "substation": "transmission",
+        "voltage": "230000;138000"
+      },
+      "lat": 43.6056323,
+      "lon": -116.335369
+    },
+    {
+      "type": "way",
+      "id": 347953732,
+      "center": {
+        "lat": 47.7439961,
+        "lon": -116.7854076
+      },
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "wire",
+        "name": "Dalton Gardens Substation",
+        "operator": "Avista",
+        "operator:wikidata": "Q4828988",
+        "power": "substation",
+        "source": "Bing",
+        "voltage": "115000"
+      },
+      "lat": 47.7439961,
+      "lon": -116.7854076
+    },
+    {
+      "type": "way",
+      "id": 353737523,
+      "center": {
+        "lat": 43.5232879,
+        "lon": -111.8041648
+      },
+      "tags": {
+        "barrier": "fence",
+        "location": "outdoor",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "161000"
+      },
+      "lat": 43.5232879,
+      "lon": -111.8041648
+    },
+    {
+      "type": "way",
+      "id": 353737524,
+      "center": {
+        "lat": 43.4654537,
+        "lon": -111.8352204
+      },
+      "tags": {
+        "barrier": "fence",
+        "location": "outdoor",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "161000"
+      },
+      "lat": 43.4654537,
+      "lon": -111.8352204
+    },
+    {
+      "type": "way",
+      "id": 359889255,
+      "center": {
+        "lat": 47.4005612,
+        "lon": -116.6683814
+      },
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "wire",
+        "power": "substation",
+        "source": "Bing"
+      },
+      "lat": 47.4005612,
+      "lon": -116.6683814
+    },
+    {
+      "type": "way",
+      "id": 361455372,
+      "center": {
+        "lat": 43.0531479,
+        "lon": -114.1361282
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.0531479,
+      "lon": -114.1361282
+    },
+    {
+      "type": "way",
+      "id": 364379076,
+      "center": {
+        "lat": 42.6536179,
+        "lon": -112.1882453
+      },
+      "tags": {
+        "power": "substation",
+        "source": "bing"
+      },
+      "lat": 42.6536179,
+      "lon": -112.1882453
+    },
+    {
+      "type": "way",
+      "id": 364836752,
+      "center": {
+        "lat": 48.356466,
+        "lon": -116.5340154
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "115000"
+      },
+      "lat": 48.356466,
+      "lon": -116.5340154
+    },
+    {
+      "type": "way",
+      "id": 365315852,
+      "center": {
+        "lat": 42.8976451,
+        "lon": -112.4970383
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "source": "bing",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.8976451,
+      "lon": -112.4970383
+    },
+    {
+      "type": "way",
+      "id": 365315861,
+      "center": {
+        "lat": 42.8783008,
+        "lon": -112.4502143
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "source": "bing",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.8783008,
+      "lon": -112.4502143
+    },
+    {
+      "type": "way",
+      "id": 370760141,
+      "center": {
+        "lat": 43.7210232,
+        "lon": -111.9839639
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.7210232,
+      "lon": -111.9839639
+    },
+    {
+      "type": "way",
+      "id": 375417182,
+      "center": {
+        "lat": 43.4866229,
+        "lon": -112.0487083
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.4866229,
+      "lon": -112.0487083
+    },
+    {
+      "type": "way",
+      "id": 375417183,
+      "center": {
+        "lat": 43.4687592,
+        "lon": -112.0607508
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.4687592,
+      "lon": -112.0607508
+    },
+    {
+      "type": "way",
+      "id": 380185726,
+      "center": {
+        "lat": 44.7735353,
+        "lon": -116.0892451
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.7735353,
+      "lon": -116.0892451
+    },
+    {
+      "type": "way",
+      "id": 382536381,
+      "center": {
+        "lat": 47.3375477,
+        "lon": -116.8889274
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 47.3375477,
+      "lon": -116.8889274
+    },
+    {
+      "type": "way",
+      "id": 397425672,
+      "center": {
+        "lat": 43.9558812,
+        "lon": -111.6165557
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.9558812,
+      "lon": -111.6165557
+    },
+    {
+      "type": "way",
+      "id": 397432106,
+      "center": {
+        "lat": 43.9647159,
+        "lon": -111.685865
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.9647159,
+      "lon": -111.685865
+    },
+    {
+      "type": "way",
+      "id": 429074466,
+      "center": {
+        "lat": 42.5711214,
+        "lon": -114.4708965
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "source": "Bing",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.5711214,
+      "lon": -114.4708965
+    },
+    {
+      "type": "way",
+      "id": 444503005,
+      "center": {
+        "lat": 42.0906157,
+        "lon": -111.8663204
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.0906157,
+      "lon": -111.8663204
+    },
+    {
+      "type": "way",
+      "id": 446742530,
+      "center": {
+        "lat": 43.0524507,
+        "lon": -115.8667404
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.0524507,
+      "lon": -115.8667404
+    },
+    {
+      "type": "way",
+      "id": 470762817,
+      "center": {
+        "lat": 46.4906469,
+        "lon": -116.2495278
+      },
+      "tags": {
+        "power": "substation",
+        "source": "bing",
+        "voltage": "115000"
+      },
+      "lat": 46.4906469,
+      "lon": -116.2495278
+    },
+    {
+      "type": "way",
+      "id": 494563857,
+      "center": {
+        "lat": 43.6158342,
+        "lon": -116.6126876
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.6158342,
+      "lon": -116.6126876
+    },
+    {
+      "type": "way",
+      "id": 494563861,
+      "center": {
+        "lat": 43.6098858,
+        "lon": -116.6037754
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.6098858,
+      "lon": -116.6037754
+    },
+    {
+      "type": "way",
+      "id": 495243333,
+      "center": {
+        "lat": 43.5591153,
+        "lon": -116.1584897
+      },
+      "tags": {
+        "name": "Boise Bench Substation",
+        "operator": "Idaho Power",
+        "operator:wikidata": "Q3147780",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "230000;138000"
+      },
+      "lat": 43.5591153,
+      "lon": -116.1584897
+    },
+    {
+      "type": "way",
+      "id": 495247330,
+      "center": {
+        "lat": 42.5197482,
+        "lon": -113.8154879
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.5197482,
+      "lon": -113.8154879
+    },
+    {
+      "type": "way",
+      "id": 499415048,
+      "center": {
+        "lat": 43.6193331,
+        "lon": -116.6923878
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.6193331,
+      "lon": -116.6923878
+    },
+    {
+      "type": "way",
+      "id": 503267782,
+      "center": {
+        "lat": 42.5364798,
+        "lon": -113.7829607
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.5364798,
+      "lon": -113.7829607
+    },
+    {
+      "type": "way",
+      "id": 525420728,
+      "center": {
+        "lat": 47.6411693,
+        "lon": -116.6791224
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 47.6411693,
+      "lon": -116.6791224
+    },
+    {
+      "type": "way",
+      "id": 530677131,
+      "center": {
+        "lat": 43.5869769,
+        "lon": -116.4053354
+      },
+      "tags": {
+        "addr:city": "Meridian",
+        "addr:housenumber": "1635",
+        "addr:postcode": "83642",
+        "addr:state": "ID",
+        "addr:street": "South Stoddard Road",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.5869769,
+      "lon": -116.4053354
+    },
+    {
+      "type": "way",
+      "id": 534169350,
+      "center": {
+        "lat": 44.4791246,
+        "lon": -114.2112293
+      },
+      "tags": {
+        "location": "outdoor",
+        "power": "substation"
+      },
+      "lat": 44.4791246,
+      "lon": -114.2112293
+    },
+    {
+      "type": "way",
+      "id": 541000473,
+      "center": {
+        "lat": 43.5275123,
+        "lon": -116.1446393
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "source": "HigRes Aerial Images",
+        "substation": "industrial",
+        "voltage": "138000"
+      },
+      "lat": 43.5275123,
+      "lon": -116.1446393
+    },
+    {
+      "type": "way",
+      "id": 564945376,
+      "center": {
+        "lat": 42.5975244,
+        "lon": -114.4033825
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "generation",
+        "voltage": "138000"
+      },
+      "lat": 42.5975244,
+      "lon": -114.4033825
+    },
+    {
+      "type": "way",
+      "id": 584965857,
+      "center": {
+        "lat": 42.9352924,
+        "lon": -112.4895674
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.9352924,
+      "lon": -112.4895674
+    },
+    {
+      "type": "way",
+      "id": 591053340,
+      "center": {
+        "lat": 42.86779,
+        "lon": -112.420303
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.86779,
+      "lon": -112.420303
+    },
+    {
+      "type": "way",
+      "id": 599098435,
+      "center": {
+        "lat": 43.8695766,
+        "lon": -111.7374732
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.8695766,
+      "lon": -111.7374732
+    },
+    {
+      "type": "way",
+      "id": 599101233,
+      "center": {
+        "lat": 43.8297005,
+        "lon": -111.7903852
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "161000"
+      },
+      "lat": 43.8297005,
+      "lon": -111.7903852
+    },
+    {
+      "type": "way",
+      "id": 606848795,
+      "center": {
+        "lat": 45.9375113,
+        "lon": -116.1423177
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "115000"
+      },
+      "lat": 45.9375113,
+      "lon": -116.1423177
+    },
+    {
+      "type": "way",
+      "id": 607379467,
+      "center": {
+        "lat": 45.9354175,
+        "lon": -116.1249133
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "115000"
+      },
+      "lat": 45.9354175,
+      "lon": -116.1249133
+    },
+    {
+      "type": "way",
+      "id": 607570585,
+      "center": {
+        "lat": 45.9356078,
+        "lon": -116.125743
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "115000"
+      },
+      "lat": 45.9356078,
+      "lon": -116.125743
+    },
+    {
+      "type": "way",
+      "id": 607816973,
+      "center": {
+        "lat": 45.9317342,
+        "lon": -116.102824
+      },
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "power": "substation",
+        "voltage": "115000"
+      },
+      "lat": 45.9317342,
+      "lon": -116.102824
+    },
+    {
+      "type": "way",
+      "id": 616890175,
+      "center": {
+        "lat": 44.4727052,
+        "lon": -116.7395338
+      },
+      "tags": {
+        "operator": "Idaho Power",
+        "operator:wikidata": "Q3147780",
+        "power": "substation",
+        "substation": "minor_distribution",
+        "voltage": "114,000"
+      },
+      "lat": 44.4727052,
+      "lon": -116.7395338
+    },
+    {
+      "type": "way",
+      "id": 617494375,
+      "center": {
+        "lat": 42.9196395,
+        "lon": -112.4397441
+      },
+      "tags": {
+        "operator": "Idaho Power",
+        "operator:wikidata": "Q3147780",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.9196395,
+      "lon": -112.4397441
+    },
+    {
+      "type": "way",
+      "id": 618116111,
+      "center": {
+        "lat": 43.7259417,
+        "lon": -116.2479335
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.7259417,
+      "lon": -116.2479335
+    },
+    {
+      "type": "way",
+      "id": 622548761,
+      "center": {
+        "lat": 47.7089181,
+        "lon": -117.0240174
+      },
+      "tags": {
+        "name": "Beck Road Substation",
+        "power": "substation"
+      },
+      "lat": 47.7089181,
+      "lon": -117.0240174
+    },
+    {
+      "type": "way",
+      "id": 633336492,
+      "center": {
+        "lat": 42.7147464,
+        "lon": -111.8728924
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "161000"
+      },
+      "lat": 42.7147464,
+      "lon": -111.8728924
+    },
+    {
+      "type": "way",
+      "id": 636272000,
+      "center": {
+        "lat": 44.4934566,
+        "lon": -111.3149183
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.4934566,
+      "lon": -111.3149183
+    },
+    {
+      "type": "way",
+      "id": 636272001,
+      "center": {
+        "lat": 44.4922847,
+        "lon": -111.3132057
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "115000"
+      },
+      "lat": 44.4922847,
+      "lon": -111.3132057
+    },
+    {
+      "type": "way",
+      "id": 636279839,
+      "center": {
+        "lat": 44.3801697,
+        "lon": -111.3883068
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.3801697,
+      "lon": -111.3883068
+    },
+    {
+      "type": "way",
+      "id": 636279840,
+      "center": {
+        "lat": 44.4384327,
+        "lon": -111.3624041
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.4384327,
+      "lon": -111.3624041
+    },
+    {
+      "type": "way",
+      "id": 640908498,
+      "center": {
+        "lat": 44.5911797,
+        "lon": -116.7341339
+      },
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "230000"
+      },
+      "lat": 44.5911797,
+      "lon": -116.7341339
+    },
+    {
+      "type": "way",
+      "id": 664230183,
+      "center": {
+        "lat": 42.9353467,
+        "lon": -112.5478102
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.9353467,
+      "lon": -112.5478102
+    },
+    {
+      "type": "way",
+      "id": 665324286,
+      "center": {
+        "lat": 47.7313723,
+        "lon": -117.0012169
+      },
+      "tags": {
+        "name": "Pleasant View Substation",
+        "operator": "Avista Corporation;Kootenai Electric Cooperative",
+        "power": "substation",
+        "substation": "yes",
+        "voltage": "115000"
+      },
+      "lat": 47.7313723,
+      "lon": -117.0012169
+    },
+    {
+      "type": "way",
+      "id": 673361775,
+      "center": {
+        "lat": 42.6970973,
+        "lon": -111.1339244
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation"
+      },
+      "lat": 42.6970973,
+      "lon": -111.1339244
+    },
+    {
+      "type": "way",
+      "id": 674982973,
+      "center": {
+        "lat": 43.6694957,
+        "lon": -116.2797198
+      },
+      "tags": {
+        "addr:city": "Boise",
+        "addr:housenumber": "5433",
+        "addr:postcode": "83714",
+        "addr:state": "ID",
+        "addr:street": "North Gary Lane",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.6694957,
+      "lon": -116.2797198
+    },
+    {
+      "type": "way",
+      "id": 687913581,
+      "center": {
+        "lat": 48.6743115,
+        "lon": -116.3028729
+      },
+      "tags": {
+        "name": "Bonners Ferry",
+        "operator": "Bonneville Power Administration",
+        "operator:short": "BPA",
+        "operator:wikidata": "Q2910288",
+        "power": "substation",
+        "source": "bing",
+        "voltage": "115000"
+      },
+      "lat": 48.6743115,
+      "lon": -116.3028729
+    },
+    {
+      "type": "way",
+      "id": 698375818,
+      "center": {
+        "lat": 44.6347817,
+        "lon": -111.3265862
+      },
+      "tags": {
+        "name": "Henry's Lake Substation",
+        "power": "substation"
+      },
+      "lat": 44.6347817,
+      "lon": -111.3265862
+    },
+    {
+      "type": "way",
+      "id": 708703828,
+      "center": {
+        "lat": 42.740564,
+        "lon": -111.5438113
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "industrial",
+        "voltage": "138000"
+      },
+      "lat": 42.740564,
+      "lon": -111.5438113
+    },
+    {
+      "type": "way",
+      "id": 725425499,
+      "center": {
+        "lat": 42.7590833,
+        "lon": -111.7767407
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.7590833,
+      "lon": -111.7767407
+    },
+    {
+      "type": "way",
+      "id": 728899889,
+      "center": {
+        "lat": 42.5530115,
+        "lon": -114.4848808
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "industrial",
+        "voltage": "138000"
+      },
+      "lat": 42.5530115,
+      "lon": -114.4848808
+    },
+    {
+      "type": "way",
+      "id": 728905736,
+      "center": {
+        "lat": 42.9458815,
+        "lon": -114.6303812
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "industrial",
+        "voltage": "138000"
+      },
+      "lat": 42.9458815,
+      "lon": -114.6303812
+    },
+    {
+      "type": "way",
+      "id": 731746721,
+      "center": {
+        "lat": 42.8205452,
+        "lon": -114.9324779
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation"
+      },
+      "lat": 42.8205452,
+      "lon": -114.9324779
+    },
+    {
+      "type": "way",
+      "id": 731746722,
+      "center": {
+        "lat": 42.8211111,
+        "lon": -114.9320589
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.8211111,
+      "lon": -114.9320589
+    },
+    {
+      "type": "way",
+      "id": 731746726,
+      "center": {
+        "lat": 42.8401162,
+        "lon": -114.8980528
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "230000;138000"
+      },
+      "lat": 42.8401162,
+      "lon": -114.8980528
+    },
+    {
+      "type": "way",
+      "id": 732180575,
+      "center": {
+        "lat": 42.100853,
+        "lon": -115.2729447
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "ref": "207293",
+        "substation": "transmission"
+      },
+      "lat": 42.100853,
+      "lon": -115.2729447
+    },
+    {
+      "type": "way",
+      "id": 732182501,
+      "center": {
+        "lat": 42.0126799,
+        "lon": -115.3439278
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "ref": "208402",
+        "substation": "transmission"
+      },
+      "lat": 42.0126799,
+      "lon": -115.3439278
+    },
+    {
+      "type": "way",
+      "id": 732183371,
+      "center": {
+        "lat": 42.2706907,
+        "lon": -115.1409991
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "ref": "207291",
+        "substation": "transmission"
+      },
+      "lat": 42.2706907,
+      "lon": -115.1409991
+    },
+    {
+      "type": "way",
+      "id": 733135351,
+      "center": {
+        "lat": 43.48451,
+        "lon": -112.0245732
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.48451,
+      "lon": -112.0245732
+    },
+    {
+      "type": "way",
+      "id": 734004475,
+      "center": {
+        "lat": 43.6484003,
+        "lon": -112.9189644
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "138000"
+      },
+      "lat": 43.6484003,
+      "lon": -112.9189644
+    },
+    {
+      "type": "way",
+      "id": 748894626,
+      "center": {
+        "lat": 42.5610677,
+        "lon": -113.7490404
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "138000"
+      },
+      "lat": 42.5610677,
+      "lon": -113.7490404
+    },
+    {
+      "type": "way",
+      "id": 753063423,
+      "center": {
+        "lat": 43.6633672,
+        "lon": -116.3374374
+      },
+      "tags": {
+        "addr:city": "Eagle",
+        "addr:housenumber": "12412",
+        "addr:postcode": "83616",
+        "addr:state": "ID",
+        "addr:street": "West Chinden Boulevard",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.6633672,
+      "lon": -116.3374374
+    },
+    {
+      "type": "way",
+      "id": 757486670,
+      "center": {
+        "lat": 43.5054418,
+        "lon": -112.0584037
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.5054418,
+      "lon": -112.0584037
+    },
+    {
+      "type": "way",
+      "id": 757486671,
+      "center": {
+        "lat": 43.4675726,
+        "lon": -112.0631627
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.4675726,
+      "lon": -112.0631627
+    },
+    {
+      "type": "way",
+      "id": 757486679,
+      "center": {
+        "lat": 43.5182998,
+        "lon": -112.0340923
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.5182998,
+      "lon": -112.0340923
+    },
+    {
+      "type": "way",
+      "id": 757486683,
+      "center": {
+        "lat": 43.5685965,
+        "lon": -112.9387974
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "138000"
+      },
+      "lat": 43.5685965,
+      "lon": -112.9387974
+    },
+    {
+      "type": "way",
+      "id": 757486685,
+      "center": {
+        "lat": 43.589009,
+        "lon": -112.9616196
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "138000"
+      },
+      "lat": 43.589009,
+      "lon": -112.9616196
+    },
+    {
+      "type": "way",
+      "id": 761439271,
+      "center": {
+        "lat": 48.7216275,
+        "lon": -116.199339
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "115000"
+      },
+      "lat": 48.7216275,
+      "lon": -116.199339
+    },
+    {
+      "type": "way",
+      "id": 765906093,
+      "center": {
+        "lat": 47.63641,
+        "lon": -116.8660804
+      },
+      "tags": {
+        "name": "Dower Substation",
+        "power": "substation",
+        "substation": "yes",
+        "voltage": "115000"
+      },
+      "lat": 47.63641,
+      "lon": -116.8660804
+    },
+    {
+      "type": "way",
+      "id": 776884193,
+      "center": {
+        "lat": 44.5230258,
+        "lon": -116.0461824
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.5230258,
+      "lon": -116.0461824
+    },
+    {
+      "type": "way",
+      "id": 776885424,
+      "center": {
+        "lat": 43.9554203,
+        "lon": -116.3540231
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.9554203,
+      "lon": -116.3540231
+    },
+    {
+      "type": "way",
+      "id": 776885425,
+      "center": {
+        "lat": 43.9044254,
+        "lon": -116.2444211
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.9044254,
+      "lon": -116.2444211
+    },
+    {
+      "type": "way",
+      "id": 778560565,
+      "center": {
+        "lat": 44.0750855,
+        "lon": -111.4361323
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation"
+      },
+      "lat": 44.0750855,
+      "lon": -111.4361323
+    },
+    {
+      "type": "way",
+      "id": 778560574,
+      "center": {
+        "lat": 44.0794728,
+        "lon": -111.4977668
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation"
+      },
+      "lat": 44.0794728,
+      "lon": -111.4977668
+    },
+    {
+      "type": "way",
+      "id": 778560575,
+      "center": {
+        "lat": 44.0788214,
+        "lon": -111.4981856
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation"
+      },
+      "lat": 44.0788214,
+      "lon": -111.4981856
+    },
+    {
+      "type": "way",
+      "id": 828766012,
+      "center": {
+        "lat": 43.2048554,
+        "lon": -112.3755136
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation"
+      },
+      "lat": 43.2048554,
+      "lon": -112.3755136
+    },
+    {
+      "type": "way",
+      "id": 829094590,
+      "center": {
+        "lat": 43.0244819,
+        "lon": -116.0158066
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "generation",
+        "voltage": "138000"
+      },
+      "lat": 43.0244819,
+      "lon": -116.0158066
+    },
+    {
+      "type": "way",
+      "id": 829888185,
+      "center": {
+        "lat": 43.444187,
+        "lon": -116.3331736
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.444187,
+      "lon": -116.3331736
+    },
+    {
+      "type": "way",
+      "id": 829894296,
+      "center": {
+        "lat": 43.1422792,
+        "lon": -115.7179005
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "voltage": "69000"
+      },
+      "lat": 43.1422792,
+      "lon": -115.7179005
+    },
+    {
+      "type": "way",
+      "id": 829895811,
+      "center": {
+        "lat": 42.8232744,
+        "lon": -112.7384817
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "generation",
+        "voltage": "138000"
+      },
+      "lat": 42.8232744,
+      "lon": -112.7384817
+    },
+    {
+      "type": "way",
+      "id": 830257900,
+      "center": {
+        "lat": 48.9051558,
+        "lon": -116.370669
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "115000"
+      },
+      "lat": 48.9051558,
+      "lon": -116.370669
+    },
+    {
+      "type": "way",
+      "id": 846723309,
+      "center": {
+        "lat": 42.5762048,
+        "lon": -111.7438216
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.5762048,
+      "lon": -111.7438216
+    },
+    {
+      "type": "way",
+      "id": 879490252,
+      "center": {
+        "lat": 43.6661584,
+        "lon": -116.7328517
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.6661584,
+      "lon": -116.7328517
+    },
+    {
+      "type": "way",
+      "id": 882468029,
+      "center": {
+        "lat": 43.6666088,
+        "lon": -116.2007404
+      },
+      "tags": {
+        "addr:city": "Boise",
+        "addr:housenumber": "4980",
+        "addr:postcode": "83702",
+        "addr:state": "ID",
+        "addr:street": "North Peaceful Cove Lane",
+        "barrier": "fence",
+        "operator": "Idaho Power",
+        "operator:wikidata": "Q3147780",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.6666088,
+      "lon": -116.2007404
+    },
+    {
+      "type": "way",
+      "id": 883231761,
+      "center": {
+        "lat": 43.7135263,
+        "lon": -112.1234185
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.7135263,
+      "lon": -112.1234185
+    },
+    {
+      "type": "way",
+      "id": 883243549,
+      "center": {
+        "lat": 43.3713582,
+        "lon": -112.127007
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.3713582,
+      "lon": -112.127007
+    },
+    {
+      "type": "way",
+      "id": 883251252,
+      "center": {
+        "lat": 43.5944844,
+        "lon": -112.6582283
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "138000"
+      },
+      "lat": 43.5944844,
+      "lon": -112.6582283
+    },
+    {
+      "type": "way",
+      "id": 883251260,
+      "center": {
+        "lat": 43.8464429,
+        "lon": -112.7032645
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "138000"
+      },
+      "lat": 43.8464429,
+      "lon": -112.7032645
+    },
+    {
+      "type": "way",
+      "id": 883263223,
+      "center": {
+        "lat": 43.9194158,
+        "lon": -113.6076585
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.9194158,
+      "lon": -113.6076585
+    },
+    {
+      "type": "way",
+      "id": 883297212,
+      "center": {
+        "lat": 43.2542254,
+        "lon": -114.3588601
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "generation",
+        "voltage": "138000"
+      },
+      "lat": 43.2542254,
+      "lon": -114.3588601
+    },
+    {
+      "type": "way",
+      "id": 883297226,
+      "center": {
+        "lat": 43.7973258,
+        "lon": -111.7010413
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.7973258,
+      "lon": -111.7010413
+    },
+    {
+      "type": "way",
+      "id": 883406851,
+      "center": {
+        "lat": 43.8761063,
+        "lon": -116.4733284
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.8761063,
+      "lon": -116.4733284
+    },
+    {
+      "type": "way",
+      "id": 883698585,
+      "center": {
+        "lat": 43.5910413,
+        "lon": -116.5737985
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "230000;138000"
+      },
+      "lat": 43.5910413,
+      "lon": -116.5737985
+    },
+    {
+      "type": "way",
+      "id": 883698603,
+      "center": {
+        "lat": 43.6081574,
+        "lon": -116.5627446
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.6081574,
+      "lon": -116.5627446
+    },
+    {
+      "type": "way",
+      "id": 883698609,
+      "center": {
+        "lat": 43.8739579,
+        "lon": -116.5168028
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.8739579,
+      "lon": -116.5168028
+    },
+    {
+      "type": "way",
+      "id": 888336161,
+      "center": {
+        "lat": 43.3722284,
+        "lon": -116.5608495
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.3722284,
+      "lon": -116.5608495
+    },
+    {
+      "type": "way",
+      "id": 892821464,
+      "center": {
+        "lat": 43.560666,
+        "lon": -116.353606
+      },
+      "tags": {
+        "addr:city": "Meridian",
+        "addr:housenumber": "4876",
+        "addr:postcode": "83642",
+        "addr:state": "ID",
+        "addr:street": "South Eagle Road",
+        "barrier": "fence",
+        "operator": "Idaho Power",
+        "operator:wikidata": "Q3147780",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.560666,
+      "lon": -116.353606
+    },
+    {
+      "type": "way",
+      "id": 896428029,
+      "center": {
+        "lat": 47.5713492,
+        "lon": -116.4056966
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 47.5713492,
+      "lon": -116.4056966
+    },
+    {
+      "type": "way",
+      "id": 931659420,
+      "center": {
+        "lat": 43.5682061,
+        "lon": -116.6116629
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.5682061,
+      "lon": -116.6116629
+    },
+    {
+      "type": "way",
+      "id": 954773364,
+      "center": {
+        "lat": 48.0940364,
+        "lon": -117.0229027
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 48.0940364,
+      "lon": -117.0229027
+    },
+    {
+      "type": "way",
+      "id": 955215466,
+      "center": {
+        "lat": 43.4994521,
+        "lon": -112.004443
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.4994521,
+      "lon": -112.004443
+    },
+    {
+      "type": "way",
+      "id": 956353620,
+      "center": {
+        "lat": 43.6111518,
+        "lon": -116.5117357
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.6111518,
+      "lon": -116.5117357
+    },
+    {
+      "type": "way",
+      "id": 961101151,
+      "center": {
+        "lat": 43.6335314,
+        "lon": -116.294831
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.6335314,
+      "lon": -116.294831
+    },
+    {
+      "type": "way",
+      "id": 964733766,
+      "center": {
+        "lat": 47.9516409,
+        "lon": -116.6997804
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 47.9516409,
+      "lon": -116.6997804
+    },
+    {
+      "type": "way",
+      "id": 964733767,
+      "center": {
+        "lat": 47.9516146,
+        "lon": -116.7004862
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 47.9516146,
+      "lon": -116.7004862
+    },
+    {
+      "type": "way",
+      "id": 972384042,
+      "center": {
+        "lat": 42.8627059,
+        "lon": -112.4592421
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.8627059,
+      "lon": -112.4592421
+    },
+    {
+      "type": "way",
+      "id": 972986788,
+      "center": {
+        "lat": 43.6477793,
+        "lon": -116.6613922
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.6477793,
+      "lon": -116.6613922
+    },
+    {
+      "type": "way",
+      "id": 984122509,
+      "center": {
+        "lat": 43.5031079,
+        "lon": -111.985764
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "161000"
+      },
+      "lat": 43.5031079,
+      "lon": -111.985764
+    },
+    {
+      "type": "way",
+      "id": 995765479,
+      "center": {
+        "lat": 42.2743763,
+        "lon": -111.0581321
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.2743763,
+      "lon": -111.0581321
+    },
+    {
+      "type": "way",
+      "id": 999306097,
+      "center": {
+        "lat": 43.6589933,
+        "lon": -116.6524043
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.6589933,
+      "lon": -116.6524043
+    },
+    {
+      "type": "way",
+      "id": 1005439780,
+      "center": {
+        "lat": 43.7204371,
+        "lon": -116.4126663
+      },
+      "tags": {
+        "addr:city": "Eagle",
+        "addr:housenumber": "4763",
+        "addr:postcode": "83616",
+        "addr:state": "ID",
+        "addr:street": "West Beacon Light Road",
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.7204371,
+      "lon": -116.4126663
+    },
+    {
+      "type": "way",
+      "id": 1012978689,
+      "center": {
+        "lat": 42.3185786,
+        "lon": -111.3198878
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.3185786,
+      "lon": -111.3198878
+    },
+    {
+      "type": "way",
+      "id": 1016903173,
+      "center": {
+        "lat": 48.1835566,
+        "lon": -117.0257845
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 48.1835566,
+      "lon": -117.0257845
+    },
+    {
+      "type": "way",
+      "id": 1028571279,
+      "center": {
+        "lat": 43.7033506,
+        "lon": -116.5725341
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.7033506,
+      "lon": -116.5725341
+    },
+    {
+      "type": "way",
+      "id": 1037442430,
+      "center": {
+        "lat": 43.8076509,
+        "lon": -111.7960015
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.8076509,
+      "lon": -111.7960015
+    },
+    {
+      "type": "way",
+      "id": 1041564930,
+      "center": {
+        "lat": 43.6049608,
+        "lon": -116.3905522
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.6049608,
+      "lon": -116.3905522
+    },
+    {
+      "type": "way",
+      "id": 1051959020,
+      "center": {
+        "lat": 48.0917729,
+        "lon": -116.0559426
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "115000"
+      },
+      "lat": 48.0917729,
+      "lon": -116.0559426
+    },
+    {
+      "type": "way",
+      "id": 1051959022,
+      "center": {
+        "lat": 48.0921352,
+        "lon": -116.0573215
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "115000"
+      },
+      "lat": 48.0921352,
+      "lon": -116.0573215
+    },
+    {
+      "type": "way",
+      "id": 1056339033,
+      "center": {
+        "lat": 43.0356186,
+        "lon": -116.0288231
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "138000;115000"
+      },
+      "lat": 43.0356186,
+      "lon": -116.0288231
+    },
+    {
+      "type": "way",
+      "id": 1060079271,
+      "center": {
+        "lat": 42.2572289,
+        "lon": -113.8921123
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.2572289,
+      "lon": -113.8921123
+    },
+    {
+      "type": "way",
+      "id": 1060079478,
+      "center": {
+        "lat": 42.3445435,
+        "lon": -113.8817274
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation"
+      },
+      "lat": 42.3445435,
+      "lon": -113.8817274
+    },
+    {
+      "type": "way",
+      "id": 1060079525,
+      "center": {
+        "lat": 42.4167191,
+        "lon": -113.8033112
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation"
+      },
+      "lat": 42.4167191,
+      "lon": -113.8033112
+    },
+    {
+      "type": "way",
+      "id": 1064213985,
+      "center": {
+        "lat": 42.4461713,
+        "lon": -113.8923927
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation"
+      },
+      "lat": 42.4461713,
+      "lon": -113.8923927
+    },
+    {
+      "type": "way",
+      "id": 1068907767,
+      "center": {
+        "lat": 42.5463952,
+        "lon": -114.4986574
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.5463952,
+      "lon": -114.4986574
+    },
+    {
+      "type": "way",
+      "id": 1085937871,
+      "center": {
+        "lat": 42.7987388,
+        "lon": -112.3650203
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.7987388,
+      "lon": -112.3650203
+    },
+    {
+      "type": "way",
+      "id": 1085949191,
+      "center": {
+        "lat": 42.4331834,
+        "lon": -112.1303882
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation"
+      },
+      "lat": 42.4331834,
+      "lon": -112.1303882
+    },
+    {
+      "type": "way",
+      "id": 1085953265,
+      "center": {
+        "lat": 42.1566646,
+        "lon": -112.3115229
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.1566646,
+      "lon": -112.3115229
+    },
+    {
+      "type": "way",
+      "id": 1087649325,
+      "center": {
+        "lat": 42.8362824,
+        "lon": -114.2681758
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation"
+      },
+      "lat": 42.8362824,
+      "lon": -114.2681758
+    },
+    {
+      "type": "way",
+      "id": 1092403104,
+      "center": {
+        "lat": 47.7300338,
+        "lon": -116.8951585
+      },
+      "tags": {
+        "name": "Prairie Substation",
+        "power": "substation",
+        "voltage": "115000"
+      },
+      "lat": 47.7300338,
+      "lon": -116.8951585
+    },
+    {
+      "type": "way",
+      "id": 1092419699,
+      "center": {
+        "lat": 42.0420783,
+        "lon": -111.9850554
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.0420783,
+      "lon": -111.9850554
+    },
+    {
+      "type": "way",
+      "id": 1097515677,
+      "center": {
+        "lat": 47.7011003,
+        "lon": -116.8027287
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 47.7011003,
+      "lon": -116.8027287
+    },
+    {
+      "type": "way",
+      "id": 1106039397,
+      "center": {
+        "lat": 43.0668244,
+        "lon": -115.3882543
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "generation",
+        "voltage": "230000"
+      },
+      "lat": 43.0668244,
+      "lon": -115.3882543
+    },
+    {
+      "type": "way",
+      "id": 1106081756,
+      "center": {
+        "lat": 42.8639354,
+        "lon": -114.9697814
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.8639354,
+      "lon": -114.9697814
+    },
+    {
+      "type": "way",
+      "id": 1106091793,
+      "center": {
+        "lat": 42.8801569,
+        "lon": -115.0372547
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "138000"
+      },
+      "lat": 42.8801569,
+      "lon": -115.0372547
+    },
+    {
+      "type": "way",
+      "id": 1106091794,
+      "center": {
+        "lat": 42.8801161,
+        "lon": -115.036417
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "generation",
+        "voltage": "138000"
+      },
+      "lat": 42.8801161,
+      "lon": -115.036417
+    },
+    {
+      "type": "way",
+      "id": 1106150603,
+      "center": {
+        "lat": 43.3809403,
+        "lon": -111.7251727
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "generation",
+        "voltage": "115000"
+      },
+      "lat": 43.3809403,
+      "lon": -111.7251727
+    },
+    {
+      "type": "way",
+      "id": 1106150604,
+      "center": {
+        "lat": 43.3800965,
+        "lon": -111.7249351
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "115000"
+      },
+      "lat": 43.3800965,
+      "lon": -111.7249351
+    },
+    {
+      "type": "way",
+      "id": 1114793553,
+      "center": {
+        "lat": 42.7006961,
+        "lon": -112.8942774
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "generation",
+        "voltage": "138000"
+      },
+      "lat": 42.7006961,
+      "lon": -112.8942774
+    },
+    {
+      "type": "way",
+      "id": 1114794993,
+      "center": {
+        "lat": 42.7204088,
+        "lon": -112.7538257
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "230000"
+      },
+      "lat": 42.7204088,
+      "lon": -112.7538257
+    },
+    {
+      "type": "way",
+      "id": 1126065002,
+      "center": {
+        "lat": 43.5497612,
+        "lon": -116.5116908
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.5497612,
+      "lon": -116.5116908
+    },
+    {
+      "type": "way",
+      "id": 1134371093,
+      "center": {
+        "lat": 42.1677425,
+        "lon": -112.6561538
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.1677425,
+      "lon": -112.6561538
+    },
+    {
+      "type": "way",
+      "id": 1156508316,
+      "center": {
+        "lat": 43.4957859,
+        "lon": -113.0360423
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.4957859,
+      "lon": -113.0360423
+    },
+    {
+      "type": "way",
+      "id": 1162904230,
+      "center": {
+        "lat": 42.1858036,
+        "lon": -114.6030777
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "345000"
+      },
+      "lat": 42.1858036,
+      "lon": -114.6030777
+    },
+    {
+      "type": "way",
+      "id": 1167848429,
+      "center": {
+        "lat": 42.6568904,
+        "lon": -111.5971846
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.6568904,
+      "lon": -111.5971846
+    },
+    {
+      "type": "way",
+      "id": 1174775881,
+      "center": {
+        "lat": 43.6598933,
+        "lon": -116.3336943
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.6598933,
+      "lon": -116.3336943
+    },
+    {
+      "type": "way",
+      "id": 1179803935,
+      "center": {
+        "lat": 42.6778576,
+        "lon": -111.6030685
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.6778576,
+      "lon": -111.6030685
+    },
+    {
+      "type": "way",
+      "id": 1181975872,
+      "center": {
+        "lat": 46.2521704,
+        "lon": -116.2423549
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "115000"
+      },
+      "lat": 46.2521704,
+      "lon": -116.2423549
+    },
+    {
+      "type": "way",
+      "id": 1191632520,
+      "center": {
+        "lat": 44.3026787,
+        "lon": -114.5178988
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.3026787,
+      "lon": -114.5178988
+    },
+    {
+      "type": "way",
+      "id": 1191632522,
+      "center": {
+        "lat": 44.2883224,
+        "lon": -114.5293436
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.2883224,
+      "lon": -114.5293436
+    },
+    {
+      "type": "way",
+      "id": 1191632526,
+      "center": {
+        "lat": 44.2556218,
+        "lon": -114.4545586
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.2556218,
+      "lon": -114.4545586
+    },
+    {
+      "type": "way",
+      "id": 1215881146,
+      "center": {
+        "lat": 43.4529516,
+        "lon": -111.9436367
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "161000"
+      },
+      "lat": 43.4529516,
+      "lon": -111.9436367
+    },
+    {
+      "type": "way",
+      "id": 1216372964,
+      "center": {
+        "lat": 44.0007013,
+        "lon": -112.1558387
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.0007013,
+      "lon": -112.1558387
+    },
+    {
+      "type": "way",
+      "id": 1217221668,
+      "center": {
+        "lat": 43.7129107,
+        "lon": -111.6947837
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.7129107,
+      "lon": -111.6947837
+    },
+    {
+      "type": "way",
+      "id": 1217221670,
+      "center": {
+        "lat": 43.797344,
+        "lon": -111.7579139
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.797344,
+      "lon": -111.7579139
+    },
+    {
+      "type": "way",
+      "id": 1217620888,
+      "center": {
+        "lat": 43.5477289,
+        "lon": -112.0619923
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "161000"
+      },
+      "lat": 43.5477289,
+      "lon": -112.0619923
+    },
+    {
+      "type": "way",
+      "id": 1217622097,
+      "center": {
+        "lat": 43.4691382,
+        "lon": -112.099502
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "161000"
+      },
+      "lat": 43.4691382,
+      "lon": -112.099502
+    },
+    {
+      "type": "way",
+      "id": 1217622098,
+      "center": {
+        "lat": 43.4400389,
+        "lon": -112.0684341
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "161000"
+      },
+      "lat": 43.4400389,
+      "lon": -112.0684341
+    },
+    {
+      "type": "way",
+      "id": 1221897169,
+      "center": {
+        "lat": 43.8399696,
+        "lon": -111.7804252
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.8399696,
+      "lon": -111.7804252
+    },
+    {
+      "type": "way",
+      "id": 1221899494,
+      "center": {
+        "lat": 42.7129101,
+        "lon": -111.5981336
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Hooper Springs Substation",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "138000;115000"
+      },
+      "lat": 42.7129101,
+      "lon": -111.5981336
+    },
+    {
+      "type": "way",
+      "id": 1221903562,
+      "center": {
+        "lat": 42.9650053,
+        "lon": -111.2703397
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "115000"
+      },
+      "lat": 42.9650053,
+      "lon": -111.2703397
+    },
+    {
+      "type": "way",
+      "id": 1222368973,
+      "center": {
+        "lat": 43.5665329,
+        "lon": -111.1234556
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "115000"
+      },
+      "lat": 43.5665329,
+      "lon": -111.1234556
+    },
+    {
+      "type": "way",
+      "id": 1222368976,
+      "center": {
+        "lat": 43.6084217,
+        "lon": -111.121667
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "115000"
+      },
+      "lat": 43.6084217,
+      "lon": -111.121667
+    },
+    {
+      "type": "way",
+      "id": 1222368980,
+      "center": {
+        "lat": 43.7224195,
+        "lon": -111.1163409
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "115000"
+      },
+      "lat": 43.7224195,
+      "lon": -111.1163409
+    },
+    {
+      "type": "way",
+      "id": 1222368982,
+      "center": {
+        "lat": 43.9906594,
+        "lon": -111.339386
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "161000;115000"
+      },
+      "lat": 43.9906594,
+      "lon": -111.339386
+    },
+    {
+      "type": "way",
+      "id": 1222371685,
+      "center": {
+        "lat": 44.0843835,
+        "lon": -111.3347556
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "115000"
+      },
+      "lat": 44.0843835,
+      "lon": -111.3347556
+    },
+    {
+      "type": "way",
+      "id": 1227269610,
+      "center": {
+        "lat": 46.5045197,
+        "lon": -116.322783
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "115000"
+      },
+      "lat": 46.5045197,
+      "lon": -116.322783
+    },
+    {
+      "type": "way",
+      "id": 1227269612,
+      "center": {
+        "lat": 46.571569,
+        "lon": -116.7093268
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "115000"
+      },
+      "lat": 46.571569,
+      "lon": -116.7093268
+    },
+    {
+      "type": "way",
+      "id": 1227927866,
+      "center": {
+        "lat": 48.1807628,
+        "lon": -116.9976727
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 48.1807628,
+      "lon": -116.9976727
+    },
+    {
+      "type": "way",
+      "id": 1238200958,
+      "center": {
+        "lat": 43.3393451,
+        "lon": -114.4405197
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.3393451,
+      "lon": -114.4405197
+    },
+    {
+      "type": "way",
+      "id": 1238200959,
+      "center": {
+        "lat": 43.5427554,
+        "lon": -114.3279336
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "138000"
+      },
+      "lat": 43.5427554,
+      "lon": -114.3279336
+    },
+    {
+      "type": "way",
+      "id": 1238200962,
+      "center": {
+        "lat": 43.5236196,
+        "lon": -114.3097281
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.5236196,
+      "lon": -114.3097281
+    },
+    {
+      "type": "way",
+      "id": 1257266921,
+      "center": {
+        "lat": 42.6488078,
+        "lon": -111.6004662
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.6488078,
+      "lon": -111.6004662
+    },
+    {
+      "type": "way",
+      "id": 1259744072,
+      "center": {
+        "lat": 42.7002489,
+        "lon": -114.5153045
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.7002489,
+      "lon": -114.5153045
+    },
+    {
+      "type": "way",
+      "id": 1267445941,
+      "center": {
+        "lat": 48.1771212,
+        "lon": -116.7594196
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 48.1771212,
+      "lon": -116.7594196
+    },
+    {
+      "type": "way",
+      "id": 1271252458,
+      "center": {
+        "lat": 47.7365717,
+        "lon": -116.850205
+      },
+      "tags": {
+        "operator": "Avista",
+        "operator:wikidata": "Q4828988",
+        "power": "substation",
+        "voltage": "115000"
+      },
+      "lat": 47.7365717,
+      "lon": -116.850205
+    },
+    {
+      "type": "way",
+      "id": 1274235396,
+      "center": {
+        "lat": 43.6333557,
+        "lon": -116.5828492
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.6333557,
+      "lon": -116.5828492
+    },
+    {
+      "type": "way",
+      "id": 1289181509,
+      "center": {
+        "lat": 42.6084376,
+        "lon": -114.7339921
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.6084376,
+      "lon": -114.7339921
+    },
+    {
+      "type": "way",
+      "id": 1289184440,
+      "center": {
+        "lat": 42.6296775,
+        "lon": -114.661064
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.6296775,
+      "lon": -114.661064
+    },
+    {
+      "type": "way",
+      "id": 1289196217,
+      "center": {
+        "lat": 42.7180682,
+        "lon": -114.5189201
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.7180682,
+      "lon": -114.5189201
+    },
+    {
+      "type": "way",
+      "id": 1289402760,
+      "center": {
+        "lat": 42.8082967,
+        "lon": -113.6657999
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.8082967,
+      "lon": -113.6657999
+    },
+    {
+      "type": "way",
+      "id": 1289418434,
+      "center": {
+        "lat": 42.7752939,
+        "lon": -112.8691596
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.7752939,
+      "lon": -112.8691596
+    },
+    {
+      "type": "way",
+      "id": 1289653826,
+      "center": {
+        "lat": 42.9517617,
+        "lon": -112.8442335
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.9517617,
+      "lon": -112.8442335
+    },
+    {
+      "type": "way",
+      "id": 1289664340,
+      "center": {
+        "lat": 43.176426,
+        "lon": -112.3600064
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "161000;138000"
+      },
+      "lat": 43.176426,
+      "lon": -112.3600064
+    },
+    {
+      "type": "way",
+      "id": 1289667483,
+      "center": {
+        "lat": 43.2252571,
+        "lon": -112.4109658
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.2252571,
+      "lon": -112.4109658
+    },
+    {
+      "type": "way",
+      "id": 1289681810,
+      "center": {
+        "lat": 43.3811936,
+        "lon": -112.1132461
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.3811936,
+      "lon": -112.1132461
+    },
+    {
+      "type": "way",
+      "id": 1289718098,
+      "center": {
+        "lat": 42.68712,
+        "lon": -111.595083
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.68712,
+      "lon": -111.595083
+    },
+    {
+      "type": "way",
+      "id": 1297475856,
+      "center": {
+        "lat": 45.0128685,
+        "lon": -113.6490177
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "115000;69000"
+      },
+      "lat": 45.0128685,
+      "lon": -113.6490177
+    },
+    {
+      "type": "way",
+      "id": 1297475857,
+      "center": {
+        "lat": 45.0127579,
+        "lon": -113.6505472
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "69000"
+      },
+      "lat": 45.0127579,
+      "lon": -113.6505472
+    },
+    {
+      "type": "way",
+      "id": 1297589639,
+      "center": {
+        "lat": 44.850613,
+        "lon": -113.6144302
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "69000"
+      },
+      "lat": 44.850613,
+      "lon": -113.6144302
+    },
+    {
+      "type": "way",
+      "id": 1297589641,
+      "center": {
+        "lat": 45.1836521,
+        "lon": -113.8853637
+      },
+      "tags": {
+        "operator": "Idaho Power",
+        "operator:wikidata": "Q3147780",
+        "power": "substation",
+        "voltage": "115000;69000"
+      },
+      "lat": 45.1836521,
+      "lon": -113.8853637
+    },
+    {
+      "type": "way",
+      "id": 1297589642,
+      "center": {
+        "lat": 45.1155387,
+        "lon": -114.340123
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "69000"
+      },
+      "lat": 45.1155387,
+      "lon": -114.340123
+    },
+    {
+      "type": "way",
+      "id": 1297589643,
+      "center": {
+        "lat": 45.0928294,
+        "lon": -114.2339951
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "69000"
+      },
+      "lat": 45.0928294,
+      "lon": -114.2339951
+    },
+    {
+      "type": "way",
+      "id": 1297589644,
+      "center": {
+        "lat": 45.033637,
+        "lon": -113.669248
+      },
+      "tags": {
+        "operator": "Idaho Power",
+        "operator:wikidata": "Q3147780",
+        "power": "substation",
+        "voltage": "69000"
+      },
+      "lat": 45.033637,
+      "lon": -113.669248
+    },
+    {
+      "type": "way",
+      "id": 1297589647,
+      "center": {
+        "lat": 45.0738493,
+        "lon": -113.6516413
+      },
+      "tags": {
+        "operator": "Idaho Power",
+        "operator:wikidata": "Q3147780",
+        "power": "substation",
+        "substation": "yes"
+      },
+      "lat": 45.0738493,
+      "lon": -113.6516413
+    },
+    {
+      "type": "way",
+      "id": 1297589649,
+      "center": {
+        "lat": 45.2147125,
+        "lon": -114.1326908
+      },
+      "tags": {
+        "operator": "Idaho Power",
+        "operator:wikidata": "Q3147780",
+        "power": "substation",
+        "voltage": "69000"
+      },
+      "lat": 45.2147125,
+      "lon": -114.1326908
+    },
+    {
+      "type": "way",
+      "id": 1300634204,
+      "center": {
+        "lat": 42.4313997,
+        "lon": -114.0885479
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "69000"
+      },
+      "lat": 42.4313997,
+      "lon": -114.0885479
+    },
+    {
+      "type": "way",
+      "id": 1300634690,
+      "center": {
+        "lat": 42.1950427,
+        "lon": -114.6124867
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "generation",
+        "voltage": "345000"
+      },
+      "lat": 42.1950427,
+      "lon": -114.6124867
+    },
+    {
+      "type": "way",
+      "id": 1304727981,
+      "center": {
+        "lat": 42.5452794,
+        "lon": -114.4447095
+      },
+      "tags": {
+        "operator": "Idaho Power",
+        "operator:wikidata": "Q3147780",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.5452794,
+      "lon": -114.4447095
+    },
+    {
+      "type": "way",
+      "id": 1305127745,
+      "center": {
+        "lat": 48.9601429,
+        "lon": -116.5577174
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "115000"
+      },
+      "lat": 48.9601429,
+      "lon": -116.5577174
+    },
+    {
+      "type": "way",
+      "id": 1305127752,
+      "center": {
+        "lat": 48.3322873,
+        "lon": -116.5489061
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "115000"
+      },
+      "lat": 48.3322873,
+      "lon": -116.5489061
+    },
+    {
+      "type": "way",
+      "id": 1305127769,
+      "center": {
+        "lat": 48.2528143,
+        "lon": -116.625202
+      },
+      "tags": {
+        "name": "Sandpoint Substation",
+        "operator": "Bonneville Power Administration",
+        "operator:short": "BPA",
+        "operator:wikidata": "Q2910288",
+        "power": "substation",
+        "voltage": "115000"
+      },
+      "lat": 48.2528143,
+      "lon": -116.625202
+    },
+    {
+      "type": "way",
+      "id": 1305127771,
+      "center": {
+        "lat": 48.2527305,
+        "lon": -116.6242097
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "115000"
+      },
+      "lat": 48.2527305,
+      "lon": -116.6242097
+    },
+    {
+      "type": "way",
+      "id": 1305127779,
+      "center": {
+        "lat": 48.3561262,
+        "lon": -116.6118683
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "115000"
+      },
+      "lat": 48.3561262,
+      "lon": -116.6118683
+    },
+    {
+      "type": "way",
+      "id": 1305127781,
+      "center": {
+        "lat": 48.1523924,
+        "lon": -116.1871575
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "115000"
+      },
+      "lat": 48.1523924,
+      "lon": -116.1871575
+    },
+    {
+      "type": "way",
+      "id": 1305511560,
+      "center": {
+        "lat": 47.7099885,
+        "lon": -116.8003436
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "115000"
+      },
+      "lat": 47.7099885,
+      "lon": -116.8003436
+    },
+    {
+      "type": "way",
+      "id": 1311095511,
+      "center": {
+        "lat": 43.3274543,
+        "lon": -112.0572299
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "161000"
+      },
+      "lat": 43.3274543,
+      "lon": -112.0572299
+    },
+    {
+      "type": "way",
+      "id": 1312674288,
+      "center": {
+        "lat": 43.2939846,
+        "lon": -114.0405612
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.2939846,
+      "lon": -114.0405612
+    },
+    {
+      "type": "way",
+      "id": 1312674301,
+      "center": {
+        "lat": 42.9308646,
+        "lon": -114.410334
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.9308646,
+      "lon": -114.410334
+    },
+    {
+      "type": "way",
+      "id": 1312674303,
+      "center": {
+        "lat": 42.8256475,
+        "lon": -114.4433833
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.8256475,
+      "lon": -114.4433833
+    },
+    {
+      "type": "way",
+      "id": 1312674308,
+      "center": {
+        "lat": 42.5461214,
+        "lon": -114.3851831
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.5461214,
+      "lon": -114.3851831
+    },
+    {
+      "type": "way",
+      "id": 1312711480,
+      "center": {
+        "lat": 42.4821023,
+        "lon": -113.743939
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.4821023,
+      "lon": -113.743939
+    },
+    {
+      "type": "way",
+      "id": 1312711482,
+      "center": {
+        "lat": 42.6064738,
+        "lon": -113.6873257
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.6064738,
+      "lon": -113.6873257
+    },
+    {
+      "type": "way",
+      "id": 1312711485,
+      "center": {
+        "lat": 42.5901696,
+        "lon": -113.222653
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.5901696,
+      "lon": -113.222653
+    },
+    {
+      "type": "way",
+      "id": 1312711487,
+      "center": {
+        "lat": 42.4150484,
+        "lon": -113.2548763
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.4150484,
+      "lon": -113.2548763
+    },
+    {
+      "type": "way",
+      "id": 1312711488,
+      "center": {
+        "lat": 42.7908985,
+        "lon": -113.0429275
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.7908985,
+      "lon": -113.0429275
+    },
+    {
+      "type": "way",
+      "id": 1312713869,
+      "center": {
+        "lat": 42.7212571,
+        "lon": -113.6671379
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.7212571,
+      "lon": -113.6671379
+    },
+    {
+      "type": "way",
+      "id": 1312713870,
+      "center": {
+        "lat": 42.753254,
+        "lon": -113.6634342
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.753254,
+      "lon": -113.6634342
+    },
+    {
+      "type": "way",
+      "id": 1312713874,
+      "center": {
+        "lat": 42.6475363,
+        "lon": -113.627829
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.6475363,
+      "lon": -113.627829
+    },
+    {
+      "type": "way",
+      "id": 1312716198,
+      "center": {
+        "lat": 43.5964503,
+        "lon": -116.5383793
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.5964503,
+      "lon": -116.5383793
+    },
+    {
+      "type": "way",
+      "id": 1314038637,
+      "center": {
+        "lat": 43.5807361,
+        "lon": -116.2910153
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.5807361,
+      "lon": -116.2910153
+    },
+    {
+      "type": "way",
+      "id": 1314068932,
+      "center": {
+        "lat": 43.778934,
+        "lon": -116.2680181
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.778934,
+      "lon": -116.2680181
+    },
+    {
+      "type": "way",
+      "id": 1314234296,
+      "center": {
+        "lat": 44.057452,
+        "lon": -116.929253
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 44.057452,
+      "lon": -116.929253
+    },
+    {
+      "type": "way",
+      "id": 1314234297,
+      "center": {
+        "lat": 44.0041973,
+        "lon": -116.7721465
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 44.0041973,
+      "lon": -116.7721465
+    },
+    {
+      "type": "way",
+      "id": 1314254969,
+      "center": {
+        "lat": 44.0547304,
+        "lon": -116.3239312
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.0547304,
+      "lon": -116.3239312
+    },
+    {
+      "type": "way",
+      "id": 1314254971,
+      "center": {
+        "lat": 44.1617742,
+        "lon": -116.2720276
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.1617742,
+      "lon": -116.2720276
+    },
+    {
+      "type": "way",
+      "id": 1314260145,
+      "center": {
+        "lat": 43.5351804,
+        "lon": -116.3946831
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.5351804,
+      "lon": -116.3946831
+    },
+    {
+      "type": "way",
+      "id": 1314260152,
+      "center": {
+        "lat": 43.4608214,
+        "lon": -116.3337144
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.4608214,
+      "lon": -116.3337144
+    },
+    {
+      "type": "way",
+      "id": 1315495106,
+      "center": {
+        "lat": 46.3909618,
+        "lon": -116.9803339
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 46.3909618,
+      "lon": -116.9803339
+    },
+    {
+      "type": "way",
+      "id": 1315569940,
+      "center": {
+        "lat": 42.955415,
+        "lon": -115.2933648
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.955415,
+      "lon": -115.2933648
+    },
+    {
+      "type": "way",
+      "id": 1315628594,
+      "center": {
+        "lat": 42.2958677,
+        "lon": -115.956792
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "138000"
+      },
+      "lat": 42.2958677,
+      "lon": -115.956792
+    },
+    {
+      "type": "way",
+      "id": 1315628597,
+      "center": {
+        "lat": 42.199339,
+        "lon": -116.103897
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.199339,
+      "lon": -116.103897
+    },
+    {
+      "type": "way",
+      "id": 1315786601,
+      "center": {
+        "lat": 42.8207983,
+        "lon": -114.9321776
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation"
+      },
+      "lat": 42.8207983,
+      "lon": -114.9321776
+    },
+    {
+      "type": "way",
+      "id": 1315814128,
+      "center": {
+        "lat": 42.5617225,
+        "lon": -114.2309045
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.5617225,
+      "lon": -114.2309045
+    },
+    {
+      "type": "way",
+      "id": 1317251380,
+      "center": {
+        "lat": 42.9235821,
+        "lon": -114.7909169
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.9235821,
+      "lon": -114.7909169
+    },
+    {
+      "type": "way",
+      "id": 1317251381,
+      "center": {
+        "lat": 42.9240841,
+        "lon": -114.7223078
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "distribution"
+      },
+      "lat": 42.9240841,
+      "lon": -114.7223078
+    },
+    {
+      "type": "way",
+      "id": 1317277409,
+      "center": {
+        "lat": 42.6052911,
+        "lon": -114.0924668
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "industrial",
+        "voltage": "138000"
+      },
+      "lat": 42.6052911,
+      "lon": -114.0924668
+    },
+    {
+      "type": "way",
+      "id": 1317277410,
+      "center": {
+        "lat": 42.526795,
+        "lon": -114.0367408
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "generation",
+        "voltage": "138000"
+      },
+      "lat": 42.526795,
+      "lon": -114.0367408
+    },
+    {
+      "type": "way",
+      "id": 1317278931,
+      "center": {
+        "lat": 42.561755,
+        "lon": -114.0573346
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "generation",
+        "voltage": "138000"
+      },
+      "lat": 42.561755,
+      "lon": -114.0573346
+    },
+    {
+      "type": "way",
+      "id": 1317293636,
+      "center": {
+        "lat": 42.5533358,
+        "lon": -113.7600326
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.5533358,
+      "lon": -113.7600326
+    },
+    {
+      "type": "way",
+      "id": 1317293639,
+      "center": {
+        "lat": 42.5479232,
+        "lon": -113.7838679
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.5479232,
+      "lon": -113.7838679
+    },
+    {
+      "type": "way",
+      "id": 1317293642,
+      "center": {
+        "lat": 42.5342143,
+        "lon": -113.8128674
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.5342143,
+      "lon": -113.8128674
+    },
+    {
+      "type": "way",
+      "id": 1317418502,
+      "center": {
+        "lat": 42.4158142,
+        "lon": -113.4016045
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.4158142,
+      "lon": -113.4016045
+    },
+    {
+      "type": "way",
+      "id": 1319321650,
+      "center": {
+        "lat": 42.8953684,
+        "lon": -112.4668482
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.8953684,
+      "lon": -112.4668482
+    },
+    {
+      "type": "way",
+      "id": 1319359044,
+      "center": {
+        "lat": 43.1106332,
+        "lon": -112.5734873
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.1106332,
+      "lon": -112.5734873
+    },
+    {
+      "type": "way",
+      "id": 1319359046,
+      "center": {
+        "lat": 43.2712431,
+        "lon": -112.5900395
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000"
+      },
+      "lat": 43.2712431,
+      "lon": -112.5900395
+    },
+    {
+      "type": "way",
+      "id": 1334951664,
+      "center": {
+        "lat": 43.6269959,
+        "lon": -111.9034257
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "161000"
+      },
+      "lat": 43.6269959,
+      "lon": -111.9034257
+    },
+    {
+      "type": "way",
+      "id": 1337599490,
+      "center": {
+        "lat": 43.5435116,
+        "lon": -112.8296737
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "yes",
+        "voltage": "138000"
+      },
+      "lat": 43.5435116,
+      "lon": -112.8296737
+    },
+    {
+      "type": "way",
+      "id": 1337599492,
+      "center": {
+        "lat": 43.5927055,
+        "lon": -112.6637893
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "yes",
+        "voltage": "138000"
+      },
+      "lat": 43.5927055,
+      "lon": -112.6637893
+    },
+    {
+      "type": "way",
+      "id": 1338842588,
+      "center": {
+        "lat": 48.4530793,
+        "lon": -116.8414789
+      },
+      "tags": {
+        "addr:city": "Priest River",
+        "addr:housenumber": "334",
+        "addr:postcode": "83856",
+        "addr:state": "ID",
+        "addr:street": "Substation Cutoff",
+        "barrier": "fence",
+        "operator": "Northern Lights Inc",
+        "power": "substation"
+      },
+      "lat": 48.4530793,
+      "lon": -116.8414789
+    },
+    {
+      "type": "way",
+      "id": 1338979072,
+      "center": {
+        "lat": 48.2957988,
+        "lon": -116.8501227
+      },
+      "tags": {
+        "addr:city": "Priest River",
+        "addr:housenumber": "1071",
+        "addr:postcode": "83856",
+        "addr:state": "ID",
+        "addr:street": "Eastside Cutoff",
+        "barrier": "fence",
+        "operator": "Northern Lights Inc",
+        "power": "substation"
+      },
+      "lat": 48.2957988,
+      "lon": -116.8501227
+    },
+    {
+      "type": "way",
+      "id": 1340670700,
+      "center": {
+        "lat": 43.4689676,
+        "lon": -116.2729748
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "industrial",
+        "voltage": "230000"
+      },
+      "lat": 43.4689676,
+      "lon": -116.2729748
+    },
+    {
+      "type": "way",
+      "id": 1340675112,
+      "center": {
+        "lat": 44.9496739,
+        "lon": -116.3823848
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "138000"
+      },
+      "lat": 44.9496739,
+      "lon": -116.3823848
+    },
+    {
+      "type": "way",
+      "id": 1340675114,
+      "center": {
+        "lat": 44.9629413,
+        "lon": -116.2694588
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "minor_distribution",
+        "voltage": "138000"
+      },
+      "lat": 44.9629413,
+      "lon": -116.2694588
+    },
+    {
+      "type": "way",
+      "id": 1340680907,
+      "center": {
+        "lat": 44.8520704,
+        "lon": -116.4119692
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.8520704,
+      "lon": -116.4119692
+    },
+    {
+      "type": "way",
+      "id": 1340682053,
+      "center": {
+        "lat": 44.8640913,
+        "lon": -116.0893717
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.8640913,
+      "lon": -116.0893717
+    },
+    {
+      "type": "way",
+      "id": 1340953437,
+      "center": {
+        "lat": 48.2163198,
+        "lon": -116.8651372
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 48.2163198,
+      "lon": -116.8651372
+    },
+    {
+      "type": "way",
+      "id": 1341153306,
+      "center": {
+        "lat": 43.5022827,
+        "lon": -113.0421124
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "yes",
+        "voltage": "138000"
+      },
+      "lat": 43.5022827,
+      "lon": -113.0421124
+    },
+    {
+      "type": "way",
+      "id": 1346925576,
+      "center": {
+        "lat": 47.9658357,
+        "lon": -116.8610205
+      },
+      "tags": {
+        "addr:city": "Spirit Lake",
+        "addr:housenumber": "32280",
+        "addr:postcode": "83869",
+        "addr:state": "ID",
+        "addr:street": "North 10th Avenue",
+        "name": "Spirit Lake Substation",
+        "operator": "Avista",
+        "operator:wikidata": "Q4828988",
+        "power": "substation"
+      },
+      "lat": 47.9658357,
+      "lon": -116.8610205
+    },
+    {
+      "type": "way",
+      "id": 1351096808,
+      "center": {
+        "lat": 44.544421,
+        "lon": -115.9231374
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.544421,
+      "lon": -115.9231374
+    },
+    {
+      "type": "way",
+      "id": 1351096809,
+      "center": {
+        "lat": 44.663124,
+        "lon": -115.6872028
+      },
+      "tags": {
+        "name": "Warm Lake Sub Station",
+        "operator": "Idaho Power Company",
+        "power": "substation",
+        "substation": "yes",
+        "voltage": "69000"
+      },
+      "lat": 44.663124,
+      "lon": -115.6872028
+    },
+    {
+      "type": "way",
+      "id": 1351803253,
+      "center": {
+        "lat": 42.6401894,
+        "lon": -114.5916003
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.6401894,
+      "lon": -114.5916003
+    },
+    {
+      "type": "way",
+      "id": 1351803255,
+      "center": {
+        "lat": 42.6486323,
+        "lon": -114.6595329
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.6486323,
+      "lon": -114.6595329
+    },
+    {
+      "type": "way",
+      "id": 1364911093,
+      "center": {
+        "lat": 42.9076194,
+        "lon": -115.1816454
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.9076194,
+      "lon": -115.1816454
+    },
+    {
+      "type": "way",
+      "id": 1375724129,
+      "center": {
+        "lat": 43.3280972,
+        "lon": -115.9864193
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "transmission"
+      },
+      "lat": 43.3280972,
+      "lon": -115.9864193
+    },
+    {
+      "type": "way",
+      "id": 1375724131,
+      "center": {
+        "lat": 43.3268616,
+        "lon": -115.9875215
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.3268616,
+      "lon": -115.9875215
+    },
+    {
+      "type": "way",
+      "id": 1381296832,
+      "center": {
+        "lat": 43.5247408,
+        "lon": -116.1326787
+      },
+      "tags": {
+        "operator": "Idaho Power",
+        "operator:wikidata": "Q3147780",
+        "power": "substation",
+        "substation": "industrial",
+        "voltage": "230000"
+      },
+      "lat": 43.5247408,
+      "lon": -116.1326787
+    },
+    {
+      "type": "way",
+      "id": 1411478822,
+      "center": {
+        "lat": 44.4332361,
+        "lon": -114.7303228
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.4332361,
+      "lon": -114.7303228
+    },
+    {
+      "type": "way",
+      "id": 1413598537,
+      "center": {
+        "lat": 43.2915561,
+        "lon": -112.4651353
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.2915561,
+      "lon": -112.4651353
+    },
+    {
+      "type": "way",
+      "id": 1413598539,
+      "center": {
+        "lat": 43.3188562,
+        "lon": -112.5738403
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.3188562,
+      "lon": -112.5738403
+    },
+    {
+      "type": "way",
+      "id": 1414761929,
+      "center": {
+        "lat": 47.8684133,
+        "lon": -116.8303262
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "115000"
+      },
+      "lat": 47.8684133,
+      "lon": -116.8303262
+    },
+    {
+      "type": "way",
+      "id": 1421374061,
+      "center": {
+        "lat": 43.9420667,
+        "lon": -111.8388253
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.9420667,
+      "lon": -111.8388253
+    },
+    {
+      "type": "way",
+      "id": 1421374063,
+      "center": {
+        "lat": 43.8820389,
+        "lon": -111.5983054
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.8820389,
+      "lon": -111.5983054
+    },
+    {
+      "type": "way",
+      "id": 1421374064,
+      "center": {
+        "lat": 43.8836541,
+        "lon": -111.5384745
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.8836541,
+      "lon": -111.5384745
+    },
+    {
+      "type": "way",
+      "id": 1421667418,
+      "center": {
+        "lat": 42.6063239,
+        "lon": -113.6880819
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.6063239,
+      "lon": -113.6880819
+    },
+    {
+      "type": "way",
+      "id": 1424612894,
+      "center": {
+        "lat": 46.2343814,
+        "lon": -116.0329679
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "115000"
+      },
+      "lat": 46.2343814,
+      "lon": -116.0329679
+    },
+    {
+      "type": "way",
+      "id": 1424618073,
+      "center": {
+        "lat": 46.1389999,
+        "lon": -115.9835932
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "115000"
+      },
+      "lat": 46.1389999,
+      "lon": -115.9835932
+    },
+    {
+      "type": "way",
+      "id": 1430090086,
+      "center": {
+        "lat": 46.3909599,
+        "lon": -116.9803324
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 46.3909599,
+      "lon": -116.9803324
+    },
+    {
+      "type": "way",
+      "id": 1451854652,
+      "center": {
+        "lat": 42.3451654,
+        "lon": -114.0102126
+      },
+      "tags": {
+        "addr:state": "ID",
+        "ele": "1361",
+        "gnis:feature_id": "401635",
+        "name": "Buckhorn Substation",
+        "power": "substation"
+      },
+      "lat": 42.3451654,
+      "lon": -114.0102126
+    },
+    {
+      "type": "way",
+      "id": 1451854654,
+      "center": {
+        "lat": 42.4318526,
+        "lon": -114.229261
+      },
+      "tags": {
+        "addr:state": "ID",
+        "ele": "1279",
+        "gnis:feature_id": "401631",
+        "name": "Artesian Substation",
+        "power": "substation"
+      },
+      "lat": 42.4318526,
+      "lon": -114.229261
+    },
+    {
+      "type": "way",
+      "id": 1455915219,
+      "center": {
+        "lat": 43.4658824,
+        "lon": -116.2719555
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.4658824,
+      "lon": -116.2719555
+    },
+    {
+      "type": "way",
+      "id": 1455915220,
+      "center": {
+        "lat": 43.4657656,
+        "lon": -116.2685223
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.4657656,
+      "lon": -116.2685223
+    },
+    {
+      "type": "way",
+      "id": 1460592386,
+      "center": {
+        "lat": 47.3323026,
+        "lon": -116.5801666
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 47.3323026,
+      "lon": -116.5801666
+    },
+    {
+      "type": "way",
+      "id": 1463543859,
+      "center": {
+        "lat": 42.1842077,
+        "lon": -111.9795249
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.1842077,
+      "lon": -111.9795249
+    },
+    {
+      "type": "way",
+      "id": 1463543860,
+      "center": {
+        "lat": 42.5616465,
+        "lon": -112.1619097
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.5616465,
+      "lon": -112.1619097
+    },
+    {
+      "type": "way",
+      "id": 1465132472,
+      "center": {
+        "lat": 43.5947116,
+        "lon": -115.9237238
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.5947116,
+      "lon": -115.9237238
+    },
+    {
+      "type": "way",
+      "id": 1466341807,
+      "center": {
+        "lat": 43.7832935,
+        "lon": -113.3657886
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.7832935,
+      "lon": -113.3657886
+    },
+    {
+      "type": "way",
+      "id": 1466341811,
+      "center": {
+        "lat": 43.7110251,
+        "lon": -113.3665482
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.7110251,
+      "lon": -113.3665482
+    },
+    {
+      "type": "way",
+      "id": 1466341812,
+      "center": {
+        "lat": 43.6380033,
+        "lon": -113.3764647
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.6380033,
+      "lon": -113.3764647
+    },
+    {
+      "type": "way",
+      "id": 1466341814,
+      "center": {
+        "lat": 43.7877928,
+        "lon": -112.9255188
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.7877928,
+      "lon": -112.9255188
+    },
+    {
+      "type": "way",
+      "id": 1466341817,
+      "center": {
+        "lat": 43.842407,
+        "lon": -113.0143577
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.842407,
+      "lon": -113.0143577
+    },
+    {
+      "type": "way",
+      "id": 1466346794,
+      "center": {
+        "lat": 44.1406533,
+        "lon": -113.8831698
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.1406533,
+      "lon": -113.8831698
+    },
+    {
+      "type": "way",
+      "id": 1466346796,
+      "center": {
+        "lat": 43.9195536,
+        "lon": -113.6072767
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.9195536,
+      "lon": -113.6072767
+    },
+    {
+      "type": "way",
+      "id": 1466346798,
+      "center": {
+        "lat": 43.8718974,
+        "lon": -113.4016442
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.8718974,
+      "lon": -113.4016442
+    },
+    {
+      "type": "way",
+      "id": 1472830190,
+      "center": {
+        "lat": 43.6108711,
+        "lon": -116.7723558
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "69000"
+      },
+      "lat": 43.6108711,
+      "lon": -116.7723558
+    },
+    {
+      "type": "way",
+      "id": 1472837039,
+      "center": {
+        "lat": 43.5168047,
+        "lon": -116.7729178
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "69000"
+      },
+      "lat": 43.5168047,
+      "lon": -116.7729178
+    },
+    {
+      "type": "way",
+      "id": 1485092439,
+      "center": {
+        "lat": 43.8258274,
+        "lon": -111.5989099
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.8258274,
+      "lon": -111.5989099
+    },
+    {
+      "type": "way",
+      "id": 1485092440,
+      "center": {
+        "lat": 43.8237379,
+        "lon": -111.1999534
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.8237379,
+      "lon": -111.1999534
+    },
+    {
+      "type": "way",
+      "id": 1485092441,
+      "center": {
+        "lat": 43.8727233,
+        "lon": -111.2469558
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.8727233,
+      "lon": -111.2469558
+    },
+    {
+      "type": "way",
+      "id": 1485092442,
+      "center": {
+        "lat": 43.9111906,
+        "lon": -111.2805008
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.9111906,
+      "lon": -111.2805008
+    },
+    {
+      "type": "way",
+      "id": 1485092443,
+      "center": {
+        "lat": 43.9265712,
+        "lon": -111.4389255
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.9265712,
+      "lon": -111.4389255
+    },
+    {
+      "type": "way",
+      "id": 1485092444,
+      "center": {
+        "lat": 44.0598696,
+        "lon": -111.3533892
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.0598696,
+      "lon": -111.3533892
+    },
+    {
+      "type": "way",
+      "id": 1485092445,
+      "center": {
+        "lat": 44.2935544,
+        "lon": -111.4121677
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.2935544,
+      "lon": -111.4121677
+    },
+    {
+      "type": "way",
+      "id": 1485092446,
+      "center": {
+        "lat": 44.4591998,
+        "lon": -111.4382429
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.4591998,
+      "lon": -111.4382429
+    },
+    {
+      "type": "way",
+      "id": 1485092447,
+      "center": {
+        "lat": 45.0556202,
+        "lon": -113.6785981
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 45.0556202,
+      "lon": -113.6785981
+    },
+    {
+      "type": "way",
+      "id": 1485092448,
+      "center": {
+        "lat": 43.5022729,
+        "lon": -113.0421274
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.5022729,
+      "lon": -113.0421274
+    },
+    {
+      "type": "way",
+      "id": 1485092449,
+      "center": {
+        "lat": 43.5545491,
+        "lon": -112.4022422
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.5545491,
+      "lon": -112.4022422
+    },
+    {
+      "type": "way",
+      "id": 1485092450,
+      "center": {
+        "lat": 43.3050016,
+        "lon": -112.3452208
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.3050016,
+      "lon": -112.3452208
+    },
+    {
+      "type": "way",
+      "id": 1485092451,
+      "center": {
+        "lat": 43.3813394,
+        "lon": -112.3613412
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.3813394,
+      "lon": -112.3613412
+    },
+    {
+      "type": "way",
+      "id": 1485092452,
+      "center": {
+        "lat": 43.420248,
+        "lon": -112.1015941
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.420248,
+      "lon": -112.1015941
+    },
+    {
+      "type": "way",
+      "id": 1485092453,
+      "center": {
+        "lat": 43.598061,
+        "lon": -111.9243269
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.598061,
+      "lon": -111.9243269
+    },
+    {
+      "type": "way",
+      "id": 1485092454,
+      "center": {
+        "lat": 43.7969079,
+        "lon": -111.8175341
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.7969079,
+      "lon": -111.8175341
+    },
+    {
+      "type": "way",
+      "id": 1485092455,
+      "center": {
+        "lat": 44.1009891,
+        "lon": -112.2343923
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.1009891,
+      "lon": -112.2343923
+    },
+    {
+      "type": "way",
+      "id": 1485092456,
+      "center": {
+        "lat": 43.9565892,
+        "lon": -112.2168419
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.9565892,
+      "lon": -112.2168419
+    },
+    {
+      "type": "way",
+      "id": 1485092457,
+      "center": {
+        "lat": 43.8992743,
+        "lon": -112.2722898
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.8992743,
+      "lon": -112.2722898
+    },
+    {
+      "type": "way",
+      "id": 1485092458,
+      "center": {
+        "lat": 44.02994,
+        "lon": -112.5962229
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.02994,
+      "lon": -112.5962229
+    },
+    {
+      "type": "way",
+      "id": 1485092459,
+      "center": {
+        "lat": 44.1013271,
+        "lon": -112.5159364
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.1013271,
+      "lon": -112.5159364
+    },
+    {
+      "type": "way",
+      "id": 1485092460,
+      "center": {
+        "lat": 43.9965155,
+        "lon": -112.4764254
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.9965155,
+      "lon": -112.4764254
+    },
+    {
+      "type": "way",
+      "id": 1485092461,
+      "center": {
+        "lat": 43.8382637,
+        "lon": -112.474859
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.8382637,
+      "lon": -112.474859
+    },
+    {
+      "type": "way",
+      "id": 1485092462,
+      "center": {
+        "lat": 43.7975971,
+        "lon": -112.366878
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.7975971,
+      "lon": -112.366878
+    },
+    {
+      "type": "way",
+      "id": 1485092463,
+      "center": {
+        "lat": 43.6843837,
+        "lon": -112.1831855
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.6843837,
+      "lon": -112.1831855
+    },
+    {
+      "type": "way",
+      "id": 1485092464,
+      "center": {
+        "lat": 43.6338248,
+        "lon": -112.2231779
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.6338248,
+      "lon": -112.2231779
+    },
+    {
+      "type": "way",
+      "id": 1485092465,
+      "center": {
+        "lat": 43.6842877,
+        "lon": -112.2532576
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.6842877,
+      "lon": -112.2532576
+    },
+    {
+      "type": "way",
+      "id": 1485092466,
+      "center": {
+        "lat": 43.6412395,
+        "lon": -112.282845
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.6412395,
+      "lon": -112.282845
+    },
+    {
+      "type": "way",
+      "id": 1485092467,
+      "center": {
+        "lat": 43.612593,
+        "lon": -112.2820913
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.612593,
+      "lon": -112.2820913
+    },
+    {
+      "type": "way",
+      "id": 1485092468,
+      "center": {
+        "lat": 43.5545603,
+        "lon": -112.2821838
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.5545603,
+      "lon": -112.2821838
+    },
+    {
+      "type": "way",
+      "id": 1485092469,
+      "center": {
+        "lat": 43.554586,
+        "lon": -112.203064
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.554586,
+      "lon": -112.203064
+    },
+    {
+      "type": "way",
+      "id": 1485092470,
+      "center": {
+        "lat": 43.5970494,
+        "lon": -112.1226642
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.5970494,
+      "lon": -112.1226642
+    },
+    {
+      "type": "way",
+      "id": 1485092471,
+      "center": {
+        "lat": 43.5535805,
+        "lon": -112.122469
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.5535805,
+      "lon": -112.122469
+    },
+    {
+      "type": "way",
+      "id": 1485092472,
+      "center": {
+        "lat": 43.5527748,
+        "lon": -112.0497745
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.5527748,
+      "lon": -112.0497745
+    },
+    {
+      "type": "way",
+      "id": 1485092473,
+      "center": {
+        "lat": 43.4914669,
+        "lon": -112.0452858
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.4914669,
+      "lon": -112.0452858
+    },
+    {
+      "type": "way",
+      "id": 1485092474,
+      "center": {
+        "lat": 42.5146692,
+        "lon": -111.7935591
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.5146692,
+      "lon": -111.7935591
+    },
+    {
+      "type": "way",
+      "id": 1485092475,
+      "center": {
+        "lat": 42.1220977,
+        "lon": -111.3153782
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.1220977,
+      "lon": -111.3153782
+    },
+    {
+      "type": "way",
+      "id": 1485092476,
+      "center": {
+        "lat": 42.4712512,
+        "lon": -111.3870013
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.4712512,
+      "lon": -111.3870013
+    },
+    {
+      "type": "way",
+      "id": 1485092477,
+      "center": {
+        "lat": 42.6182991,
+        "lon": -111.5256735
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.6182991,
+      "lon": -111.5256735
+    },
+    {
+      "type": "way",
+      "id": 1485092478,
+      "center": {
+        "lat": 42.8810455,
+        "lon": -111.4198624
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.8810455,
+      "lon": -111.4198624
+    },
+    {
+      "type": "way",
+      "id": 1485092479,
+      "center": {
+        "lat": 42.7460214,
+        "lon": -111.3283514
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.7460214,
+      "lon": -111.3283514
+    },
+    {
+      "type": "way",
+      "id": 1485092480,
+      "center": {
+        "lat": 42.7889482,
+        "lon": -111.4052396
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.7889482,
+      "lon": -111.4052396
+    },
+    {
+      "type": "way",
+      "id": 1485092481,
+      "center": {
+        "lat": 42.8198208,
+        "lon": -111.4977919
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.8198208,
+      "lon": -111.4977919
+    },
+    {
+      "type": "way",
+      "id": 1485092482,
+      "center": {
+        "lat": 42.7287977,
+        "lon": -111.5290229
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.7287977,
+      "lon": -111.5290229
+    },
+    {
+      "type": "way",
+      "id": 1485092483,
+      "center": {
+        "lat": 42.7066212,
+        "lon": -111.5520503
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.7066212,
+      "lon": -111.5520503
+    },
+    {
+      "type": "way",
+      "id": 1485092484,
+      "center": {
+        "lat": 42.6916773,
+        "lon": -111.5777104
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.6916773,
+      "lon": -111.5777104
+    },
+    {
+      "type": "way",
+      "id": 1485092485,
+      "center": {
+        "lat": 42.6490328,
+        "lon": -111.7009432
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.6490328,
+      "lon": -111.7009432
+    },
+    {
+      "type": "way",
+      "id": 1485092486,
+      "center": {
+        "lat": 42.7507959,
+        "lon": -111.8770288
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.7507959,
+      "lon": -111.8770288
+    },
+    {
+      "type": "way",
+      "id": 1485092487,
+      "center": {
+        "lat": 42.6186017,
+        "lon": -112.0224246
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.6186017,
+      "lon": -112.0224246
+    },
+    {
+      "type": "way",
+      "id": 1485092488,
+      "center": {
+        "lat": 43.0401949,
+        "lon": -112.312409
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.0401949,
+      "lon": -112.312409
+    },
+    {
+      "type": "way",
+      "id": 1485092489,
+      "center": {
+        "lat": 42.8368166,
+        "lon": -112.6451692
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.8368166,
+      "lon": -112.6451692
+    },
+    {
+      "type": "way",
+      "id": 1485092490,
+      "center": {
+        "lat": 42.9637442,
+        "lon": -112.4668693
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.9637442,
+      "lon": -112.4668693
+    },
+    {
+      "type": "way",
+      "id": 1485092491,
+      "center": {
+        "lat": 43.0358564,
+        "lon": -112.4355988
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.0358564,
+      "lon": -112.4355988
+    },
+    {
+      "type": "way",
+      "id": 1485092492,
+      "center": {
+        "lat": 43.2261355,
+        "lon": -112.5753607
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.2261355,
+      "lon": -112.5753607
+    },
+    {
+      "type": "way",
+      "id": 1485092493,
+      "center": {
+        "lat": 43.3113077,
+        "lon": -112.673948
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.3113077,
+      "lon": -112.673948
+    },
+    {
+      "type": "way",
+      "id": 1485092494,
+      "center": {
+        "lat": 43.1683604,
+        "lon": -112.7312547
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.1683604,
+      "lon": -112.7312547
+    },
+    {
+      "type": "way",
+      "id": 1485092495,
+      "center": {
+        "lat": 43.0809263,
+        "lon": -112.848022
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.0809263,
+      "lon": -112.848022
+    },
+    {
+      "type": "way",
+      "id": 1485092496,
+      "center": {
+        "lat": 43.0095771,
+        "lon": -112.927225
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.0095771,
+      "lon": -112.927225
+    },
+    {
+      "type": "way",
+      "id": 1485092497,
+      "center": {
+        "lat": 42.862918,
+        "lon": -112.9293506
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.862918,
+      "lon": -112.9293506
+    },
+    {
+      "type": "way",
+      "id": 1485092498,
+      "center": {
+        "lat": 42.7006912,
+        "lon": -112.8942794
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.7006912,
+      "lon": -112.8942794
+    },
+    {
+      "type": "way",
+      "id": 1485092499,
+      "center": {
+        "lat": 42.1256602,
+        "lon": -112.9454066
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.1256602,
+      "lon": -112.9454066
+    },
+    {
+      "type": "way",
+      "id": 1485092500,
+      "center": {
+        "lat": 42.2847495,
+        "lon": -113.3547657
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.2847495,
+      "lon": -113.3547657
+    },
+    {
+      "type": "way",
+      "id": 1485092501,
+      "center": {
+        "lat": 42.4156667,
+        "lon": -113.374787
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.4156667,
+      "lon": -113.374787
+    },
+    {
+      "type": "way",
+      "id": 1485092502,
+      "center": {
+        "lat": 42.488389,
+        "lon": -113.403312
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.488389,
+      "lon": -113.403312
+    },
+    {
+      "type": "way",
+      "id": 1485092504,
+      "center": {
+        "lat": 42.7481282,
+        "lon": -113.4894579
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.7481282,
+      "lon": -113.4894579
+    },
+    {
+      "type": "way",
+      "id": 1485092505,
+      "center": {
+        "lat": 42.6698457,
+        "lon": -113.4823818
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.6698457,
+      "lon": -113.4823818
+    },
+    {
+      "type": "way",
+      "id": 1485092506,
+      "center": {
+        "lat": 42.5761098,
+        "lon": -113.558634
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.5761098,
+      "lon": -113.558634
+    },
+    {
+      "type": "way",
+      "id": 1485092507,
+      "center": {
+        "lat": 42.5284865,
+        "lon": -113.5832343
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.5284865,
+      "lon": -113.5832343
+    },
+    {
+      "type": "way",
+      "id": 1485092508,
+      "center": {
+        "lat": 42.533034,
+        "lon": -113.5919326
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.533034,
+      "lon": -113.5919326
+    },
+    {
+      "type": "way",
+      "id": 1485092509,
+      "center": {
+        "lat": 42.5395089,
+        "lon": -113.6168346
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.5395089,
+      "lon": -113.6168346
+    },
+    {
+      "type": "way",
+      "id": 1485092510,
+      "center": {
+        "lat": 42.5392172,
+        "lon": -113.6165721
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.5392172,
+      "lon": -113.6165721
+    },
+    {
+      "type": "way",
+      "id": 1485092512,
+      "center": {
+        "lat": 42.5197249,
+        "lon": -113.8154766
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.5197249,
+      "lon": -113.8154766
+    },
+    {
+      "type": "way",
+      "id": 1485092513,
+      "center": {
+        "lat": 42.5332801,
+        "lon": -113.9483486
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.5332801,
+      "lon": -113.9483486
+    },
+    {
+      "type": "way",
+      "id": 1485092514,
+      "center": {
+        "lat": 42.5341078,
+        "lon": -113.9724449
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.5341078,
+      "lon": -113.9724449
+    },
+    {
+      "type": "way",
+      "id": 1485092515,
+      "center": {
+        "lat": 42.5194897,
+        "lon": -114.010472
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.5194897,
+      "lon": -114.010472
+    },
+    {
+      "type": "way",
+      "id": 1485092517,
+      "center": {
+        "lat": 42.532741,
+        "lon": -114.1032362
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.532741,
+      "lon": -114.1032362
+    },
+    {
+      "type": "way",
+      "id": 1485092518,
+      "center": {
+        "lat": 42.4857989,
+        "lon": -114.1782018
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.4857989,
+      "lon": -114.1782018
+    },
+    {
+      "type": "way",
+      "id": 1485092519,
+      "center": {
+        "lat": 42.4939083,
+        "lon": -114.309906
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.4939083,
+      "lon": -114.309906
+    },
+    {
+      "type": "way",
+      "id": 1485092520,
+      "center": {
+        "lat": 42.489819,
+        "lon": -114.3232389
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.489819,
+      "lon": -114.3232389
+    },
+    {
+      "type": "way",
+      "id": 1485092521,
+      "center": {
+        "lat": 42.2951405,
+        "lon": -114.5752003
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.2951405,
+      "lon": -114.5752003
+    },
+    {
+      "type": "way",
+      "id": 1485092522,
+      "center": {
+        "lat": 42.5131801,
+        "lon": -114.6604704
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.5131801,
+      "lon": -114.6604704
+    },
+    {
+      "type": "way",
+      "id": 1485092523,
+      "center": {
+        "lat": 42.9544791,
+        "lon": -114.4624188
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.9544791,
+      "lon": -114.4624188
+    },
+    {
+      "type": "way",
+      "id": 1485092524,
+      "center": {
+        "lat": 42.8798598,
+        "lon": -114.2758054
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.8798598,
+      "lon": -114.2758054
+    },
+    {
+      "type": "way",
+      "id": 1485092525,
+      "center": {
+        "lat": 42.7387502,
+        "lon": -114.4234972
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.7387502,
+      "lon": -114.4234972
+    },
+    {
+      "type": "way",
+      "id": 1485092526,
+      "center": {
+        "lat": 42.6929207,
+        "lon": -114.3656956
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.6929207,
+      "lon": -114.3656956
+    },
+    {
+      "type": "way",
+      "id": 1485092527,
+      "center": {
+        "lat": 42.5972512,
+        "lon": -114.4039774
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.5972512,
+      "lon": -114.4039774
+    },
+    {
+      "type": "way",
+      "id": 1485092528,
+      "center": {
+        "lat": 42.6028672,
+        "lon": -114.4779743
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.6028672,
+      "lon": -114.4779743
+    },
+    {
+      "type": "way",
+      "id": 1485092529,
+      "center": {
+        "lat": 42.6321388,
+        "lon": -114.5373168
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.6321388,
+      "lon": -114.5373168
+    },
+    {
+      "type": "way",
+      "id": 1485092530,
+      "center": {
+        "lat": 42.6673524,
+        "lon": -114.7803464
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.6673524,
+      "lon": -114.7803464
+    },
+    {
+      "type": "way",
+      "id": 1485092531,
+      "center": {
+        "lat": 42.6998576,
+        "lon": -114.8222723
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.6998576,
+      "lon": -114.8222723
+    },
+    {
+      "type": "way",
+      "id": 1485092532,
+      "center": {
+        "lat": 42.7004733,
+        "lon": -114.8256837
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.7004733,
+      "lon": -114.8256837
+    },
+    {
+      "type": "way",
+      "id": 1485092533,
+      "center": {
+        "lat": 42.7425014,
+        "lon": -114.8410374
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.7425014,
+      "lon": -114.8410374
+    },
+    {
+      "type": "way",
+      "id": 1485092534,
+      "center": {
+        "lat": 42.7435813,
+        "lon": -114.8411541
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.7435813,
+      "lon": -114.8411541
+    },
+    {
+      "type": "way",
+      "id": 1485092536,
+      "center": {
+        "lat": 42.8207818,
+        "lon": -114.9321788
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.8207818,
+      "lon": -114.9321788
+    },
+    {
+      "type": "way",
+      "id": 1485092537,
+      "center": {
+        "lat": 42.8205422,
+        "lon": -114.9324833
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.8205422,
+      "lon": -114.9324833
+    },
+    {
+      "type": "way",
+      "id": 1485092538,
+      "center": {
+        "lat": 42.8801541,
+        "lon": -115.0372671
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.8801541,
+      "lon": -115.0372671
+    },
+    {
+      "type": "way",
+      "id": 1485092539,
+      "center": {
+        "lat": 42.9540389,
+        "lon": -115.2933101
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.9540389,
+      "lon": -115.2933101
+    },
+    {
+      "type": "way",
+      "id": 1485092540,
+      "center": {
+        "lat": 42.9964078,
+        "lon": -115.3743162
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.9964078,
+      "lon": -115.3743162
+    },
+    {
+      "type": "way",
+      "id": 1485092541,
+      "center": {
+        "lat": 42.9573947,
+        "lon": -115.6302204
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.9573947,
+      "lon": -115.6302204
+    },
+    {
+      "type": "way",
+      "id": 1485092542,
+      "center": {
+        "lat": 42.9573756,
+        "lon": -115.6307535
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.9573756,
+      "lon": -115.6307535
+    },
+    {
+      "type": "way",
+      "id": 1485092543,
+      "center": {
+        "lat": 43.7919748,
+        "lon": -116.9417938
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.7919748,
+      "lon": -116.9417938
+    },
+    {
+      "type": "way",
+      "id": 1485092544,
+      "center": {
+        "lat": 43.6324669,
+        "lon": -116.9110784
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.6324669,
+      "lon": -116.9110784
+    },
+    {
+      "type": "way",
+      "id": 1485092545,
+      "center": {
+        "lat": 43.0051419,
+        "lon": -116.8308281
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.0051419,
+      "lon": -116.8308281
+    },
+    {
+      "type": "way",
+      "id": 1485092546,
+      "center": {
+        "lat": 43.2380021,
+        "lon": -116.3666866
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.2380021,
+      "lon": -116.3666866
+    },
+    {
+      "type": "way",
+      "id": 1485092547,
+      "center": {
+        "lat": 43.2440231,
+        "lon": -116.3784065
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.2440231,
+      "lon": -116.3784065
+    },
+    {
+      "type": "way",
+      "id": 1485092548,
+      "center": {
+        "lat": 43.3004086,
+        "lon": -116.414161
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.3004086,
+      "lon": -116.414161
+    },
+    {
+      "type": "way",
+      "id": 1485092549,
+      "center": {
+        "lat": 43.3816093,
+        "lon": -116.6428053
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.3816093,
+      "lon": -116.6428053
+    },
+    {
+      "type": "way",
+      "id": 1485092550,
+      "center": {
+        "lat": 43.4277481,
+        "lon": -116.7107309
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.4277481,
+      "lon": -116.7107309
+    },
+    {
+      "type": "way",
+      "id": 1485092551,
+      "center": {
+        "lat": 43.6070994,
+        "lon": -116.5684672
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.6070994,
+      "lon": -116.5684672
+    },
+    {
+      "type": "way",
+      "id": 1485092552,
+      "center": {
+        "lat": 43.908063,
+        "lon": -116.5919687
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.908063,
+      "lon": -116.5919687
+    },
+    {
+      "type": "way",
+      "id": 1485092553,
+      "center": {
+        "lat": 43.8745878,
+        "lon": -116.5156967
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.8745878,
+      "lon": -116.5156967
+    },
+    {
+      "type": "way",
+      "id": 1485092554,
+      "center": {
+        "lat": 43.9305041,
+        "lon": -116.4378456
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.9305041,
+      "lon": -116.4378456
+    },
+    {
+      "type": "way",
+      "id": 1485092555,
+      "center": {
+        "lat": 44.2292817,
+        "lon": -116.1878175
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.2292817,
+      "lon": -116.1878175
+    },
+    {
+      "type": "way",
+      "id": 1485092556,
+      "center": {
+        "lat": 44.2992326,
+        "lon": -116.0783739
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.2992326,
+      "lon": -116.0783739
+    },
+    {
+      "type": "way",
+      "id": 1485092557,
+      "center": {
+        "lat": 44.5253034,
+        "lon": -116.0482957
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.5253034,
+      "lon": -116.0482957
+    },
+    {
+      "type": "way",
+      "id": 1485092558,
+      "center": {
+        "lat": 46.4060493,
+        "lon": -115.918757
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 46.4060493,
+      "lon": -115.918757
+    },
+    {
+      "type": "way",
+      "id": 1485092559,
+      "center": {
+        "lat": 46.2432185,
+        "lon": -116.4632347
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 46.2432185,
+      "lon": -116.4632347
+    },
+    {
+      "type": "way",
+      "id": 1485092560,
+      "center": {
+        "lat": 46.3660216,
+        "lon": -116.7362877
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 46.3660216,
+      "lon": -116.7362877
+    },
+    {
+      "type": "way",
+      "id": 1485092561,
+      "center": {
+        "lat": 46.427172,
+        "lon": -116.927861
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 46.427172,
+      "lon": -116.927861
+    },
+    {
+      "type": "way",
+      "id": 1485092562,
+      "center": {
+        "lat": 46.7223071,
+        "lon": -116.9373366
+      },
+      "tags": {
+        "name": "Moscow",
+        "power": "substation"
+      },
+      "lat": 46.7223071,
+      "lon": -116.9373366
+    },
+    {
+      "type": "way",
+      "id": 1485092563,
+      "center": {
+        "lat": 47.1490239,
+        "lon": -116.9597787
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 47.1490239,
+      "lon": -116.9597787
+    },
+    {
+      "type": "way",
+      "id": 1485092564,
+      "center": {
+        "lat": 46.9932607,
+        "lon": -116.920385
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 46.9932607,
+      "lon": -116.920385
+    },
+    {
+      "type": "way",
+      "id": 1485092565,
+      "center": {
+        "lat": 47.0777566,
+        "lon": -116.8243016
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 47.0777566,
+      "lon": -116.8243016
+    },
+    {
+      "type": "way",
+      "id": 1485092566,
+      "center": {
+        "lat": 46.8013704,
+        "lon": -116.5131466
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 46.8013704,
+      "lon": -116.5131466
+    },
+    {
+      "type": "way",
+      "id": 1485092567,
+      "center": {
+        "lat": 47.1208542,
+        "lon": -116.3949255
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 47.1208542,
+      "lon": -116.3949255
+    },
+    {
+      "type": "way",
+      "id": 1485092568,
+      "center": {
+        "lat": 47.1128058,
+        "lon": -116.60209
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 47.1128058,
+      "lon": -116.60209
+    },
+    {
+      "type": "way",
+      "id": 1485092570,
+      "center": {
+        "lat": 48.1659754,
+        "lon": -116.59358
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 48.1659754,
+      "lon": -116.59358
+    },
+    {
+      "type": "way",
+      "id": 1485092571,
+      "center": {
+        "lat": 48.4289861,
+        "lon": -116.4718285
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 48.4289861,
+      "lon": -116.4718285
+    },
+    {
+      "type": "way",
+      "id": 1485092572,
+      "center": {
+        "lat": 48.7322497,
+        "lon": -116.1762471
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 48.7322497,
+      "lon": -116.1762471
+    },
+    {
+      "type": "way",
+      "id": 1485092573,
+      "center": {
+        "lat": 48.9051509,
+        "lon": -116.3706663
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 48.9051509,
+      "lon": -116.3706663
+    },
+    {
+      "type": "way",
+      "id": 1490874079,
+      "center": {
+        "lat": 42.5733659,
+        "lon": -114.4007018
+      },
+      "tags": {
+        "border": "fence",
+        "operator": "Idaho Power Complany",
+        "power": "substation",
+        "start_date": "2026-06-01",
+        "substation": "minor_distribution",
+        "voltage": "138000"
+      },
+      "lat": 42.5733659,
+      "lon": -114.4007018
+    },
+    {
+      "type": "way",
+      "id": 1492306905,
+      "center": {
+        "lat": 42.9046291,
+        "lon": -112.4602326
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.9046291,
+      "lon": -112.4602326
+    },
+    {
+      "type": "way",
+      "id": 1492306906,
+      "center": {
+        "lat": 43.4252072,
+        "lon": -114.0255091
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.4252072,
+      "lon": -114.0255091
+    },
+    {
+      "type": "way",
+      "id": 1492306907,
+      "center": {
+        "lat": 42.6516646,
+        "lon": -114.6380257
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 42.6516646,
+      "lon": -114.6380257
+    },
+    {
+      "type": "way",
+      "id": 1492875466,
+      "center": {
+        "lat": 44.1221022,
+        "lon": -116.9382791
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.1221022,
+      "lon": -116.9382791
+    },
+    {
+      "type": "relation",
+      "id": 2617912,
+      "center": {
+        "lat": 46.9262781,
+        "lon": -116.9052514
+      },
+      "tags": {
+        "power": "substation",
+        "type": "multipolygon"
+      },
+      "lat": 46.9262781,
+      "lon": -116.9052514
+    },
+    {
+      "type": "relation",
+      "id": 6619015,
+      "center": {
+        "lat": 43.5474707,
+        "lon": -116.1890001
+      },
+      "tags": {
+        "addr:city": "Boise",
+        "addr:housenumber": "650",
+        "addr:postcode": "83705",
+        "addr:state": "ID",
+        "addr:street": "West Gowen Road",
+        "power": "substation",
+        "substation": "distribution",
+        "type": "multipolygon",
+        "voltage": "138000"
+      },
+      "lat": 43.5474707,
+      "lon": -116.1890001
+    },
+    {
+      "type": "relation",
+      "id": 12203359,
+      "center": {
+        "lat": 42.8348206,
+        "lon": -114.4240108
+      },
+      "tags": {
+        "barrier": "wall",
+        "name": "Midpoint Substation",
+        "operator": "Idaho Power",
+        "operator:wikidata": "Q3147780",
+        "power": "substation",
+        "substation": "transmission",
+        "type": "multipolygon",
+        "voltage": "500000;230000;138000"
+      },
+      "lat": 42.8348206,
+      "lon": -114.4240108
+    },
+    {
+      "type": "relation",
+      "id": 12206604,
+      "center": {
+        "lat": 43.3080779,
+        "lon": -112.1220034
+      },
+      "tags": {
+        "name": "Goshen Substation",
+        "power": "substation",
+        "substation": "transmission",
+        "type": "multipolygon",
+        "voltage": "345000;161000"
+      },
+      "lat": 43.3080779,
+      "lon": -112.1220034
+    },
+    {
+      "type": "relation",
+      "id": 18485498,
+      "center": {
+        "lat": 48.5044185,
+        "lon": -116.9124072
+      },
+      "tags": {
+        "operator": "Northern Lights Inc",
+        "power": "substation",
+        "substation": "yes",
+        "type": "multipolygon"
+      },
+      "lat": 48.5044185,
+      "lon": -116.9124072
+    }
+  ]
+}

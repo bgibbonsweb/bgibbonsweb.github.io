@@ -1,0 +1,4442 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-04-24T20:51:16Z",
+    "timestamp_areas_base": "2026-04-24T15:53:36Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 87263427,
+      "center": {
+        "lat": 36.6874678,
+        "lon": -108.476547
+      },
+      "tags": {
+        "addr:city": "Fruitland",
+        "addr:state": "NM",
+        "addr:street": "APS Access Road",
+        "landuse": "industrial",
+        "name": "Four Corners Generating Station",
+        "operator": "APS",
+        "plant:method": "combustion",
+        "plant:output:electricity": "1636.2 MW",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "2442",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1963-05",
+        "website": "https://www.aps.com/en/ourcompany/generationtransmission/generation/pages/home.aspx",
+        "wikidata": "Q5475105",
+        "wikipedia": "en:Four Corners Generating Station"
+      },
+      "lat": 36.6874678,
+      "lon": -108.476547
+    },
+    {
+      "type": "way",
+      "id": 142436527,
+      "center": {
+        "lat": 33.1533283,
+        "lon": -107.1921066
+      },
+      "tags": {
+        "generator:type": "francis_turbine",
+        "landuse": "industrial",
+        "name": "Elephant Butte Hydroelectric Plant",
+        "operator": "WAPA",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "27.9 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "6402",
+        "source": "bing",
+        "start_date": "1940-11"
+      },
+      "lat": 33.1533283,
+      "lon": -107.1921066
+    },
+    {
+      "type": "way",
+      "id": 149297217,
+      "center": {
+        "lat": 32.6277728,
+        "lon": -107.2587333
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Hatch Solar Energy Center",
+        "operator": "NextEra Energy",
+        "operator:wikidata": "Q967868",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "57591",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022;NAIP",
+        "start_date": "2011-06",
+        "wikidata": "Q14705987"
+      },
+      "lat": 32.6277728,
+      "lon": -107.2587333
+    },
+    {
+      "type": "way",
+      "id": 149496885,
+      "center": {
+        "lat": 31.8029579,
+        "lon": -106.6706115
+      },
+      "tags": {
+        "name": "Roadrunner Solar Generating Facility",
+        "operator": "NRG Energy",
+        "operator:wikidata": "Q6955139",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "20.2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "57338",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2011-08"
+      },
+      "lat": 31.8029579,
+      "lon": -106.6706115
+    },
+    {
+      "type": "way",
+      "id": 154962941,
+      "center": {
+        "lat": 35.6279051,
+        "lon": -106.0856667
+      },
+      "tags": {
+        "generator:source": "solar",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "source": "Bing"
+      },
+      "lat": 35.6279051,
+      "lon": -106.0856667
+    },
+    {
+      "type": "way",
+      "id": 163763968,
+      "center": {
+        "lat": 32.1136874,
+        "lon": -106.8472015
+      },
+      "tags": {
+        "addr:city": "Afton",
+        "addr:state": "NM",
+        "addr:street": "West Afton Road",
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Afton Generating Station",
+        "operator": "Public Service Co of NM",
+        "plant:method": "combustion",
+        "plant:output:electricity": "287 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "55210",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2002-11",
+        "wikidata": "Q11956993"
+      },
+      "lat": 32.1136874,
+      "lon": -106.8472015
+    },
+    {
+      "type": "way",
+      "id": 164025259,
+      "center": {
+        "lat": 35.0837969,
+        "lon": -106.6252591
+      },
+      "tags": {
+        "addr:city": "Albuquerque",
+        "addr:housenumber": "300",
+        "addr:state": "NM",
+        "addr:street": "University Boulevard Northeast",
+        "building": "yes",
+        "ele": "1577",
+        "gnis:feature_id": "933127",
+        "landuse": "industrial",
+        "name": "Ford Utilities Center",
+        "operator": "University of New Mexico",
+        "plant:method": "combustion",
+        "plant:output:electricity": "14.8 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "gas;waste",
+        "power": "plant",
+        "ref": "116",
+        "ref:US:EIA": "50906",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1984-02",
+        "website": "https://iss.unm.edu/ppd/utilities.html"
+      },
+      "lat": 35.0837969,
+      "lon": -106.6252591
+    },
+    {
+      "type": "way",
+      "id": 251887379,
+      "center": {
+        "lat": 32.9784604,
+        "lon": -105.9718013
+      },
+      "tags": {
+        "addr:housenumber": "155",
+        "addr:state": "NM",
+        "addr:street": "Alamo Street",
+        "name": "Otero Solar",
+        "operator": "PNM Resources",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "8 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "58520",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2013-12"
+      },
+      "lat": 32.9784604,
+      "lon": -105.9718013
+    },
+    {
+      "type": "way",
+      "id": 257620192,
+      "center": {
+        "lat": 35.6296851,
+        "lon": -106.0844269
+      },
+      "tags": {
+        "generator:source": "solar",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "source": "Bing 2012"
+      },
+      "lat": 35.6296851,
+      "lon": -106.0844269
+    },
+    {
+      "type": "way",
+      "id": 257620193,
+      "center": {
+        "lat": 35.6289682,
+        "lon": -106.0858808
+      },
+      "tags": {
+        "generator:source": "solar",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "source": "Bing 2012"
+      },
+      "lat": 35.6289682,
+      "lon": -106.0858808
+    },
+    {
+      "type": "way",
+      "id": 257620194,
+      "center": {
+        "lat": 35.6293483,
+        "lon": -106.086526
+      },
+      "tags": {
+        "generator:source": "solar",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "source": "Bing 2012"
+      },
+      "lat": 35.6293483,
+      "lon": -106.086526
+    },
+    {
+      "type": "way",
+      "id": 290364079,
+      "center": {
+        "lat": 35.1526154,
+        "lon": -106.546984
+      },
+      "tags": {
+        "name": "RC Energy AA LLC Solar Facility",
+        "operator": "RC Energy AA LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "62756",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2011-01"
+      },
+      "lat": 35.1526154,
+      "lon": -106.546984
+    },
+    {
+      "type": "way",
+      "id": 321758881,
+      "center": {
+        "lat": 32.3497718,
+        "lon": -108.6975787
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Lordsburg Generating Station",
+        "operator": "Public Service Co of NM",
+        "plant:output:electricity": "88 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "7967",
+        "source": "http://globalenergyobservatory.org/geoid/4075",
+        "start_date": "2002-06"
+      },
+      "lat": 32.3497718,
+      "lon": -108.6975787
+    },
+    {
+      "type": "way",
+      "id": 322508309,
+      "center": {
+        "lat": 35.0142447,
+        "lon": -106.6686292
+      },
+      "tags": {
+        "addr:housenumber": "4401",
+        "addr:state": "NM",
+        "addr:street": "2nd Street Southwest",
+        "barrier": "fence",
+        "landuse": "industrial",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.0142447,
+      "lon": -106.6686292
+    },
+    {
+      "type": "way",
+      "id": 374648790,
+      "center": {
+        "lat": 34.8322008,
+        "lon": -106.7717287
+      },
+      "tags": {
+        "addr:city": "Los Lunas",
+        "addr:housenumber": "4320",
+        "addr:postcode": "87031",
+        "addr:state": "NM",
+        "addr:street": "Messenger Loop Northwest",
+        "addr:unit": "C",
+        "barrier": "fence",
+        "name": "Los Lunas Solar Energy Center",
+        "operator": "Public Service Company of New Mexico",
+        "operator:short": "PNM",
+        "operator:wikidata": "Q112271592",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "7 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "57571",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2011-06"
+      },
+      "lat": 34.8322008,
+      "lon": -106.7717287
+    },
+    {
+      "type": "way",
+      "id": 388096759,
+      "center": {
+        "lat": 35.0484587,
+        "lon": -106.5296023
+      },
+      "tags": {
+        "barrier": "fence",
+        "frequency": "60",
+        "name": "Eubank Landfill Solar Array",
+        "operator": "Suncore Photovoltaics, Inc",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "59393",
+        "source": "Bing and Mapbox Satellite imagery",
+        "start_date": "2013-11",
+        "wikidata": "Q65091612"
+      },
+      "lat": 35.0484587,
+      "lon": -106.5296023
+    },
+    {
+      "type": "way",
+      "id": 393543564,
+      "center": {
+        "lat": 32.3449208,
+        "lon": -104.234748
+      },
+      "tags": {
+        "name": "SunE SPS5 Hopi",
+        "operator": "SunE SPS5, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "10.1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "57740",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2011-12"
+      },
+      "lat": 32.3449208,
+      "lon": -104.234748
+    },
+    {
+      "type": "way",
+      "id": 397891761,
+      "center": {
+        "lat": 36.4683815,
+        "lon": -104.6389535
+      },
+      "tags": {
+        "addr:city": "Cimarron",
+        "addr:state": "NM",
+        "landuse": "industrial",
+        "name": "Cimarron Solar Facility",
+        "operator": "First Solar",
+        "owner": "Southern Power;Turner Renewable Energy",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "30 MW",
+        "plant:source": "solar",
+        "plant:type": "solar_photovoltaic_panel",
+        "power": "plant",
+        "ref:US:EIA": "57243",
+        "source": "Mapbox",
+        "start_date": "2010-03",
+        "wikidata": "Q5120102"
+      },
+      "lat": 36.4683815,
+      "lon": -104.6389535
+    },
+    {
+      "type": "way",
+      "id": 397896581,
+      "center": {
+        "lat": 36.3985234,
+        "lon": -104.5940105
+      },
+      "tags": {
+        "addr:city": "Springer",
+        "addr:state": "NM",
+        "addr:street": "West Frontage Road",
+        "landuse": "industrial",
+        "name": "Springer Solar Farm",
+        "operator": "Springer Electric Cooperative",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "59560",
+        "source": "Mapbox",
+        "start_date": "2015-05",
+        "website": "https://www.rd.usda.gov/newsroom/news-release/springer-electric-cooperative-breaks-ground-solar-power-project"
+      },
+      "lat": 36.3985234,
+      "lon": -104.5940105
+    },
+    {
+      "type": "way",
+      "id": 449466228,
+      "center": {
+        "lat": 32.299452,
+        "lon": -107.7835398
+      },
+      "tags": {
+        "addr:city": "Deming",
+        "addr:state": "NM",
+        "addr:street": "Arrowhead Drive Northwest",
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Luna Energy Facility",
+        "operator": "PNM",
+        "plant:method": "combustion",
+        "plant:output:electricity": "650 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "55343",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2006-04",
+        "wikidata": "Q19380279"
+      },
+      "lat": 32.299452,
+      "lon": -107.7835398
+    },
+    {
+      "type": "way",
+      "id": 449466231,
+      "center": {
+        "lat": 35.0273058,
+        "lon": -106.6424202
+      },
+      "tags": {
+        "addr:city": "Albuquerque",
+        "addr:housenumber": "725",
+        "addr:state": "NM",
+        "addr:street": "Electric Avenue Southeast",
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Rio Bravo Power Plant",
+        "old_name": "Delta Power Co. Person's Generating Station",
+        "operator": "Public Service Co of NM",
+        "plant:method": "combustion",
+        "plant:output:electricity": "150 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "55039",
+        "source": "https://en.wikipedia.org/wiki/List_of_power_stations_in_New_Mexico",
+        "start_date": "2000-04",
+        "wikidata": "Q11995369"
+      },
+      "lat": 35.0273058,
+      "lon": -106.6424202
+    },
+    {
+      "type": "way",
+      "id": 523973371,
+      "center": {
+        "lat": 33.1196586,
+        "lon": -107.2901681
+      },
+      "tags": {
+        "addr:city": "Truth or Consequences",
+        "addr:state": "NM",
+        "addr:street": "Cook Street",
+        "operator": "City of Truth or Consequences",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "59653"
+      },
+      "lat": 33.1196586,
+      "lon": -107.2901681
+    },
+    {
+      "type": "way",
+      "id": 532813897,
+      "center": {
+        "lat": 34.746708,
+        "lon": -106.6544735
+      },
+      "tags": {
+        "addr:city": "Los Lunas",
+        "addr:housenumber": "100",
+        "addr:postcode": "87031",
+        "addr:state": "NM",
+        "addr:street": "Bonita Vista Boulevard",
+        "name": "Manzano Solar",
+        "operator": "Public Service Company of New Mexico",
+        "operator:short": "PNM",
+        "operator:wikidata": "Q112271592",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "8.4 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "58521",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2013-10"
+      },
+      "lat": 34.746708,
+      "lon": -106.6544735
+    },
+    {
+      "type": "way",
+      "id": 536499723,
+      "center": {
+        "lat": 35.5616028,
+        "lon": -106.0851344
+      },
+      "tags": {
+        "addr:city": "Santa Fe",
+        "addr:housenumber": "27302",
+        "addr:postcode": "87508",
+        "addr:state": "NM",
+        "addr:street": "East Interstate Highway 25 Frontage Road",
+        "name": "Santa Fe Solar Energy Center",
+        "operator": "Public Service Company of New Mexico",
+        "operator:short": "PNM",
+        "operator:wikidata": "Q112271592",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "9.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60196",
+        "source": "Bing",
+        "start_date": "2015-12"
+      },
+      "lat": 35.5616028,
+      "lon": -106.0851344
+    },
+    {
+      "type": "way",
+      "id": 559769120,
+      "center": {
+        "lat": 34.8097355,
+        "lon": -106.5176535
+      },
+      "tags": {
+        "name": "Meadow Lake Solar Energy Center",
+        "operator": "PNM Resources",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "9.1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "59618",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2015-01"
+      },
+      "lat": 34.8097355,
+      "lon": -106.5176535
+    },
+    {
+      "type": "way",
+      "id": 561550940,
+      "center": {
+        "lat": 34.6369138,
+        "lon": -106.7001327
+      },
+      "tags": {
+        "addr:city": "Rio Communities",
+        "addr:state": "NM",
+        "addr:street": "North Navajo Loop",
+        "name": "Rio Communities Solar Energy Center",
+        "operator": "PNM Resources",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "10 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60198",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2015-12"
+      },
+      "lat": 34.6369138,
+      "lon": -106.7001327
+    },
+    {
+      "type": "way",
+      "id": 622049356,
+      "center": {
+        "lat": 36.7167595,
+        "lon": -108.214848
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "FEUS Bluffview Plant",
+        "operator": "City of Farmington - (NM)",
+        "plant:method": "combustion",
+        "plant:output:electricity": "67 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "55977",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2005-05"
+      },
+      "lat": 36.7167595,
+      "lon": -108.214848
+    },
+    {
+      "type": "way",
+      "id": 669794725,
+      "center": {
+        "lat": 31.8049423,
+        "lon": -106.5484641
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Rio Grande Power Plant",
+        "operator": "El Paso Electric Co",
+        "plant:method": "combustion",
+        "plant:output:electricity": "398.3 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "2444",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1957-06",
+        "wikidata": "Q11997937"
+      },
+      "lat": 31.8049423,
+      "lon": -106.5484641
+    },
+    {
+      "type": "way",
+      "id": 673133764,
+      "center": {
+        "lat": 35.0020875,
+        "lon": -106.6372861
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Prosperity Energy Storage Facility Hybrid",
+        "operator": "Public Service Co of NM",
+        "plant:output:electricity": "1.3 MW",
+        "plant:source": "solar;battery",
+        "power": "plant",
+        "ref:US:EIA": "58899",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2011-09"
+      },
+      "lat": 35.0020875,
+      "lon": -106.6372861
+    },
+    {
+      "type": "way",
+      "id": 673526228,
+      "center": {
+        "lat": 35.1842309,
+        "lon": -103.7312867
+      },
+      "tags": {
+        "addr:city": "Tucumcari",
+        "addr:housenumber": "510",
+        "addr:postcode": "88401",
+        "addr:state": "NM",
+        "addr:street": "West Campbell Avenue",
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Quay County Power Plant",
+        "operator": "Southwestern Public Service Co",
+        "plant:method": "combustion",
+        "plant:output:electricity": "27 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "58125",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2013-10"
+      },
+      "lat": 35.1842309,
+      "lon": -103.7312867
+    },
+    {
+      "type": "way",
+      "id": 680540870,
+      "center": {
+        "lat": 35.168915,
+        "lon": -106.600095
+      },
+      "tags": {
+        "generator:place": "ground",
+        "name": "Albuquerque Solar Energy Center",
+        "operator": "Public Service Company of New Mexico",
+        "operator:short": "PNM",
+        "operator:wikidata": "Q112271592",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "57567",
+        "source": "Mapbox Satellite imagery",
+        "start_date": "2011-04",
+        "wikidata": "Q116716464"
+      },
+      "lat": 35.168915,
+      "lon": -106.600095
+    },
+    {
+      "type": "way",
+      "id": 685991068,
+      "center": {
+        "lat": 32.7133706,
+        "lon": -103.3545864
+      },
+      "tags": {
+        "addr:city": "Arkansas Junction",
+        "addr:postcode": "88242",
+        "addr:state": "NM",
+        "addr:street": "South NM Highway 483",
+        "landuse": "industrial",
+        "name": "Cunningham Station",
+        "operator": "Southwestern Public Service Co",
+        "plant:method": "combustion",
+        "plant:output:electricity": "519.2 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "2454",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1957-01",
+        "wikidata": "Q11964241"
+      },
+      "lat": 32.7133706,
+      "lon": -103.3545864
+    },
+    {
+      "type": "way",
+      "id": 685991070,
+      "center": {
+        "lat": 32.7291082,
+        "lon": -103.310072
+      },
+      "tags": {
+        "addr:city": "Hobbs",
+        "addr:state": "NM",
+        "addr:street": "North Twombly Lane",
+        "landuse": "industrial",
+        "name": "Hobbs Generating Station",
+        "operator": "Lea Power Partners LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "681.5 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "56458",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2008-09",
+        "wikidata": "Q11975558"
+      },
+      "lat": 32.7291082,
+      "lon": -103.310072
+    },
+    {
+      "type": "way",
+      "id": 685991071,
+      "center": {
+        "lat": 32.7145702,
+        "lon": -103.3015575
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Maddox Power Plant",
+        "operator": "Southwestern Public Service Co",
+        "plant:method": "combustion",
+        "plant:output:electricity": "212 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "2446",
+        "source": "http://globalenergyobservatory.org/geoid/4126",
+        "start_date": "1963-01"
+      },
+      "lat": 32.7145702,
+      "lon": -103.3015575
+    },
+    {
+      "type": "way",
+      "id": 686100705,
+      "center": {
+        "lat": 35.6584174,
+        "lon": -105.1837622
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Storrie Lake Solar Project",
+        "operator": "MSM Solar LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "58794",
+        "source": "ESRI World Imagery",
+        "start_date": "2014-05"
+      },
+      "lat": 35.6584174,
+      "lon": -105.1837622
+    },
+    {
+      "type": "way",
+      "id": 689629040,
+      "center": {
+        "lat": 36.1880095,
+        "lon": -105.6821268
+      },
+      "tags": {
+        "addr:city": "Vadito",
+        "addr:housenumber": "1",
+        "addr:state": "NM",
+        "addr:street": "Camino del Vadito",
+        "name": "Picuris Solar Farm",
+        "operator": "Picuris Pueblo",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "start_date": "2017-12-18"
+      },
+      "lat": 36.1880095,
+      "lon": -105.6821268
+    },
+    {
+      "type": "way",
+      "id": 690564788,
+      "center": {
+        "lat": 32.9781038,
+        "lon": -103.3238082
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "LCEC Generation LLVC",
+        "operator": "Western Farmers Elec Coop, Inc",
+        "plant:method": "combustion",
+        "plant:output:electricity": "46.5 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "57872",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2012-02"
+      },
+      "lat": 32.9781038,
+      "lon": -103.3238082
+    },
+    {
+      "type": "way",
+      "id": 690591255,
+      "center": {
+        "lat": 35.7773751,
+        "lon": -106.1132293
+      },
+      "tags": {
+        "addr:city": "Santa Fe",
+        "addr:state": "NM",
+        "addr:street": "Old Buckman Road",
+        "full_name": "Buckman Direction Diversion 2A",
+        "name": "BDD 2A Solar Farm",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref": "BDD 2A",
+        "start_date": "2014-01-01"
+      },
+      "lat": 35.7773751,
+      "lon": -106.1132293
+    },
+    {
+      "type": "way",
+      "id": 697035189,
+      "center": {
+        "lat": 35.4645484,
+        "lon": -106.2939805
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.4645484,
+      "lon": -106.2939805
+    },
+    {
+      "type": "way",
+      "id": 699003152,
+      "center": {
+        "lat": 35.3846994,
+        "lon": -106.4645294
+      },
+      "tags": {
+        "addr:city": "Algodones",
+        "addr:housenumber": "1510",
+        "addr:postcode": "87001",
+        "addr:state": "NM",
+        "addr:street": "El Camino Real",
+        "disused:power": "plant",
+        "landuse": "industrial",
+        "name": "Algodones Generating Station",
+        "operator": "Public Service Co of NM",
+        "plant:method": "combustion",
+        "plant:output:electricity": "45 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "2475",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1954-10",
+        "wikidata": "Q116696926"
+      },
+      "lat": 35.3846994,
+      "lon": -106.4645294
+    },
+    {
+      "type": "way",
+      "id": 700941213,
+      "center": {
+        "lat": 35.1429107,
+        "lon": -106.6103847
+      },
+      "tags": {
+        "generator:place": "ground",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "source": "Mapbox Satellite imagery"
+      },
+      "lat": 35.1429107,
+      "lon": -106.6103847
+    },
+    {
+      "type": "way",
+      "id": 705578839,
+      "center": {
+        "lat": 36.7166466,
+        "lon": -105.6068601
+      },
+      "tags": {
+        "addr:city": "Questa",
+        "addr:housenumber": "24",
+        "addr:state": "NM",
+        "addr:street": "Abra Road",
+        "name": "Questa Solar Facility",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "57369",
+        "wikidata": "Q65091780"
+      },
+      "lat": 36.7166466,
+      "lon": -105.6068601
+    },
+    {
+      "type": "way",
+      "id": 705661288,
+      "center": {
+        "lat": 32.0337742,
+        "lon": -106.3365855
+      },
+      "tags": {
+        "name": "El Chaparral Solar Farm",
+        "operator": "SunE EPE1 LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "10 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "57986",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2012-06"
+      },
+      "lat": 32.0337742,
+      "lon": -106.3365855
+    },
+    {
+      "type": "way",
+      "id": 710573556,
+      "center": {
+        "lat": 32.3958311,
+        "lon": -106.4760322
+      },
+      "tags": {
+        "addr:city": "White Sands",
+        "addr:housenumber": "1",
+        "addr:postcode": "88002",
+        "addr:state": "NM",
+        "addr:street": "Owen Road",
+        "barrier": "fence",
+        "name": "WSMR I",
+        "operator": "Siemens Government Technologies Inc",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "4.1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "58010",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2012-12"
+      },
+      "lat": 32.3958311,
+      "lon": -106.4760322
+    },
+    {
+      "type": "way",
+      "id": 710602633,
+      "center": {
+        "lat": 35.0753967,
+        "lon": -106.864383
+      },
+      "tags": {
+        "addr:city": "Albuquerque",
+        "addr:housenumber": "1001",
+        "addr:postcode": "87121",
+        "addr:state": "NM",
+        "addr:street": "Atrisco Vista Boulevard Northwest",
+        "addr:unit": "B",
+        "name": "Facebook 3 Solar Energy Center",
+        "operator": "NMRD Data Center, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "10 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61558",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2018-04"
+      },
+      "lat": 35.0753967,
+      "lon": -106.864383
+    },
+    {
+      "type": "way",
+      "id": 710602634,
+      "center": {
+        "lat": 35.0791674,
+        "lon": -106.8647434
+      },
+      "tags": {
+        "addr:city": "Albuquerque",
+        "addr:housenumber": "1001",
+        "addr:postcode": "87121",
+        "addr:state": "NM",
+        "addr:street": "Atrisco Vista Boulevard Northwest",
+        "addr:unit": "A",
+        "name": "Facebook 2 Solar Energy Center",
+        "operator": "NMRD Data Center, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "10 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61557",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2018-02"
+      },
+      "lat": 35.0791674,
+      "lon": -106.8647434
+    },
+    {
+      "type": "way",
+      "id": 712205755,
+      "center": {
+        "lat": 35.65179,
+        "lon": -105.9708947
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.65179,
+      "lon": -105.9708947
+    },
+    {
+      "type": "way",
+      "id": 712205756,
+      "center": {
+        "lat": 35.6518022,
+        "lon": -105.9676459
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.6518022,
+      "lon": -105.9676459
+    },
+    {
+      "type": "way",
+      "id": 712205757,
+      "center": {
+        "lat": 35.6518506,
+        "lon": -105.9661312
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.6518506,
+      "lon": -105.9661312
+    },
+    {
+      "type": "way",
+      "id": 712205759,
+      "center": {
+        "lat": 35.6508066,
+        "lon": -105.9731076
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.6508066,
+      "lon": -105.9731076
+    },
+    {
+      "type": "way",
+      "id": 712411506,
+      "center": {
+        "lat": 35.6929073,
+        "lon": -106.0799336
+      },
+      "tags": {
+        "addr:city": "Santa Fe",
+        "addr:housenumber": "341",
+        "addr:postcode": "87500",
+        "addr:state": "NM",
+        "addr:street": "Caja Del Rio Road",
+        "name": "BDD Solar Farm",
+        "operator": "Buckman Direction Diversion Plant - City of Santa Fe",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "start_date": "2014-01-01"
+      },
+      "lat": 35.6929073,
+      "lon": -106.0799336
+    },
+    {
+      "type": "way",
+      "id": 713477403,
+      "center": {
+        "lat": 35.6239842,
+        "lon": -106.044375
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.6239842,
+      "lon": -106.044375
+    },
+    {
+      "type": "way",
+      "id": 713477404,
+      "center": {
+        "lat": 35.6245055,
+        "lon": -106.0439278
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.6245055,
+      "lon": -106.0439278
+    },
+    {
+      "type": "way",
+      "id": 714078351,
+      "center": {
+        "lat": 32.866096,
+        "lon": -106.0001152
+      },
+      "tags": {
+        "name": "Alamogordo Solar Farm",
+        "note": "I used the tags according to: https://wiki.openstreetmap.org/wiki/Tag:power%3Dplant",
+        "operator": "PNM",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "5 MW",
+        "plant:source": "solar",
+        "plant:type": "solar_photovoltaic_panel",
+        "power": "plant",
+        "ref:US:EIA": "57577"
+      },
+      "lat": 32.866096,
+      "lon": -106.0001152
+    },
+    {
+      "type": "way",
+      "id": 714078354,
+      "center": {
+        "lat": 32.8440331,
+        "lon": -106.0103495
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 32.8440331,
+      "lon": -106.0103495
+    },
+    {
+      "type": "way",
+      "id": 714078355,
+      "center": {
+        "lat": 32.8417282,
+        "lon": -106.0075611
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 32.8417282,
+      "lon": -106.0075611
+    },
+    {
+      "type": "way",
+      "id": 718278000,
+      "center": {
+        "lat": 35.5882218,
+        "lon": -106.0436851
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.5882218,
+      "lon": -106.0436851
+    },
+    {
+      "type": "way",
+      "id": 725037239,
+      "center": {
+        "lat": 35.6013288,
+        "lon": -105.9972317
+      },
+      "tags": {
+        "addr:city": "Santa Fe",
+        "addr:housenumber": "6401",
+        "addr:postcode": "87508",
+        "addr:state": "NM",
+        "addr:street": "Richards Avenue",
+        "capacity": "327",
+        "landuse": "industrial",
+        "name": "SFCC Solar Farm",
+        "note": "327 Panels",
+        "operator": "Santa Fe Community College",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "website": "https://www.sfcc.edu/resources/community-resources/sustainability-at-sfcc/solar-array/"
+      },
+      "lat": 35.6013288,
+      "lon": -105.9972317
+    },
+    {
+      "type": "way",
+      "id": 725427992,
+      "center": {
+        "lat": 34.611044,
+        "lon": -106.7319437
+      },
+      "tags": {
+        "addr:city": "Belen",
+        "addr:housenumber": "55",
+        "addr:postcode": "87002",
+        "addr:state": "NM",
+        "addr:street": "Christine Drive",
+        "description": "Southwest Generation Valencia Power",
+        "landuse": "industrial",
+        "name": "Valencia Energy Facility",
+        "operator": "Valencia Power LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "159.5 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "55802",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2008-05"
+      },
+      "lat": 34.611044,
+      "lon": -106.7319437
+    },
+    {
+      "type": "way",
+      "id": 741784621,
+      "center": {
+        "lat": 35.2830313,
+        "lon": -106.8127783
+      },
+      "tags": {
+        "addr:city": "Rio Rancho",
+        "addr:state": "NM",
+        "name": "Sandoval Solar Energy Center",
+        "operator": "PNM Resources",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "6.1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "59558",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2014-12"
+      },
+      "lat": 35.2830313,
+      "lon": -106.8127783
+    },
+    {
+      "type": "way",
+      "id": 744250069,
+      "center": {
+        "lat": 36.8053209,
+        "lon": -107.6137201
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Navajo Dam Power House",
+        "operator": "City of Farmington - (NM)",
+        "plant:output:electricity": "30 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "584",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1989-01"
+      },
+      "lat": 36.8053209,
+      "lon": -107.6137201
+    },
+    {
+      "type": "way",
+      "id": 756778312,
+      "center": {
+        "lat": 34.8339058,
+        "lon": -106.781225
+      },
+      "tags": {
+        "addr:city": "Los Lunas",
+        "addr:housenumber": "4320",
+        "addr:postcode": "87031",
+        "addr:state": "NM",
+        "addr:street": "Messenger Loop Northwest",
+        "addr:unit": "B",
+        "barrier": "fence",
+        "name": "Facebook 1 Solar Energy Center",
+        "operator": "NMRD Data Center, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "10 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61556",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2017-12"
+      },
+      "lat": 34.8339058,
+      "lon": -106.781225
+    },
+    {
+      "type": "way",
+      "id": 759670610,
+      "center": {
+        "lat": 34.616831,
+        "lon": -106.8157504
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "La Luz Energy Center",
+        "operator": "Public Service Co of NM",
+        "plant:method": "combustion",
+        "plant:output:electricity": "42.3 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "58284",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2015-12"
+      },
+      "lat": 34.616831,
+      "lon": -106.8157504
+    },
+    {
+      "type": "way",
+      "id": 768837443,
+      "center": {
+        "lat": 32.2478887,
+        "lon": -106.9107062
+      },
+      "tags": {
+        "name": "Las Cruces Centennial Solar Farm",
+        "operator": "SunE EPE2 LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "12 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "57985",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2012-05"
+      },
+      "lat": 32.2478887,
+      "lon": -106.9107062
+    },
+    {
+      "type": "way",
+      "id": 777864774,
+      "center": {
+        "lat": 36.2398697,
+        "lon": -106.4230592
+      },
+      "tags": {
+        "addr:city": "Abiquiu",
+        "addr:state": "NM",
+        "landuse": "industrial",
+        "name": "Abiquiu Generating Station",
+        "operator": "Los Alamos Department of Public Utilities",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "15.6 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "7789",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1989-04"
+      },
+      "lat": 36.2398697,
+      "lon": -106.4230592
+    },
+    {
+      "type": "way",
+      "id": 777868415,
+      "center": {
+        "lat": 36.5928495,
+        "lon": -106.7319325
+      },
+      "tags": {
+        "addr:city": "El Vado",
+        "addr:state": "NM",
+        "landuse": "industrial",
+        "name": "El Vado Generating Station",
+        "operator": "Los Alamos Department of Public Utilities",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "8 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "7593",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1988-05"
+      },
+      "lat": 36.5928495,
+      "lon": -106.7319325
+    },
+    {
+      "type": "way",
+      "id": 777917759,
+      "center": {
+        "lat": 32.2651231,
+        "lon": -106.918718
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 32.2651231,
+      "lon": -106.918718
+    },
+    {
+      "type": "way",
+      "id": 778114766,
+      "center": {
+        "lat": 35.5242368,
+        "lon": -108.7695783
+      },
+      "tags": {
+        "addr:city": "Gallup",
+        "addr:state": "NM",
+        "barrier": "fence",
+        "name": "Gallup River Plain Solar Farm",
+        "operator": "Standard Solar",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "8 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "62406",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2018-05"
+      },
+      "lat": 35.5242368,
+      "lon": -108.7695783
+    },
+    {
+      "type": "way",
+      "id": 781418018,
+      "center": {
+        "lat": 35.5371117,
+        "lon": -105.9088378
+      },
+      "tags": {
+        "operator": "Santa Fe County",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "source:date": "https://sfreporter.com/news/2020/03/11/solarized-santa-fe",
+        "start_date": "2020-05"
+      },
+      "lat": 35.5371117,
+      "lon": -105.9088378
+    },
+    {
+      "type": "way",
+      "id": 783819363,
+      "center": {
+        "lat": 34.9861238,
+        "lon": -106.7306449
+      },
+      "tags": {
+        "addr:city": "Albuquerque",
+        "addr:state": "NM",
+        "name": "South Valley Solar Energy Center",
+        "operator": "PNM",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "10 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60195",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2015-12"
+      },
+      "lat": 34.9861238,
+      "lon": -106.7306449
+    },
+    {
+      "type": "way",
+      "id": 800211670,
+      "center": {
+        "lat": 32.2367263,
+        "lon": -108.548137
+      },
+      "tags": {
+        "addr:city": "Lordsburg",
+        "addr:housenumber": "53",
+        "addr:postcode": "88045",
+        "addr:state": "NM",
+        "addr:street": "Ramos Farm Road",
+        "construction_year": "2003",
+        "landuse": "industrial",
+        "name": "Pyramid Generating Station",
+        "operator": "Tri-State Generation and Transmission Association",
+        "plant:method": "combustion",
+        "plant:output:electricity": "186 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "7975",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2003-03",
+        "wikidata": "Q19385858"
+      },
+      "lat": 32.2367263,
+      "lon": -108.548137
+    },
+    {
+      "type": "way",
+      "id": 830563513,
+      "center": {
+        "lat": 35.6090575,
+        "lon": -105.241424
+      },
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:state": "NM",
+        "addr:street": "Hot Springs Boulevard",
+        "building": "yes",
+        "landuse": "industrial",
+        "name": "Plant",
+        "plant:method": "combustion",
+        "plant:output:electricity": "yes",
+        "plant:source": "coal",
+        "power": "plant",
+        "source": "microsoft/BuildingFootprints"
+      },
+      "lat": 35.6090575,
+      "lon": -105.241424
+    },
+    {
+      "type": "way",
+      "id": 869982974,
+      "center": {
+        "lat": 35.5722371,
+        "lon": -106.0882225
+      },
+      "tags": {
+        "name": "Armory Solar Farm",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.5722371,
+      "lon": -106.0882225
+    },
+    {
+      "type": "way",
+      "id": 889078748,
+      "center": {
+        "lat": 35.2060156,
+        "lon": -106.7310223
+      },
+      "tags": {
+        "name": "Irving Solar Farm",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.2060156,
+      "lon": -106.7310223
+    },
+    {
+      "type": "way",
+      "id": 898089198,
+      "center": {
+        "lat": 35.281856,
+        "lon": -106.6557569
+      },
+      "tags": {
+        "fence": "yes",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.281856,
+      "lon": -106.6557569
+    },
+    {
+      "type": "way",
+      "id": 901807718,
+      "center": {
+        "lat": 35.3563235,
+        "lon": -106.8581654
+      },
+      "tags": {
+        "addr:city": "Rio Rancho",
+        "addr:state": "NM",
+        "addr:street": "Encino Road Northwest",
+        "name": "Encino Solar Energy Center",
+        "operator": "NMRD Data Center, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "55 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "63860",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2020-07"
+      },
+      "lat": 35.3563235,
+      "lon": -106.8581654
+    },
+    {
+      "type": "way",
+      "id": 902201603,
+      "center": {
+        "lat": 35.2418805,
+        "lon": -107.9517696
+      },
+      "tags": {
+        "name": "Bluewater CDEC 1",
+        "operator": "Lightsource Renewable Energy Asset Management, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2.4 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "62994",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2019-12"
+      },
+      "lat": 35.2418805,
+      "lon": -107.9517696
+    },
+    {
+      "type": "way",
+      "id": 904936695,
+      "center": {
+        "lat": 35.0179008,
+        "lon": -106.105276
+      },
+      "tags": {
+        "addr:city": "Moriarty",
+        "addr:housenumber": "1",
+        "addr:state": "NM",
+        "addr:street": "Clayton Road West",
+        "name": "Britton Solar Energy Center",
+        "operator": "NMRD Data Center, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "50 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "63579",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2019-12"
+      },
+      "lat": 35.0179008,
+      "lon": -106.105276
+    },
+    {
+      "type": "way",
+      "id": 908458843,
+      "center": {
+        "lat": 35.1812576,
+        "lon": -106.809861
+      },
+      "tags": {
+        "addr:city": "Rio Rancho",
+        "addr:housenumber": "9951",
+        "addr:postcode": "87114",
+        "addr:state": "NM",
+        "addr:street": "Paseo de Volcan Southwest",
+        "name": "Atrisco Solar Farm",
+        "operator": "Enlight Renewable Energy",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "360 MW",
+        "plant:source": "solar",
+        "plant:storage": "1200 MWh",
+        "power": "plant",
+        "ref:US:EIA": "63184"
+      },
+      "lat": 35.1812576,
+      "lon": -106.809861
+    },
+    {
+      "type": "way",
+      "id": 917693134,
+      "center": {
+        "lat": 35.255134,
+        "lon": -107.3851013
+      },
+      "tags": {
+        "name": "Red Mesa Wind",
+        "operator": "Laguna Pueblo",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "102.4 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57357",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2010-12"
+      },
+      "lat": 35.255134,
+      "lon": -107.3851013
+    },
+    {
+      "type": "way",
+      "id": 926061945,
+      "center": {
+        "lat": 35.087551,
+        "lon": -106.6200089
+      },
+      "tags": {
+        "landuse": "industrial",
+        "power": "plant"
+      },
+      "lat": 35.087551,
+      "lon": -106.6200089
+    },
+    {
+      "type": "way",
+      "id": 940897857,
+      "center": {
+        "lat": 36.8922324,
+        "lon": -104.4425272
+      },
+      "tags": {
+        "landuse": "industrial",
+        "power": "plant"
+      },
+      "lat": 36.8922324,
+      "lon": -104.4425272
+    },
+    {
+      "type": "way",
+      "id": 940897859,
+      "center": {
+        "lat": 36.8926011,
+        "lon": -104.4417567
+      },
+      "tags": {
+        "landuse": "industrial",
+        "plant:method": "combustion",
+        "plant:output:electricity": "yes",
+        "plant:source": "coal",
+        "power": "plant"
+      },
+      "lat": 36.8926011,
+      "lon": -104.4417567
+    },
+    {
+      "type": "way",
+      "id": 941157567,
+      "center": {
+        "lat": 33.4438242,
+        "lon": -104.4395553
+      },
+      "tags": {
+        "addr:city": "Roswell",
+        "addr:housenumber": "65",
+        "addr:postcode": "88201",
+        "addr:state": "NM",
+        "addr:street": "Outlaw Trail",
+        "barrier": "fence",
+        "name": "Roswell Solar Farm",
+        "operator": "NextEra",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "70 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60406",
+        "start_date": "2016",
+        "year_of_construction": "2016"
+      },
+      "lat": 33.4438242,
+      "lon": -104.4395553
+    },
+    {
+      "type": "way",
+      "id": 941157568,
+      "center": {
+        "lat": 33.4481331,
+        "lon": -104.4585828
+      },
+      "tags": {
+        "barrier": "fence",
+        "fixme": "Roswell Solar Farm 2 & Chaves Solar appear to be a single unit generating 70 MW (Chaves Solar)",
+        "name": "Chaves Solar 2",
+        "note": "Roswell Solar Farm 2 & Chaves Solar appear to be a single unit generating 70 MW (Chaves Solar)",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 33.4481331,
+      "lon": -104.4585828
+    },
+    {
+      "type": "way",
+      "id": 941157569,
+      "center": {
+        "lat": 33.4620772,
+        "lon": -104.4625912
+      },
+      "tags": {
+        "addr:city": "Roswell",
+        "addr:housenumber": "3683",
+        "addr:postcode": "88201",
+        "addr:state": "NM",
+        "addr:street": "East Pine Lodge Road",
+        "barrier": "fence",
+        "name": "Chaves Solar",
+        "operator": "NextEra",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "70 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60405",
+        "start_date": "2016",
+        "year_of_construction": "2016"
+      },
+      "lat": 33.4620772,
+      "lon": -104.4625912
+    },
+    {
+      "type": "way",
+      "id": 952707124,
+      "center": {
+        "lat": 34.7410866,
+        "lon": -106.6575424
+      },
+      "tags": {
+        "addr:city": "Los Lunas",
+        "addr:housenumber": "120",
+        "addr:postcode": "87031",
+        "addr:state": "NM",
+        "addr:street": "Bonita Vista Boulevard",
+        "name": "Vista Solar Energy Center",
+        "operator": "Public Service Company of New Mexico",
+        "operator:short": "PNM",
+        "operator:wikidata": "Q112271592",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "10 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "62467",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2019-03"
+      },
+      "lat": 34.7410866,
+      "lon": -106.6575424
+    },
+    {
+      "type": "way",
+      "id": 972714326,
+      "center": {
+        "lat": 35.2534015,
+        "lon": -107.2479102
+      },
+      "tags": {
+        "name": "Cibola Solar",
+        "operator": "PNM Resources",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "7.6 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "59619",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2015-02"
+      },
+      "lat": 35.2534015,
+      "lon": -107.2479102
+    },
+    {
+      "type": "way",
+      "id": 977653894,
+      "center": {
+        "lat": 36.3708041,
+        "lon": -105.6593616
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 36.3708041,
+      "lon": -105.6593616
+    },
+    {
+      "type": "way",
+      "id": 977653897,
+      "center": {
+        "lat": 36.3464415,
+        "lon": -105.6511737
+      },
+      "tags": {
+        "name": "Klauer Campus Solar Farm",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "500 kW",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 36.3464415,
+      "lon": -105.6511737
+    },
+    {
+      "type": "way",
+      "id": 997734282,
+      "center": {
+        "lat": 32.2663742,
+        "lon": -106.7354152
+      },
+      "tags": {
+        "addr:city": "Las Cruces",
+        "addr:state": "NM",
+        "name": "Aggie Power",
+        "note": "There is an additional 1 MW of battery storage",
+        "operator": "El Paso Electric",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "3 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64881"
+      },
+      "lat": 32.2663742,
+      "lon": -106.7354152
+    },
+    {
+      "type": "way",
+      "id": 1003321121,
+      "center": {
+        "lat": 32.9083311,
+        "lon": -105.972235
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Solar Garden",
+        "operator": "Otero County Electric Cooperative",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 32.9083311,
+      "lon": -105.972235
+    },
+    {
+      "type": "way",
+      "id": 1009215055,
+      "center": {
+        "lat": 32.331063,
+        "lon": -106.7155244
+      },
+      "tags": {
+        "barrier": "fence",
+        "operator": "City of Las Cruces",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 32.331063,
+      "lon": -106.7155244
+    },
+    {
+      "type": "way",
+      "id": 1059073751,
+      "center": {
+        "lat": 35.744234,
+        "lon": -105.8332738
+      },
+      "tags": {
+        "name": "Hyde Park Solar Farm",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.744234,
+      "lon": -105.8332738
+    },
+    {
+      "type": "way",
+      "id": 1061615851,
+      "center": {
+        "lat": 36.0913443,
+        "lon": -106.0416645
+      },
+      "tags": {
+        "addr:city": "Alcalde",
+        "addr:state": "NM",
+        "addr:street": "NM 68",
+        "name": "Alcalde Solar Array",
+        "operator": "Jemez Cuba LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2.4 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "63477",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2020-02",
+        "wikidata": "Q116724069"
+      },
+      "lat": 36.0913443,
+      "lon": -106.0416645
+    },
+    {
+      "type": "way",
+      "id": 1061880500,
+      "center": {
+        "lat": 32.054879,
+        "lon": -103.5734005
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 32.054879,
+      "lon": -103.5734005
+    },
+    {
+      "type": "way",
+      "id": 1064833884,
+      "center": {
+        "lat": 36.544483,
+        "lon": -105.276863
+      },
+      "tags": {
+        "addr:city": "Eagle Nest",
+        "addr:state": "NM",
+        "addr:street": "US 64",
+        "name": "Eagle Nest Solar Farm",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "62149",
+        "start_date": "2018"
+      },
+      "lat": 36.544483,
+      "lon": -105.276863
+    },
+    {
+      "type": "way",
+      "id": 1081876610,
+      "center": {
+        "lat": 35.1004333,
+        "lon": -107.6141892
+      },
+      "tags": {
+        "addr:city": "San Fidel",
+        "addr:housenumber": "999",
+        "addr:postcode": "87049",
+        "addr:state": "NM",
+        "addr:street": "NM 124",
+        "name": "Facebook 2-3 Solar Energy Center",
+        "operator": "PNM",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "50 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64076",
+        "source": "https://www.pnm.com/documents/396023/440009/Facebook+Data+Center.pdf/a8dd57f8-7c6c-4ea9-a642-676424b4419c;https://www.kob.com/archive/facebook-announces-800m-expansion-plan-for-los-lunas-data-center/"
+      },
+      "lat": 35.1004333,
+      "lon": -107.6141892
+    },
+    {
+      "type": "way",
+      "id": 1087115378,
+      "center": {
+        "lat": 32.6956334,
+        "lon": -108.1230386
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Chino Mines Power Plant",
+        "operator": "FreePort-McMoRan-Corp-Chino Mines",
+        "plant:method": "combustion",
+        "plant:output:electricity": "54 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "54667",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1930-06"
+      },
+      "lat": 32.6956334,
+      "lon": -108.1230386
+    },
+    {
+      "type": "way",
+      "id": 1087115379,
+      "center": {
+        "lat": 32.6618355,
+        "lon": -108.363409
+      },
+      "tags": {
+        "addr:city": "Tyrone",
+        "addr:state": "NM",
+        "addr:street": "Mangas Valley Road",
+        "landuse": "industrial",
+        "name": "Freeport McMoRan Power Plant",
+        "operator": "Freeport McMoRan Inc",
+        "plant:method": "combustion",
+        "plant:output:electricity": "30.4 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "54734",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1967-12"
+      },
+      "lat": 32.6618355,
+      "lon": -108.363409
+    },
+    {
+      "type": "way",
+      "id": 1087115380,
+      "center": {
+        "lat": 32.1438539,
+        "lon": -108.8381629
+      },
+      "tags": {
+        "addr:city": "Cotton City",
+        "addr:housenumber": "18",
+        "addr:postcode": "88020",
+        "addr:state": "NM",
+        "addr:street": "Greenhouse Drive",
+        "landuse": "industrial",
+        "name": "Lightning Dock Geothermal HI-01",
+        "operator": "Lightning Dock Geothermal HI-01, LLC",
+        "plant:output:electricity": "19.2 MW",
+        "plant:source": "geothermal",
+        "power": "plant",
+        "ref:US:EIA": "58629",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2013-12"
+      },
+      "lat": 32.1438539,
+      "lon": -108.8381629
+    },
+    {
+      "type": "way",
+      "id": 1087115381,
+      "center": {
+        "lat": 32.1687855,
+        "lon": -107.7554672
+      },
+      "tags": {
+        "name": "Deming Solar Energy Center",
+        "operator": "PNM Resources",
+        "plant:output:electricity": "9 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "57575",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2011-08"
+      },
+      "lat": 32.1687855,
+      "lon": -107.7554672
+    },
+    {
+      "type": "way",
+      "id": 1087115382,
+      "center": {
+        "lat": 32.7132775,
+        "lon": -108.2475789
+      },
+      "tags": {
+        "name": "Silver City WWTP PV Project",
+        "operator": "Affordable Solar Silver City, LLC",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "58540",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2013-06"
+      },
+      "lat": 32.7132775,
+      "lon": -108.2475789
+    },
+    {
+      "type": "way",
+      "id": 1087292754,
+      "center": {
+        "lat": 32.9789253,
+        "lon": -103.3713106
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Middle Daisy Solar",
+        "operator": "Onyx Asset Services Group",
+        "plant:output:electricity": "5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61681",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2017-11"
+      },
+      "lat": 32.9789253,
+      "lon": -103.3713106
+    },
+    {
+      "type": "way",
+      "id": 1088677715,
+      "center": {
+        "lat": 35.6439858,
+        "lon": -105.2074317
+      },
+      "tags": {
+        "addr:city": "Las Vegas",
+        "addr:state": "NM",
+        "barrier": "fence",
+        "name": "Las Vegas Solar Energy Center",
+        "operator": "PNM Resources",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "57576",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2011-11"
+      },
+      "lat": 35.6439858,
+      "lon": -105.2074317
+    },
+    {
+      "type": "way",
+      "id": 1088677717,
+      "center": {
+        "lat": 34.6922633,
+        "lon": -106.688899
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Rio De Oro Solar Energy Center",
+        "operator": "PNM Resources",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "10 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "62597",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2019-06"
+      },
+      "lat": 34.6922633,
+      "lon": -106.688899
+    },
+    {
+      "type": "way",
+      "id": 1088677718,
+      "center": {
+        "lat": 35.6346453,
+        "lon": -105.1737111
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "San Miguel Solar Energy Center",
+        "operator": "PNM Resources",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "20 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "63081;63082",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2019-09"
+      },
+      "lat": 35.6346453,
+      "lon": -105.1737111
+    },
+    {
+      "type": "way",
+      "id": 1089493749,
+      "center": {
+        "lat": 35.1423558,
+        "lon": -107.8209078
+      },
+      "tags": {
+        "addr:city": "Grants",
+        "addr:housenumber": "325",
+        "addr:postcode": "87020",
+        "addr:state": "NM",
+        "addr:street": "Sakelares Boulevard",
+        "name": "Grants Solar Farm CDEC 2",
+        "name_1": "Grants CDEC 2",
+        "operator": "Lightsource BP",
+        "operator:wikidata": "Q18589166",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "4.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "62995",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2019-12"
+      },
+      "lat": 35.1423558,
+      "lon": -107.8209078
+    },
+    {
+      "type": "way",
+      "id": 1095349297,
+      "center": {
+        "lat": 34.6926346,
+        "lon": -105.6428099
+      },
+      "tags": {
+        "addr:city": "Moriarty",
+        "addr:state": "NM",
+        "building": "yes",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "yes",
+        "plant:source": "wind",
+        "power": "plant"
+      },
+      "lat": 34.6926346,
+      "lon": -105.6428099
+    },
+    {
+      "type": "way",
+      "id": 1108141045,
+      "center": {
+        "lat": 32.0770238,
+        "lon": -106.2864282
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 32.0770238,
+      "lon": -106.2864282
+    },
+    {
+      "type": "way",
+      "id": 1108141057,
+      "center": {
+        "lat": 32.0740879,
+        "lon": -106.3325641
+      },
+      "tags": {
+        "name": "Buena Vista Energy Center",
+        "operator": "Buena Vista Energy Center, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "170 MW",
+        "plant:source": "battery;solar",
+        "power": "plant",
+        "ref:US:EIA": "66408",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2023-06"
+      },
+      "lat": 32.0740879,
+      "lon": -106.3325641
+    },
+    {
+      "type": "way",
+      "id": 1116185678,
+      "center": {
+        "lat": 36.017698,
+        "lon": -106.9456522
+      },
+      "tags": {
+        "addr:city": "Cuba",
+        "addr:housenumber": "71",
+        "addr:postcode": "87013",
+        "addr:state": "NM",
+        "addr:street": "NM-126",
+        "name": "Cuba Solar Farm",
+        "operator": "Cuba 2.5ac, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64903",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2022-02"
+      },
+      "lat": 36.017698,
+      "lon": -106.9456522
+    },
+    {
+      "type": "way",
+      "id": 1116213454,
+      "center": {
+        "lat": 36.3312712,
+        "lon": -106.1900184
+      },
+      "tags": {
+        "name": "El Rito Solar Farm",
+        "operator": "Syncarpha El Rito I, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.6 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "63124",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2019-12"
+      },
+      "lat": 36.3312712,
+      "lon": -106.1900184
+    },
+    {
+      "type": "way",
+      "id": 1118272338,
+      "center": {
+        "lat": 36.9662242,
+        "lon": -105.438109
+      },
+      "tags": {
+        "name": "Kit Carson",
+        "operator": "Terraform Arcadia",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.3 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "58240",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2012-06"
+      },
+      "lat": 36.9662242,
+      "lon": -105.438109
+    },
+    {
+      "type": "way",
+      "id": 1118274985,
+      "center": {
+        "lat": 36.8104267,
+        "lon": -105.5896166
+      },
+      "tags": {
+        "name": "Syncarpha Questa",
+        "operator": "Syncarpha Questa I, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.6 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "63125",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2020-01"
+      },
+      "lat": 36.8104267,
+      "lon": -105.5896166
+    },
+    {
+      "type": "way",
+      "id": 1153912962,
+      "center": {
+        "lat": 36.3726365,
+        "lon": -105.6593091
+      },
+      "tags": {
+        "name": "Syncarpha Taos",
+        "operator": "Syncarpha Taos I, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "3.1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "63123",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2020-05"
+      },
+      "lat": 36.3726365,
+      "lon": -105.6593091
+    },
+    {
+      "type": "way",
+      "id": 1155593976,
+      "center": {
+        "lat": 34.7805996,
+        "lon": -106.0558983
+      },
+      "tags": {
+        "name": "CNMEC Solar Energy Center",
+        "operator": "New Mexico Renewable Development LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "62191",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2018-10"
+      },
+      "lat": 34.7805996,
+      "lon": -106.0558983
+    },
+    {
+      "type": "way",
+      "id": 1155617810,
+      "center": {
+        "lat": 31.8676677,
+        "lon": -107.5889073
+      },
+      "tags": {
+        "name": "Columbus Solar Project",
+        "operator": "New Mexico Renewable Development LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.9 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61165",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2017-12"
+      },
+      "lat": 31.8676677,
+      "lon": -107.5889073
+    },
+    {
+      "type": "way",
+      "id": 1155927753,
+      "center": {
+        "lat": 34.9856142,
+        "lon": -103.6250099
+      },
+      "tags": {
+        "name": "Caprock Solar 1 LLC",
+        "operator": "Duke Energy Renewables Services",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "25 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "59251",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2016-12"
+      },
+      "lat": 34.9856142,
+      "lon": -103.6250099
+    },
+    {
+      "type": "way",
+      "id": 1156190908,
+      "center": {
+        "lat": 33.3490748,
+        "lon": -104.538687
+      },
+      "tags": {
+        "name": "SEV NM Phase 2",
+        "operator": "Altus Power America Management, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "58479",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2013-06"
+      },
+      "lat": 33.3490748,
+      "lon": -104.538687
+    },
+    {
+      "type": "way",
+      "id": 1158879065,
+      "center": {
+        "lat": 33.1627104,
+        "lon": -104.3853678
+      },
+      "tags": {
+        "name": "GSE NM1",
+        "operator": "Altus Power America Management, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2.3 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "58576",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2011-05"
+      },
+      "lat": 33.1627104,
+      "lon": -104.3853678
+    },
+    {
+      "type": "way",
+      "id": 1158979756,
+      "center": {
+        "lat": 36.7104341,
+        "lon": -105.9820386
+      },
+      "tags": {
+        "addr:city": "Tres Piedras",
+        "addr:housenumber": "38393",
+        "addr:state": "NM",
+        "addr:street": "US 285",
+        "name": "Tres Piedras Solar Farm",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 36.7104341,
+      "lon": -105.9820386
+    },
+    {
+      "type": "way",
+      "id": 1159160654,
+      "center": {
+        "lat": 32.9214928,
+        "lon": -106.0737172
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Holloman Solar Facility",
+        "operator": "El Paso Electric Co",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60301",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2018-10"
+      },
+      "lat": 32.9214928,
+      "lon": -106.0737172
+    },
+    {
+      "type": "way",
+      "id": 1160680149,
+      "center": {
+        "lat": 34.4107188,
+        "lon": -103.2526743
+      },
+      "tags": {
+        "name": "SoCore Clovis 1",
+        "operator": "SoCore Clovis 1 LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64524",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2021-04"
+      },
+      "lat": 34.4107188,
+      "lon": -103.2526743
+    },
+    {
+      "type": "way",
+      "id": 1161276901,
+      "center": {
+        "lat": 35.6688394,
+        "lon": -105.9138941
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.6688394,
+      "lon": -105.9138941
+    },
+    {
+      "type": "way",
+      "id": 1163090622,
+      "center": {
+        "lat": 36.4724848,
+        "lon": -105.6549094
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "58689"
+      },
+      "lat": 36.4724848,
+      "lon": -105.6549094
+    },
+    {
+      "type": "way",
+      "id": 1169715081,
+      "center": {
+        "lat": 32.0725548,
+        "lon": -104.1629168
+      },
+      "tags": {
+        "addr:street": "Whites City Road",
+        "name": "Whites City Solar Farm",
+        "operator": "Chevron",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "20 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "66412"
+      },
+      "lat": 32.0725548,
+      "lon": -104.1629168
+    },
+    {
+      "type": "way",
+      "id": 1180905616,
+      "center": {
+        "lat": 33.0304199,
+        "lon": -103.7798011
+      },
+      "tags": {
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "yes",
+        "plant:source": "wind",
+        "power": "plant"
+      },
+      "lat": 33.0304199,
+      "lon": -103.7798011
+    },
+    {
+      "type": "way",
+      "id": 1198846200,
+      "center": {
+        "lat": 35.1255464,
+        "lon": -106.3788649
+      },
+      "tags": {
+        "operator": "Sandia Mountain Natural History Center",
+        "plant:method": "thermal",
+        "plant:output:hot_water": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.1255464,
+      "lon": -106.3788649
+    },
+    {
+      "type": "way",
+      "id": 1198854418,
+      "center": {
+        "lat": 35.1256099,
+        "lon": -106.3788637
+      },
+      "tags": {
+        "operator": "Sandia Mountain Natural History Center",
+        "plant:method": "thermal",
+        "plant:output:hot_water": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.1256099,
+      "lon": -106.3788637
+    },
+    {
+      "type": "way",
+      "id": 1198854419,
+      "center": {
+        "lat": 35.1256736,
+        "lon": -106.3788654
+      },
+      "tags": {
+        "operator": "Sandia Mountain Natural History Center",
+        "plant:method": "thermal",
+        "plant:output:hot_water": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.1256736,
+      "lon": -106.3788654
+    },
+    {
+      "type": "way",
+      "id": 1198854420,
+      "center": {
+        "lat": 35.125736,
+        "lon": -106.3788652
+      },
+      "tags": {
+        "operator": "Sandia Mountain Natural History Center",
+        "plant:method": "thermal",
+        "plant:output:hot_water": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.125736,
+      "lon": -106.3788652
+    },
+    {
+      "type": "way",
+      "id": 1226508814,
+      "center": {
+        "lat": 35.408575,
+        "lon": -104.1929463
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.408575,
+      "lon": -104.1929463
+    },
+    {
+      "type": "way",
+      "id": 1335806204,
+      "center": {
+        "lat": 35.7129776,
+        "lon": -106.0173175
+      },
+      "tags": {
+        "name": "Arroyo Calabases Solar Farm",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.7129776,
+      "lon": -106.0173175
+    },
+    {
+      "type": "way",
+      "id": 1340737953,
+      "center": {
+        "lat": 35.2619877,
+        "lon": -106.8626549
+      },
+      "tags": {
+        "addr:city": "Rio Rancho",
+        "addr:housenumber": "401",
+        "addr:postcode": "87124",
+        "addr:state": "NM",
+        "addr:street": "60th Northwest",
+        "construction": "yes",
+        "name": "TAG BESS",
+        "note": "650 AC",
+        "operator": "PNM",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "start_date": "2024-06-06"
+      },
+      "lat": 35.2619877,
+      "lon": -106.8626549
+    },
+    {
+      "type": "way",
+      "id": 1350389215,
+      "center": {
+        "lat": 33.4218675,
+        "lon": -104.5969331
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 33.4218675,
+      "lon": -104.5969331
+    },
+    {
+      "type": "way",
+      "id": 1354422177,
+      "center": {
+        "lat": 32.6719395,
+        "lon": -107.1503041
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 32.6719395,
+      "lon": -107.1503041
+    },
+    {
+      "type": "way",
+      "id": 1374473978,
+      "center": {
+        "lat": 34.9745006,
+        "lon": -103.3554619
+      },
+      "tags": {
+        "addr:city": "San Jon",
+        "addr:housenumber": "1414",
+        "addr:postcode": "88434",
+        "addr:state": "NM",
+        "addr:street": "NM 469",
+        "name": "Caprock Wind Farm",
+        "operator": "Leeward Energy",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "80 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "start_date": "2005-01-01"
+      },
+      "lat": 34.9745006,
+      "lon": -103.3554619
+    },
+    {
+      "type": "way",
+      "id": 1374473982,
+      "center": {
+        "lat": 34.7994491,
+        "lon": -103.1309901
+      },
+      "tags": {
+        "addr:city": "Texico",
+        "addr:housenumber": "410",
+        "addr:postcode": "88135",
+        "addr:state": "NM",
+        "addr:street": "NM 19",
+        "name": "Grady Wind Energy Center",
+        "operator": "Pattern Energy Group",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "220 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "start_date": "2019-01-01"
+      },
+      "lat": 34.7994491,
+      "lon": -103.1309901
+    },
+    {
+      "type": "way",
+      "id": 1374473984,
+      "center": {
+        "lat": 34.6278389,
+        "lon": -104.0669769
+      },
+      "tags": {
+        "addr:city": "House",
+        "addr:housenumber": "1561",
+        "addr:postcode": "88121",
+        "addr:state": "NM",
+        "addr:street": "NM 252",
+        "name": "New Mexico Wind Energy Center",
+        "note": "136 Turbines",
+        "operator": "FPL Energy",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "204 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "start_date": "2003-10-01"
+      },
+      "lat": 34.6278389,
+      "lon": -104.0669769
+    },
+    {
+      "type": "way",
+      "id": 1374473988,
+      "center": {
+        "lat": 34.6072423,
+        "lon": -103.9692351
+      },
+      "tags": {
+        "addr:city": "House",
+        "addr:postcode": "88121",
+        "addr:state": "NM",
+        "addr:street": "Quay Road 24",
+        "name": "Casa Mesa Wind Energy Center",
+        "operator": "NextEra Energy Resources",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "50.93 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "start_date": "2018"
+      },
+      "lat": 34.6072423,
+      "lon": -103.9692351
+    },
+    {
+      "type": "way",
+      "id": 1442461552,
+      "center": {
+        "lat": 31.7899361,
+        "lon": -106.6334678
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 31.7899361,
+      "lon": -106.6334678
+    },
+    {
+      "type": "way",
+      "id": 1443394652,
+      "center": {
+        "lat": 34.9985115,
+        "lon": -106.6108173
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 34.9985115,
+      "lon": -106.6108173
+    },
+    {
+      "type": "way",
+      "id": 1444889627,
+      "center": {
+        "lat": 33.4315263,
+        "lon": -104.4352574
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 33.4315263,
+      "lon": -104.4352574
+    },
+    {
+      "type": "way",
+      "id": 1454374183,
+      "center": {
+        "lat": 31.7938366,
+        "lon": -106.6127138
+      },
+      "tags": {
+        "landuse": "industrial",
+        "plant:source": "battery",
+        "power": "plant"
+      },
+      "lat": 31.7938366,
+      "lon": -106.6127138
+    },
+    {
+      "type": "way",
+      "id": 1461470886,
+      "center": {
+        "lat": 35.7367938,
+        "lon": -106.0730274
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.7367938,
+      "lon": -106.0730274
+    },
+    {
+      "type": "way",
+      "id": 1461470887,
+      "center": {
+        "lat": 35.7366449,
+        "lon": -106.0745692
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.7366449,
+      "lon": -106.0745692
+    },
+    {
+      "type": "way",
+      "id": 1461470888,
+      "center": {
+        "lat": 35.73769,
+        "lon": -106.0728265
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.73769,
+      "lon": -106.0728265
+    },
+    {
+      "type": "way",
+      "id": 1461470889,
+      "center": {
+        "lat": 35.7385336,
+        "lon": -106.0741813
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.7385336,
+      "lon": -106.0741813
+    },
+    {
+      "type": "way",
+      "id": 1465215513,
+      "center": {
+        "lat": 35.2163671,
+        "lon": -106.8302554
+      },
+      "tags": {
+        "name": "Atrisco Energy Storage",
+        "name:he": "\u05d0\u05d2\u05d9\u05e8\u05ea \u05d0\u05e0\u05e8\u05d2\u05d9\u05d4",
+        "operator": "Atrisco Energy Storage LLC",
+        "plant:output:electricity": "300 MW",
+        "plant:source": "battery",
+        "power": "plant",
+        "ref:US:EIA": "66694",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2024-11",
+        "website": "https://enlightenergy.com/he/project/atrisco/"
+      },
+      "lat": 35.2163671,
+      "lon": -106.8302554
+    },
+    {
+      "type": "way",
+      "id": 1468510506,
+      "center": {
+        "lat": 32.0758544,
+        "lon": -106.1852459
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 32.0758544,
+      "lon": -106.1852459
+    },
+    {
+      "type": "way",
+      "id": 1475136306,
+      "center": {
+        "lat": 32.4258809,
+        "lon": -106.7116602
+      },
+      "tags": {
+        "name": "Pluma - SLT Las Cruces",
+        "operator": "Standard Solar",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "69532",
+        "start_date": "2025-12"
+      },
+      "lat": 32.4258809,
+      "lon": -106.7116602
+    },
+    {
+      "type": "way",
+      "id": 1475136308,
+      "center": {
+        "lat": 32.7347154,
+        "lon": -107.2406955
+      },
+      "tags": {
+        "fixme": "approx",
+        "name": "Emi NM Bent Bow",
+        "operator": "Standard Solar",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "69530",
+        "start_date": "2025-12"
+      },
+      "lat": 32.7347154,
+      "lon": -107.2406955
+    },
+    {
+      "type": "way",
+      "id": 1475136309,
+      "center": {
+        "lat": 35.6308643,
+        "lon": -105.2304479
+      },
+      "tags": {
+        "name": "Pluma - Pino Solar",
+        "operator": "Standard Solar",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "start_date": "2025-11"
+      },
+      "lat": 35.6308643,
+      "lon": -105.2304479
+    },
+    {
+      "type": "way",
+      "id": 1475136310,
+      "center": {
+        "lat": 34.3818992,
+        "lon": -103.2255441
+      },
+      "tags": {
+        "name": "Pluma - Curry Road North Solar",
+        "operator": "Standard Solar",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "3 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "69528",
+        "start_date": "2025-12"
+      },
+      "lat": 34.3818992,
+      "lon": -103.2255441
+    },
+    {
+      "type": "way",
+      "id": 1476734417,
+      "center": {
+        "lat": 31.8081276,
+        "lon": -106.6934361
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 31.8081276,
+      "lon": -106.6934361
+    },
+    {
+      "type": "way",
+      "id": 1486723669,
+      "center": {
+        "lat": 35.3700474,
+        "lon": -106.8555525
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.3700474,
+      "lon": -106.8555525
+    },
+    {
+      "type": "relation",
+      "id": 11078656,
+      "center": {
+        "lat": 32.5524,
+        "lon": -107.5076193
+      },
+      "tags": {
+        "name": "Macho Springs Wind",
+        "operator": "Capital Power Corporation",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "50.4 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57947",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2011-11",
+        "type": "site"
+      },
+      "lat": 32.5524,
+      "lon": -107.5076193
+    },
+    {
+      "type": "relation",
+      "id": 11078657,
+      "center": {
+        "lat": 32.9556358,
+        "lon": -103.2792577
+      },
+      "tags": {
+        "name": "Wildcat Wind Farm",
+        "operator": "Exelon Group",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "27.3 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57887",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2012-07",
+        "type": "site"
+      },
+      "lat": 32.9556358,
+      "lon": -103.2792577
+    },
+    {
+      "type": "relation",
+      "id": 11078658,
+      "center": {
+        "lat": 34.7440753,
+        "lon": -103.3025
+      },
+      "tags": {
+        "alt_name": "Broadview Wind",
+        "name": "Brahms Wind",
+        "operator": "BayWa r.e Wind LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "19.8 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "58465;58464",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2014-02",
+        "type": "site"
+      },
+      "lat": 34.7440753,
+      "lon": -103.3025
+    },
+    {
+      "type": "relation",
+      "id": 12828753,
+      "center": {
+        "lat": 32.5699273,
+        "lon": -107.4865344
+      },
+      "tags": {
+        "name": "Alta Luna Solar Farm",
+        "operator": "DEPCOM Power",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "28 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60258",
+        "source": "https://gem.wiki/Alta_Luna_solar_farm",
+        "start_date": "2017",
+        "type": "multipolygon"
+      },
+      "lat": 32.5699273,
+      "lon": -107.4865344
+    },
+    {
+      "type": "relation",
+      "id": 12828794,
+      "center": {
+        "lat": 35.011594,
+        "lon": -106.8618527
+      },
+      "tags": {
+        "addr:city": "Albuquerque",
+        "addr:postcode": "87121",
+        "addr:state": "NM",
+        "barrier": "fence",
+        "name": "Santolina Solar Energy Center",
+        "operator": "PNM Resources",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "10.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60197",
+        "source": "Bing",
+        "start_date": "2015-12",
+        "type": "multipolygon"
+      },
+      "lat": 35.011594,
+      "lon": -106.8618527
+    },
+    {
+      "type": "relation",
+      "id": 12828795,
+      "center": {
+        "lat": 32.6816664,
+        "lon": -103.3035192
+      },
+      "tags": {
+        "name": "SunE SPS4 Monument Solar Farm",
+        "operator": "SunE SPS4, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "10.1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "57739",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2011-12",
+        "type": "multipolygon"
+      },
+      "lat": 32.6816664,
+      "lon": -103.3035192
+    },
+    {
+      "type": "relation",
+      "id": 12828833,
+      "center": {
+        "lat": 32.1276518,
+        "lon": -103.1381873
+      },
+      "tags": {
+        "name": "SunE SPS1 Dollarhide Solar Farm",
+        "operator": "SunE SPS1, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "10 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "57736",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2011-09",
+        "type": "multipolygon"
+      },
+      "lat": 32.1276518,
+      "lon": -103.1381873
+    },
+    {
+      "type": "relation",
+      "id": 12828848,
+      "center": {
+        "lat": 32.1865166,
+        "lon": -103.1808878
+      },
+      "tags": {
+        "name": "SunE SPS2 Jal",
+        "operator": "SunE SPS2, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "10 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "57737",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2011-09",
+        "type": "multipolygon"
+      },
+      "lat": 32.1865166,
+      "lon": -103.1808878
+    },
+    {
+      "type": "relation",
+      "id": 12828849,
+      "center": {
+        "lat": 32.4680206,
+        "lon": -103.3239305
+      },
+      "tags": {
+        "name": "SunE SPS3 Lea",
+        "operator": "SunE SPS3, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "10 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "57738",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2011-11",
+        "type": "multipolygon"
+      },
+      "lat": 32.4680206,
+      "lon": -103.3239305
+    },
+    {
+      "type": "relation",
+      "id": 12829034,
+      "center": {
+        "lat": 33.9250736,
+        "lon": -103.4573076
+      },
+      "tags": {
+        "name": "Roosevelt County and Milo Wind Farm",
+        "operator": "EDF Renewables",
+        "operator:wikidata": "Q3045868",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "300 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "58771;59838",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2015-12",
+        "type": "site"
+      },
+      "lat": 33.9250736,
+      "lon": -103.4573076
+    },
+    {
+      "type": "relation",
+      "id": 13546209,
+      "center": {
+        "lat": 34.8227395,
+        "lon": -105.0513146
+      },
+      "tags": {
+        "name": "Aragonne Mesa Wind",
+        "operator": "Leeward Asset Management, LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "235 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56336",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2022",
+        "type": "site"
+      },
+      "lat": 34.8227395,
+      "lon": -105.0513146
+    },
+    {
+      "type": "relation",
+      "id": 13546338,
+      "center": {
+        "lat": 34.4663313,
+        "lon": -105.961733
+      },
+      "tags": {
+        "name": "High Lonesome Wind",
+        "operator": "NRG Energy Gas & Wind Holdings Inc",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "100 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56945",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2009-07",
+        "type": "site"
+      },
+      "lat": 34.4663313,
+      "lon": -105.961733
+    },
+    {
+      "type": "relation",
+      "id": 13683714,
+      "center": {
+        "lat": 34.7335209,
+        "lon": -105.6478782
+      },
+      "tags": {
+        "name": "El Cabo Wind Farm",
+        "operator": "Avangrid Renewables",
+        "operator:wikidata": "Q5983823",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "298 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "58098",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2017-12",
+        "type": "site"
+      },
+      "lat": 34.7335209,
+      "lon": -105.6478782
+    },
+    {
+      "type": "relation",
+      "id": 14121366,
+      "center": {
+        "lat": 34.8068731,
+        "lon": -103.2412827
+      },
+      "tags": {
+        "name": "Grady Wind Energy Center",
+        "operator": "Pattern Operators LP",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "220.5 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "60317",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2019-08",
+        "type": "site"
+      },
+      "lat": 34.8068731,
+      "lon": -103.2412827
+    },
+    {
+      "type": "relation",
+      "id": 14121367,
+      "center": {
+        "lat": 34.9781584,
+        "lon": -103.3546323
+      },
+      "tags": {
+        "name": "Caprock Wind Farm",
+        "operator": "Leeward Asset Management, LLC",
+        "plant:output:electricity": "80 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56293",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2004-12",
+        "type": "site"
+      },
+      "lat": 34.9781584,
+      "lon": -103.3546323
+    },
+    {
+      "type": "relation",
+      "id": 14121368,
+      "center": {
+        "lat": 34.7770095,
+        "lon": -103.0537642
+      },
+      "tags": {
+        "name": "Broadview Energy KW and JN",
+        "operator": "Pattern Operators LP",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "324.3 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "60145;60152",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2017-03",
+        "type": "site"
+      },
+      "lat": 34.7770095,
+      "lon": -103.0537642
+    },
+    {
+      "type": "relation",
+      "id": 14121371,
+      "center": {
+        "lat": 33.9363493,
+        "lon": -103.1985069
+      },
+      "tags": {
+        "name": "Sagamore Wind",
+        "operator": "Southwestern Public Service Co",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "522 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "63578",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2020-12",
+        "type": "site"
+      },
+      "lat": 33.9363493,
+      "lon": -103.1985069
+    },
+    {
+      "type": "relation",
+      "id": 14121372,
+      "center": {
+        "lat": 33.9487029,
+        "lon": -103.8219776
+      },
+      "tags": {
+        "name": "San Juan Mesa Wind Project",
+        "operator": "NRG Energy Gas & Wind Holdings Inc",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "120 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56304",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2005-12",
+        "type": "site"
+      },
+      "lat": 33.9487029,
+      "lon": -103.8219776
+    },
+    {
+      "type": "relation",
+      "id": 14165949,
+      "center": {
+        "lat": 34.6087346,
+        "lon": -103.9709723
+      },
+      "tags": {
+        "name": "Casa Mesa Wind Energy Center Hybrid",
+        "operator": "Casa Mesa Wind, LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "50.9 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "61925",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2018-11",
+        "type": "site"
+      },
+      "lat": 34.6087346,
+      "lon": -103.9709723
+    },
+    {
+      "type": "relation",
+      "id": 14165950,
+      "center": {
+        "lat": 33.0247535,
+        "lon": -103.8637974
+      },
+      "tags": {
+        "name": "Anderson Wind I & II",
+        "operator": "BayWa r.e Wind LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "15 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "58940;58939",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2014-12",
+        "type": "site"
+      },
+      "lat": 33.0247535,
+      "lon": -103.8637974
+    },
+    {
+      "type": "relation",
+      "id": 14165951,
+      "center": {
+        "lat": 35.1696616,
+        "lon": -103.7389927
+      },
+      "tags": {
+        "name": "Mesalands Comm College Wind Turbine",
+        "operator": "Mesalands Community College",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "1.5 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57106",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2008-12",
+        "type": "site"
+      },
+      "lat": 35.1696616,
+      "lon": -103.7389927
+    },
+    {
+      "type": "relation",
+      "id": 14165952,
+      "center": {
+        "lat": 34.3574578,
+        "lon": -103.0558991
+      },
+      "tags": {
+        "name": "Texico Wind Ranch LP",
+        "operator": "Texico Wind LP",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "1.9 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57258",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1999-12",
+        "type": "site"
+      },
+      "lat": 34.3574578,
+      "lon": -103.0558991
+    },
+    {
+      "type": "relation",
+      "id": 14165955,
+      "center": {
+        "lat": 33.3616991,
+        "lon": -103.2835186
+      },
+      "tags": {
+        "name": "Sterling I Wind Farm",
+        "operator": "AEM Wind LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "29.9 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "60991",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2017-07",
+        "type": "site"
+      },
+      "lat": 33.3616991,
+      "lon": -103.2835186
+    },
+    {
+      "type": "relation",
+      "id": 14165956,
+      "center": {
+        "lat": 34.6272216,
+        "lon": -104.066196
+      },
+      "tags": {
+        "name": "New Mexico Wind Energy Center",
+        "operator": "NextEra Energy",
+        "operator:wikidata": "Q967868",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "204 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56097",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2003-09",
+        "type": "site",
+        "wikidata": "Q16956195"
+      },
+      "lat": 34.6272216,
+      "lon": -104.066196
+    },
+    {
+      "type": "relation",
+      "id": 14165957,
+      "center": {
+        "lat": 33.0242086,
+        "lon": -103.7475926
+      },
+      "tags": {
+        "name": "Oso Grande Wind Farm",
+        "operator": "Tucson Electric Power Co",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "249.8 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "63502",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2021-05",
+        "type": "site"
+      },
+      "lat": 33.0242086,
+      "lon": -103.7475926
+    },
+    {
+      "type": "relation",
+      "id": 14165958,
+      "center": {
+        "lat": 34.6042704,
+        "lon": -105.6716001
+      },
+      "tags": {
+        "name": "La Joya Wind Farm",
+        "operator": "Avangrid Renewables LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "306.2 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "61044",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2021-02",
+        "type": "site"
+      },
+      "lat": 34.6042704,
+      "lon": -105.6716001
+    },
+    {
+      "type": "relation",
+      "id": 14496364,
+      "center": {
+        "lat": 35.1702249,
+        "lon": -106.6011155
+      },
+      "tags": {
+        "addr:city": "Albuquerque",
+        "addr:housenumber": "4400",
+        "addr:postcode": "87109",
+        "addr:state": "NM",
+        "addr:street": "El Pueblo Road Northeast",
+        "landuse": "industrial",
+        "name": "Reeves Generating Station",
+        "operator": "Public Service Company of New Mexico",
+        "operator:short": "PNM",
+        "operator:wikidata": "Q112271592",
+        "plant:method": "combustion",
+        "plant:output:electricity": "154 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "2450",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1960-03",
+        "type": "multipolygon"
+      },
+      "lat": 35.1702249,
+      "lon": -106.6011155
+    },
+    {
+      "type": "relation",
+      "id": 14496365,
+      "center": {
+        "lat": 35.3115116,
+        "lon": -106.638604
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "58588",
+        "type": "multipolygon"
+      },
+      "lat": 35.3115116,
+      "lon": -106.638604
+    },
+    {
+      "type": "relation",
+      "id": 14706616,
+      "center": {
+        "lat": 34.1288582,
+        "lon": -108.8974272
+      },
+      "tags": {
+        "name": "Borderlands Wind",
+        "operator": "Borderlands Wind, LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "100 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "64638",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2021-12",
+        "type": "site"
+      },
+      "lat": 34.1288582,
+      "lon": -108.8974272
+    },
+    {
+      "type": "relation",
+      "id": 14706617,
+      "center": {
+        "lat": 34.7435323,
+        "lon": -105.310269
+      },
+      "tags": {
+        "name": "Clines Corners Wind Farm",
+        "operator": "Pattern Operators LP",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "325 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "64054",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2021-12",
+        "type": "site"
+      },
+      "lat": 34.7435323,
+      "lon": -105.310269
+    },
+    {
+      "type": "relation",
+      "id": 14706618,
+      "center": {
+        "lat": 34.3862876,
+        "lon": -105.3745254
+      },
+      "tags": {
+        "name": "Tecolote Wind LLC",
+        "operator": "Pattern Operators LP",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "272 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "64066",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2021-12",
+        "type": "site"
+      },
+      "lat": 34.3862876,
+      "lon": -105.3745254
+    },
+    {
+      "type": "relation",
+      "id": 14706619,
+      "center": {
+        "lat": 34.3163907,
+        "lon": -105.3846252
+      },
+      "tags": {
+        "name": "Red Cloud Wind",
+        "operator": "Pattern Operators LP",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "350 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "63981",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2021-12",
+        "type": "site"
+      },
+      "lat": 34.3163907,
+      "lon": -105.3846252
+    },
+    {
+      "type": "relation",
+      "id": 14706620,
+      "center": {
+        "lat": 34.3977475,
+        "lon": -105.501221
+      },
+      "tags": {
+        "name": "Duran Mesa Wind Farm",
+        "operator": "Pattern Operators LP",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "105 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "64065",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2021-12",
+        "type": "site"
+      },
+      "lat": 34.3977475,
+      "lon": -105.501221
+    },
+    {
+      "type": "relation",
+      "id": 15570062,
+      "center": {
+        "lat": 32.5708338,
+        "lon": -107.4629
+      },
+      "tags": {
+        "name": "Macho Springs Solar Farm",
+        "operator": "Southern Power CO",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "55 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "59010",
+        "source": "https://gem.wiki/Macho_Springs_solar_farm",
+        "start_date": "2014",
+        "type": "multipolygon"
+      },
+      "lat": 32.5708338,
+      "lon": -107.4629
+    },
+    {
+      "type": "relation",
+      "id": 15672832,
+      "center": {
+        "lat": 33.1535208,
+        "lon": -107.2495821
+      },
+      "tags": {
+        "name": "Wal-Mart Truth or Consequences PV",
+        "operator": "SSA Solar of NM 3, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60341",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2015-09",
+        "type": "multipolygon"
+      },
+      "lat": 33.1535208,
+      "lon": -107.2495821
+    },
+    {
+      "type": "relation",
+      "id": 15678914,
+      "center": {
+        "lat": 33.611209,
+        "lon": -105.7487632
+      },
+      "tags": {
+        "addr:city": "Carrizozo",
+        "addr:state": "NM",
+        "addr:street": "North Snell Drive",
+        "barrier": "fence",
+        "name": "Carrizozo Solar",
+        "operator": "SoCore Energy LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "3 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61662",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2018-03",
+        "type": "multipolygon"
+      },
+      "lat": 33.611209,
+      "lon": -105.7487632
+    },
+    {
+      "type": "relation",
+      "id": 15694823,
+      "center": {
+        "lat": 35.2587388,
+        "lon": -106.6297781
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "63391",
+        "type": "multipolygon"
+      },
+      "lat": 35.2587388,
+      "lon": -106.6297781
+    },
+    {
+      "type": "relation",
+      "id": 15711060,
+      "center": {
+        "lat": 36.4464681,
+        "lon": -105.6323005
+      },
+      "tags": {
+        "name": "Taos Mesa Energy Facility Hybrid",
+        "operator": "Taos Mesa Energy Facility, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "27 MW",
+        "plant:source": "solar;battery",
+        "power": "plant",
+        "ref:US:EIA": "63728",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2022-11",
+        "type": "multipolygon"
+      },
+      "lat": 36.4464681,
+      "lon": -105.6323005
+    },
+    {
+      "type": "relation",
+      "id": 15730162,
+      "center": {
+        "lat": 36.4165912,
+        "lon": -105.2812435
+      },
+      "tags": {
+        "name": "Angel Fire Energy Facility",
+        "operator": "Angel Fire Energy Facility, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64695",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "type": "multipolygon"
+      },
+      "lat": 36.4165912,
+      "lon": -105.2812435
+    },
+    {
+      "type": "relation",
+      "id": 15877176,
+      "center": {
+        "lat": 36.2290753,
+        "lon": -107.2837032
+      },
+      "tags": {
+        "name": "Jicarilla Solar 2",
+        "operator": "Hecate Energy",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "50 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "65103",
+        "start_date": "2022",
+        "type": "multipolygon"
+      },
+      "lat": 36.2290753,
+      "lon": -107.2837032
+    },
+    {
+      "type": "relation",
+      "id": 16006527,
+      "center": {
+        "lat": 35.8756576,
+        "lon": -106.3111194
+      },
+      "tags": {
+        "addr:city": "Los Alamos",
+        "addr:housenumber": "3701",
+        "addr:postcode": "87544",
+        "addr:state": "NM",
+        "addr:street": "East Jemez Road",
+        "name": "Los Alamos Photovoltaic Site",
+        "operator": "Los Alamos County",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref": "Los Alamos PV Site",
+        "ref:US:EIA": "58256",
+        "start_date": "2012-09",
+        "type": "multipolygon",
+        "website": "https://www.energyjustice.net/map/displayfacility-77086.htm"
+      },
+      "lat": 35.8756576,
+      "lon": -106.3111194
+    },
+    {
+      "type": "relation",
+      "id": 16033873,
+      "center": {
+        "lat": 35.8944781,
+        "lon": -106.294903
+      },
+      "tags": {
+        "name": "LAMS Solar Farm",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "type": "multipolygon"
+      },
+      "lat": 35.8944781,
+      "lon": -106.294903
+    },
+    {
+      "type": "relation",
+      "id": 17434798,
+      "center": {
+        "lat": 35.2664215,
+        "lon": -106.66573
+      },
+      "tags": {
+        "operator": "Terraform Arcadia",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "plant:type": "solar_photovoltaic_panel",
+        "power": "plant",
+        "ref:US:EIA": "58589",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2013-11",
+        "type": "multipolygon"
+      },
+      "lat": 35.2664215,
+      "lon": -106.66573
+    },
+    {
+      "type": "relation",
+      "id": 19902375,
+      "center": {
+        "lat": 34.1026097,
+        "lon": -105.5209052
+      },
+      "tags": {
+        "description": "916 turbines 3,500 to 3,650 megaWatts",
+        "name": "SunZia Wind Farm",
+        "operator": "Pattern Energy",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "3500 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "x",
+        "start_date": "2026-12",
+        "type": "site"
+      },
+      "lat": 34.1026097,
+      "lon": -105.5209052
+    },
+    {
+      "type": "relation",
+      "id": 20048239,
+      "center": {
+        "lat": 34.7682505,
+        "lon": -106.7975249
+      },
+      "tags": {
+        "name": "Sky Ranch Solar",
+        "operator": "Sky Ranch Solar and Storage",
+        "plant:output:electricity": "240 MW",
+        "plant:source": "battery;solar",
+        "power": "plant",
+        "ref:US:EIA": "66814",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2024-04",
+        "type": "multipolygon"
+      },
+      "lat": 34.7682505,
+      "lon": -106.7975249
+    },
+    {
+      "type": "relation",
+      "id": 20053553,
+      "center": {
+        "lat": 35.1997533,
+        "lon": -106.8445684
+      },
+      "tags": {
+        "name": "Atrisco Solar LLC",
+        "operator": "Atrisco Solar LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "300 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "67003",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2024-10",
+        "type": "multipolygon"
+      },
+      "lat": 35.1997533,
+      "lon": -106.8445684
+    },
+    {
+      "type": "relation",
+      "id": 20059833,
+      "center": {
+        "lat": 36.8310163,
+        "lon": -108.3573008
+      },
+      "tags": {
+        "name": "San Juan Solar I",
+        "operator": "San Juan Solar I, LLC",
+        "plant:output:electricity": "300 MW",
+        "plant:source": "battery;solar",
+        "power": "plant",
+        "ref:US:EIA": "66574",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2024-10",
+        "type": "multipolygon"
+      },
+      "lat": 36.8310163,
+      "lon": -108.3573008
+    },
+    {
+      "type": "relation",
+      "id": 20080144,
+      "center": {
+        "lat": 35.4171734,
+        "lon": -108.0787754
+      },
+      "tags": {
+        "name": "Escalante Solar",
+        "operator": "Origis Energy USA, Inc",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "200 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "66888",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2024-06",
+        "type": "multipolygon"
+      },
+      "lat": 35.4171734,
+      "lon": -108.0787754
+    },
+    {
+      "type": "relation",
+      "id": 20315885,
+      "center": {
+        "lat": 35.9433126,
+        "lon": -107.5719492
+      },
+      "tags": {
+        "name": "Arroyo Solar Energy Storage Hybrid",
+        "operator": "Arroyo Solar LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "450 MW",
+        "plant:source": "battery;solar",
+        "power": "plant",
+        "ref:US:EIA": "63172",
+        "source": "U.S. Energy Information Administration - EIA-860m - 2025",
+        "start_date": "2023-07",
+        "type": "multipolygon"
+      },
+      "lat": 35.9433126,
+      "lon": -107.5719492
+    }
+  ]
+}

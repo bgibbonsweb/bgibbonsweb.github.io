@@ -1,0 +1,3180 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-04-24T20:51:16Z",
+    "timestamp_areas_base": "2026-04-24T15:53:36Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 100100071,
+      "center": {
+        "lat": 21.8999619,
+        "lon": -159.5847741
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Port Allen Power Station",
+        "operator": "Kaua\u02bbi Island Utility Cooperative",
+        "plant:output:electricity": "99.5 MW",
+        "plant:source": "diesel",
+        "power": "plant",
+        "ref:US:EIA": "6474",
+        "start_date": "1964-01"
+      },
+      "lat": 21.8999619,
+      "lon": -159.5847741
+    },
+    {
+      "type": "way",
+      "id": 121592245,
+      "center": {
+        "lat": 19.9373869,
+        "lon": -155.6708917
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Parker Ranch Power Plant",
+        "plant:output:electricity": "225 kW",
+        "plant:source": "solar;wind",
+        "power": "plant",
+        "source": "Bing"
+      },
+      "lat": 19.9373869,
+      "lon": -155.6708917
+    },
+    {
+      "type": "way",
+      "id": 121592247,
+      "center": {
+        "lat": 19.9374156,
+        "lon": -155.671204
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 19.9374156,
+      "lon": -155.671204
+    },
+    {
+      "type": "way",
+      "id": 198196942,
+      "center": {
+        "lat": 20.2547062,
+        "lon": -155.8504814
+      },
+      "tags": {
+        "alt_name": "Hawi Wind Farm",
+        "name": "North Kohala Wind Farm",
+        "operator": "EDF Renewables",
+        "operator:wikidata": "Q3045868",
+        "plant:output:electricity": "10.6 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56447",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2006-05",
+        "wikipedia": "en:Hawi Wind Farm"
+      },
+      "lat": 20.2547062,
+      "lon": -155.8504814
+    },
+    {
+      "type": "way",
+      "id": 199720617,
+      "center": {
+        "lat": 20.0939094,
+        "lon": -155.4700869
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Hamakua Energy Plant",
+        "operator": "Hamakua Energy, LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "60.8 MW",
+        "plant:source": "oil",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "55369",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2000-07",
+        "wikidata": "Q11973814"
+      },
+      "lat": 20.0939094,
+      "lon": -155.4700869
+    },
+    {
+      "type": "way",
+      "id": 229953558,
+      "center": {
+        "lat": 21.3556249,
+        "lon": -158.1276126
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Kahe Power Plant",
+        "operator": "Hawaiian Electric Company",
+        "plant:method": "combustion",
+        "plant:output:electricity": "582.1 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "765",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1963-03",
+        "wikidata": "Q11979878"
+      },
+      "lat": 21.3556249,
+      "lon": -158.1276126
+    },
+    {
+      "type": "way",
+      "id": 287146947,
+      "center": {
+        "lat": 20.0253351,
+        "lon": -155.6953879
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Waimea Generating Station",
+        "operator": "Hawaiian Electric Company",
+        "plant:method": "combustion",
+        "plant:output:electricity": "7.5 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "768",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1954-10"
+      },
+      "lat": 20.0253351,
+      "lon": -155.6953879
+    },
+    {
+      "type": "way",
+      "id": 389137145,
+      "center": {
+        "lat": 22.0806302,
+        "lon": -159.3321507
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Kapaa Solar Farm",
+        "operator": "Kapaa Solar LLC",
+        "plant:output:electricity": "1.21 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "57525",
+        "source": "Bing, wikipedia",
+        "start_date": "2010-12"
+      },
+      "lat": 22.0806302,
+      "lon": -159.3321507
+    },
+    {
+      "type": "way",
+      "id": 419982811,
+      "center": {
+        "lat": 21.301355,
+        "lon": -158.0963127
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Kalaeloa Cogen Plant",
+        "operator": "Kalaeloa Partners LP",
+        "plant:method": "combustion",
+        "plant:output:electricity": "220 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "oil",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "54646",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1989-10",
+        "wikidata": "Q11979927"
+      },
+      "lat": 21.301355,
+      "lon": -158.0963127
+    },
+    {
+      "type": "way",
+      "id": 427269032,
+      "center": {
+        "lat": -14.3264454,
+        "lon": -170.7225015
+      },
+      "tags": {
+        "operator": "American Samoa Power Authority",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.75 MW",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": -14.3264454,
+      "lon": -170.7225015
+    },
+    {
+      "type": "way",
+      "id": 427269138,
+      "center": {
+        "lat": -14.324504,
+        "lon": -170.7221607
+      },
+      "tags": {
+        "building": "industrial",
+        "name": "Tafuna Power Plant",
+        "operator": "American Samoa Power Authority",
+        "plant:method": "combustion",
+        "plant:output:electricity": "9 MW",
+        "plant:source": "oil",
+        "power": "plant"
+      },
+      "lat": -14.324504,
+      "lon": -170.7221607
+    },
+    {
+      "type": "way",
+      "id": 427276294,
+      "center": {
+        "lat": -14.3317286,
+        "lon": -170.7160928
+      },
+      "tags": {
+        "name": "T\u0101funa Solar Farm",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": -14.3317286,
+      "lon": -170.7160928
+    },
+    {
+      "type": "way",
+      "id": 455173055,
+      "center": {
+        "lat": -14.2196969,
+        "lon": -169.4950144
+      },
+      "tags": {
+        "alt_name": "Tau Solar",
+        "landuse": "industrial",
+        "name": "Ta'u Solar",
+        "operator": "American Samoa Power Authority",
+        "plant:method": "photovoltaic",
+        "plant:output:battery_charging": "yes",
+        "plant:output:electricity": "1410 kW",
+        "plant:source": "solar",
+        "power": "plant",
+        "source": "http://blog.solarcity.com/island-in-the-sun/"
+      },
+      "lat": -14.2196969,
+      "lon": -169.4950144
+    },
+    {
+      "type": "way",
+      "id": 479502411,
+      "center": {
+        "lat": 21.901939,
+        "lon": -159.4511011
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "KIUC Koloa Solar",
+        "operator": "Kaua'i Island Utility Cooperative",
+        "plant:output:electricity": "12 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "58640",
+        "start_date": "2014-06"
+      },
+      "lat": 21.901939,
+      "lon": -159.4511011
+    },
+    {
+      "type": "way",
+      "id": 479502412,
+      "center": {
+        "lat": 21.9740731,
+        "lon": -159.396936
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 21.9740731,
+      "lon": -159.396936
+    },
+    {
+      "type": "way",
+      "id": 479502413,
+      "center": {
+        "lat": 21.9010132,
+        "lon": -159.5826169
+      },
+      "tags": {
+        "name": "Port Allen Solar",
+        "operator": "McBryde Sugar Co Ltd",
+        "plant:output:electricity": "6 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "58549",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2012-12"
+      },
+      "lat": 21.9010132,
+      "lon": -159.5826169
+    },
+    {
+      "type": "way",
+      "id": 528908505,
+      "center": {
+        "lat": 19.7317413,
+        "lon": -156.0281528
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Keahole Power Plant",
+        "operator": "Hawaiian Electric Company",
+        "plant:method": "combustion",
+        "plant:output:electricity": "79.8 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "8083",
+        "source": "HELCO_Power_Facts",
+        "start_date": "1974-10"
+      },
+      "lat": 19.7317413,
+      "lon": -156.0281528
+    },
+    {
+      "type": "way",
+      "id": 538108686,
+      "center": {
+        "lat": 21.3364211,
+        "lon": -157.9192693
+      },
+      "tags": {
+        "building": "yes",
+        "building:levels": "4",
+        "landuse": "industrial",
+        "name": "HNL Emergency Power Facility",
+        "operator": "Hawaiian Electric Co Inc",
+        "plant:method": "combustion",
+        "plant:output:electricity": "10 MW",
+        "plant:source": "biomass",
+        "power": "plant",
+        "ref:US:EIA": "58469",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2017-06"
+      },
+      "lat": 21.3364211,
+      "lon": -157.9192693
+    },
+    {
+      "type": "way",
+      "id": 617287369,
+      "center": {
+        "lat": 22.1298898,
+        "lon": -159.3069708
+      },
+      "tags": {
+        "name": "Anahola Solar",
+        "operator": "Kaua\u02bbi Island Utility Cooperative",
+        "plant:output:electricity": "12 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "58639",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2015-08"
+      },
+      "lat": 22.1298898,
+      "lon": -159.3069708
+    },
+    {
+      "type": "way",
+      "id": 627967300,
+      "center": {
+        "lat": 19.6841237,
+        "lon": -155.0800148
+      },
+      "tags": {
+        "building": "yes",
+        "landuse": "industrial",
+        "plant:method": "combustion",
+        "plant:output:electricity": "yes",
+        "power": "plant"
+      },
+      "lat": 19.6841237,
+      "lon": -155.0800148
+    },
+    {
+      "type": "way",
+      "id": 663779345,
+      "center": {
+        "lat": 21.1061006,
+        "lon": -157.0646011
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Palaau Power Hybrid",
+        "operator": "Maui Electric Co Ltd",
+        "plant:output:electricity": "16 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "792",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1982-04"
+      },
+      "lat": 21.1061006,
+      "lon": -157.0646011
+    },
+    {
+      "type": "way",
+      "id": 667995869,
+      "center": {
+        "lat": 21.9972639,
+        "lon": -159.3745229
+      },
+      "tags": {
+        "addr:city": "Lihue",
+        "addr:state": "HI",
+        "landuse": "industrial",
+        "name": "Kapaia Power Station",
+        "operator": "Kaua\u02bbi Island Utility Cooperative",
+        "plant:method": "combustion",
+        "plant:output:electricity": "39.1 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "56258",
+        "start_date": "2002-09"
+      },
+      "lat": 21.9972639,
+      "lon": -159.3745229
+    },
+    {
+      "type": "way",
+      "id": 676139747,
+      "center": {
+        "lat": 21.315933,
+        "lon": -158.1051619
+      },
+      "tags": {
+        "name": "Kapolei Solar Energy Park",
+        "operator": "Altus Power America Management, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "58684",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2012-02"
+      },
+      "lat": 21.315933,
+      "lon": -158.1051619
+    },
+    {
+      "type": "way",
+      "id": 676431189,
+      "center": {
+        "lat": 21.3047697,
+        "lon": -158.1062384
+      },
+      "tags": {
+        "addr:city": "Kapolei",
+        "addr:housenumber": "91-174",
+        "addr:postcode": "96707",
+        "addr:state": "HI",
+        "addr:street": "Hanua Street",
+        "landuse": "industrial",
+        "name": "Reworld Honolulu",
+        "power": "plant",
+        "source": "https://www.gem.wiki/H_Power_power_station"
+      },
+      "lat": 21.3047697,
+      "lon": -158.1062384
+    },
+    {
+      "type": "way",
+      "id": 676597465,
+      "center": {
+        "lat": 21.3144602,
+        "lon": -158.0862335
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 21.3144602,
+      "lon": -158.0862335
+    },
+    {
+      "type": "way",
+      "id": 780589788,
+      "center": {
+        "lat": 21.97069,
+        "lon": -159.3933071
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 21.97069,
+      "lon": -159.3933071
+    },
+    {
+      "type": "way",
+      "id": 803714137,
+      "center": {
+        "lat": 21.999803,
+        "lon": -159.3795982
+      },
+      "tags": {
+        "name": "Tesla Solar plus Storage",
+        "operator": "Tesla",
+        "plant:output:electricity": "13 MW",
+        "plant:source": "solar,battery",
+        "power": "plant",
+        "ref:US:EIA": "60546",
+        "start_date": "2017-05"
+      },
+      "lat": 21.999803,
+      "lon": -159.3795982
+    },
+    {
+      "type": "way",
+      "id": 803740135,
+      "center": {
+        "lat": 21.9636401,
+        "lon": -159.4572213
+      },
+      "tags": {
+        "contact:website": "https://www.greenenergykauai.com",
+        "name": "Green Team Biomass Plant",
+        "operator": "Green Energy Team LLC",
+        "plant:output:electricity": "8.5 MW",
+        "plant:source": "biomass",
+        "power": "plant",
+        "ref:US:EIA": "59035",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2014-05"
+      },
+      "lat": 21.9636401,
+      "lon": -159.4572213
+    },
+    {
+      "type": "way",
+      "id": 836925352,
+      "center": {
+        "lat": 20.9463927,
+        "lon": -156.6566223
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 20.9463927,
+      "lon": -156.6566223
+    },
+    {
+      "type": "way",
+      "id": 836925353,
+      "center": {
+        "lat": 20.9481275,
+        "lon": -156.671787
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 20.9481275,
+      "lon": -156.671787
+    },
+    {
+      "type": "way",
+      "id": 836925355,
+      "center": {
+        "lat": 20.977604,
+        "lon": -156.6509863
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 20.977604,
+      "lon": -156.6509863
+    },
+    {
+      "type": "way",
+      "id": 836926021,
+      "center": {
+        "lat": 20.980126,
+        "lon": -156.6326156
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 20.980126,
+      "lon": -156.6326156
+    },
+    {
+      "type": "way",
+      "id": 836926293,
+      "center": {
+        "lat": 21.6933066,
+        "lon": -157.9805273
+      },
+      "tags": {
+        "operator": "AES",
+        "operator:wikidata": "Q291508",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "0.75 MW",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 21.6933066,
+      "lon": -157.9805273
+    },
+    {
+      "type": "way",
+      "id": 836926702,
+      "center": {
+        "lat": 21.6705165,
+        "lon": -158.0284792
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "0.75 MW",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 21.6705165,
+      "lon": -158.0284792
+    },
+    {
+      "type": "way",
+      "id": 836927117,
+      "center": {
+        "lat": 21.6088485,
+        "lon": -158.0873631
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "0.7 MW",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 21.6088485,
+      "lon": -158.0873631
+    },
+    {
+      "type": "way",
+      "id": 836927353,
+      "center": {
+        "lat": 21.538859,
+        "lon": -158.087308
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "0.7 MW",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 21.538859,
+      "lon": -158.087308
+    },
+    {
+      "type": "way",
+      "id": 836930780,
+      "center": {
+        "lat": 21.4172325,
+        "lon": -158.1402885
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.5 MW",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 21.4172325,
+      "lon": -158.1402885
+    },
+    {
+      "type": "way",
+      "id": 836930781,
+      "center": {
+        "lat": 21.4045023,
+        "lon": -158.1458621
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 21.4045023,
+      "lon": -158.1458621
+    },
+    {
+      "type": "way",
+      "id": 836930782,
+      "center": {
+        "lat": 21.4092732,
+        "lon": -158.1519768
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 21.4092732,
+      "lon": -158.1519768
+    },
+    {
+      "type": "way",
+      "id": 836930783,
+      "center": {
+        "lat": 21.4103574,
+        "lon": -158.1585041
+      },
+      "tags": {
+        "addr:housenumber": "87-1026",
+        "addr:street": "Apuupuu Road",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 21.4103574,
+      "lon": -158.1585041
+    },
+    {
+      "type": "way",
+      "id": 836930784,
+      "center": {
+        "lat": 21.410396,
+        "lon": -158.1609813
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 21.410396,
+      "lon": -158.1609813
+    },
+    {
+      "type": "way",
+      "id": 836930785,
+      "center": {
+        "lat": 21.4411229,
+        "lon": -158.1565131
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 21.4411229,
+      "lon": -158.1565131
+    },
+    {
+      "type": "way",
+      "id": 836930786,
+      "center": {
+        "lat": 21.4364745,
+        "lon": -158.1700413
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 21.4364745,
+      "lon": -158.1700413
+    },
+    {
+      "type": "way",
+      "id": 836930787,
+      "center": {
+        "lat": 21.4565849,
+        "lon": -158.1914418
+      },
+      "tags": {
+        "name": "Eurus Waianae Solar Project",
+        "operator": "Eurus Energy America",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "27.6 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61172",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2017-01"
+      },
+      "lat": 21.4565849,
+      "lon": -158.1914418
+    },
+    {
+      "type": "way",
+      "id": 836930789,
+      "center": {
+        "lat": 21.4567891,
+        "lon": -158.1967328
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 21.4567891,
+      "lon": -158.1967328
+    },
+    {
+      "type": "way",
+      "id": 836930790,
+      "center": {
+        "lat": 21.4617169,
+        "lon": -158.2018318
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 21.4617169,
+      "lon": -158.2018318
+    },
+    {
+      "type": "way",
+      "id": 836930791,
+      "center": {
+        "lat": 21.4677469,
+        "lon": -158.2042411
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 21.4677469,
+      "lon": -158.2042411
+    },
+    {
+      "type": "way",
+      "id": 836930792,
+      "center": {
+        "lat": 21.4713686,
+        "lon": -158.2052366
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 21.4713686,
+      "lon": -158.2052366
+    },
+    {
+      "type": "way",
+      "id": 836930793,
+      "center": {
+        "lat": 21.4518289,
+        "lon": -158.1529836
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 21.4518289,
+      "lon": -158.1529836
+    },
+    {
+      "type": "way",
+      "id": 836930794,
+      "center": {
+        "lat": 21.4450717,
+        "lon": -158.1488231
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 21.4450717,
+      "lon": -158.1488231
+    },
+    {
+      "type": "way",
+      "id": 836930795,
+      "center": {
+        "lat": 21.4449811,
+        "lon": -158.1472286
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 21.4449811,
+      "lon": -158.1472286
+    },
+    {
+      "type": "way",
+      "id": 836931513,
+      "center": {
+        "lat": 21.3378145,
+        "lon": -158.0097716
+      },
+      "tags": {
+        "name": "West Loch Solar One",
+        "operator": "Hawaiian Electric Company",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "20 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61987",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2019-11"
+      },
+      "lat": 21.3378145,
+      "lon": -158.0097716
+    },
+    {
+      "type": "way",
+      "id": 836931515,
+      "center": {
+        "lat": 21.3680748,
+        "lon": -157.9857712
+      },
+      "tags": {
+        "name": "Waipio Peninsula",
+        "operator": "Pacific Energy Solutions, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "11 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64190",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2015-10"
+      },
+      "lat": 21.3680748,
+      "lon": -157.9857712
+    },
+    {
+      "type": "way",
+      "id": 865515518,
+      "center": {
+        "lat": 21.3890115,
+        "lon": -157.9613999
+      },
+      "tags": {
+        "addr:city": "Pearl City",
+        "addr:country": "US",
+        "addr:housenumber": "475",
+        "addr:postcode": "96782",
+        "addr:state": "HI",
+        "addr:street": "Kamehameha Highway",
+        "landuse": "industrial",
+        "name": "Pearl City Waiau Power Plant",
+        "operator": "Hawaiian Electric Company",
+        "plant:method": "combustion",
+        "plant:output:electricity": "456.6 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "766",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1947-12",
+        "wikidata": "Q19398515"
+      },
+      "lat": 21.3890115,
+      "lon": -157.9613999
+    },
+    {
+      "type": "way",
+      "id": 865515520,
+      "center": {
+        "lat": 19.705028,
+        "lon": -155.062042
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Kanoelehua Power Station",
+        "operator": "Hawaii Electric Light Co Inc",
+        "plant:method": "combustion",
+        "plant:output:electricity": "20 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "769",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1962-01"
+      },
+      "lat": 19.705028,
+      "lon": -155.062042
+    },
+    {
+      "type": "way",
+      "id": 865515521,
+      "center": {
+        "lat": 19.7041134,
+        "lon": -155.0604652
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "W H Hill Power Station",
+        "operator": "Hawaii Electric Light Co Inc",
+        "plant:method": "combustion",
+        "plant:output:electricity": "35.5 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "772",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1965-12"
+      },
+      "lat": 19.7041134,
+      "lon": -155.0604652
+    },
+    {
+      "type": "way",
+      "id": 865515522,
+      "center": {
+        "lat": 19.7264241,
+        "lon": -155.0909905
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Puueo Power Station",
+        "operator": "Hawaii Electric Light Co Inc",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "3.1 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "771",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1918-12"
+      },
+      "lat": 19.7264241,
+      "lon": -155.0909905
+    },
+    {
+      "type": "way",
+      "id": 865515523,
+      "center": {
+        "lat": 19.7203522,
+        "lon": -155.1188985
+      },
+      "tags": {
+        "building": "industrial",
+        "landuse": "industrial",
+        "layer": "1",
+        "name": "Waiau Hydro",
+        "operator": "Hawaii Electric Light Co Inc",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "774",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1921-12"
+      },
+      "lat": 19.7203522,
+      "lon": -155.1188985
+    },
+    {
+      "type": "way",
+      "id": 865515524,
+      "center": {
+        "lat": 19.7130042,
+        "lon": -155.1485985
+      },
+      "tags": {
+        "addr:city": "Hilo",
+        "addr:housenumber": "Waianuenue Ave, Hilo, HI 96720",
+        "addr:postcode": "96720",
+        "addr:state": "HI",
+        "addr:street": "Waianuenue",
+        "building": "industrial",
+        "name": "Wailuku River Hydroelectric",
+        "operator": "Wailuku Holding Company LLC",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "9.8 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "54827",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019;survey",
+        "start_date": "1993-05"
+      },
+      "lat": 19.7130042,
+      "lon": -155.1485985
+    },
+    {
+      "type": "way",
+      "id": 865515525,
+      "center": {
+        "lat": 19.6319952,
+        "lon": -155.0313995
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Puna Power Station",
+        "operator": "Hawaiian Electric Company",
+        "plant:method": "combustion",
+        "plant:output:electricity": "34 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "7130",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1988-08"
+      },
+      "lat": 19.6319952,
+      "lon": -155.0313995
+    },
+    {
+      "type": "way",
+      "id": 865515527,
+      "center": {
+        "lat": 21.9361035,
+        "lon": -159.5285419
+      },
+      "tags": {
+        "name": "Kalaheo Hydro",
+        "operator": "McBryde Sugar Co Ltd",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "10412",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1928-01"
+      },
+      "lat": 21.9361035,
+      "lon": -159.5285419
+    },
+    {
+      "type": "way",
+      "id": 865515528,
+      "center": {
+        "lat": 22.1962377,
+        "lon": -159.5561204
+      },
+      "tags": {
+        "building": "industrial",
+        "name": "Wainiha Hydro",
+        "operator": "McBryde Sugar Co Ltd",
+        "plant:output:electricity": "3.6 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "10413",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1906-01"
+      },
+      "lat": 22.1962377,
+      "lon": -159.5561204
+    },
+    {
+      "type": "way",
+      "id": 865515530,
+      "center": {
+        "lat": 20.8886124,
+        "lon": -156.3569086
+      },
+      "tags": {
+        "building": "industrial",
+        "name": "Kaheka Hydro",
+        "operator": "Mahi Pono LLC",
+        "plant:output:electricity": "4.5 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "55864",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1925-01"
+      },
+      "lat": 20.8886124,
+      "lon": -156.3569086
+    },
+    {
+      "type": "way",
+      "id": 865515531,
+      "center": {
+        "lat": 20.8964373,
+        "lon": -156.4625229
+      },
+      "tags": {
+        "addr:city": "Kahului",
+        "addr:housenumber": "200",
+        "addr:postcode": "96732",
+        "addr:state": "HI",
+        "addr:street": "Hobron Avenue",
+        "landuse": "industrial",
+        "name": "Kahului Power Plant",
+        "operator": "Maui Electric Company",
+        "plant:method": "combustion",
+        "plant:output:electricity": "34.0 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "6056",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1948-05",
+        "wikidata": "Q19376743"
+      },
+      "lat": 20.8964373,
+      "lon": -156.4625229
+    },
+    {
+      "type": "way",
+      "id": 865515532,
+      "center": {
+        "lat": 20.8011368,
+        "lon": -156.4936204
+      },
+      "tags": {
+        "addr:city": "Kihei",
+        "addr:housenumber": "1000",
+        "addr:postcode": "96753",
+        "addr:state": "HI",
+        "addr:street": "North Kihei Road",
+        "landuse": "industrial",
+        "name": "Maalaea Power Plant",
+        "operator": "Maui Electric Company",
+        "plant:method": "combustion",
+        "plant:output:electricity": "197.9 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "6504",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1971-12",
+        "wikidata": "Q11987681"
+      },
+      "lat": 20.8011368,
+      "lon": -156.4936204
+    },
+    {
+      "type": "way",
+      "id": 865515533,
+      "center": {
+        "lat": 20.8849684,
+        "lon": -156.656548
+      },
+      "tags": {
+        "name": "Ku'ia Solar",
+        "operator": "Ku'ia Solar LLC",
+        "plant:output:electricity": "2.9 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61101",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2018-10"
+      },
+      "lat": 20.8849684,
+      "lon": -156.656548
+    },
+    {
+      "type": "way",
+      "id": 865515534,
+      "center": {
+        "lat": 20.765652,
+        "lon": -156.9229227
+      },
+      "tags": {
+        "name": "Lanai Solar-Electric Plant",
+        "operator": "Lanai Sustainability Research LLC",
+        "plant:output:electricity": "1.2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "56667",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2008-12"
+      },
+      "lat": 20.765652,
+      "lon": -156.9229227
+    },
+    {
+      "type": "way",
+      "id": 865515535,
+      "center": {
+        "lat": 20.7897955,
+        "lon": -156.934239
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Miki Basin Power Plant",
+        "operator": "Maui Electric Co Ltd",
+        "plant:output:electricity": "10.2 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "7264",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1990-04"
+      },
+      "lat": 20.7897955,
+      "lon": -156.934239
+    },
+    {
+      "type": "way",
+      "id": 865515553,
+      "center": {
+        "lat": 21.4691569,
+        "lon": -158.0163427
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Waihonu South Solar",
+        "operator": "Waihonu South LLC",
+        "plant:output:electricity": "1.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "58656",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2016-07"
+      },
+      "lat": 21.4691569,
+      "lon": -158.0163427
+    },
+    {
+      "type": "way",
+      "id": 865515556,
+      "center": {
+        "lat": 21.4784952,
+        "lon": -158.0580396
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Schofield Generating Station",
+        "operator": "Hawaiian Electric Company",
+        "plant:output:electricity": "50.4 MW",
+        "plant:source": "biomass",
+        "power": "plant",
+        "ref:US:EIA": "60328",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2018-06"
+      },
+      "lat": 21.4784952,
+      "lon": -158.0580396
+    },
+    {
+      "type": "way",
+      "id": 865515560,
+      "center": {
+        "lat": 21.3228894,
+        "lon": -158.0441189
+      },
+      "tags": {
+        "name": "Kalaeloa Renewable Energy Park",
+        "operator": "Hanwha Q CELLS USA",
+        "plant:output:electricity": "5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "58651",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2014-01"
+      },
+      "lat": 21.3228894,
+      "lon": -158.0441189
+    },
+    {
+      "type": "way",
+      "id": 865515561,
+      "center": {
+        "lat": 21.3186717,
+        "lon": -158.0867801
+      },
+      "tags": {
+        "name": "Kalaeloa Solar Two",
+        "operator": "Kalaeloa Solar Two LLC",
+        "plant:output:electricity": "5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "58259",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2012-12"
+      },
+      "lat": 21.3186717,
+      "lon": -158.0867801
+    },
+    {
+      "type": "way",
+      "id": 907276833,
+      "center": {
+        "lat": 21.4600076,
+        "lon": -158.0581133
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "plant:type": "solar_photovoltaic_panel",
+        "power": "plant"
+      },
+      "lat": 21.4600076,
+      "lon": -158.0581133
+    },
+    {
+      "type": "way",
+      "id": 909365248,
+      "center": {
+        "lat": -14.2709169,
+        "lon": -170.6928815
+      },
+      "tags": {
+        "name": "Satala Power Plant",
+        "plant:output:electricity": "24.5 MW",
+        "plant:source": "oil",
+        "power": "plant"
+      },
+      "lat": -14.2709169,
+      "lon": -170.6928815
+    },
+    {
+      "type": "way",
+      "id": 910985538,
+      "center": {
+        "lat": 21.4482201,
+        "lon": -158.1797691
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 21.4482201,
+      "lon": -158.1797691
+    },
+    {
+      "type": "way",
+      "id": 910985539,
+      "center": {
+        "lat": 21.4517744,
+        "lon": -158.1871618
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 21.4517744,
+      "lon": -158.1871618
+    },
+    {
+      "type": "way",
+      "id": 910999125,
+      "center": {
+        "lat": 21.4548403,
+        "lon": -158.1557818
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 21.4548403,
+      "lon": -158.1557818
+    },
+    {
+      "type": "way",
+      "id": 910999126,
+      "center": {
+        "lat": 21.4214819,
+        "lon": -158.1706482
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 21.4214819,
+      "lon": -158.1706482
+    },
+    {
+      "type": "way",
+      "id": 910999127,
+      "center": {
+        "lat": 21.4227197,
+        "lon": -158.1701686
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 21.4227197,
+      "lon": -158.1701686
+    },
+    {
+      "type": "way",
+      "id": 988807985,
+      "center": {
+        "lat": 21.4009737,
+        "lon": -158.0048378
+      },
+      "tags": {
+        "landuse": "industrial",
+        "power": "plant"
+      },
+      "lat": 21.4009737,
+      "lon": -158.0048378
+    },
+    {
+      "type": "way",
+      "id": 1009689780,
+      "center": {
+        "lat": 21.3195717,
+        "lon": -157.9506738
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 21.3195717,
+      "lon": -157.9506738
+    },
+    {
+      "type": "way",
+      "id": 1039068704,
+      "center": {
+        "lat": 20.7659525,
+        "lon": -155.9960299
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Hana Substation Oil Generators",
+        "operator": "Maui Electric",
+        "plant:method": "combustion",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "56055",
+        "start_date": "2002"
+      },
+      "lat": 20.7659525,
+      "lon": -155.9960299
+    },
+    {
+      "type": "way",
+      "id": 1062501546,
+      "center": {
+        "lat": 20.8486164,
+        "lon": -156.1807976
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "K\u014dlea Powerhouse",
+        "plant:output:electricity": "yes",
+        "plant:source": "hydro",
+        "power": "plant"
+      },
+      "lat": 20.8486164,
+      "lon": -156.1807976
+    },
+    {
+      "type": "way",
+      "id": 1158250085,
+      "center": {
+        "lat": 20.0322744,
+        "lon": -155.6955914
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 20.0322744,
+      "lon": -155.6955914
+    },
+    {
+      "type": "way",
+      "id": 1159260360,
+      "center": {
+        "lat": 20.7386662,
+        "lon": -156.4333848
+      },
+      "tags": {
+        "name": "Kihei Solar Farm",
+        "operator": "South Maui Renewable Resources LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2.9 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61099",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2018-05"
+      },
+      "lat": 20.7386662,
+      "lon": -156.4333848
+    },
+    {
+      "type": "way",
+      "id": 1159260361,
+      "center": {
+        "lat": 20.7404608,
+        "lon": -156.4376514
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 20.7404608,
+      "lon": -156.4376514
+    },
+    {
+      "type": "way",
+      "id": 1159260362,
+      "center": {
+        "lat": 20.7393798,
+        "lon": -156.4400674
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 20.7393798,
+      "lon": -156.4400674
+    },
+    {
+      "type": "way",
+      "id": 1159260363,
+      "center": {
+        "lat": 20.737085,
+        "lon": -156.4425329
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 20.737085,
+      "lon": -156.4425329
+    },
+    {
+      "type": "way",
+      "id": 1161246454,
+      "center": {
+        "lat": 21.4220364,
+        "lon": -157.9708568
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Waiawa Solar Power Hybrid",
+        "operator": "Waiawa Solar Power LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "72 MW",
+        "plant:source": "solar;battery",
+        "power": "plant",
+        "ref:US:EIA": "65058",
+        "source": "U.S. Energy Information Administration - EIA-860m - 2025",
+        "start_date": "2023-01"
+      },
+      "lat": 21.4220364,
+      "lon": -157.9708568
+    },
+    {
+      "type": "way",
+      "id": 1175181473,
+      "center": {
+        "lat": 21.3742791,
+        "lon": -158.0637393
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "AES West Oahu Solar Hybrid",
+        "operator": "AES Corporation",
+        "operator:wikidata": "Q291508",
+        "plant:method": "photovoltaic;battery",
+        "plant:output:electricity": "25 MW",
+        "plant:source": "solar;battery",
+        "plant:storage": "50 MWh",
+        "power": "plant",
+        "ref:US:EIA": "64656",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2024-03"
+      },
+      "lat": 21.3742791,
+      "lon": -158.0637393
+    },
+    {
+      "type": "way",
+      "id": 1186040111,
+      "center": {
+        "lat": 20.8455588,
+        "lon": -156.2986652
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 20.8455588,
+      "lon": -156.2986652
+    },
+    {
+      "type": "way",
+      "id": 1188962714,
+      "center": {
+        "lat": 21.306412,
+        "lon": -158.1071343
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Campbell Industrial Park Power Station",
+        "operator": "Hawaiian Electric Co Inc",
+        "plant:method": "combustion",
+        "plant:output:electricity": "113 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "56329",
+        "source": "https://health.hawaii.gov/cab/files/2020/07/0548-01-C-Admin-Record.pdf",
+        "start_date": "2009-07"
+      },
+      "lat": 21.306412,
+      "lon": -158.1071343
+    },
+    {
+      "type": "way",
+      "id": 1216931167,
+      "center": {
+        "lat": 21.3060808,
+        "lon": -158.0923477
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Tesoro Hawaii Power Station",
+        "operator": "PAR Petroleum",
+        "plant:method": "combustion",
+        "plant:output:electricity": "20 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "10093",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "1982-12"
+      },
+      "lat": 21.3060808,
+      "lon": -158.0923477
+    },
+    {
+      "type": "way",
+      "id": 1218051634,
+      "center": {
+        "lat": 21.3387575,
+        "lon": -157.8367551
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 21.3387575,
+      "lon": -157.8367551
+    },
+    {
+      "type": "way",
+      "id": 1218586711,
+      "center": {
+        "lat": 21.3131469,
+        "lon": -158.1148503
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Hawaii Cogen Power Station",
+        "operator": "Island Energy Services",
+        "plant:method": "combustion",
+        "plant:output:electricity": "12.2 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "10194",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "1990-08"
+      },
+      "lat": 21.3131469,
+      "lon": -158.1148503
+    },
+    {
+      "type": "way",
+      "id": 1275964409,
+      "center": {
+        "lat": 21.3282282,
+        "lon": -158.1054564
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Kapolei Energy Storage Facility",
+        "operator": "Plus Power",
+        "plant:output:electricity": "185 MW",
+        "plant:source": "battery",
+        "plant:storage": "565 MWh",
+        "plant:type": "lithium_ion",
+        "power": "plant",
+        "ref:US:EIA": "66067",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2023-12"
+      },
+      "lat": 21.3282282,
+      "lon": -158.1054564
+    },
+    {
+      "type": "way",
+      "id": 1332134406,
+      "center": {
+        "lat": 21.9688211,
+        "lon": -159.3935652
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 21.9688211,
+      "lon": -159.3935652
+    },
+    {
+      "type": "way",
+      "id": 1359627128,
+      "center": {
+        "lat": 20.515671,
+        "lon": -156.6815211
+      },
+      "tags": {
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 20.515671,
+      "lon": -156.6815211
+    },
+    {
+      "type": "way",
+      "id": 1416004689,
+      "center": {
+        "lat": 21.4626004,
+        "lon": -158.1613847
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 21.4626004,
+      "lon": -158.1613847
+    },
+    {
+      "type": "way",
+      "id": 1416004690,
+      "center": {
+        "lat": 21.460684,
+        "lon": -158.1618273
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 21.460684,
+      "lon": -158.1618273
+    },
+    {
+      "type": "way",
+      "id": 1471500387,
+      "center": {
+        "lat": -14.3384075,
+        "lon": -170.7473819
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": -14.3384075,
+      "lon": -170.7473819
+    },
+    {
+      "type": "way",
+      "id": 1471500388,
+      "center": {
+        "lat": -14.3381552,
+        "lon": -170.7473361
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": -14.3381552,
+      "lon": -170.7473361
+    },
+    {
+      "type": "way",
+      "id": 1471500389,
+      "center": {
+        "lat": -14.3379014,
+        "lon": -170.7472937
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": -14.3379014,
+      "lon": -170.7472937
+    },
+    {
+      "type": "way",
+      "id": 1471500390,
+      "center": {
+        "lat": -14.3376477,
+        "lon": -170.7472477
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": -14.3376477,
+      "lon": -170.7472477
+    },
+    {
+      "type": "way",
+      "id": 1471500391,
+      "center": {
+        "lat": -14.3375318,
+        "lon": -170.7475663
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": -14.3375318,
+      "lon": -170.7475663
+    },
+    {
+      "type": "way",
+      "id": 1471500392,
+      "center": {
+        "lat": -14.3377856,
+        "lon": -170.7476123
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": -14.3377856,
+      "lon": -170.7476123
+    },
+    {
+      "type": "way",
+      "id": 1471500393,
+      "center": {
+        "lat": -14.3380393,
+        "lon": -170.7476547
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": -14.3380393,
+      "lon": -170.7476547
+    },
+    {
+      "type": "way",
+      "id": 1471500394,
+      "center": {
+        "lat": -14.3382916,
+        "lon": -170.7477005
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": -14.3382916,
+      "lon": -170.7477005
+    },
+    {
+      "type": "way",
+      "id": 1471500395,
+      "center": {
+        "lat": -14.3374252,
+        "lon": -170.7486248
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": -14.3374252,
+      "lon": -170.7486248
+    },
+    {
+      "type": "way",
+      "id": 1471500396,
+      "center": {
+        "lat": -14.3376789,
+        "lon": -170.7486708
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": -14.3376789,
+      "lon": -170.7486708
+    },
+    {
+      "type": "way",
+      "id": 1471500397,
+      "center": {
+        "lat": -14.3379326,
+        "lon": -170.7487134
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": -14.3379326,
+      "lon": -170.7487134
+    },
+    {
+      "type": "way",
+      "id": 1471500398,
+      "center": {
+        "lat": -14.3381849,
+        "lon": -170.748759
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": -14.3381849,
+      "lon": -170.748759
+    },
+    {
+      "type": "way",
+      "id": 1471500399,
+      "center": {
+        "lat": -14.3374693,
+        "lon": -170.7483646
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": -14.3374693,
+      "lon": -170.7483646
+    },
+    {
+      "type": "way",
+      "id": 1471500400,
+      "center": {
+        "lat": -14.3377231,
+        "lon": -170.7484106
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": -14.3377231,
+      "lon": -170.7484106
+    },
+    {
+      "type": "way",
+      "id": 1471500401,
+      "center": {
+        "lat": -14.3379768,
+        "lon": -170.7484531
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": -14.3379768,
+      "lon": -170.7484531
+    },
+    {
+      "type": "way",
+      "id": 1471500402,
+      "center": {
+        "lat": -14.3382291,
+        "lon": -170.7484989
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": -14.3382291,
+      "lon": -170.7484989
+    },
+    {
+      "type": "way",
+      "id": 1471500403,
+      "center": {
+        "lat": -14.3375109,
+        "lon": -170.7481018
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": -14.3375109,
+      "lon": -170.7481018
+    },
+    {
+      "type": "way",
+      "id": 1471500404,
+      "center": {
+        "lat": -14.3377647,
+        "lon": -170.7481478
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": -14.3377647,
+      "lon": -170.7481478
+    },
+    {
+      "type": "way",
+      "id": 1471500405,
+      "center": {
+        "lat": -14.3380184,
+        "lon": -170.7481903
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": -14.3380184,
+      "lon": -170.7481903
+    },
+    {
+      "type": "way",
+      "id": 1471500406,
+      "center": {
+        "lat": -14.3382707,
+        "lon": -170.7482361
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": -14.3382707,
+      "lon": -170.7482361
+    },
+    {
+      "type": "way",
+      "id": 1471500407,
+      "center": {
+        "lat": -14.3374875,
+        "lon": -170.7478175
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": -14.3374875,
+      "lon": -170.7478175
+    },
+    {
+      "type": "way",
+      "id": 1471500408,
+      "center": {
+        "lat": -14.3377413,
+        "lon": -170.7478635
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": -14.3377413,
+      "lon": -170.7478635
+    },
+    {
+      "type": "way",
+      "id": 1471500409,
+      "center": {
+        "lat": -14.337995,
+        "lon": -170.747906
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": -14.337995,
+      "lon": -170.747906
+    },
+    {
+      "type": "way",
+      "id": 1471500410,
+      "center": {
+        "lat": -14.3382473,
+        "lon": -170.7479517
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": -14.3382473,
+      "lon": -170.7479517
+    },
+    {
+      "type": "way",
+      "id": 1471500411,
+      "center": {
+        "lat": -14.3384984,
+        "lon": -170.7488019
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": -14.3384984,
+      "lon": -170.7488019
+    },
+    {
+      "type": "way",
+      "id": 1471500412,
+      "center": {
+        "lat": -14.3387521,
+        "lon": -170.7488479
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": -14.3387521,
+      "lon": -170.7488479
+    },
+    {
+      "type": "way",
+      "id": 1471500413,
+      "center": {
+        "lat": -14.3390059,
+        "lon": -170.7488904
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": -14.3390059,
+      "lon": -170.7488904
+    },
+    {
+      "type": "way",
+      "id": 1471500414,
+      "center": {
+        "lat": -14.3386683,
+        "lon": -170.7477291
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": -14.3386683,
+      "lon": -170.7477291
+    },
+    {
+      "type": "way",
+      "id": 1471500415,
+      "center": {
+        "lat": -14.3385388,
+        "lon": -170.7485405
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": -14.3385388,
+      "lon": -170.7485405
+    },
+    {
+      "type": "way",
+      "id": 1471500416,
+      "center": {
+        "lat": -14.3387926,
+        "lon": -170.7485865
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": -14.3387926,
+      "lon": -170.7485865
+    },
+    {
+      "type": "way",
+      "id": 1471500417,
+      "center": {
+        "lat": -14.3390463,
+        "lon": -170.7486289
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": -14.3390463,
+      "lon": -170.7486289
+    },
+    {
+      "type": "way",
+      "id": 1471500418,
+      "center": {
+        "lat": -14.3376942,
+        "lon": -170.7469928
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": -14.3376942,
+      "lon": -170.7469928
+    },
+    {
+      "type": "way",
+      "id": 1471500419,
+      "center": {
+        "lat": -14.337948,
+        "lon": -170.7470388
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": -14.337948,
+      "lon": -170.7470388
+    },
+    {
+      "type": "way",
+      "id": 1471500420,
+      "center": {
+        "lat": -14.3382017,
+        "lon": -170.7470813
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": -14.3382017,
+      "lon": -170.7470813
+    },
+    {
+      "type": "way",
+      "id": 1471500421,
+      "center": {
+        "lat": -14.3385804,
+        "lon": -170.7482802
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": -14.3385804,
+      "lon": -170.7482802
+    },
+    {
+      "type": "way",
+      "id": 1471500422,
+      "center": {
+        "lat": -14.3388341,
+        "lon": -170.7483262
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": -14.3388341,
+      "lon": -170.7483262
+    },
+    {
+      "type": "way",
+      "id": 1471500423,
+      "center": {
+        "lat": -14.3390878,
+        "lon": -170.7483687
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": -14.3390878,
+      "lon": -170.7483687
+    },
+    {
+      "type": "way",
+      "id": 1471500424,
+      "center": {
+        "lat": -14.3386167,
+        "lon": -170.7479879
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": -14.3386167,
+      "lon": -170.7479879
+    },
+    {
+      "type": "way",
+      "id": 1471500425,
+      "center": {
+        "lat": -14.3388705,
+        "lon": -170.7480339
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": -14.3388705,
+      "lon": -170.7480339
+    },
+    {
+      "type": "way",
+      "id": 1471500426,
+      "center": {
+        "lat": -14.3378835,
+        "lon": -170.7489693
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": -14.3378835,
+      "lon": -170.7489693
+    },
+    {
+      "type": "way",
+      "id": 1471500427,
+      "center": {
+        "lat": -14.3381372,
+        "lon": -170.7490153
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": -14.3381372,
+      "lon": -170.7490153
+    },
+    {
+      "type": "way",
+      "id": 1497790123,
+      "center": {
+        "lat": 21.2732376,
+        "lon": -157.801585
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 21.2732376,
+      "lon": -157.801585
+    },
+    {
+      "type": "way",
+      "id": 1500782936,
+      "center": {
+        "lat": 19.7791416,
+        "lon": -155.8407698
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 19.7791416,
+      "lon": -155.8407698
+    },
+    {
+      "type": "way",
+      "id": 1500785275,
+      "center": {
+        "lat": 19.8187257,
+        "lon": -155.8423649
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 19.8187257,
+      "lon": -155.8423649
+    },
+    {
+      "type": "way",
+      "id": 1500785276,
+      "center": {
+        "lat": 19.8185469,
+        "lon": -155.8419028
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 19.8185469,
+      "lon": -155.8419028
+    },
+    {
+      "type": "relation",
+      "id": 8198715,
+      "center": {
+        "lat": 21.6091,
+        "lon": -158.0407731
+      },
+      "tags": {
+        "manufacturer": "Siemens",
+        "manufacturer:type": "SWT-2.3-101",
+        "name": "Kawailoa Wind farm",
+        "operator": "Kawailoa Wind LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "69 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57529",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2012-11",
+        "type": "site",
+        "website": "http://energy.ehawaii.gov/epd/public/energy-project-details.html?rid=59-49994151847d6c11"
+      },
+      "lat": 21.6091,
+      "lon": -158.0407731
+    },
+    {
+      "type": "relation",
+      "id": 8336434,
+      "center": {
+        "lat": 19.4771628,
+        "lon": -154.889551
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Puna Geothermal Venture",
+        "operator": "Puna Geothermal Venture",
+        "plant:output:electricity": "43 MW",
+        "plant:source": "geothermal",
+        "power": "plant",
+        "ref:US:EIA": "52028",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1992-08",
+        "type": "multipolygon",
+        "wikidata": "Q2944538",
+        "wikipedia": "en:Puna Geothermal Venture"
+      },
+      "lat": 19.4771628,
+      "lon": -154.889551
+    },
+    {
+      "type": "relation",
+      "id": 9081831,
+      "center": {
+        "lat": 21.4068627,
+        "lon": -158.1554516
+      },
+      "tags": {
+        "name": "Aloha Solar Energy Fund 1 PK1",
+        "operator": "Altus Power America Management",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "58659",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2017-03",
+        "type": "multipolygon"
+      },
+      "lat": 21.4068627,
+      "lon": -158.1554516
+    },
+    {
+      "type": "relation",
+      "id": 9323704,
+      "center": {
+        "lat": 20.5964772,
+        "lon": -156.3182115
+      },
+      "tags": {
+        "name": "Auwahi Wind Farm",
+        "operator": "Auwahi Wind Energy LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "24 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref": "AWET",
+        "ref:US:EIA": "57996",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2012-12",
+        "type": "site"
+      },
+      "lat": 20.5964772,
+      "lon": -156.3182115
+    },
+    {
+      "type": "relation",
+      "id": 9897392,
+      "center": {
+        "lat": 21.9074648,
+        "lon": -159.4903882
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "AES Lawai Solar Hybrid",
+        "operator": "AES",
+        "operator:wikidata": "Q291508",
+        "operator:wikipedia": "en:AES Corporation",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "28 MW",
+        "plant:source": "solar;battery",
+        "plant:storage": "100 MWh",
+        "power": "plant",
+        "ref:US:EIA": "61068",
+        "start_date": "2018-12",
+        "type": "multipolygon"
+      },
+      "lat": 21.9074648,
+      "lon": -159.4903882
+    },
+    {
+      "type": "relation",
+      "id": 10890526,
+      "center": {
+        "lat": 21.9932785,
+        "lon": -159.7588672
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "AES Kekaha Solar Hybrid",
+        "operator": "AES",
+        "operator:wikidata": "Q291508",
+        "operator:wikipedia": "en:AES Corporation",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "19 MW",
+        "plant:source": "solar;battery",
+        "plant:storage": "70 MWh",
+        "power": "plant",
+        "ref:US:EIA": "63280",
+        "start_date": "2019-12",
+        "type": "multipolygon"
+      },
+      "lat": 21.9932785,
+      "lon": -159.7588672
+    },
+    {
+      "type": "relation",
+      "id": 11501993,
+      "center": {
+        "lat": 21.4185806,
+        "lon": -158.0187888
+      },
+      "tags": {
+        "name": "Lanikuhana Solar",
+        "operator": "Lanikuhana Solar LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "14.7 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "58281",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2019-09",
+        "type": "multipolygon"
+      },
+      "lat": 21.4185806,
+      "lon": -158.0187888
+    },
+    {
+      "type": "relation",
+      "id": 11815224,
+      "center": {
+        "lat": 18.9713602,
+        "lon": -155.6892857
+      },
+      "tags": {
+        "manufacturer": "GE",
+        "manufacturer:type": "1.5 SE",
+        "name": "Pakini Nui Wind Farm",
+        "operator": "Apollo Energy Corp",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "21 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref": "1",
+        "ref:US:EIA": "56378",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2007-04",
+        "type": "site"
+      },
+      "lat": 18.9713602,
+      "lon": -155.6892857
+    },
+    {
+      "type": "relation",
+      "id": 11815225,
+      "center": {
+        "lat": 20.7946547,
+        "lon": -156.5346569
+      },
+      "tags": {
+        "name": "Kaheawa Wind Power II",
+        "operator": "First Wind O&M, LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "21 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref": "1",
+        "ref:US:EIA": "57082",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2012-06",
+        "type": "site"
+      },
+      "lat": 20.7946547,
+      "lon": -156.5346569
+    },
+    {
+      "type": "relation",
+      "id": 11815226,
+      "center": {
+        "lat": 20.8143103,
+        "lon": -156.550303
+      },
+      "tags": {
+        "name": "Kaheawa Pastures Wind Farm Hybrid",
+        "operator": "First Wind O&M, LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "30 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56449",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2006-01",
+        "type": "site"
+      },
+      "lat": 20.8143103,
+      "lon": -156.550303
+    },
+    {
+      "type": "relation",
+      "id": 11815227,
+      "center": {
+        "lat": 21.6195129,
+        "lon": -158.0521341
+      },
+      "tags": {
+        "name": "Kawailoa Solar",
+        "operator": "Kawailoa Solar, LLC",
+        "plant:output:electricity": "49 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60125",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2019-11",
+        "type": "multipolygon"
+      },
+      "lat": 21.6195129,
+      "lon": -158.0521341
+    },
+    {
+      "type": "relation",
+      "id": 11815228,
+      "center": {
+        "lat": 21.6812536,
+        "lon": -157.9765589
+      },
+      "tags": {
+        "name": "Kahuku Wind Power",
+        "operator": "First Wind O&M, LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "30 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57087",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2011-03",
+        "type": "site"
+      },
+      "lat": 21.6812536,
+      "lon": -157.9765589
+    },
+    {
+      "type": "relation",
+      "id": 11815229,
+      "center": {
+        "lat": 21.4554499,
+        "lon": -157.9802079
+      },
+      "tags": {
+        "name": "Waipio Solar",
+        "operator": "Waipio PV, LLC",
+        "plant:output:electricity": "45.9 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60024",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2019-09",
+        "type": "multipolygon"
+      },
+      "lat": 21.4554499,
+      "lon": -157.9802079
+    },
+    {
+      "type": "relation",
+      "id": 11815230,
+      "center": {
+        "lat": 21.4707974,
+        "lon": -158.013234
+      },
+      "tags": {
+        "name": "Waihonu North Solar",
+        "operator": "Waihonu North LLC",
+        "plant:output:electricity": "5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "58655",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2016-07",
+        "type": "multipolygon"
+      },
+      "lat": 21.4707974,
+      "lon": -158.013234
+    },
+    {
+      "type": "relation",
+      "id": 12353650,
+      "center": {
+        "lat": 21.666922,
+        "lon": -157.9600181
+      },
+      "tags": {
+        "name": "Na Pua Makani Wind",
+        "operator": "AES",
+        "operator:wikidata": "Q291508",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "27.6 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "58837",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2020-12",
+        "type": "site"
+      },
+      "lat": 21.666922,
+      "lon": -157.9600181
+    },
+    {
+      "type": "relation",
+      "id": 13804319,
+      "center": {
+        "lat": 19.9876342,
+        "lon": -155.7656079
+      },
+      "tags": {
+        "manufacturer": "Vestas",
+        "name": "Lalamilo Wells Repowering",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "3 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "site": "wind_farm",
+        "start_date": "2017",
+        "type": "site"
+      },
+      "lat": 19.9876342,
+      "lon": -155.7656079
+    },
+    {
+      "type": "relation",
+      "id": 13915265,
+      "center": {
+        "lat": 19.9010436,
+        "lon": -155.764055
+      },
+      "tags": {
+        "name": "Waikoloa Solar",
+        "operator": "AES",
+        "operator:wikidata": "Q291508",
+        "plant:method": "photovoltaic;battery",
+        "plant:output:electricity": "30 MW",
+        "plant:source": "solar",
+        "plant:storage": "120 MWh",
+        "power": "plant",
+        "ref:US:EIA": "63900",
+        "type": "multipolygon"
+      },
+      "lat": 19.9010436,
+      "lon": -155.764055
+    },
+    {
+      "type": "relation",
+      "id": 15667661,
+      "center": {
+        "lat": 21.305016,
+        "lon": -158.107931
+      },
+      "tags": {
+        "location": "roof",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "10334",
+        "type": "multipolygon"
+      },
+      "lat": 21.305016,
+      "lon": -158.107931
+    },
+    {
+      "type": "relation",
+      "id": 15687283,
+      "center": {
+        "lat": 21.6413622,
+        "lon": -157.9259403
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64400",
+        "type": "multipolygon"
+      },
+      "lat": 21.6413622,
+      "lon": -157.9259403
+    },
+    {
+      "type": "relation",
+      "id": 17393660,
+      "center": {
+        "lat": 21.6819397,
+        "lon": -157.9835854
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "58662",
+        "type": "multipolygon"
+      },
+      "lat": 21.6819397,
+      "lon": -157.9835854
+    },
+    {
+      "type": "relation",
+      "id": 17393661,
+      "center": {
+        "lat": 21.4208855,
+        "lon": -158.0179167
+      },
+      "tags": {
+        "name": "Mililani South Solar Farm",
+        "operator": "Mililani I Solar LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "78 MW",
+        "plant:source": "solar;battery",
+        "power": "plant",
+        "ref:US:EIA": "57242",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2022-07",
+        "type": "multipolygon"
+      },
+      "lat": 21.4208855,
+      "lon": -158.0179167
+    },
+    {
+      "type": "relation",
+      "id": 18300741,
+      "center": {
+        "lat": 21.3767151,
+        "lon": -157.9685123
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Pearl City Peninsula Solar Park",
+        "operator": "Forest City Sustainable Resources Pearl City LLC",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "58676",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2012-11",
+        "type": "multipolygon"
+      },
+      "lat": 21.3767151,
+      "lon": -157.9685123
+    },
+    {
+      "type": "relation",
+      "id": 19251113,
+      "center": {
+        "lat": 21.4301738,
+        "lon": -157.9825986
+      },
+      "tags": {
+        "name": "Waiawa Phase 2 Solar + Storage",
+        "operator": "AES Corporation",
+        "operator:wikidata": "Q291508",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "type": "multipolygon"
+      },
+      "lat": 21.4301738,
+      "lon": -157.9825986
+    },
+    {
+      "type": "relation",
+      "id": 19474785,
+      "center": {
+        "lat": 20.8375317,
+        "lon": -156.4828597
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "AES Maui Kuihelani Solar Hybrid",
+        "operator": "AES Distributed Energy",
+        "operator:wikidata": "Q291508",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "120 MW",
+        "plant:source": "solar;battery",
+        "power": "plant",
+        "ref:US:EIA": "64256",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2024-05",
+        "type": "multipolygon"
+      },
+      "lat": 20.8375317,
+      "lon": -156.4828597
+    }
+  ]
+}

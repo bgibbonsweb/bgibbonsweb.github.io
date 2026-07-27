@@ -1,0 +1,2285 @@
+{
+  "Alabama": {
+    "meta": "EIA 2024 actuals. Generation: EIA-923 annual net generation by state (annual_generation_state.xls). Consumption: EIA-861 retail sales + direct-use estimate. Battery: EIA-860 reported nameplate. Source: eia.gov/electricity/state/alabama",
+    "totalConsumptionGWh": 90100.0,
+    "totalBatteryStorageGWh": 0.15,
+    "generationByTypeGWh": [
+      {
+        "type": "Natural Gas",
+        "value": 64598.8
+      },
+      {
+        "type": "Nuclear",
+        "value": 44487.2
+      },
+      {
+        "type": "Coal",
+        "value": 20936.2
+      },
+      {
+        "type": "Hydro",
+        "value": 8357.3
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 3267.2
+      },
+      {
+        "type": "Solar",
+        "value": 1255.1
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 12.4
+      },
+      {
+        "type": "Other",
+        "value": 7.1
+      }
+    ]
+  },
+  "Alaska": {
+    "meta": "EIA 2024 actuals + 2025/2026 trend projections. Generation actuals: EIA-923 annual net generation by state (annual_generation_state.xls). Consumption actuals: EIA-861 bundled retail sales (Sales_Ult_Cust_2024.xlsx). Projections: linear trend fit on 2019-2024 generation totals; consumption follows that annual growth ratio. Sources: eia.gov/electricity/data/state and eia.gov/electricity/state/alaska",
+    "baseYear": 2024,
+    "projectionYears": [
+      2025,
+      2026
+    ],
+    "projectionMethod": "Linear trend fit using 2019-2024 annual state totals",
+    "totalConsumptionGWh": 6046.5,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Natural Gas",
+        "value": 3134.2
+      },
+      {
+        "type": "Hydro",
+        "value": 1715.0
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 919.3
+      },
+      {
+        "type": "Coal",
+        "value": 752.3
+      },
+      {
+        "type": "Wind",
+        "value": 123.4
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 43.0
+      },
+      {
+        "type": "Solar",
+        "value": 7.8
+      }
+    ],
+    "projectionByYearGWh": {
+      "2025": {
+        "totalGenerationGWh": 6959.7,
+        "totalConsumptionGWh": 6289.8
+      },
+      "2026": {
+        "totalGenerationGWh": 7088.8,
+        "totalConsumptionGWh": 6533.0
+      }
+    }
+  },
+  "Arizona": {
+    "meta": "EIA 2024 actuals + 2025/2026 trend projections. Generation actuals: EIA-923 annual net generation by state (annual_generation_state.xls). Consumption actuals: EIA-861 bundled retail sales (Sales_Ult_Cust_2024.xlsx). Projections: linear trend fit on 2019-2024 generation totals; consumption follows that annual growth ratio. Sources: eia.gov/electricity/data/state and eia.gov/electricity/state/arizona",
+    "baseYear": 2024,
+    "projectionYears": [
+      2025,
+      2026
+    ],
+    "projectionMethod": "Linear trend fit using 2019-2024 annual state totals",
+    "totalConsumptionGWh": 90843.3,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Natural Gas",
+        "value": 55089.9
+      },
+      {
+        "type": "Nuclear",
+        "value": 32388.1
+      },
+      {
+        "type": "Solar",
+        "value": 10820.7
+      },
+      {
+        "type": "Coal",
+        "value": 9814.7
+      },
+      {
+        "type": "Hydro",
+        "value": 5382.5
+      },
+      {
+        "type": "Wind",
+        "value": 2540.5
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 184.4
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 29.9
+      }
+    ],
+    "projectionByYearGWh": {
+      "2025": {
+        "totalGenerationGWh": 112277.7,
+        "totalConsumptionGWh": 87908.2
+      },
+      "2026": {
+        "totalGenerationGWh": 112736.8,
+        "totalConsumptionGWh": 84973.0
+      }
+    }
+  },
+  "Arkansas": {
+    "meta": "EIA 2024 actuals + 2025/2026 trend projections. Generation actuals: EIA-923 annual net generation by state (annual_generation_state.xls). Consumption actuals: EIA-861 bundled retail sales (Sales_Ult_Cust_2024.xlsx). Projections: linear trend fit on 2019-2024 generation totals; consumption follows that annual growth ratio. Sources: eia.gov/electricity/data/state and eia.gov/electricity/state/arkansas",
+    "baseYear": 2024,
+    "projectionYears": [
+      2025,
+      2026
+    ],
+    "projectionMethod": "Linear trend fit using 2019-2024 annual state totals",
+    "totalConsumptionGWh": 49895.8,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Natural Gas",
+        "value": 24725.3
+      },
+      {
+        "type": "Coal",
+        "value": 15660.4
+      },
+      {
+        "type": "Nuclear",
+        "value": 14762.8
+      },
+      {
+        "type": "Hydro",
+        "value": 3211.0
+      },
+      {
+        "type": "Solar",
+        "value": 2329.1
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 792.3
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 54.6
+      },
+      {
+        "type": "Other",
+        "value": 7.1
+      }
+    ],
+    "projectionByYearGWh": {
+      "2025": {
+        "totalGenerationGWh": 63401.2,
+        "totalConsumptionGWh": 51402.7
+      },
+      "2026": {
+        "totalGenerationGWh": 63857.3,
+        "totalConsumptionGWh": 52909.7
+      }
+    }
+  },
+  "California": {
+    "meta": "EIA 2024 actuals (released Nov 2025). Generation: EIA-923 / SEP Tables for CA. Consumption: EIA-861 retail sales (245,717 GWh) + direct use (13,039 GWh). Source: eia.gov/electricity/state/california",
+    "totalConsumptionGWh": 258756,
+    "totalBatteryStorageGWh": 56.2,
+    "generationByTypeGWh": [
+      {
+        "type": "Natural Gas",
+        "value": 86656
+      },
+      {
+        "type": "Net Imports",
+        "value": 59470
+      },
+      {
+        "type": "Solar",
+        "value": 48428
+      },
+      {
+        "type": "Hydro",
+        "value": 29454
+      },
+      {
+        "type": "Nuclear",
+        "value": 18379
+      },
+      {
+        "type": "Wind",
+        "value": 15648
+      },
+      {
+        "type": "Geothermal",
+        "value": 10524
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 5959
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 303
+      },
+      {
+        "type": "Other",
+        "value": 282
+      }
+    ],
+    "capacityFactorsBySource": {
+      "Natural Gas": 0.419,
+      "Natural Gas - CC": 0.419,
+      "Natural Gas - GT": 0.093,
+      "Natural Gas - ST": 0.016,
+      "Solar": 0.263,
+      "Solar Thermal": 0.246,
+      "Wind": 0.278,
+      "Nuclear": 0.934,
+      "Hydro": 0.328,
+      "Geothermal": 0.637,
+      "Biomass / Biogas / Waste": 0.588,
+      "Coal / Oil": 0.525
+    }
+  },
+  "Colorado": {
+    "meta": "EIA 2024 actuals + 2025/2026 trend projections. Generation actuals: EIA-923 annual net generation by state (annual_generation_state.xls). Consumption actuals: EIA-861 bundled retail sales (Sales_Ult_Cust_2024.xlsx). Projections: linear trend fit on 2019-2024 generation totals; consumption follows that annual growth ratio. Sources: eia.gov/electricity/data/state and eia.gov/electricity/state/colorado",
+    "baseYear": 2024,
+    "projectionYears": [
+      2025,
+      2026
+    ],
+    "projectionMethod": "Linear trend fit using 2019-2024 annual state totals",
+    "totalConsumptionGWh": 56842.9,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Natural Gas",
+        "value": 17926.8
+      },
+      {
+        "type": "Wind",
+        "value": 17602.0
+      },
+      {
+        "type": "Coal",
+        "value": 16477.7
+      },
+      {
+        "type": "Solar",
+        "value": 4938.5
+      },
+      {
+        "type": "Hydro",
+        "value": 1727.3
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 88.0
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 42.1
+      }
+    ],
+    "projectionByYearGWh": {
+      "2025": {
+        "totalGenerationGWh": 59324.8,
+        "totalConsumptionGWh": 57351.8
+      },
+      "2026": {
+        "totalGenerationGWh": 60004.5,
+        "totalConsumptionGWh": 57860.7
+      }
+    }
+  },
+  "Connecticut": {
+    "meta": "EIA 2024 actuals + 2025/2026 trend projections. Generation actuals: EIA-923 annual net generation by state (annual_generation_state.xls). Consumption actuals: EIA-861 bundled retail sales (Sales_Ult_Cust_2024.xlsx). Projections: linear trend fit on 2019-2024 generation totals; consumption follows that annual growth ratio. Sources: eia.gov/electricity/data/state and eia.gov/electricity/state/connecticut",
+    "baseYear": 2024,
+    "projectionYears": [
+      2025,
+      2026
+    ],
+    "projectionMethod": "Linear trend fit using 2019-2024 annual state totals",
+    "totalConsumptionGWh": 13863.3,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Natural Gas",
+        "value": 26036.3
+      },
+      {
+        "type": "Nuclear",
+        "value": 16870.3
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 550.9
+      },
+      {
+        "type": "Solar",
+        "value": 476.4
+      },
+      {
+        "type": "Other",
+        "value": 424.1
+      },
+      {
+        "type": "Hydro",
+        "value": 373.3
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 19.6
+      },
+      {
+        "type": "Wind",
+        "value": 10.4
+      }
+    ],
+    "projectionByYearGWh": {
+      "2025": {
+        "totalGenerationGWh": 44396.3,
+        "totalConsumptionGWh": 13750.2
+      },
+      "2026": {
+        "totalGenerationGWh": 44995.1,
+        "totalConsumptionGWh": 13637.1
+      }
+    }
+  },
+  "Delaware": {
+    "meta": "EIA 2024 actuals + 2025/2026 trend projections. Generation actuals: EIA-923 annual net generation by state (annual_generation_state.xls). Consumption actuals: EIA-861 bundled retail sales (Sales_Ult_Cust_2024.xlsx). Projections: linear trend fit on 2019-2024 generation totals; consumption follows that annual growth ratio. Sources: eia.gov/electricity/data/state and eia.gov/electricity/state/delaware",
+    "baseYear": 2024,
+    "projectionYears": [
+      2025,
+      2026
+    ],
+    "projectionMethod": "Linear trend fit using 2019-2024 annual state totals",
+    "totalConsumptionGWh": 7502.4,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Natural Gas",
+        "value": 4426.8
+      },
+      {
+        "type": "Solar",
+        "value": 165.8
+      },
+      {
+        "type": "Coal",
+        "value": 143.9
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 41.7
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 18.5
+      },
+      {
+        "type": "Wind",
+        "value": 2.6
+      }
+    ],
+    "projectionByYearGWh": {
+      "2025": {
+        "totalGenerationGWh": 4682.1,
+        "totalConsumptionGWh": 7319.4
+      },
+      "2026": {
+        "totalGenerationGWh": 4608.0,
+        "totalConsumptionGWh": 7136.3
+      }
+    }
+  },
+  "District of Columbia": {
+    "meta": "EIA 2024 actuals. Generation: EIA annual net generation by state (annual_generation_state.xls). Consumption: state electricity profile total retail sales plus direct use. Source: https://www.eia.gov/electricity/data/eia861/zip/f8612024.zip",
+    "baseYear": 2024,
+    "totalConsumptionGWh": 10129.4,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Natural Gas",
+        "value": 99.6
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 55.9
+      },
+      {
+        "type": "Solar",
+        "value": 31.6
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 0.0
+      }
+    ]
+  },
+  "Florida": {
+    "meta": "EIA 2024 actuals + 2025/2026 trend projections. Generation actuals: EIA-923 annual net generation by state (annual_generation_state.xls). Consumption actuals: EIA-861 bundled retail sales (Sales_Ult_Cust_2024.xlsx). Projections: linear trend fit on 2019-2024 generation totals; consumption follows that annual growth ratio. Sources: eia.gov/electricity/data/state and eia.gov/electricity/state/florida",
+    "baseYear": 2024,
+    "projectionYears": [
+      2025,
+      2026
+    ],
+    "projectionMethod": "Linear trend fit using 2019-2024 annual state totals",
+    "totalConsumptionGWh": 255095.5,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Natural Gas",
+        "value": 204507.3
+      },
+      {
+        "type": "Nuclear",
+        "value": 29053.6
+      },
+      {
+        "type": "Solar",
+        "value": 18649.2
+      },
+      {
+        "type": "Coal",
+        "value": 7846.3
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 2965.4
+      },
+      {
+        "type": "Other",
+        "value": 2106.1
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 814.2
+      },
+      {
+        "type": "Hydro",
+        "value": 177.2
+      }
+    ],
+    "projectionByYearGWh": {
+      "2025": {
+        "totalGenerationGWh": 268910.4,
+        "totalConsumptionGWh": 257771.0
+      },
+      "2026": {
+        "totalGenerationGWh": 272924.5,
+        "totalConsumptionGWh": 260446.6
+      }
+    }
+  },
+  "Georgia": {
+    "meta": "EIA 2024 actuals + 2025/2026 trend projections. Generation actuals: EIA-923 annual net generation by state (annual_generation_state.xls). Consumption actuals: EIA-861 bundled retail sales (Sales_Ult_Cust_2024.xlsx). Projections: linear trend fit on 2019-2024 generation totals; consumption follows that annual growth ratio. Sources: eia.gov/electricity/data/state and eia.gov/electricity/state/georgia",
+    "baseYear": 2024,
+    "projectionYears": [
+      2025,
+      2026
+    ],
+    "projectionMethod": "Linear trend fit using 2019-2024 annual state totals",
+    "totalConsumptionGWh": 150004.0,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Natural Gas",
+        "value": 56936.5
+      },
+      {
+        "type": "Nuclear",
+        "value": 47975.9
+      },
+      {
+        "type": "Coal",
+        "value": 17836.9
+      },
+      {
+        "type": "Solar",
+        "value": 9184.7
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 5366.1
+      },
+      {
+        "type": "Hydro",
+        "value": 2941.2
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 240.9
+      },
+      {
+        "type": "Other",
+        "value": 83.2
+      }
+    ],
+    "projectionByYearGWh": {
+      "2025": {
+        "totalGenerationGWh": 136601.9,
+        "totalConsumptionGWh": 146566.7
+      },
+      "2026": {
+        "totalGenerationGWh": 139034.2,
+        "totalConsumptionGWh": 143129.5
+      }
+    }
+  },
+  "Hawaii": {
+    "meta": "EIA 2024 actuals + 2025/2026 trend projections. Generation actuals: EIA-923 annual net generation by state (annual_generation_state.xls). Consumption actuals: EIA-861 bundled retail sales (Sales_Ult_Cust_2024.xlsx). Projections: linear trend fit on 2019-2024 generation totals; consumption follows that annual growth ratio. Sources: eia.gov/electricity/data/state and eia.gov/electricity/state/hawaii",
+    "baseYear": 2024,
+    "projectionYears": [
+      2025,
+      2026
+    ],
+    "projectionMethod": "Linear trend fit using 2019-2024 annual state totals",
+    "totalConsumptionGWh": 8952.1,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Coal / Oil",
+        "value": 7054.0
+      },
+      {
+        "type": "Solar",
+        "value": 705.0
+      },
+      {
+        "type": "Wind",
+        "value": 663.4
+      },
+      {
+        "type": "Geothermal",
+        "value": 258.9
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 218.6
+      },
+      {
+        "type": "Other",
+        "value": 160.6
+      },
+      {
+        "type": "Hydro",
+        "value": 100.5
+      }
+    ],
+    "projectionByYearGWh": {
+      "2025": {
+        "totalGenerationGWh": 9039.5,
+        "totalConsumptionGWh": 8833.4
+      },
+      "2026": {
+        "totalGenerationGWh": 8969.7,
+        "totalConsumptionGWh": 8714.8
+      }
+    }
+  },
+  "Idaho": {
+    "meta": "EIA 2024 actuals + 2025/2026 trend projections. Generation actuals: EIA-923 annual net generation by state (annual_generation_state.xls). Consumption actuals: EIA-861 bundled retail sales (Sales_Ult_Cust_2024.xlsx). Projections: linear trend fit on 2019-2024 generation totals; consumption follows that annual growth ratio. Sources: eia.gov/electricity/data/state and eia.gov/electricity/state/idaho",
+    "baseYear": 2024,
+    "projectionYears": [
+      2025,
+      2026
+    ],
+    "projectionMethod": "Linear trend fit using 2019-2024 annual state totals",
+    "totalConsumptionGWh": 26369.6,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Hydro",
+        "value": 9150.3
+      },
+      {
+        "type": "Natural Gas",
+        "value": 6285.4
+      },
+      {
+        "type": "Wind",
+        "value": 3015.9
+      },
+      {
+        "type": "Solar",
+        "value": 1017.8
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 405.0
+      },
+      {
+        "type": "Geothermal",
+        "value": 92.0
+      },
+      {
+        "type": "Other",
+        "value": 69.0
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 0.0
+      }
+    ],
+    "projectionByYearGWh": {
+      "2025": {
+        "totalGenerationGWh": 18652.7,
+        "totalConsumptionGWh": 24549.7
+      },
+      "2026": {
+        "totalGenerationGWh": 18882.7,
+        "totalConsumptionGWh": 22729.7
+      }
+    }
+  },
+  "Illinois": {
+    "meta": "EIA 2024 actuals + 2025/2026 trend projections. Generation actuals: EIA-923 annual net generation by state (annual_generation_state.xls). Consumption actuals: EIA-861 bundled retail sales (Sales_Ult_Cust_2024.xlsx). Projections: linear trend fit on 2019-2024 generation totals; consumption follows that annual growth ratio. Sources: eia.gov/electricity/data/state and eia.gov/electricity/state/illinois",
+    "baseYear": 2024,
+    "projectionYears": [
+      2025,
+      2026
+    ],
+    "projectionMethod": "Linear trend fit using 2019-2024 annual state totals",
+    "totalConsumptionGWh": 53462.2,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Nuclear",
+        "value": 99211.9
+      },
+      {
+        "type": "Natural Gas",
+        "value": 30314.4
+      },
+      {
+        "type": "Coal",
+        "value": 26965.5
+      },
+      {
+        "type": "Wind",
+        "value": 24910.3
+      },
+      {
+        "type": "Solar",
+        "value": 3057.4
+      },
+      {
+        "type": "Other",
+        "value": 233.5
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 224.4
+      },
+      {
+        "type": "Hydro",
+        "value": 74.9
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 20.7
+      }
+    ],
+    "projectionByYearGWh": {
+      "2025": {
+        "totalGenerationGWh": 183179.0,
+        "totalConsumptionGWh": 52932.2
+      },
+      "2026": {
+        "totalGenerationGWh": 183731.2,
+        "totalConsumptionGWh": 52402.2
+      }
+    }
+  },
+  "Indiana": {
+    "meta": "EIA 2024 actuals + 2025/2026 trend projections. Generation actuals: EIA-923 annual net generation by state (annual_generation_state.xls). Consumption actuals: EIA-861 bundled retail sales (Sales_Ult_Cust_2024.xlsx). Projections: linear trend fit on 2019-2024 generation totals; consumption follows that annual growth ratio. Sources: eia.gov/electricity/data/state and eia.gov/electricity/state/indiana",
+    "baseYear": 2024,
+    "projectionYears": [
+      2025,
+      2026
+    ],
+    "projectionMethod": "Linear trend fit using 2019-2024 annual state totals",
+    "totalConsumptionGWh": 99219.6,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Natural Gas",
+        "value": 41973.2
+      },
+      {
+        "type": "Coal",
+        "value": 40526.1
+      },
+      {
+        "type": "Wind",
+        "value": 10312.2
+      },
+      {
+        "type": "Solar",
+        "value": 3091.4
+      },
+      {
+        "type": "Other",
+        "value": 431.7
+      },
+      {
+        "type": "Hydro",
+        "value": 375.3
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 183.0
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 120.0
+      }
+    ],
+    "projectionByYearGWh": {
+      "2025": {
+        "totalGenerationGWh": 92944.6,
+        "totalConsumptionGWh": 95058.8
+      },
+      "2026": {
+        "totalGenerationGWh": 92268.8,
+        "totalConsumptionGWh": 90897.9
+      }
+    }
+  },
+  "Iowa": {
+    "meta": "EIA 2024 actuals + 2025/2026 trend projections. Generation actuals: EIA-923 annual net generation by state (annual_generation_state.xls). Consumption actuals: EIA-861 bundled retail sales (Sales_Ult_Cust_2024.xlsx). Projections: linear trend fit on 2019-2024 generation totals; consumption follows that annual growth ratio. Sources: eia.gov/electricity/data/state and eia.gov/electricity/state/iowa",
+    "baseYear": 2024,
+    "projectionYears": [
+      2025,
+      2026
+    ],
+    "projectionMethod": "Linear trend fit using 2019-2024 annual state totals",
+    "totalConsumptionGWh": 54930.4,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Wind",
+        "value": 44277.2
+      },
+      {
+        "type": "Coal",
+        "value": 14464.4
+      },
+      {
+        "type": "Natural Gas",
+        "value": 9764.5
+      },
+      {
+        "type": "Hydro",
+        "value": 1030.5
+      },
+      {
+        "type": "Solar",
+        "value": 663.5
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 217.3
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 47.5
+      }
+    ],
+    "projectionByYearGWh": {
+      "2025": {
+        "totalGenerationGWh": 74674.3,
+        "totalConsumptionGWh": 58212.5
+      },
+      "2026": {
+        "totalGenerationGWh": 76830.0,
+        "totalConsumptionGWh": 61494.5
+      }
+    }
+  },
+  "Kansas": {
+    "meta": "EIA 2024 actuals + 2025/2026 trend projections. Generation actuals: EIA-923 annual net generation by state (annual_generation_state.xls). Consumption actuals: EIA-861 bundled retail sales (Sales_Ult_Cust_2024.xlsx). Projections: linear trend fit on 2019-2024 generation totals; consumption follows that annual growth ratio. Sources: eia.gov/electricity/data/state and eia.gov/electricity/state/kansas",
+    "baseYear": 2024,
+    "projectionYears": [
+      2025,
+      2026
+    ],
+    "projectionMethod": "Linear trend fit using 2019-2024 annual state totals",
+    "totalConsumptionGWh": 41258.2,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Wind",
+        "value": 29795.2
+      },
+      {
+        "type": "Coal",
+        "value": 13079.2
+      },
+      {
+        "type": "Nuclear",
+        "value": 9204.2
+      },
+      {
+        "type": "Natural Gas",
+        "value": 5317.9
+      },
+      {
+        "type": "Solar",
+        "value": 121.6
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 97.5
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 55.5
+      },
+      {
+        "type": "Hydro",
+        "value": 20.0
+      },
+      {
+        "type": "Other",
+        "value": 5.0
+      }
+    ],
+    "projectionByYearGWh": {
+      "2025": {
+        "totalGenerationGWh": 61870.3,
+        "totalConsumptionGWh": 44243.1
+      },
+      "2026": {
+        "totalGenerationGWh": 63337.5,
+        "totalConsumptionGWh": 47228.1
+      }
+    }
+  },
+  "Kentucky": {
+    "meta": "EIA 2024 actuals + 2025/2026 trend projections. Generation actuals: EIA-923 annual net generation by state (annual_generation_state.xls). Consumption actuals: EIA-861 bundled retail sales (Sales_Ult_Cust_2024.xlsx). Projections: linear trend fit on 2019-2024 generation totals; consumption follows that annual growth ratio. Sources: eia.gov/electricity/data/state and eia.gov/electricity/state/kentucky",
+    "baseYear": 2024,
+    "projectionYears": [
+      2025,
+      2026
+    ],
+    "projectionMethod": "Linear trend fit using 2019-2024 annual state totals",
+    "totalConsumptionGWh": 74405.9,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Coal",
+        "value": 44829.3
+      },
+      {
+        "type": "Natural Gas",
+        "value": 17267.3
+      },
+      {
+        "type": "Hydro",
+        "value": 4113.7
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 394.0
+      },
+      {
+        "type": "Solar",
+        "value": 276.6
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 58.1
+      },
+      {
+        "type": "Other",
+        "value": 11.7
+      }
+    ],
+    "projectionByYearGWh": {
+      "2025": {
+        "totalGenerationGWh": 64828.3,
+        "totalConsumptionGWh": 72047.0
+      },
+      "2026": {
+        "totalGenerationGWh": 64085.6,
+        "totalConsumptionGWh": 69688.1
+      }
+    }
+  },
+  "Louisiana": {
+    "meta": "EIA 2024 actuals (released Nov 2025). Generation: EIA-923 / SEP Tables for LA. Consumption: EIA-861 retail sales (95,357 GWh) + direct use (15,215 GWh). Source: eia.gov/electricity/state/louisiana",
+    "baseYear": 2024,
+    "projectionYears": [
+      2025,
+      2026
+    ],
+    "projectionMethod": "Linear trend fit using 2019-2024 annual state totals (assumed 1% annual growth)",
+    "totalConsumptionGWh": 110572,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Natural Gas",
+        "value": 70000
+      },
+      {
+        "type": "Coal",
+        "value": 8000
+      },
+      {
+        "type": "Nuclear",
+        "value": 16000
+      },
+      {
+        "type": "Hydro",
+        "value": 2000
+      },
+      {
+        "type": "Solar",
+        "value": 1000
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 500
+      },
+      {
+        "type": "Wind",
+        "value": 0
+      },
+      {
+        "type": "Other",
+        "value": 123
+      }
+    ],
+    "projectionByYearGWh": {
+      "2025": {
+        "totalGenerationGWh": 100619,
+        "totalConsumptionGWh": 111678
+      },
+      "2026": {
+        "totalGenerationGWh": 101625,
+        "totalConsumptionGWh": 112795
+      }
+    }
+  },
+  "Maine": {
+    "meta": "EIA 2024 actuals (released Nov 2025) + 2025/2026 trend projections. Generation: EIA-923 annual net generation by state (SEP Tables for ME.xlsx, Table 5). Consumption: EIA-861 retail sales (11,341.6 GWh) + direct use (1,428.1 GWh). Projections: linear trend fit on 2019-2024 generation totals; consumption follows that annual growth ratio. Source: eia.gov/electricity/state/maine",
+    "baseYear": 2024,
+    "projectionYears": [
+      2025,
+      2026
+    ],
+    "projectionMethod": "Linear trend fit using 2019-2024 annual state totals (assumed 1% annual growth)",
+    "totalConsumptionGWh": 12769.7,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Hydro",
+        "value": 4890.0
+      },
+      {
+        "type": "Wind",
+        "value": 3400.0
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 2100.0
+      },
+      {
+        "type": "Natural Gas",
+        "value": 1800.0
+      },
+      {
+        "type": "Solar",
+        "value": 600.0
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 100.0
+      },
+      {
+        "type": "Other",
+        "value": 765.2
+      }
+    ],
+    "projectionByYearGWh": {
+      "2025": {
+        "totalGenerationGWh": 14798.8,
+        "totalConsumptionGWh": 12897.4
+      },
+      "2026": {
+        "totalGenerationGWh": 14946.8,
+        "totalConsumptionGWh": 13026.4
+      }
+    }
+  },
+  "Maryland": {
+    "meta": "EIA 2024 actuals. Generation: EIA annual net generation by state (annual_generation_state.xls). Consumption: state electricity profile total retail sales plus direct use. Source: https://www.eia.gov/electricity/state/maryland/",
+    "baseYear": 2024,
+    "totalConsumptionGWh": 59314.8,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Nuclear",
+        "value": 14724.1
+      },
+      {
+        "type": "Natural Gas",
+        "value": 13910.1
+      },
+      {
+        "type": "Coal",
+        "value": 2465.7
+      },
+      {
+        "type": "Hydro",
+        "value": 1848.2
+      },
+      {
+        "type": "Solar",
+        "value": 1036.4
+      },
+      {
+        "type": "Wind",
+        "value": 558.3
+      },
+      {
+        "type": "Other",
+        "value": 337.9
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 332.5
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 211.6
+      }
+    ]
+  },
+  "Massachusetts": {
+    "meta": "EIA 2024 actuals. Generation: EIA annual net generation by state (annual_generation_state.xls). Consumption: state electricity profile total retail sales plus direct use. Source: https://www.eia.gov/electricity/state/massachusetts/",
+    "baseYear": 2024,
+    "totalConsumptionGWh": 50283.6,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Natural Gas",
+        "value": 16203.0
+      },
+      {
+        "type": "Solar",
+        "value": 2126.7
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 925.0
+      },
+      {
+        "type": "Other",
+        "value": 916.8
+      },
+      {
+        "type": "Hydro",
+        "value": 880.7
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 176.8
+      },
+      {
+        "type": "Wind",
+        "value": 169.2
+      }
+    ]
+  },
+  "Michigan": {
+    "meta": "EIA 2024 actuals. Generation: EIA annual net generation by state (annual_generation_state.xls). Consumption: state electricity profile total retail sales plus direct use. Source: https://www.eia.gov/electricity/state/michigan/",
+    "baseYear": 2024,
+    "totalConsumptionGWh": 101248.2,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Natural Gas",
+        "value": 56680.3
+      },
+      {
+        "type": "Nuclear",
+        "value": 26280.8
+      },
+      {
+        "type": "Coal",
+        "value": 25738.1
+      },
+      {
+        "type": "Wind",
+        "value": 9838.9
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 1936.9
+      },
+      {
+        "type": "Solar",
+        "value": 1859.4
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 1493.6
+      },
+      {
+        "type": "Hydro",
+        "value": 1255.0
+      },
+      {
+        "type": "Other",
+        "value": 93.6
+      }
+    ]
+  },
+  "Minnesota": {
+    "meta": "EIA 2024 actuals. Generation: EIA annual net generation by state (annual_generation_state.xls). Consumption: state electricity profile total retail sales plus direct use. Source: https://www.eia.gov/electricity/state/minnesota/",
+    "baseYear": 2024,
+    "totalConsumptionGWh": 66299.6,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Natural Gas",
+        "value": 15888.7
+      },
+      {
+        "type": "Wind",
+        "value": 14781.5
+      },
+      {
+        "type": "Nuclear",
+        "value": 11844.6
+      },
+      {
+        "type": "Coal",
+        "value": 11430.5
+      },
+      {
+        "type": "Solar",
+        "value": 2285.3
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 1164.9
+      },
+      {
+        "type": "Hydro",
+        "value": 867.8
+      },
+      {
+        "type": "Other",
+        "value": 310.7
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 21.3
+      }
+    ]
+  },
+  "Mississippi": {
+    "meta": "EIA 2024 actuals. Generation: EIA annual net generation by state (annual_generation_state.xls). Consumption: state electricity profile total retail sales plus direct use. Source: https://www.eia.gov/electricity/state/mississippi/",
+    "baseYear": 2024,
+    "totalConsumptionGWh": 50536.7,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Natural Gas",
+        "value": 60025.5
+      },
+      {
+        "type": "Nuclear",
+        "value": 10653.4
+      },
+      {
+        "type": "Coal",
+        "value": 3334.1
+      },
+      {
+        "type": "Solar",
+        "value": 1690.8
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 1281.0
+      },
+      {
+        "type": "Wind",
+        "value": 346.7
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 8.6
+      }
+    ]
+  },
+  "Missouri": {
+    "meta": "EIA 2024 actuals. Generation: EIA annual net generation by state (annual_generation_state.xls). Consumption: state electricity profile total retail sales plus direct use. Source: https://www.eia.gov/electricity/state/missouri/",
+    "baseYear": 2024,
+    "totalConsumptionGWh": 78067.6,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Coal",
+        "value": 38831.6
+      },
+      {
+        "type": "Nuclear",
+        "value": 10525.8
+      },
+      {
+        "type": "Natural Gas",
+        "value": 9099.6
+      },
+      {
+        "type": "Wind",
+        "value": 6790.0
+      },
+      {
+        "type": "Hydro",
+        "value": 1167.9
+      },
+      {
+        "type": "Solar",
+        "value": 207.7
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 147.5
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 105.7
+      }
+    ]
+  },
+  "Montana": {
+    "meta": "EIA 2024 actuals. Generation: EIA annual net generation by state (annual_generation_state.xls). Consumption: state electricity profile total retail sales plus direct use. Source: https://www.eia.gov/electricity/state/montana/",
+    "baseYear": 2024,
+    "totalConsumptionGWh": 15591.6,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Coal",
+        "value": 9785.5
+      },
+      {
+        "type": "Hydro",
+        "value": 9220.0
+      },
+      {
+        "type": "Wind",
+        "value": 5815.2
+      },
+      {
+        "type": "Natural Gas",
+        "value": 1000.7
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 394.5
+      },
+      {
+        "type": "Solar",
+        "value": 366.2
+      },
+      {
+        "type": "Other",
+        "value": 255.7
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 35.0
+      }
+    ]
+  },
+  "Nebraska": {
+    "meta": "EIA 2024 actuals. Generation: EIA annual net generation by state (annual_generation_state.xls). Consumption: state electricity profile total retail sales plus direct use. Source: https://www.eia.gov/electricity/state/nebraska/",
+    "baseYear": 2024,
+    "totalConsumptionGWh": 35628.9,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Coal",
+        "value": 16352.2
+      },
+      {
+        "type": "Wind",
+        "value": 11891.2
+      },
+      {
+        "type": "Nuclear",
+        "value": 6095.7
+      },
+      {
+        "type": "Natural Gas",
+        "value": 1381.5
+      },
+      {
+        "type": "Hydro",
+        "value": 1182.7
+      },
+      {
+        "type": "Solar",
+        "value": 196.1
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 81.8
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 47.8
+      }
+    ]
+  },
+  "Nevada": {
+    "meta": "EIA 2024 actuals. Generation: EIA annual net generation by state (annual_generation_state.xls). Consumption: state electricity profile total retail sales plus direct use. Source: https://www.eia.gov/electricity/state/nevada/",
+    "baseYear": 2024,
+    "totalConsumptionGWh": 40839.2,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Natural Gas",
+        "value": 24999.5
+      },
+      {
+        "type": "Solar",
+        "value": 12454.8
+      },
+      {
+        "type": "Geothermal",
+        "value": 3885.7
+      },
+      {
+        "type": "Coal",
+        "value": 2323.2
+      },
+      {
+        "type": "Hydro",
+        "value": 1606.3
+      },
+      {
+        "type": "Wind",
+        "value": 319.3
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 52.2
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 5.7
+      }
+    ]
+  },
+  "New Hampshire": {
+    "meta": "EIA 2024 actuals. Generation: EIA annual net generation by state (annual_generation_state.xls). Consumption: state electricity profile total retail sales plus direct use. Source: https://www.eia.gov/electricity/data/eia861/zip/f8612024.zip",
+    "baseYear": 2024,
+    "totalConsumptionGWh": 10679.1,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Nuclear",
+        "value": 9676.9
+      },
+      {
+        "type": "Natural Gas",
+        "value": 4421.0
+      },
+      {
+        "type": "Hydro",
+        "value": 1411.4
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 664.5
+      },
+      {
+        "type": "Wind",
+        "value": 444.6
+      },
+      {
+        "type": "Coal",
+        "value": 224.5
+      },
+      {
+        "type": "Other",
+        "value": 49.6
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 46.6
+      },
+      {
+        "type": "Solar",
+        "value": 3.5
+      }
+    ]
+  },
+  "New Jersey": {
+    "meta": "EIA 2024 actuals. Generation: EIA annual net generation by state (annual_generation_state.xls). Consumption: state electricity profile total retail sales plus direct use. Source: https://www.eia.gov/electricity/data/eia861/zip/f8612024.zip",
+    "baseYear": 2024,
+    "totalConsumptionGWh": 71461.1,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Natural Gas",
+        "value": 29816.7
+      },
+      {
+        "type": "Nuclear",
+        "value": 27676.8
+      },
+      {
+        "type": "Solar",
+        "value": 1596.4
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 656.6
+      },
+      {
+        "type": "Other",
+        "value": 606.7
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 31.0
+      },
+      {
+        "type": "Wind",
+        "value": 19.4
+      },
+      {
+        "type": "Hydro",
+        "value": 3.5
+      }
+    ]
+  },
+  "New Mexico": {
+    "meta": "EIA 2024 actuals. Generation: EIA annual net generation by state (annual_generation_state.xls). Consumption: state electricity profile total retail sales plus direct use. Source: https://www.eia.gov/electricity/data/eia861/zip/f8612024.zip",
+    "baseYear": 2024,
+    "totalConsumptionGWh": 28378.8,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Wind",
+        "value": 15135.6
+      },
+      {
+        "type": "Natural Gas",
+        "value": 11647.8
+      },
+      {
+        "type": "Coal",
+        "value": 8431.8
+      },
+      {
+        "type": "Solar",
+        "value": 4286.6
+      },
+      {
+        "type": "Hydro",
+        "value": 153.2
+      },
+      {
+        "type": "Geothermal",
+        "value": 26.1
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 25.2
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 0.8
+      }
+    ]
+  },
+  "New York": {
+    "meta": "EIA 2024 actuals. Generation: EIA annual net generation by state (annual_generation_state.xls). Consumption: state electricity profile total retail sales plus direct use. Source: https://www.eia.gov/electricity/data/eia861/zip/f8612024.zip",
+    "baseYear": 2024,
+    "totalConsumptionGWh": 137155.6,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Natural Gas",
+        "value": 62345.5
+      },
+      {
+        "type": "Hydro",
+        "value": 27945.3
+      },
+      {
+        "type": "Nuclear",
+        "value": 27073.3
+      },
+      {
+        "type": "Wind",
+        "value": 6031.4
+      },
+      {
+        "type": "Solar",
+        "value": 3127.5
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 1592.8
+      },
+      {
+        "type": "Other",
+        "value": 996.7
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 312.6
+      }
+    ]
+  },
+  "North Carolina": {
+    "meta": "EIA 2024 actuals. Generation: EIA annual net generation by state (annual_generation_state.xls). Consumption: state electricity profile total retail sales plus direct use. Source: https://www.eia.gov/electricity/data/eia861/zip/f8612024.zip",
+    "baseYear": 2024,
+    "totalConsumptionGWh": 133560.3,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Natural Gas",
+        "value": 55503.2
+      },
+      {
+        "type": "Nuclear",
+        "value": 43349.3
+      },
+      {
+        "type": "Coal",
+        "value": 17078.7
+      },
+      {
+        "type": "Solar",
+        "value": 11843.9
+      },
+      {
+        "type": "Hydro",
+        "value": 4829.1
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 1454.1
+      },
+      {
+        "type": "Wind",
+        "value": 530.0
+      },
+      {
+        "type": "Other",
+        "value": 219.7
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 157.4
+      }
+    ]
+  },
+  "North Dakota": {
+    "meta": "EIA 2024 actuals. Generation: EIA annual net generation by state (annual_generation_state.xls). Consumption: state electricity profile total retail sales plus direct use. Source: https://www.eia.gov/electricity/data/eia861/zip/f8612024.zip",
+    "baseYear": 2024,
+    "totalConsumptionGWh": 29092.5,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Coal",
+        "value": 23183.1
+      },
+      {
+        "type": "Wind",
+        "value": 14762.6
+      },
+      {
+        "type": "Natural Gas",
+        "value": 2469.8
+      },
+      {
+        "type": "Hydro",
+        "value": 2060.6
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 43.6
+      },
+      {
+        "type": "Other",
+        "value": 37.6
+      }
+    ]
+  },
+  "Ohio": {
+    "meta": "EIA 2024 actuals. Generation: EIA annual net generation by state (annual_generation_state.xls). Consumption: state electricity profile total retail sales plus direct use. Source: https://www.eia.gov/electricity/state/ohio/",
+    "baseYear": 2024,
+    "totalConsumptionGWh": 154917.9,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Natural Gas",
+        "value": 85992.9
+      },
+      {
+        "type": "Coal",
+        "value": 30080.0
+      },
+      {
+        "type": "Nuclear",
+        "value": 17947.0
+      },
+      {
+        "type": "Solar",
+        "value": 4001.6
+      },
+      {
+        "type": "Wind",
+        "value": 2821.7
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 1142.8
+      },
+      {
+        "type": "Hydro",
+        "value": 467.5
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 291.9
+      },
+      {
+        "type": "Other",
+        "value": 1.3
+      }
+    ]
+  },
+  "Oklahoma": {
+    "meta": "EIA 2024 actuals. Generation: EIA annual net generation by state (annual_generation_state.xls). Consumption: state electricity profile total retail sales plus direct use. Source: https://www.eia.gov/electricity/state/oklahoma/",
+    "baseYear": 2024,
+    "totalConsumptionGWh": 72969.6,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Natural Gas",
+        "value": 47742.4
+      },
+      {
+        "type": "Wind",
+        "value": 37966.7
+      },
+      {
+        "type": "Coal",
+        "value": 6135.4
+      },
+      {
+        "type": "Hydro",
+        "value": 1581.6
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 331.7
+      },
+      {
+        "type": "Solar",
+        "value": 311.3
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 27.0
+      },
+      {
+        "type": "Other",
+        "value": 20.6
+      }
+    ]
+  },
+  "Oregon": {
+    "meta": "EIA 2024 actuals. Generation: EIA annual net generation by state (annual_generation_state.xls). Consumption: state electricity profile total retail sales plus direct use. Source: https://www.eia.gov/electricity/state/oregon/",
+    "baseYear": 2024,
+    "totalConsumptionGWh": 60316.1,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Hydro",
+        "value": 26932.7
+      },
+      {
+        "type": "Natural Gas",
+        "value": 24925.8
+      },
+      {
+        "type": "Wind",
+        "value": 9519.0
+      },
+      {
+        "type": "Solar",
+        "value": 2001.4
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 1087.0
+      },
+      {
+        "type": "Geothermal",
+        "value": 168.9
+      },
+      {
+        "type": "Other",
+        "value": 13.4
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 13.1
+      }
+    ]
+  },
+  "Pennsylvania": {
+    "meta": "EIA 2024 actuals. Generation: EIA annual net generation by state (annual_generation_state.xls). Consumption: state electricity profile total retail sales plus direct use. Source: https://www.eia.gov/electricity/state/pennsylvania/",
+    "baseYear": 2024,
+    "totalConsumptionGWh": 149072.6,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Natural Gas",
+        "value": 144454.7
+      },
+      {
+        "type": "Nuclear",
+        "value": 75404.5
+      },
+      {
+        "type": "Coal",
+        "value": 13041.6
+      },
+      {
+        "type": "Wind",
+        "value": 3256.6
+      },
+      {
+        "type": "Hydro",
+        "value": 2720.8
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 1489.3
+      },
+      {
+        "type": "Solar",
+        "value": 1094.9
+      },
+      {
+        "type": "Other",
+        "value": 858.3
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 86.8
+      }
+    ]
+  },
+  "Rhode Island": {
+    "meta": "EIA 2024 actuals. Generation: EIA annual net generation by state (annual_generation_state.xls). Consumption: state electricity profile total retail sales plus direct use. Source: https://www.eia.gov/electricity/data/eia861/zip/f8612024.zip",
+    "baseYear": 2024,
+    "totalConsumptionGWh": 7331.2,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Natural Gas",
+        "value": 8791.2
+      },
+      {
+        "type": "Solar",
+        "value": 600.3
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 196.7
+      },
+      {
+        "type": "Wind",
+        "value": 178.1
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 8.4
+      },
+      {
+        "type": "Hydro",
+        "value": 2.7
+      }
+    ]
+  },
+  "South Carolina": {
+    "meta": "EIA 2024 actuals. Generation: EIA annual net generation by state (annual_generation_state.xls). Consumption: state electricity profile total retail sales plus direct use. Source: https://www.eia.gov/electricity/data/eia861/zip/f8612024.zip",
+    "baseYear": 2024,
+    "totalConsumptionGWh": 82292.1,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Nuclear",
+        "value": 53770.4
+      },
+      {
+        "type": "Natural Gas",
+        "value": 22808.7
+      },
+      {
+        "type": "Coal",
+        "value": 16841.8
+      },
+      {
+        "type": "Solar",
+        "value": 2925.7
+      },
+      {
+        "type": "Hydro",
+        "value": 2411.7
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 1827.3
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 105.5
+      },
+      {
+        "type": "Other",
+        "value": 45.5
+      }
+    ]
+  },
+  "South Dakota": {
+    "meta": "EIA 2024 actuals. Generation: EIA annual net generation by state (annual_generation_state.xls). Consumption: state electricity profile total retail sales plus direct use. Source: https://www.eia.gov/electricity/data/eia861/zip/f8612024.zip",
+    "baseYear": 2024,
+    "totalConsumptionGWh": 10770.9,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Wind",
+        "value": 12074.0
+      },
+      {
+        "type": "Hydro",
+        "value": 4600.5
+      },
+      {
+        "type": "Natural Gas",
+        "value": 2260.7
+      },
+      {
+        "type": "Coal",
+        "value": 1562.7
+      },
+      {
+        "type": "Solar",
+        "value": 338.3
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 19.8
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 16.0
+      }
+    ]
+  },
+  "Tennessee": {
+    "meta": "EIA 2024 actuals. Generation: EIA annual net generation by state (annual_generation_state.xls). Consumption: state electricity profile total retail sales plus direct use. Source: https://www.eia.gov/electricity/state/tennessee/",
+    "baseYear": 2024,
+    "totalConsumptionGWh": 105346.4,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Nuclear",
+        "value": 32186.0
+      },
+      {
+        "type": "Coal",
+        "value": 17434.9
+      },
+      {
+        "type": "Natural Gas",
+        "value": 16494.9
+      },
+      {
+        "type": "Hydro",
+        "value": 8911.4
+      },
+      {
+        "type": "Solar",
+        "value": 1104.3
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 471.3
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 121.2
+      },
+      {
+        "type": "Wind",
+        "value": 13.2
+      },
+      {
+        "type": "Other",
+        "value": 0.5
+      }
+    ]
+  },
+  "Texas": {
+    "meta": "EIA 2024 actuals. Generation: EIA annual net generation by state (annual_generation_state.xls). Consumption: state electricity profile total retail sales plus direct use. Source: https://www.eia.gov/electricity/state/texas/",
+    "baseYear": 2024,
+    "totalConsumptionGWh": 543284.4,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Natural Gas",
+        "value": 295725.2
+      },
+      {
+        "type": "Wind",
+        "value": 124277.5
+      },
+      {
+        "type": "Coal",
+        "value": 65545.2
+      },
+      {
+        "type": "Solar",
+        "value": 40559.0
+      },
+      {
+        "type": "Nuclear",
+        "value": 38613.1
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 916.4
+      },
+      {
+        "type": "Hydro",
+        "value": 776.7
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 229.5
+      }
+    ]
+  },
+  "Utah": {
+    "meta": "EIA 2024 actuals. Generation: EIA annual net generation by state (annual_generation_state.xls). Consumption: state electricity profile total retail sales plus direct use. Source: https://www.eia.gov/electricity/state/utah/",
+    "baseYear": 2024,
+    "totalConsumptionGWh": 35275.5,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Coal",
+        "value": 15966.6
+      },
+      {
+        "type": "Natural Gas",
+        "value": 11641.8
+      },
+      {
+        "type": "Solar",
+        "value": 5311.1
+      },
+      {
+        "type": "Hydro",
+        "value": 758.7
+      },
+      {
+        "type": "Wind",
+        "value": 748.4
+      },
+      {
+        "type": "Geothermal",
+        "value": 451.0
+      },
+      {
+        "type": "Other",
+        "value": 152.8
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 70.2
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 33.4
+      }
+    ]
+  },
+  "Vermont": {
+    "meta": "EIA 2024 actuals. Generation: EIA annual net generation by state (annual_generation_state.xls). Consumption: state electricity profile total retail sales plus direct use. Source: https://www.eia.gov/electricity/state/vermont/",
+    "baseYear": 2024,
+    "totalConsumptionGWh": 5461.9,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Hydro",
+        "value": 1283.9
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 397.7
+      },
+      {
+        "type": "Wind",
+        "value": 355.3
+      },
+      {
+        "type": "Solar",
+        "value": 216.8
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 3.1
+      },
+      {
+        "type": "Natural Gas",
+        "value": 1.1
+      },
+      {
+        "type": "Other",
+        "value": 1.0
+      }
+    ]
+  },
+  "Virginia": {
+    "meta": "EIA 2024 actuals. Generation: EIA annual net generation by state (annual_generation_state.xls). Consumption: state electricity profile total retail sales plus direct use. Source: https://www.eia.gov/electricity/state/virginia/",
+    "baseYear": 2024,
+    "totalConsumptionGWh": 140513.7,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Natural Gas",
+        "value": 60998.1
+      },
+      {
+        "type": "Nuclear",
+        "value": 28945.3
+      },
+      {
+        "type": "Solar",
+        "value": 6998.4
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 3387.6
+      },
+      {
+        "type": "Coal",
+        "value": 1972.1
+      },
+      {
+        "type": "Hydro",
+        "value": 1253.1
+      },
+      {
+        "type": "Other",
+        "value": 421.7
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 204.7
+      },
+      {
+        "type": "Wind",
+        "value": 50.3
+      }
+    ]
+  },
+  "Washington": {
+    "meta": "EIA 2024 actuals. Generation: EIA annual net generation by state (annual_generation_state.xls). Consumption: state electricity profile total retail sales plus direct use. Source: https://www.eia.gov/electricity/state/washington/",
+    "baseYear": 2024,
+    "totalConsumptionGWh": 90427.2,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Hydro",
+        "value": 60738.0
+      },
+      {
+        "type": "Natural Gas",
+        "value": 18320.1
+      },
+      {
+        "type": "Nuclear",
+        "value": 9967.1
+      },
+      {
+        "type": "Wind",
+        "value": 8863.3
+      },
+      {
+        "type": "Coal",
+        "value": 2846.6
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 1109.8
+      },
+      {
+        "type": "Solar",
+        "value": 436.8
+      },
+      {
+        "type": "Other",
+        "value": 72.5
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 43.4
+      }
+    ]
+  },
+  "West Virginia": {
+    "meta": "EIA 2024 actuals. Generation: EIA annual net generation by state (annual_generation_state.xls). Consumption: state electricity profile total retail sales plus direct use. Source: https://www.eia.gov/electricity/data/eia861/zip/f8612024.zip",
+    "baseYear": 2024,
+    "totalConsumptionGWh": 32836.0,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Coal",
+        "value": 43097.9
+      },
+      {
+        "type": "Natural Gas",
+        "value": 3822.2
+      },
+      {
+        "type": "Wind",
+        "value": 2002.8
+      },
+      {
+        "type": "Hydro",
+        "value": 1361.3
+      },
+      {
+        "type": "Solar",
+        "value": 185.8
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 124.8
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 7.6
+      }
+    ]
+  },
+  "Wisconsin": {
+    "meta": "EIA 2024 actuals. Generation: EIA annual net generation by state (annual_generation_state.xls). Consumption: state electricity profile total retail sales plus direct use. Source: https://www.eia.gov/electricity/state/wisconsin/",
+    "baseYear": 2024,
+    "totalConsumptionGWh": 69755.4,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Natural Gas",
+        "value": 26245.6
+      },
+      {
+        "type": "Coal",
+        "value": 20763.1
+      },
+      {
+        "type": "Nuclear",
+        "value": 10146.9
+      },
+      {
+        "type": "Solar",
+        "value": 2880.2
+      },
+      {
+        "type": "Hydro",
+        "value": 2071.8
+      },
+      {
+        "type": "Wind",
+        "value": 1994.1
+      },
+      {
+        "type": "Biomass / Biogas / Waste",
+        "value": 1085.0
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 67.6
+      },
+      {
+        "type": "Other",
+        "value": 22.0
+      }
+    ]
+  },
+  "Wyoming": {
+    "meta": "EIA 2024 actuals. Generation: EIA annual net generation by state (annual_generation_state.xls). Consumption: state electricity profile total retail sales plus direct use. Source: https://www.eia.gov/electricity/state/wyoming/",
+    "baseYear": 2024,
+    "totalConsumptionGWh": 17216.9,
+    "totalBatteryStorageGWh": 0.0,
+    "generationByTypeGWh": [
+      {
+        "type": "Coal",
+        "value": 24381.6
+      },
+      {
+        "type": "Wind",
+        "value": 9001.8
+      },
+      {
+        "type": "Natural Gas",
+        "value": 5750.2
+      },
+      {
+        "type": "Hydro",
+        "value": 1016.6
+      },
+      {
+        "type": "Solar",
+        "value": 423.1
+      },
+      {
+        "type": "Other",
+        "value": 90.0
+      },
+      {
+        "type": "Coal / Oil",
+        "value": 45.8
+      }
+    ]
+  }
+}

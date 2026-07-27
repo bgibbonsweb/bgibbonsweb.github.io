@@ -1,0 +1,3169 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-04-24T20:51:16Z",
+    "timestamp_areas_base": "2026-04-24T15:53:36Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 622196664,
+      "lat": 46.9593251,
+      "lon": -123.4692934,
+      "tags": {
+        "name": "Satsop Nuclear Power Plant (Not in use)",
+        "power": "plant",
+        "wikidata": "Q1739457",
+        "wikipedia": "en:WNP-3 and WNP-5"
+      }
+    },
+    {
+      "type": "way",
+      "id": 37178336,
+      "center": {
+        "lat": 47.6623109,
+        "lon": -117.4226684
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Upper Falls Powerhouse",
+        "operator": "Avista",
+        "plant:output:electricity": "10 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "9096",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1922-04"
+      },
+      "lat": 47.6623109,
+      "lon": -117.4226684
+    },
+    {
+      "type": "way",
+      "id": 50050559,
+      "center": {
+        "lat": 47.6992449,
+        "lon": -121.7833478
+      },
+      "tags": {
+        "building": "yes",
+        "name": "South Fork Tolt Power Plant",
+        "operator": "City of Seattle - (WA)",
+        "plant:output:electricity": "16.8 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "622",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1995-11"
+      },
+      "lat": 47.6992449,
+      "lon": -121.7833478
+    },
+    {
+      "type": "way",
+      "id": 51794012,
+      "center": {
+        "lat": 48.7299131,
+        "lon": -121.071359
+      },
+      "tags": {
+        "building": "industrial",
+        "name": "Ross Dam Powerhouse",
+        "operator": "City of Seattle - (WA)",
+        "plant:output:electricity": "450 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "6202",
+        "source": "yahoo_wms",
+        "start_date": "1952-12",
+        "wikidata": "Q624078",
+        "wikipedia": "en:Ross Dam"
+      },
+      "lat": 48.7299131,
+      "lon": -121.071359
+    },
+    {
+      "type": "way",
+      "id": 54216361,
+      "center": {
+        "lat": 47.6537362,
+        "lon": -122.3036345
+      },
+      "tags": {
+        "addr:city": "Seattle",
+        "addr:country": "US",
+        "addr:housenumber": "3900",
+        "addr:postcode": "98122",
+        "addr:state": "WA",
+        "addr:street": "Jefferson Road Northeast",
+        "building": "industrial",
+        "landuse": "industrial",
+        "name": "University of Washington Power Plant",
+        "operator": "University of Washington",
+        "operator:abbr": "UW",
+        "operator:type": "public",
+        "operator:wikidata": "Q219563",
+        "operator:wikipedia": "en:University of Washington",
+        "plant:method": "combustion",
+        "plant:output:compressed_air": "yes",
+        "plant:output:electricity": "15 MW",
+        "plant:output:hot_water": "yes",
+        "plant:output:steam": "yes",
+        "plant:source": "oil;gas",
+        "power": "plant",
+        "ref": "PWR",
+        "ref:US:EIA": "54809",
+        "start_date": "1969-01",
+        "wikidata": "Q116714545"
+      },
+      "lat": 47.6537362,
+      "lon": -122.3036345
+    },
+    {
+      "type": "way",
+      "id": 57871388,
+      "center": {
+        "lat": 47.947018,
+        "lon": -119.8651305
+      },
+      "tags": {
+        "ele": "239",
+        "gnis:feature_id": "1527892",
+        "name": "Wells Dam",
+        "operator": "PUD No 1 of Douglas County",
+        "plant:output:electricity": "774 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3886",
+        "ref:US:NID": "WA00098",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1967-09",
+        "waterway": "dam",
+        "wikidata": "Q7981641",
+        "wikipedia": "en:Wells Dam"
+      },
+      "lat": 47.947018,
+      "lon": -119.8651305
+    },
+    {
+      "type": "way",
+      "id": 84509116,
+      "center": {
+        "lat": 46.4720244,
+        "lon": -119.3332294
+      },
+      "tags": {
+        "barrier": "wall",
+        "landuse": "industrial",
+        "name": "Columbia Generating Station",
+        "operator": "Energy Northwest",
+        "plant:method": "fission",
+        "plant:output:electricity": "1200 MW",
+        "plant:source": "nuclear",
+        "power": "plant",
+        "ref:US:EIA": "371",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1984-12",
+        "wikidata": "Q1516618",
+        "wikipedia": "en:Columbia Generating Station"
+      },
+      "lat": 46.4720244,
+      "lon": -119.3332294
+    },
+    {
+      "type": "way",
+      "id": 116174102,
+      "center": {
+        "lat": 47.5442908,
+        "lon": -121.8414548
+      },
+      "tags": {
+        "addr:city": "Snoqualmie",
+        "addr:housenumber": "37540",
+        "addr:postcode": "98065",
+        "addr:street": "Southeast Fish Hatchery Road",
+        "building": "yes",
+        "name": "Snoqualmie Falls Power Plant #2",
+        "operator": "Puget Sound Energy Inc",
+        "plant:output:electricity": "38.7 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "7867",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1910-01",
+        "wikidata": "Q19881767"
+      },
+      "lat": 47.5442908,
+      "lon": -121.8414548
+    },
+    {
+      "type": "way",
+      "id": 120910725,
+      "center": {
+        "lat": 47.4223361,
+        "lon": -123.2202953
+      },
+      "tags": {
+        "name": "Cushman No. 1 Hydroelectric Power Plant",
+        "operator": "Tacoma Power",
+        "plant:output:electricity": "43.2 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3914",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1926-06"
+      },
+      "lat": 47.4223361,
+      "lon": -123.2202953
+    },
+    {
+      "type": "way",
+      "id": 175164215,
+      "center": {
+        "lat": 47.4334701,
+        "lon": -121.6483192
+      },
+      "tags": {
+        "building": "industrial",
+        "name": "Weeks Falls Hydroelectric Power Plant",
+        "plant:source": "hydro",
+        "power": "plant"
+      },
+      "lat": 47.4334701,
+      "lon": -121.6483192
+    },
+    {
+      "type": "way",
+      "id": 182274989,
+      "center": {
+        "lat": 48.9078173,
+        "lon": -121.8143007
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Nooksack Power Plant",
+        "operator": "Puget Sound Hydro LLC",
+        "plant:output:electricity": "1.5 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "58696",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1906-11",
+        "wikidata": "Q14713854"
+      },
+      "lat": 48.9078173,
+      "lon": -121.8143007
+    },
+    {
+      "type": "way",
+      "id": 184792900,
+      "center": {
+        "lat": 48.6756644,
+        "lon": -121.2403925
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Gorge Powerhouse",
+        "operator": "City of Seattle - (WA)",
+        "plant:output:electricity": "207.3 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "6431",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1924-09",
+        "wikidata": "Q65207042",
+        "wikipedia": "en:Gorge Dam"
+      },
+      "lat": 48.6756644,
+      "lon": -121.2403925
+    },
+    {
+      "type": "way",
+      "id": 240702240,
+      "center": {
+        "lat": 46.9689039,
+        "lon": -123.479188
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Grays Harbor Energy",
+        "operator": "Invenergy Services LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "714.9 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "7999",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2008-05",
+        "wikidata": "Q17778388"
+      },
+      "lat": 46.9689039,
+      "lon": -123.479188
+    },
+    {
+      "type": "way",
+      "id": 242246423,
+      "center": {
+        "lat": 47.9084867,
+        "lon": -121.8144972
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Henry M. Jackson Hydroelectric Project",
+        "opening_hours": "Mo-Su dawn-dusk",
+        "operator": "Snohomish County Public Utility District",
+        "plant:output:electricity": "111.8 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "7588",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1984-06",
+        "wikidata": "Q65202578"
+      },
+      "lat": 47.9084867,
+      "lon": -121.8144972
+    },
+    {
+      "type": "way",
+      "id": 243583494,
+      "center": {
+        "lat": 47.0796252,
+        "lon": -122.365627
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Frederickson Generating Station",
+        "operator": "Puget Sound Energy",
+        "plant:method": "combustion",
+        "plant:output:electricity": "177.8 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "99",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1981-11",
+        "wikidata": "Q17773907"
+      },
+      "lat": 47.0796252,
+      "lon": -122.365627
+    },
+    {
+      "type": "way",
+      "id": 244238044,
+      "center": {
+        "lat": 47.4195645,
+        "lon": -121.7819385
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Cedar Falls (WA)",
+        "operator": "Seattle City Light",
+        "plant:output:electricity": "30 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "6430",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1921-11"
+      },
+      "lat": 47.4195645,
+      "lon": -121.7819385
+    },
+    {
+      "type": "way",
+      "id": 254564673,
+      "center": {
+        "lat": 46.9908713,
+        "lon": -122.1747281
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Electron Powerhouse",
+        "operator": "Electron Hydro LLC",
+        "plant:output:electricity": "22.8 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3854",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1904-04",
+        "wikidata": "Q17486212"
+      },
+      "lat": 46.9908713,
+      "lon": -122.1747281
+    },
+    {
+      "type": "way",
+      "id": 256619312,
+      "center": {
+        "lat": 46.8011551,
+        "lon": -122.3101822
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Alder Dam Power House",
+        "operator": "Tacoma Power",
+        "plant:output:electricity": "50 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3913",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1945-12",
+        "wikidata": "Q4713614"
+      },
+      "lat": 46.8011551,
+      "lon": -122.3101822
+    },
+    {
+      "type": "way",
+      "id": 258217656,
+      "center": {
+        "lat": 46.8340527,
+        "lon": -122.3240417
+      },
+      "tags": {
+        "building": "yes",
+        "name": "LaGrande Powerhouse",
+        "operator": "Tacoma Power",
+        "plant:output:electricity": "64 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3916",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1912-11",
+        "wikidata": "Q6460734"
+      },
+      "lat": 46.8340527,
+      "lon": -122.3240417
+    },
+    {
+      "type": "way",
+      "id": 259455311,
+      "center": {
+        "lat": 47.3697595,
+        "lon": -123.1600824
+      },
+      "tags": {
+        "alt_name": "Cushman 2",
+        "building": "yes",
+        "name": "Potlatch Power Plant",
+        "operator": "Tacoma Power",
+        "plant:output:electricity": "84.6 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3915",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1930-12"
+      },
+      "lat": 47.3697595,
+      "lon": -123.1600824
+    },
+    {
+      "type": "way",
+      "id": 266202680,
+      "center": {
+        "lat": 46.5353183,
+        "lon": -122.4256259
+      },
+      "tags": {
+        "addr:city": "Silver Creek",
+        "addr:state": "WA",
+        "building": "yes",
+        "landuse": "industrial",
+        "name": "Mossyrock",
+        "operator": "City of Tacoma",
+        "plant:output:electricity": "300 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3918",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1968-10",
+        "wikidata": "Q1949488"
+      },
+      "lat": 46.5353183,
+      "lon": -122.4256259
+    },
+    {
+      "type": "way",
+      "id": 302115076,
+      "center": {
+        "lat": 47.5024892,
+        "lon": -119.2920056
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Summer Falls Power Plant",
+        "operator": "Columbia Basin Hydropower",
+        "plant:output:electricity": "92 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "56695",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1985-01"
+      },
+      "lat": 47.5024892,
+      "lon": -119.2920056
+    },
+    {
+      "type": "way",
+      "id": 312497717,
+      "center": {
+        "lat": 47.8366186,
+        "lon": -117.8407818
+      },
+      "tags": {
+        "addr:city": "Ford",
+        "addr:housenumber": "53200",
+        "addr:postcode": "99013",
+        "addr:street": "Long Lake Road East",
+        "building": "industrial",
+        "name": "Long Lake Power Plant",
+        "operator": "Avista",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "70 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3867",
+        "source": "bing",
+        "start_date": "1915-10",
+        "wikidata": "Q55138829"
+      },
+      "lat": 47.8366186,
+      "lon": -117.8407818
+    },
+    {
+      "type": "way",
+      "id": 352403787,
+      "center": {
+        "lat": 46.0605904,
+        "lon": -122.2030016
+      },
+      "tags": {
+        "name": "Swift 1 Power Plant",
+        "operator": "PacifiCorp",
+        "operator:wikidata": "Q2045479",
+        "plant:output:electricity": "240 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3850",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1958-12",
+        "wikidata": "Q2372710"
+      },
+      "lat": 46.0605904,
+      "lon": -122.2030016
+    },
+    {
+      "type": "way",
+      "id": 353850600,
+      "center": {
+        "lat": 45.8107847,
+        "lon": -120.8334606
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Goldendale Generating Station",
+        "operator": "Puget Sound Energy",
+        "plant:method": "combustion",
+        "plant:output:electricity": "302.8 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "55482",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2004-08",
+        "wikidata": "Q11972334"
+      },
+      "lat": 45.8107847,
+      "lon": -120.8334606
+    },
+    {
+      "type": "way",
+      "id": 357058429,
+      "center": {
+        "lat": 45.9565593,
+        "lon": -122.5565632
+      },
+      "tags": {
+        "ele": "44",
+        "gnis:feature_id": "1511644",
+        "name": "Merwin Dam",
+        "operator": "PacifiCorp",
+        "operator:wikidata": "Q2045479",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "136 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3847",
+        "ref:US:NID": "WA00149",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1931-07",
+        "waterway": "dam",
+        "wikidata": "Q6820955",
+        "wikipedia": "en:Merwin Dam"
+      },
+      "lat": 45.9565593,
+      "lon": -122.5565632
+    },
+    {
+      "type": "way",
+      "id": 365928020,
+      "center": {
+        "lat": 46.0593759,
+        "lon": -122.2608987
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Swift Number 2 Powerhouse",
+        "operator": "Cowlitz Public Utility District",
+        "plant:output:electricity": "72 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "6265",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1958-12",
+        "wikidata": "Q65207183"
+      },
+      "lat": 46.0593759,
+      "lon": -122.2608987
+    },
+    {
+      "type": "way",
+      "id": 380638937,
+      "center": {
+        "lat": 46.4231195,
+        "lon": -120.5600095
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Drop 3 Power Plant",
+        "operator": "Yakama Power",
+        "plant:output:electricity": "1.6 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "6508",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1932-05"
+      },
+      "lat": 46.4231195,
+      "lon": -120.5600095
+    },
+    {
+      "type": "way",
+      "id": 380638942,
+      "center": {
+        "lat": 46.4492043,
+        "lon": -120.5342129
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Drop 2 Power Plant",
+        "operator": "Yakama Power",
+        "plant:output:electricity": "2.5 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "6507",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1942-08"
+      },
+      "lat": 46.4492043,
+      "lon": -120.5342129
+    },
+    {
+      "type": "way",
+      "id": 415633454,
+      "center": {
+        "lat": 47.7748653,
+        "lon": -117.5443654
+      },
+      "tags": {
+        "building": "industrial",
+        "name": "Nine Mile Power Plant",
+        "operator": "Avista Corp",
+        "plant:output:electricity": "37.6 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3869",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1908-07"
+      },
+      "lat": 47.7748653,
+      "lon": -117.5443654
+    },
+    {
+      "type": "way",
+      "id": 415687971,
+      "center": {
+        "lat": 48.7803423,
+        "lon": -117.4128071
+      },
+      "tags": {
+        "alt_name": "Box Canyon Forebay Dam",
+        "ele": "617",
+        "gnis:feature_id": "1532884",
+        "landuse": "industrial",
+        "name": "Pend Oreille County Pud Dam",
+        "operator": "PUD No 1 of Pend Oreille County",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "90 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3891",
+        "ref:US:NID": "WA00013S001",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1955-06",
+        "waterway": "dam",
+        "wikidata": "Q11064575"
+      },
+      "lat": 48.7803423,
+      "lon": -117.4128071
+    },
+    {
+      "type": "way",
+      "id": 418560151,
+      "center": {
+        "lat": 46.6040235,
+        "lon": -121.6586458
+      },
+      "tags": {
+        "generator:method": "run-of-the-river",
+        "name": "Packwood Lake",
+        "operator": "Energy Northwest",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "27.5MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "start_date": "1964",
+        "website": "https://www.energy-northwest.com/energyprojects/packwood/Pages/default.aspx"
+      },
+      "lat": 46.6040235,
+      "lon": -121.6586458
+    },
+    {
+      "type": "way",
+      "id": 419361400,
+      "center": {
+        "lat": 48.9879436,
+        "lon": -117.3508805
+      },
+      "tags": {
+        "landuse": "industrial",
+        "location": "underground",
+        "name": "Boundary Dam Powerhouse",
+        "operator": "Seattle City Light",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "1118.6 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "6433",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1967-08",
+        "wikidata": "Q3435288"
+      },
+      "lat": 48.9879436,
+      "lon": -117.3508805
+    },
+    {
+      "type": "way",
+      "id": 419361410,
+      "center": {
+        "lat": 46.6580935,
+        "lon": -117.4308675
+      },
+      "tags": {
+        "name": "Lower Granite Powerhouse",
+        "operator": "United States Army Corps of Engineers",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "810 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "6175",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1975-04",
+        "wikidata": "Q374380"
+      },
+      "lat": 46.6580935,
+      "lon": -117.4308675
+    },
+    {
+      "type": "way",
+      "id": 419361414,
+      "center": {
+        "lat": 47.5322788,
+        "lon": -120.2974311
+      },
+      "tags": {
+        "name": "Rocky Reach Powerhouse",
+        "operator": "Chelan County Public Utility District",
+        "plant:output:electricity": "1299.6 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3883",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1961-06",
+        "wikidata": "Q7355982"
+      },
+      "lat": 47.5322788,
+      "lon": -120.2974311
+    },
+    {
+      "type": "way",
+      "id": 419361416,
+      "center": {
+        "lat": 46.8756991,
+        "lon": -119.9709547
+      },
+      "tags": {
+        "name": "Wanapum Powerhouse",
+        "operator": "PUD No 2 of Grant County",
+        "plant:output:electricity": "1220 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3888",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1963-06",
+        "wikidata": "Q7967061"
+      },
+      "lat": 46.8756991,
+      "lon": -119.9709547
+    },
+    {
+      "type": "way",
+      "id": 420139936,
+      "center": {
+        "lat": 46.7543105,
+        "lon": -122.8546759
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Centralia Power Plant",
+        "operator": "TransAlta Centralia Gen LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "729.9 MW",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "3845",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1972-12",
+        "wikidata": "Q5062187",
+        "wikipedia": "en:Centralia Power Plant"
+      },
+      "lat": 46.7543105,
+      "lon": -122.8546759
+    },
+    {
+      "type": "way",
+      "id": 422748948,
+      "center": {
+        "lat": 47.9954268,
+        "lon": -119.6414652
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Chief Joseph Powerhouse",
+        "operator": "USACE Northwestern Division",
+        "plant:output:electricity": "2456.2 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3921",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1955-09",
+        "wikidata": "Q1072291"
+      },
+      "lat": 47.9954268,
+      "lon": -119.6414652
+    },
+    {
+      "type": "way",
+      "id": 422872604,
+      "center": {
+        "lat": 46.5837231,
+        "lon": -118.0268807
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Little Goose Powerhouse",
+        "operator": "USACE Northwestern Division",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "810 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3926",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1970-04",
+        "wikidata": "Q6650183"
+      },
+      "lat": 46.5837231,
+      "lon": -118.0268807
+    },
+    {
+      "type": "way",
+      "id": 422872605,
+      "center": {
+        "lat": 46.5634937,
+        "lon": -118.5394449
+      },
+      "tags": {
+        "name": "Lower Monumental Powerhouse",
+        "operator": "USACE Northwestern Division",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "810 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3927",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1969-06",
+        "wikidata": "Q6693635"
+      },
+      "lat": 46.5634937,
+      "lon": -118.5394449
+    },
+    {
+      "type": "way",
+      "id": 422872606,
+      "center": {
+        "lat": 45.9339208,
+        "lon": -119.2976145
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "McNary Powerhouse",
+        "operator": "USACE Northwestern Division",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "990.5 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3084",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1953-12",
+        "wikidata": "Q2885227"
+      },
+      "lat": 45.9339208,
+      "lon": -119.2976145
+    },
+    {
+      "type": "way",
+      "id": 422872607,
+      "center": {
+        "lat": 46.6451671,
+        "lon": -119.9082763
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Priest Rapids Powerhouse",
+        "operator": "PUD No 2 of Grant County",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "955.6 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3887",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1959-10",
+        "wikidata": "Q2885403"
+      },
+      "lat": 46.6451671,
+      "lon": -119.9082763
+    },
+    {
+      "type": "way",
+      "id": 430135451,
+      "center": {
+        "lat": 46.1399847,
+        "lon": -122.9849623
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Mint Farm Generating Station",
+        "operator": "Puget Sound Energy",
+        "plant:method": "combustion",
+        "plant:output:electricity": "319 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "55700",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2008-01",
+        "wikidata": "Q11989590"
+      },
+      "lat": 46.1399847,
+      "lon": -122.9849623
+    },
+    {
+      "type": "way",
+      "id": 438351871,
+      "center": {
+        "lat": 48.7157313,
+        "lon": -121.1414167
+      },
+      "tags": {
+        "building": "industrial",
+        "name": "Diablo Dam",
+        "operator": "City of Seattle - (WA)",
+        "plant:output:electricity": "182.4 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "6432",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1936-10",
+        "wikidata": "Q920135"
+      },
+      "lat": 48.7157313,
+      "lon": -121.1414167
+    },
+    {
+      "type": "way",
+      "id": 443675536,
+      "center": {
+        "lat": 46.9902557,
+        "lon": -120.5698416
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Ellensburg Renewable Energy Park",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 46.9902557,
+      "lon": -120.5698416
+    },
+    {
+      "type": "way",
+      "id": 449148125,
+      "center": {
+        "lat": 48.7455629,
+        "lon": -122.4860169
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Encogen Cogeneration Plant",
+        "operator": "Puget Sound Energy",
+        "plant:method": "combustion",
+        "plant:output:electricity": "176.4 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "7870",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "source:tags": "https://pse.com/aboutpse/psenewsroom/MediaKit/055_Encogen.pdf",
+        "start_date": "1993-03",
+        "wikidata": "Q17769619"
+      },
+      "lat": 48.7455629,
+      "lon": -122.4860169
+    },
+    {
+      "type": "way",
+      "id": 449466222,
+      "center": {
+        "lat": 46.6215502,
+        "lon": -122.9164303
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Chehalis Generation Facility",
+        "operator": "PacifiCorp",
+        "operator:wikidata": "Q2045479",
+        "plant:method": "combustion",
+        "plant:output:electricity": "698 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "55662",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2003-08",
+        "wikidata": "Q11963487"
+      },
+      "lat": 46.6215502,
+      "lon": -122.9164303
+    },
+    {
+      "type": "way",
+      "id": 467815708,
+      "center": {
+        "lat": 47.6968006,
+        "lon": -117.1473863
+      },
+      "tags": {
+        "frequency": "60",
+        "landuse": "industrial",
+        "name": "Boulder Park Peaking Unit",
+        "operator": "Avista Corp",
+        "plant:method": "combustion",
+        "plant:output:electricity": "24.6 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "8022",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2002-05",
+        "wikidata": "Q113565809"
+      },
+      "lat": 47.6968006,
+      "lon": -117.1473863
+    },
+    {
+      "type": "way",
+      "id": 494266993,
+      "center": {
+        "lat": 46.3069761,
+        "lon": -119.1139455
+      },
+      "tags": {
+        "landuse": "industrial",
+        "power": "plant"
+      },
+      "lat": 46.3069761,
+      "lon": -119.1139455
+    },
+    {
+      "type": "way",
+      "id": 499392301,
+      "center": {
+        "lat": 47.653926,
+        "lon": -122.3129945
+      },
+      "tags": {
+        "addr:city": "Seattle",
+        "addr:housenumber": "3900",
+        "addr:postcode": "98105",
+        "addr:state": "WA",
+        "addr:street": "University Way Northeast",
+        "building": "service",
+        "name": "University of Washington West Campus Utility Plant",
+        "operator": "University of Washington",
+        "operator:abbr": "UW",
+        "operator:type": "public",
+        "operator:wikidata": "Q219563",
+        "operator:wikipedia": "en:University of Washington",
+        "power": "plant",
+        "ref": "WCUP",
+        "start_date": "2017"
+      },
+      "lat": 47.653926,
+      "lon": -122.3129945
+    },
+    {
+      "type": "way",
+      "id": 501735208,
+      "center": {
+        "lat": 47.8083917,
+        "lon": -119.9868061
+      },
+      "tags": {
+        "addr:city": "Chelan Falls",
+        "addr:housenumber": "400",
+        "addr:postcode": "98816",
+        "addr:state": "WA",
+        "addr:street": "Powerhouse Road",
+        "building": "yes",
+        "landuse": "industrial",
+        "name": "Lake Chelan Dam Powerhouse",
+        "operator": "PUD No 1 of Chelan County",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "59.2 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "6424",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021;esri_USDOT_RiverCom911_WA",
+        "start_date": "1927-09",
+        "wikidata": "Q6475305"
+      },
+      "lat": 47.8083917,
+      "lon": -119.9868061
+    },
+    {
+      "type": "way",
+      "id": 511738355,
+      "center": {
+        "lat": 47.0863555,
+        "lon": -122.364917
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Frederickson 1 Generating Station",
+        "operator": "Frederickson Power LP",
+        "plant:method": "combustion",
+        "plant:output:electricity": "318.3 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "55818",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2002-08",
+        "website": "https://www.atlanticpower.com/assets/projects/frederickson"
+      },
+      "lat": 47.0863555,
+      "lon": -122.364917
+    },
+    {
+      "type": "way",
+      "id": 530135612,
+      "center": {
+        "lat": 45.6827598,
+        "lon": -122.5535263
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 45.6827598,
+      "lon": -122.5535263
+    },
+    {
+      "type": "way",
+      "id": 539491787,
+      "center": {
+        "lat": 47.0545592,
+        "lon": -120.6698367
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Puget Sound Energy",
+        "power": "plant"
+      },
+      "lat": 47.0545592,
+      "lon": -120.6698367
+    },
+    {
+      "type": "way",
+      "id": 549832003,
+      "center": {
+        "lat": 46.6581086,
+        "lon": -121.1285023
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Tieton Dam Hydro Electric Project",
+        "operator": "City of Burbank Water and Power",
+        "plant:output:electricity": "13.8 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "57496",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2006-09"
+      },
+      "lat": 46.6581086,
+      "lon": -121.1285023
+    },
+    {
+      "type": "way",
+      "id": 664759043,
+      "center": {
+        "lat": 46.4667122,
+        "lon": -122.1101491
+      },
+      "tags": {
+        "addr:city": "Randle",
+        "addr:state": "WA",
+        "landuse": "industrial",
+        "name": "Cowlitz Falls",
+        "operator": "PUD No 1 of Lewis County",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "70 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "7427",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1994-06",
+        "wikidata": "Q5179773"
+      },
+      "lat": 46.4667122,
+      "lon": -122.1101491
+    },
+    {
+      "type": "way",
+      "id": 697413740,
+      "center": {
+        "lat": 45.9136325,
+        "lon": -119.2798939
+      },
+      "tags": {
+        "name": "Moyer-Tolles Solar Station",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "start_date": "2016"
+      },
+      "lat": 45.9136325,
+      "lon": -119.2798939
+    },
+    {
+      "type": "way",
+      "id": 698953116,
+      "center": {
+        "lat": 48.5064474,
+        "lon": -122.8045365
+      },
+      "tags": {
+        "name": "Decatur Community Solar Project",
+        "operator": "OPALCO",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "504 kW",
+        "plant:source": "solar",
+        "power": "plant",
+        "website": "https://www.opalco.com/save/community-solar/decatur-island-microgrid-project/"
+      },
+      "lat": 48.5064474,
+      "lon": -122.8045365
+    },
+    {
+      "type": "way",
+      "id": 704240162,
+      "center": {
+        "lat": 47.6166487,
+        "lon": -119.2991061
+      },
+      "tags": {
+        "name": "Dry Falls Dam",
+        "operator": "Columbia Basin Hydropower",
+        "plant:output:electricity": "26.8 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "56698",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1987-01"
+      },
+      "lat": 47.6166487,
+      "lon": -119.2991061
+    },
+    {
+      "type": "way",
+      "id": 722395706,
+      "center": {
+        "lat": 48.8285656,
+        "lon": -122.6853948
+      },
+      "tags": {
+        "name": "Ferndale Generating Station",
+        "operator": "Puget Sound Energy Inc",
+        "plant:output:electricity": "285.5 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "54537",
+        "source": "https://www.industryabout.com/country-territories-3/873-usa/fossil-fuels-energy/17564-ferndale-gas-power-plant",
+        "start_date": "1994-04",
+        "wikidata": "Q19392128"
+      },
+      "lat": 48.8285656,
+      "lon": -122.6853948
+    },
+    {
+      "type": "way",
+      "id": 743184178,
+      "center": {
+        "lat": 47.3832123,
+        "lon": -123.6074612
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Wynoochee Power Plant",
+        "operator": "City of Tacoma - (WA)",
+        "plant:output:electricity": "12.8 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "7127",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1994-01"
+      },
+      "lat": 47.3832123,
+      "lon": -123.6074612
+    },
+    {
+      "type": "way",
+      "id": 803095210,
+      "center": {
+        "lat": 46.503526,
+        "lon": -122.5926953
+      },
+      "tags": {
+        "building": "industrial",
+        "name": "Mayfield Power Plant",
+        "operator": "City of Tacoma - (WA)",
+        "plant:output:electricity": "162 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3917",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1963-03",
+        "wikidata": "Q19381219"
+      },
+      "lat": 46.503526,
+      "lon": -122.5926953
+    },
+    {
+      "type": "way",
+      "id": 803107709,
+      "center": {
+        "lat": 47.4192713,
+        "lon": -121.7818329
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Cedar Falls Powerhouse",
+        "operator": "Seattle City Light",
+        "plant:output:electricity": "yes",
+        "plant:source": "hydro",
+        "power": "plant"
+      },
+      "lat": 47.4192713,
+      "lon": -121.7818329
+    },
+    {
+      "type": "way",
+      "id": 805150376,
+      "center": {
+        "lat": 46.739333,
+        "lon": -119.1124244
+      },
+      "tags": {
+        "addr:state": "WA",
+        "ele": "295",
+        "gnis:feature_id": "1510373",
+        "landuse": "industrial",
+        "name": "Russel D Smith Powerplant",
+        "operator": "Columbia Basin Hydropower",
+        "plant:output:electricity": "6.1 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "56694",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1982-09"
+      },
+      "lat": 46.739333,
+      "lon": -119.1124244
+    },
+    {
+      "type": "way",
+      "id": 828261718,
+      "center": {
+        "lat": 46.9828102,
+        "lon": -118.6130248
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Adams Neilson Solar",
+        "operator": "Strata Solar",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "19.2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61933",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2018-12"
+      },
+      "lat": 46.9828102,
+      "lon": -118.6130248
+    },
+    {
+      "type": "way",
+      "id": 833587554,
+      "center": {
+        "lat": 46.1791045,
+        "lon": -123.1733063
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Port Westward Generating Project",
+        "operator": "Portland General Electric",
+        "plant:method": "combustion",
+        "plant:output:electricity": "413 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "56227;58266",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2007-06",
+        "wikidata": "Q11996067"
+      },
+      "lat": 46.1791045,
+      "lon": -123.1733063
+    },
+    {
+      "type": "way",
+      "id": 835662027,
+      "center": {
+        "lat": 47.0205093,
+        "lon": -120.2231746
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "0.502 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "56322"
+      },
+      "lat": 47.0205093,
+      "lon": -120.2231746
+    },
+    {
+      "type": "way",
+      "id": 883615346,
+      "center": {
+        "lat": 48.6493477,
+        "lon": -121.6915054
+      },
+      "tags": {
+        "name": "Upper Baker Dam",
+        "operator": "Puget Sound Energy",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "104.8 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3861",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1959",
+        "wikidata": "Q7898471"
+      },
+      "lat": 48.6493477,
+      "lon": -121.6915054
+    },
+    {
+      "type": "way",
+      "id": 884183677,
+      "center": {
+        "lat": 48.5441216,
+        "lon": -121.7410665
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Lower Baker Dam",
+        "operator": "Puget Sound Energy",
+        "plant:output:electricity": "111.2 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3855",
+        "source": "yahoo_wms",
+        "start_date": "1925",
+        "wikidata": "Q6693307"
+      },
+      "lat": 48.5441216,
+      "lon": -121.7410665
+    },
+    {
+      "type": "way",
+      "id": 884923258,
+      "center": {
+        "lat": 46.5312651,
+        "lon": -120.7469117
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 46.5312651,
+      "lon": -120.7469117
+    },
+    {
+      "type": "way",
+      "id": 941725507,
+      "center": {
+        "lat": 48.9901869,
+        "lon": -122.2738214
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Sumas Power Plant",
+        "operator": "Puget Sound Energy Inc",
+        "plant:method": "combustion",
+        "plant:output:electricity": "125.5 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "54476",
+        "source": "https://www.industryabout.com/country-territories-3/873-usa/fossil-fuels-energy/17574-sumas-gas-power-plant",
+        "start_date": "1993-03"
+      },
+      "lat": 48.9901869,
+      "lon": -122.2738214
+    },
+    {
+      "type": "way",
+      "id": 1010351661,
+      "center": {
+        "lat": 48.886706,
+        "lon": -122.7535931
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Whitehorn Generating Station",
+        "operator": "Puget Sound Energy",
+        "plant:method": "combustion",
+        "plant:output:electricity": "169.2 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "6120",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1974",
+        "wikidata": "Q12010590",
+        "wikipedia": "en:Whitehorn Generating Station"
+      },
+      "lat": 48.886706,
+      "lon": -122.7535931
+    },
+    {
+      "type": "way",
+      "id": 1023064643,
+      "center": {
+        "lat": 48.6802146,
+        "lon": -121.7233247
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Koma Kulshan Associates",
+        "operator": "Koma Kulshan Associates",
+        "plant:output:electricity": "12 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "54267",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1990-10",
+        "wikidata": "Q20707068"
+      },
+      "lat": 48.6802146,
+      "lon": -121.7233247
+    },
+    {
+      "type": "way",
+      "id": 1030534763,
+      "center": {
+        "lat": 46.6183705,
+        "lon": -120.4778485
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Roza Power Plant",
+        "operator": "United States Bureau of Reclamation",
+        "operator:short": "USBR",
+        "operator:wikidata": "Q1010548",
+        "plant:output:electricity": "12.9 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "6407",
+        "source": "microsoft/BuildingFootprints",
+        "start_date": "1958-08"
+      },
+      "lat": 46.6183705,
+      "lon": -120.4778485
+    },
+    {
+      "type": "way",
+      "id": 1059983344,
+      "center": {
+        "lat": 45.9627616,
+        "lon": -122.3354629
+      },
+      "tags": {
+        "name": "Yale Power Plant",
+        "operator": "PacifiCorp",
+        "operator:wikidata": "Q2045479",
+        "plant:output:electricity": "134 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3852",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1953-09",
+        "wikidata": "Q8047372"
+      },
+      "lat": 45.9627616,
+      "lon": -122.3354629
+    },
+    {
+      "type": "way",
+      "id": 1071037653,
+      "center": {
+        "lat": 45.9400324,
+        "lon": -119.2990951
+      },
+      "tags": {
+        "name": "McNary Dam Fish Attraction Project",
+        "operator": "Northern Wasco County PUD",
+        "plant:output:electricity": "10 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "7511",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1997-11"
+      },
+      "lat": 45.9400324,
+      "lon": -119.2990951
+    },
+    {
+      "type": "way",
+      "id": 1071037654,
+      "center": {
+        "lat": 46.2668809,
+        "lon": -119.5898314
+      },
+      "tags": {
+        "name": "Chandler Power Plant",
+        "operator": "United States Bureau of Reclamation",
+        "operator:short": "USBR",
+        "operator:wikidata": "Q1010548",
+        "plant:output:electricity": "12 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "6406",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1956-02"
+      },
+      "lat": 46.2668809,
+      "lon": -119.5898314
+    },
+    {
+      "type": "way",
+      "id": 1071037656,
+      "center": {
+        "lat": 46.9749513,
+        "lon": -122.6356753
+      },
+      "tags": {
+        "addr:city": "Yelm",
+        "addr:housenumber": "14024",
+        "addr:postcode": "98597",
+        "addr:state": "WA",
+        "addr:street": "Yelm Highway Southeast",
+        "building": "industrial",
+        "layer": "1",
+        "name": "Yelm",
+        "operator": "City of Centralia - (WA)",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "12 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3878",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021;esri_USDOT_ThurstonWA",
+        "start_date": "1930-12"
+      },
+      "lat": 46.9749513,
+      "lon": -122.6356753
+    },
+    {
+      "type": "way",
+      "id": 1071037658,
+      "center": {
+        "lat": 46.9826711,
+        "lon": -119.2578391
+      },
+      "tags": {
+        "name": "Quincy Chute",
+        "operator": "PUD No 2 of Grant County",
+        "plant:output:electricity": "9.4 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "917",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1985-10"
+      },
+      "lat": 46.9826711,
+      "lon": -119.2578391
+    },
+    {
+      "type": "way",
+      "id": 1071037660,
+      "center": {
+        "lat": 47.5406551,
+        "lon": -121.8368565
+      },
+      "tags": {
+        "name": "Snoqualmie Falls Power Plant #1",
+        "operator": "Puget Sound Energy Inc",
+        "plant:output:electricity": "12.8 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3860",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1898-01",
+        "wikidata": "Q84452035"
+      },
+      "lat": 47.5406551,
+      "lon": -121.8368565
+    },
+    {
+      "type": "way",
+      "id": 1071037666,
+      "center": {
+        "lat": 48.6193807,
+        "lon": -118.1106019
+      },
+      "tags": {
+        "addr:city": "Kettle Falls",
+        "addr:housenumber": "1151",
+        "addr:postcode": "99141",
+        "addr:state": "WA",
+        "addr:street": "US 395",
+        "landuse": "industrial",
+        "name": "Kettle Falls Generating Station",
+        "operator": "Avista Corp",
+        "plant:method": "combustion",
+        "plant:output:electricity": "57.9 MW",
+        "plant:source": "gas;biomass",
+        "power": "plant",
+        "ref:US:EIA": "550",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1983-12"
+      },
+      "lat": 48.6193807,
+      "lon": -118.1106019
+    },
+    {
+      "type": "way",
+      "id": 1071037667,
+      "center": {
+        "lat": 48.4557797,
+        "lon": -122.4357171
+      },
+      "tags": {
+        "name": "Fredonia Power Plant",
+        "operator": "Puget Sound Energy",
+        "plant:output:electricity": "376 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "607",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1984-05",
+        "wikidata": "Q11970054"
+      },
+      "lat": 48.4557797,
+      "lon": -122.4357171
+    },
+    {
+      "type": "way",
+      "id": 1071037668,
+      "center": {
+        "lat": 47.7353537,
+        "lon": -117.3705907
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Northeast Power Plant",
+        "operator": "Avista Corp",
+        "plant:method": "combustion",
+        "plant:output:electricity": "61.8 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "6210",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1978-12"
+      },
+      "lat": 47.7353537,
+      "lon": -117.3705907
+    },
+    {
+      "type": "way",
+      "id": 1071037675,
+      "center": {
+        "lat": 46.3575153,
+        "lon": -119.3200864
+      },
+      "tags": {
+        "name": "Horn Rapids Solar, Storage and Training",
+        "operator": "Energy Northwest",
+        "plant:output:electricity": "4.2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64198",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2020-10"
+      },
+      "lat": 46.3575153,
+      "lon": -119.3200864
+    },
+    {
+      "type": "way",
+      "id": 1132587011,
+      "center": {
+        "lat": 48.4701594,
+        "lon": -122.5619535
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "HF Sinclair Puget Sound Refining Power Station",
+        "operator": "HF Sinclair Corporation",
+        "plant:method": "combustion",
+        "plant:output:electricity": "139.8 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "54268",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "1991-09"
+      },
+      "lat": 48.4701594,
+      "lon": -122.5619535
+    },
+    {
+      "type": "way",
+      "id": 1155922225,
+      "center": {
+        "lat": 48.1560322,
+        "lon": -122.1437017
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Arlington Microgrid",
+        "operator": "PUD 1 of Snohomish County",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.5 MW",
+        "plant:source": "solar;battery",
+        "power": "plant",
+        "ref:US:EIA": "64446",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2019-06"
+      },
+      "lat": 48.1560322,
+      "lon": -122.1437017
+    },
+    {
+      "type": "way",
+      "id": 1159416603,
+      "center": {
+        "lat": 46.9947145,
+        "lon": -120.5492088
+      },
+      "tags": {
+        "addr:city": "Ellensburg",
+        "addr:postcode": "98926",
+        "addr:state": "WA",
+        "addr:street": "ally",
+        "addr:unit": "2",
+        "building:levels": "2",
+        "capacity": "200",
+        "description": "Un-used coal bunker, coal fired boiler, used to electrify & heat the Ellensburg Hotel when it operated. the bunker has two rooms one above ground and one below that would have been used to store coal",
+        "landuse": "industrial",
+        "name": "Historic Ellensburg Hotel Building",
+        "plant:method": "combustion",
+        "plant:output:electricity": "yes",
+        "plant:output:steam": "yes",
+        "plant:source": "coal",
+        "power": "plant",
+        "start_date": "1930-06-11"
+      },
+      "lat": 46.9947145,
+      "lon": -120.5492088
+    },
+    {
+      "type": "way",
+      "id": 1159699169,
+      "center": {
+        "lat": 46.9560416,
+        "lon": -120.5043855
+      },
+      "tags": {
+        "name": "Camas Solar Project",
+        "operator": "Greenbacker Renewable Energy Corporation",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "62071",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2022-06"
+      },
+      "lat": 46.9560416,
+      "lon": -120.5043855
+    },
+    {
+      "type": "way",
+      "id": 1159699297,
+      "center": {
+        "lat": 46.9612808,
+        "lon": -120.4800582
+      },
+      "tags": {
+        "name": "Penstemon Solar Project",
+        "operator": "Greenbacker Renewable Energy Corporation",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "62069",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2022-01"
+      },
+      "lat": 46.9612808,
+      "lon": -120.4800582
+    },
+    {
+      "type": "way",
+      "id": 1164292196,
+      "center": {
+        "lat": 45.8737519,
+        "lon": -120.2391195
+      },
+      "tags": {
+        "name": "Lund Hill Solar",
+        "operator": "Avangrid Renewables LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "150 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "63509",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2022-10"
+      },
+      "lat": 45.8737519,
+      "lon": -120.2391195
+    },
+    {
+      "type": "way",
+      "id": 1167602769,
+      "center": {
+        "lat": 47.5573211,
+        "lon": -122.6542721
+      },
+      "tags": {
+        "landuse": "industrial",
+        "plant:method": "combustion",
+        "plant:output:electricity": "yes",
+        "plant:source": "gas",
+        "power": "plant",
+        "start_date": "1918"
+      },
+      "lat": 47.5573211,
+      "lon": -122.6542721
+    },
+    {
+      "type": "way",
+      "id": 1207297350,
+      "center": {
+        "lat": 47.8994043,
+        "lon": -121.8761986
+      },
+      "tags": {
+        "name": "Woods Creek Hydro Project",
+        "plant:output:electricity": "yes",
+        "plant:source": "hydro",
+        "power": "plant",
+        "website": "https://www.snopud.com/community-environment/clean-energy/renewable-power/hydropower/woods-creek/"
+      },
+      "lat": 47.8994043,
+      "lon": -121.8761986
+    },
+    {
+      "type": "way",
+      "id": 1217428252,
+      "center": {
+        "lat": 48.107308,
+        "lon": -122.576015
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 48.107308,
+      "lon": -122.576015
+    },
+    {
+      "type": "way",
+      "id": 1228692363,
+      "center": {
+        "lat": 47.456061,
+        "lon": -122.0421933
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Bio Energy Washington Plant",
+        "plant:output:electricity": "5 MW",
+        "plant:source": "biogas",
+        "power": "plant",
+        "website": "https://www.bioenergy-wa.com/"
+      },
+      "lat": 47.456061,
+      "lon": -122.0421933
+    },
+    {
+      "type": "way",
+      "id": 1231069251,
+      "center": {
+        "lat": 47.6943754,
+        "lon": -117.1531187
+      },
+      "tags": {
+        "operator": "Avista",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 47.6943754,
+      "lon": -117.1531187
+    },
+    {
+      "type": "way",
+      "id": 1235824812,
+      "center": {
+        "lat": 47.3188675,
+        "lon": -118.6891289
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 47.3188675,
+      "lon": -118.6891289
+    },
+    {
+      "type": "way",
+      "id": 1239218638,
+      "center": {
+        "lat": 46.9697372,
+        "lon": -123.7739623
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Sierra Pacific Aberdeen Power Plant",
+        "operator": "Sierra Pacific Industries",
+        "plant:method": "combustion",
+        "plant:output:electricity": "18 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "biomass",
+        "power": "plant",
+        "ref:US:EIA": "55882",
+        "source": "https://www.greenwoodinfra.com/greenwood-projects/lanse-warden-electric-company-lwec/18-mw-sierra-pacific-biomass-power-plant-in-aberdeen-washington-state-1024x683/",
+        "start_date": "2003-03"
+      },
+      "lat": 46.9697372,
+      "lon": -123.7739623
+    },
+    {
+      "type": "way",
+      "id": 1263837410,
+      "center": {
+        "lat": 48.0529645,
+        "lon": -122.8148986
+      },
+      "tags": {
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 48.0529645,
+      "lon": -122.8148986
+    },
+    {
+      "type": "way",
+      "id": 1289248734,
+      "center": {
+        "lat": 46.0674343,
+        "lon": -118.3692443
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 46.0674343,
+      "lon": -118.3692443
+    },
+    {
+      "type": "way",
+      "id": 1320017450,
+      "center": {
+        "lat": 47.5958741,
+        "lon": -117.553512
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 47.5958741,
+      "lon": -117.553512
+    },
+    {
+      "type": "way",
+      "id": 1353590732,
+      "center": {
+        "lat": 48.6863884,
+        "lon": -123.2343289
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 48.6863884,
+      "lon": -123.2343289
+    },
+    {
+      "type": "way",
+      "id": 1353590733,
+      "center": {
+        "lat": 48.6863019,
+        "lon": -123.2344088
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 48.6863019,
+      "lon": -123.2344088
+    },
+    {
+      "type": "way",
+      "id": 1353590734,
+      "center": {
+        "lat": 48.6862921,
+        "lon": -123.2342735
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 48.6862921,
+      "lon": -123.2342735
+    },
+    {
+      "type": "way",
+      "id": 1353595714,
+      "center": {
+        "lat": 48.6852229,
+        "lon": -123.21253
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 48.6852229,
+      "lon": -123.21253
+    },
+    {
+      "type": "way",
+      "id": 1382634169,
+      "center": {
+        "lat": 47.574018,
+        "lon": -122.6323869
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 47.574018,
+      "lon": -122.6323869
+    },
+    {
+      "type": "way",
+      "id": 1386856201,
+      "center": {
+        "lat": 47.7908824,
+        "lon": -121.8010716
+      },
+      "tags": {
+        "name": "Youngs Creek Hydro Project",
+        "operator": "Snohomish County Public Utility District",
+        "operator:wikidata": "Q7547903",
+        "plant:output:electricity": "7.5 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "57763",
+        "source": "SCOPI",
+        "start_date": "2011-11"
+      },
+      "lat": 47.7908824,
+      "lon": -121.8010716
+    },
+    {
+      "type": "way",
+      "id": 1388578058,
+      "center": {
+        "lat": 47.5738672,
+        "lon": -121.7024767
+      },
+      "tags": {
+        "name": "Hancock Creek Hydro Project",
+        "operator": "Snohomish Public Utility District No. 1",
+        "plant:output:electricity": "yes",
+        "plant:source": "hydro",
+        "power": "plant",
+        "website": "https://www.snopud.com/community-environment/clean-energy/renewable-power/hydropower/hancock-creek/"
+      },
+      "lat": 47.5738672,
+      "lon": -121.7024767
+    },
+    {
+      "type": "way",
+      "id": 1388586384,
+      "center": {
+        "lat": 47.6037233,
+        "lon": -121.6991876
+      },
+      "tags": {
+        "name": "Calligan Creek Hydro Project",
+        "operator": "Snohomish County PUD",
+        "plant:output:electricity": "yes",
+        "plant:source": "hydro",
+        "power": "plant",
+        "website": "https://www.snopud.com/community-environment/clean-energy/renewable-power/hydropower/calligan-creek/"
+      },
+      "lat": 47.6037233,
+      "lon": -121.6991876
+    },
+    {
+      "type": "way",
+      "id": 1412271649,
+      "center": {
+        "lat": 46.5275814,
+        "lon": -120.2402491
+      },
+      "tags": {
+        "fixme": "rough outlines",
+        "name": "Goose Prairie Solar",
+        "operator": "Goose Prairie Solar LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "80 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "67261",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2024-12"
+      },
+      "lat": 46.5275814,
+      "lon": -120.2402491
+    },
+    {
+      "type": "way",
+      "id": 1427888036,
+      "center": {
+        "lat": 47.5408573,
+        "lon": -121.7066315
+      },
+      "tags": {
+        "name": "Black Creek Hydro",
+        "operator": "Black Creek Hydro Inc",
+        "plant:output:electricity": "yes",
+        "plant:source": "hydro",
+        "power": "plant"
+      },
+      "lat": 47.5408573,
+      "lon": -121.7066315
+    },
+    {
+      "type": "relation",
+      "id": 898986,
+      "center": {
+        "lat": 47.9573864,
+        "lon": -118.9809014
+      },
+      "tags": {
+        "ele": "394",
+        "gnis:feature_id": "1513929",
+        "landuse": "industrial",
+        "name": "Grand Coulee Dam",
+        "name:ja": "\u30b0\u30e9\u30f3\u30c9\u30af\u30fc\u30ea\u30fc\u30c0\u30e0",
+        "operator": "Bureau of Reclamation",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "6809 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "6163",
+        "ref:US:NID": "WA00262",
+        "source": "yahoo_wms",
+        "type": "multipolygon",
+        "waterway": "dam",
+        "website": "https://usbr.gov/pn/grandcoulee/",
+        "wikidata": "Q930391",
+        "wikipedia": "en:Grand Coulee Dam"
+      },
+      "lat": 47.9573864,
+      "lon": -118.9809014
+    },
+    {
+      "type": "relation",
+      "id": 1144261,
+      "center": {
+        "lat": 46.2488946,
+        "lon": -118.8815865
+      },
+      "tags": {
+        "ele": "135",
+        "gnis:feature_id": "1534587",
+        "landuse": "industrial",
+        "name": "Ice Harbor Dam",
+        "operator": "USACE Northwestern Division",
+        "plant:output:electricity": "603 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3925",
+        "ref:US:NID": "WA00347",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1962-01",
+        "type": "multipolygon",
+        "waterway": "dam",
+        "wikidata": "Q5985283",
+        "wikipedia": "en:Ice Harbor Dam"
+      },
+      "lat": 46.2488946,
+      "lon": -118.8815865
+    },
+    {
+      "type": "relation",
+      "id": 6191019,
+      "center": {
+        "lat": 47.8303145,
+        "lon": -117.9184993
+      },
+      "tags": {
+        "ele": "403",
+        "gnis:feature_id": "1513508",
+        "name": "Little Falls Power Plant",
+        "operator": "Avista Corp",
+        "plant:output:electricity": "43.2 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3866",
+        "ref:US:NID": "WA00069",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1910-07",
+        "type": "multipolygon",
+        "waterway": "dam",
+        "wikidata": "Q55138813"
+      },
+      "lat": 47.8303145,
+      "lon": -117.9184993
+    },
+    {
+      "type": "relation",
+      "id": 6191211,
+      "center": {
+        "lat": 47.6825156,
+        "lon": -117.3318111
+      },
+      "tags": {
+        "alt_name": "Upriver Dam Forebay",
+        "name": "Upriver Dam Hydro Plant",
+        "operator": "City of Spokane",
+        "plant:output:electricity": "17.6 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "50380",
+        "ref:US:NID": "WA00074S001",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1936-01",
+        "type": "multipolygon",
+        "waterway": "dam"
+      },
+      "lat": 47.6825156,
+      "lon": -117.3318111
+    },
+    {
+      "type": "relation",
+      "id": 6638016,
+      "center": {
+        "lat": 47.1344366,
+        "lon": -117.3286479
+      },
+      "tags": {
+        "name": "Palouse Wind",
+        "operator": "Onward Energy",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "105.3 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57530",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2012-12",
+        "type": "site"
+      },
+      "lat": 47.1344366,
+      "lon": -117.3286479
+    },
+    {
+      "type": "relation",
+      "id": 8652656,
+      "center": {
+        "lat": 47.6270088,
+        "lon": -117.5037287
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Spokane Waste to Energy Plant",
+        "operator": "City of Spokane",
+        "plant:method": "combustion",
+        "plant:output:electricity": "26 MW",
+        "plant:source": "waste",
+        "power": "plant",
+        "ref:US:EIA": "50886",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1991-09",
+        "type": "multipolygon",
+        "wikidata": "Q116712884"
+      },
+      "lat": 47.6270088,
+      "lon": -117.5037287
+    },
+    {
+      "type": "relation",
+      "id": 10030022,
+      "center": {
+        "lat": 47.0222115,
+        "lon": -120.2077201
+      },
+      "tags": {
+        "access": "permissive",
+        "landuse": "windfarm",
+        "leisure": "nature_reserve",
+        "name": "Wild Horse Wind and Solar Facility",
+        "operator": "Puget Sound Energy",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "yes",
+        "plant:source": "wind",
+        "power": "plant",
+        "type": "multipolygon",
+        "wikidata": "Q8000678",
+        "wikipedia": "en:Wild Horse Wind Farm"
+      },
+      "lat": 47.0222115,
+      "lon": -120.2077201
+    },
+    {
+      "type": "relation",
+      "id": 10385696,
+      "center": {
+        "lat": 45.9996456,
+        "lon": -118.7823534
+      },
+      "tags": {
+        "name": "Stateline Wind Farm",
+        "operator": "NextEra Energy",
+        "operator:wikidata": "Q967868",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "299.7 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "55989;55560",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2001-12",
+        "type": "site",
+        "wikidata": "Q7603945",
+        "wikipedia": "en:Stateline Wind Farm"
+      },
+      "lat": 45.9996456,
+      "lon": -118.7823534
+    },
+    {
+      "type": "relation",
+      "id": 12186820,
+      "center": {
+        "lat": 45.7592186,
+        "lon": -120.671251
+      },
+      "tags": {
+        "alt_name": "Tuolomne Wind",
+        "name": "Windy Point I",
+        "operator": "Turlock Irrigation District",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "136.3 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56702",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2009-05",
+        "type": "site"
+      },
+      "lat": 45.7592186,
+      "lon": -120.671251
+    },
+    {
+      "type": "relation",
+      "id": 12186821,
+      "center": {
+        "lat": 45.7429424,
+        "lon": -120.7819265
+      },
+      "tags": {
+        "name": "Linden Project",
+        "operator": "Los Angeles Department of Water & Power",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "50 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57635",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2010-06",
+        "type": "site"
+      },
+      "lat": 45.7429424,
+      "lon": -120.7819265
+    },
+    {
+      "type": "relation",
+      "id": 12186838,
+      "center": {
+        "lat": 45.8910241,
+        "lon": -120.2805099
+      },
+      "tags": {
+        "name": "Big Horn Wind Project",
+        "operator": "Avangrid Renewables LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "199.5 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56361",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2006-10",
+        "type": "site",
+        "wikidata": "Q3639811"
+      },
+      "lat": 45.8910241,
+      "lon": -120.2805099
+    },
+    {
+      "type": "relation",
+      "id": 12186839,
+      "center": {
+        "lat": 45.8186867,
+        "lon": -120.3572305
+      },
+      "tags": {
+        "name": "White Creek Wind Farm",
+        "operator": "White Creek Wind 1 LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "204 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56487",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2007-11",
+        "type": "site",
+        "wikidata": "Q7994624"
+      },
+      "lat": 45.8186867,
+      "lon": -120.3572305
+    },
+    {
+      "type": "relation",
+      "id": 12186845,
+      "center": {
+        "lat": 45.9257925,
+        "lon": -120.2217127
+      },
+      "tags": {
+        "name": "Juniper Canyon I Wind Project",
+        "operator": "Avangrid Renewables LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "151.2 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57320",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2011-03",
+        "type": "site"
+      },
+      "lat": 45.9257925,
+      "lon": -120.2217127
+    },
+    {
+      "type": "relation",
+      "id": 12296494,
+      "center": {
+        "lat": 46.9566179,
+        "lon": -120.1558767
+      },
+      "tags": {
+        "name": "Vantage Winds Energy Project",
+        "operator": "Invenergy Services LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "90 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57188",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2010-08",
+        "type": "site"
+      },
+      "lat": 46.9566179,
+      "lon": -120.1558767
+    },
+    {
+      "type": "relation",
+      "id": 14046065,
+      "center": {
+        "lat": 46.8971973,
+        "lon": -118.4259975
+      },
+      "tags": {
+        "name": "Rattlesnake Flats",
+        "operator": "Rattlesnake Flats LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "144 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "62936",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2020-12",
+        "type": "site"
+      },
+      "lat": 46.8971973,
+      "lon": -118.4259975
+    },
+    {
+      "type": "relation",
+      "id": 14046099,
+      "center": {
+        "lat": 46.4304747,
+        "lon": -117.829404
+      },
+      "tags": {
+        "name": "Hopkins Ridge Wind",
+        "operator": "Puget Sound Energy Inc",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "156.6 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56255",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2005-11",
+        "type": "site",
+        "wikidata": "Q5900706"
+      },
+      "lat": 46.4304747,
+      "lon": -117.829404
+    },
+    {
+      "type": "relation",
+      "id": 14046127,
+      "center": {
+        "lat": 46.3615505,
+        "lon": -117.852697
+      },
+      "tags": {
+        "name": "Marengo II Wind Farm",
+        "operator": "PacifiCorp",
+        "operator:wikidata": "Q2045479",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "78 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56466",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2008-01",
+        "type": "site"
+      },
+      "lat": 46.3615505,
+      "lon": -117.852697
+    },
+    {
+      "type": "relation",
+      "id": 14046164,
+      "center": {
+        "lat": 46.3973435,
+        "lon": -117.7752055
+      },
+      "tags": {
+        "name": "Marengo I Wind Farm",
+        "operator": "PacifiCorp",
+        "operator:wikidata": "Q2045479",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "156 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56466",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2007-08",
+        "type": "site"
+      },
+      "lat": 46.3973435,
+      "lon": -117.7752055
+    },
+    {
+      "type": "relation",
+      "id": 14124838,
+      "center": {
+        "lat": 46.7926776,
+        "lon": -124.0653638
+      },
+      "tags": {
+        "name": "Coastal Energy Project",
+        "operator": "Coastal Community Action Program",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "6 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57756",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2010-06",
+        "type": "site"
+      },
+      "lat": 46.7926776,
+      "lon": -124.0653638
+    },
+    {
+      "type": "relation",
+      "id": 14124841,
+      "center": {
+        "lat": 47.0309947,
+        "lon": -120.196865
+      },
+      "tags": {
+        "name": "Wild Horse Wind",
+        "operator": "Puget Sound Energy Inc",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "272.6 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56322",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2006-12",
+        "type": "site"
+      },
+      "lat": 47.0309947,
+      "lon": -120.196865
+    },
+    {
+      "type": "relation",
+      "id": 14124852,
+      "center": {
+        "lat": 46.7195625,
+        "lon": -122.5846782
+      },
+      "tags": {
+        "name": "Skookumchuck Wind Facility",
+        "operator": "Southern Power Co",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "136 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "63205",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2020-11",
+        "type": "site"
+      },
+      "lat": 46.7195625,
+      "lon": -122.5846782
+    },
+    {
+      "type": "relation",
+      "id": 14124855,
+      "center": {
+        "lat": 45.7821331,
+        "lon": -120.5210281
+      },
+      "tags": {
+        "name": "Goodnoe Hills Wind Farm",
+        "operator": "PacifiCorp",
+        "operator:wikidata": "Q2045479",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "103.4 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56666",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2008-06",
+        "type": "site"
+      },
+      "lat": 45.7821331,
+      "lon": -120.5210281
+    },
+    {
+      "type": "relation",
+      "id": 14124856,
+      "center": {
+        "lat": 45.7413104,
+        "lon": -120.72784
+      },
+      "tags": {
+        "name": "Windy Flats Wind Project",
+        "operator": "Windy Flats Partners LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "262.2 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57159",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2009-10",
+        "type": "site"
+      },
+      "lat": 45.7413104,
+      "lon": -120.72784
+    },
+    {
+      "type": "relation",
+      "id": 14124857,
+      "center": {
+        "lat": 45.7918108,
+        "lon": -120.3299035
+      },
+      "tags": {
+        "name": "Harvest Wind Project",
+        "operator": "Harvest Wind Project TIC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "98.9 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57152",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2009-12",
+        "type": "site"
+      },
+      "lat": 45.7918108,
+      "lon": -120.3299035
+    },
+    {
+      "type": "relation",
+      "id": 14124858,
+      "center": {
+        "lat": 45.9431467,
+        "lon": -120.2918254
+      },
+      "tags": {
+        "name": "Big Horn Wind II",
+        "operator": "Avangrid Renewables LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "50 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57319",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2011-01",
+        "type": "site"
+      },
+      "lat": 45.9431467,
+      "lon": -120.2918254
+    },
+    {
+      "type": "relation",
+      "id": 14124867,
+      "center": {
+        "lat": 46.0989883,
+        "lon": -119.1158043
+      },
+      "tags": {
+        "name": "Nine Canyon Wind Farm",
+        "operator": "Energy Northwest",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "95.9 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "7936",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2002-09",
+        "type": "site"
+      },
+      "lat": 46.0989883,
+      "lon": -119.1158043
+    },
+    {
+      "type": "relation",
+      "id": 14124868,
+      "center": {
+        "lat": 46.5301829,
+        "lon": -117.8136116
+      },
+      "tags": {
+        "name": "Lower Snake River Wind Energy Project",
+        "operator": "Puget Sound Energy Inc",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "342.7 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57195",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2012-02",
+        "type": "site",
+        "wikidata": "Q6693829"
+      },
+      "lat": 46.5301829,
+      "lon": -117.8136116
+    },
+    {
+      "type": "relation",
+      "id": 14124869,
+      "center": {
+        "lat": 46.4360486,
+        "lon": -118.0307392
+      },
+      "tags": {
+        "name": "Tucannon River Wind Farm",
+        "operator": "Portland General Electric Co",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "266.8 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "58571",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2014-12",
+        "type": "site"
+      },
+      "lat": 46.4360486,
+      "lon": -118.0307392
+    },
+    {
+      "type": "relation",
+      "id": 14124870,
+      "center": {
+        "lat": 47.1374056,
+        "lon": -120.6978448
+      },
+      "tags": {
+        "name": "Sagebrush Power Partners",
+        "operator": "Sagebrush Power Partners, LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "100.7 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56858",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2010-11",
+        "type": "site"
+      },
+      "lat": 47.1374056,
+      "lon": -120.6978448
+    },
+    {
+      "type": "relation",
+      "id": 14124871,
+      "center": {
+        "lat": 47.1416227,
+        "lon": -120.7546404
+      },
+      "tags": {
+        "name": "Swauk Wind",
+        "operator": "Gamesa Wind US LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "4.3 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "58441",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2012-12",
+        "type": "site"
+      },
+      "lat": 47.1416227,
+      "lon": -120.7546404
+    },
+    {
+      "type": "relation",
+      "id": 14136609,
+      "center": {
+        "lat": 47.3428629,
+        "lon": -120.0934482
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Rock Island Power Plant",
+        "operator": "PUD No 1 of Chelan County",
+        "plant:output:electricity": "629.4 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "6200",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1931-10",
+        "type": "multipolygon",
+        "wikidata": "Q7354504"
+      },
+      "lat": 47.3428629,
+      "lon": -120.0934482
+    },
+    {
+      "type": "relation",
+      "id": 14885936,
+      "center": {
+        "lat": 48.4496879,
+        "lon": -122.4378094
+      },
+      "tags": {
+        "name": "Sierra Pacific Burlington Facility",
+        "operator": "Sierra Pacific Industries",
+        "plant:method": "combustion",
+        "plant:output:electricity": "28 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "biomass",
+        "power": "plant",
+        "ref:US:EIA": "56406",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2007-03",
+        "type": "multipolygon"
+      },
+      "lat": 48.4496879,
+      "lon": -122.4378094
+    },
+    {
+      "type": "relation",
+      "id": 15764470,
+      "center": {
+        "lat": 46.9742244,
+        "lon": -120.5753571
+      },
+      "tags": {
+        "name": "Urtica Solar Project",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "62067",
+        "type": "multipolygon"
+      },
+      "lat": 46.9742244,
+      "lon": -120.5753571
+    },
+    {
+      "type": "relation",
+      "id": 19692338,
+      "center": {
+        "lat": 46.5387604,
+        "lon": -117.8060713
+      },
+      "tags": {
+        "name": "Lower Snake River Wind Facility",
+        "operator": "Puget Sound Energy",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "yes",
+        "plant:source": "wind",
+        "power": "plant",
+        "type": "multipolygon",
+        "website": "https://www.pse.com/en/pages/facilities/lower-snake-river",
+        "wikidata": "Q6693829",
+        "wikipedia": "en:Lower Snake River Wind Project"
+      },
+      "lat": 46.5387604,
+      "lon": -117.8060713
+    },
+    {
+      "type": "relation",
+      "id": 19692365,
+      "center": {
+        "lat": 48.6493477,
+        "lon": -121.6915054
+      },
+      "tags": {
+        "name": "Baker River Hydroelectric Project",
+        "plant:output:electricity": "yes",
+        "plant:source": "hydro",
+        "power": "plant",
+        "type": "multipolygon"
+      },
+      "lat": 48.6493477,
+      "lon": -121.6915054
+    }
+  ]
+}

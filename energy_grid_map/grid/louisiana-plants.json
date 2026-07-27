@@ -1,0 +1,1983 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-04-24T20:51:16Z",
+    "timestamp_areas_base": "2026-04-24T15:53:36Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 116713101,
+      "center": {
+        "lat": 32.5255145,
+        "lon": -92.6497534
+      },
+      "tags": {
+        "building": "industrial",
+        "landuse": "industrial",
+        "name": "Louisiana Tech University Power Plant",
+        "operator": "Louisiana Tech University",
+        "plant:method": "combustion",
+        "plant:output:electricity": "7.5 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "54240",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "1963-01"
+      },
+      "lat": 32.5255145,
+      "lon": -92.6497534
+    },
+    {
+      "type": "way",
+      "id": 165477517,
+      "center": {
+        "lat": 29.9888045,
+        "lon": -90.4599874
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Taft Cogeneration Facility",
+        "operator": "Occidental Chemical Corporation",
+        "plant:method": "combustion",
+        "plant:output:electricity": "865 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "55089",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2002-07",
+        "wikidata": "Q19391849"
+      },
+      "lat": 29.9888045,
+      "lon": -90.4599874
+    },
+    {
+      "type": "way",
+      "id": 165477522,
+      "center": {
+        "lat": 30.4285674,
+        "lon": -92.4124818
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Acadia Energy Center",
+        "operator": "CLECO",
+        "plant:method": "combustion",
+        "plant:output:electricity": "1389.2 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "55173",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2002-07",
+        "wikidata": "Q17748177"
+      },
+      "lat": 30.4285674,
+      "lon": -92.4124818
+    },
+    {
+      "type": "way",
+      "id": 198702824,
+      "center": {
+        "lat": 30.2828559,
+        "lon": -92.6000878
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Bayou Cove Peaking Power",
+        "operator": "Bayou Cove, LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "416 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "55433",
+        "start_date": "2002-07"
+      },
+      "lat": 30.2828559,
+      "lon": -92.6000878
+    },
+    {
+      "type": "way",
+      "id": 198703365,
+      "center": {
+        "lat": 30.2553414,
+        "lon": -92.0430496
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "T. J. Labbe Electric Generating",
+        "operator": "Lafayette Utilities System",
+        "plant:method": "combustion",
+        "plant:output:electricity": "100.8 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "56108",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2005-08",
+        "wikidata": "Q12004962"
+      },
+      "lat": 30.2553414,
+      "lon": -92.0430496
+    },
+    {
+      "type": "way",
+      "id": 342026257,
+      "center": {
+        "lat": 32.5199583,
+        "lon": -93.7614907
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "J Lamar Stall Unit",
+        "operator": "Southwestern Electric Power Co",
+        "plant:method": "combustion",
+        "plant:output:electricity": "624 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "56565",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2010-06"
+      },
+      "lat": 32.5199583,
+      "lon": -93.7614907
+    },
+    {
+      "type": "way",
+      "id": 345218887,
+      "center": {
+        "lat": 30.229791,
+        "lon": -91.065875
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Carville Energy",
+        "operator": "Carville Energy LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "555 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "55404",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2003-06"
+      },
+      "lat": 30.229791,
+      "lon": -91.065875
+    },
+    {
+      "type": "way",
+      "id": 419562308,
+      "center": {
+        "lat": 29.9461767,
+        "lon": -90.1483939
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Nine Mile Point Power Plant",
+        "operator": "Entergy Louisiana",
+        "plant:method": "combustion",
+        "plant:output:electricity": "2439.7 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "1403",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019;https://www.gem.wiki/Nine_Mile_Point_power_station",
+        "start_date": "1951-05",
+        "wikidata": "Q11991557"
+      },
+      "lat": 29.9461767,
+      "lon": -90.1483939
+    },
+    {
+      "type": "way",
+      "id": 420139934,
+      "center": {
+        "lat": 31.3992195,
+        "lon": -92.7207848
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Brame Energy Center",
+        "operator": "Cleco Power",
+        "plant:method": "combustion",
+        "plant:output:electricity": "1707.3 MW",
+        "plant:source": "petroleum_coke;coal;gas",
+        "power": "plant",
+        "ref:US:EIA": "6190",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1975-06",
+        "wikidata": "Q17750827"
+      },
+      "lat": 31.3992195,
+      "lon": -92.7207848
+    },
+    {
+      "type": "way",
+      "id": 426045454,
+      "center": {
+        "lat": 30.7284455,
+        "lon": -91.3694213
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Big Cajun II",
+        "operator": "Louisiana Generating LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "1700 MW",
+        "plant:source": "coal;gas",
+        "power": "plant",
+        "ref:US:EIA": "6055",
+        "ref:US:EPA": "110070834585",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1981-07",
+        "wikidata": "Q11960980"
+      },
+      "lat": 30.7284455,
+      "lon": -91.3694213
+    },
+    {
+      "type": "way",
+      "id": 426045455,
+      "center": {
+        "lat": 30.6724037,
+        "lon": -91.3545578
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Big Cajun I",
+        "operator": "Louisiana Generating LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "492.8 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "1464",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1972-06"
+      },
+      "lat": 30.6724037,
+      "lon": -91.3545578
+    },
+    {
+      "type": "way",
+      "id": 488598781,
+      "center": {
+        "lat": 32.517341,
+        "lon": -93.7628992
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Arsenal Hill Power Plant",
+        "operator": "Southwestern Electric Power Company",
+        "plant:method": "combustion",
+        "plant:output:electricity": "125 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref": "PPARS",
+        "ref:US:EIA": "1416",
+        "source": "https://www.industryabout.com/country-territories-3/873-usa/fossil-fuels-energy/10103-arsenal-hill-gas-power-plant",
+        "start_date": "1926"
+      },
+      "lat": 32.517341,
+      "lon": -93.7628992
+    },
+    {
+      "type": "way",
+      "id": 492936824,
+      "center": {
+        "lat": 30.2249847,
+        "lon": -93.281306
+      },
+      "tags": {
+        "building": "industrial",
+        "name": "PPG Powerhouse A",
+        "operator": "Eagle 2 US LLC",
+        "plant:output:electricity": "52.5 MW",
+        "plant:source": "steam",
+        "power": "plant",
+        "ref:US:EIA": "50487",
+        "start_date": "1943"
+      },
+      "lat": 30.2249847,
+      "lon": -93.281306
+    },
+    {
+      "type": "way",
+      "id": 508282332,
+      "center": {
+        "lat": 30.1694243,
+        "lon": -91.992239
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Hargis-Hebert Power Plant",
+        "operator": "Lafayette Utilities System",
+        "plant:method": "combustion",
+        "plant:output:electricity": "100.8 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "56283",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2006-06",
+        "wikidata": "Q11974338"
+      },
+      "lat": 30.1694243,
+      "lon": -91.992239
+    },
+    {
+      "type": "way",
+      "id": 510819998,
+      "center": {
+        "lat": 30.2849623,
+        "lon": -93.2933413
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Roy S. Nelson Generating Plant",
+        "operator": "Entergy Louisiana LLC",
+        "operator:wikidata": "Q87759318",
+        "plant:method": "combustion",
+        "plant:output:electricity": "1433.6 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "coal;petroleum_coke;gas",
+        "power": "plant",
+        "ref:US:EIA": "1393",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1959-02",
+        "wikidata": "Q11996741"
+      },
+      "lat": 30.2849623,
+      "lon": -93.2933413
+    },
+    {
+      "type": "way",
+      "id": 605090858,
+      "center": {
+        "lat": 30.7921271,
+        "lon": -89.9085999
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Washington Parish Energy Center",
+        "operator": "Entergy Louisiana",
+        "plant:method": "combustion",
+        "plant:output:electricity": "399.6 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "55486",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2020-11"
+      },
+      "lat": 30.7921271,
+      "lon": -89.9085999
+    },
+    {
+      "type": "way",
+      "id": 606860983,
+      "center": {
+        "lat": 32.6900985,
+        "lon": -92.0189805
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Perryville Power Station",
+        "operator": "Entergy Louisiana",
+        "operator:wikidata": "Q87759318",
+        "plant:method": "combustion",
+        "plant:output:electricity": "824.1 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "55620",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2001-06",
+        "wikidata": "Q11995361"
+      },
+      "lat": 32.6900985,
+      "lon": -92.0189805
+    },
+    {
+      "type": "way",
+      "id": 607491723,
+      "center": {
+        "lat": 32.7067089,
+        "lon": -92.0678974
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Ouachita Power Station",
+        "operator": "Entergy Louisiana",
+        "operator:wikidata": "Q87759318",
+        "plant:method": "combustion",
+        "plant:output:electricity": "903.9 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "55467",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2002-08",
+        "wikidata": "Q11994442"
+      },
+      "lat": 32.7067089,
+      "lon": -92.0678974
+    },
+    {
+      "type": "way",
+      "id": 607491724,
+      "center": {
+        "lat": 32.7030164,
+        "lon": -92.07975
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Sterlington Power Station",
+        "operator": "Entergy Louisiana",
+        "operator:wikidata": "Q87759318",
+        "plant:method": "combustion",
+        "plant:output:electricity": "59.3 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "1404",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1925-11"
+      },
+      "lat": 32.7030164,
+      "lon": -92.07975
+    },
+    {
+      "type": "way",
+      "id": 625831464,
+      "center": {
+        "lat": 30.227959,
+        "lon": -92.0443006
+      },
+      "tags": {
+        "generator:source": "solar",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 30.227959,
+      "lon": -92.0443006
+    },
+    {
+      "type": "way",
+      "id": 631684001,
+      "center": {
+        "lat": 29.6853443,
+        "lon": -91.4732854
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "St. Mary Clean Energy Center",
+        "operator": "CLECO",
+        "plant:method": "combustion",
+        "plant:output:electricity": "50.9 MW",
+        "plant:source": "waste_heat",
+        "power": "plant",
+        "ref:US:EIA": "60610",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2019-08"
+      },
+      "lat": 29.6853443,
+      "lon": -91.4732854
+    },
+    {
+      "type": "way",
+      "id": 639485115,
+      "center": {
+        "lat": 29.352717,
+        "lon": -89.4405194
+      },
+      "tags": {
+        "landuse": "industrial",
+        "plant:method": "combustion",
+        "plant:output:electricity": "yes",
+        "plant:source": "waste",
+        "power": "plant"
+      },
+      "lat": 29.352717,
+      "lon": -89.4405194
+    },
+    {
+      "type": "way",
+      "id": 664019616,
+      "center": {
+        "lat": 30.0125009,
+        "lon": -90.4602067
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "St. Charles Power Station",
+        "operator": "Entergy Louisiana",
+        "plant:method": "combustion",
+        "plant:output:electricity": "1000 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "60926",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2019-05",
+        "wikidata": "Q19380001"
+      },
+      "lat": 30.0125009,
+      "lon": -90.4602067
+    },
+    {
+      "type": "way",
+      "id": 664019618,
+      "center": {
+        "lat": 30.0047323,
+        "lon": -90.4619668
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Little Gypsy Power Plant",
+        "operator": "Entergy Louisiana",
+        "plant:method": "combustion",
+        "plant:output:electricity": "1002.2 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "1402",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1961-03"
+      },
+      "lat": 30.0047323,
+      "lon": -90.4619668
+    },
+    {
+      "type": "way",
+      "id": 676362449,
+      "center": {
+        "lat": 30.1597468,
+        "lon": -93.3453269
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Calcasieu Power Station",
+        "operator": "Entergy Louisiana",
+        "plant:method": "combustion",
+        "plant:output:electricity": "358.8 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "55165",
+        "ref:US:EPA": "110007042565",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2000-05",
+        "wikidata": "Q11962994"
+      },
+      "lat": 30.1597468,
+      "lon": -93.3453269
+    },
+    {
+      "type": "way",
+      "id": 708347883,
+      "center": {
+        "lat": 29.998172,
+        "lon": -90.4772528
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Waterford 1 & 2 Power Plant",
+        "operator": "Entergy Louisiana",
+        "plant:method": "combustion",
+        "plant:output:electricity": "486.5 MW",
+        "plant:source": "gas;oil",
+        "power": "plant",
+        "ref:US:EIA": "8056",
+        "source": "U.S. Energy Information Administration - EIA-860m - 2025",
+        "start_date": "1975-07",
+        "wikidata": "Q12010422"
+      },
+      "lat": 29.998172,
+      "lon": -90.4772528
+    },
+    {
+      "type": "way",
+      "id": 836080119,
+      "center": {
+        "lat": 32.0036108,
+        "lon": -93.3923966
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "ADA Carbon Solutions Red River Cogen",
+        "operator": "ADA Carbon Solutions (Red River), LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "20.8 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "waste_heat",
+        "power": "plant",
+        "ref:US:EIA": "57938",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2011-02"
+      },
+      "lat": 32.0036108,
+      "lon": -93.3923966
+    },
+    {
+      "type": "way",
+      "id": 842252594,
+      "center": {
+        "lat": 29.8232978,
+        "lon": -91.5440727
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Cleco Teche Power Station",
+        "operator": "CLECO",
+        "plant:method": "combustion",
+        "plant:output:electricity": "390.7 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "1400",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1953-07",
+        "wikidata": "Q12005323"
+      },
+      "lat": 29.8232978,
+      "lon": -91.5440727
+    },
+    {
+      "type": "way",
+      "id": 851522283,
+      "center": {
+        "lat": 29.6918393,
+        "lon": -91.1925551
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "LEPA Unit No. 1",
+        "operator": "Louisiana Energy & Power Authority",
+        "plant:method": "combustion",
+        "plant:output:electricity": "64 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "58478",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2016-06"
+      },
+      "lat": 29.6918393,
+      "lon": -91.1925551
+    },
+    {
+      "type": "way",
+      "id": 860699629,
+      "center": {
+        "lat": 31.3209356,
+        "lon": -92.4630735
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "D. G. Hunter Power Station",
+        "operator": "City of Alexandria",
+        "plant:method": "combustion",
+        "plant:output:electricity": "65.1 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "6558",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1956-00"
+      },
+      "lat": 31.3209356,
+      "lon": -92.4630735
+    },
+    {
+      "type": "way",
+      "id": 864868798,
+      "center": {
+        "lat": 30.2709678,
+        "lon": -93.2896838
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Lake Charles Power",
+        "operator": "Entergy Louisiana",
+        "plant:method": "combustion",
+        "plant:output:electricity": "1000 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "60927",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2020-03-28"
+      },
+      "lat": 30.2709678,
+      "lon": -93.2896838
+    },
+    {
+      "type": "way",
+      "id": 865199661,
+      "center": {
+        "lat": 29.5804646,
+        "lon": -90.721423
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Houma Power Plant",
+        "operator": "Terrebonne Parish Consolidated Government",
+        "plant:method": "combustion",
+        "plant:output:electricity": "78.9 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "1439",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1948-08"
+      },
+      "lat": 29.5804646,
+      "lon": -90.721423
+    },
+    {
+      "type": "way",
+      "id": 865199669,
+      "center": {
+        "lat": 31.0880654,
+        "lon": -91.6188062
+      },
+      "tags": {
+        "building": "ind",
+        "layer": "-1",
+        "name": "Sidney A. Murray Jr. Hydroelectric Station",
+        "operator": "First National Bank-Commerce",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "192 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "54678",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1990-05",
+        "wikidata": "Q7508931"
+      },
+      "lat": 31.0880654,
+      "lon": -91.6188062
+    },
+    {
+      "type": "way",
+      "id": 865199670,
+      "center": {
+        "lat": 30.3213154,
+        "lon": -91.234366
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Dow Plaquemine Cogeneration",
+        "operator": "The Dow Chemical Company",
+        "plant:method": "combustion",
+        "plant:output:electricity": "933 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "55419",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019;https://www.gem.wiki/Plaquemine_cogeneration_plant",
+        "start_date": "2004-03",
+        "wikidata": "Q11995807"
+      },
+      "lat": 30.3213154,
+      "lon": -91.234366
+    },
+    {
+      "type": "way",
+      "id": 865199672,
+      "center": {
+        "lat": 30.8437395,
+        "lon": -92.262875
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Coughlin Power Station",
+        "operator": "Cleco Power",
+        "plant:method": "combustion",
+        "plant:output:electricity": "922.8 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "1396",
+        "ref:US:EPA": "110029512837",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1961-04",
+        "wikidata": "Q17770247"
+      },
+      "lat": 30.8437395,
+      "lon": -92.262875
+    },
+    {
+      "type": "way",
+      "id": 919231184,
+      "center": {
+        "lat": 30.7554773,
+        "lon": -91.3326449
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "River Bend Nuclear Generating Station",
+        "operator": "Entergy Louisiana",
+        "plant:method": "fission",
+        "plant:output:electricity": "1035.9 MW",
+        "plant:source": "nuclear",
+        "power": "plant",
+        "ref:US:EIA": "6462",
+        "start_date": "1986-06",
+        "wikidata": "Q290561",
+        "wikipedia": "en:River Bend Nuclear Generating Station"
+      },
+      "lat": 30.7554773,
+      "lon": -91.3326449
+    },
+    {
+      "type": "way",
+      "id": 935115535,
+      "center": {
+        "lat": 30.4905167,
+        "lon": -91.187872
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Louisiana Power Plant",
+        "name:fr": "Centrale \u00e9lectrique de Louisiane",
+        "name:frc": "Centrale \u00e9lectrique de Louisiane",
+        "operator": "Entergy Louisiana",
+        "plant:method": "combustion",
+        "plant:output:electricity": "625.9 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "1392;1391",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1950-01",
+        "wikidata": "Q19380195"
+      },
+      "lat": 30.4905167,
+      "lon": -91.187872
+    },
+    {
+      "type": "way",
+      "id": 959568109,
+      "center": {
+        "lat": 32.7050448,
+        "lon": -93.9614576
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Lieberman Power Plant",
+        "operator": "Southwestern Electric Power Company",
+        "plant:method": "combustion",
+        "plant:output:electricity": "228 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "1417",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1947-07",
+        "wikidata": "Q19379319"
+      },
+      "lat": 32.7050448,
+      "lon": -93.9614576
+    },
+    {
+      "type": "way",
+      "id": 981561219,
+      "center": {
+        "lat": 30.0124567,
+        "lon": -89.9361608
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "New Orleans Power Station",
+        "name:etymology": "New Orleans",
+        "name:etymology:wikidata": "Q34404",
+        "operator": "Entergy New Orleans",
+        "plant:method": "combustion",
+        "plant:output:electricity": "250 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "60928",
+        "start_date": "2020-05-31",
+        "website": "https://www.entergy.com/brightfuturenola/new-orleans-power-station/",
+        "wikidata": "Q108487656",
+        "wikipedia": "en:New Orleans Power Station"
+      },
+      "lat": 30.0124567,
+      "lon": -89.9361608
+    },
+    {
+      "type": "way",
+      "id": 1027058554,
+      "center": {
+        "lat": 29.251772,
+        "lon": -89.9723375
+      },
+      "tags": {
+        "building": "industrial",
+        "name": "Grand Isle Gas Plant Cogen",
+        "operator": "Cox Operating LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "9 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "54927",
+        "start_date": "1965-01"
+      },
+      "lat": 29.251772,
+      "lon": -89.9723375
+    },
+    {
+      "type": "way",
+      "id": 1085721823,
+      "center": {
+        "lat": 31.9035787,
+        "lon": -93.1744466
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "International Paper Red River Mill Power Plant",
+        "operator": "Red River Mill Intl Paper Company",
+        "plant:output:electricity": "78.8 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "biomass",
+        "power": "plant",
+        "ref:US:EIA": "58108",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2008-12"
+      },
+      "lat": 31.9035787,
+      "lon": -93.1744466
+    },
+    {
+      "type": "way",
+      "id": 1087794645,
+      "center": {
+        "lat": 30.497667,
+        "lon": -91.1861382
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Formosa Plastics Cogen",
+        "operator": "Formosa Plastics Corporation, Louisiana",
+        "plant:method": "combustion",
+        "plant:output:electricity": "100.8 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "54518",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1985-03"
+      },
+      "lat": 30.497667,
+      "lon": -91.1861382
+    },
+    {
+      "type": "way",
+      "id": 1087794650,
+      "center": {
+        "lat": 30.4107402,
+        "lon": -91.1817209
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "LSU Cogen",
+        "operator": "LSU and A&M College",
+        "plant:method": "combustion",
+        "plant:output:electricity": "19.6 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "58428",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2004-12"
+      },
+      "lat": 30.4107402,
+      "lon": -91.1817209
+    },
+    {
+      "type": "way",
+      "id": 1087794654,
+      "center": {
+        "lat": 30.2082257,
+        "lon": -90.9925199
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Geismar Cogen",
+        "operator": "Air Liquide Large Industries U.S. LP",
+        "plant:method": "combustion",
+        "plant:output:electricity": "83.9 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "56787",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2000-01"
+      },
+      "lat": 30.2082257,
+      "lon": -90.9925199
+    },
+    {
+      "type": "way",
+      "id": 1087794655,
+      "center": {
+        "lat": 30.1877577,
+        "lon": -90.9841521
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Shell Chemical Cogen",
+        "operator": "Shell Chemical LP",
+        "plant:method": "combustion",
+        "plant:output:electricity": "80 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "56248",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2002-08"
+      },
+      "lat": 30.1877577,
+      "lon": -90.9841521
+    },
+    {
+      "type": "way",
+      "id": 1087794656,
+      "center": {
+        "lat": 29.811871,
+        "lon": -90.0084925
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Oak Point Cogen",
+        "operator": "Chevron Oronite Company LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "23.5 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "55857",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1999-10"
+      },
+      "lat": 29.811871,
+      "lon": -90.0084925
+    },
+    {
+      "type": "way",
+      "id": 1087794657,
+      "center": {
+        "lat": 30.7780867,
+        "lon": -89.8589507
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Gaylord Container Bogalusa Cogen",
+        "operator": "Temple-Inland Corp",
+        "plant:method": "combustion",
+        "plant:output:electricity": "99.5 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "biomass",
+        "power": "plant",
+        "ref:US:EIA": "54427",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1979-06"
+      },
+      "lat": 30.7780867,
+      "lon": -89.8589507
+    },
+    {
+      "type": "way",
+      "id": 1087794658,
+      "center": {
+        "lat": 29.9834856,
+        "lon": -90.4467118
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Dow St Charles Power Plant",
+        "operator": "Union Carbide Corporation",
+        "plant:method": "combustion",
+        "plant:output:electricity": "323.6 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "50152",
+        "start_date": "1980-03",
+        "wikidata": "Q12002485"
+      },
+      "lat": 29.9834856,
+      "lon": -90.4467118
+    },
+    {
+      "type": "way",
+      "id": 1087794659,
+      "center": {
+        "lat": 30.0398629,
+        "lon": -90.8291138
+      },
+      "tags": {
+        "fixme": "position",
+        "name": "Mosaic Phosphates Uncle Sam",
+        "operator": "Mosaic Phosphates Co.",
+        "plant:output:electricity": "26 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "waste_heat",
+        "power": "plant",
+        "ref:US:EIA": "10198",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1968-01"
+      },
+      "lat": 30.0398629,
+      "lon": -90.8291138
+    },
+    {
+      "type": "way",
+      "id": 1087794660,
+      "center": {
+        "lat": 30.1953665,
+        "lon": -90.9967404
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Geismar Power Plant",
+        "operator": "BASF Corporation",
+        "plant:method": "combustion",
+        "plant:output:electricity": "84.1 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "10319",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1985-07"
+      },
+      "lat": 30.1953665,
+      "lon": -90.9967404
+    },
+    {
+      "type": "way",
+      "id": 1155623492,
+      "center": {
+        "lat": 30.0111632,
+        "lon": -90.0237846
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "New Orleans Solar Power Plant",
+        "operator": "Entergy New Orleans",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61647",
+        "start_date": "2016-05"
+      },
+      "lat": 30.0111632,
+      "lon": -90.0237846
+    },
+    {
+      "type": "way",
+      "id": 1161522738,
+      "center": {
+        "lat": 29.9745031,
+        "lon": -90.7341296
+      },
+      "tags": {
+        "name": "St. James Solar",
+        "operator": "St. James Solar, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "20 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "62854",
+        "source": "U.S. Energy Information Administration - EIA-860m - 2025",
+        "start_date": "2023-02"
+      },
+      "lat": 29.9745031,
+      "lon": -90.7341296
+    },
+    {
+      "type": "way",
+      "id": 1174824354,
+      "center": {
+        "lat": 30.7112927,
+        "lon": -91.3239844
+      },
+      "tags": {
+        "building": "industrial",
+        "name": "St. Francisville Mill Cogen",
+        "operator": "Hood Container of Louisiana, LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "12.5 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "biomass",
+        "power": "plant",
+        "ref:US:EIA": "10697",
+        "start_date": "1966-03"
+      },
+      "lat": 30.7112927,
+      "lon": -91.3239844
+    },
+    {
+      "type": "way",
+      "id": 1175113012,
+      "center": {
+        "lat": 30.4897481,
+        "lon": -91.1875488
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "ExxonMobil Baton Rouge Turbine Generator",
+        "operator": "Exxon Mobil Corporation",
+        "plant:method": "combustion",
+        "plant:output:electricity": "85.3 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "10690",
+        "start_date": "1990-05"
+      },
+      "lat": 30.4897481,
+      "lon": -91.1875488
+    },
+    {
+      "type": "way",
+      "id": 1175858599,
+      "center": {
+        "lat": 30.0498665,
+        "lon": -90.6838984
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Louisiana Sugar Refining Cogen",
+        "operator": "Louisiana Sugar Refining, LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "6.7 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "10301",
+        "start_date": "1930-09"
+      },
+      "lat": 30.0498665,
+      "lon": -90.6838984
+    },
+    {
+      "type": "way",
+      "id": 1175858608,
+      "center": {
+        "lat": 30.0577849,
+        "lon": -90.6685634
+      },
+      "tags": {
+        "building": "industrial",
+        "name": "Atlantic Alumina Cogen",
+        "operator": "Gramercy Holdings I LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "85.3 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "50846",
+        "start_date": "1958-02"
+      },
+      "lat": 30.0577849,
+      "lon": -90.6685634
+    },
+    {
+      "type": "way",
+      "id": 1175928952,
+      "center": {
+        "lat": 29.9933738,
+        "lon": -90.4703638
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Waterford 3 Nuclear Generating Station",
+        "operator": "Entergy Louisiana",
+        "plant:method": "fission",
+        "plant:output:electricity": "1199.8 MW",
+        "plant:source": "nuclear",
+        "power": "plant",
+        "ref:US:EIA": "4270",
+        "start_date": "1985",
+        "wikidata": "Q1739494",
+        "wikipedia": "en:Waterford Nuclear Generating Station"
+      },
+      "lat": 29.9933738,
+      "lon": -90.4703638
+    },
+    {
+      "type": "way",
+      "id": 1176204048,
+      "center": {
+        "lat": 30.2599872,
+        "lon": -91.1845618
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Axiall Plaquemine Cogen",
+        "operator": "Axiall Corporation",
+        "plant:method": "combustion",
+        "plant:output:electricity": "306 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "55051",
+        "ref:US:EPA": "110070834538",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019;https://www.gem.wiki/Axiall_Plaquemine_power_station",
+        "start_date": "1997-05"
+      },
+      "lat": 30.2599872,
+      "lon": -91.1845618
+    },
+    {
+      "type": "way",
+      "id": 1176577573,
+      "center": {
+        "lat": 29.9927789,
+        "lon": -90.0286101
+      },
+      "tags": {
+        "name": "TCI Alvar Solar Farm",
+        "operator": "Entergy New Orleans",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.9 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64306",
+        "start_date": "2019-04"
+      },
+      "lat": 29.9927789,
+      "lon": -90.0286101
+    },
+    {
+      "type": "way",
+      "id": 1177221241,
+      "center": {
+        "lat": 30.8621019,
+        "lon": -93.375439
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "DeRidder Mill Cogen",
+        "operator": "Packaging Corporation of America",
+        "plant:method": "combustion",
+        "plant:output:electricity": "61.5 MW",
+        "plant:source": "biomass",
+        "power": "plant",
+        "ref:US:EIA": "10488",
+        "start_date": "1969-10"
+      },
+      "lat": 30.8621019,
+      "lon": -93.375439
+    },
+    {
+      "type": "way",
+      "id": 1178024712,
+      "center": {
+        "lat": 29.9038076,
+        "lon": -91.7262935
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Enterprise Sugar Factory Cogen",
+        "operator": "M.A. Patout & Son Limited, LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "3 MW",
+        "plant:source": "biomass",
+        "power": "plant",
+        "ref:US:EIA": "51008",
+        "start_date": "1981-06"
+      },
+      "lat": 29.9038076,
+      "lon": -91.7262935
+    },
+    {
+      "type": "way",
+      "id": 1178437038,
+      "center": {
+        "lat": 30.2215337,
+        "lon": -93.2806851
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "PPG Powerhouse B",
+        "operator": "Eagle 2 US LLC",
+        "plant:output:electricity": "162 MW",
+        "plant:source": "steam",
+        "power": "plant",
+        "ref:US:EIA": "50488",
+        "start_date": "1947"
+      },
+      "lat": 30.2215337,
+      "lon": -93.2806851
+    },
+    {
+      "type": "way",
+      "id": 1178437039,
+      "center": {
+        "lat": 30.2256031,
+        "lon": -93.2947732
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "PPG Powerhouse C",
+        "operator": "Eagle 2 US LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "357.7 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "50489",
+        "source": "https://www.gem.wiki/PPG_Powerhouse_C_power_station"
+      },
+      "lat": 30.2256031,
+      "lon": -93.2947732
+    },
+    {
+      "type": "way",
+      "id": 1178437040,
+      "center": {
+        "lat": 30.2264655,
+        "lon": -93.2938677
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "PPG Plant C Caustic Cogen",
+        "operator": "Eagle 2 US LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "3.7 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "50490",
+        "start_date": "1986-10"
+      },
+      "lat": 30.2264655,
+      "lon": -93.2938677
+    },
+    {
+      "type": "way",
+      "id": 1178437043,
+      "center": {
+        "lat": 30.2214157,
+        "lon": -93.2830309
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "RS Cogen",
+        "operator": "Eagle 2 US LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "493 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "55117",
+        "start_date": "2002"
+      },
+      "lat": 30.2214157,
+      "lon": -93.2830309
+    },
+    {
+      "type": "way",
+      "id": 1178437062,
+      "center": {
+        "lat": 30.19661,
+        "lon": -93.3219444
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Lake Charles Polymers Cogen",
+        "operator": "Equistar Chemicals LP",
+        "plant:method": "combustion",
+        "plant:output:electricity": "31.1 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "57884",
+        "start_date": "2011-09"
+      },
+      "lat": 30.19661,
+      "lon": -93.3219444
+    },
+    {
+      "type": "way",
+      "id": 1178787186,
+      "center": {
+        "lat": 30.2347447,
+        "lon": -92.272303
+      },
+      "tags": {
+        "description": "Out of service as of 2023/02 (not yet officially retired)",
+        "landuse": "industrial",
+        "name": "Rayne Power Plant",
+        "operator": "Louisiana Energy & Power Authority",
+        "plant:method": "combustion",
+        "plant:output:electricity": "8.2 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "1456"
+      },
+      "lat": 30.2347447,
+      "lon": -92.272303
+    },
+    {
+      "type": "way",
+      "id": 1181833655,
+      "center": {
+        "lat": 32.1585977,
+        "lon": -93.555886
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Mansfield Mill Cogen",
+        "operator": "International Paper Company",
+        "plant:method": "combustion",
+        "plant:output:electricity": "172 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "biomass;gas",
+        "power": "plant",
+        "ref:US:EIA": "54091",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1981-10"
+      },
+      "lat": 32.1585977,
+      "lon": -93.555886
+    },
+    {
+      "type": "way",
+      "id": 1196704249,
+      "center": {
+        "lat": 29.7484138,
+        "lon": -93.8697879
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Cheniere LNG Generation",
+        "operator": "Cheniere Energy Partners, L.P.",
+        "plant:method": "combustion",
+        "plant:output:electricity": "204 MW",
+        "plant:source": "gas",
+        "power": "plant"
+      },
+      "lat": 29.7484138,
+      "lon": -93.8697879
+    },
+    {
+      "type": "way",
+      "id": 1200963595,
+      "center": {
+        "lat": 30.2265067,
+        "lon": -91.0552503
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "PCS Nitrogen Fertilizer LP Power Station",
+        "operator": "PCS Nitrogen LP",
+        "plant:method": "combustion",
+        "plant:output:electricity": "14 MW",
+        "plant:source": "oil;waste",
+        "power": "plant",
+        "ref:US:EIA": "50341",
+        "source": "https://www.countyoffice.org/pcs-nitrogen-fertilizer-lp-st-gabriel-la-6b5/",
+        "start_date": "1986-11"
+      },
+      "lat": 30.2265067,
+      "lon": -91.0552503
+    },
+    {
+      "type": "way",
+      "id": 1205421260,
+      "center": {
+        "lat": 32.539062,
+        "lon": -92.6423836
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 32.539062,
+      "lon": -92.6423836
+    },
+    {
+      "type": "way",
+      "id": 1238103552,
+      "center": {
+        "lat": 29.9348957,
+        "lon": -89.976945
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "CII Carbon LLC Oil Plant",
+        "operator": "CII Carbon LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "46 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "waste",
+        "power": "plant",
+        "ref:US:EIA": "54677",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "1951-01"
+      },
+      "lat": 29.9348957,
+      "lon": -89.976945
+    },
+    {
+      "type": "way",
+      "id": 1282219859,
+      "center": {
+        "lat": 31.3495671,
+        "lon": -92.4366315
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 31.3495671,
+      "lon": -92.4366315
+    },
+    {
+      "type": "way",
+      "id": 1282219860,
+      "center": {
+        "lat": 31.3508451,
+        "lon": -92.4361985
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 31.3508451,
+      "lon": -92.4361985
+    },
+    {
+      "type": "way",
+      "id": 1282219861,
+      "center": {
+        "lat": 31.3507826,
+        "lon": -92.4350455
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 31.3507826,
+      "lon": -92.4350455
+    },
+    {
+      "type": "way",
+      "id": 1301821877,
+      "center": {
+        "lat": 30.3314456,
+        "lon": -93.1680374
+      },
+      "tags": {
+        "landuse": "industrial",
+        "power": "plant"
+      },
+      "lat": 30.3314456,
+      "lon": -93.1680374
+    },
+    {
+      "type": "way",
+      "id": 1305066576,
+      "center": {
+        "lat": 32.6912251,
+        "lon": -92.0604079
+      },
+      "tags": {
+        "name": "Sterlington Solar Facility",
+        "operator": "Entergy Louisiana",
+        "operator:wikidata": "Q87759318",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "49 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "start_date": "2025-12"
+      },
+      "lat": 32.6912251,
+      "lon": -92.0604079
+    },
+    {
+      "type": "way",
+      "id": 1333848784,
+      "center": {
+        "lat": 29.6640682,
+        "lon": -89.974397
+      },
+      "tags": {
+        "name": "Entergy Louisiana Maintenance Yard",
+        "operator": "Entergy Louisiana",
+        "operator:wikidata": "Q87759318",
+        "power": "plant"
+      },
+      "lat": 29.6640682,
+      "lon": -89.974397
+    },
+    {
+      "type": "way",
+      "id": 1423361689,
+      "center": {
+        "lat": 31.3982022,
+        "lon": -92.3128271
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 31.3982022,
+      "lon": -92.3128271
+    },
+    {
+      "type": "way",
+      "id": 1423361700,
+      "center": {
+        "lat": 31.3963127,
+        "lon": -92.3051364
+      },
+      "tags": {
+        "landuse": "industrial",
+        "power": "plant"
+      },
+      "lat": 31.3963127,
+      "lon": -92.3051364
+    },
+    {
+      "type": "way",
+      "id": 1443037109,
+      "center": {
+        "lat": 29.9241635,
+        "lon": -90.1622521
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 29.9241635,
+      "lon": -90.1622521
+    },
+    {
+      "type": "way",
+      "id": 1466792886,
+      "center": {
+        "lat": 30.8095917,
+        "lon": -92.966381
+      },
+      "tags": {
+        "name": "Elizabeth Solar Plant",
+        "operator": "Horus Louisiana 1, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "142.8 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "66111",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2024-08"
+      },
+      "lat": 30.8095917,
+      "lon": -92.966381
+    },
+    {
+      "type": "way",
+      "id": 1489628559,
+      "center": {
+        "lat": 30.2538631,
+        "lon": -91.1627266
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Magnolia Power",
+        "operator": "Magnolia Power Holdings LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "722.9 MW",
+        "plant:source": "gas",
+        "power": "plant"
+      },
+      "lat": 30.2538631,
+      "lon": -91.1627266
+    },
+    {
+      "type": "way",
+      "id": 1497217500,
+      "center": {
+        "lat": 30.568425,
+        "lon": -91.580449
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 30.568425,
+      "lon": -91.580449
+    },
+    {
+      "type": "relation",
+      "id": 14480764,
+      "center": {
+        "lat": 30.0163842,
+        "lon": -89.9181591
+      },
+      "tags": {
+        "name": "New Orleans Solar Station",
+        "name:fr": "Station Solaire de la Nouvelle-Orl\u00e9ans",
+        "name:frc": "Station Solaire de la Nouvelle-Orl\u00e9ans",
+        "operator": "Entergy New Orleans",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "20 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64307",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2019-12",
+        "type": "multipolygon"
+      },
+      "lat": 30.0163842,
+      "lon": -89.9181591
+    },
+    {
+      "type": "relation",
+      "id": 14480765,
+      "center": {
+        "lat": 30.4688669,
+        "lon": -91.3264489
+      },
+      "tags": {
+        "name": "LA3 West Baton Rouge Solar Facility",
+        "operator": "Sol Systems",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "50 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61646",
+        "ref:US:EPA": "110070396049",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2020-09",
+        "type": "multipolygon"
+      },
+      "lat": 30.4688669,
+      "lon": -91.3264489
+    },
+    {
+      "type": "relation",
+      "id": 15654448,
+      "center": {
+        "lat": 29.9844353,
+        "lon": -90.0294719
+      },
+      "tags": {
+        "location": "roof",
+        "name": "TCI France Solar Farm",
+        "operator": "Entergy New Orleans",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64305",
+        "start_date": "2019-04",
+        "type": "multipolygon"
+      },
+      "lat": 29.9844353,
+      "lon": -90.0294719
+    },
+    {
+      "type": "relation",
+      "id": 15656143,
+      "center": {
+        "lat": 30.7830605,
+        "lon": -90.2066063
+      },
+      "tags": {
+        "name": "Iris Solar",
+        "operator": "Iris Solar LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "50 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "63128",
+        "start_date": "2022-10",
+        "type": "multipolygon"
+      },
+      "lat": 30.7830605,
+      "lon": -90.2066063
+    },
+    {
+      "type": "relation",
+      "id": 17239485,
+      "center": {
+        "lat": 32.589188,
+        "lon": -91.7846307
+      },
+      "tags": {
+        "name": "Oak Ridge Solar",
+        "note": "For future reference, this was mapped without up to date satellite information, losely done based on this PDF map:https://www.aes.com/sites/aesvault.com/files/2023-05/DIGITAL_Oak%20Ridge%20Solar.pdf Recommend rework with new satellite imagery.",
+        "operator": "AES Clean Energy",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "200 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "66193",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2023-12",
+        "type": "multipolygon"
+      },
+      "lat": 32.589188,
+      "lon": -91.7846307
+    },
+    {
+      "type": "relation",
+      "id": 20059781,
+      "center": {
+        "lat": 30.645805,
+        "lon": -91.4026559
+      },
+      "tags": {
+        "name": "Oxbow Solar 1",
+        "operator": "Lightsource Renewable Energy Asset Management, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "300 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "65030",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2024-07",
+        "type": "multipolygon"
+      },
+      "lat": 30.645805,
+      "lon": -91.4026559
+    },
+    {
+      "type": "relation",
+      "id": 20080231,
+      "center": {
+        "lat": 30.6115738,
+        "lon": -92.1678954
+      },
+      "tags": {
+        "name": "Prairie Ronde Solar Farm",
+        "operator": "Lightsource Renewable Energy Asset Management, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "135 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "65976",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2024-11",
+        "type": "multipolygon"
+      },
+      "lat": 30.6115738,
+      "lon": -92.1678954
+    }
+  ]
+}

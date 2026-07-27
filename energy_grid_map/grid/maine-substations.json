@@ -1,0 +1,6334 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-04-24T18:15:17Z",
+    "timestamp_areas_base": "2026-04-24T09:42:59Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 7367556920,
+      "lat": 44.0135165,
+      "lon": -70.9718339,
+      "tags": {
+        "addr:city": "Fryeburg",
+        "addr:housenumber": "198",
+        "addr:postcode": "04037",
+        "addr:state": "ME",
+        "addr:street": "Portland Street",
+        "power": "substation"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12641214584,
+      "lat": 44.8524514,
+      "lon": -69.9076361,
+      "tags": {
+        "power": "substation"
+      }
+    },
+    {
+      "type": "way",
+      "id": 82004992,
+      "center": {
+        "lat": 43.931889,
+        "lon": -70.2033148
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Surowiec Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "345000;115000"
+      },
+      "lat": 43.931889,
+      "lon": -70.2033148
+    },
+    {
+      "type": "way",
+      "id": 95920822,
+      "center": {
+        "lat": 43.0837469,
+        "lon": -70.7406688
+      },
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "power": "substation",
+        "substation": "industrial"
+      },
+      "lat": 43.0837469,
+      "lon": -70.7406688
+    },
+    {
+      "type": "way",
+      "id": 130000598,
+      "center": {
+        "lat": 44.1512623,
+        "lon": -70.2085676
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Gulf Island Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "source": "Bing",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.1512623,
+      "lon": -70.2085676
+    },
+    {
+      "type": "way",
+      "id": 130810372,
+      "center": {
+        "lat": 44.0602389,
+        "lon": -69.5271707
+      },
+      "tags": {
+        "addr:city": "Newcastle",
+        "addr:housenumber": "19",
+        "addr:postcode": "04553",
+        "addr:state": "ME",
+        "addr:street": "Austin Road",
+        "power": "substation",
+        "source": "Bing"
+      },
+      "lat": 44.0602389,
+      "lon": -69.5271707
+    },
+    {
+      "type": "way",
+      "id": 131157449,
+      "center": {
+        "lat": 45.6329452,
+        "lon": -68.6057112
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "source": "Bing"
+      },
+      "lat": 45.6329452,
+      "lon": -68.6057112
+    },
+    {
+      "type": "way",
+      "id": 131359903,
+      "center": {
+        "lat": 44.9590388,
+        "lon": -69.8710615
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Williams Hydro Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "source": "Bing",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.9590388,
+      "lon": -69.8710615
+    },
+    {
+      "type": "way",
+      "id": 131558870,
+      "center": {
+        "lat": 44.1348845,
+        "lon": -70.2043775
+      },
+      "tags": {
+        "power": "substation",
+        "source": "Bing"
+      },
+      "lat": 44.1348845,
+      "lon": -70.2043775
+    },
+    {
+      "type": "way",
+      "id": 132595742,
+      "center": {
+        "lat": 45.4835913,
+        "lon": -67.9936457
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Stetson Substation",
+        "operator": "Versant Power",
+        "power": "substation",
+        "source": "Bing",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 45.4835913,
+      "lon": -67.9936457
+    },
+    {
+      "type": "way",
+      "id": 133338788,
+      "center": {
+        "lat": 45.4040898,
+        "lon": -68.364734
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Rollins Substation",
+        "operator": "Versant Power",
+        "power": "substation",
+        "source": "Bing",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 45.4040898,
+      "lon": -68.364734
+    },
+    {
+      "type": "way",
+      "id": 133434241,
+      "center": {
+        "lat": 43.6873234,
+        "lon": -70.6108978
+      },
+      "tags": {
+        "power": "substation",
+        "source": "Bing",
+        "voltage": "34500"
+      },
+      "lat": 43.6873234,
+      "lon": -70.6108978
+    },
+    {
+      "type": "way",
+      "id": 133801192,
+      "center": {
+        "lat": 44.7635612,
+        "lon": -69.7210342
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "source": "Bing"
+      },
+      "lat": 44.7635612,
+      "lon": -69.7210342
+    },
+    {
+      "type": "way",
+      "id": 133803427,
+      "center": {
+        "lat": 44.6289392,
+        "lon": -69.5842619
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "source": "Bing"
+      },
+      "lat": 44.6289392,
+      "lon": -69.5842619
+    },
+    {
+      "type": "way",
+      "id": 134311758,
+      "center": {
+        "lat": 44.5372832,
+        "lon": -70.5446029
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Rumford Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "source": "Bing",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.5372832,
+      "lon": -70.5446029
+    },
+    {
+      "type": "way",
+      "id": 134606011,
+      "center": {
+        "lat": 43.8529689,
+        "lon": -70.7951208
+      },
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "34500"
+      },
+      "lat": 43.8529689,
+      "lon": -70.7951208
+    },
+    {
+      "type": "way",
+      "id": 136694709,
+      "center": {
+        "lat": 44.7867449,
+        "lon": -69.8988738
+      },
+      "tags": {
+        "barrier": "fence",
+        "operator": "Madison Electric Works",
+        "power": "substation",
+        "source": "Bing",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.7867449,
+      "lon": -69.8988738
+    },
+    {
+      "type": "way",
+      "id": 136694712,
+      "center": {
+        "lat": 44.7968172,
+        "lon": -69.8867115
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Madison Substation",
+        "operator": "Madison Electric Works",
+        "power": "substation",
+        "source": "Bing",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.7968172,
+      "lon": -69.8867115
+    },
+    {
+      "type": "way",
+      "id": 136694713,
+      "center": {
+        "lat": 44.7888809,
+        "lon": -69.887703
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Madison Substation",
+        "operator": "Madison Electric Works",
+        "power": "substation",
+        "source": "Bing",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.7888809,
+      "lon": -69.887703
+    },
+    {
+      "type": "way",
+      "id": 141341446,
+      "center": {
+        "lat": 44.3294133,
+        "lon": -69.7462314
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Augusta East Side Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.3294133,
+      "lon": -69.7462314
+    },
+    {
+      "type": "way",
+      "id": 141341454,
+      "center": {
+        "lat": 44.2544214,
+        "lon": -69.8034921
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Bowman Street Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.2544214,
+      "lon": -69.8034921
+    },
+    {
+      "type": "way",
+      "id": 141341458,
+      "center": {
+        "lat": 44.3636034,
+        "lon": -69.7975435
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "North Augusta Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.3636034,
+      "lon": -69.7975435
+    },
+    {
+      "type": "way",
+      "id": 141341463,
+      "center": {
+        "lat": 44.3313993,
+        "lon": -69.8541349
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Puddledock Road Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "source": "Bing",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.3313993,
+      "lon": -69.8541349
+    },
+    {
+      "type": "way",
+      "id": 141373700,
+      "center": {
+        "lat": 44.2528636,
+        "lon": -69.7750298
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Browns Crossing Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.2528636,
+      "lon": -69.7750298
+    },
+    {
+      "type": "way",
+      "id": 141373736,
+      "center": {
+        "lat": 44.7401486,
+        "lon": -68.7540223
+      },
+      "tags": {
+        "barrier": "fence",
+        "location": "outdoor",
+        "name": "Orrington Substation",
+        "operator": "Versant Power",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "345000;115000"
+      },
+      "lat": 44.7401486,
+      "lon": -68.7540223
+    },
+    {
+      "type": "way",
+      "id": 142377593,
+      "center": {
+        "lat": 45.3974221,
+        "lon": -68.5292826
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Keene Road 345kV Substation",
+        "operator": "Versant Power",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "345000"
+      },
+      "lat": 45.3974221,
+      "lon": -68.5292826
+    },
+    {
+      "type": "way",
+      "id": 142380352,
+      "center": {
+        "lat": 45.3974389,
+        "lon": -68.5258138
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Chester Static VAR Compensator",
+        "operator": "Versant Power",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "345000"
+      },
+      "lat": 45.3974389,
+      "lon": -68.5258138
+    },
+    {
+      "type": "way",
+      "id": 142394413,
+      "center": {
+        "lat": 43.663274,
+        "lon": -70.5532045
+      },
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "name": "Buxton Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "345000"
+      },
+      "lat": 43.663274,
+      "lon": -70.5532045
+    },
+    {
+      "type": "way",
+      "id": 142394414,
+      "center": {
+        "lat": 43.6443144,
+        "lon": -70.4324021
+      },
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "South Gorham Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "345000;115000"
+      },
+      "lat": 43.6443144,
+      "lon": -70.4324021
+    },
+    {
+      "type": "way",
+      "id": 142715660,
+      "center": {
+        "lat": 43.903194,
+        "lon": -69.8348334
+      },
+      "tags": {
+        "addr:city": "Bath",
+        "addr:housenumber": "16",
+        "addr:postcode": "04530",
+        "addr:state": "ME",
+        "addr:street": "Lily Pond Road",
+        "location": "outdoor",
+        "name": "Bath Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 43.903194,
+      "lon": -69.8348334
+    },
+    {
+      "type": "way",
+      "id": 142715700,
+      "center": {
+        "lat": 43.786702,
+        "lon": -70.1992308
+      },
+      "tags": {
+        "barrier": "fence",
+        "location": "outdoor",
+        "name": "Elm Street Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 43.786702,
+      "lon": -70.1992308
+    },
+    {
+      "type": "way",
+      "id": 142715706,
+      "center": {
+        "lat": 43.6841449,
+        "lon": -70.3998123
+      },
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "name": "Moshers Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000;34500"
+      },
+      "lat": 43.6841449,
+      "lon": -70.3998123
+    },
+    {
+      "type": "way",
+      "id": 142715739,
+      "center": {
+        "lat": 43.7511795,
+        "lon": -70.1554101
+      },
+      "tags": {
+        "name": "Yarmouth Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000;34500"
+      },
+      "lat": 43.7511795,
+      "lon": -70.1554101
+    },
+    {
+      "type": "way",
+      "id": 142717161,
+      "center": {
+        "lat": 43.7102213,
+        "lon": -70.338814
+      },
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "name": "Prides Corner Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000;34500"
+      },
+      "lat": 43.7102213,
+      "lon": -70.338814
+    },
+    {
+      "type": "way",
+      "id": 142717879,
+      "center": {
+        "lat": 43.9911676,
+        "lon": -69.6716714
+      },
+      "tags": {
+        "barrier": "fence",
+        "location": "outdoor",
+        "name": "Mason Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "345000;115000"
+      },
+      "lat": 43.9911676,
+      "lon": -69.6716714
+    },
+    {
+      "type": "way",
+      "id": 142732870,
+      "center": {
+        "lat": 44.1364943,
+        "lon": -69.2042464
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Highland Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "source": "Bing",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.1364943,
+      "lon": -69.2042464
+    },
+    {
+      "type": "way",
+      "id": 142732871,
+      "center": {
+        "lat": 44.0827075,
+        "lon": -69.558014
+      },
+      "tags": {
+        "addr:city": "Newcastle",
+        "addr:housenumber": "227",
+        "addr:postcode": "04553",
+        "addr:state": "ME",
+        "addr:street": "Jones Woods Road",
+        "name": "Newcastle Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.0827075,
+      "lon": -69.558014
+    },
+    {
+      "type": "way",
+      "id": 142750723,
+      "center": {
+        "lat": 43.9441571,
+        "lon": -70.4947087
+      },
+      "tags": {
+        "addr:city": "Raymond",
+        "addr:housenumber": "369",
+        "addr:postcode": "04071",
+        "addr:state": "ME",
+        "addr:street": "Meadow Road",
+        "location": "outdoor",
+        "name": "Raymond Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 43.9441571,
+      "lon": -70.4947087
+    },
+    {
+      "type": "way",
+      "id": 142752400,
+      "center": {
+        "lat": 43.9536031,
+        "lon": -69.6954559
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Maine Yankee 345kV Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "345000"
+      },
+      "lat": 43.9536031,
+      "lon": -69.6954559
+    },
+    {
+      "type": "way",
+      "id": 142752409,
+      "center": {
+        "lat": 43.940067,
+        "lon": -69.9708485
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Topsham Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 43.940067,
+      "lon": -69.9708485
+    },
+    {
+      "type": "way",
+      "id": 142764070,
+      "center": {
+        "lat": 44.0594901,
+        "lon": -70.1550812
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Crowleys Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.0594901,
+      "lon": -70.1550812
+    },
+    {
+      "type": "way",
+      "id": 143617179,
+      "center": {
+        "lat": 44.8991781,
+        "lon": -68.6735367
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.8991781,
+      "lon": -68.6735367
+    },
+    {
+      "type": "way",
+      "id": 143619590,
+      "center": {
+        "lat": 44.900518,
+        "lon": -68.6600335
+      },
+      "tags": {
+        "name": "University of Maine Substation",
+        "operator": "Bangor Hydro-Electric Company",
+        "power": "substation"
+      },
+      "lat": 44.900518,
+      "lon": -68.6600335
+    },
+    {
+      "type": "way",
+      "id": 147637604,
+      "center": {
+        "lat": 44.0681203,
+        "lon": -70.266959
+      },
+      "tags": {
+        "barrier": "fence",
+        "location": "outdoor",
+        "name": "Hotel Road Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.0681203,
+      "lon": -70.266959
+    },
+    {
+      "type": "way",
+      "id": 147637608,
+      "center": {
+        "lat": 44.1517868,
+        "lon": -70.6336476
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Kimball Road Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.1517868,
+      "lon": -70.6336476
+    },
+    {
+      "type": "way",
+      "id": 147637609,
+      "center": {
+        "lat": 44.0869018,
+        "lon": -70.2116405
+      },
+      "tags": {
+        "addr:city": "Lewiston",
+        "addr:housenumber": "685",
+        "addr:postcode": "04240",
+        "addr:state": "ME",
+        "addr:street": "Lisbon Street",
+        "location": "outdoor",
+        "name": "Lewiston Lower Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.0869018,
+      "lon": -70.2116405
+    },
+    {
+      "type": "way",
+      "id": 147637639,
+      "center": {
+        "lat": 44.2072812,
+        "lon": -70.5280796
+      },
+      "tags": {
+        "barrier": "fence",
+        "location": "outdoor",
+        "name": "Norway Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.2072812,
+      "lon": -70.5280796
+    },
+    {
+      "type": "way",
+      "id": 147646738,
+      "center": {
+        "lat": 43.6516148,
+        "lon": -70.3602388
+      },
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "barbed_wire",
+        "name": "Spring Street Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000;34500"
+      },
+      "lat": 43.6516148,
+      "lon": -70.3602388
+    },
+    {
+      "type": "way",
+      "id": 147646741,
+      "center": {
+        "lat": 43.6568152,
+        "lon": -70.3761191
+      },
+      "tags": {
+        "name": "Westbrook Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 43.6568152,
+      "lon": -70.3761191
+    },
+    {
+      "type": "way",
+      "id": 147668607,
+      "center": {
+        "lat": 43.6543845,
+        "lon": -70.2925422
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Sewall Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000;34500"
+      },
+      "lat": 43.6543845,
+      "lon": -70.2925422
+    },
+    {
+      "type": "way",
+      "id": 147731754,
+      "center": {
+        "lat": 43.4678566,
+        "lon": -70.4928971
+      },
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "name": "Biddeford IP Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000;34500"
+      },
+      "lat": 43.4678566,
+      "lon": -70.4928971
+    },
+    {
+      "type": "way",
+      "id": 147731755,
+      "center": {
+        "lat": 43.4186598,
+        "lon": -70.6068506
+      },
+      "tags": {
+        "addr:city": "Kennebunk",
+        "addr:housenumber": "517",
+        "addr:postcode": "04043",
+        "addr:state": "ME",
+        "addr:street": "Alfred Road",
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "name": "West Kennebunk Substation",
+        "operator": "Kennebunk Light & Power District",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 43.4186598,
+      "lon": -70.6068506
+    },
+    {
+      "type": "way",
+      "id": 147731760,
+      "center": {
+        "lat": 43.3968088,
+        "lon": -70.6172819
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Maguire Road Substation",
+        "power": "substation"
+      },
+      "lat": 43.3968088,
+      "lon": -70.6172819
+    },
+    {
+      "type": "way",
+      "id": 147731762,
+      "center": {
+        "lat": 43.5291709,
+        "lon": -70.5032872
+      },
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "name": "Louden Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000;34500"
+      },
+      "lat": 43.5291709,
+      "lon": -70.5032872
+    },
+    {
+      "type": "way",
+      "id": 147731765,
+      "center": {
+        "lat": 43.3655882,
+        "lon": -70.558398
+      },
+      "tags": {
+        "addr:city": "Kennebunk",
+        "addr:housenumber": "127",
+        "addr:postcode": "04043",
+        "addr:state": "ME",
+        "addr:street": "York Street",
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "name": "Branch Brook Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000;34500"
+      },
+      "lat": 43.3655882,
+      "lon": -70.558398
+    },
+    {
+      "type": "way",
+      "id": 147731766,
+      "center": {
+        "lat": 43.2882106,
+        "lon": -70.7427447
+      },
+      "tags": {
+        "frequency": "60",
+        "location": "outdoor",
+        "name": "Quaker Hill Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000;34500"
+      },
+      "lat": 43.2882106,
+      "lon": -70.7427447
+    },
+    {
+      "type": "way",
+      "id": 151963295,
+      "center": {
+        "lat": 45.7320613,
+        "lon": -68.8386183
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "source": "Bing",
+        "voltage": "115000"
+      },
+      "lat": 45.7320613,
+      "lon": -68.8386183
+    },
+    {
+      "type": "way",
+      "id": 160552987,
+      "center": {
+        "lat": 45.0709706,
+        "lon": -69.9029553
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Wyman Hydro Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "source": "Bing",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 45.0709706,
+      "lon": -69.9029553
+    },
+    {
+      "type": "way",
+      "id": 162931977,
+      "center": {
+        "lat": 44.538395,
+        "lon": -69.6240831
+      },
+      "tags": {
+        "addr:city": "Waterville",
+        "addr:housenumber": "36",
+        "addr:postcode": "04901",
+        "addr:state": "ME",
+        "addr:street": "China Road",
+        "area": "yes",
+        "barrier": "fence",
+        "operator": "Central Maine Power",
+        "power": "substation",
+        "source": "Bing",
+        "voltage": "34500"
+      },
+      "lat": 44.538395,
+      "lon": -69.6240831
+    },
+    {
+      "type": "way",
+      "id": 162931978,
+      "center": {
+        "lat": 44.5695495,
+        "lon": -69.6032598
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Winslow Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "source": "Bing",
+        "substation": "distribution",
+        "voltage": "115000;34500"
+      },
+      "lat": 44.5695495,
+      "lon": -69.6032598
+    },
+    {
+      "type": "way",
+      "id": 162931979,
+      "center": {
+        "lat": 44.5399369,
+        "lon": -69.6258893
+      },
+      "tags": {
+        "addr:city": "Waterville",
+        "addr:housenumber": "13",
+        "addr:postcode": "04901",
+        "addr:state": "ME",
+        "addr:street": "Halifax Street",
+        "barrier": "fence",
+        "operator": "Central Maine Power",
+        "power": "substation"
+      },
+      "lat": 44.5399369,
+      "lon": -69.6258893
+    },
+    {
+      "type": "way",
+      "id": 162931980,
+      "center": {
+        "lat": 44.5744713,
+        "lon": -69.5833599
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Heywood Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.5744713,
+      "lon": -69.5833599
+    },
+    {
+      "type": "way",
+      "id": 162931981,
+      "center": {
+        "lat": 44.5237615,
+        "lon": -69.6690058
+      },
+      "tags": {
+        "power": "substation",
+        "source": "Bing",
+        "voltage": "34500"
+      },
+      "lat": 44.5237615,
+      "lon": -69.6690058
+    },
+    {
+      "type": "way",
+      "id": 162932160,
+      "center": {
+        "lat": 44.5488216,
+        "lon": -69.7106281
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "UNKNOWN133029",
+        "operator": "CENTRAL MAINE POWER CO?",
+        "power": "substation",
+        "source": "Bing;/www.eia.gov",
+        "voltage": "34500"
+      },
+      "lat": 44.5488216,
+      "lon": -69.7106281
+    },
+    {
+      "type": "way",
+      "id": 162932161,
+      "center": {
+        "lat": 44.5682997,
+        "lon": -69.6851141
+      },
+      "tags": {
+        "name": "UNKNOWN133030",
+        "operator": "CENTRAL MAINE POWER CO",
+        "power": "substation",
+        "source": "Bing",
+        "substation": "yes",
+        "voltage": "115000"
+      },
+      "lat": 44.5682997,
+      "lon": -69.6851141
+    },
+    {
+      "type": "way",
+      "id": 163763150,
+      "center": {
+        "lat": 44.9620769,
+        "lon": -70.6382421
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "source": "Bing",
+        "voltage": "34500"
+      },
+      "lat": 44.9620769,
+      "lon": -70.6382421
+    },
+    {
+      "type": "way",
+      "id": 164187904,
+      "center": {
+        "lat": 44.8241386,
+        "lon": -68.7054324
+      },
+      "tags": {
+        "addr:city": "Veazie",
+        "addr:housenumber": "55",
+        "addr:postcode": "04401",
+        "addr:state": "ME",
+        "addr:street": "Shore Road",
+        "barrier": "fence",
+        "name": "Graham Substation",
+        "operator": "Versant Power",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "115000"
+      },
+      "lat": 44.8241386,
+      "lon": -68.7054324
+    },
+    {
+      "type": "way",
+      "id": 164194313,
+      "center": {
+        "lat": 44.57709,
+        "lon": -68.4539798
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Boggy Brook Substation",
+        "operator": "Versant Power",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.57709,
+      "lon": -68.4539798
+    },
+    {
+      "type": "way",
+      "id": 164246381,
+      "center": {
+        "lat": 44.5701119,
+        "lon": -68.4587063
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Ellsworth Substation",
+        "operator": "Versant Power",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.5701119,
+      "lon": -68.4587063
+    },
+    {
+      "type": "way",
+      "id": 164246382,
+      "center": {
+        "lat": 45.2457529,
+        "lon": -68.6017538
+      },
+      "tags": {
+        "name": "Enfield Tap",
+        "operator": "Versant Power",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 45.2457529,
+      "lon": -68.6017538
+    },
+    {
+      "type": "way",
+      "id": 167613839,
+      "center": {
+        "lat": 44.8359167,
+        "lon": -69.476407
+      },
+      "tags": {
+        "addr:city": "Pittsfield",
+        "addr:housenumber": "691",
+        "addr:postcode": "04967",
+        "addr:state": "ME",
+        "addr:street": "Beans Corner Road",
+        "barrier": "fence",
+        "name": "Hartland Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "source": "Bing",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.8359167,
+      "lon": -69.476407
+    },
+    {
+      "type": "way",
+      "id": 167655530,
+      "center": {
+        "lat": 44.4569988,
+        "lon": -69.039091
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Belfast Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.4569988,
+      "lon": -69.039091
+    },
+    {
+      "type": "way",
+      "id": 167655538,
+      "center": {
+        "lat": 44.0833317,
+        "lon": -69.1578349
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Dragon Cement Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.0833317,
+      "lon": -69.1578349
+    },
+    {
+      "type": "way",
+      "id": 167655551,
+      "center": {
+        "lat": 44.3071218,
+        "lon": -69.1141317
+      },
+      "tags": {
+        "name": "Lincolnville Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.3071218,
+      "lon": -69.1141317
+    },
+    {
+      "type": "way",
+      "id": 167655554,
+      "center": {
+        "lat": 44.1754523,
+        "lon": -69.1212789
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Meadow Road Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.1754523,
+      "lon": -69.1212789
+    },
+    {
+      "type": "way",
+      "id": 167655564,
+      "center": {
+        "lat": 44.1022141,
+        "lon": -69.1226304
+      },
+      "tags": {
+        "barrier": "fence",
+        "description": "Electrical sub-station",
+        "name": "Park Street Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "source": "Bing",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.1022141,
+      "lon": -69.1226304
+    },
+    {
+      "type": "way",
+      "id": 167678712,
+      "center": {
+        "lat": 45.1602224,
+        "lon": -69.3891862
+      },
+      "tags": {
+        "addr:city": "Sangerville",
+        "addr:housenumber": "42",
+        "addr:postcode": "04479",
+        "addr:state": "ME",
+        "addr:street": "State Highway 150",
+        "barrier": "fence",
+        "name": "Guilford Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 45.1602224,
+      "lon": -69.3891862
+    },
+    {
+      "type": "way",
+      "id": 167678714,
+      "center": {
+        "lat": 44.4297065,
+        "lon": -69.0208579
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "source": "Bing",
+        "voltage": "34500"
+      },
+      "lat": 44.4297065,
+      "lon": -69.0208579
+    },
+    {
+      "type": "way",
+      "id": 167686244,
+      "center": {
+        "lat": 44.4779153,
+        "lon": -70.1716151
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Livermore Falls Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "115000"
+      },
+      "lat": 44.4779153,
+      "lon": -70.1716151
+    },
+    {
+      "type": "way",
+      "id": 167952482,
+      "center": {
+        "lat": 44.3219163,
+        "lon": -69.7753471
+      },
+      "tags": {
+        "addr:city": "Augusta",
+        "addr:housenumber": "18",
+        "addr:postcode": "04330",
+        "addr:state": "ME",
+        "addr:street": "Mount Vernon Avenue",
+        "barrier": "fence",
+        "operator": "CMP Substation",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.3219163,
+      "lon": -69.7753471
+    },
+    {
+      "type": "way",
+      "id": 167959197,
+      "center": {
+        "lat": 44.2818704,
+        "lon": -69.7553012
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.2818704,
+      "lon": -69.7553012
+    },
+    {
+      "type": "way",
+      "id": 167959202,
+      "center": {
+        "lat": 44.3230836,
+        "lon": -69.8671943
+      },
+      "tags": {
+        "addr:city": "Manchester",
+        "addr:housenumber": "990",
+        "addr:postcode": "04351",
+        "addr:state": "ME",
+        "addr:street": "Western Avenue",
+        "power": "substation"
+      },
+      "lat": 44.3230836,
+      "lon": -69.8671943
+    },
+    {
+      "type": "way",
+      "id": 167998574,
+      "center": {
+        "lat": 44.366575,
+        "lon": -69.7121102
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.366575,
+      "lon": -69.7121102
+    },
+    {
+      "type": "way",
+      "id": 167998575,
+      "center": {
+        "lat": 44.4526529,
+        "lon": -69.7151648
+      },
+      "tags": {
+        "addr:city": "Sidney",
+        "addr:housenumber": "126",
+        "addr:postcode": "04330",
+        "addr:state": "ME",
+        "addr:street": "Lyons Road",
+        "barrier": "fence",
+        "name": "Central Maine Power",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.4526529,
+      "lon": -69.7151648
+    },
+    {
+      "type": "way",
+      "id": 167998576,
+      "center": {
+        "lat": 44.4366913,
+        "lon": -69.6406174
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.4366913,
+      "lon": -69.6406174
+    },
+    {
+      "type": "way",
+      "id": 168012266,
+      "center": {
+        "lat": 44.6754869,
+        "lon": -67.5462437
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Washington County Substation",
+        "operator": "Versant Power",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.6754869,
+      "lon": -67.5462437
+    },
+    {
+      "type": "way",
+      "id": 168012274,
+      "center": {
+        "lat": 44.8225001,
+        "lon": -68.7086606
+      },
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "barbed_wire",
+        "name": "Graham 46kV Substation",
+        "operator": "Bangor Hydro-Electric Company",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "46000"
+      },
+      "lat": 44.8225001,
+      "lon": -68.7086606
+    },
+    {
+      "type": "way",
+      "id": 168012291,
+      "center": {
+        "lat": 44.82961,
+        "lon": -68.7430443
+      },
+      "tags": {
+        "barrier": "fence",
+        "location": "outdoor",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "46000"
+      },
+      "lat": 44.82961,
+      "lon": -68.7430443
+    },
+    {
+      "type": "way",
+      "id": 168012301,
+      "center": {
+        "lat": 44.8625352,
+        "lon": -68.807434
+      },
+      "tags": {
+        "location": "outdoor",
+        "operator": "Emera Maine",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "46000"
+      },
+      "lat": 44.8625352,
+      "lon": -68.807434
+    },
+    {
+      "type": "way",
+      "id": 168012304,
+      "center": {
+        "lat": 44.8229341,
+        "lon": -68.7058239
+      },
+      "tags": {
+        "addr:city": "Veazie",
+        "addr:housenumber": "70",
+        "addr:postcode": "04401",
+        "addr:state": "ME",
+        "addr:street": "Shore Road",
+        "barrier": "fence",
+        "name": "Graham Substation",
+        "operator": "Versant Power",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.8229341,
+      "lon": -68.7058239
+    },
+    {
+      "type": "way",
+      "id": 168026370,
+      "center": {
+        "lat": 44.8209126,
+        "lon": -68.7748584
+      },
+      "tags": {
+        "barrier": "fence",
+        "location": "outdoor",
+        "operator": "Emera Maine",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "46000"
+      },
+      "lat": 44.8209126,
+      "lon": -68.7748584
+    },
+    {
+      "type": "way",
+      "id": 168026375,
+      "center": {
+        "lat": 44.7907836,
+        "lon": -68.8487494
+      },
+      "tags": {
+        "location": "outdoor",
+        "operator": "Bangor Hydro-Electric Company",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "46000"
+      },
+      "lat": 44.7907836,
+      "lon": -68.8487494
+    },
+    {
+      "type": "way",
+      "id": 168279626,
+      "center": {
+        "lat": 44.7794973,
+        "lon": -68.7438117
+      },
+      "tags": {
+        "addr:city": "Brewer",
+        "addr:housenumber": "19",
+        "addr:postcode": "04412",
+        "addr:state": "ME",
+        "addr:street": "Green Point Road",
+        "barrier": "fence",
+        "operator": "Bangor Hydro-Electric Company",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "46000"
+      },
+      "lat": 44.7794973,
+      "lon": -68.7438117
+    },
+    {
+      "type": "way",
+      "id": 168279627,
+      "center": {
+        "lat": 44.7762288,
+        "lon": -68.7769689
+      },
+      "tags": {
+        "barrier": "fence",
+        "operator": "Bangor Hydro-Electric Company",
+        "power": "substation",
+        "substation": "transmission"
+      },
+      "lat": 44.7762288,
+      "lon": -68.7769689
+    },
+    {
+      "type": "way",
+      "id": 168292435,
+      "center": {
+        "lat": 45.394825,
+        "lon": -68.5295096
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Keene Road 115kV Substation",
+        "operator": "Versant Power",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 45.394825,
+      "lon": -68.5295096
+    },
+    {
+      "type": "way",
+      "id": 168292437,
+      "center": {
+        "lat": 45.6180098,
+        "lon": -68.5784832
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Powersville Road Substation",
+        "operator": "Versant Power",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 45.6180098,
+      "lon": -68.5784832
+    },
+    {
+      "type": "way",
+      "id": 168737630,
+      "center": {
+        "lat": 44.773877,
+        "lon": -68.7891772
+      },
+      "tags": {
+        "addr:city": "Hampden",
+        "addr:housenumber": "729",
+        "addr:postcode": "04444",
+        "addr:state": "ME",
+        "addr:street": "Main Road North",
+        "location": "outdoor",
+        "operator": "Bangor Hydro-Electric Company",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "46000"
+      },
+      "lat": 44.773877,
+      "lon": -68.7891772
+    },
+    {
+      "type": "way",
+      "id": 192559414,
+      "center": {
+        "lat": 45.6326829,
+        "lon": -68.6056408
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "source": "Bing"
+      },
+      "lat": 45.6326829,
+      "lon": -68.6056408
+    },
+    {
+      "type": "way",
+      "id": 204673490,
+      "center": {
+        "lat": 44.5075272,
+        "lon": -70.24815
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Riley Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.5075272,
+      "lon": -70.24815
+    },
+    {
+      "type": "way",
+      "id": 204673493,
+      "center": {
+        "lat": 44.5316392,
+        "lon": -70.5230375
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Rumford Industrial Park Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.5316392,
+      "lon": -70.5230375
+    },
+    {
+      "type": "way",
+      "id": 204673495,
+      "center": {
+        "lat": 44.3893923,
+        "lon": -70.629345
+      },
+      "tags": {
+        "name": "Woodstock Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.3893923,
+      "lon": -70.629345
+    },
+    {
+      "type": "way",
+      "id": 238220158,
+      "center": {
+        "lat": 43.3637704,
+        "lon": -70.4672698
+      },
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "power": "substation",
+        "substation": "minor_distribution",
+        "voltage": "34500"
+      },
+      "lat": 43.3637704,
+      "lon": -70.4672698
+    },
+    {
+      "type": "way",
+      "id": 238563716,
+      "center": {
+        "lat": 43.2393397,
+        "lon": -70.6019958
+      },
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 43.2393397,
+      "lon": -70.6019958
+    },
+    {
+      "type": "way",
+      "id": 238563717,
+      "center": {
+        "lat": 43.4069535,
+        "lon": -70.7110011
+      },
+      "tags": {
+        "operator": "Central Maine Power",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "34500"
+      },
+      "lat": 43.4069535,
+      "lon": -70.7110011
+    },
+    {
+      "type": "way",
+      "id": 238563718,
+      "center": {
+        "lat": 43.1485506,
+        "lon": -70.6791609
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 43.1485506,
+      "lon": -70.6791609
+    },
+    {
+      "type": "way",
+      "id": 238563720,
+      "center": {
+        "lat": 43.4076228,
+        "lon": -70.7111854
+      },
+      "tags": {
+        "addr:city": "Sanford",
+        "addr:housenumber": "71",
+        "addr:postcode": "04073",
+        "addr:state": "ME",
+        "addr:street": "Cyro Road",
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "operator": "Central Maine Power",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "34500"
+      },
+      "lat": 43.4076228,
+      "lon": -70.7111854
+    },
+    {
+      "type": "way",
+      "id": 238563721,
+      "center": {
+        "lat": 43.4291012,
+        "lon": -70.7346586
+      },
+      "tags": {
+        "addr:city": "Sanford",
+        "addr:postcode": "04073",
+        "addr:state": "ME",
+        "addr:street": "Old Post Road",
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "name": "Sanford Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000;34500"
+      },
+      "lat": 43.4291012,
+      "lon": -70.7346586
+    },
+    {
+      "type": "way",
+      "id": 238567339,
+      "center": {
+        "lat": 43.9720818,
+        "lon": -70.7944547
+      },
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "power": "substation",
+        "substation": "minor_distribution",
+        "voltage": "34500"
+      },
+      "lat": 43.9720818,
+      "lon": -70.7944547
+    },
+    {
+      "type": "way",
+      "id": 238567340,
+      "center": {
+        "lat": 45.1016274,
+        "lon": -70.3536645
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Bigelow Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 45.1016274,
+      "lon": -70.3536645
+    },
+    {
+      "type": "way",
+      "id": 238567344,
+      "center": {
+        "lat": 43.6211055,
+        "lon": -70.3300951
+      },
+      "tags": {
+        "name": "Mussey Road Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 43.6211055,
+      "lon": -70.3300951
+    },
+    {
+      "type": "way",
+      "id": 238567347,
+      "center": {
+        "lat": 43.6659063,
+        "lon": -70.5965543
+      },
+      "tags": {
+        "name": "West Buxton Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000;34500"
+      },
+      "lat": 43.6659063,
+      "lon": -70.5965543
+    },
+    {
+      "type": "way",
+      "id": 238567348,
+      "center": {
+        "lat": 43.6312055,
+        "lon": -70.3394042
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Red Brook Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000;34500"
+      },
+      "lat": 43.6312055,
+      "lon": -70.3394042
+    },
+    {
+      "type": "way",
+      "id": 238567349,
+      "center": {
+        "lat": 45.3553628,
+        "lon": -70.5415342
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Kibby Wind Farm Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 45.3553628,
+      "lon": -70.5415342
+    },
+    {
+      "type": "way",
+      "id": 238567350,
+      "center": {
+        "lat": 43.5983384,
+        "lon": -70.2940104
+      },
+      "tags": {
+        "name": "Pleasant Hill Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000;34500"
+      },
+      "lat": 43.5983384,
+      "lon": -70.2940104
+    },
+    {
+      "type": "way",
+      "id": 238567352,
+      "center": {
+        "lat": 44.6550207,
+        "lon": -70.1275086
+      },
+      "tags": {
+        "addr:city": "Farmington",
+        "addr:housenumber": "364",
+        "addr:postcode": "04938",
+        "addr:state": "ME",
+        "addr:street": "Farmington Falls Road",
+        "barrier": "fence",
+        "name": "Sturtevant Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.6550207,
+      "lon": -70.1275086
+    },
+    {
+      "type": "way",
+      "id": 238568508,
+      "center": {
+        "lat": 43.4948437,
+        "lon": -70.447652
+      },
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "power": "substation",
+        "substation": "distribution"
+      },
+      "lat": 43.4948437,
+      "lon": -70.447652
+    },
+    {
+      "type": "way",
+      "id": 251936313,
+      "center": {
+        "lat": 47.2785183,
+        "lon": -68.3750496
+      },
+      "tags": {
+        "barrier": "fence",
+        "note": "Originally mapped as 115kv but adjacent lines are 69kv so adjusting to match those",
+        "power": "substation",
+        "voltage": "69000"
+      },
+      "lat": 47.2785183,
+      "lon": -68.3750496
+    },
+    {
+      "type": "way",
+      "id": 251936352,
+      "center": {
+        "lat": 47.2343902,
+        "lon": -68.574484
+      },
+      "tags": {
+        "barrier": "fence",
+        "note": "Originally mapped as 115kv but adjacent lines are 69kv so adjusting to match those",
+        "power": "substation",
+        "source": "Bing",
+        "voltage": "69000"
+      },
+      "lat": 47.2343902,
+      "lon": -68.574484
+    },
+    {
+      "type": "way",
+      "id": 275609614,
+      "center": {
+        "lat": 44.5542797,
+        "lon": -69.6226149
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation"
+      },
+      "lat": 44.5542797,
+      "lon": -69.6226149
+    },
+    {
+      "type": "way",
+      "id": 299475491,
+      "center": {
+        "lat": 45.621746,
+        "lon": -68.5661509
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 45.621746,
+      "lon": -68.5661509
+    },
+    {
+      "type": "way",
+      "id": 302533416,
+      "center": {
+        "lat": 45.2903283,
+        "lon": -69.4971084
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "source": "Bing"
+      },
+      "lat": 45.2903283,
+      "lon": -69.4971084
+    },
+    {
+      "type": "way",
+      "id": 306579350,
+      "center": {
+        "lat": 46.8536602,
+        "lon": -68.0303748
+      },
+      "tags": {
+        "addr:city": "Caribou",
+        "addr:housenumber": "186",
+        "addr:postcode": "04736",
+        "addr:state": "ME",
+        "addr:street": "Washburn Street",
+        "power": "substation",
+        "voltage": "69000"
+      },
+      "lat": 46.8536602,
+      "lon": -68.0303748
+    },
+    {
+      "type": "way",
+      "id": 306728335,
+      "center": {
+        "lat": 44.4388827,
+        "lon": -68.3745328
+      },
+      "tags": {
+        "name": "Trenton Substation",
+        "operator": "Versant Power",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.4388827,
+      "lon": -68.3745328
+    },
+    {
+      "type": "way",
+      "id": 320048815,
+      "center": {
+        "lat": 43.5767854,
+        "lon": -70.6957527
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Waterboro Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 43.5767854,
+      "lon": -70.6957527
+    },
+    {
+      "type": "way",
+      "id": 322890659,
+      "center": {
+        "lat": 44.5765998,
+        "lon": -69.6083708
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.5765998,
+      "lon": -69.6083708
+    },
+    {
+      "type": "way",
+      "id": 329039200,
+      "center": {
+        "lat": 43.904201,
+        "lon": -69.8161841
+      },
+      "tags": {
+        "area": "yes",
+        "name": "Electricity Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "minor_distribution",
+        "voltage": "34500"
+      },
+      "lat": 43.904201,
+      "lon": -69.8161841
+    },
+    {
+      "type": "way",
+      "id": 347780796,
+      "center": {
+        "lat": 45.6592157,
+        "lon": -69.8105765
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 45.6592157,
+      "lon": -69.8105765
+    },
+    {
+      "type": "way",
+      "id": 353446655,
+      "center": {
+        "lat": 45.6550436,
+        "lon": -68.7044959
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation"
+      },
+      "lat": 45.6550436,
+      "lon": -68.7044959
+    },
+    {
+      "type": "way",
+      "id": 354097714,
+      "center": {
+        "lat": 43.4590694,
+        "lon": -70.7806265
+      },
+      "tags": {
+        "addr:city": "Springvale",
+        "addr:postcode": "04083",
+        "addr:state": "ME",
+        "addr:street": "River Street",
+        "name": "River Street Substation",
+        "power": "substation",
+        "substation": "minor_distribution",
+        "voltage": "34500"
+      },
+      "lat": 43.4590694,
+      "lon": -70.7806265
+    },
+    {
+      "type": "way",
+      "id": 355285175,
+      "center": {
+        "lat": 45.6434988,
+        "lon": -68.7073403
+      },
+      "tags": {
+        "name": "Millinocket Substation",
+        "operator": "Versant Power",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 45.6434988,
+      "lon": -68.7073403
+    },
+    {
+      "type": "way",
+      "id": 355285176,
+      "center": {
+        "lat": 45.6443263,
+        "lon": -68.7061615
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 45.6443263,
+      "lon": -68.7061615
+    },
+    {
+      "type": "way",
+      "id": 355285177,
+      "center": {
+        "lat": 45.6440088,
+        "lon": -68.7057705
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 45.6440088,
+      "lon": -68.7057705
+    },
+    {
+      "type": "way",
+      "id": 355301132,
+      "center": {
+        "lat": 45.6478118,
+        "lon": -68.7032456
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation"
+      },
+      "lat": 45.6478118,
+      "lon": -68.7032456
+    },
+    {
+      "type": "way",
+      "id": 396101978,
+      "center": {
+        "lat": 44.6387632,
+        "lon": -70.6923061
+      },
+      "tags": {
+        "area": "yes",
+        "barrier": "fence",
+        "location": "outdoor",
+        "name": "Andover Substation",
+        "power": "substation",
+        "substation": "yes",
+        "voltage": "34500"
+      },
+      "lat": 44.6387632,
+      "lon": -70.6923061
+    },
+    {
+      "type": "way",
+      "id": 405893365,
+      "center": {
+        "lat": 43.7166986,
+        "lon": -70.4655569
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "minor_distribution",
+        "voltage": "34500"
+      },
+      "lat": 43.7166986,
+      "lon": -70.4655569
+    },
+    {
+      "type": "way",
+      "id": 414498816,
+      "center": {
+        "lat": 43.6869248,
+        "lon": -70.298839
+      },
+      "tags": {
+        "addr:city": "Portland",
+        "addr:housenumber": "116",
+        "addr:postcode": "04103",
+        "addr:state": "ME",
+        "addr:street": "Bishop Street",
+        "barrier": "fence",
+        "name": "Bishop Street Substation",
+        "operator": "Central Maine Power",
+        "power": "substation",
+        "ref": "607",
+        "voltage": "34500"
+      },
+      "lat": 43.6869248,
+      "lon": -70.298839
+    },
+    {
+      "type": "way",
+      "id": 425042411,
+      "center": {
+        "lat": 44.0032138,
+        "lon": -69.6266066
+      },
+      "tags": {
+        "addr:city": "Edgecomb",
+        "addr:housenumber": "276",
+        "addr:postcode": "04556",
+        "addr:state": "ME",
+        "addr:street": "Route 1",
+        "power": "substation"
+      },
+      "lat": 44.0032138,
+      "lon": -69.6266066
+    },
+    {
+      "type": "way",
+      "id": 425179175,
+      "center": {
+        "lat": 44.0560475,
+        "lon": -69.6230254
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.0560475,
+      "lon": -69.6230254
+    },
+    {
+      "type": "way",
+      "id": 443008716,
+      "center": {
+        "lat": 46.6313956,
+        "lon": -68.3917598
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "69000"
+      },
+      "lat": 46.6313956,
+      "lon": -68.3917598
+    },
+    {
+      "type": "way",
+      "id": 443105722,
+      "center": {
+        "lat": 43.3819812,
+        "lon": -70.5400296
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 43.3819812,
+      "lon": -70.5400296
+    },
+    {
+      "type": "way",
+      "id": 453646403,
+      "center": {
+        "lat": 43.6275859,
+        "lon": -70.2559105
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Hinckley Pond Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 43.6275859,
+      "lon": -70.2559105
+    },
+    {
+      "type": "way",
+      "id": 457754852,
+      "center": {
+        "lat": 45.4592708,
+        "lon": -69.8651425
+      },
+      "tags": {
+        "name": "Harris Hydro Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 45.4592708,
+      "lon": -69.8651425
+    },
+    {
+      "type": "way",
+      "id": 464501608,
+      "center": {
+        "lat": 43.6777136,
+        "lon": -70.3291842
+      },
+      "tags": {
+        "addr:city": "Portland",
+        "addr:housenumber": "18",
+        "addr:postcode": "04103",
+        "addr:state": "ME",
+        "addr:street": "Riverside Street",
+        "barrier": "fence",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 43.6777136,
+      "lon": -70.3291842
+    },
+    {
+      "type": "way",
+      "id": 506524748,
+      "center": {
+        "lat": 45.6345969,
+        "lon": -68.7799333
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 45.6345969,
+      "lon": -68.7799333
+    },
+    {
+      "type": "way",
+      "id": 509659284,
+      "center": {
+        "lat": 45.6782465,
+        "lon": -68.6386271
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "industrial"
+      },
+      "lat": 45.6782465,
+      "lon": -68.6386271
+    },
+    {
+      "type": "way",
+      "id": 516401831,
+      "center": {
+        "lat": 43.8558305,
+        "lon": -70.109965
+      },
+      "tags": {
+        "addr:city": "Freeport",
+        "addr:housenumber": "63",
+        "addr:postcode": "04032",
+        "addr:state": "ME",
+        "addr:street": "West Street",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 43.8558305,
+      "lon": -70.109965
+    },
+    {
+      "type": "way",
+      "id": 543804363,
+      "center": {
+        "lat": 43.7816186,
+        "lon": -70.2033111
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Raven Farm Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "345000"
+      },
+      "lat": 43.7816186,
+      "lon": -70.2033111
+    },
+    {
+      "type": "way",
+      "id": 546426999,
+      "center": {
+        "lat": 45.1397056,
+        "lon": -70.4397072
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation"
+      },
+      "lat": 45.1397056,
+      "lon": -70.4397072
+    },
+    {
+      "type": "way",
+      "id": 546854834,
+      "center": {
+        "lat": 45.1668526,
+        "lon": -69.8561286
+      },
+      "tags": {
+        "area": "yes",
+        "name": "Moscow Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 45.1668526,
+      "lon": -69.8561286
+    },
+    {
+      "type": "way",
+      "id": 547089066,
+      "center": {
+        "lat": 45.4548568,
+        "lon": -69.6098774
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 45.4548568,
+      "lon": -69.6098774
+    },
+    {
+      "type": "way",
+      "id": 549031528,
+      "center": {
+        "lat": 44.9422242,
+        "lon": -68.6443487
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.9422242,
+      "lon": -68.6443487
+    },
+    {
+      "type": "way",
+      "id": 567858917,
+      "center": {
+        "lat": 44.550701,
+        "lon": -70.542884
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.550701,
+      "lon": -70.542884
+    },
+    {
+      "type": "way",
+      "id": 589710414,
+      "center": {
+        "lat": 44.880355,
+        "lon": -68.6651575
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.880355,
+      "lon": -68.6651575
+    },
+    {
+      "type": "way",
+      "id": 594331147,
+      "center": {
+        "lat": 44.6728384,
+        "lon": -67.7787802
+      },
+      "tags": {
+        "area": "yes",
+        "barrier": "fence",
+        "location": "outdoor",
+        "name": "Epping Tap Substation",
+        "operator": "Versant Power",
+        "power": "substation",
+        "source": "Bing",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.6728384,
+      "lon": -67.7787802
+    },
+    {
+      "type": "way",
+      "id": 594661454,
+      "center": {
+        "lat": 44.6283143,
+        "lon": -67.7923961
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Columbia Substation",
+        "operator": "Versant Power",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.6283143,
+      "lon": -67.7923961
+    },
+    {
+      "type": "way",
+      "id": 600864004,
+      "center": {
+        "lat": 44.7004537,
+        "lon": -67.9570131
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Deblois Substation",
+        "operator": "Versant Power",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.7004537,
+      "lon": -67.9570131
+    },
+    {
+      "type": "way",
+      "id": 633220210,
+      "center": {
+        "lat": 43.4871275,
+        "lon": -70.4725294
+      },
+      "tags": {
+        "addr:city": "Biddeford",
+        "addr:housenumber": "108",
+        "addr:postcode": "04005",
+        "addr:state": "ME",
+        "addr:street": "May Street",
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "power": "substation",
+        "substation": "minor_distribution",
+        "voltage": "34500"
+      },
+      "lat": 43.4871275,
+      "lon": -70.4725294
+    },
+    {
+      "type": "way",
+      "id": 635196868,
+      "center": {
+        "lat": 45.0113188,
+        "lon": -69.2938391
+      },
+      "tags": {
+        "addr:city": "Dexter",
+        "addr:housenumber": "86",
+        "addr:postcode": "04930",
+        "addr:state": "ME",
+        "addr:street": "Railroad Avenue",
+        "barrier": "fence",
+        "power": "substation"
+      },
+      "lat": 45.0113188,
+      "lon": -69.2938391
+    },
+    {
+      "type": "way",
+      "id": 638316627,
+      "center": {
+        "lat": 44.9582681,
+        "lon": -69.8852782
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Embden Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "source": "Bing",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.9582681,
+      "lon": -69.8852782
+    },
+    {
+      "type": "way",
+      "id": 643146435,
+      "center": {
+        "lat": 45.2493259,
+        "lon": -68.9876874
+      },
+      "tags": {
+        "landuse": "industrial",
+        "power": "substation",
+        "voltage": "46000"
+      },
+      "lat": 45.2493259,
+      "lon": -68.9876874
+    },
+    {
+      "type": "way",
+      "id": 648268068,
+      "center": {
+        "lat": 46.6991275,
+        "lon": -68.0429338
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "69000"
+      },
+      "lat": 46.6991275,
+      "lon": -68.0429338
+    },
+    {
+      "type": "way",
+      "id": 651586871,
+      "center": {
+        "lat": 44.7529212,
+        "lon": -68.4616488
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Rebel Hill Substation",
+        "operator": "Versant Power",
+        "power": "substation",
+        "source": "Bing",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.7529212,
+      "lon": -68.4616488
+    },
+    {
+      "type": "way",
+      "id": 655721448,
+      "center": {
+        "lat": 44.6221738,
+        "lon": -67.7978424
+      },
+      "tags": {
+        "addr:city": "Harrington",
+        "addr:housenumber": "67",
+        "addr:postcode": "04643",
+        "addr:state": "ME",
+        "addr:street": "East Main Street",
+        "barrier": "fence",
+        "name": "Harrington Substation",
+        "operator": "Versant Power",
+        "power": "substation",
+        "source": "Bing",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.6221738,
+      "lon": -67.7978424
+    },
+    {
+      "type": "way",
+      "id": 655721450,
+      "center": {
+        "lat": 44.5440163,
+        "lon": -68.1087709
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Tunk Substation",
+        "operator": "Versant Power",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.5440163,
+      "lon": -68.1087709
+    },
+    {
+      "type": "way",
+      "id": 665590821,
+      "center": {
+        "lat": 44.7383622,
+        "lon": -68.752314
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Orrington Substation",
+        "operator": "Versant Power",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "345000"
+      },
+      "lat": 44.7383622,
+      "lon": -68.752314
+    },
+    {
+      "type": "way",
+      "id": 665606507,
+      "center": {
+        "lat": 44.5747944,
+        "lon": -68.8061842
+      },
+      "tags": {
+        "name": "Bucksport Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.5747944,
+      "lon": -68.8061842
+    },
+    {
+      "type": "way",
+      "id": 665606508,
+      "center": {
+        "lat": 44.7929842,
+        "lon": -69.3621351
+      },
+      "tags": {
+        "addr:city": "Detroit",
+        "addr:housenumber": "287",
+        "addr:postcode": "04929",
+        "addr:state": "ME",
+        "addr:street": "North Road",
+        "barrier": "fence",
+        "name": "Detroit Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "source": "Bing",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.7929842,
+      "lon": -69.3621351
+    },
+    {
+      "type": "way",
+      "id": 665606509,
+      "center": {
+        "lat": 44.7942019,
+        "lon": -69.3636699
+      },
+      "tags": {
+        "addr:city": "Detroit",
+        "addr:housenumber": "29",
+        "addr:postcode": "04929",
+        "addr:state": "ME",
+        "addr:street": "Dogtown Road",
+        "barrier": "fence",
+        "name": "Dogtown Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.7942019,
+      "lon": -69.3636699
+    },
+    {
+      "type": "way",
+      "id": 669594105,
+      "center": {
+        "lat": 44.1410376,
+        "lon": -70.1858568
+      },
+      "tags": {
+        "addr:city": "Lewiston",
+        "addr:housenumber": "102",
+        "addr:postcode": "04240",
+        "addr:state": "ME",
+        "addr:street": "Larrabee Road",
+        "location": "outdoor",
+        "name": "Larrabee Road Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "345000;115000"
+      },
+      "lat": 44.1410376,
+      "lon": -70.1858568
+    },
+    {
+      "type": "way",
+      "id": 682313157,
+      "center": {
+        "lat": 45.1757437,
+        "lon": -67.2912721
+      },
+      "tags": {
+        "addr:city": "Calais",
+        "addr:housenumber": "377",
+        "addr:postcode": "04619",
+        "addr:state": "ME",
+        "addr:street": "North Street",
+        "barrier": "fence",
+        "frequency": "60",
+        "operator": "NB Power",
+        "operator:en": "NB Power",
+        "operator:fr": "\u00c9nergie NB",
+        "phases": "3",
+        "power": "substation"
+      },
+      "lat": 45.1757437,
+      "lon": -67.2912721
+    },
+    {
+      "type": "way",
+      "id": 698380873,
+      "center": {
+        "lat": 43.6775819,
+        "lon": -70.3701661
+      },
+      "tags": {
+        "addr:city": "Westbrook",
+        "addr:housenumber": "7",
+        "addr:postcode": "04092",
+        "addr:state": "ME",
+        "addr:street": "Mill Lane",
+        "barrier": "fence",
+        "fence_type": "barbed_wire",
+        "location": "outdoor",
+        "operator": "Central Maine Power",
+        "power": "substation",
+        "ref": "Westbrook Substation 674",
+        "voltage": "34500"
+      },
+      "lat": 43.6775819,
+      "lon": -70.3701661
+    },
+    {
+      "type": "way",
+      "id": 702277500,
+      "center": {
+        "lat": 46.9289619,
+        "lon": -67.8307041
+      },
+      "tags": {
+        "addr:housenumber": "255",
+        "addr:street": "Van Buren Road",
+        "area": "yes",
+        "barrier": "fence",
+        "fence_type": "barbed_wire",
+        "name": "Limestone Switching Station",
+        "power": "substation",
+        "voltage": "69000"
+      },
+      "lat": 46.9289619,
+      "lon": -67.8307041
+    },
+    {
+      "type": "way",
+      "id": 702294533,
+      "center": {
+        "lat": 46.9139258,
+        "lon": -67.827081
+      },
+      "tags": {
+        "addr:housenumber": "27",
+        "addr:street": "Access Highway",
+        "barrier": "fence",
+        "fence_type": "barbed_wire",
+        "operator": "Emera Maine",
+        "power": "substation"
+      },
+      "lat": 46.9139258,
+      "lon": -67.827081
+    },
+    {
+      "type": "way",
+      "id": 705298346,
+      "center": {
+        "lat": 45.036768,
+        "lon": -68.5901449
+      },
+      "tags": {
+        "name": "Passadumkeag Windpark Substation",
+        "operator": "Versant Power",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 45.036768,
+      "lon": -68.5901449
+    },
+    {
+      "type": "way",
+      "id": 705298348,
+      "center": {
+        "lat": 44.9092551,
+        "lon": -68.683117
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.9092551,
+      "lon": -68.683117
+    },
+    {
+      "type": "way",
+      "id": 715904399,
+      "center": {
+        "lat": 44.7003233,
+        "lon": -67.2941469
+      },
+      "tags": {
+        "name": "Cutler Substation",
+        "operator": "Versant Power",
+        "operator:wikidata": "Q130232567",
+        "power": "substation",
+        "substation": "yes",
+        "voltage": "34500;12500"
+      },
+      "lat": 44.7003233,
+      "lon": -67.2941469
+    },
+    {
+      "type": "way",
+      "id": 718222077,
+      "center": {
+        "lat": 45.6444903,
+        "lon": -68.7069591
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 45.6444903,
+      "lon": -68.7069591
+    },
+    {
+      "type": "way",
+      "id": 723864644,
+      "center": {
+        "lat": 43.4798124,
+        "lon": -70.8095123
+      },
+      "tags": {
+        "name": "Stanley Road Substation",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "34500"
+      },
+      "lat": 43.4798124,
+      "lon": -70.8095123
+    },
+    {
+      "type": "way",
+      "id": 724027666,
+      "center": {
+        "lat": 43.4417532,
+        "lon": -70.7702195
+      },
+      "tags": {
+        "addr:city": "Sanford",
+        "addr:housenumber": "33",
+        "addr:postcode": "04073",
+        "addr:state": "ME",
+        "addr:street": "High Street",
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "name": "High Street Substation",
+        "power": "substation",
+        "substation": "minor_distribution",
+        "voltage": "34500"
+      },
+      "lat": 43.4417532,
+      "lon": -70.7702195
+    },
+    {
+      "type": "way",
+      "id": 724301809,
+      "center": {
+        "lat": 43.4103415,
+        "lon": -70.7394536
+      },
+      "tags": {
+        "addr:city": "Sanford",
+        "addr:housenumber": "1468",
+        "addr:postcode": "04073",
+        "addr:state": "ME",
+        "addr:street": "Main Street",
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "name": "Main Street Substation",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "34500"
+      },
+      "lat": 43.4103415,
+      "lon": -70.7394536
+    },
+    {
+      "type": "way",
+      "id": 725192869,
+      "center": {
+        "lat": 43.9039159,
+        "lon": -69.9745211
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 43.9039159,
+      "lon": -69.9745211
+    },
+    {
+      "type": "way",
+      "id": 727335691,
+      "center": {
+        "lat": 44.722517,
+        "lon": -68.1637975
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Bull Hill Substation",
+        "operator": "Versant Power",
+        "power": "substation",
+        "source": "Bing",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.722517,
+      "lon": -68.1637975
+    },
+    {
+      "type": "way",
+      "id": 745118425,
+      "center": {
+        "lat": 43.2693923,
+        "lon": -70.7746561
+      },
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "power": "substation"
+      },
+      "lat": 43.2693923,
+      "lon": -70.7746561
+    },
+    {
+      "type": "way",
+      "id": 752026723,
+      "center": {
+        "lat": 43.1430974,
+        "lon": -70.6432494
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 43.1430974,
+      "lon": -70.6432494
+    },
+    {
+      "type": "way",
+      "id": 752855086,
+      "center": {
+        "lat": 43.1729452,
+        "lon": -70.616351
+      },
+      "tags": {
+        "addr:city": "York",
+        "addr:housenumber": "412",
+        "addr:postcode": "03909",
+        "addr:state": "ME",
+        "addr:street": "Ridge Road",
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 43.1729452,
+      "lon": -70.616351
+    },
+    {
+      "type": "way",
+      "id": 762785225,
+      "center": {
+        "lat": 44.3301781,
+        "lon": -70.5595566
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.3301781,
+      "lon": -70.5595566
+    },
+    {
+      "type": "way",
+      "id": 764324618,
+      "center": {
+        "lat": 44.1141913,
+        "lon": -70.3893642
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.1141913,
+      "lon": -70.3893642
+    },
+    {
+      "type": "way",
+      "id": 764324620,
+      "center": {
+        "lat": 44.1460862,
+        "lon": -70.4646704
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.1460862,
+      "lon": -70.4646704
+    },
+    {
+      "type": "way",
+      "id": 764843057,
+      "center": {
+        "lat": 43.9237691,
+        "lon": -69.9657544
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.9237691,
+      "lon": -69.9657544
+    },
+    {
+      "type": "way",
+      "id": 765254420,
+      "center": {
+        "lat": 44.2474044,
+        "lon": -70.7210473
+      },
+      "tags": {
+        "addr:city": "Waterford",
+        "addr:housenumber": "332",
+        "addr:postcode": "04088",
+        "addr:state": "ME",
+        "addr:street": "Hunts Corner Road",
+        "barrier": "fence",
+        "power": "substation",
+        "voltage": "34000"
+      },
+      "lat": 44.2474044,
+      "lon": -70.7210473
+    },
+    {
+      "type": "way",
+      "id": 766121306,
+      "center": {
+        "lat": 46.1417562,
+        "lon": -67.8519873
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "69000"
+      },
+      "lat": 46.1417562,
+      "lon": -67.8519873
+    },
+    {
+      "type": "way",
+      "id": 766121308,
+      "center": {
+        "lat": 46.5299864,
+        "lon": -67.8843917
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "69000"
+      },
+      "lat": 46.5299864,
+      "lon": -67.8843917
+    },
+    {
+      "type": "way",
+      "id": 766543153,
+      "center": {
+        "lat": 44.3360919,
+        "lon": -70.1672624
+      },
+      "tags": {
+        "name": "Leeds Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.3360919,
+      "lon": -70.1672624
+    },
+    {
+      "type": "way",
+      "id": 766752149,
+      "center": {
+        "lat": 44.1219319,
+        "lon": -70.8885293
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Lovell Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000;34500"
+      },
+      "lat": 44.1219319,
+      "lon": -70.8885293
+    },
+    {
+      "type": "way",
+      "id": 766766777,
+      "center": {
+        "lat": 44.4965216,
+        "lon": -70.3368257
+      },
+      "tags": {
+        "name": "Ludden Lane Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.4965216,
+      "lon": -70.3368257
+    },
+    {
+      "type": "way",
+      "id": 766781820,
+      "center": {
+        "lat": 44.5477549,
+        "lon": -70.5413719
+      },
+      "tags": {
+        "name": "Rumford Falls Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.5477549,
+      "lon": -70.5413719
+    },
+    {
+      "type": "way",
+      "id": 768714298,
+      "center": {
+        "lat": 44.627765,
+        "lon": -70.5964165
+      },
+      "tags": {
+        "barrier": "fence",
+        "location": "outdoor",
+        "name": "Roxbury Notch Road Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.627765,
+      "lon": -70.5964165
+    },
+    {
+      "type": "way",
+      "id": 771174699,
+      "center": {
+        "lat": 44.5986929,
+        "lon": -70.2134006
+      },
+      "tags": {
+        "name": "Flagstaff Street Substation",
+        "power": "substation"
+      },
+      "lat": 44.5986929,
+      "lon": -70.2134006
+    },
+    {
+      "type": "way",
+      "id": 772275611,
+      "center": {
+        "lat": 43.8310085,
+        "lon": -70.4478886
+      },
+      "tags": {
+        "addr:city": "Windham",
+        "addr:housenumber": "9",
+        "addr:postcode": "04062",
+        "addr:state": "ME",
+        "addr:street": "Tandberg Trail",
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 43.8310085,
+      "lon": -70.4478886
+    },
+    {
+      "type": "way",
+      "id": 772275613,
+      "center": {
+        "lat": 43.8020126,
+        "lon": -70.4502961
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "34500"
+      },
+      "lat": 43.8020126,
+      "lon": -70.4502961
+    },
+    {
+      "type": "way",
+      "id": 772275620,
+      "center": {
+        "lat": 43.6791135,
+        "lon": -70.6374663
+      },
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "34500"
+      },
+      "lat": 43.6791135,
+      "lon": -70.6374663
+    },
+    {
+      "type": "way",
+      "id": 772825441,
+      "center": {
+        "lat": 44.6182826,
+        "lon": -70.1951021
+      },
+      "tags": {
+        "addr:city": "Wilton",
+        "addr:housenumber": "38",
+        "addr:postcode": "04294",
+        "addr:state": "ME",
+        "addr:street": "Temple Road",
+        "name": "Temple Road Substation",
+        "power": "substation"
+      },
+      "lat": 44.6182826,
+      "lon": -70.1951021
+    },
+    {
+      "type": "way",
+      "id": 815651722,
+      "center": {
+        "lat": 47.1345969,
+        "lon": -68.3268507
+      },
+      "tags": {
+        "note": "Originally mapped as 115kv but adjacent lines are 69kv so adjusting to match those",
+        "power": "substation",
+        "source": "Bing",
+        "voltage": "69000"
+      },
+      "lat": 47.1345969,
+      "lon": -68.3268507
+    },
+    {
+      "type": "way",
+      "id": 815655012,
+      "center": {
+        "lat": 46.9334248,
+        "lon": -67.8942136
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 46.9334248,
+      "lon": -67.8942136
+    },
+    {
+      "type": "way",
+      "id": 828108678,
+      "center": {
+        "lat": 43.9918618,
+        "lon": -69.6718906
+      },
+      "tags": {
+        "name": "Mason Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 43.9918618,
+      "lon": -69.6718906
+    },
+    {
+      "type": "way",
+      "id": 828108681,
+      "center": {
+        "lat": 43.9514863,
+        "lon": -69.696826
+      },
+      "tags": {
+        "name": "Maine Yankee 115kV Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 43.9514863,
+      "lon": -69.696826
+    },
+    {
+      "type": "way",
+      "id": 835726035,
+      "center": {
+        "lat": 44.1011824,
+        "lon": -70.218779
+      },
+      "tags": {
+        "name": "Middle Street Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.1011824,
+      "lon": -70.218779
+    },
+    {
+      "type": "way",
+      "id": 835728876,
+      "center": {
+        "lat": 44.0878398,
+        "lon": -70.226792
+      },
+      "tags": {
+        "addr:city": "Auburn",
+        "addr:housenumber": "127",
+        "addr:postcode": "04210",
+        "addr:state": "ME",
+        "addr:street": "Mill Street",
+        "power": "substation"
+      },
+      "lat": 44.0878398,
+      "lon": -70.226792
+    },
+    {
+      "type": "way",
+      "id": 835733265,
+      "center": {
+        "lat": 44.6256902,
+        "lon": -70.075429
+      },
+      "tags": {
+        "addr:city": "Farmington",
+        "addr:housenumber": "146",
+        "addr:postcode": "04938",
+        "addr:state": "ME",
+        "addr:street": "Mason Road",
+        "power": "substation"
+      },
+      "lat": 44.6256902,
+      "lon": -70.075429
+    },
+    {
+      "type": "way",
+      "id": 846592699,
+      "center": {
+        "lat": 43.6427021,
+        "lon": -70.2547973
+      },
+      "tags": {
+        "addr:city": "South Portland",
+        "addr:postcode": "04106",
+        "addr:street": "Ocean Street",
+        "barrier": "fence",
+        "name": "Cape Steam Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "ref": "614",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 43.6427021,
+      "lon": -70.2547973
+    },
+    {
+      "type": "way",
+      "id": 850784001,
+      "center": {
+        "lat": 43.3108178,
+        "lon": -70.7254877
+      },
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "name": "Pratt & Whitney Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 43.3108178,
+      "lon": -70.7254877
+    },
+    {
+      "type": "way",
+      "id": 862222129,
+      "center": {
+        "lat": 44.7819965,
+        "lon": -69.3810845
+      },
+      "tags": {
+        "area": "yes",
+        "power": "substation"
+      },
+      "lat": 44.7819965,
+      "lon": -69.3810845
+    },
+    {
+      "type": "way",
+      "id": 864006894,
+      "center": {
+        "lat": 43.5965891,
+        "lon": -70.2467242
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "minor_distribution",
+        "voltage": "34500"
+      },
+      "lat": 43.5965891,
+      "lon": -70.2467242
+    },
+    {
+      "type": "way",
+      "id": 866414085,
+      "center": {
+        "lat": 43.0837797,
+        "lon": -70.7422991
+      },
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "power": "substation"
+      },
+      "lat": 43.0837797,
+      "lon": -70.7422991
+    },
+    {
+      "type": "way",
+      "id": 873109582,
+      "center": {
+        "lat": 44.3240499,
+        "lon": -69.7649591
+      },
+      "tags": {
+        "name": "Locke Street Substation",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.3240499,
+      "lon": -69.7649591
+    },
+    {
+      "type": "way",
+      "id": 884192013,
+      "center": {
+        "lat": 44.3084243,
+        "lon": -69.7867974
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.3084243,
+      "lon": -69.7867974
+    },
+    {
+      "type": "way",
+      "id": 889357091,
+      "center": {
+        "lat": 46.0506369,
+        "lon": -68.0519685
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Oakfield Substation",
+        "operator": "Versant Power",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 46.0506369,
+      "lon": -68.0519685
+    },
+    {
+      "type": "way",
+      "id": 889908975,
+      "center": {
+        "lat": 45.1445399,
+        "lon": -69.690645
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Bingham Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 45.1445399,
+      "lon": -69.690645
+    },
+    {
+      "type": "way",
+      "id": 891005852,
+      "center": {
+        "lat": 43.7359609,
+        "lon": -70.2897658
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 43.7359609,
+      "lon": -70.2897658
+    },
+    {
+      "type": "way",
+      "id": 891343297,
+      "center": {
+        "lat": 44.7034493,
+        "lon": -69.6462607
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Sappi Hinckley Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.7034493,
+      "lon": -69.6462607
+    },
+    {
+      "type": "way",
+      "id": 903155311,
+      "center": {
+        "lat": 44.1173197,
+        "lon": -68.8941144
+      },
+      "tags": {
+        "addr:city": "Vinalhaven",
+        "addr:housenumber": "1387",
+        "addr:postcode": "04863",
+        "addr:state": "ME",
+        "addr:street": "North Haven Road",
+        "power": "substation"
+      },
+      "lat": 44.1173197,
+      "lon": -68.8941144
+    },
+    {
+      "type": "way",
+      "id": 987018530,
+      "center": {
+        "lat": 43.4131239,
+        "lon": -70.7091651
+      },
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "location": "outdoor",
+        "name": "Cyro Drive Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 43.4131239,
+      "lon": -70.7091651
+    },
+    {
+      "type": "way",
+      "id": 991637353,
+      "center": {
+        "lat": 43.6119462,
+        "lon": -70.5523367
+      },
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "power": "substation",
+        "substation": "distribution"
+      },
+      "lat": 43.6119462,
+      "lon": -70.5523367
+    },
+    {
+      "type": "way",
+      "id": 993356226,
+      "center": {
+        "lat": 43.5195394,
+        "lon": -70.4121583
+      },
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "name": "Vallee Lane Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000;34500"
+      },
+      "lat": 43.5195394,
+      "lon": -70.4121583
+    },
+    {
+      "type": "way",
+      "id": 993356253,
+      "center": {
+        "lat": 43.5227694,
+        "lon": -70.4498468
+      },
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "name": "Goosefare Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 43.5227694,
+      "lon": -70.4498468
+    },
+    {
+      "type": "way",
+      "id": 1008170844,
+      "center": {
+        "lat": 43.1014189,
+        "lon": -70.7502754
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "industrial"
+      },
+      "lat": 43.1014189,
+      "lon": -70.7502754
+    },
+    {
+      "type": "way",
+      "id": 1010279349,
+      "center": {
+        "lat": 43.0820793,
+        "lon": -70.7357553
+      },
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "power": "substation",
+        "substation": "industrial"
+      },
+      "lat": 43.0820793,
+      "lon": -70.7357553
+    },
+    {
+      "type": "way",
+      "id": 1016095446,
+      "center": {
+        "lat": 43.6806723,
+        "lon": -70.7806139
+      },
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "power": "substation",
+        "substation": "minor_distribution",
+        "voltage": "34500"
+      },
+      "lat": 43.6806723,
+      "lon": -70.7806139
+    },
+    {
+      "type": "way",
+      "id": 1019540597,
+      "center": {
+        "lat": 45.5133341,
+        "lon": -68.3569598
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 45.5133341,
+      "lon": -68.3569598
+    },
+    {
+      "type": "way",
+      "id": 1021196352,
+      "center": {
+        "lat": 45.9878418,
+        "lon": -68.4499539
+      },
+      "tags": {
+        "name": "Patten Substation",
+        "power": "substation"
+      },
+      "lat": 45.9878418,
+      "lon": -68.4499539
+    },
+    {
+      "type": "way",
+      "id": 1021791834,
+      "center": {
+        "lat": 43.7504165,
+        "lon": -70.6748627
+      },
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "power": "substation",
+        "substation": "minor_distribution"
+      },
+      "lat": 43.7504165,
+      "lon": -70.6748627
+    },
+    {
+      "type": "way",
+      "id": 1024557507,
+      "center": {
+        "lat": 43.4977626,
+        "lon": -70.5061902
+      },
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "power": "substation",
+        "substation": "minor_distribution",
+        "voltage": "34500"
+      },
+      "lat": 43.4977626,
+      "lon": -70.5061902
+    },
+    {
+      "type": "way",
+      "id": 1034449771,
+      "center": {
+        "lat": 43.5168441,
+        "lon": -70.4438169
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "industrial"
+      },
+      "lat": 43.5168441,
+      "lon": -70.4438169
+    },
+    {
+      "type": "way",
+      "id": 1037437660,
+      "center": {
+        "lat": 43.5191197,
+        "lon": -70.3841921
+      },
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "power": "substation",
+        "substation": "minor_distribution",
+        "voltage": "34500"
+      },
+      "lat": 43.5191197,
+      "lon": -70.3841921
+    },
+    {
+      "type": "way",
+      "id": 1043583800,
+      "center": {
+        "lat": 43.7711511,
+        "lon": -70.4124594
+      },
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "power": "substation",
+        "substation": "minor_distribution",
+        "voltage": "34500"
+      },
+      "lat": 43.7711511,
+      "lon": -70.4124594
+    },
+    {
+      "type": "way",
+      "id": 1049189120,
+      "center": {
+        "lat": 43.7390619,
+        "lon": -70.5214294
+      },
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "34500"
+      },
+      "lat": 43.7390619,
+      "lon": -70.5214294
+    },
+    {
+      "type": "way",
+      "id": 1050146647,
+      "center": {
+        "lat": 46.7096657,
+        "lon": -67.9525802
+      },
+      "tags": {
+        "name": "Flow Inn Diesel",
+        "power": "substation",
+        "voltage": "138000;69000"
+      },
+      "lat": 46.7096657,
+      "lon": -67.9525802
+    },
+    {
+      "type": "way",
+      "id": 1050146648,
+      "center": {
+        "lat": 46.7090245,
+        "lon": -67.9524247
+      },
+      "tags": {
+        "name": "Emera Maine",
+        "power": "substation",
+        "voltage": "69000"
+      },
+      "lat": 46.7090245,
+      "lon": -67.9524247
+    },
+    {
+      "type": "way",
+      "id": 1050434898,
+      "center": {
+        "lat": 46.41928,
+        "lon": -67.8469076
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "69000"
+      },
+      "lat": 46.41928,
+      "lon": -67.8469076
+    },
+    {
+      "type": "way",
+      "id": 1050434901,
+      "center": {
+        "lat": 46.2861693,
+        "lon": -67.8413627
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "69000"
+      },
+      "lat": 46.2861693,
+      "lon": -67.8413627
+    },
+    {
+      "type": "way",
+      "id": 1065857972,
+      "center": {
+        "lat": 43.5987352,
+        "lon": -70.3800374
+      },
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "power": "substation",
+        "substation": "minor_distribution",
+        "voltage": "34500"
+      },
+      "lat": 43.5987352,
+      "lon": -70.3800374
+    },
+    {
+      "type": "way",
+      "id": 1065857975,
+      "center": {
+        "lat": 43.5687662,
+        "lon": -70.3912478
+      },
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "power": "substation",
+        "substation": "minor_distribution",
+        "voltage": "34500"
+      },
+      "lat": 43.5687662,
+      "lon": -70.3912478
+    },
+    {
+      "type": "way",
+      "id": 1069357557,
+      "center": {
+        "lat": 43.5732441,
+        "lon": -70.3925344
+      },
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "note": "Latest imagery shows this nearing end of construction. Could not discern lines. May replace the substation 500m to south.",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 43.5732441,
+      "lon": -70.3925344
+    },
+    {
+      "type": "way",
+      "id": 1069799090,
+      "center": {
+        "lat": 43.1212921,
+        "lon": -70.7296962
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 43.1212921,
+      "lon": -70.7296962
+    },
+    {
+      "type": "way",
+      "id": 1078329986,
+      "center": {
+        "lat": 44.943919,
+        "lon": -71.0059428
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.943919,
+      "lon": -71.0059428
+    },
+    {
+      "type": "way",
+      "id": 1080358793,
+      "center": {
+        "lat": 44.3598389,
+        "lon": -69.1857021
+      },
+      "tags": {
+        "building": "yes",
+        "operator": "Consolidated Communications",
+        "power": "substation",
+        "substation": "internet"
+      },
+      "lat": 44.3598389,
+      "lon": -69.1857021
+    },
+    {
+      "type": "way",
+      "id": 1080858394,
+      "center": {
+        "lat": 46.511281,
+        "lon": -67.8653599
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 46.511281,
+      "lon": -67.8653599
+    },
+    {
+      "type": "way",
+      "id": 1088900090,
+      "center": {
+        "lat": 43.6856823,
+        "lon": -70.3529472
+      },
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "power": "substation",
+        "substation": "industrial"
+      },
+      "lat": 43.6856823,
+      "lon": -70.3529472
+    },
+    {
+      "type": "way",
+      "id": 1099307716,
+      "center": {
+        "lat": 44.9232774,
+        "lon": -69.2626199
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation"
+      },
+      "lat": 44.9232774,
+      "lon": -69.2626199
+    },
+    {
+      "type": "way",
+      "id": 1099310164,
+      "center": {
+        "lat": 44.8329902,
+        "lon": -69.2842489
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation"
+      },
+      "lat": 44.8329902,
+      "lon": -69.2842489
+    },
+    {
+      "type": "way",
+      "id": 1099345926,
+      "center": {
+        "lat": 44.5740006,
+        "lon": -69.5090943
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Albion Road Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "345000;115000"
+      },
+      "lat": 44.5740006,
+      "lon": -69.5090943
+    },
+    {
+      "type": "way",
+      "id": 1099377845,
+      "center": {
+        "lat": 44.5823856,
+        "lon": -69.6117653
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.5823856,
+      "lon": -69.6117653
+    },
+    {
+      "type": "way",
+      "id": 1099425919,
+      "center": {
+        "lat": 44.8048735,
+        "lon": -69.7389067
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Lakewood Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.8048735,
+      "lon": -69.7389067
+    },
+    {
+      "type": "way",
+      "id": 1099425929,
+      "center": {
+        "lat": 44.788325,
+        "lon": -69.7368541
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation"
+      },
+      "lat": 44.788325,
+      "lon": -69.7368541
+    },
+    {
+      "type": "way",
+      "id": 1099435537,
+      "center": {
+        "lat": 44.5734078,
+        "lon": -69.6770108
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "County Road Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.5734078,
+      "lon": -69.6770108
+    },
+    {
+      "type": "way",
+      "id": 1099435539,
+      "center": {
+        "lat": 44.5515135,
+        "lon": -69.6598948
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation"
+      },
+      "lat": 44.5515135,
+      "lon": -69.6598948
+    },
+    {
+      "type": "way",
+      "id": 1099491596,
+      "center": {
+        "lat": 44.6145508,
+        "lon": -69.3201183
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "source": "Bing",
+        "source:date": "2022-11-01",
+        "voltage": "34500"
+      },
+      "lat": 44.6145508,
+      "lon": -69.3201183
+    },
+    {
+      "type": "way",
+      "id": 1099645602,
+      "center": {
+        "lat": 44.4678368,
+        "lon": -68.9034771
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.4678368,
+      "lon": -68.9034771
+    },
+    {
+      "type": "way",
+      "id": 1099646655,
+      "center": {
+        "lat": 44.5541879,
+        "lon": -68.8620589
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.5541879,
+      "lon": -68.8620589
+    },
+    {
+      "type": "way",
+      "id": 1099873023,
+      "center": {
+        "lat": 45.1786881,
+        "lon": -69.2303278
+      },
+      "tags": {
+        "addr:city": "Dover-Foxcroft",
+        "addr:housenumber": "1075",
+        "addr:postcode": "04426",
+        "addr:state": "ME",
+        "addr:street": "South Street",
+        "barrier": "fence",
+        "name": "Dover-Foxcroft substation",
+        "power": "substation"
+      },
+      "lat": 45.1786881,
+      "lon": -69.2303278
+    },
+    {
+      "type": "way",
+      "id": 1099938572,
+      "center": {
+        "lat": 45.140716,
+        "lon": -70.4247859
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "ReEnergy Stratton Substation",
+        "operator": "ReEnergy Stratton, LLC",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 45.140716,
+      "lon": -70.4247859
+    },
+    {
+      "type": "way",
+      "id": 1100853188,
+      "center": {
+        "lat": 44.6208617,
+        "lon": -69.5026194
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation"
+      },
+      "lat": 44.6208617,
+      "lon": -69.5026194
+    },
+    {
+      "type": "way",
+      "id": 1100854838,
+      "center": {
+        "lat": 44.7205764,
+        "lon": -69.4135723
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation"
+      },
+      "lat": 44.7205764,
+      "lon": -69.4135723
+    },
+    {
+      "type": "way",
+      "id": 1100874554,
+      "center": {
+        "lat": 44.3916112,
+        "lon": -69.5770498
+      },
+      "tags": {
+        "addr:city": "China",
+        "addr:housenumber": "381",
+        "addr:postcode": "04358",
+        "addr:state": "ME",
+        "addr:street": "Route 3 Road",
+        "barrier": "fence",
+        "name": "CMP Substation",
+        "power": "substation"
+      },
+      "lat": 44.3916112,
+      "lon": -69.5770498
+    },
+    {
+      "type": "way",
+      "id": 1101051674,
+      "center": {
+        "lat": 44.5628169,
+        "lon": -69.6191783
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.5628169,
+      "lon": -69.6191783
+    },
+    {
+      "type": "way",
+      "id": 1101051679,
+      "center": {
+        "lat": 44.5780697,
+        "lon": -69.6080747
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation"
+      },
+      "lat": 44.5780697,
+      "lon": -69.6080747
+    },
+    {
+      "type": "way",
+      "id": 1101204072,
+      "center": {
+        "lat": 44.0892925,
+        "lon": -69.8001405
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.0892925,
+      "lon": -69.8001405
+    },
+    {
+      "type": "way",
+      "id": 1101207117,
+      "center": {
+        "lat": 44.2255799,
+        "lon": -69.7910706
+      },
+      "tags": {
+        "addr:city": "Gardiner",
+        "addr:housenumber": "141",
+        "addr:postcode": "04345",
+        "addr:state": "ME",
+        "addr:street": "West Hill Road",
+        "power": "substation"
+      },
+      "lat": 44.2255799,
+      "lon": -69.7910706
+    },
+    {
+      "type": "way",
+      "id": 1101207124,
+      "center": {
+        "lat": 44.2268334,
+        "lon": -69.7843816
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation"
+      },
+      "lat": 44.2268334,
+      "lon": -69.7843816
+    },
+    {
+      "type": "way",
+      "id": 1101329542,
+      "center": {
+        "lat": 44.2969404,
+        "lon": -69.5564105
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Coopers Mills Road Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "345000;115000"
+      },
+      "lat": 44.2969404,
+      "lon": -69.5564105
+    },
+    {
+      "type": "way",
+      "id": 1101451078,
+      "center": {
+        "lat": 44.1888119,
+        "lon": -69.9928248
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Monmouth Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.1888119,
+      "lon": -69.9928248
+    },
+    {
+      "type": "way",
+      "id": 1101472832,
+      "center": {
+        "lat": 44.560513,
+        "lon": -68.4437975
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation"
+      },
+      "lat": 44.560513,
+      "lon": -68.4437975
+    },
+    {
+      "type": "way",
+      "id": 1101472836,
+      "center": {
+        "lat": 44.5803846,
+        "lon": -68.4336851
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Waltham Road Substation",
+        "operator": "Versant Power",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.5803846,
+      "lon": -68.4336851
+    },
+    {
+      "type": "way",
+      "id": 1101501242,
+      "center": {
+        "lat": 44.6275982,
+        "lon": -67.3988934
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Bucks Harbor Substation",
+        "operator": "Versant Power",
+        "operator:wikidata": "Q130232567",
+        "power": "substation",
+        "source": "Bing",
+        "substation": "yes",
+        "voltage": "34500;4160"
+      },
+      "lat": 44.6275982,
+      "lon": -67.3988934
+    },
+    {
+      "type": "way",
+      "id": 1101506692,
+      "center": {
+        "lat": 44.6785688,
+        "lon": -67.5469528
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.6785688,
+      "lon": -67.5469528
+    },
+    {
+      "type": "way",
+      "id": 1101637319,
+      "center": {
+        "lat": 44.7227777,
+        "lon": -68.1650121
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "source": "Bing",
+        "voltage": "115000"
+      },
+      "lat": 44.7227777,
+      "lon": -68.1650121
+    },
+    {
+      "type": "way",
+      "id": 1101649716,
+      "center": {
+        "lat": 44.8207973,
+        "lon": -68.690404
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation"
+      },
+      "lat": 44.8207973,
+      "lon": -68.690404
+    },
+    {
+      "type": "way",
+      "id": 1101712371,
+      "center": {
+        "lat": 44.3926661,
+        "lon": -69.2286361
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.3926661,
+      "lon": -69.2286361
+    },
+    {
+      "type": "way",
+      "id": 1101723342,
+      "center": {
+        "lat": 44.0837755,
+        "lon": -69.1684844
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.0837755,
+      "lon": -69.1684844
+    },
+    {
+      "type": "way",
+      "id": 1101731287,
+      "center": {
+        "lat": 44.1182623,
+        "lon": -69.3068915
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation"
+      },
+      "lat": 44.1182623,
+      "lon": -69.3068915
+    },
+    {
+      "type": "way",
+      "id": 1101743445,
+      "center": {
+        "lat": 44.137878,
+        "lon": -69.095943
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.137878,
+      "lon": -69.095943
+    },
+    {
+      "type": "way",
+      "id": 1101884470,
+      "center": {
+        "lat": 45.6224569,
+        "lon": -68.5772281
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 45.6224569,
+      "lon": -68.5772281
+    },
+    {
+      "type": "way",
+      "id": 1101892721,
+      "center": {
+        "lat": 45.6212159,
+        "lon": -68.5732639
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 45.6212159,
+      "lon": -68.5732639
+    },
+    {
+      "type": "way",
+      "id": 1101892722,
+      "center": {
+        "lat": 45.5713006,
+        "lon": -68.4082236
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation"
+      },
+      "lat": 45.5713006,
+      "lon": -68.4082236
+    },
+    {
+      "type": "way",
+      "id": 1101892723,
+      "center": {
+        "lat": 45.6078876,
+        "lon": -68.5444614
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation"
+      },
+      "lat": 45.6078876,
+      "lon": -68.5444614
+    },
+    {
+      "type": "way",
+      "id": 1101892737,
+      "center": {
+        "lat": 45.3936967,
+        "lon": -68.5213227
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Chester Substation",
+        "operator": "Versant Power",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 45.3936967,
+      "lon": -68.5213227
+    },
+    {
+      "type": "way",
+      "id": 1102515151,
+      "center": {
+        "lat": 44.8531318,
+        "lon": -69.8931823
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation"
+      },
+      "lat": 44.8531318,
+      "lon": -69.8931823
+    },
+    {
+      "type": "way",
+      "id": 1102632328,
+      "center": {
+        "lat": 44.312188,
+        "lon": -69.9673107
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.312188,
+      "lon": -69.9673107
+    },
+    {
+      "type": "way",
+      "id": 1103769839,
+      "center": {
+        "lat": 44.2558428,
+        "lon": -70.7248528
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation"
+      },
+      "lat": 44.2558428,
+      "lon": -70.7248528
+    },
+    {
+      "type": "way",
+      "id": 1103769840,
+      "center": {
+        "lat": 44.2556807,
+        "lon": -70.7247756
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "voltage": "34000"
+      },
+      "lat": 44.2556807,
+      "lon": -70.7247756
+    },
+    {
+      "type": "way",
+      "id": 1103772957,
+      "center": {
+        "lat": 44.4125885,
+        "lon": -70.787346
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.4125885,
+      "lon": -70.787346
+    },
+    {
+      "type": "way",
+      "id": 1103822436,
+      "center": {
+        "lat": 44.7810596,
+        "lon": -69.9138563
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Starks Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "source": "Bing",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.7810596,
+      "lon": -69.9138563
+    },
+    {
+      "type": "way",
+      "id": 1103824899,
+      "center": {
+        "lat": 44.6540007,
+        "lon": -70.1275093
+      },
+      "tags": {
+        "name": "Farmington Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "source": "Bing",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.6540007,
+      "lon": -70.1275093
+    },
+    {
+      "type": "way",
+      "id": 1113620011,
+      "center": {
+        "lat": 44.4317835,
+        "lon": -70.1616492
+      },
+      "tags": {
+        "name": "ReEnergy Livermore Falls Substation",
+        "operator": "ReEnergy Livermore Falls",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.4317835,
+      "lon": -70.1616492
+    },
+    {
+      "type": "way",
+      "id": 1119282261,
+      "center": {
+        "lat": 43.9036358,
+        "lon": -70.4719602
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 43.9036358,
+      "lon": -70.4719602
+    },
+    {
+      "type": "way",
+      "id": 1124891502,
+      "center": {
+        "lat": 44.6328474,
+        "lon": -70.6990516
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.6328474,
+      "lon": -70.6990516
+    },
+    {
+      "type": "way",
+      "id": 1125765402,
+      "center": {
+        "lat": 43.7515216,
+        "lon": -70.156701
+      },
+      "tags": {
+        "name": "Yarmouth 4 Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "345000"
+      },
+      "lat": 43.7515216,
+      "lon": -70.156701
+    },
+    {
+      "type": "way",
+      "id": 1126815085,
+      "center": {
+        "lat": 44.0692145,
+        "lon": -70.1865145
+      },
+      "tags": {
+        "name": "Challenger Drive Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.0692145,
+      "lon": -70.1865145
+    },
+    {
+      "type": "way",
+      "id": 1130574167,
+      "center": {
+        "lat": 46.5736477,
+        "lon": -67.9095697
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 46.5736477,
+      "lon": -67.9095697
+    },
+    {
+      "type": "way",
+      "id": 1130768658,
+      "center": {
+        "lat": 44.9447,
+        "lon": -69.6592445
+      },
+      "tags": {
+        "name": "Athens ME Substation",
+        "operator": "Renesola Power Holdings",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.9447,
+      "lon": -69.6592445
+    },
+    {
+      "type": "way",
+      "id": 1133355610,
+      "center": {
+        "lat": 44.5487625,
+        "lon": -70.5405201
+      },
+      "tags": {
+        "name": "Rumford Mill Substation",
+        "operator": "ND Paper LLC",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.5487625,
+      "lon": -70.5405201
+    },
+    {
+      "type": "way",
+      "id": 1134668075,
+      "center": {
+        "lat": 43.8595808,
+        "lon": -69.6252793
+      },
+      "tags": {
+        "addr:city": "Boothbay Harbor",
+        "addr:housenumber": "163",
+        "addr:postcode": "04538",
+        "addr:state": "ME",
+        "addr:street": "Townsend Avenue",
+        "power": "substation"
+      },
+      "lat": 43.8595808,
+      "lon": -69.6252793
+    },
+    {
+      "type": "way",
+      "id": 1135307332,
+      "center": {
+        "lat": 44.5057219,
+        "lon": -70.2420195
+      },
+      "tags": {
+        "name": "Jay Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.5057219,
+      "lon": -70.2420195
+    },
+    {
+      "type": "way",
+      "id": 1135313417,
+      "center": {
+        "lat": 45.2538337,
+        "lon": -68.6279761
+      },
+      "tags": {
+        "name": "Enfield Substation",
+        "operator": "Versant Power",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 45.2538337,
+      "lon": -68.6279761
+    },
+    {
+      "type": "way",
+      "id": 1137136226,
+      "center": {
+        "lat": 44.529168,
+        "lon": -68.3815834
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.529168,
+      "lon": -68.3815834
+    },
+    {
+      "type": "way",
+      "id": 1155684270,
+      "center": {
+        "lat": 43.6428625,
+        "lon": -70.2766907
+      },
+      "tags": {
+        "name": "Fore River Maine Substation",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 43.6428625,
+      "lon": -70.2766907
+    },
+    {
+      "type": "way",
+      "id": 1155923911,
+      "center": {
+        "lat": 43.9118153,
+        "lon": -69.9016733
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "minor_distribution",
+        "voltage": "34500"
+      },
+      "lat": 43.9118153,
+      "lon": -69.9016733
+    },
+    {
+      "type": "way",
+      "id": 1155923912,
+      "center": {
+        "lat": 43.9181397,
+        "lon": -69.8842837
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "minor_distribution",
+        "voltage": "34500"
+      },
+      "lat": 43.9181397,
+      "lon": -69.8842837
+    },
+    {
+      "type": "way",
+      "id": 1155935394,
+      "center": {
+        "lat": 43.9307567,
+        "lon": -69.8202799
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "minor_distribution",
+        "voltage": "34500"
+      },
+      "lat": 43.9307567,
+      "lon": -69.8202799
+    },
+    {
+      "type": "way",
+      "id": 1156155824,
+      "center": {
+        "lat": 44.7390453,
+        "lon": -68.824863
+      },
+      "tags": {
+        "name": "Chemical Substation",
+        "operator": "Versant Power",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.7390453,
+      "lon": -68.824863
+    },
+    {
+      "type": "way",
+      "id": 1156155825,
+      "center": {
+        "lat": 44.7822068,
+        "lon": -68.5175591
+      },
+      "tags": {
+        "name": "Clifton Switching Station",
+        "operator": "Versant Power",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.7822068,
+      "lon": -68.5175591
+    },
+    {
+      "type": "way",
+      "id": 1156155826,
+      "center": {
+        "lat": 44.7818923,
+        "lon": -68.5191611
+      },
+      "tags": {
+        "name": "Pisgah Mountain Wind Substation",
+        "operator": "Versant Power",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 44.7818923,
+      "lon": -68.5191611
+    },
+    {
+      "type": "way",
+      "id": 1160317162,
+      "center": {
+        "lat": 46.677536,
+        "lon": -68.035374
+      },
+      "tags": {
+        "addr:city": "Presque Isle",
+        "addr:housenumber": "25",
+        "addr:postcode": "04769",
+        "addr:state": "ME",
+        "addr:street": "Mapleton Road",
+        "power": "substation",
+        "voltage": "69000"
+      },
+      "lat": 46.677536,
+      "lon": -68.035374
+    },
+    {
+      "type": "way",
+      "id": 1177690474,
+      "center": {
+        "lat": 43.3753383,
+        "lon": -70.9417983
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 43.3753383,
+      "lon": -70.9417983
+    },
+    {
+      "type": "way",
+      "id": 1218890374,
+      "center": {
+        "lat": 43.9921211,
+        "lon": -70.0482536
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.9921211,
+      "lon": -70.0482536
+    },
+    {
+      "type": "way",
+      "id": 1219103022,
+      "center": {
+        "lat": 44.0257333,
+        "lon": -70.0906027
+      },
+      "tags": {
+        "addr:city": "Lisbon",
+        "addr:housenumber": "49",
+        "addr:postcode": "04250",
+        "addr:state": "ME",
+        "addr:street": "Mill Street",
+        "power": "substation"
+      },
+      "lat": 44.0257333,
+      "lon": -70.0906027
+    },
+    {
+      "type": "way",
+      "id": 1262605637,
+      "center": {
+        "lat": 44.0135193,
+        "lon": -70.9718267
+      },
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "barbed_wire",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 44.0135193,
+      "lon": -70.9718267
+    },
+    {
+      "type": "way",
+      "id": 1278706606,
+      "center": {
+        "lat": 46.016732,
+        "lon": -68.27795
+      },
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "power": "substation",
+        "voltage": "69000"
+      },
+      "lat": 46.016732,
+      "lon": -68.27795
+    },
+    {
+      "type": "way",
+      "id": 1286695842,
+      "center": {
+        "lat": 44.3049671,
+        "lon": -68.2849391
+      },
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "power": "substation"
+      },
+      "lat": 44.3049671,
+      "lon": -68.2849391
+    },
+    {
+      "type": "way",
+      "id": 1303315639,
+      "center": {
+        "lat": 44.1562875,
+        "lon": -70.1809877
+      },
+      "tags": {
+        "name": "Lewiston HVDC Converter Station",
+        "operator": "Central Maine Power Company",
+        "operator:wikidata": "Q115691167",
+        "power": "substation",
+        "source": "https://www.sunjournal.com/2023/08/01/necec-corridor-work-restarting-at-lewiston-converter-station/",
+        "substation": "converter",
+        "voltage": "320000"
+      },
+      "lat": 44.1562875,
+      "lon": -70.1809877
+    },
+    {
+      "type": "way",
+      "id": 1336975362,
+      "center": {
+        "lat": 43.8774194,
+        "lon": -70.3284312
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 43.8774194,
+      "lon": -70.3284312
+    },
+    {
+      "type": "way",
+      "id": 1336975368,
+      "center": {
+        "lat": 43.7266541,
+        "lon": -70.3054102
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 43.7266541,
+      "lon": -70.3054102
+    },
+    {
+      "type": "way",
+      "id": 1387661542,
+      "center": {
+        "lat": 44.7034481,
+        "lon": -67.4624063
+      },
+      "tags": {
+        "name": "Machias Substation",
+        "operator": "Versant Power",
+        "operator:wikidata": "Q130232567",
+        "power": "substation",
+        "substation": "yes",
+        "voltage": "34500;12500"
+      },
+      "lat": 44.7034481,
+      "lon": -67.4624063
+    },
+    {
+      "type": "way",
+      "id": 1387661544,
+      "center": {
+        "lat": 44.7278147,
+        "lon": -67.4172587
+      },
+      "tags": {
+        "name": "Scotts Hill Road Substation",
+        "operator": "Versant Power",
+        "operator:wikidata": "Q130232567",
+        "power": "substation",
+        "substation": "yes",
+        "voltage": "34500;12500"
+      },
+      "lat": 44.7278147,
+      "lon": -67.4172587
+    },
+    {
+      "type": "way",
+      "id": 1388689119,
+      "center": {
+        "lat": 43.948751,
+        "lon": -69.7891805
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 43.948751,
+      "lon": -69.7891805
+    },
+    {
+      "type": "way",
+      "id": 1452121769,
+      "center": {
+        "lat": 46.8749803,
+        "lon": -67.9915246
+      },
+      "tags": {
+        "addr:city": "Caribou",
+        "addr:housenumber": "11",
+        "addr:postcode": "04736",
+        "addr:state": "ME",
+        "addr:street": "Otter Street",
+        "power": "substation",
+        "voltage": "69000"
+      },
+      "lat": 46.8749803,
+      "lon": -67.9915246
+    },
+    {
+      "type": "way",
+      "id": 1452750346,
+      "center": {
+        "lat": 46.6992119,
+        "lon": -68.0086777
+      },
+      "tags": {
+        "addr:city": "Presque Isle",
+        "addr:housenumber": "16",
+        "addr:postcode": "04769",
+        "addr:state": "ME",
+        "addr:street": "Maysville Street",
+        "power": "substation",
+        "voltage": "69000"
+      },
+      "lat": 46.6992119,
+      "lon": -68.0086777
+    },
+    {
+      "type": "way",
+      "id": 1452750352,
+      "center": {
+        "lat": 46.6815316,
+        "lon": -68.0099023
+      },
+      "tags": {
+        "addr:city": "Presque Isle",
+        "addr:housenumber": "255",
+        "addr:postcode": "04769",
+        "addr:state": "ME",
+        "addr:street": "State Street",
+        "power": "substation",
+        "voltage": "69000"
+      },
+      "lat": 46.6815316,
+      "lon": -68.0099023
+    },
+    {
+      "type": "way",
+      "id": 1452750358,
+      "center": {
+        "lat": 46.6359741,
+        "lon": -68.4366526
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "69000"
+      },
+      "lat": 46.6359741,
+      "lon": -68.4366526
+    },
+    {
+      "type": "way",
+      "id": 1452750364,
+      "center": {
+        "lat": 46.8483804,
+        "lon": -68.0027679
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "69000"
+      },
+      "lat": 46.8483804,
+      "lon": -68.0027679
+    },
+    {
+      "type": "way",
+      "id": 1452752915,
+      "center": {
+        "lat": 46.127251,
+        "lon": -67.807323
+      },
+      "tags": {
+        "addr:city": "Houlton",
+        "addr:housenumber": "382",
+        "addr:postcode": "04730",
+        "addr:state": "ME",
+        "addr:street": "Military Street",
+        "power": "substation"
+      },
+      "lat": 46.127251,
+      "lon": -67.807323
+    },
+    {
+      "type": "way",
+      "id": 1452752918,
+      "center": {
+        "lat": 46.1448037,
+        "lon": -68.0399948
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "69000"
+      },
+      "lat": 46.1448037,
+      "lon": -68.0399948
+    },
+    {
+      "type": "way",
+      "id": 1452752919,
+      "center": {
+        "lat": 46.0984359,
+        "lon": -68.1617748
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "69000"
+      },
+      "lat": 46.0984359,
+      "lon": -68.1617748
+    },
+    {
+      "type": "way",
+      "id": 1452752924,
+      "center": {
+        "lat": 45.8981157,
+        "lon": -68.4343554
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 45.8981157,
+      "lon": -68.4343554
+    },
+    {
+      "type": "way",
+      "id": 1452753302,
+      "center": {
+        "lat": 46.7681631,
+        "lon": -67.8294849
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "69000"
+      },
+      "lat": 46.7681631,
+      "lon": -67.8294849
+    },
+    {
+      "type": "way",
+      "id": 1452938569,
+      "center": {
+        "lat": 46.6636707,
+        "lon": -67.904061
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "69000"
+      },
+      "lat": 46.6636707,
+      "lon": -67.904061
+    },
+    {
+      "type": "way",
+      "id": 1452938571,
+      "center": {
+        "lat": 46.6604082,
+        "lon": -67.9024421
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "69000"
+      },
+      "lat": 46.6604082,
+      "lon": -67.9024421
+    },
+    {
+      "type": "way",
+      "id": 1452938573,
+      "center": {
+        "lat": 46.6646514,
+        "lon": -67.9050051
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "69000"
+      },
+      "lat": 46.6646514,
+      "lon": -67.9050051
+    },
+    {
+      "type": "way",
+      "id": 1452938576,
+      "center": {
+        "lat": 46.6432753,
+        "lon": -67.9204234
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "69000"
+      },
+      "lat": 46.6432753,
+      "lon": -67.9204234
+    },
+    {
+      "type": "way",
+      "id": 1452938579,
+      "center": {
+        "lat": 46.54593,
+        "lon": -67.8255899
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "69000"
+      },
+      "lat": 46.54593,
+      "lon": -67.8255899
+    },
+    {
+      "type": "way",
+      "id": 1452946942,
+      "center": {
+        "lat": 43.7434833,
+        "lon": -70.225859
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 43.7434833,
+      "lon": -70.225859
+    },
+    {
+      "type": "way",
+      "id": 1452946944,
+      "center": {
+        "lat": 43.6906791,
+        "lon": -70.2595069
+      },
+      "tags": {
+        "addr:city": "Portland",
+        "addr:housenumber": "250",
+        "addr:postcode": "04103",
+        "addr:state": "ME",
+        "addr:street": "Presumpscot Street",
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 43.6906791,
+      "lon": -70.2595069
+    },
+    {
+      "type": "way",
+      "id": 1452974888,
+      "center": {
+        "lat": 43.6272994,
+        "lon": -70.2949948
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 43.6272994,
+      "lon": -70.2949948
+    },
+    {
+      "type": "way",
+      "id": 1452980900,
+      "center": {
+        "lat": 43.6409285,
+        "lon": -70.3282857
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "34500"
+      },
+      "lat": 43.6409285,
+      "lon": -70.3282857
+    },
+    {
+      "type": "way",
+      "id": 1452982757,
+      "center": {
+        "lat": 43.6859891,
+        "lon": -70.3541035
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 43.6859891,
+      "lon": -70.3541035
+    },
+    {
+      "type": "way",
+      "id": 1466904845,
+      "center": {
+        "lat": 44.6086577,
+        "lon": -69.4538632
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.6086577,
+      "lon": -69.4538632
+    },
+    {
+      "type": "way",
+      "id": 1470157248,
+      "center": {
+        "lat": 45.0077593,
+        "lon": -69.0249119
+      },
+      "tags": {
+        "power": "substation",
+        "voltage": "46000"
+      },
+      "lat": 45.0077593,
+      "lon": -69.0249119
+    },
+    {
+      "type": "way",
+      "id": 1470158245,
+      "center": {
+        "lat": 45.2468349,
+        "lon": -68.6498704
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 45.2468349,
+      "lon": -68.6498704
+    },
+    {
+      "type": "way",
+      "id": 1478843683,
+      "center": {
+        "lat": 46.1379573,
+        "lon": -67.8438872
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 46.1379573,
+      "lon": -67.8438872
+    },
+    {
+      "type": "way",
+      "id": 1478843685,
+      "center": {
+        "lat": 46.1243501,
+        "lon": -67.8449931
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation"
+      },
+      "lat": 46.1243501,
+      "lon": -67.8449931
+    },
+    {
+      "type": "way",
+      "id": 1478843686,
+      "center": {
+        "lat": 46.099434,
+        "lon": -67.8840936
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation"
+      },
+      "lat": 46.099434,
+      "lon": -67.8840936
+    },
+    {
+      "type": "way",
+      "id": 1482911505,
+      "center": {
+        "lat": 45.2049585,
+        "lon": -67.5288724
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 45.2049585,
+      "lon": -67.5288724
+    },
+    {
+      "type": "way",
+      "id": 1485090767,
+      "center": {
+        "lat": 44.0289373,
+        "lon": -69.671438
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.0289373,
+      "lon": -69.671438
+    },
+    {
+      "type": "way",
+      "id": 1485090768,
+      "center": {
+        "lat": 44.1007066,
+        "lon": -70.2247871
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.1007066,
+      "lon": -70.2247871
+    },
+    {
+      "type": "way",
+      "id": 1485090769,
+      "center": {
+        "lat": 44.470903,
+        "lon": -70.1871641
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.470903,
+      "lon": -70.1871641
+    },
+    {
+      "type": "way",
+      "id": 1485090770,
+      "center": {
+        "lat": 44.5039063,
+        "lon": -70.2207956
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.5039063,
+      "lon": -70.2207956
+    },
+    {
+      "type": "way",
+      "id": 1485090775,
+      "center": {
+        "lat": 45.4556511,
+        "lon": -69.5857887
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 45.4556511,
+      "lon": -69.5857887
+    },
+    {
+      "type": "way",
+      "id": 1485090778,
+      "center": {
+        "lat": 45.1586099,
+        "lon": -67.4016229
+      },
+      "tags": {
+        "name": "Domtar - Woodland Mill",
+        "power": "substation"
+      },
+      "lat": 45.1586099,
+      "lon": -67.4016229
+    },
+    {
+      "type": "way",
+      "id": 1485090779,
+      "center": {
+        "lat": 45.143843,
+        "lon": -67.3977884
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 45.143843,
+      "lon": -67.3977884
+    },
+    {
+      "type": "way",
+      "id": 1485090780,
+      "center": {
+        "lat": 44.5436457,
+        "lon": -68.4307048
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.5436457,
+      "lon": -68.4307048
+    },
+    {
+      "type": "way",
+      "id": 1485090781,
+      "center": {
+        "lat": 44.3423489,
+        "lon": -68.6731573
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.3423489,
+      "lon": -68.6731573
+    },
+    {
+      "type": "way",
+      "id": 1485090782,
+      "center": {
+        "lat": 44.8526602,
+        "lon": -68.808516
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.8526602,
+      "lon": -68.808516
+    },
+    {
+      "type": "way",
+      "id": 1485090783,
+      "center": {
+        "lat": 44.7906719,
+        "lon": -68.7510295
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.7906719,
+      "lon": -68.7510295
+    },
+    {
+      "type": "way",
+      "id": 1485090784,
+      "center": {
+        "lat": 44.8140001,
+        "lon": -68.7421901
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.8140001,
+      "lon": -68.7421901
+    },
+    {
+      "type": "way",
+      "id": 1485090785,
+      "center": {
+        "lat": 44.9126246,
+        "lon": -68.6830845
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.9126246,
+      "lon": -68.6830845
+    },
+    {
+      "type": "way",
+      "id": 1485090786,
+      "center": {
+        "lat": 44.9189584,
+        "lon": -68.6343722
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 44.9189584,
+      "lon": -68.6343722
+    },
+    {
+      "type": "way",
+      "id": 1485090787,
+      "center": {
+        "lat": 45.3696166,
+        "lon": -68.5063306
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 45.3696166,
+      "lon": -68.5063306
+    },
+    {
+      "type": "way",
+      "id": 1485090788,
+      "center": {
+        "lat": 45.3887083,
+        "lon": -68.5339393
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 45.3887083,
+      "lon": -68.5339393
+    },
+    {
+      "type": "way",
+      "id": 1485090789,
+      "center": {
+        "lat": 45.8945404,
+        "lon": -68.4247526
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 45.8945404,
+      "lon": -68.4247526
+    },
+    {
+      "type": "way",
+      "id": 1485090791,
+      "center": {
+        "lat": 46.6843806,
+        "lon": -68.1612088
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 46.6843806,
+      "lon": -68.1612088
+    },
+    {
+      "type": "way",
+      "id": 1485090792,
+      "center": {
+        "lat": 46.7781871,
+        "lon": -68.1538938
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 46.7781871,
+      "lon": -68.1538938
+    },
+    {
+      "type": "way",
+      "id": 1485090793,
+      "center": {
+        "lat": 47.2385189,
+        "lon": -68.5782808
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 47.2385189,
+      "lon": -68.5782808
+    },
+    {
+      "type": "way",
+      "id": 1489707263,
+      "center": {
+        "lat": 44.7925795,
+        "lon": -69.8717789
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation"
+      },
+      "lat": 44.7925795,
+      "lon": -69.8717789
+    },
+    {
+      "type": "way",
+      "id": 1492856317,
+      "center": {
+        "lat": 45.417192,
+        "lon": -67.7389771
+      },
+      "tags": {
+        "area": "yes",
+        "power": "substation"
+      },
+      "lat": 45.417192,
+      "lon": -67.7389771
+    }
+  ]
+}

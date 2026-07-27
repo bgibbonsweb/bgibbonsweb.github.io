@@ -1,0 +1,64 @@
+{
+  "source": {
+    "name": "EIA Form 861 Annual Electric Power Industry Report (2024)",
+    "year": 2024,
+    "state": "Delaware",
+    "methodology": "Utility annual electricity sales (MWh) from Sales_Ult_Cust worksheet distributed equally across each utility's Delaware service counties (Service_Territory worksheet). County centroid geometry from US Census GeoJSON.",
+    "workbook": "Sales_Ult_Cust_2024.xlsx + Service_Territory_2024.xlsx",
+    "workbook_url": "https://www.eia.gov/electricity/data/eia861/zip/f8612024.zip",
+    "download_page": "https://www.eia.gov/electricity/data/eia861/",
+    "geometry_source": "https://raw.githubusercontent.com/plotly/datasets/master/geojson-counties-fips.json"
+  },
+  "count": 3,
+  "total_gwh_annual": 10929.6,
+  "elements": [
+    {
+      "type": "node",
+      "id": "consumer-county-001",
+      "lat": 39.148899,
+      "lon": -75.495487,
+      "tags": {
+        "name": "Kent County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "478.93",
+        "consumption:gwh:annual": "4195.46",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-003",
+      "lat": 39.61747,
+      "lon": -75.590573,
+      "tags": {
+        "name": "New Castle County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "371.41",
+        "consumption:gwh:annual": "3253.56",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-005",
+      "lat": 38.604654,
+      "lon": -75.360577,
+      "tags": {
+        "name": "Sussex County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "397.33",
+        "consumption:gwh:annual": "3480.58",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    }
+  ]
+}

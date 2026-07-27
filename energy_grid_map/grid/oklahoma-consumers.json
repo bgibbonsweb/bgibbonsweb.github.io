@@ -1,0 +1,1249 @@
+{
+  "source": {
+    "name": "EIA Form 861 Annual Electric Power Industry Report (2024)",
+    "year": 2024,
+    "state": "Oklahoma",
+    "methodology": "Utility annual electricity sales (MWh) from Sales_Ult_Cust worksheet distributed equally across each utility's service county-equivalents (Service_Territory worksheet). County-equivalent centroid geometry from US Census GeoJSON.",
+    "workbook": "Sales_Ult_Cust_2024.xlsx + Service_Territory_2024.xlsx",
+    "workbook_url": "https://www.eia.gov/electricity/data/eia861/zip/f8612024.zip",
+    "download_page": "https://www.eia.gov/electricity/data/eia861/",
+    "geometry_source": "https://raw.githubusercontent.com/plotly/datasets/master/geojson-counties-fips.json",
+    "generated_at": "2026-04-24T22:23:06.220103Z"
+  },
+  "count": 77,
+  "total_gwh_annual": 69602.9,
+  "elements": [
+    {
+      "type": "node",
+      "id": "consumer-county-001",
+      "lat": 35.901069,
+      "lon": -94.53321,
+      "tags": {
+        "name": "Adair Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "90.06",
+        "consumption:gwh:annual": "788.93",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-003",
+      "lat": 36.871312,
+      "lon": -98.272107,
+      "tags": {
+        "name": "Alfalfa Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "66.72",
+        "consumption:gwh:annual": "584.45",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-005",
+      "lat": 34.462555,
+      "lon": -95.972818,
+      "tags": {
+        "name": "Atoka Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "143.11",
+        "consumption:gwh:annual": "1253.68",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-007",
+      "lat": 36.655633,
+      "lon": -100.549292,
+      "tags": {
+        "name": "Beaver Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "93.11",
+        "consumption:gwh:annual": "815.67",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-009",
+      "lat": 35.231977,
+      "lon": -99.679597,
+      "tags": {
+        "name": "Beckham Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "105.30",
+        "consumption:gwh:annual": "922.45",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-011",
+      "lat": 35.857793,
+      "lon": -98.480651,
+      "tags": {
+        "name": "Blaine Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "124.52",
+        "consumption:gwh:annual": "1090.80",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-013",
+      "lat": 33.87166,
+      "lon": -96.263162,
+      "tags": {
+        "name": "Bryan Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "78.13",
+        "consumption:gwh:annual": "684.46",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-015",
+      "lat": 35.220502,
+      "lon": -98.435045,
+      "tags": {
+        "name": "Caddo Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "152.53",
+        "consumption:gwh:annual": "1336.14",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-017",
+      "lat": 35.405139,
+      "lon": -97.836629,
+      "tags": {
+        "name": "Canadian Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "102.11",
+        "consumption:gwh:annual": "894.46",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-019",
+      "lat": 34.268859,
+      "lon": -97.25086,
+      "tags": {
+        "name": "Carter Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "101.52",
+        "consumption:gwh:annual": "889.30",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-021",
+      "lat": 35.915959,
+      "lon": -95.074872,
+      "tags": {
+        "name": "Cherokee Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "134.14",
+        "consumption:gwh:annual": "1175.09",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-023",
+      "lat": 33.937487,
+      "lon": -95.45365,
+      "tags": {
+        "name": "Choctaw Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "125.60",
+        "consumption:gwh:annual": "1100.26",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-025",
+      "lat": 36.836109,
+      "lon": -102.60132,
+      "tags": {
+        "name": "Cimarron Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "29.68",
+        "consumption:gwh:annual": "259.98",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-027",
+      "lat": 35.244981,
+      "lon": -97.434676,
+      "tags": {
+        "name": "Cleveland Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "92.22",
+        "consumption:gwh:annual": "807.85",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-029",
+      "lat": 34.585879,
+      "lon": -96.284866,
+      "tags": {
+        "name": "Coal Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "124.25",
+        "consumption:gwh:annual": "1088.44",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-031",
+      "lat": 34.60236,
+      "lon": -98.416834,
+      "tags": {
+        "name": "Comanche Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "81.50",
+        "consumption:gwh:annual": "713.95",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-033",
+      "lat": 34.228421,
+      "lon": -98.375531,
+      "tags": {
+        "name": "Cotton Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "59.78",
+        "consumption:gwh:annual": "523.67",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-035",
+      "lat": 36.905207,
+      "lon": -95.183358,
+      "tags": {
+        "name": "Craig Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "63.98",
+        "consumption:gwh:annual": "560.51",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-037",
+      "lat": 35.951298,
+      "lon": -96.299217,
+      "tags": {
+        "name": "Creek Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "141.96",
+        "consumption:gwh:annual": "1243.59",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-039",
+      "lat": 35.622292,
+      "lon": -98.998817,
+      "tags": {
+        "name": "Custer Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "124.52",
+        "consumption:gwh:annual": "1090.80",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-041",
+      "lat": 36.396881,
+      "lon": -94.64835,
+      "tags": {
+        "name": "Delaware Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "77.65",
+        "consumption:gwh:annual": "680.23",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-043",
+      "lat": 36.020173,
+      "lon": -99.106381,
+      "tags": {
+        "name": "Dewey Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "130.20",
+        "consumption:gwh:annual": "1140.60",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-045",
+      "lat": 36.119746,
+      "lon": -99.774644,
+      "tags": {
+        "name": "Ellis Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "63.52",
+        "consumption:gwh:annual": "556.43",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-047",
+      "lat": 36.416447,
+      "lon": -97.729443,
+      "tags": {
+        "name": "Garfield Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "94.75",
+        "consumption:gwh:annual": "829.99",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-049",
+      "lat": 34.635908,
+      "lon": -97.358487,
+      "tags": {
+        "name": "Garvin Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "78.27",
+        "consumption:gwh:annual": "685.66",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-051",
+      "lat": 35.18985,
+      "lon": -97.835118,
+      "tags": {
+        "name": "Grady Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "164.39",
+        "consumption:gwh:annual": "1440.06",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-053",
+      "lat": 36.928239,
+      "lon": -97.740027,
+      "tags": {
+        "name": "Grant Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "76.62",
+        "consumption:gwh:annual": "671.22",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-055",
+      "lat": 34.931906,
+      "lon": -99.570625,
+      "tags": {
+        "name": "Greer Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "47.47",
+        "consumption:gwh:annual": "415.81",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-057",
+      "lat": 34.684309,
+      "lon": -99.886385,
+      "tags": {
+        "name": "Harmon Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "47.47",
+        "consumption:gwh:annual": "415.81",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-059",
+      "lat": 36.936871,
+      "lon": -99.656276,
+      "tags": {
+        "name": "Harper Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "63.52",
+        "consumption:gwh:annual": "556.43",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-061",
+      "lat": 35.239254,
+      "lon": -95.137355,
+      "tags": {
+        "name": "Haskell Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "109.82",
+        "consumption:gwh:annual": "962.00",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-063",
+      "lat": 35.025244,
+      "lon": -96.301216,
+      "tags": {
+        "name": "Hughes Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "123.21",
+        "consumption:gwh:annual": "1079.29",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-065",
+      "lat": 34.497426,
+      "lon": -99.435359,
+      "tags": {
+        "name": "Jackson Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "71.37",
+        "consumption:gwh:annual": "625.19",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-067",
+      "lat": 33.978113,
+      "lon": -97.818697,
+      "tags": {
+        "name": "Jefferson Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "128.55",
+        "consumption:gwh:annual": "1126.09",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-069",
+      "lat": 34.320801,
+      "lon": -96.647334,
+      "tags": {
+        "name": "Johnston Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "135.18",
+        "consumption:gwh:annual": "1184.21",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-071",
+      "lat": 36.926879,
+      "lon": -97.035702,
+      "tags": {
+        "name": "Kay Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "145.15",
+        "consumption:gwh:annual": "1271.51",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-073",
+      "lat": 36.018403,
+      "lon": -97.99585,
+      "tags": {
+        "name": "Kingfisher Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "67.20",
+        "consumption:gwh:annual": "588.63",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-075",
+      "lat": 34.878308,
+      "lon": -99.043213,
+      "tags": {
+        "name": "Kiowa Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "57.33",
+        "consumption:gwh:annual": "502.17",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-077",
+      "lat": 34.926355,
+      "lon": -95.147209,
+      "tags": {
+        "name": "Latimer Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "60.92",
+        "consumption:gwh:annual": "533.67",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-079",
+      "lat": 35.041663,
+      "lon": -94.571385,
+      "tags": {
+        "name": "Le Flore Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "132.06",
+        "consumption:gwh:annual": "1156.88",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-081",
+      "lat": 35.687521,
+      "lon": -96.844343,
+      "tags": {
+        "name": "Lincoln Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "84.30",
+        "consumption:gwh:annual": "738.47",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-083",
+      "lat": 35.998271,
+      "lon": -97.361824,
+      "tags": {
+        "name": "Logan Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "75.96",
+        "consumption:gwh:annual": "665.40",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-085",
+      "lat": 33.854036,
+      "lon": -97.260315,
+      "tags": {
+        "name": "Love Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "68.77",
+        "consumption:gwh:annual": "602.42",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-093",
+      "lat": 36.321333,
+      "lon": -98.581084,
+      "tags": {
+        "name": "Major Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "81.76",
+        "consumption:gwh:annual": "716.24",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-095",
+      "lat": 33.929247,
+      "lon": -96.748071,
+      "tags": {
+        "name": "Marshall Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "68.77",
+        "consumption:gwh:annual": "602.42",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-097",
+      "lat": 36.239265,
+      "lon": -95.233953,
+      "tags": {
+        "name": "Mayes Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "554.28",
+        "consumption:gwh:annual": "4855.50",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-087",
+      "lat": 35.070521,
+      "lon": -97.340706,
+      "tags": {
+        "name": "McClain Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "150.79",
+        "consumption:gwh:annual": "1320.94",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-089",
+      "lat": 33.918017,
+      "lon": -94.636097,
+      "tags": {
+        "name": "McCurtain Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "57.74",
+        "consumption:gwh:annual": "505.80",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-091",
+      "lat": 35.345521,
+      "lon": -95.777525,
+      "tags": {
+        "name": "McIntosh Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "123.00",
+        "consumption:gwh:annual": "1077.50",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-099",
+      "lat": 34.478566,
+      "lon": -97.017911,
+      "tags": {
+        "name": "Murray Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "66.41",
+        "consumption:gwh:annual": "581.75",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-101",
+      "lat": 35.626725,
+      "lon": -95.42625,
+      "tags": {
+        "name": "Muskogee Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "78.24",
+        "consumption:gwh:annual": "685.38",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-103",
+      "lat": 36.349836,
+      "lon": -97.114421,
+      "tags": {
+        "name": "Noble Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "86.70",
+        "consumption:gwh:annual": "759.49",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-105",
+      "lat": 36.9331,
+      "lon": -95.63431,
+      "tags": {
+        "name": "Nowata Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "75.08",
+        "consumption:gwh:annual": "657.70",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-107",
+      "lat": 35.437926,
+      "lon": -96.293231,
+      "tags": {
+        "name": "Okfuskee Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "123.00",
+        "consumption:gwh:annual": "1077.50",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-109",
+      "lat": 35.473865,
+      "lon": -97.377216,
+      "tags": {
+        "name": "Oklahoma Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "216.09",
+        "consumption:gwh:annual": "1892.99",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-111",
+      "lat": 35.638631,
+      "lon": -95.934076,
+      "tags": {
+        "name": "Okmulgee Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "123.00",
+        "consumption:gwh:annual": "1077.50",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-113",
+      "lat": 36.68967,
+      "lon": -96.494757,
+      "tags": {
+        "name": "Osage Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "162.11",
+        "consumption:gwh:annual": "1420.04",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-115",
+      "lat": 36.922585,
+      "lon": -94.721474,
+      "tags": {
+        "name": "Ottawa Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "63.98",
+        "consumption:gwh:annual": "560.51",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-117",
+      "lat": 36.301506,
+      "lon": -96.621393,
+      "tags": {
+        "name": "Pawnee Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "76.79",
+        "consumption:gwh:annual": "672.72",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-119",
+      "lat": 36.099818,
+      "lon": -97.033334,
+      "tags": {
+        "name": "Payne Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "126.97",
+        "consumption:gwh:annual": "1112.27",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-121",
+      "lat": 34.9476,
+      "lon": -95.685471,
+      "tags": {
+        "name": "Pittsburg Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "127.33",
+        "consumption:gwh:annual": "1115.41",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-123",
+      "lat": 34.779786,
+      "lon": -96.714258,
+      "tags": {
+        "name": "Pontotoc Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "113.88",
+        "consumption:gwh:annual": "997.55",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-125",
+      "lat": 35.196574,
+      "lon": -96.874419,
+      "tags": {
+        "name": "Pottawatomie Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "92.22",
+        "consumption:gwh:annual": "807.85",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-127",
+      "lat": 34.444008,
+      "lon": -95.360481,
+      "tags": {
+        "name": "Pushmataha Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "66.33",
+        "consumption:gwh:annual": "581.05",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-129",
+      "lat": 35.770166,
+      "lon": -99.716853,
+      "tags": {
+        "name": "Roger Mills Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "105.30",
+        "consumption:gwh:annual": "922.45",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-131",
+      "lat": 36.303349,
+      "lon": -95.653801,
+      "tags": {
+        "name": "Rogers Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "114.96",
+        "consumption:gwh:annual": "1007.01",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-133",
+      "lat": 35.181213,
+      "lon": -96.576797,
+      "tags": {
+        "name": "Seminole Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "84.11",
+        "consumption:gwh:annual": "736.80",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-135",
+      "lat": 35.464362,
+      "lon": -94.655999,
+      "tags": {
+        "name": "Sequoyah Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "71.88",
+        "consumption:gwh:annual": "629.70",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-137",
+      "lat": 34.546637,
+      "lon": -97.930681,
+      "tags": {
+        "name": "Stephens Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "129.48",
+        "consumption:gwh:annual": "1134.23",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-139",
+      "lat": 36.771468,
+      "lon": -101.467704,
+      "tags": {
+        "name": "Texas Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "29.59",
+        "consumption:gwh:annual": "259.23",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-141",
+      "lat": 34.308857,
+      "lon": -98.927338,
+      "tags": {
+        "name": "Tillman Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "59.78",
+        "consumption:gwh:annual": "523.67",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-143",
+      "lat": 36.099974,
+      "lon": -95.997097,
+      "tags": {
+        "name": "Tulsa Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "140.82",
+        "consumption:gwh:annual": "1233.60",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-145",
+      "lat": 36.019539,
+      "lon": -95.631626,
+      "tags": {
+        "name": "Wagoner Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "121.19",
+        "consumption:gwh:annual": "1061.63",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-147",
+      "lat": 36.847015,
+      "lon": -95.886781,
+      "tags": {
+        "name": "Washington Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "64.42",
+        "consumption:gwh:annual": "564.34",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-149",
+      "lat": 35.226223,
+      "lon": -98.890039,
+      "tags": {
+        "name": "Washita Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "115.16",
+        "consumption:gwh:annual": "1008.81",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-151",
+      "lat": 36.853813,
+      "lon": -98.930831,
+      "tags": {
+        "name": "Woods Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "72.40",
+        "consumption:gwh:annual": "634.25",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-153",
+      "lat": 36.497908,
+      "lon": -99.279574,
+      "tags": {
+        "name": "Woodward Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "63.52",
+        "consumption:gwh:annual": "556.43",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    }
+  ]
+}

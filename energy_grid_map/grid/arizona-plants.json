@@ -1,0 +1,5359 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-04-24T20:51:16Z",
+    "timestamp_areas_base": "2026-04-24T15:53:36Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 28706177,
+      "center": {
+        "lat": 33.386522,
+        "lon": -112.8647563
+      },
+      "tags": {
+        "addr:city": "Tonopah",
+        "addr:state": "AZ",
+        "barrier": "fence",
+        "frequency": "60",
+        "landuse": "industrial",
+        "name": "Palo Verde Nuclear Generating Station",
+        "operator": "Arizona Public Service",
+        "operator:wikidata": "Q1242804",
+        "plant:method": "fission",
+        "plant:output:electricity": "3937 MW",
+        "plant:source": "nuclear",
+        "power": "plant",
+        "ref:US:EIA": "6008",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1986-04-24",
+        "voltage": "500000",
+        "wikidata": "Q1508667",
+        "wikipedia": "en:Palo Verde Nuclear Generating Station"
+      },
+      "lat": 33.386522,
+      "lon": -112.8647563
+    },
+    {
+      "type": "way",
+      "id": 28802018,
+      "center": {
+        "lat": 33.8447457,
+        "lon": -112.2722661
+      },
+      "tags": {
+        "addr:country": "US",
+        "addr:state": "AZ",
+        "building": "industrial",
+        "layer": "1",
+        "name": "New Waddell Pump-Generating Plant",
+        "operator": "Central Arizona Water Conservation Dist",
+        "plant:method": "water-pumped-storage",
+        "plant:output:electricity": "40 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "7164",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1993-04"
+      },
+      "lat": 33.8447457,
+      "lon": -112.2722661
+    },
+    {
+      "type": "way",
+      "id": 30408669,
+      "center": {
+        "lat": 33.425591,
+        "lon": -111.9134295
+      },
+      "tags": {
+        "addr:city": "Tempe",
+        "addr:postcode": "85281",
+        "addr:state": "AZ",
+        "landuse": "industrial",
+        "name": "APS Ocotillo Power Plant",
+        "operator": "Arizona Public Service",
+        "operator:wikidata": "Q1242804",
+        "plant:method": "combustion",
+        "plant:output:electricity": "653 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "116",
+        "source": "https://www.aps.com/en/ourcompany/generationtransmission/generation/pages/home.aspx",
+        "start_date": "1960-03",
+        "wikidata": "Q11993039"
+      },
+      "lat": 33.425591,
+      "lon": -111.9134295
+    },
+    {
+      "type": "way",
+      "id": 75355415,
+      "center": {
+        "lat": 35.197082,
+        "lon": -114.5701882
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Davis Powerplant",
+        "operator": "United States Bureau of Reclamation",
+        "operator:short": "USBR",
+        "operator:wikidata": "Q1010548",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "254.8 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "152",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1951-01",
+        "wikidata": "Q5241887"
+      },
+      "lat": 35.197082,
+      "lon": -114.5701882
+    },
+    {
+      "type": "way",
+      "id": 77275141,
+      "center": {
+        "lat": 34.295272,
+        "lon": -114.1401825
+      },
+      "tags": {
+        "name": "Parker Dam",
+        "operator": "United States Bureau of Reclamation",
+        "operator:short": "USBR",
+        "operator:wikidata": "Q1010548",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "120 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "447",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1942-12",
+        "wikidata": "Q2016335"
+      },
+      "lat": 34.295272,
+      "lon": -114.1401825
+    },
+    {
+      "type": "way",
+      "id": 91154327,
+      "center": {
+        "lat": 33.3411433,
+        "lon": -112.8900662
+      },
+      "tags": {
+        "addr:city": "Arlington",
+        "addr:state": "AZ",
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Arlington Valley Energy Facility",
+        "operator": "Arlington Valley LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "580 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "55282",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2002-06",
+        "wikidata": "Q17749319"
+      },
+      "lat": 33.3411433,
+      "lon": -112.8900662
+    },
+    {
+      "type": "way",
+      "id": 91154331,
+      "center": {
+        "lat": 33.3335373,
+        "lon": -112.8392382
+      },
+      "tags": {
+        "addr:city": "Arlington",
+        "addr:country": "US",
+        "addr:housenumber": "11600",
+        "addr:postcode": "85322",
+        "addr:state": "AZ",
+        "addr:street": "South 363rd Avenue",
+        "landuse": "industrial",
+        "name": "Redhawk Power Station",
+        "operator": "Arizona Public Service Company",
+        "plant:method": "combustion",
+        "plant:output:electricity": "1007 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "55455",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2002-07",
+        "wikidata": "Q19386339"
+      },
+      "lat": 33.3335373,
+      "lon": -112.8392382
+    },
+    {
+      "type": "way",
+      "id": 91154380,
+      "center": {
+        "lat": 33.34054,
+        "lon": -112.8633474
+      },
+      "tags": {
+        "addr:city": "Arlington",
+        "addr:state": "AZ",
+        "landuse": "industrial",
+        "name": "Mesquite Power Generating Station",
+        "operator": "Mesquite Power LLC;Salt River Project",
+        "plant:method": "combustion",
+        "plant:output:electricity": "1250 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "58557;55481",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2003-06",
+        "website": "https://www.southwestgen.com/our-portfolio/mesquite/",
+        "wikidata": "Q11989136"
+      },
+      "lat": 33.34054,
+      "lon": -112.8633474
+    },
+    {
+      "type": "way",
+      "id": 91182230,
+      "center": {
+        "lat": 33.4763562,
+        "lon": -113.1137509
+      },
+      "tags": {
+        "addr:city": "Tonopah",
+        "addr:state": "AZ",
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Harquahala Generating Station",
+        "operator": "Talen Energy",
+        "plant:method": "combustion",
+        "plant:output:electricity": "1099 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "55372",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2004-06",
+        "website": "https://www.naes.com/locations/harquahala-generating-facility/",
+        "wikidata": "Q11974353"
+      },
+      "lat": 33.4763562,
+      "lon": -113.1137509
+    },
+    {
+      "type": "way",
+      "id": 154421542,
+      "center": {
+        "lat": 32.9759096,
+        "lon": -112.6931919
+      },
+      "tags": {
+        "addr:city": "Gila Bend",
+        "addr:full": "1250 East Watermelon Road",
+        "addr:housenumber": "1250",
+        "addr:postcode": "85337",
+        "addr:state": "AZ",
+        "addr:street": "Watermelon",
+        "landuse": "industrial",
+        "name": "Gila River Generating Station",
+        "operator": "Salt River Project",
+        "operator:short": "SRP",
+        "operator:wikidata": "Q7405933",
+        "plant:method": "combustion",
+        "plant:output:electricity": "2476 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "60768;59338;55306;59784",
+        "start_date": "2003-05",
+        "website": "https://www.srpnet.com/about/stations/gilariver.aspx",
+        "wikidata": "Q11971968"
+      },
+      "lat": 32.9759096,
+      "lon": -112.6931919
+    },
+    {
+      "type": "way",
+      "id": 154742924,
+      "center": {
+        "lat": 33.020721,
+        "lon": -112.660979
+      },
+      "tags": {
+        "addr:city": "Gila Bend",
+        "addr:housenumber": "46700",
+        "addr:postcode": "85337",
+        "addr:state": "AZ",
+        "addr:street": "South Old US 80",
+        "barrier": "fence",
+        "name": "Paloma Solar Hybrid",
+        "operator": "Arizona Public Service Co",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "17.6 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "57562",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019;https://www.gridinfo.com/plant/paloma-solar-hybrid/57562",
+        "start_date": "2011-09",
+        "wikidata": "Q124472108"
+      },
+      "lat": 33.020721,
+      "lon": -112.660979
+    },
+    {
+      "type": "way",
+      "id": 172983651,
+      "center": {
+        "lat": 35.0538173,
+        "lon": -114.1353306
+      },
+      "tags": {
+        "addr:city": "Golden Valley",
+        "addr:housenumber": "3375",
+        "addr:state": "AZ",
+        "addr:street": "West Navajo Drive",
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Griffith Energy Facility",
+        "operator": "Griffith Energy LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "655 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "55124",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2002-01",
+        "wikidata": "Q11972631"
+      },
+      "lat": 35.0538173,
+      "lon": -114.1353306
+    },
+    {
+      "type": "way",
+      "id": 173698467,
+      "center": {
+        "lat": 32.9054758,
+        "lon": -111.7894062
+      },
+      "tags": {
+        "addr:city": "Casa Grande",
+        "addr:housenumber": "1872",
+        "addr:postcode": "85193",
+        "addr:state": "AZ",
+        "addr:street": "North Burris Road",
+        "landuse": "industrial",
+        "name": "Desert Basin Generating Station",
+        "operator": "Salt River Project",
+        "operator:short": "SRP",
+        "operator:wikidata": "Q7405933",
+        "plant:method": "combustion",
+        "plant:output:electricity": "577 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "55129",
+        "start_date": "2001-10",
+        "wikidata": "Q11965346"
+      },
+      "lat": 32.9054758,
+      "lon": -111.7894062
+    },
+    {
+      "type": "way",
+      "id": 193085565,
+      "center": {
+        "lat": 32.6831392,
+        "lon": -114.4704544
+      },
+      "tags": {
+        "building": "industrial",
+        "name": "Gila Gravity Canal Hydroelectric Station",
+        "plant:output:electricity": "yes",
+        "plant:source": "hydro",
+        "power": "plant"
+      },
+      "lat": 32.6831392,
+      "lon": -114.4704544
+    },
+    {
+      "type": "way",
+      "id": 241814440,
+      "center": {
+        "lat": 32.9189099,
+        "lon": -112.9794677
+      },
+      "tags": {
+        "addr:city": "Gila Bend",
+        "addr:postcode": "85337",
+        "addr:state": "AZ",
+        "barrier": "fence",
+        "generator:type": "solar_thermal_collector",
+        "landuse": "industrial",
+        "name": "Solana Generating Station",
+        "operator": "Arizona Solar One LLC",
+        "plant:method": "thermal",
+        "plant:output:electricity": "280 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "56812",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2013-10",
+        "wikidata": "Q7555685",
+        "wikipedia": "en:Solana Generating Station"
+      },
+      "lat": 32.9189099,
+      "lon": -112.9794677
+    },
+    {
+      "type": "way",
+      "id": 255220439,
+      "center": {
+        "lat": 33.4418129,
+        "lon": -112.1562242
+      },
+      "tags": {
+        "addr:city": "Phoenix",
+        "addr:housenumber": "4606",
+        "addr:postcode": "85043",
+        "addr:state": "AZ",
+        "addr:street": "West Hadley",
+        "landuse": "industrial",
+        "name": "West Phoenix Power Plant",
+        "operator": "Arizona Public Service",
+        "plant:method": "combustion",
+        "plant:output:electricity": "1006 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "117",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1948-07",
+        "wikidata": "Q114928141"
+      },
+      "lat": 33.4418129,
+      "lon": -112.1562242
+    },
+    {
+      "type": "way",
+      "id": 263280666,
+      "center": {
+        "lat": 34.8689654,
+        "lon": -114.5331705
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "South Point Energy Center",
+        "operator": "Calpine",
+        "plant:method": "combustion",
+        "plant:output:electricity": "708 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "55177",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2001-06",
+        "website": "https://www.calpine.com/operations/power-operations/our-fleet/arizona/south-point-energy-center",
+        "wikidata": "Q12002135"
+      },
+      "lat": 34.8689654,
+      "lon": -114.5331705
+    },
+    {
+      "type": "way",
+      "id": 292192781,
+      "center": {
+        "lat": 32.1563088,
+        "lon": -110.900238
+      },
+      "tags": {
+        "addr:city": "Tucson",
+        "addr:housenumber": "3950",
+        "addr:postcode": "85714",
+        "addr:state": "AZ",
+        "addr:street": "East Irvington Road",
+        "name": "H Wilson Sundt Generating Station",
+        "operator": "Tucson Electric Power",
+        "operator:wikidata": "Q16897777",
+        "operator:wikipedia": "en:Tucson Electric Power",
+        "plant:method": "combustion;steam",
+        "plant:output:electricity": "528.9 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "126",
+        "source": "https://www.gem.wiki/H._Wilson_Sundt_Generating_Station",
+        "wikidata": "Q17779632"
+      },
+      "lat": 32.1563088,
+      "lon": -110.900238
+    },
+    {
+      "type": "way",
+      "id": 319970478,
+      "center": {
+        "lat": 32.5538089,
+        "lon": -111.2996131
+      },
+      "tags": {
+        "addr:city": "Red Rock",
+        "addr:postcode": "85145",
+        "addr:state": "AZ",
+        "addr:street": "East Camino Adelante",
+        "landuse": "industrial",
+        "name": "Saguaro Power Plant",
+        "operator": "Arizona Public Service",
+        "operator:wikidata": "Q1242804",
+        "plant:method": "combustion",
+        "plant:output:electricity": "184.5 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "118",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1954-07",
+        "wikidata": "Q19387370"
+      },
+      "lat": 32.5538089,
+      "lon": -111.2996131
+    },
+    {
+      "type": "way",
+      "id": 322200420,
+      "center": {
+        "lat": 33.0354166,
+        "lon": -112.6590679
+      },
+      "tags": {
+        "addr:city": "Gila Bend",
+        "addr:housenumber": "45625",
+        "addr:postcode": "85337",
+        "addr:state": "AZ",
+        "addr:street": "South Old Highway 80",
+        "barrier": "fence",
+        "name": "Cotton Center Solar Hybrid",
+        "operator": "Arizona Public Service Co",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "17 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "57561",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2011-11"
+      },
+      "lat": 33.0354166,
+      "lon": -112.6590679
+    },
+    {
+      "type": "way",
+      "id": 328304736,
+      "center": {
+        "lat": 33.3314422,
+        "lon": -111.7505488
+      },
+      "tags": {
+        "addr:city": "Gilbert",
+        "addr:housenumber": "2001",
+        "addr:postcode": "85296",
+        "addr:state": "AZ",
+        "addr:street": "East Warner Road",
+        "landuse": "industrial",
+        "name": "Santan Generating Station",
+        "operator": "Salt River Project",
+        "operator:short": "SRP",
+        "operator:wikidata": "Q7405933",
+        "operator:wikipedia": "en:Salt River Project",
+        "plant:method": "combustion",
+        "plant:output:electricity": "1193 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "8068",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019;esri/USA_NAD_Addresses;esri_USDOT_Arizona",
+        "start_date": "1974-10",
+        "wikidata": "Q19387704"
+      },
+      "lat": 33.3314422,
+      "lon": -111.7505488
+    },
+    {
+      "type": "way",
+      "id": 329132704,
+      "center": {
+        "lat": 33.4232368,
+        "lon": -111.7998664
+      },
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:housenumber": "1404",
+        "addr:postcode": "85203",
+        "addr:state": "AZ",
+        "addr:street": "East University Drive",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 33.4232368,
+      "lon": -111.7998664
+    },
+    {
+      "type": "way",
+      "id": 330795391,
+      "center": {
+        "lat": 32.1729687,
+        "lon": -110.9923396
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 32.1729687,
+      "lon": -110.9923396
+    },
+    {
+      "type": "way",
+      "id": 334236187,
+      "center": {
+        "lat": 33.4992231,
+        "lon": -112.812572
+      },
+      "tags": {
+        "addr:city": "Tonopah",
+        "addr:country": "US",
+        "addr:housenumber": "35324",
+        "addr:postcode": "85354",
+        "addr:state": "AZ",
+        "addr:street": "West Indian School Road",
+        "name": "Badger 1 Solar",
+        "operator": "Desert Sky Solar LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "14.8 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "58262",
+        "source": "MapBox Satellite",
+        "start_date": "2013-11",
+        "website": "https://www.juwisolar.com/projects/badger-1-solar/",
+        "website2": "https://www.pseg.com/family/holdings/global/portfolio.jsp",
+        "wikidata": "Q124472362"
+      },
+      "lat": 33.4992231,
+      "lon": -112.812572
+    },
+    {
+      "type": "way",
+      "id": 338550168,
+      "center": {
+        "lat": 33.3812869,
+        "lon": -113.1843377
+      },
+      "tags": {
+        "addr:city": "Tonopah",
+        "addr:housenumber": "52500",
+        "addr:postcode": "85354",
+        "addr:state": "AZ",
+        "addr:street": "West Baseline Road",
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Saddle Mountain Solar I",
+        "operator": "SunE AZ2 LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "15 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "58213",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2012-12",
+        "wikidata": "Q116718456"
+      },
+      "lat": 33.3812869,
+      "lon": -113.1843377
+    },
+    {
+      "type": "way",
+      "id": 342688404,
+      "center": {
+        "lat": 33.2935072,
+        "lon": -111.6770702
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Polytechnic Ground Mount South",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 33.2935072,
+      "lon": -111.6770702
+    },
+    {
+      "type": "way",
+      "id": 342688405,
+      "center": {
+        "lat": 33.3017238,
+        "lon": -111.683447
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Polytechnic Ground Mount North",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 33.3017238,
+      "lon": -111.683447
+    },
+    {
+      "type": "way",
+      "id": 342688406,
+      "center": {
+        "lat": 33.1547376,
+        "lon": -111.4834604
+      },
+      "tags": {
+        "addr:city": "Florence",
+        "addr:state": "AZ",
+        "generator:method": "photovoltaic",
+        "generator:output:electricity": "20",
+        "generator:source": "solar",
+        "generator:type": "solar_photovoltaic_panel",
+        "name": "Copper Crossing Solar Ranch",
+        "operator": "Iberdrola",
+        "operator:wikidata": "Q1437502",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "55 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "57318",
+        "website": "https://www.fluor.com/projects/copper-crossing-solar-power-construction",
+        "wikidata": "Q124464449"
+      },
+      "lat": 33.1547376,
+      "lon": -111.4834604
+    },
+    {
+      "type": "way",
+      "id": 342688416,
+      "center": {
+        "lat": 32.9172245,
+        "lon": -111.5037906
+      },
+      "tags": {
+        "addr:city": "Coolidge",
+        "addr:state": "AZ",
+        "addr:street": "North Vail Road",
+        "landuse": "industrial",
+        "name": "Coolidge Generation Station",
+        "operator": "Salt River Project",
+        "operator:short": "SRP",
+        "operator:wikidata": "Q7405933",
+        "plant:method": "combustion",
+        "plant:output:electricity": "726 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "56948",
+        "source": "U.S. Energy Information Administration - EIA-860m - 2025",
+        "start_date": "2011-05",
+        "wikidata": "Q114945924"
+      },
+      "lat": 32.9172245,
+      "lon": -111.5037906
+    },
+    {
+      "type": "way",
+      "id": 343409595,
+      "center": {
+        "lat": 33.4777224,
+        "lon": -111.712183
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "source": "MapBox Satellite"
+      },
+      "lat": 33.4777224,
+      "lon": -111.712183
+    },
+    {
+      "type": "way",
+      "id": 343409596,
+      "center": {
+        "lat": 33.4786244,
+        "lon": -111.7145088
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "source": "MapBox Satellite"
+      },
+      "lat": 33.4786244,
+      "lon": -111.7145088
+    },
+    {
+      "type": "way",
+      "id": 351367393,
+      "center": {
+        "lat": 34.8472581,
+        "lon": -111.8338681
+      },
+      "tags": {
+        "addr:state": "AZ",
+        "landuse": "industrial",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 34.8472581,
+      "lon": -111.8338681
+    },
+    {
+      "type": "way",
+      "id": 351369266,
+      "center": {
+        "lat": 34.8454423,
+        "lon": -111.8299736
+      },
+      "tags": {
+        "addr:state": "AZ",
+        "landuse": "industrial",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 34.8454423,
+      "lon": -111.8299736
+    },
+    {
+      "type": "way",
+      "id": 357502539,
+      "center": {
+        "lat": 35.035427,
+        "lon": -114.1604658
+      },
+      "tags": {
+        "addr:city": "Golden Valley",
+        "addr:housenumber": "6625",
+        "addr:postcode": "86413",
+        "addr:state": "AZ",
+        "addr:street": "South Yuma Road",
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Black Mountain Generating Station",
+        "operator": "UNS Electric, Inc",
+        "plant:method": "combustion",
+        "plant:output:electricity": "121 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "56482",
+        "source": "https://www.industryabout.com/country-territories-3/873-usa/fossil-fuels-energy/20668-black-mountain-gas-power-plant",
+        "start_date": "2008-05"
+      },
+      "lat": 35.035427,
+      "lon": -114.1604658
+    },
+    {
+      "type": "way",
+      "id": 361604943,
+      "center": {
+        "lat": 35.1732077,
+        "lon": -111.6525673
+      },
+      "tags": {
+        "addr:state": "AZ",
+        "area": "yes",
+        "landuse": "industrial",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.1732077,
+      "lon": -111.6525673
+    },
+    {
+      "type": "way",
+      "id": 375204568,
+      "center": {
+        "lat": 32.1931992,
+        "lon": -110.8829936
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Actus Lend Lease DMAFB",
+        "operator": "Tesla Inc.",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "3 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "58632",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2009-12"
+      },
+      "lat": 32.1931992,
+      "lon": -110.8829936
+    },
+    {
+      "type": "way",
+      "id": 375204569,
+      "center": {
+        "lat": 32.2592947,
+        "lon": -111.0034625
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 32.2592947,
+      "lon": -111.0034625
+    },
+    {
+      "type": "way",
+      "id": 377580313,
+      "center": {
+        "lat": 32.2897836,
+        "lon": -111.0328827
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Roger Road Waste Water Treatment Plant",
+        "operator": "SunE M5C Holdings LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "57524",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2010-08"
+      },
+      "lat": 32.2897836,
+      "lon": -111.0328827
+    },
+    {
+      "type": "way",
+      "id": 377793939,
+      "center": {
+        "lat": 33.5548747,
+        "lon": -112.2159298
+      },
+      "tags": {
+        "addr:city": "Peoria",
+        "addr:housenumber": "7302",
+        "addr:postcode": "85303",
+        "addr:state": "AZ",
+        "addr:street": "West Northern Avenue",
+        "generator:type": "steam_generator",
+        "landuse": "industrial",
+        "name": "Agua Fria Generating Station",
+        "operator": "Salt River Project",
+        "operator:short": "SRP",
+        "operator:wikidata": "Q7405933",
+        "plant:method": "combustion",
+        "plant:output:electricity": "626 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "141",
+        "source": "https://www.srpnet.com/about/stations/aguafria.aspx;https://en.wikipedia.org/wiki/List_of_power_stations_in_Arizona",
+        "start_date": "1957-04",
+        "website": "https://www.srpnet.com/about/stations/aguafria.aspx",
+        "wikidata": "Q11957052"
+      },
+      "lat": 33.5548747,
+      "lon": -112.2159298
+    },
+    {
+      "type": "way",
+      "id": 380495986,
+      "center": {
+        "lat": 33.2667415,
+        "lon": -111.613266
+      },
+      "tags": {
+        "addr:city": "Queen Creek",
+        "addr:housenumber": "20214",
+        "addr:postcode": "85142",
+        "addr:state": "AZ",
+        "addr:street": "South 220th Street",
+        "barrier": "wall",
+        "industrial": "power_panels",
+        "landuse": "industrial",
+        "name": "Queen Creek Solar Farm",
+        "note": "19 megawatt solar plant. another source says 25 MW plant containing approximately 90,000 crystalline solar panels and 48,400kW solar inverters",
+        "operator": "juwi solar",
+        "owner": "PSEG Solar Source",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "19 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "57883",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2012-10",
+        "wikidata": "Q116718206"
+      },
+      "lat": 33.2667415,
+      "lon": -111.613266
+    },
+    {
+      "type": "way",
+      "id": 386617554,
+      "center": {
+        "lat": 34.3184951,
+        "lon": -109.1642337
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Springerville Generating Station",
+        "operator": "Tucson Electric Power Co",
+        "plant:method": "combustion",
+        "plant:output:electricity": "1765.8 MW",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "8223",
+        "wikidata": "Q12002398"
+      },
+      "lat": 34.3184951,
+      "lon": -109.1642337
+    },
+    {
+      "type": "way",
+      "id": 386625009,
+      "center": {
+        "lat": 34.5781171,
+        "lon": -109.2893739
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "layer": "-5",
+        "name": "Coronado Generation Station",
+        "operator": "Salt River Project",
+        "operator:wikidata": "Q7405933",
+        "plant:method": "combustion",
+        "plant:output:electricity": "821.8 MW",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "6177",
+        "wikidata": "Q17762744"
+      },
+      "lat": 34.5781171,
+      "lon": -109.2893739
+    },
+    {
+      "type": "way",
+      "id": 386638322,
+      "center": {
+        "lat": 33.5907375,
+        "lon": -111.3439323
+      },
+      "tags": {
+        "addr:state": "AZ",
+        "landuse": "industrial",
+        "name": "Horse Mesa Power Station",
+        "operator": "United States Bureau of Reclamation",
+        "plant:output:electricity": "129.5 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "145",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1927-04",
+        "wikidata": "Q5905501",
+        "wikipedia": "en:Horse Mesa Dam"
+      },
+      "lat": 33.5907375,
+      "lon": -111.3439323
+    },
+    {
+      "type": "way",
+      "id": 390267004,
+      "center": {
+        "lat": 34.8333265,
+        "lon": -111.9001841
+      },
+      "tags": {
+        "note": "location_approximate",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 34.8333265,
+      "lon": -111.9001841
+    },
+    {
+      "type": "way",
+      "id": 394530275,
+      "center": {
+        "lat": 32.3678028,
+        "lon": -112.8319708
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "RE Ajo 1 LLC",
+        "operator": "Duke Energy Renewables Services",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "4.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "57795",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2011-08"
+      },
+      "lat": 32.3678028,
+      "lon": -112.8319708
+    },
+    {
+      "type": "way",
+      "id": 397175804,
+      "center": {
+        "lat": 32.9288128,
+        "lon": -111.5895408
+      },
+      "tags": {
+        "addr:city": "Coolidge",
+        "addr:state": "AZ",
+        "addr:street": "West Sundance Road",
+        "landuse": "industrial",
+        "name": "Sundance Generating Station",
+        "operator": "Arizona Public Service",
+        "operator:wikidata": "Q1242804",
+        "plant:method": "combustion",
+        "plant:output:electricity": "440 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "55522",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2002-05",
+        "wikidata": "Q12003962"
+      },
+      "lat": 32.9288128,
+      "lon": -111.5895408
+    },
+    {
+      "type": "way",
+      "id": 419361405,
+      "center": {
+        "lat": 36.9366067,
+        "lon": -111.4837323
+      },
+      "tags": {
+        "name": "Glen Canyon Powerplant",
+        "operator": "United States Bureau of Reclamation",
+        "operator:short": "USBR",
+        "operator:wikidata": "Q1010548",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "1312 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "153",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1964-09",
+        "wikidata": "Q1530724"
+      },
+      "lat": 36.9366067,
+      "lon": -111.4837323
+    },
+    {
+      "type": "way",
+      "id": 419526100,
+      "center": {
+        "lat": 32.4255744,
+        "lon": -111.1515103
+      },
+      "tags": {
+        "addr:city": "Marana",
+        "addr:country": "US",
+        "addr:housenumber": "8600",
+        "addr:postcode": "85658",
+        "addr:state": "AZ",
+        "addr:street": "West Tangerine Road",
+        "barrier": "fence",
+        "description": "When you take part in the Trico Sun Farm, you get all the benefits of rooftop solar without any of the issues. The Sun Farm is located at Trico's office and Trico handles all the maintenance and upkeep.",
+        "name": "Trico Community SunWatts Solar Farm",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "website": "https://youtu.be/z5uz3JtptpY"
+      },
+      "lat": 32.4255744,
+      "lon": -111.1515103
+    },
+    {
+      "type": "way",
+      "id": 451456172,
+      "center": {
+        "lat": 33.671023,
+        "lon": -111.1616037
+      },
+      "tags": {
+        "building": "yes",
+        "landuse": "industrial",
+        "name": "Roosevelt Power Station",
+        "operator": "Salt River Project",
+        "operator:wikidata": "Q7405933",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "36 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "149",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1973-03",
+        "wikidata": "Q979378"
+      },
+      "lat": 33.671023,
+      "lon": -111.1616037
+    },
+    {
+      "type": "way",
+      "id": 475906288,
+      "center": {
+        "lat": 32.5523487,
+        "lon": -111.2850458
+      },
+      "tags": {
+        "addr:city": "Red Rock",
+        "addr:housenumber": "25990",
+        "addr:postcode": "85145",
+        "addr:state": "AZ",
+        "addr:street": "East Camino Adelante Road",
+        "location": "outdoor",
+        "name": "Red Rock Solar Plant",
+        "note": "This is a 400 acre plant that opened 1/2017. 2,286 single-axis trackers supporting 182,880 photovoltaic panels generating 40 megawatts (MWac) of solar energy.",
+        "operator": "Arizona Public Service",
+        "operator:wikidata": "Q1242804",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "40 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60467",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2017-02",
+        "url": "https://www.mccarthy.com/insights/mccarthy-completes-design-construction-arizona-public-service%E2%80%99s-largest-solar-project",
+        "wikidata": "Q124464354"
+      },
+      "lat": 32.5523487,
+      "lon": -111.2850458
+    },
+    {
+      "type": "way",
+      "id": 480283492,
+      "center": {
+        "lat": 33.2561244,
+        "lon": -111.8845548
+      },
+      "tags": {
+        "landuse": "industrial",
+        "power": "plant"
+      },
+      "lat": 33.2561244,
+      "lon": -111.8845548
+    },
+    {
+      "type": "way",
+      "id": 521174101,
+      "center": {
+        "lat": 33.2986017,
+        "lon": -111.795515
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 33.2986017,
+      "lon": -111.795515
+    },
+    {
+      "type": "way",
+      "id": 542825829,
+      "center": {
+        "lat": 32.9490262,
+        "lon": -112.7719505
+      },
+      "tags": {
+        "addr:city": "Gila Bend",
+        "addr:housenumber": "32700",
+        "addr:postcode": "85337",
+        "addr:state": "AZ",
+        "addr:street": "West Powerline Road",
+        "barrier": "fence",
+        "name": "Gila Bend Hybrid",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "32",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "59020",
+        "start_date": "10-2013",
+        "wikidata": "Q124464425"
+      },
+      "lat": 32.9490262,
+      "lon": -112.7719505
+    },
+    {
+      "type": "way",
+      "id": 542828152,
+      "center": {
+        "lat": 33.112615,
+        "lon": -112.6712449
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "RE Gillespie 1 LLC",
+        "operator": "MN8 Energy LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "15 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "58501",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2013-12"
+      },
+      "lat": 33.112615,
+      "lon": -112.6712449
+    },
+    {
+      "type": "way",
+      "id": 542831018,
+      "center": {
+        "lat": 33.0530217,
+        "lon": -111.3406862
+      },
+      "tags": {
+        "addr:city": "Florence",
+        "addr:housenumber": "19240",
+        "addr:postcode": "85132",
+        "addr:state": "AZ",
+        "addr:street": "North Quail Run Road",
+        "barrier": "fence",
+        "name": "Bonnybrooke Solar Project",
+        "operator": "Apple, Inc",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "50 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60413",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2016-11",
+        "wikidata": "Q124464314"
+      },
+      "lat": 33.0530217,
+      "lon": -111.3406862
+    },
+    {
+      "type": "way",
+      "id": 542831019,
+      "center": {
+        "lat": 33.1442022,
+        "lon": -112.6630684
+      },
+      "tags": {
+        "addr:city": "Buckeye",
+        "addr:housenumber": "28100",
+        "addr:postcode": "58326",
+        "addr:state": "AZ",
+        "addr:street": "Judd Rd One",
+        "barrier": "fence",
+        "name": "Desert Star Hybrid",
+        "operator": "Arizona Public Service Co",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "10 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "59444",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2015-09",
+        "wikidata": "Q116720120"
+      },
+      "lat": 33.1442022,
+      "lon": -112.6630684
+    },
+    {
+      "type": "way",
+      "id": 543004994,
+      "center": {
+        "lat": 33.0263522,
+        "lon": -113.3533331
+      },
+      "tags": {
+        "addr:state": "AZ",
+        "name": "Hyder Solar I & II Hybrid",
+        "operator": "Arizona Public Service Co",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "76 MW",
+        "plant:source": "solar;battery",
+        "power": "plant",
+        "ref:US:EIA": "57563;58383",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2011-11",
+        "wikidata": "Q116716121"
+      },
+      "lat": 33.0263522,
+      "lon": -113.3533331
+    },
+    {
+      "type": "way",
+      "id": 543902242,
+      "center": {
+        "lat": 32.639455,
+        "lon": -114.431287
+      },
+      "tags": {
+        "addr:city": "Yuma",
+        "addr:postcode": "85367",
+        "addr:state": "AZ",
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Foothills Solar Plant Hybrid",
+        "operator": "Arizona Public Service Co",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "35 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "57997",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2013-03",
+        "wikidata": "Q116718287"
+      },
+      "lat": 32.639455,
+      "lon": -114.431287
+    },
+    {
+      "type": "way",
+      "id": 563936118,
+      "center": {
+        "lat": 32.3721162,
+        "lon": -111.2833713
+      },
+      "tags": {
+        "addr:city": "Marana",
+        "addr:housenumber": "9602",
+        "addr:postcode": "85653",
+        "addr:state": "AZ",
+        "addr:street": "North Garvey Road",
+        "landuse": "industrial",
+        "name": "Avra Valley Solar",
+        "operator": "NRG Solar Avra Valley",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "25 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "57657",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2013-01",
+        "wikidata": "Q4829384"
+      },
+      "lat": 32.3721162,
+      "lon": -111.2833713
+    },
+    {
+      "type": "way",
+      "id": 563936121,
+      "center": {
+        "lat": 32.370496,
+        "lon": -111.2413753
+      },
+      "tags": {
+        "addr:city": "Marana",
+        "addr:housenumber": "9000",
+        "addr:postcode": "85653",
+        "addr:state": "AZ",
+        "addr:street": "North Sanders Road",
+        "landuse": "industrial",
+        "name": "Picture Rocks Solar",
+        "operator": "NVT LICENSES, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "20 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "58486",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2012-12",
+        "wikidata": "Q116718664"
+      },
+      "lat": 32.370496,
+      "lon": -111.2413753
+    },
+    {
+      "type": "way",
+      "id": 569149507,
+      "center": {
+        "lat": 35.2428326,
+        "lon": -114.1495846
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.2428326,
+      "lon": -114.1495846
+    },
+    {
+      "type": "way",
+      "id": 572244593,
+      "center": {
+        "lat": 33.2798434,
+        "lon": -111.6619642
+      },
+      "tags": {
+        "addr:city": "Mesa",
+        "addr:housenumber": "7930",
+        "addr:postcode": "85212",
+        "addr:state": "AZ",
+        "addr:street": "East Germann Road",
+        "name": "First Solar Research Facility",
+        "operator": "First Solar",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 33.2798434,
+      "lon": -111.6619642
+    },
+    {
+      "type": "way",
+      "id": 582366292,
+      "center": {
+        "lat": 32.0604856,
+        "lon": -109.8940908
+      },
+      "tags": {
+        "addr:city": "Cochise",
+        "addr:housenumber": "3525",
+        "addr:postcode": "85625",
+        "addr:state": "AZ",
+        "addr:street": "North US Highway 191",
+        "landuse": "industrial",
+        "name": "Apache Generating Station",
+        "operator": "Arizona Electric Pwr Coop Inc",
+        "plant:method": "combustion",
+        "plant:output:electricity": "660.7 MW",
+        "plant:source": "gas;coal",
+        "power": "plant",
+        "ref:US:EIA": "160",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1963-02",
+        "wikidata": "Q11958466"
+      },
+      "lat": 32.0604856,
+      "lon": -109.8940908
+    },
+    {
+      "type": "way",
+      "id": 586453217,
+      "center": {
+        "lat": 33.3549643,
+        "lon": -111.9375045
+      },
+      "tags": {
+        "addr:city": "Tempe",
+        "addr:postcode": "85283",
+        "addr:state": "AZ",
+        "landuse": "industrial",
+        "name": "Kyrene Generating Station",
+        "operator": "Salt River Project",
+        "operator:short": "SRP",
+        "operator:wikidata": "Q7405933",
+        "operator:wikipedia": "en:Salt River Project",
+        "plant:method": "combustion",
+        "plant:output:electricity": "521 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "147",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1971-12",
+        "wikidata": "Q19378618"
+      },
+      "lat": 33.3549643,
+      "lon": -111.9375045
+    },
+    {
+      "type": "way",
+      "id": 619636260,
+      "center": {
+        "lat": 32.0665515,
+        "lon": -109.9218973
+      },
+      "tags": {
+        "addr:city": "Cochise",
+        "addr:housenumber": "3625",
+        "addr:postcode": "85606",
+        "addr:state": "AZ",
+        "addr:street": "Cochise Stronghold Road",
+        "name": "Sulphur Springs Solar",
+        "operator": "Goldman Sachs Renewable Power Group",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "20 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60381",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2016-12",
+        "wikidata": "Q124464492"
+      },
+      "lat": 32.0665515,
+      "lon": -109.9218973
+    },
+    {
+      "type": "way",
+      "id": 633140621,
+      "center": {
+        "lat": 35.0232821,
+        "lon": -114.16416
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Black Mountain Solar LLC",
+        "operator": "Black Mountain Solar LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "9 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "58042",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2012-12"
+      },
+      "lat": 35.0232821,
+      "lon": -114.16416
+    },
+    {
+      "type": "way",
+      "id": 655999396,
+      "center": {
+        "lat": 32.4007044,
+        "lon": -111.2553841
+      },
+      "tags": {
+        "addr:city": "Marana",
+        "addr:housenumber": "13420",
+        "addr:postcode": "85653",
+        "addr:state": "AZ",
+        "addr:street": "West Avra Valley Road",
+        "name": "Avion Solar & Battery",
+        "operator": "Trico Electric Cooperative",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "10 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "start_date": "2018",
+        "website": "https://www.trico.coop/"
+      },
+      "lat": 32.4007044,
+      "lon": -111.2553841
+    },
+    {
+      "type": "way",
+      "id": 667583502,
+      "center": {
+        "lat": 33.477187,
+        "lon": -111.7103563
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 33.477187,
+      "lon": -111.7103563
+    },
+    {
+      "type": "way",
+      "id": 672580344,
+      "center": {
+        "lat": 34.9946287,
+        "lon": -114.5555412
+      },
+      "tags": {
+        "name": "Mohave Electric Cooperative at Joy Lane",
+        "operator": "Constellation Solar Arizona 2, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "10 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "63554",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2016-10"
+      },
+      "lat": 34.9946287,
+      "lon": -114.5555412
+    },
+    {
+      "type": "way",
+      "id": 683271814,
+      "center": {
+        "lat": 32.972312,
+        "lon": -113.4934205
+      },
+      "tags": {
+        "addr:city": "Dateland",
+        "addr:housenumber": "67500",
+        "addr:postcode": "85333",
+        "addr:state": "AZ",
+        "addr:street": "East Palomas Road",
+        "fixme": "Finish adding panels",
+        "name": "Agua Caliente Solar Project",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "290 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "57373",
+        "wikidata": "Q2298499",
+        "wikipedia": "en:Agua Caliente Solar Project"
+      },
+      "lat": 32.972312,
+      "lon": -113.4934205
+    },
+    {
+      "type": "way",
+      "id": 683780325,
+      "center": {
+        "lat": 33.4822114,
+        "lon": -112.3482379
+      },
+      "tags": {
+        "addr:city": "Avondale",
+        "addr:housenumber": "3000",
+        "addr:postcode": "85392",
+        "addr:state": "AZ",
+        "addr:street": "North Dysart Road",
+        "barrier": "fence",
+        "name": "Estrella Mountain PV",
+        "operator": "Tesla Inc.",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.8 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60230",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2019-06"
+      },
+      "lat": 33.4822114,
+      "lon": -112.3482379
+    },
+    {
+      "type": "way",
+      "id": 750628044,
+      "center": {
+        "lat": 36.7874012,
+        "lon": -110.2382025
+      },
+      "tags": {
+        "addr:city": "Kayenta",
+        "addr:postcode": "86504",
+        "addr:state": "AZ",
+        "name": "Kayenta PV Solar Plant",
+        "operator": "NGI-Kayenta Solar Lessor I, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "55.3 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61268",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2017-05",
+        "wikidata": "Q124464143"
+      },
+      "lat": 36.7874012,
+      "lon": -110.2382025
+    },
+    {
+      "type": "way",
+      "id": 767941360,
+      "center": {
+        "lat": 32.2639798,
+        "lon": -109.1921916
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 32.2639798,
+      "lon": -109.1921916
+    },
+    {
+      "type": "way",
+      "id": 794925321,
+      "center": {
+        "lat": 32.2386048,
+        "lon": -110.7229548
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 32.2386048,
+      "lon": -110.7229548
+    },
+    {
+      "type": "way",
+      "id": 820347211,
+      "center": {
+        "lat": 33.3438984,
+        "lon": -111.8302538
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 33.3438984,
+      "lon": -111.8302538
+    },
+    {
+      "type": "way",
+      "id": 824963160,
+      "center": {
+        "lat": 35.3029991,
+        "lon": -114.0138193
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Jacobson 5 MW Solar",
+        "operator": "UNS Electric, Inc",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "4.4 MW",
+        "plant:source": "solar",
+        "plant:type": "solar_photovoltaic_panel",
+        "power": "plant",
+        "ref:US:EIA": "60603",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2017-03"
+      },
+      "lat": 35.3029991,
+      "lon": -114.0138193
+    },
+    {
+      "type": "way",
+      "id": 824963161,
+      "center": {
+        "lat": 34.7231171,
+        "lon": -112.4322756
+      },
+      "tags": {
+        "addr:city": "Chino Valley",
+        "addr:housenumber": "1900",
+        "addr:postcode": "86323",
+        "addr:state": "AZ",
+        "addr:street": "East Road 4 South",
+        "barrier": "fence",
+        "name": "Chino Solar Valley",
+        "operator": "Arizona Public Service Co",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "19 MW",
+        "plant:source": "solar",
+        "plant:type": "solar_photovoltaic_panel",
+        "power": "plant",
+        "ref:US:EIA": "57560",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2012-12",
+        "wikidata": "Q116716114"
+      },
+      "lat": 34.7231171,
+      "lon": -112.4322756
+    },
+    {
+      "type": "way",
+      "id": 824963162,
+      "center": {
+        "lat": 34.6767989,
+        "lon": -112.4051652
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Prescott Airport",
+        "operator": "Arizona Public Service Co",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "3 MW",
+        "plant:source": "solar",
+        "plant:type": "solar_photovoltaic_panel",
+        "power": "plant",
+        "ref:US:EIA": "56228",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2002-10"
+      },
+      "lat": 34.6767989,
+      "lon": -112.4051652
+    },
+    {
+      "type": "way",
+      "id": 863908307,
+      "center": {
+        "lat": 32.4008892,
+        "lon": -111.1263301
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "North Loop Power Station",
+        "operator": "Tucson Electric Power Co",
+        "plant:method": "combustion",
+        "plant:output:electricity": "101.8 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "6088",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1972-12",
+        "wikidata": "Q11992620"
+      },
+      "lat": 32.4008892,
+      "lon": -111.1263301
+    },
+    {
+      "type": "way",
+      "id": 863908311,
+      "center": {
+        "lat": 33.5536459,
+        "lon": -111.4435811
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Mormon Flat Power Station",
+        "operator": "Salt River Project",
+        "operator:wikidata": "Q7405933",
+        "plant:output:electricity": "63.5 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "148",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1926-05",
+        "wikidata": "Q6912632"
+      },
+      "lat": 33.5536459,
+      "lon": -111.4435811
+    },
+    {
+      "type": "way",
+      "id": 868455699,
+      "center": {
+        "lat": 32.096733,
+        "lon": -110.8076967
+      },
+      "tags": {
+        "generator:source": "solar",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 32.096733,
+      "lon": -110.8076967
+    },
+    {
+      "type": "way",
+      "id": 868455700,
+      "center": {
+        "lat": 32.0997146,
+        "lon": -110.811082
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "UASTP I",
+        "operator": "Tucson Electric Power Co",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "57392",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2010-12"
+      },
+      "lat": 32.0997146,
+      "lon": -110.811082
+    },
+    {
+      "type": "way",
+      "id": 897605241,
+      "center": {
+        "lat": 32.4019701,
+        "lon": -111.0205371
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 32.4019701,
+      "lon": -111.0205371
+    },
+    {
+      "type": "way",
+      "id": 901699855,
+      "center": {
+        "lat": 33.7035659,
+        "lon": -114.2201545
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 33.7035659,
+      "lon": -114.2201545
+    },
+    {
+      "type": "way",
+      "id": 907546448,
+      "center": {
+        "lat": 32.2163569,
+        "lon": -110.9841405
+      },
+      "tags": {
+        "amenity": "parking",
+        "building": "yes",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 32.2163569,
+      "lon": -110.9841405
+    },
+    {
+      "type": "way",
+      "id": 930825111,
+      "center": {
+        "lat": 33.3839408,
+        "lon": -112.0380369
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 33.3839408,
+      "lon": -112.0380369
+    },
+    {
+      "type": "way",
+      "id": 943635768,
+      "center": {
+        "lat": 31.3653661,
+        "lon": -109.6833885
+      },
+      "tags": {
+        "barrier": "wall",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 31.3653661,
+      "lon": -109.6833885
+    },
+    {
+      "type": "way",
+      "id": 943635769,
+      "center": {
+        "lat": 31.3661234,
+        "lon": -109.6835396
+      },
+      "tags": {
+        "barrier": "wall",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 31.3661234,
+      "lon": -109.6835396
+    },
+    {
+      "type": "way",
+      "id": 943652178,
+      "center": {
+        "lat": 31.335324,
+        "lon": -109.5725116
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 31.335324,
+      "lon": -109.5725116
+    },
+    {
+      "type": "way",
+      "id": 945882996,
+      "center": {
+        "lat": 33.4115829,
+        "lon": -112.3899866
+      },
+      "tags": {
+        "addr:city": "Goodyear",
+        "addr:housenumber": "3829",
+        "addr:postcode": "85338",
+        "addr:state": "AZ",
+        "addr:street": "South Estrella Parkway",
+        "fixme": "missing name",
+        "landuse": "industrial",
+        "plant:method": "combustion",
+        "plant:output:electricity": "yes",
+        "plant:source": "waste",
+        "power": "plant",
+        "source": "esri_USDOT_Arizona"
+      },
+      "lat": 33.4115829,
+      "lon": -112.3899866
+    },
+    {
+      "type": "way",
+      "id": 960202501,
+      "center": {
+        "lat": 32.2521388,
+        "lon": -110.9920706
+      },
+      "tags": {
+        "addr:city": "Tucson",
+        "addr:housenumber": "2501",
+        "addr:postcode": "95705",
+        "addr:state": "AZ",
+        "addr:street": "North Flowing Wells Road",
+        "landuse": "industrial",
+        "name": "Demoss Petrie Power Plant",
+        "operator": "Tucson Electric Power",
+        "operator:wikidata": "Q16897777",
+        "operator:wikipedia": "en:Tucson Electric Power",
+        "plant:method": "combustion",
+        "plant:output:electricity": "85 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "124",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2001-06"
+      },
+      "lat": 32.2521388,
+      "lon": -110.9920706
+    },
+    {
+      "type": "way",
+      "id": 995969871,
+      "center": {
+        "lat": 32.0712029,
+        "lon": -110.8576158
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 32.0712029,
+      "lon": -110.8576158
+    },
+    {
+      "type": "way",
+      "id": 1002426155,
+      "center": {
+        "lat": 33.4664685,
+        "lon": -111.7810695
+      },
+      "tags": {
+        "building": "yes",
+        "landuse": "industrial",
+        "name": "South Consolidated Power Plant",
+        "operator": "Salt River Project",
+        "operator:wikidata": "Q7405933",
+        "plant:output:electricity": "1.4 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "100",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1981-09"
+      },
+      "lat": 33.4664685,
+      "lon": -111.7810695
+    },
+    {
+      "type": "way",
+      "id": 1004052522,
+      "center": {
+        "lat": 34.5985287,
+        "lon": -112.358705
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 34.5985287,
+      "lon": -112.358705
+    },
+    {
+      "type": "way",
+      "id": 1004052529,
+      "center": {
+        "lat": 34.597825,
+        "lon": -112.3588152
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 34.597825,
+      "lon": -112.3588152
+    },
+    {
+      "type": "way",
+      "id": 1016037513,
+      "center": {
+        "lat": 32.1457124,
+        "lon": -110.8807596
+      },
+      "tags": {
+        "name": "Valencia Solar",
+        "operator": "RWE Renewables Americas, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "10 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "59454",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2013-06"
+      },
+      "lat": 32.1457124,
+      "lon": -110.8807596
+    },
+    {
+      "type": "way",
+      "id": 1020898425,
+      "center": {
+        "lat": 35.2414963,
+        "lon": -114.0045566
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "La Senita",
+        "operator": "UNS Electric, Inc",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "57556",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2011-11"
+      },
+      "lat": 35.2414963,
+      "lon": -114.0045566
+    },
+    {
+      "type": "way",
+      "id": 1030801735,
+      "center": {
+        "lat": 32.0369634,
+        "lon": -110.8849332
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Wilmot Energy Center",
+        "operator": "NextEra Energy",
+        "operator:wikidata": "Q967868",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "160 MW",
+        "plant:source": "solar;battery",
+        "plant:storage": "30 MWh",
+        "power": "plant",
+        "ref:US:EIA": "64426",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2021-04",
+        "website": "https://www.tep.com/wec/"
+      },
+      "lat": 32.0369634,
+      "lon": -110.8849332
+    },
+    {
+      "type": "way",
+      "id": 1032696381,
+      "center": {
+        "lat": 34.9839417,
+        "lon": -114.5564403
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Mohave Electric at Fort Mohave",
+        "operator": "Mohave Sunrise Solar I, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "4.4 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "59819",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2015-04"
+      },
+      "lat": 34.9839417,
+      "lon": -114.5564403
+    },
+    {
+      "type": "way",
+      "id": 1036090306,
+      "center": {
+        "lat": 32.2425197,
+        "lon": -111.2583202
+      },
+      "tags": {
+        "name": "Broadway 2 - Tucson Phase II",
+        "operator": "Goldman Sachs Renewable Power Group",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "3 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64580",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2013-12"
+      },
+      "lat": 32.2425197,
+      "lon": -111.2583202
+    },
+    {
+      "type": "way",
+      "id": 1036090307,
+      "center": {
+        "lat": 32.2438163,
+        "lon": -111.2591483
+      },
+      "tags": {
+        "name": "Broadway 3 - Tucson Phase I",
+        "operator": "Goldman Sachs Renewable Power Group",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "65185",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2011-03"
+      },
+      "lat": 32.2438163,
+      "lon": -111.2591483
+    },
+    {
+      "type": "way",
+      "id": 1063508786,
+      "center": {
+        "lat": 32.117257,
+        "lon": -110.8209652
+      },
+      "tags": {
+        "name": "Solon Prairie Fire",
+        "operator": "Tucson Electric Power",
+        "operator:wikidata": "Q16897777",
+        "operator:wikipedia": "en:Tucson Electric Power",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "4.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "58171",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2012-12",
+        "website": "https://www.tep.com/solon-prairie-fire/"
+      },
+      "lat": 32.117257,
+      "lon": -110.8209652
+    },
+    {
+      "type": "way",
+      "id": 1071378079,
+      "center": {
+        "lat": 35.3464866,
+        "lon": -113.9143449
+      },
+      "tags": {
+        "addr:city": "Kingman",
+        "addr:postcode": "86402",
+        "addr:state": "AZ",
+        "landuse": "industrial",
+        "name": "Gray Hawk Solar",
+        "operator": "Gray Hawk Solar, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "55 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61272",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2018-06",
+        "utility": "power",
+        "wikidata": "Q116722392"
+      },
+      "lat": 35.3464866,
+      "lon": -113.9143449
+    },
+    {
+      "type": "way",
+      "id": 1075449147,
+      "center": {
+        "lat": 32.1430145,
+        "lon": -110.8846909
+      },
+      "tags": {
+        "name": "Raptor Ridge",
+        "operator": "Tucson Electric Power Co",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "12.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "65972",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2022-06"
+      },
+      "lat": 32.1430145,
+      "lon": -110.8846909
+    },
+    {
+      "type": "way",
+      "id": 1079635720,
+      "center": {
+        "lat": 34.2589286,
+        "lon": -110.046463
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 34.2589286,
+      "lon": -110.046463
+    },
+    {
+      "type": "way",
+      "id": 1083095028,
+      "center": {
+        "lat": 32.0413134,
+        "lon": -110.8904014
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:source": "battery",
+        "power": "plant"
+      },
+      "lat": 32.0413134,
+      "lon": -110.8904014
+    },
+    {
+      "type": "way",
+      "id": 1086575008,
+      "center": {
+        "lat": 32.0304163,
+        "lon": -110.9581804
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Avalon Solar",
+        "operator": "CD Arevon USA, Inc.",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "29 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "59168",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2014-12"
+      },
+      "lat": 32.0304163,
+      "lon": -110.9581804
+    },
+    {
+      "type": "way",
+      "id": 1087115377,
+      "center": {
+        "lat": 31.3636507,
+        "lon": -109.5523893
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Douglas Power Plant",
+        "operator": "Arizona Public Service Co",
+        "plant:method": "combustion",
+        "plant:output:electricity": "26.1 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "114",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1972-05"
+      },
+      "lat": 31.3636507,
+      "lon": -109.5523893
+    },
+    {
+      "type": "way",
+      "id": 1087115383,
+      "center": {
+        "lat": 31.5563748,
+        "lon": -110.3201124
+      },
+      "tags": {
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "name": "Fort Huachuca Solar PV Project",
+        "operator": "Tucson Electric Power Co",
+        "plant:output:electricity": "17.7 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "58972",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2014-12"
+      },
+      "lat": 31.5563748,
+      "lon": -110.3201124
+    },
+    {
+      "type": "way",
+      "id": 1087115384,
+      "center": {
+        "lat": 32.0677855,
+        "lon": -109.8887622
+      },
+      "tags": {
+        "addr:city": "Cochise",
+        "addr:housenumber": "3800",
+        "addr:postcode": "85625",
+        "addr:state": "AZ",
+        "addr:street": "North US Highway 191",
+        "barrier": "fence",
+        "name": "Apache Solar 1",
+        "operator": "Arizona Electric Pwr Coop Inc",
+        "plant:output:electricity": "20 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60964",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2017-10",
+        "wikidata": "Q116722353"
+      },
+      "lat": 32.0677855,
+      "lon": -109.8887622
+    },
+    {
+      "type": "way",
+      "id": 1089493750,
+      "center": {
+        "lat": 34.5044642,
+        "lon": -110.334308
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Novo BioPower Plant",
+        "operator": "Novo Biopower LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "27.2 MW",
+        "plant:source": "biomass",
+        "power": "plant",
+        "ref:US:EIA": "56616",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2008-06"
+      },
+      "lat": 34.5044642,
+      "lon": -110.334308
+    },
+    {
+      "type": "way",
+      "id": 1089514830,
+      "center": {
+        "lat": 33.4392432,
+        "lon": -111.9459926
+      },
+      "tags": {
+        "name": "Crosscut Power Plant",
+        "operator": "Salt River Project",
+        "operator:short": "SRP",
+        "operator:wikidata": "Q7405933",
+        "plant:output:electricity": "3 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "143",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1939-07"
+      },
+      "lat": 33.4392432,
+      "lon": -111.9459926
+    },
+    {
+      "type": "way",
+      "id": 1089514831,
+      "center": {
+        "lat": 33.5663013,
+        "lon": -111.5362902
+      },
+      "tags": {
+        "name": "Stewart Mountain Power Plant",
+        "operator": "Salt River Project",
+        "operator:wikidata": "Q7405933",
+        "plant:output:electricity": "13 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "150",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1930-03",
+        "wikidata": "Q7615896"
+      },
+      "lat": 33.5663013,
+      "lon": -111.5362902
+    },
+    {
+      "type": "way",
+      "id": 1089514832,
+      "center": {
+        "lat": 34.1681464,
+        "lon": -114.2774065
+      },
+      "tags": {
+        "name": "Headgate Rock Power Plant",
+        "operator": "Colorado River Indian Irr Proj",
+        "plant:output:electricity": "19.5 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "7179",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1993-03"
+      },
+      "lat": 34.1681464,
+      "lon": -114.2774065
+    },
+    {
+      "type": "way",
+      "id": 1089514833,
+      "center": {
+        "lat": 32.0426465,
+        "lon": -110.9590174
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Avalon Solar II",
+        "operator": "Avalon Solar Partners II, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "16 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60062",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2016-03"
+      },
+      "lat": 32.0426465,
+      "lon": -110.9590174
+    },
+    {
+      "type": "way",
+      "id": 1089514835,
+      "center": {
+        "lat": 32.1074447,
+        "lon": -110.8234826
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "FRB Solar Farm",
+        "operator": "FRB Solar LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.9 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "57930",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2011-04"
+      },
+      "lat": 32.1074447,
+      "lon": -110.8234826
+    },
+    {
+      "type": "way",
+      "id": 1089514838,
+      "center": {
+        "lat": 32.1023113,
+        "lon": -110.8129153
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Cogenra - TEP",
+        "operator": "Terraform Arcadia",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "58832",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2014-07"
+      },
+      "lat": 32.1023113,
+      "lon": -110.8129153
+    },
+    {
+      "type": "way",
+      "id": 1089514839,
+      "center": {
+        "lat": 32.2514925,
+        "lon": -110.9914469
+      },
+      "tags": {
+        "addr:city": "Tucson",
+        "addr:postcode": "95705",
+        "addr:state": "AZ",
+        "addr:street": "North Flowing Wells Road",
+        "landuse": "industrial",
+        "name": "Pima Energy Storage System",
+        "operator": "Pima Energy Storage System",
+        "plant:output:electricity": "10 MW",
+        "plant:source": "battery",
+        "power": "plant",
+        "ref:US:EIA": "61197",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2017-01"
+      },
+      "lat": 32.2514925,
+      "lon": -110.9914469
+    },
+    {
+      "type": "way",
+      "id": 1090680235,
+      "center": {
+        "lat": 31.7023166,
+        "lon": -110.6349115
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 31.7023166,
+      "lon": -110.6349115
+    },
+    {
+      "type": "way",
+      "id": 1090694719,
+      "center": {
+        "lat": 31.6724983,
+        "lon": -110.656586
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 31.6724983,
+      "lon": -110.656586
+    },
+    {
+      "type": "way",
+      "id": 1108581092,
+      "center": {
+        "lat": 32.5176498,
+        "lon": -110.9534324
+      },
+      "tags": {
+        "addr:city": "Catalina",
+        "addr:housenumber": "57644",
+        "addr:postcode": "85739",
+        "addr:state": "AZ",
+        "addr:street": "West Edwin Road",
+        "name": "Chirreon",
+        "operator": "Trico Electric Cooperative",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "10 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "start_date": "2022-10-06"
+      },
+      "lat": 32.5176498,
+      "lon": -110.9534324
+    },
+    {
+      "type": "way",
+      "id": 1108581093,
+      "center": {
+        "lat": 32.5124948,
+        "lon": -110.9498991
+      },
+      "tags": {
+        "addr:city": "Catalina",
+        "addr:housenumber": "57644",
+        "addr:postcode": "85739",
+        "addr:state": "AZ",
+        "addr:street": "West Edwin Road",
+        "name": "Chirreon",
+        "operator": "Trico Electric Cooperative",
+        "plant:output:electricity": "15 MW",
+        "plant:source": "battery",
+        "plant:type": "lithium_ion",
+        "power": "plant",
+        "start_date": "2022-10-06"
+      },
+      "lat": 32.5124948,
+      "lon": -110.9498991
+    },
+    {
+      "type": "way",
+      "id": 1110957623,
+      "center": {
+        "lat": 32.1702234,
+        "lon": -111.0949393
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 32.1702234,
+      "lon": -111.0949393
+    },
+    {
+      "type": "way",
+      "id": 1118230066,
+      "center": {
+        "lat": 34.587503,
+        "lon": -112.2750787
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 34.587503,
+      "lon": -112.2750787
+    },
+    {
+      "type": "way",
+      "id": 1118230067,
+      "center": {
+        "lat": 34.5866976,
+        "lon": -112.2759176
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 34.5866976,
+      "lon": -112.2759176
+    },
+    {
+      "type": "way",
+      "id": 1118230068,
+      "center": {
+        "lat": 34.5864995,
+        "lon": -112.2750554
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 34.5864995,
+      "lon": -112.2750554
+    },
+    {
+      "type": "way",
+      "id": 1147401981,
+      "center": {
+        "lat": 33.7711311,
+        "lon": -113.6539459
+      },
+      "tags": {
+        "addr:city": "Salome",
+        "addr:postcode": "85348",
+        "addr:state": "AZ",
+        "barrier": "fence",
+        "name": "OE AZ 21",
+        "operator": "Erigis Energy",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "32 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "63349"
+      },
+      "lat": 33.7711311,
+      "lon": -113.6539459
+    },
+    {
+      "type": "way",
+      "id": 1150325373,
+      "center": {
+        "lat": 33.8184615,
+        "lon": -112.241618
+      },
+      "tags": {
+        "name": "Lake Pleasant WTP",
+        "operator": "MN8 Energy LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "6.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "58539",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2012-12"
+      },
+      "lat": 33.8184615,
+      "lon": -112.241618
+    },
+    {
+      "type": "way",
+      "id": 1153911383,
+      "center": {
+        "lat": 33.4180284,
+        "lon": -112.5753058
+      },
+      "tags": {
+        "name": "Buckeye Union HS District 201",
+        "operator": "Luminace Solar Arizona, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "3.3 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "58037",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2011-12"
+      },
+      "lat": 33.4180284,
+      "lon": -112.5753058
+    },
+    {
+      "type": "way",
+      "id": 1153932352,
+      "center": {
+        "lat": 32.8686993,
+        "lon": -111.7714917
+      },
+      "tags": {
+        "name": "Walmart Casa Grande",
+        "operator": "Tesla Inc.",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "57939",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2011-06"
+      },
+      "lat": 32.8686993,
+      "lon": -111.7714917
+    },
+    {
+      "type": "way",
+      "id": 1153932542,
+      "center": {
+        "lat": 33.3546812,
+        "lon": -111.8057467
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 33.3546812,
+      "lon": -111.8057467
+    },
+    {
+      "type": "way",
+      "id": 1154374550,
+      "center": {
+        "lat": 32.9369193,
+        "lon": -113.4891235
+      },
+      "tags": {
+        "name": "McFarland A Solar and Storage",
+        "operator": "AES Clean Energy",
+        "operator:wikidata": "Q291508",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "300 MW",
+        "plant:source": "solar;battery",
+        "plant:storage": "400 MWh",
+        "power": "plant",
+        "ref:US:EIA": "66636",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2023-12"
+      },
+      "lat": 32.9369193,
+      "lon": -113.4891235
+    },
+    {
+      "type": "way",
+      "id": 1157243724,
+      "center": {
+        "lat": 31.7293889,
+        "lon": -110.0721567
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 31.7293889,
+      "lon": -110.0721567
+    },
+    {
+      "type": "way",
+      "id": 1157243725,
+      "center": {
+        "lat": 31.7286322,
+        "lon": -110.0716932
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 31.7286322,
+      "lon": -110.0716932
+    },
+    {
+      "type": "way",
+      "id": 1158981929,
+      "center": {
+        "lat": 33.4303159,
+        "lon": -112.0449151
+      },
+      "tags": {
+        "location": "roof",
+        "name": "Phoenix Airport Rental Car Center",
+        "operator": "SunStrong Management, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.6 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "58709",
+        "source": "U.S. Energy Information Administration - EIA-860m - 2025",
+        "start_date": "2012-12"
+      },
+      "lat": 33.4303159,
+      "lon": -112.0449151
+    },
+    {
+      "type": "way",
+      "id": 1162862049,
+      "center": {
+        "lat": 32.7595938,
+        "lon": -111.5588054
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 32.7595938,
+      "lon": -111.5588054
+    },
+    {
+      "type": "way",
+      "id": 1173738553,
+      "center": {
+        "lat": 33.3408034,
+        "lon": -112.9194435
+      },
+      "tags": {
+        "addr:city": "Tonopah",
+        "addr:housenumber": "39903",
+        "addr:postcode": "85354",
+        "addr:state": "AZ",
+        "addr:street": "West Elliot Road",
+        "name": "Mesquite Solar 1",
+        "operator": "Consolidated Edison Development Inc.",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "170 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "57707",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2011-11"
+      },
+      "lat": 33.3408034,
+      "lon": -112.9194435
+    },
+    {
+      "type": "way",
+      "id": 1173738554,
+      "center": {
+        "lat": 33.3408475,
+        "lon": -112.9503298
+      },
+      "tags": {
+        "addr:city": "Tonopah",
+        "addr:housenumber": "39903",
+        "addr:postcode": "85354",
+        "addr:state": "AZ",
+        "addr:street": "West Elliot Road",
+        "barrier": "fence",
+        "name": "Mesquite Solar 3",
+        "operator": "Consolidated Edison Development Inc.",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "150 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60308",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2016-12"
+      },
+      "lat": 33.3408475,
+      "lon": -112.9503298
+    },
+    {
+      "type": "way",
+      "id": 1173738555,
+      "center": {
+        "lat": 33.3336218,
+        "lon": -112.9193071
+      },
+      "tags": {
+        "addr:city": "Tonopah",
+        "addr:housenumber": "39903",
+        "addr:postcode": "85354",
+        "addr:state": "AZ",
+        "addr:street": "West Elliot Road",
+        "barrier": "fence",
+        "name": "Mesquite Solar 2",
+        "operator": "Consolidated Edison Development Inc.",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "100 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60307",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2016-12"
+      },
+      "lat": 33.3336218,
+      "lon": -112.9193071
+    },
+    {
+      "type": "way",
+      "id": 1173847031,
+      "center": {
+        "lat": 32.2587105,
+        "lon": -110.1590288
+      },
+      "tags": {
+        "name": "Red Horse II",
+        "operator": "Red Horse 2",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "51 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref": "RH2S",
+        "ref:US:EIA": "58833",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2015-08"
+      },
+      "lat": 32.2587105,
+      "lon": -110.1590288
+    },
+    {
+      "type": "way",
+      "id": 1173847032,
+      "center": {
+        "lat": 32.2656334,
+        "lon": -110.1576927
+      },
+      "tags": {
+        "addr:city": "Wilcox",
+        "addr:housenumber": "5529",
+        "addr:postcode": "85643",
+        "addr:state": "AZ",
+        "addr:street": "North Muleshoe Road",
+        "name": "Red Horse III",
+        "operator": "Torch Renewable Energy",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "30 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60285",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2016-07",
+        "wikidata": "Q124464123"
+      },
+      "lat": 32.2656334,
+      "lon": -110.1576927
+    },
+    {
+      "type": "way",
+      "id": 1181875265,
+      "center": {
+        "lat": 36.0784283,
+        "lon": -112.1267183
+      },
+      "tags": {
+        "landuse": "industrial",
+        "power": "plant"
+      },
+      "lat": 36.0784283,
+      "lon": -112.1267183
+    },
+    {
+      "type": "way",
+      "id": 1192293041,
+      "center": {
+        "lat": 33.5533964,
+        "lon": -112.2126626
+      },
+      "tags": {
+        "addr:city": "Peoria",
+        "addr:housenumber": "7302",
+        "addr:postcode": "85303",
+        "addr:state": "AZ",
+        "addr:street": "West Northern Avenue",
+        "generator:output:electricity": "25 MW",
+        "generator:source": "battery",
+        "landuse": "industrial",
+        "operator": "Salt River Project",
+        "operator:short": "SRP",
+        "operator:wikidata": "Q7405933",
+        "plant:output:electricity": "25 MW",
+        "plant:source": "battery",
+        "power": "plant",
+        "start_date": "09-2021"
+      },
+      "lat": 33.5533964,
+      "lon": -112.2126626
+    },
+    {
+      "type": "way",
+      "id": 1199342887,
+      "center": {
+        "lat": 33.3127045,
+        "lon": -111.2911414
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 33.3127045,
+      "lon": -111.2911414
+    },
+    {
+      "type": "way",
+      "id": 1207813466,
+      "center": {
+        "lat": 34.2362201,
+        "lon": -111.3335558
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 34.2362201,
+      "lon": -111.3335558
+    },
+    {
+      "type": "way",
+      "id": 1232485300,
+      "center": {
+        "lat": 33.6600221,
+        "lon": -112.2994219
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 33.6600221,
+      "lon": -112.2994219
+    },
+    {
+      "type": "way",
+      "id": 1232535566,
+      "center": {
+        "lat": 33.569703,
+        "lon": -112.3049706
+      },
+      "tags": {
+        "name": "El Sol BESS",
+        "operator": "Invenergy Services LLC",
+        "plant:output:electricity": "50 MW",
+        "plant:source": "battery",
+        "power": "plant",
+        "ref:US:EIA": "62964",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2023-02"
+      },
+      "lat": 33.569703,
+      "lon": -112.3049706
+    },
+    {
+      "type": "way",
+      "id": 1242327039,
+      "center": {
+        "lat": 31.3635442,
+        "lon": -110.9319558
+      },
+      "tags": {
+        "addr:city": "Nogales",
+        "addr:state": "AZ",
+        "landuse": "industrial",
+        "name": "Valencia Power Plant",
+        "operator": "UniSource Energy Services",
+        "plant:method": "combustion",
+        "plant:output:electricity": "108 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "6515",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "1989-08",
+        "wikidata": "Q124463895"
+      },
+      "lat": 31.3635442,
+      "lon": -110.9319558
+    },
+    {
+      "type": "way",
+      "id": 1243338550,
+      "center": {
+        "lat": 32.1847228,
+        "lon": -110.9638288
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 32.1847228,
+      "lon": -110.9638288
+    },
+    {
+      "type": "way",
+      "id": 1248271295,
+      "center": {
+        "lat": 33.0248722,
+        "lon": -112.6586728
+      },
+      "tags": {
+        "addr:city": "Gila Bend",
+        "addr:housenumber": "46700",
+        "addr:postcode": "85337",
+        "addr:state": "AZ",
+        "addr:street": "South Old US 80",
+        "landuse": "industrial",
+        "name": "Paloma Solar Hybrid",
+        "operator": "Arizona Public Service Co",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "17 MW",
+        "plant:source": "battery",
+        "power": "plant",
+        "source": "https://www.gridinfo.com/plant/paloma-solar-hybrid/57562",
+        "start_date": "04-2023"
+      },
+      "lat": 33.0248722,
+      "lon": -112.6586728
+    },
+    {
+      "type": "way",
+      "id": 1248274381,
+      "center": {
+        "lat": 33.145102,
+        "lon": -112.6595909
+      },
+      "tags": {
+        "addr:city": "Buckeye",
+        "addr:state": "AZ",
+        "landuse": "industrial",
+        "name": "Desert Star Hybrid",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "10 MW",
+        "plant:source": "battery",
+        "power": "plant"
+      },
+      "lat": 33.145102,
+      "lon": -112.6595909
+    },
+    {
+      "type": "way",
+      "id": 1266349767,
+      "center": {
+        "lat": 33.3556978,
+        "lon": -112.9105778
+      },
+      "tags": {
+        "addr:city": "Tonopah",
+        "addr:housenumber": "39904",
+        "addr:postcode": "85354",
+        "addr:state": "AZ",
+        "addr:street": "West Elliot Road",
+        "barrier": "fence",
+        "name": "Mesquite Solar 4",
+        "operator": "Consolidated Edison Development Inc.",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "52.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "65962",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022"
+      },
+      "lat": 33.3556978,
+      "lon": -112.9105778
+    },
+    {
+      "type": "way",
+      "id": 1266349768,
+      "center": {
+        "lat": 33.3259076,
+        "lon": -112.9169957
+      },
+      "tags": {
+        "addr:city": "Tonopah",
+        "addr:housenumber": "13701",
+        "addr:postcode": "85354",
+        "addr:state": "AZ",
+        "addr:street": "South 411th Street",
+        "barrier": "fence",
+        "name": "Mesquite Solar 5",
+        "operator": "RWE Clean Energy",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "120 MW",
+        "plant:source": "battery;solar",
+        "power": "plant",
+        "ref:US:EIA": "65963",
+        "source": "U.S. Energy Information Administration - EIA-860m - 2025",
+        "start_date": "2023-07"
+      },
+      "lat": 33.3259076,
+      "lon": -112.9169957
+    },
+    {
+      "type": "way",
+      "id": 1296429019,
+      "center": {
+        "lat": 33.2390474,
+        "lon": -112.5714404
+      },
+      "tags": {
+        "addr:city": "Buckeye",
+        "addr:housenumber": "22615",
+        "addr:postcode": "85326",
+        "addr:state": "AZ",
+        "addr:street": "South State Road 85,",
+        "generator:output:electricity": "250",
+        "generator:source": "battery",
+        "landuse": "industrial",
+        "name": "Sonoran Solar Project",
+        "operator": "Sonoran Solar Energy, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "260 MW",
+        "plant:source": "battery",
+        "power": "plant",
+        "start_date": "07-2023"
+      },
+      "lat": 33.2390474,
+      "lon": -112.5714404
+    },
+    {
+      "type": "way",
+      "id": 1296461185,
+      "center": {
+        "lat": 33.4105555,
+        "lon": -112.3132969
+      },
+      "tags": {
+        "name": "Sierra Estrella Energy Storage facility",
+        "operator": "Plus Power",
+        "plant:output:electricity": "250 MW",
+        "plant:source": "battery",
+        "power": "plant",
+        "ref:US:EIA": "66334",
+        "source": "https://www.power-eng.com/energy-storage/batteries/two-new-battery-storage-projects-coming-online-in-arizona/",
+        "start_date": "2024-06",
+        "wikidata": "Q126913713"
+      },
+      "lat": 33.4105555,
+      "lon": -112.3132969
+    },
+    {
+      "type": "way",
+      "id": 1300774731,
+      "center": {
+        "lat": 32.9426606,
+        "lon": -112.7708459
+      },
+      "tags": {
+        "addr:city": "Gila Bend",
+        "addr:housenumber": "32700",
+        "addr:postcode": "85337",
+        "addr:state": "AZ",
+        "addr:street": "West Powerline Road",
+        "landuse": "industrial",
+        "name": "Gila Bend Hybrid",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "32 MW",
+        "plant:source": "battery",
+        "power": "plant",
+        "start_date": "04-2023"
+      },
+      "lat": 32.9426606,
+      "lon": -112.7708459
+    },
+    {
+      "type": "way",
+      "id": 1303181285,
+      "center": {
+        "lat": 33.2272159,
+        "lon": -111.8372772
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 33.2272159,
+      "lon": -111.8372772
+    },
+    {
+      "type": "way",
+      "id": 1305298209,
+      "center": {
+        "lat": 34.6100677,
+        "lon": -111.9182648
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 34.6100677,
+      "lon": -111.9182648
+    },
+    {
+      "type": "way",
+      "id": 1305307225,
+      "center": {
+        "lat": 34.6561379,
+        "lon": -111.7670594
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 34.6561379,
+      "lon": -111.7670594
+    },
+    {
+      "type": "way",
+      "id": 1306275776,
+      "center": {
+        "lat": 32.8667448,
+        "lon": -109.7690654
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 32.8667448,
+      "lon": -109.7690654
+    },
+    {
+      "type": "way",
+      "id": 1323442628,
+      "center": {
+        "lat": 34.2416473,
+        "lon": -110.0323215
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 34.2416473,
+      "lon": -110.0323215
+    },
+    {
+      "type": "way",
+      "id": 1330740618,
+      "center": {
+        "lat": 35.2223975,
+        "lon": -114.1992039
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.2223975,
+      "lon": -114.1992039
+    },
+    {
+      "type": "way",
+      "id": 1330783352,
+      "center": {
+        "lat": 32.652876,
+        "lon": -114.6334669
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 32.652876,
+      "lon": -114.6334669
+    },
+    {
+      "type": "way",
+      "id": 1341675154,
+      "center": {
+        "lat": 34.9934323,
+        "lon": -114.548381
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Mohave Energy - Hybrid",
+        "operator": "Mohave Energy",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "32.6 MW",
+        "plant:source": "battery;solar",
+        "power": "plant",
+        "ref:US:EIA": "67178",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2023-09"
+      },
+      "lat": 34.9934323,
+      "lon": -114.548381
+    },
+    {
+      "type": "way",
+      "id": 1350399221,
+      "center": {
+        "lat": 33.384492,
+        "lon": -111.5379999
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 33.384492,
+      "lon": -111.5379999
+    },
+    {
+      "type": "way",
+      "id": 1361057768,
+      "center": {
+        "lat": 32.1708202,
+        "lon": -111.0957963
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 32.1708202,
+      "lon": -111.0957963
+    },
+    {
+      "type": "way",
+      "id": 1361057769,
+      "center": {
+        "lat": 32.1725499,
+        "lon": -111.0945533
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 32.1725499,
+      "lon": -111.0945533
+    },
+    {
+      "type": "way",
+      "id": 1368515286,
+      "center": {
+        "lat": 36.9284227,
+        "lon": -110.0904459
+      },
+      "tags": {
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 36.9284227,
+      "lon": -110.0904459
+    },
+    {
+      "type": "way",
+      "id": 1386981973,
+      "center": {
+        "lat": 32.1114046,
+        "lon": -110.9443737
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 32.1114046,
+      "lon": -110.9443737
+    },
+    {
+      "type": "way",
+      "id": 1387907135,
+      "center": {
+        "lat": 34.4969763,
+        "lon": -109.3832082
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 34.4969763,
+      "lon": -109.3832082
+    },
+    {
+      "type": "way",
+      "id": 1390566018,
+      "center": {
+        "lat": 33.2126003,
+        "lon": -111.5665986
+      },
+      "tags": {
+        "name": "Banner Solar Ironwood",
+        "operator": "Banner Solar Ironwood LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.4 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "68433",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2021-12"
+      },
+      "lat": 33.2126003,
+      "lon": -111.5665986
+    },
+    {
+      "type": "way",
+      "id": 1395322878,
+      "center": {
+        "lat": 34.128061,
+        "lon": -109.2830265
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 34.128061,
+      "lon": -109.2830265
+    },
+    {
+      "type": "way",
+      "id": 1395322880,
+      "center": {
+        "lat": 34.1342227,
+        "lon": -109.2883222
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 34.1342227,
+      "lon": -109.2883222
+    },
+    {
+      "type": "way",
+      "id": 1416616639,
+      "center": {
+        "lat": 33.1531584,
+        "lon": -111.4712276
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Copper Crossing Energy and Research Cent",
+        "operator": "Salt River Project",
+        "operator:short": "SRP",
+        "operator:wikidata": "Q7405933",
+        "plant:method": "combustion",
+        "plant:output:electricity": "99.8 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "58413",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2024-06"
+      },
+      "lat": 33.1531584,
+      "lon": -111.4712276
+    },
+    {
+      "type": "way",
+      "id": 1417905586,
+      "center": {
+        "lat": 32.8694653,
+        "lon": -111.5128198
+      },
+      "tags": {
+        "name": "Saint Energy Storage II LLC",
+        "operator": "Saint Energy Storage II LLC",
+        "plant:output:electricity": "100 MW",
+        "plant:source": "battery",
+        "plant:type": "lithium_ion",
+        "power": "plant",
+        "ref:US:EIA": "66716",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2023-09"
+      },
+      "lat": 32.8694653,
+      "lon": -111.5128198
+    },
+    {
+      "type": "way",
+      "id": 1417905587,
+      "center": {
+        "lat": 32.9196563,
+        "lon": -111.503873
+      },
+      "tags": {
+        "plant:source": "battery",
+        "plant:type": "lithium_ion",
+        "power": "plant"
+      },
+      "lat": 32.9196563,
+      "lon": -111.503873
+    },
+    {
+      "type": "way",
+      "id": 1417910341,
+      "center": {
+        "lat": 32.4016079,
+        "lon": -111.2514324
+      },
+      "tags": {
+        "name": "Avion Solar & Battery",
+        "operator": "Trico Electric Cooperative",
+        "plant:output:electricity": "15 MW",
+        "plant:source": "battery",
+        "plant:type": "lithium_ion",
+        "power": "plant"
+      },
+      "lat": 32.4016079,
+      "lon": -111.2514324
+    },
+    {
+      "type": "way",
+      "id": 1426273298,
+      "center": {
+        "lat": 34.7462166,
+        "lon": -112.0148474
+      },
+      "tags": {
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 34.7462166,
+      "lon": -112.0148474
+    },
+    {
+      "type": "way",
+      "id": 1434976923,
+      "center": {
+        "lat": 33.8726699,
+        "lon": -111.4710826
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 33.8726699,
+      "lon": -111.4710826
+    },
+    {
+      "type": "way",
+      "id": 1444307441,
+      "center": {
+        "lat": 32.6320266,
+        "lon": -114.4285495
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 32.6320266,
+      "lon": -114.4285495
+    },
+    {
+      "type": "way",
+      "id": 1446651964,
+      "center": {
+        "lat": 34.7137228,
+        "lon": -112.0304861
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 34.7137228,
+      "lon": -112.0304861
+    },
+    {
+      "type": "way",
+      "id": 1449490246,
+      "center": {
+        "lat": 32.9405779,
+        "lon": -112.6797844
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 32.9405779,
+      "lon": -112.6797844
+    },
+    {
+      "type": "way",
+      "id": 1449490247,
+      "center": {
+        "lat": 32.9405089,
+        "lon": -112.6798771
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 32.9405089,
+      "lon": -112.6798771
+    },
+    {
+      "type": "way",
+      "id": 1449490248,
+      "center": {
+        "lat": 32.9404983,
+        "lon": -112.6796336
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 32.9404983,
+      "lon": -112.6796336
+    },
+    {
+      "type": "way",
+      "id": 1450141351,
+      "center": {
+        "lat": 32.8978011,
+        "lon": -112.6865165
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 32.8978011,
+      "lon": -112.6865165
+    },
+    {
+      "type": "way",
+      "id": 1452685034,
+      "center": {
+        "lat": 35.2227743,
+        "lon": -114.0419093
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.2227743,
+      "lon": -114.0419093
+    },
+    {
+      "type": "way",
+      "id": 1452685148,
+      "center": {
+        "lat": 35.2241487,
+        "lon": -114.0438384
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 35.2241487,
+      "lon": -114.0438384
+    },
+    {
+      "type": "way",
+      "id": 1454370835,
+      "center": {
+        "lat": 34.7189336,
+        "lon": -112.430445
+      },
+      "tags": {
+        "plant:source": "battery",
+        "power": "plant"
+      },
+      "lat": 34.7189336,
+      "lon": -112.430445
+    },
+    {
+      "type": "way",
+      "id": 1454373213,
+      "center": {
+        "lat": 33.3589252,
+        "lon": -111.8309887
+      },
+      "tags": {
+        "name": "Superstition Energy Storage",
+        "operator": "Superstition Energy Storage, LLC",
+        "plant:output:electricity": "90 MW",
+        "plant:source": "battery",
+        "power": "plant",
+        "ref:US:EIA": "66333",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2024-07"
+      },
+      "lat": 33.3589252,
+      "lon": -111.8309887
+    },
+    {
+      "type": "way",
+      "id": 1454380103,
+      "center": {
+        "lat": 32.6480883,
+        "lon": -114.4297274
+      },
+      "tags": {
+        "plant:source": "battery",
+        "power": "plant"
+      },
+      "lat": 32.6480883,
+      "lon": -114.4297274
+    },
+    {
+      "type": "way",
+      "id": 1459739866,
+      "center": {
+        "lat": 31.6577167,
+        "lon": -110.4128712
+      },
+      "tags": {
+        "name": "Babacomari Solar Project",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "160 MW",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 31.6577167,
+      "lon": -110.4128712
+    },
+    {
+      "type": "way",
+      "id": 1460385271,
+      "center": {
+        "lat": 33.6642518,
+        "lon": -113.4025458
+      },
+      "tags": {
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 33.6642518,
+      "lon": -113.4025458
+    },
+    {
+      "type": "way",
+      "id": 1462851578,
+      "center": {
+        "lat": 33.0079736,
+        "lon": -113.5041655
+      },
+      "tags": {
+        "name": "White Wing Solar",
+        "operator": "Leeward Asset Management, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "179 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60572",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2024-10"
+      },
+      "lat": 33.0079736,
+      "lon": -113.5041655
+    },
+    {
+      "type": "way",
+      "id": 1465214978,
+      "center": {
+        "lat": 33.3226747,
+        "lon": -112.8760458
+      },
+      "tags": {
+        "name": "Arlington Valley Solar Energy I",
+        "operator": "Consolidated Edison Development Inc.",
+        "plant:output:electricity": "127 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "57679",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2025-12"
+      },
+      "lat": 33.3226747,
+      "lon": -112.8760458
+    },
+    {
+      "type": "way",
+      "id": 1467183124,
+      "center": {
+        "lat": 33.4827868,
+        "lon": -113.0387297
+      },
+      "tags": {
+        "fixme": "position",
+        "name": "Papago Energy Storage",
+        "operator": "RE Papago LLC",
+        "plant:output:electricity": "300 MW",
+        "plant:source": "battery",
+        "power": "plant",
+        "ref:US:EIA": "66779",
+        "source": "U.S. Energy Information Administration - EIA-860m - 2025",
+        "start_date": "2025-05"
+      },
+      "lat": 33.4827868,
+      "lon": -113.0387297
+    },
+    {
+      "type": "way",
+      "id": 1498945603,
+      "center": {
+        "lat": 32.5388462,
+        "lon": -111.3375213
+      },
+      "tags": {
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 32.5388462,
+      "lon": -111.3375213
+    },
+    {
+      "type": "relation",
+      "id": 5329415,
+      "center": {
+        "lat": 35.1439502,
+        "lon": -114.0680014
+      },
+      "tags": {
+        "name": "Kingman 1 Wind Farm",
+        "operator": "Brookfield Renewable Trading and Marketing LP",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "10.5 MW",
+        "plant:source": "wind;solar",
+        "power": "plant",
+        "ref:US:EIA": "57775",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2011-09",
+        "type": "site",
+        "wikidata": "Q124536923"
+      },
+      "lat": 35.1439502,
+      "lon": -114.0680014
+    },
+    {
+      "type": "relation",
+      "id": 7149515,
+      "center": {
+        "lat": 34.6218125,
+        "lon": -110.1682744
+      },
+      "tags": {
+        "name": "Poseidon Wind",
+        "operator": "Axium Arizona Renewables, LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "65.1 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57379",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2010-12",
+        "type": "site",
+        "website": "https://www.avangridrenewables.us/video/video-drylake.html",
+        "wikidata": "Q5309533",
+        "wikipedia": "en:Dry Lake Wind Power Project"
+      },
+      "lat": 34.6218125,
+      "lon": -110.1682744
+    },
+    {
+      "type": "relation",
+      "id": 8589051,
+      "center": {
+        "lat": 33.3048418,
+        "lon": -112.8351071
+      },
+      "tags": {
+        "name": "Arlington Valley Solar Energy II Project",
+        "operator": "Arlington Valley Solar Energy II LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "129 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "57680",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2013-04",
+        "type": "multipolygon",
+        "wikidata": "Q18395409"
+      },
+      "lat": 33.3048418,
+      "lon": -112.8351071
+    },
+    {
+      "type": "relation",
+      "id": 10339963,
+      "center": {
+        "lat": 33.0410691,
+        "lon": -111.4520392
+      },
+      "tags": {
+        "addr:city": "Florence",
+        "addr:housenumber": "5687",
+        "addr:postcode": "85132",
+        "addr:state": "AZ",
+        "addr:street": "West Hunt Highway",
+        "landuse": "industrial",
+        "name": "Sandstone Solar",
+        "note": "45 megawatts",
+        "operator": "sPower",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "45 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "59634",
+        "source": "esri/USA_NAD_Addresses",
+        "start_date": "2015-12",
+        "type": "multipolygon",
+        "wikidata": "Q116720265"
+      },
+      "lat": 33.0410691,
+      "lon": -111.4520392
+    },
+    {
+      "type": "relation",
+      "id": 10603430,
+      "center": {
+        "lat": 32.2885536,
+        "lon": -110.0893027
+      },
+      "tags": {
+        "name": "Red Horse Wind",
+        "operator": "Torch Renewable Energy",
+        "plant:output:electricity": "30 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "58833",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2015-08",
+        "type": "site",
+        "wikidata": "Q124471494"
+      },
+      "lat": 32.2885536,
+      "lon": -110.0893027
+    },
+    {
+      "type": "relation",
+      "id": 11797206,
+      "center": {
+        "lat": 32.8737368,
+        "lon": -111.550483
+      },
+      "tags": {
+        "name": "Pinal Central Energy Center",
+        "operator": "Pinal Central Energy Center, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "30 MW",
+        "plant:source": "solar;battery",
+        "power": "plant",
+        "ref:US:EIA": "61678",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2018-04",
+        "type": "multipolygon",
+        "wikidata": "Q116721933"
+      },
+      "lat": 32.8737368,
+      "lon": -111.550483
+    },
+    {
+      "type": "relation",
+      "id": 11797207,
+      "center": {
+        "lat": 33.5266346,
+        "lon": -112.3806311
+      },
+      "tags": {
+        "addr:city": "Glendale",
+        "addr:housenumber": "6476",
+        "addr:postcode": "85309",
+        "addr:state": "AZ",
+        "addr:street": "North Ammo Road",
+        "name": "Luke Solar",
+        "operator": "Arizona Public Service",
+        "operator:wikidata": "Q1242804",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "15 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "57324",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019;esri/USA_NAD_Addresses",
+        "start_date": "2015-06",
+        "type": "multipolygon",
+        "wikidata": "Q116715931"
+      },
+      "lat": 33.5266346,
+      "lon": -112.3806311
+    },
+    {
+      "type": "relation",
+      "id": 14118216,
+      "center": {
+        "lat": 32.8457232,
+        "lon": -111.5630772
+      },
+      "tags": {
+        "name": "East Line Solar",
+        "operator": "AES Distributed Energy",
+        "plant:output:electricity": "100 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "62899",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2020-12",
+        "type": "multipolygon"
+      },
+      "lat": 32.8457232,
+      "lon": -111.5630772
+    },
+    {
+      "type": "relation",
+      "id": 14157593,
+      "center": {
+        "lat": 34.6541346,
+        "lon": -110.282427
+      },
+      "tags": {
+        "name": "Dry Lake Wind",
+        "operator": "Avangrid Renewables LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "63 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57098",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2009-09",
+        "type": "site",
+        "wikidata": "Q5309533",
+        "wikipedia": "en:Dry Lake Wind Power Project"
+      },
+      "lat": 34.6541346,
+      "lon": -110.282427
+    },
+    {
+      "type": "relation",
+      "id": 14157596,
+      "center": {
+        "lat": 35.4223491,
+        "lon": -112.2769153
+      },
+      "tags": {
+        "name": "Perrin Ranch Wind Farm",
+        "operator": "Perrin Ranch Wind LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "99.2 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "58155",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2012-01",
+        "type": "site",
+        "wikidata": "Q116718406"
+      },
+      "lat": 35.4223491,
+      "lon": -112.2769153
+    },
+    {
+      "type": "relation",
+      "id": 14167800,
+      "center": {
+        "lat": 35.8310445,
+        "lon": -114.4154575
+      },
+      "tags": {
+        "name": "Mohave County Wind Farm",
+        "note": "Also know as White Hills wind farm",
+        "operator": "Mohave County Wind Farm",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "350 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "63114",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2020-12",
+        "type": "site",
+        "wikidata": "Q116723441"
+      },
+      "lat": 35.8310445,
+      "lon": -114.4154575
+    },
+    {
+      "type": "relation",
+      "id": 14506603,
+      "center": {
+        "lat": 34.6907437,
+        "lon": -112.4048337
+      },
+      "tags": {
+        "name": "Prescott Solar Plant",
+        "operator": "SunE AZ1, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "10.8 MW",
+        "plant:source": "solar",
+        "plant:type": "solar_photovoltaic_panel",
+        "power": "plant",
+        "ref:US:EIA": "58147",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2011-12",
+        "type": "multipolygon"
+      },
+      "lat": 34.6907437,
+      "lon": -112.4048337
+    },
+    {
+      "type": "relation",
+      "id": 14506604,
+      "center": {
+        "lat": 34.5887427,
+        "lon": -113.1735161
+      },
+      "tags": {
+        "name": "RE Bagdad Solar I",
+        "operator": "RE Bagdad Solar 1 LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "14.9 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "57790",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2011-12",
+        "type": "multipolygon"
+      },
+      "lat": 34.5887427,
+      "lon": -113.1735161
+    },
+    {
+      "type": "relation",
+      "id": 14507101,
+      "center": {
+        "lat": 32.1015019,
+        "lon": -110.8158326
+      },
+      "tags": {
+        "name": "Tech Park Solar",
+        "operator": "Tech Park Solar, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "59455",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2012-12",
+        "type": "multipolygon"
+      },
+      "lat": 32.1015019,
+      "lon": -110.8158326
+    },
+    {
+      "type": "relation",
+      "id": 14507102,
+      "center": {
+        "lat": 32.103739,
+        "lon": -110.8189356
+      },
+      "tags": {
+        "name": "Gato Montes Solar",
+        "operator": "Gato Montes Solar, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "58842",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2012-12",
+        "type": "multipolygon"
+      },
+      "lat": 32.103739,
+      "lon": -110.8189356
+    },
+    {
+      "type": "relation",
+      "id": 14507103,
+      "center": {
+        "lat": 33.3228821,
+        "lon": -112.8197749
+      },
+      "tags": {
+        "name": "Sun Streams 2",
+        "operator": "Sun Streams 2, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "150 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "63440",
+        "start_date": "2021-06",
+        "type": "multipolygon"
+      },
+      "lat": 33.3228821,
+      "lon": -112.8197749
+    },
+    {
+      "type": "relation",
+      "id": 14507104,
+      "center": {
+        "lat": 31.4967871,
+        "lon": -111.0068374
+      },
+      "tags": {
+        "name": "Rio Rico Solar",
+        "operator": "UNS Electric, Inc",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "6 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "59044",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2014-03",
+        "type": "multipolygon"
+      },
+      "lat": 31.4967871,
+      "lon": -111.0068374
+    },
+    {
+      "type": "relation",
+      "id": 15506984,
+      "center": {
+        "lat": 32.865048,
+        "lon": -111.5024691
+      },
+      "tags": {
+        "addr:city": "Coolidge",
+        "addr:housenumber": "329",
+        "addr:postcode": "85128",
+        "addr:state": "AZ",
+        "addr:street": "East Steele Road",
+        "name": "Saint Solar",
+        "operator": "NextEra Energy",
+        "operator:wikidata": "Q967868",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "100 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "63476",
+        "start_date": "01-2021",
+        "type": "multipolygon",
+        "wikidata": "Q116724068"
+      },
+      "lat": 32.865048,
+      "lon": -111.5024691
+    },
+    {
+      "type": "relation",
+      "id": 15621510,
+      "center": {
+        "lat": 33.4472179,
+        "lon": -112.2154039
+      },
+      "tags": {
+        "name": "T0588 Phoenix - AZ",
+        "operator": "SoCore Energy LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61199",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2017-05",
+        "type": "multipolygon"
+      },
+      "lat": 33.4472179,
+      "lon": -112.2154039
+    },
+    {
+      "type": "relation",
+      "id": 15626571,
+      "center": {
+        "lat": 33.3466977,
+        "lon": -111.6026498
+      },
+      "tags": {
+        "name": "Mesa Carport PV",
+        "operator": "Apple, Inc",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "4.6 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64404",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2020-03",
+        "type": "multipolygon"
+      },
+      "lat": 33.3466977,
+      "lon": -111.6026498
+    },
+    {
+      "type": "relation",
+      "id": 15667639,
+      "center": {
+        "lat": 34.2959626,
+        "lon": -109.2684622
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "8223",
+        "type": "multipolygon"
+      },
+      "lat": 34.2959626,
+      "lon": -109.2684622
+    },
+    {
+      "type": "relation",
+      "id": 15668079,
+      "center": {
+        "lat": 33.4089332,
+        "lon": -112.414718
+      },
+      "tags": {
+        "location": "roof",
+        "name": "Macys Goodyear",
+        "operator": "Macys Corporate Services, Inc",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "3.1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "57673",
+        "source": "U.S. Energy Information Administration - EIA-860m - 2025",
+        "start_date": "2010-12",
+        "type": "multipolygon"
+      },
+      "lat": 33.4089332,
+      "lon": -112.414718
+    },
+    {
+      "type": "relation",
+      "id": 15673118,
+      "center": {
+        "lat": 32.2701542,
+        "lon": -110.9744294
+      },
+      "tags": {
+        "name": "Amphitheater High School Solar",
+        "operator": "Luminace Solar Arizona 2, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60684",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2016-12",
+        "type": "multipolygon"
+      },
+      "lat": 32.2701542,
+      "lon": -110.9744294
+    },
+    {
+      "type": "relation",
+      "id": 15673119,
+      "center": {
+        "lat": 32.3755923,
+        "lon": -110.9721777
+      },
+      "tags": {
+        "name": "Canyon Del Oro High School Solar",
+        "operator": "Luminace Solar Arizona 2, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "4.4 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60685",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2016-11",
+        "type": "multipolygon"
+      },
+      "lat": 32.3755923,
+      "lon": -110.9721777
+    },
+    {
+      "type": "relation",
+      "id": 15675294,
+      "center": {
+        "lat": 32.1468998,
+        "lon": -110.9897526
+      },
+      "tags": {
+        "name": "Pima Community College - East Campus",
+        "operator": "Tesla Inc.",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.3 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61104",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2017-08",
+        "type": "multipolygon"
+      },
+      "lat": 32.1468998,
+      "lon": -110.9897526
+    },
+    {
+      "type": "relation",
+      "id": 15683290,
+      "center": {
+        "lat": 32.1658236,
+        "lon": -110.8176247
+      },
+      "tags": {
+        "name": "Pima Community College",
+        "operator": "Tesla",
+        "operator:wikidata": "Q478214",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "62075",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2019-08",
+        "type": "multipolygon"
+      },
+      "lat": 32.1658236,
+      "lon": -110.8176247
+    },
+    {
+      "type": "relation",
+      "id": 15684205,
+      "center": {
+        "lat": 33.4213261,
+        "lon": -111.9297302
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "62643",
+        "type": "multipolygon"
+      },
+      "lat": 33.4213261,
+      "lon": -111.9297302
+    },
+    {
+      "type": "relation",
+      "id": 15684206,
+      "center": {
+        "lat": 33.4261725,
+        "lon": -111.9375419
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "type": "multipolygon"
+      },
+      "lat": 33.4261725,
+      "lon": -111.9375419
+    },
+    {
+      "type": "relation",
+      "id": 15686510,
+      "center": {
+        "lat": 32.3439526,
+        "lon": -111.0276049
+      },
+      "tags": {
+        "name": "Pima Community College NW",
+        "operator": "Onyx Asset Services Group",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.3 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "63531",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2019-04",
+        "type": "multipolygon"
+      },
+      "lat": 32.3439526,
+      "lon": -111.0276049
+    },
+    {
+      "type": "relation",
+      "id": 15687251,
+      "center": {
+        "lat": 32.1298285,
+        "lon": -110.8386266
+      },
+      "tags": {
+        "name": "Amazon TUS2",
+        "operator": "SkyHigh 2 Solar",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2.6 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64384",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2022-06",
+        "type": "multipolygon"
+      },
+      "lat": 32.1298285,
+      "lon": -110.8386266
+    },
+    {
+      "type": "relation",
+      "id": 15691453,
+      "center": {
+        "lat": 32.1022973,
+        "lon": -110.8213167
+      },
+      "tags": {
+        "name": "Iron Horse Battery Storage Hybrid",
+        "operator": "RWE Renewables Americas, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "12 MW",
+        "plant:source": "solar;battery",
+        "power": "plant",
+        "ref:US:EIA": "60996",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2017-04",
+        "type": "multipolygon"
+      },
+      "lat": 32.1022973,
+      "lon": -110.8213167
+    },
+    {
+      "type": "relation",
+      "id": 15822853,
+      "center": {
+        "lat": 32.8285193,
+        "lon": -111.5908707
+      },
+      "tags": {
+        "fixme": "map more accurately when aerial imagery becomes available",
+        "name": "West Line Solar, LLC",
+        "operator": "West Line Solar, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "100 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "66125",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2022-12",
+        "type": "multipolygon"
+      },
+      "lat": 32.8285193,
+      "lon": -111.5908707
+    },
+    {
+      "type": "relation",
+      "id": 15823004,
+      "center": {
+        "lat": 32.8321314,
+        "lon": -111.5694084
+      },
+      "tags": {
+        "name": "Central Line Solar, LLC",
+        "operator": "AES Distributed Energy",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "100 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64566",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2022-04",
+        "type": "multipolygon"
+      },
+      "lat": 32.8321314,
+      "lon": -111.5694084
+    },
+    {
+      "type": "relation",
+      "id": 15829167,
+      "center": {
+        "lat": 34.6978035,
+        "lon": -110.8379302
+      },
+      "tags": {
+        "name": "Chevelon Butte Wind Farm",
+        "operator": "AES Corporation",
+        "operator:wikidata": "Q291508",
+        "plant:output:electricity": "454.2 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "66001;67176",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "type": "site",
+        "website": "https://www.aes.com/chevelon-butte"
+      },
+      "lat": 34.6978035,
+      "lon": -110.8379302
+    },
+    {
+      "type": "relation",
+      "id": 15829283,
+      "center": {
+        "lat": 35.6796248,
+        "lon": -111.8752995
+      },
+      "tags": {
+        "name": "Babbitt Ranch Energy Center",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "163.0 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "66110",
+        "site": "wind_farm",
+        "type": "site"
+      },
+      "lat": 35.6796248,
+      "lon": -111.8752995
+    },
+    {
+      "type": "relation",
+      "id": 16708152,
+      "center": {
+        "lat": 32.9406983,
+        "lon": -113.4555505
+      },
+      "tags": {
+        "name": "McFarland B Solar and Storage",
+        "operator": "AES Clean Energy",
+        "operator:wikidata": "Q291508",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "450 MW",
+        "plant:source": "battery;solar",
+        "plant:storage": "600 MWh",
+        "power": "plant",
+        "ref:US:EIA": "66637",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2024-12",
+        "type": "multipolygon"
+      },
+      "lat": 32.9406983,
+      "lon": -113.4555505
+    },
+    {
+      "type": "relation",
+      "id": 17179206,
+      "center": {
+        "lat": 33.2457743,
+        "lon": -112.5447756
+      },
+      "tags": {
+        "addr:city": "Buckeye",
+        "addr:housenumber": "22615",
+        "addr:postcode": "85326",
+        "addr:state": "AZ",
+        "addr:street": "South State Road 85",
+        "name": "Sonoran Solar Project",
+        "operator": "Sonoran Solar Energy, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "490 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "66627",
+        "source": "https://www.abc15.com/news/region-west-valley/buckeye/renewable-energy-company-plans-3-000-acre-solar-energy-project-in-buckeye",
+        "start_date": "07-2023",
+        "type": "multipolygon",
+        "wikidata": "Q7562243"
+      },
+      "lat": 33.2457743,
+      "lon": -112.5447756
+    },
+    {
+      "type": "relation",
+      "id": 17383645,
+      "center": {
+        "lat": 31.5565129,
+        "lon": -109.7024546
+      },
+      "tags": {
+        "name": "SR McNeal",
+        "operator": "SR McNeal, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "40 MW",
+        "plant:source": "solar;battery",
+        "power": "plant",
+        "ref:US:EIA": "66925",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2023-12",
+        "type": "multipolygon"
+      },
+      "lat": 31.5565129,
+      "lon": -109.7024546
+    },
+    {
+      "type": "relation",
+      "id": 17388844,
+      "center": {
+        "lat": 33.3208799,
+        "lon": -112.8384586
+      },
+      "tags": {
+        "name": "Agave",
+        "operator": "Arizona Public Service Co",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "150 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "67964",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2023-09",
+        "type": "multipolygon"
+      },
+      "lat": 33.3208799,
+      "lon": -112.8384586
+    },
+    {
+      "type": "relation",
+      "id": 17388846,
+      "center": {
+        "lat": 33.3338642,
+        "lon": -112.820009
+      },
+      "tags": {
+        "name": "Sun Streams 3",
+        "operator": "Sun Streams PVS, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "430 MW",
+        "plant:source": "battery;solar",
+        "power": "plant",
+        "ref:US:EIA": "67285",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2024-06",
+        "type": "multipolygon"
+      },
+      "lat": 33.3338642,
+      "lon": -112.820009
+    },
+    {
+      "type": "relation",
+      "id": 17393803,
+      "center": {
+        "lat": 32.1726638,
+        "lon": -110.897693
+      },
+      "tags": {
+        "name": "Davis Monthan AFB (AZ) West Airfield",
+        "operator": "MN8 Energy LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "12.6 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "59779",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2014-01",
+        "type": "multipolygon"
+      },
+      "lat": 32.1726638,
+      "lon": -110.897693
+    },
+    {
+      "type": "relation",
+      "id": 17393804,
+      "center": {
+        "lat": 33.3558293,
+        "lon": -111.8025005
+      },
+      "tags": {
+        "name": "Gilbert Solar Facility I",
+        "operator": "Gilbert Solar Facility I, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "58543",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2011-10",
+        "type": "multipolygon"
+      },
+      "lat": 33.3558293,
+      "lon": -111.8025005
+    },
+    {
+      "type": "relation",
+      "id": 17393807,
+      "center": {
+        "lat": 32.6859382,
+        "lon": -114.4968468
+      },
+      "tags": {
+        "name": "Arizona Western College PV",
+        "operator": "AES Distributed Energy",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "4.7 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "57765",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2011-11",
+        "type": "multipolygon"
+      },
+      "lat": 32.6859382,
+      "lon": -114.4968468
+    },
+    {
+      "type": "relation",
+      "id": 19393965,
+      "center": {
+        "lat": 32.930074,
+        "lon": -111.4911287
+      },
+      "tags": {
+        "name": "Brittlebush Solar",
+        "operator": "Randolph Solar Park LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "200 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "67799",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2024-11",
+        "type": "multipolygon"
+      },
+      "lat": 32.930074,
+      "lon": -111.4911287
+    },
+    {
+      "type": "relation",
+      "id": 19393966,
+      "center": {
+        "lat": 32.890223,
+        "lon": -111.4991636
+      },
+      "tags": {
+        "addr:city": "Coolidge",
+        "addr:housenumber": "430",
+        "addr:postcode": "85128",
+        "addr:state": "AZ",
+        "addr:street": "East Steele Road",
+        "name": "Storey Solar Energy Center",
+        "operator": "NextEra Energy Resources",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "210 MW",
+        "plant:source": "solar;battery",
+        "power": "plant",
+        "ref:US:EIA": "65956",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2023-09",
+        "type": "multipolygon",
+        "website": "https://www.nexteraenergyresources.com/storey-solar.html"
+      },
+      "lat": 32.890223,
+      "lon": -111.4991636
+    },
+    {
+      "type": "relation",
+      "id": 19393967,
+      "center": {
+        "lat": 32.8613585,
+        "lon": -111.5758476
+      },
+      "tags": {
+        "addr:state": "AZ",
+        "fixme": "map more accurately when aerial imagery becomes available",
+        "landuse": "industrial",
+        "name": "Eleven Mile Solar Center",
+        "operator": "\u00d8rsted A/S",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "600 MW",
+        "plant:source": "battery;solar",
+        "power": "plant",
+        "ref:US:EIA": "66263",
+        "source": "https://www.gem.wiki/Eleven_Mile_Solar_Center#cite_note-autoref_1-2",
+        "start_date": "2024-06",
+        "type": "multipolygon"
+      },
+      "lat": 32.8613585,
+      "lon": -111.5758476
+    },
+    {
+      "type": "relation",
+      "id": 20050382,
+      "center": {
+        "lat": 32.4924637,
+        "lon": -111.3037562
+      },
+      "tags": {
+        "name": "Serrano Solar",
+        "operator": "Serrano Solar, LLC",
+        "plant:output:electricity": "384 MW",
+        "plant:source": "solar;battery",
+        "power": "plant",
+        "ref:US:EIA": "67503",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "type": "multipolygon"
+      },
+      "lat": 32.4924637,
+      "lon": -111.3037562
+    },
+    {
+      "type": "relation",
+      "id": 20058443,
+      "center": {
+        "lat": 33.3848066,
+        "lon": -112.8223993
+      },
+      "tags": {
+        "name": "Sun Pond",
+        "operator": "Sun Pond, LLC",
+        "plant:output:electricity": "170 MW",
+        "plant:source": "solar;battery",
+        "power": "plant",
+        "ref:US:EIA": "68492",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "type": "multipolygon"
+      },
+      "lat": 33.3848066,
+      "lon": -112.8223993
+    },
+    {
+      "type": "relation",
+      "id": 20058444,
+      "center": {
+        "lat": 33.3663109,
+        "lon": -112.7829945
+      },
+      "tags": {
+        "name": "Sun Streams 4",
+        "operator": "Sun Streams Expansion, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "600 MW",
+        "plant:source": "solar;battery",
+        "power": "plant",
+        "ref:US:EIA": "67291",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2025-03",
+        "type": "multipolygon"
+      },
+      "lat": 33.3663109,
+      "lon": -112.7829945
+    },
+    {
+      "type": "relation",
+      "id": 20058445,
+      "center": {
+        "lat": 33.3514588,
+        "lon": -112.8333113
+      },
+      "tags": {
+        "name": "Sun Streams 1",
+        "operator": "EDP Renewables North America LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "160 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60827",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2020-01",
+        "type": "multipolygon",
+        "website": "http://www.sunstreamsproject.com/uploads/2/7/7/6/27765837/sun_streams_gen-tie_cec_application_4-4-14_complete_document.pdf"
+      },
+      "lat": 33.3514588,
+      "lon": -112.8333113
+    },
+    {
+      "type": "relation",
+      "id": 20301019,
+      "center": {
+        "lat": 33.1031878,
+        "lon": -111.830805
+      },
+      "tags": {
+        "name": "Casa-Blanca Solar Canal",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.31 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "type": "multipolygon"
+      },
+      "lat": 33.1031878,
+      "lon": -111.830805
+    }
+  ]
+}

@@ -1,0 +1,1194 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-04-24T20:51:16Z",
+    "timestamp_areas_base": "2026-04-24T15:53:36Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 101824427,
+      "center": {
+        "lat": 41.8338668,
+        "lon": -106.2428197
+      },
+      "tags": {
+        "name": "Medicine Bow Wind Farm",
+        "operator": "SRIV Partnership LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "6.2 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "692",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1998-04"
+      },
+      "lat": 41.8338668,
+      "lon": -106.2428197
+    },
+    {
+      "type": "way",
+      "id": 141380031,
+      "center": {
+        "lat": 44.3916517,
+        "lon": -105.4620503
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Dry Fork Station",
+        "operator": "Basin Electric Power Cooperative",
+        "operator:wikidata": "Q4867481",
+        "plant:method": "combustion",
+        "plant:output:electricity": "483.7 MW",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "56609",
+        "source": "survey",
+        "start_date": "2011-11",
+        "wikimedia_commons": "Category:Dry Fork Station"
+      },
+      "lat": 44.3916517,
+      "lon": -105.4620503
+    },
+    {
+      "type": "way",
+      "id": 155311601,
+      "center": {
+        "lat": 42.1561974,
+        "lon": -106.9083908
+      },
+      "tags": {
+        "name": "Seminoe Power Station",
+        "operator": "U S Bureau of Reclamation",
+        "plant:output:electricity": "51.6 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "4182",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1939-08",
+        "wikidata": "Q7449489"
+      },
+      "lat": 42.1561974,
+      "lon": -106.9083908
+    },
+    {
+      "type": "way",
+      "id": 156419223,
+      "center": {
+        "lat": 41.5333997,
+        "lon": -109.4782112
+      },
+      "tags": {
+        "plant:output:electricity": "yes",
+        "plant:source": "hydro",
+        "power": "plant"
+      },
+      "lat": 41.5333997,
+      "lon": -109.4782112
+    },
+    {
+      "type": "way",
+      "id": 170300725,
+      "center": {
+        "lat": 44.1685286,
+        "lon": -105.8914869
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Barber Creek Power Plant",
+        "operator": "Basin Electric Power Coop",
+        "plant:method": "combustion",
+        "plant:output:electricity": "22.5 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "8030",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2002-09"
+      },
+      "lat": 44.1685286,
+      "lon": -105.8914869
+    },
+    {
+      "type": "way",
+      "id": 191808735,
+      "center": {
+        "lat": 41.7570803,
+        "lon": -110.5968036
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Naughton Coal Plant",
+        "operator": "PacifiCorp",
+        "operator:wikidata": "Q2045479",
+        "plant:method": "combustion",
+        "plant:output:electricity": "687 MW",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "4162",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1963-05",
+        "wikidata": "Q11990997"
+      },
+      "lat": 41.7570803,
+      "lon": -110.5968036
+    },
+    {
+      "type": "way",
+      "id": 231404599,
+      "center": {
+        "lat": 43.4178958,
+        "lon": -108.177488
+      },
+      "tags": {
+        "building": "yes",
+        "landuse": "industrial",
+        "name": "Boysen Power Station",
+        "operator": "United States Bureau of Reclamation",
+        "operator:short": "USBR",
+        "operator:wikidata": "Q1010548",
+        "operator:wikipedia": "en:United States Bureau of Reclamation",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "15 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "505",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1952-08",
+        "wikidata": "Q4952737",
+        "wikipedia": "en:Boysen Dam"
+      },
+      "lat": 43.4178958,
+      "lon": -108.177488
+    },
+    {
+      "type": "way",
+      "id": 422742665,
+      "center": {
+        "lat": 41.7384402,
+        "lon": -108.7846739
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Jim Bridger Plant",
+        "operator": "PacifiCorp",
+        "operator:wikidata": "Q2045479",
+        "plant:method": "combustion",
+        "plant:output:electricity": "2123 MW",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "8066",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1974-11",
+        "wikidata": "Q19376306"
+      },
+      "lat": 41.7384402,
+      "lon": -108.7846739
+    },
+    {
+      "type": "way",
+      "id": 449466219,
+      "center": {
+        "lat": 44.2854121,
+        "lon": -105.3824785
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Wygen I & Neil Simpson II Power Plant",
+        "operator": "Black Hills Power, Inc.",
+        "plant:output:electricity": "260 MW",
+        "plant:source": "gas;coal",
+        "power": "plant",
+        "ref:US:EIA": "55479;55477;7504",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1995-09"
+      },
+      "lat": 44.2854121,
+      "lon": -105.3824785
+    },
+    {
+      "type": "way",
+      "id": 449466220,
+      "center": {
+        "lat": 44.2890589,
+        "lon": -105.3845026
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Wyodak Power Plant",
+        "operator": "PacifiCorp",
+        "operator:wikidata": "Q2045479",
+        "plant:method": "combustion",
+        "plant:output:electricity": "402.3 MW",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "6101",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021;https://www.gem.wiki/Wyodak_Power_Plant",
+        "start_date": "1978-09",
+        "wikidata": "Q19398763"
+      },
+      "lat": 44.2890589,
+      "lon": -105.3845026
+    },
+    {
+      "type": "way",
+      "id": 449466224,
+      "center": {
+        "lat": 42.8413172,
+        "lon": -105.7785719
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Dave Johnston Plant",
+        "operator": "PacifiCorp",
+        "operator:wikidata": "Q2045479",
+        "plant:method": "combustion",
+        "plant:output:electricity": "755 MW",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "4158",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1959-02",
+        "wikidata": "Q11964814"
+      },
+      "lat": 42.8413172,
+      "lon": -105.7785719
+    },
+    {
+      "type": "way",
+      "id": 463243417,
+      "center": {
+        "lat": 43.7735261,
+        "lon": -105.780785
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Hartzog Power Plant",
+        "operator": "Basin Electric Power Coop",
+        "plant:method": "combustion",
+        "plant:output:electricity": "22.5 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "8026",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2002-08"
+      },
+      "lat": 43.7735261,
+      "lon": -105.780785
+    },
+    {
+      "type": "way",
+      "id": 543115297,
+      "center": {
+        "lat": 42.4672559,
+        "lon": -104.955679
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Glendo Powerplant",
+        "operator": "U S Bureau of Reclamation",
+        "plant:output:electricity": "38 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "4177",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1958-12",
+        "wikidata": "Q48987492"
+      },
+      "lat": 42.4672559,
+      "lon": -104.955679
+    },
+    {
+      "type": "way",
+      "id": 563473165,
+      "center": {
+        "lat": 42.1110615,
+        "lon": -104.8884134
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Laramie River Station",
+        "operator": "Basin Electric Power Coop",
+        "plant:method": "combustion",
+        "plant:output:electricity": "1710 MW",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "6204",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1981-07",
+        "wikidata": "Q11983228",
+        "wikipedia": "en:Laramie River Station"
+      },
+      "lat": 42.1110615,
+      "lon": -104.8884134
+    },
+    {
+      "type": "way",
+      "id": 711814387,
+      "center": {
+        "lat": 41.1226502,
+        "lon": -104.7213813
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Cheyenne Prairie Generating Station",
+        "operator": "Black Hills Service Company LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "140 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "57703",
+        "source": "http://globalenergyobservatory.org/geoid/46177",
+        "start_date": "2014-10"
+      },
+      "lat": 41.1226502,
+      "lon": -104.7213813
+    },
+    {
+      "type": "way",
+      "id": 864234559,
+      "center": {
+        "lat": 42.2903395,
+        "lon": -104.7623373
+      },
+      "tags": {
+        "building": "industrial",
+        "name": "Guernsey Power Station",
+        "operator": "United States Bureau of Reclamation",
+        "operator:short": "USBR",
+        "operator:wikidata": "Q1010548",
+        "plant:output:electricity": "6.4 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "4178",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1927-07",
+        "wikidata": "Q5614897"
+      },
+      "lat": 42.2903395,
+      "lon": -104.7623373
+    },
+    {
+      "type": "way",
+      "id": 864234565,
+      "center": {
+        "lat": 42.0269974,
+        "lon": -110.0640118
+      },
+      "tags": {
+        "name": "Fontenelle",
+        "operator": "U S Bureau of Reclamation",
+        "plant:output:electricity": "10 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "4185",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1968-05"
+      },
+      "lat": 42.0269974,
+      "lon": -110.0640118
+    },
+    {
+      "type": "way",
+      "id": 864234566,
+      "center": {
+        "lat": 41.8817745,
+        "lon": -110.0911483
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Shute Creek Facility Power Station",
+        "operator": "Exxon Mobil Production Co",
+        "plant:method": "combustion",
+        "plant:output:electricity": "110.6 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "56312",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2005-05"
+      },
+      "lat": 41.8817745,
+      "lon": -110.0911483
+    },
+    {
+      "type": "way",
+      "id": 864234569,
+      "center": {
+        "lat": 42.548422,
+        "lon": -106.7174975
+      },
+      "tags": {
+        "name": "Alcova Power Station",
+        "operator": "U S Bureau of Reclamation",
+        "plant:output:electricity": "41.4 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "6409",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1955-07",
+        "wikidata": "Q4713370"
+      },
+      "lat": 42.548422,
+      "lon": -106.7174975
+    },
+    {
+      "type": "way",
+      "id": 864234570,
+      "center": {
+        "lat": 42.4765195,
+        "lon": -106.7958292
+      },
+      "tags": {
+        "name": "Fremont Canyon Power Station",
+        "operator": "U S Bureau of Reclamation",
+        "plant:output:electricity": "66.8 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "4176",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1960-12",
+        "wikidata": "Q65210808"
+      },
+      "lat": 42.4765195,
+      "lon": -106.7958292
+    },
+    {
+      "type": "way",
+      "id": 864234571,
+      "center": {
+        "lat": 42.1742841,
+        "lon": -106.8805576
+      },
+      "tags": {
+        "building": "industrial",
+        "name": "Kortes Power Station",
+        "operator": "U S Bureau of Reclamation",
+        "plant:output:electricity": "36 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "4180",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1950-06",
+        "wikidata": "Q14714791"
+      },
+      "lat": 42.1742841,
+      "lon": -106.8805576
+    },
+    {
+      "type": "way",
+      "id": 943307840,
+      "center": {
+        "lat": 42.9564448,
+        "lon": -110.7218993
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.9564448,
+      "lon": -110.7218993
+    },
+    {
+      "type": "way",
+      "id": 946425883,
+      "center": {
+        "lat": 42.9051565,
+        "lon": -110.8934576
+      },
+      "tags": {
+        "alt_name": "Strawberry Creek Power Plant",
+        "name": "Substa Power Plant",
+        "operator": "Lower Valley Energy Inc",
+        "plant:output:electricity": "1.5 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "6393",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1940-08"
+      },
+      "lat": 42.9051565,
+      "lon": -110.8934576
+    },
+    {
+      "type": "way",
+      "id": 1190446438,
+      "center": {
+        "lat": 42.9564383,
+        "lon": -110.7220479
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.9564383,
+      "lon": -110.7220479
+    },
+    {
+      "type": "way",
+      "id": 1190446445,
+      "center": {
+        "lat": 42.9590441,
+        "lon": -110.7247075
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.9590441,
+      "lon": -110.7247075
+    },
+    {
+      "type": "way",
+      "id": 1190446446,
+      "center": {
+        "lat": 42.9590381,
+        "lon": -110.7246239
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.9590381,
+      "lon": -110.7246239
+    },
+    {
+      "type": "way",
+      "id": 1240318150,
+      "center": {
+        "lat": 44.2919412,
+        "lon": -105.3813468
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Wygen II",
+        "operator": "Black Hills Power, Inc.",
+        "plant:method": "combustion",
+        "plant:output:electricity": "95 MW",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "56319",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2008-01"
+      },
+      "lat": 44.2919412,
+      "lon": -105.3813468
+    },
+    {
+      "type": "way",
+      "id": 1240318151,
+      "center": {
+        "lat": 44.2920424,
+        "lon": -105.38023
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Wygen III",
+        "operator": "Black Hills Power, Inc.",
+        "plant:method": "combustion",
+        "plant:output:electricity": "116 MW",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "56596",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2010-04"
+      },
+      "lat": 44.2920424,
+      "lon": -105.38023
+    },
+    {
+      "type": "way",
+      "id": 1319960082,
+      "center": {
+        "lat": 41.6273619,
+        "lon": -109.2301169
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.6273619,
+      "lon": -109.2301169
+    },
+    {
+      "type": "relation",
+      "id": 3792596,
+      "center": {
+        "lat": 41.1391753,
+        "lon": -104.995716
+      },
+      "tags": {
+        "name": "Happy Jack Windpower",
+        "note": "14 Suzlon 2.1megawatt wind turbines, 4 miles conduit, substation with 115kv breaker",
+        "operator": "Duke Energy",
+        "operator:wikidata": "Q1264404",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "29.4 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56960",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2008-08",
+        "type": "site",
+        "website": "https://www.duke-energy.com/commercial-renewables/happy-jack-windpower.asp",
+        "wikidata": "Q116715604"
+      },
+      "lat": 41.1391753,
+      "lon": -104.995716
+    },
+    {
+      "type": "relation",
+      "id": 3792597,
+      "center": {
+        "lat": 41.1306311,
+        "lon": -105.025725
+      },
+      "tags": {
+        "name": "Silver Sage Windpower",
+        "operator": "Duke Energy",
+        "operator:wikidata": "Q1264404",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "42 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57091",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2009-10",
+        "type": "site",
+        "website": "https://www.duke-energy.com/commercial-renewables/silver-sage-windpower.asp",
+        "wikidata": "Q116715732"
+      },
+      "lat": 41.1306311,
+      "lon": -105.025725
+    },
+    {
+      "type": "relation",
+      "id": 9585281,
+      "center": {
+        "lat": 43.015333,
+        "lon": -106.0010232
+      },
+      "tags": {
+        "name": "Campbell Hill Windpower",
+        "operator": "Duke Energy",
+        "operator:wikidata": "Q1264404",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "99 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57090",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2009-12",
+        "type": "site",
+        "wikidata": "Q116715730"
+      },
+      "lat": 43.015333,
+      "lon": -106.0010232
+    },
+    {
+      "type": "relation",
+      "id": 9585282,
+      "center": {
+        "lat": 43.0580068,
+        "lon": -105.8245596
+      },
+      "tags": {
+        "fixme": "Need to separate Glenrock and rolling hills wind farms into different features.\ndon't forget the ref:US:EIA tag.",
+        "name": "Glenrock and Rolling Hills Wind Farms",
+        "operator": "PacifiCorp",
+        "operator:wikidata": "Q2045479",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "281.4 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56841;56842",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2008-12",
+        "type": "site"
+      },
+      "lat": 43.0580068,
+      "lon": -105.8245596
+    },
+    {
+      "type": "relation",
+      "id": 11800572,
+      "center": {
+        "lat": 42.94823,
+        "lon": -105.7719891
+      },
+      "tags": {
+        "name": "Top of the World Windpower Project",
+        "operator": "Duke Energy",
+        "operator:wikidata": "Q1264404",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "200 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57327",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2010-10",
+        "type": "site",
+        "wikidata": "Q7824713"
+      },
+      "lat": 42.94823,
+      "lon": -105.7719891
+    },
+    {
+      "type": "relation",
+      "id": 11800576,
+      "center": {
+        "lat": 41.9459565,
+        "lon": -106.4019392
+      },
+      "tags": {
+        "name": "Seven Mile Hill Wind Farm",
+        "operator": "PacifiCorp",
+        "operator:wikidata": "Q2045479",
+        "plant:output:electricity": "146.2 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56843",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2008-12",
+        "type": "site",
+        "wikidata": "Q116715492"
+      },
+      "lat": 41.9459565,
+      "lon": -106.4019392
+    },
+    {
+      "type": "relation",
+      "id": 11800577,
+      "center": {
+        "lat": 42.0305542,
+        "lon": -106.1744251
+      },
+      "tags": {
+        "name": "Dunlap Wind Farm",
+        "operator": "PacifiCorp",
+        "operator:wikidata": "Q2045479",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "111 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57299",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2010-10",
+        "type": "site",
+        "wikidata": "Q116715910"
+      },
+      "lat": 42.0305542,
+      "lon": -106.1744251
+    },
+    {
+      "type": "relation",
+      "id": 11800578,
+      "center": {
+        "lat": 42.6932989,
+        "lon": -105.8855251
+      },
+      "tags": {
+        "name": "Pioneer Wind Park",
+        "operator": "Sustainable Power Group, LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "80 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "60259",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2016-10",
+        "type": "site",
+        "wikidata": "Q116720680"
+      },
+      "lat": 42.6932989,
+      "lon": -105.8855251
+    },
+    {
+      "type": "relation",
+      "id": 11800579,
+      "center": {
+        "lat": 42.8861663,
+        "lon": -106.2211118
+      },
+      "tags": {
+        "name": "Casper Wind Farm",
+        "operator": "Chevron USA",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "17 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57093",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2009-12",
+        "type": "site",
+        "wikidata": "Q116715733"
+      },
+      "lat": 42.8861663,
+      "lon": -106.2211118
+    },
+    {
+      "type": "relation",
+      "id": 11800580,
+      "center": {
+        "lat": 41.6274684,
+        "lon": -109.6824655
+      },
+      "tags": {
+        "name": "Sweetwater Solar",
+        "operator": "Sweetwater Solar LLC",
+        "plant:output:electricity": "92 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61369",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2018-12",
+        "type": "multipolygon"
+      },
+      "lat": 41.6274684,
+      "lon": -109.6824655
+    },
+    {
+      "type": "relation",
+      "id": 13079994,
+      "center": {
+        "lat": 41.2669725,
+        "lon": -110.5450649
+      },
+      "tags": {
+        "name": "Mountain Wind Power II",
+        "operator": "Mountain Wind Power II LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "80 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56753",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2008-09",
+        "type": "site"
+      },
+      "lat": 41.2669725,
+      "lon": -110.5450649
+    },
+    {
+      "type": "relation",
+      "id": 13980994,
+      "center": {
+        "lat": 41.9624324,
+        "lon": -106.3043095
+      },
+      "tags": {
+        "name": "Ekola Flats",
+        "operator": "PacifiCorp",
+        "operator:wikidata": "Q2045479",
+        "plant:output:electricity": "250.9 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "62591",
+        "site": "wind_farm",
+        "start_date": "2020-12",
+        "type": "site",
+        "wikidata": "Q116722757"
+      },
+      "lat": 41.9624324,
+      "lon": -106.3043095
+    },
+    {
+      "type": "relation",
+      "id": 14152292,
+      "center": {
+        "lat": 42.1240225,
+        "lon": -106.1359597
+      },
+      "tags": {
+        "name": "TB Flats Wind Farm",
+        "operator": "PacifiCorp",
+        "operator:wikidata": "Q2045479",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "503.2 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "62516",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2021-10",
+        "type": "site",
+        "wikidata": "Q116722723"
+      },
+      "lat": 42.1240225,
+      "lon": -106.1359597
+    },
+    {
+      "type": "relation",
+      "id": 14152293,
+      "center": {
+        "lat": 43.0269871,
+        "lon": -105.4696512
+      },
+      "tags": {
+        "fixme": "This needs to be split up into three separate wind farms",
+        "name": "Cedar Springs Wind Farms I, II and III",
+        "operator": "Cedar Springs Wind, LLC;Cedar Springs Wind III, LLC;PacifiCorp",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "533 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "63916;63915;63914",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2020-12",
+        "type": "site"
+      },
+      "lat": 43.0269871,
+      "lon": -105.4696512
+    },
+    {
+      "type": "relation",
+      "id": 14152295,
+      "center": {
+        "lat": 41.0577399,
+        "lon": -105.1020974
+      },
+      "tags": {
+        "name": "Roundhouse Wind Energy Project",
+        "operator": "Roundhouse Renewable Energy, LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "226 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "63133",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2020-06",
+        "type": "site"
+      },
+      "lat": 41.0577399,
+      "lon": -105.1020974
+    },
+    {
+      "type": "relation",
+      "id": 14152296,
+      "center": {
+        "lat": 41.1116077,
+        "lon": -104.9944228
+      },
+      "tags": {
+        "name": "Corriedale Wind Energy",
+        "operator": "Black Hills Service Company LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "52.5 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "63436",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2020-11",
+        "type": "site",
+        "wikidata": "Q116723692"
+      },
+      "lat": 41.1116077,
+      "lon": -104.9944228
+    },
+    {
+      "type": "relation",
+      "id": 14257083,
+      "center": {
+        "lat": 41.3506248,
+        "lon": -110.7821875
+      },
+      "tags": {
+        "name": "TransAlta Wyoming Wind",
+        "operator": "NextEra Energy",
+        "operator:wikidata": "Q967868",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "144 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56093",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2003-12",
+        "type": "site"
+      },
+      "lat": 41.3506248,
+      "lon": -110.7821875
+    },
+    {
+      "type": "relation",
+      "id": 14257084,
+      "center": {
+        "lat": 41.29143,
+        "lon": -110.4956588
+      },
+      "tags": {
+        "name": "Mountain Wind Power",
+        "operator": "Mountain Wind Power LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "61 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56752",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2008-07",
+        "type": "site"
+      },
+      "lat": 41.29143,
+      "lon": -110.4956588
+    },
+    {
+      "type": "relation",
+      "id": 17438008,
+      "center": {
+        "lat": 41.6691664,
+        "lon": -106.1479363
+      },
+      "tags": {
+        "name": "Foote Creek Rim",
+        "note": "Foote Creek I was built in 1999 with 69 small turbines, repowered in 2020 with 13 larges turbines. Foote Creek II-IV was built with 64 small turbines, repowered in 2024 with 11 larges turbines. Rock River I repowered with 19 larges turbines.",
+        "operator": "PacifiCorp",
+        "operator:wikidata": "Q2045479",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "134.8 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "67916",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2024-12",
+        "type": "site",
+        "wikidata": "Q116714820"
+      },
+      "lat": 41.6691664,
+      "lon": -106.1479363
+    },
+    {
+      "type": "relation",
+      "id": 19438307,
+      "center": {
+        "lat": 41.6669837,
+        "lon": -106.013056
+      },
+      "tags": {
+        "fixme": "This wind farm needs to be split into two separate High Plains and McFadden Ridge Wind Farms.\n\ndon't forget to swap over the ref:US:EIA tag",
+        "name": "High Plains and McFadden Ridge Wind Farms",
+        "operator": "PacifiCorp",
+        "operator:wikidata": "Q2045479",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "157.3 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57039;57040",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2009-09",
+        "type": "site"
+      },
+      "lat": 41.6669837,
+      "lon": -106.013056
+    },
+    {
+      "type": "relation",
+      "id": 19986846,
+      "center": {
+        "lat": 41.0523626,
+        "lon": -105.007175
+      },
+      "tags": {
+        "name": "Roundhouse Renewable Energy II",
+        "operator": "Roundhouse Renewable Energy II, LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "105.7 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "67026",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2023-12",
+        "type": "site"
+      },
+      "lat": 41.0523626,
+      "lon": -105.007175
+    },
+    {
+      "type": "relation",
+      "id": 19986965,
+      "center": {
+        "lat": 41.9087835,
+        "lon": -105.8091252
+      },
+      "tags": {
+        "name": "Boswell Wind",
+        "operator": "Boswell Wind, LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "329.8 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "65403",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2024-12",
+        "type": "site"
+      },
+      "lat": 41.9087835,
+      "lon": -105.8091252
+    },
+    {
+      "type": "relation",
+      "id": 20049954,
+      "center": {
+        "lat": 41.0187375,
+        "lon": -104.7947745
+      },
+      "tags": {
+        "name": "South Cheyenne Solar",
+        "operator": "Southern Power Co",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "150 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "67147",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2024-04",
+        "type": "multipolygon"
+      },
+      "lat": 41.0187375,
+      "lon": -104.7947745
+    },
+    {
+      "type": "relation",
+      "id": 20063163,
+      "center": {
+        "lat": 43.1518202,
+        "lon": -106.2942467
+      },
+      "tags": {
+        "name": "Anticline Wind",
+        "operator": "Anticline Wind, LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "124.3 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "67193",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2024-12",
+        "type": "site"
+      },
+      "lat": 43.1518202,
+      "lon": -106.2942467
+    }
+  ]
+}

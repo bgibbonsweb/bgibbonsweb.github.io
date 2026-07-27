@@ -1,0 +1,353 @@
+{
+  "source": {
+    "name": "EIA Form 861 Annual Electric Power Industry Report (2024)",
+    "year": 2024,
+    "state": "New Jersey",
+    "methodology": "Utility annual electricity sales (MWh) from Sales_Ult_Cust worksheet distributed equally across each utility's service county-equivalents (Service_Territory worksheet). County-equivalent centroid geometry from US Census GeoJSON.",
+    "workbook": "Sales_Ult_Cust_2024.xlsx + Service_Territory_2024.xlsx",
+    "workbook_url": "https://www.eia.gov/electricity/data/eia861/zip/f8612024.zip",
+    "download_page": "https://www.eia.gov/electricity/data/eia861/",
+    "geometry_source": "https://raw.githubusercontent.com/plotly/datasets/master/geojson-counties-fips.json",
+    "generated_at": "2026-04-24T22:23:06.218085Z"
+  },
+  "count": 21,
+  "total_gwh_annual": 71461.1,
+  "elements": [
+    {
+      "type": "node",
+      "id": "consumer-county-001",
+      "lat": 39.469378,
+      "lon": -74.549233,
+      "tags": {
+        "name": "Atlantic Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "123.63",
+        "consumption:gwh:annual": "1082.99",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-003",
+      "lat": 40.935777,
+      "lon": -74.060056,
+      "tags": {
+        "name": "Bergen Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "391.69",
+        "consumption:gwh:annual": "3431.24",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-005",
+      "lat": 39.95183,
+      "lon": -74.795346,
+      "tags": {
+        "name": "Burlington Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "629.46",
+        "consumption:gwh:annual": "5514.08",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-007",
+      "lat": 39.873564,
+      "lon": -74.96144,
+      "tags": {
+        "name": "Camden Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "455.16",
+        "consumption:gwh:annual": "3987.19",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-009",
+      "lat": 39.097304,
+      "lon": -74.793191,
+      "tags": {
+        "name": "Cape May Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "123.63",
+        "consumption:gwh:annual": "1082.99",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-011",
+      "lat": 39.287027,
+      "lon": -75.172958,
+      "tags": {
+        "name": "Cumberland Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "204.42",
+        "consumption:gwh:annual": "1790.73",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-013",
+      "lat": 40.748093,
+      "lon": -74.238586,
+      "tags": {
+        "name": "Essex Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "505.83",
+        "consumption:gwh:annual": "4431.08",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-015",
+      "lat": 39.764725,
+      "lon": -75.218106,
+      "tags": {
+        "name": "Gloucester Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "455.16",
+        "consumption:gwh:annual": "3987.19",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-017",
+      "lat": 40.727558,
+      "lon": -74.094972,
+      "tags": {
+        "name": "Hudson Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "331.53",
+        "consumption:gwh:annual": "2904.19",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-019",
+      "lat": 40.534221,
+      "lon": -74.989358,
+      "tags": {
+        "name": "Hunterdon Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "174.30",
+        "consumption:gwh:annual": "1526.89",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-021",
+      "lat": 40.219469,
+      "lon": -74.662853,
+      "tags": {
+        "name": "Mercer Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "505.83",
+        "consumption:gwh:annual": "4431.08",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-023",
+      "lat": 40.500287,
+      "lon": -74.367248,
+      "tags": {
+        "name": "Middlesex Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "505.83",
+        "consumption:gwh:annual": "4431.08",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-025",
+      "lat": 40.376164,
+      "lon": -74.160786,
+      "tags": {
+        "name": "Monmouth Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "505.83",
+        "consumption:gwh:annual": "4431.08",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-027",
+      "lat": 40.820113,
+      "lon": -74.508207,
+      "tags": {
+        "name": "Morris Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "505.83",
+        "consumption:gwh:annual": "4431.08",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-029",
+      "lat": 39.823387,
+      "lon": -74.221394,
+      "tags": {
+        "name": "Ocean Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "297.93",
+        "consumption:gwh:annual": "2609.88",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-031",
+      "lat": 41.008661,
+      "lon": -74.251401,
+      "tags": {
+        "name": "Passaic Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "566.00",
+        "consumption:gwh:annual": "4958.13",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-033",
+      "lat": 39.582347,
+      "lon": -75.463161,
+      "tags": {
+        "name": "Salem Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "455.16",
+        "consumption:gwh:annual": "3987.19",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-035",
+      "lat": 40.57519,
+      "lon": -74.54525,
+      "tags": {
+        "name": "Somerset Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "505.83",
+        "consumption:gwh:annual": "4431.08",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-037",
+      "lat": 41.159556,
+      "lon": -74.744959,
+      "tags": {
+        "name": "Sussex Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "234.47",
+        "consumption:gwh:annual": "2053.94",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-039",
+      "lat": 40.661725,
+      "lon": -74.301914,
+      "tags": {
+        "name": "Union Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "505.83",
+        "consumption:gwh:annual": "4431.08",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-041",
+      "lat": 40.90569,
+      "lon": -75.06756,
+      "tags": {
+        "name": "Warren Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county-equivalent",
+        "load:mw": "174.30",
+        "consumption:gwh:annual": "1526.89",
+        "year": "2024",
+        "operator": "County-equivalent aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    }
+  ]
+}

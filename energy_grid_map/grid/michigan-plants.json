@@ -1,0 +1,6364 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-04-24T20:51:16Z",
+    "timestamp_areas_base": "2026-04-24T15:53:36Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 10120038550,
+      "lat": 45.8044,
+      "lon": -87.0891,
+      "tags": {
+        "fixme": "location",
+        "name": "Escanaba Mill",
+        "operator": "Verso Escanaba LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "122.4 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "biomass",
+        "power": "plant",
+        "ref:US:EIA": "10208",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1969-01"
+      }
+    },
+    {
+      "type": "way",
+      "id": 26271260,
+      "center": {
+        "lat": 42.7178354,
+        "lon": -84.4844748
+      },
+      "tags": {
+        "addr:city": "East Lansing",
+        "addr:housenumber": "354",
+        "addr:street": "Service Road",
+        "landuse": "industrial",
+        "name": "T.\u00a0B.\u00a0Simon Power\u00a0Plant",
+        "operator": "Michigan State University",
+        "plant:method": "combustion",
+        "plant:output:electricity": "99.3 MW",
+        "plant:output:hot_water": "yes",
+        "plant:output:steam": "yes",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "10328",
+        "short_name": "Simon Power Plant",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1965-12",
+        "wikidata": "Q7668158",
+        "wikipedia": "en:T. B. Simon Power Plant"
+      },
+      "lat": 42.7178354,
+      "lon": -84.4844748
+    },
+    {
+      "type": "way",
+      "id": 89556130,
+      "center": {
+        "lat": 41.9758132,
+        "lon": -86.5654647
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "D.C. Cook Nuclear Power Plant",
+        "operator": "Indiana Michigan Power",
+        "plant:method": "fission",
+        "plant:output:electricity": "2285.3 MW",
+        "plant:source": "nuclear",
+        "power": "plant",
+        "ref:US:EIA": "6000",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1975-08",
+        "wikidata": "Q605091"
+      },
+      "lat": 41.9758132,
+      "lon": -86.5654647
+    },
+    {
+      "type": "way",
+      "id": 104526986,
+      "center": {
+        "lat": 41.9608326,
+        "lon": -83.265508
+      },
+      "tags": {
+        "addr:city": "Newport",
+        "addr:housenumber": "5998",
+        "addr:postcode": "48116",
+        "addr:state": "MI",
+        "addr:street": "Enrico Fermi Drive",
+        "landuse": "industrial",
+        "name": "Enrico\u00a0Fermi Nuclear Generating Station",
+        "operator": "DTE Energy",
+        "operator:wikidata": "Q5206232",
+        "plant:method": "fission",
+        "plant:output:electricity": "1281 MW",
+        "plant:source": "nuclear;oil",
+        "power": "plant",
+        "ref:US:EIA": "1729",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "1966-07-08",
+        "wikidata": "Q522938"
+      },
+      "lat": 41.9608326,
+      "lon": -83.265508
+    },
+    {
+      "type": "way",
+      "id": 123384238,
+      "center": {
+        "lat": 44.9010007,
+        "lon": -85.4126953
+      },
+      "tags": {
+        "gnis:feature_id": "2463255",
+        "landuse": "industrial",
+        "name": "Elk Rapids Hydroelectric Power",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "0.8 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "waterway": "dam"
+      },
+      "lat": 44.9010007,
+      "lon": -85.4126953
+    },
+    {
+      "type": "way",
+      "id": 152944370,
+      "center": {
+        "lat": 42.3222624,
+        "lon": -86.3144626
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Palisades Nuclear Generating Station",
+        "note": "In the process of being refueled and NRC License application pending to begin operation again (as of Oct. 2023). They announced plan to operable/critical in 2025. Wolverine Power Co-op has a majority power purchase agreement in place.",
+        "operator": "Holtec International",
+        "operator:wikidata": "Q16879913",
+        "plant:output:electricity": "811.8 MW",
+        "plant:source": "nuclear",
+        "power": "plant",
+        "ref:US:EIA": "1715",
+        "source": "U.S. Energy Information Administration - EIA-860m - 2025",
+        "start_date": "1972-03",
+        "was:operator": "Entergy Nuclear Palisades LLC",
+        "wikidata": "Q533357",
+        "wikipedia": "en:Palisades Nuclear Generating Station"
+      },
+      "lat": 42.3222624,
+      "lon": -86.3144626
+    },
+    {
+      "type": "way",
+      "id": 152944375,
+      "center": {
+        "lat": 42.3228998,
+        "lon": -86.2935949
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "New Covert Generating Facility",
+        "operator": "New Covert Generating Company LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "1176 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "55297",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2004-03",
+        "wikidata": "Q11991250"
+      },
+      "lat": 42.3228998,
+      "lon": -86.2935949
+    },
+    {
+      "type": "way",
+      "id": 154232127,
+      "center": {
+        "lat": 42.2808177,
+        "lon": -83.7344992
+      },
+      "tags": {
+        "addr:housenumber": "1120",
+        "addr:street": "East Huron Street",
+        "building": "university",
+        "description": "Generates steam and electrical power for University buildings in the Central Campus area.",
+        "name": "Central Power Plant",
+        "name:zh": "\u4e2d\u592e\u80fd\u6e90\u5382",
+        "operator": "University of Michigan",
+        "plant:method": "combustion",
+        "plant:output:electricity": "60 MW",
+        "plant:output:hot_water": "yes",
+        "plant:output:steam": "yes",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "50431",
+        "source": "U.S. Energy Information Administration - EIA-860m - 2025",
+        "start_date": "1939-01"
+      },
+      "lat": 42.2808177,
+      "lon": -83.7344992
+    },
+    {
+      "type": "way",
+      "id": 163865778,
+      "center": {
+        "lat": 42.7742311,
+        "lon": -82.4817048
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Dean Power Plant",
+        "operator": "DTE Energy",
+        "operator:wikidata": "Q5206232",
+        "plant:method": "combustion",
+        "plant:output:electricity": "357.6 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "55718",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2002-06",
+        "wikidata": "Q11966454"
+      },
+      "lat": 42.7742311,
+      "lon": -82.4817048
+    },
+    {
+      "type": "way",
+      "id": 175265416,
+      "center": {
+        "lat": 43.186307,
+        "lon": -84.8434596
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Renaissance Power Plant",
+        "operator": "DTE Energy",
+        "operator:wikidata": "Q5206232",
+        "plant:method": "combustion",
+        "plant:output:electricity": "782 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "55402",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2002-03",
+        "wikidata": "Q11997575"
+      },
+      "lat": 43.186307,
+      "lon": -84.8434596
+    },
+    {
+      "type": "way",
+      "id": 186948639,
+      "center": {
+        "lat": 41.8856142,
+        "lon": -83.3447264
+      },
+      "tags": {
+        "addr:city": "Monroe",
+        "addr:housenumber": "3500",
+        "addr:postcode": "48161",
+        "addr:state": "MI",
+        "addr:street": "East Front Street",
+        "landuse": "industrial",
+        "name": "Monroe Energy Center",
+        "operator": "DTE Energy",
+        "operator:wikidata": "Q5206232",
+        "plant:method": "combustion",
+        "plant:output:electricity": "3293.1 MW",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "1733",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "1971",
+        "wikidata": "Q2944698",
+        "wikipedia": "en:Monroe Power Plant"
+      },
+      "lat": 41.8856142,
+      "lon": -83.3447264
+    },
+    {
+      "type": "way",
+      "id": 202499297,
+      "center": {
+        "lat": 42.7567511,
+        "lon": -86.0849131
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "48th Street Generation Station",
+        "operator": "City of Holland",
+        "plant:method": "combustion",
+        "plant:output:electricity": "161.7 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "7268",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1992-05"
+      },
+      "lat": 42.7567511,
+      "lon": -86.0849131
+    },
+    {
+      "type": "way",
+      "id": 206004503,
+      "center": {
+        "lat": 42.1671031,
+        "lon": -83.531982
+      },
+      "tags": {
+        "addr:housenumber": "8509",
+        "addr:street": "Rawsonville Road",
+        "barrier": "fence",
+        "contact:website": "http://www.wolverinepowercooperative.com",
+        "landuse": "industrial",
+        "name": "Sumpter Generating\u00a0Facility",
+        "operator": "Wolverine Power Supply Cooperative, Inc.",
+        "plant:method": "combustion",
+        "plant:output:electricity": "340 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "7972",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2002-07",
+        "wikidata": "Q12003948"
+      },
+      "lat": 42.1671031,
+      "lon": -83.531982
+    },
+    {
+      "type": "way",
+      "id": 207029038,
+      "center": {
+        "lat": 43.6471427,
+        "lon": -83.8355725
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "D. E. Karn Generating Plant",
+        "note": "Coal Units retired 2023-06.",
+        "operator": "Consumers Energy Co",
+        "operator:wikidata": "Q5164746",
+        "plant:method": "combustion",
+        "plant:output:electricity": "1149 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "1702",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019;https://www.consumersenergy.com/community/sustainability/our-hometown-stories/summer-2023-karn",
+        "start_date": "1959-11",
+        "wikidata": "Q11964639"
+      },
+      "lat": 43.6471427,
+      "lon": -83.8355725
+    },
+    {
+      "type": "way",
+      "id": 207212832,
+      "center": {
+        "lat": 45.3617887,
+        "lon": -84.9513002
+      },
+      "tags": {
+        "addr:state": "MI",
+        "building": "yes",
+        "ele": "229",
+        "gnis:feature_id": "2369630",
+        "name": "Heating Plant",
+        "power": "plant",
+        "source": "USGS Geonames"
+      },
+      "lat": 45.3617887,
+      "lon": -84.9513002
+    },
+    {
+      "type": "way",
+      "id": 207643503,
+      "center": {
+        "lat": 42.8203481,
+        "lon": -85.9956689
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Zeeland Generating Station",
+        "operator": "Consumers Energy",
+        "operator:wikidata": "Q5164746",
+        "plant:method": "combustion",
+        "plant:output:electricity": "968.2 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "55087",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2001-06",
+        "wikidata": "Q12011164"
+      },
+      "lat": 42.8203481,
+      "lon": -85.9956689
+    },
+    {
+      "type": "way",
+      "id": 207654284,
+      "center": {
+        "lat": 43.8935034,
+        "lon": -86.4451366
+      },
+      "tags": {
+        "name": "Ludington Pumped Storage Power Plant",
+        "operator": "Consumers Energy Co",
+        "operator:wikidata": "Q5164746",
+        "plant:method": "water-pumped-storage",
+        "plant:output:electricity": "1978.8 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "1713",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1973-01",
+        "wikidata": "Q374898",
+        "wikipedia": "en:Ludington Pumped Storage Power Plant"
+      },
+      "lat": 43.8935034,
+      "lon": -86.4451366
+    },
+    {
+      "type": "way",
+      "id": 214312739,
+      "center": {
+        "lat": 42.3040169,
+        "lon": -83.0903538
+      },
+      "tags": {
+        "addr:city": "Detroit",
+        "addr:housenumber": "5425",
+        "addr:postcode": "48207",
+        "addr:state": "MI",
+        "addr:street": "Jefferson Avenue West",
+        "generator:method": "combustion",
+        "generator:type": "gas_turbine",
+        "industrial": "power",
+        "landuse": "industrial",
+        "name": "Mistersky Gas Power Plant",
+        "operator": "Detroit Public Lighting Authority",
+        "plant:method": "combustion",
+        "plant:output:electricity": "142 MW",
+        "plant:source": "gas",
+        "power": "plant"
+      },
+      "lat": 42.3040169,
+      "lon": -83.0903538
+    },
+    {
+      "type": "way",
+      "id": 290392352,
+      "center": {
+        "lat": 44.561923,
+        "lon": -83.8044277
+      },
+      "tags": {
+        "name": "Alcona Power Station",
+        "operator": "Consumers Energy",
+        "operator:wikidata": "Q5164746",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "8 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "1693",
+        "source": "bing",
+        "start_date": "1924-01",
+        "wikidata": "Q4713346",
+        "wikipedia": "en:Alcona Dam"
+      },
+      "lat": 44.561923,
+      "lon": -83.8044277
+    },
+    {
+      "type": "way",
+      "id": 292341747,
+      "center": {
+        "lat": 42.2992033,
+        "lon": -83.7053061
+      },
+      "tags": {
+        "building:part": "industrial",
+        "landuse": "industrial",
+        "name": "NCRC Central Energy Plant",
+        "operator": "University of Michigan NCampus Research",
+        "plant:method": "combustion",
+        "plant:output:electricity": "12.4 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "oil;gas",
+        "power": "plant",
+        "ref:US:EIA": "54604",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1989-08"
+      },
+      "lat": 42.2992033,
+      "lon": -83.7053061
+    },
+    {
+      "type": "way",
+      "id": 294043186,
+      "center": {
+        "lat": 45.9805232,
+        "lon": -87.2696275
+      },
+      "tags": {
+        "operator": "Upper Peninsula Power Company",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "4.7 MW",
+        "plant:source": "hydro",
+        "power": "plant"
+      },
+      "lat": 45.9805232,
+      "lon": -87.2696275
+    },
+    {
+      "type": "way",
+      "id": 311156937,
+      "center": {
+        "lat": 43.5862767,
+        "lon": -84.2246284
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Midland Cogeneration Venture",
+        "operator": "Borealis Infrastructure",
+        "plant:method": "combustion",
+        "plant:output:electricity": "1853.8 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "10745",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1989-06",
+        "wikidata": "Q1495182",
+        "wikipedia": "en:Midland Cogeneration Venture"
+      },
+      "lat": 43.5862767,
+      "lon": -84.2246284
+    },
+    {
+      "type": "way",
+      "id": 320543780,
+      "center": {
+        "lat": 43.6133052,
+        "lon": -85.4783656
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Rogers",
+        "operator": "Consumers Energy",
+        "operator:wikidata": "Q5164746",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "6.8 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "1716",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1922-01",
+        "wikidata": "Q5656560",
+        "wikipedia": "en:Hardy Dam"
+      },
+      "lat": 43.6133052,
+      "lon": -85.4783656
+    },
+    {
+      "type": "way",
+      "id": 320543782,
+      "center": {
+        "lat": 43.4371197,
+        "lon": -85.6636351
+      },
+      "tags": {
+        "addr:city": "Croton",
+        "addr:county": "Newaygo County",
+        "addr:state": "MI",
+        "building": "industrial",
+        "historic": "yes",
+        "name": "Croton Hydroelectric Plant",
+        "operator": "Consumers Energy",
+        "operator:wikidata": "Q5164746",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "8.9 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "1701",
+        "ref:nrhp": "79001165",
+        "source": "U.S. Energy Information Administration EIA-860-2019",
+        "start_date": "1907",
+        "wikidata": "Q5188982",
+        "wikipedia": "en:Croton Dam (Michigan)"
+      },
+      "lat": 43.4371197,
+      "lon": -85.6636351
+    },
+    {
+      "type": "way",
+      "id": 320543783,
+      "center": {
+        "lat": 43.4864404,
+        "lon": -85.6297343
+      },
+      "tags": {
+        "addr:city": "Big Prarie Township",
+        "addr:county": "Newaygo County",
+        "addr:state": "MI",
+        "building": "industrial",
+        "historic": "yes",
+        "layer": "1",
+        "name": "Hardy Hydroelectric Plant",
+        "operator": "Consumers Energy",
+        "operator:wikidata": "Q5164746",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "31.5 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "1707",
+        "ref:nrhp": "97001479",
+        "source": "U.S. Energy Information Administration EIA-860-2019",
+        "start_date": "1931",
+        "wikidata": "Q5656560",
+        "wikipedia": "en:Hardy Dam"
+      },
+      "lat": 43.4864404,
+      "lon": -85.6297343
+    },
+    {
+      "type": "way",
+      "id": 320757134,
+      "center": {
+        "lat": 44.4634605,
+        "lon": -83.7216046
+      },
+      "tags": {
+        "building": "industrial",
+        "name": "Loud",
+        "operator": "Consumers Energy",
+        "operator:wikidata": "Q5164746",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "4 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "1712",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1913",
+        "website": "https://www.consumersenergy.com/company/electric-generation/hydroelectric",
+        "wikipedia": "en:Loud Dam"
+      },
+      "lat": 44.4634605,
+      "lon": -83.7216046
+    },
+    {
+      "type": "way",
+      "id": 320757137,
+      "center": {
+        "lat": 44.3627503,
+        "lon": -85.8199834
+      },
+      "tags": {
+        "name": "Hodenpyl Power Plant",
+        "operator": "Consumers Energy",
+        "operator:wikidata": "Q5164746",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "17 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "1708",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1925-07"
+      },
+      "lat": 44.3627503,
+      "lon": -85.8199834
+    },
+    {
+      "type": "way",
+      "id": 320757138,
+      "center": {
+        "lat": 44.4725249,
+        "lon": -83.571622
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Cooke Power Station",
+        "operator": "Consumers Energy",
+        "operator:wikidata": "Q5164746",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "9 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "1700",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1911-01",
+        "wikidata": "Q5167026",
+        "wikipedia": "en:Cooke Dam"
+      },
+      "lat": 44.4725249,
+      "lon": -83.571622
+    },
+    {
+      "type": "way",
+      "id": 320757139,
+      "center": {
+        "lat": 44.4554515,
+        "lon": -83.6762004
+      },
+      "tags": {
+        "name": "Five Channels Power Plant",
+        "operator": "Consumers Energy",
+        "operator:wikidata": "Q5164746",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "6 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "1704",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1912-01",
+        "website": "https://www.consumersenergy.com/content.aspx?id=1339"
+      },
+      "lat": 44.4554515,
+      "lon": -83.6762004
+    },
+    {
+      "type": "way",
+      "id": 320757143,
+      "center": {
+        "lat": 44.4353116,
+        "lon": -83.4405838
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Foote Power Station",
+        "operator": "Consumers Energy Co",
+        "operator:wikidata": "Q5164746",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "9 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "1705",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1918-01",
+        "wikidata": "Q5466456",
+        "wikipedia": "en:Foote Dam"
+      },
+      "lat": 44.4353116,
+      "lon": -83.4405838
+    },
+    {
+      "type": "way",
+      "id": 320757149,
+      "center": {
+        "lat": 44.258845,
+        "lon": -85.9392682
+      },
+      "tags": {
+        "name": "C W Tippy Power Plant",
+        "operator": "Consumers Energy Co",
+        "operator:wikidata": "Q5164746",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "20.1 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "1698",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1918-01"
+      },
+      "lat": 44.258845,
+      "lon": -85.9392682
+    },
+    {
+      "type": "way",
+      "id": 321064526,
+      "center": {
+        "lat": 44.6611461,
+        "lon": -84.1317369
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Mio Power Plant",
+        "operator": "Consumers Energy",
+        "operator:wikidata": "Q5164746",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "5 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "1714",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1916-01",
+        "website": "https://www.consumersenergy.com/content.aspx?id=1339"
+      },
+      "lat": 44.6611461,
+      "lon": -84.1317369
+    },
+    {
+      "type": "way",
+      "id": 365011572,
+      "center": {
+        "lat": 46.5715354,
+        "lon": -87.476618
+      },
+      "tags": {
+        "building": "yes",
+        "name": "McClure Dam",
+        "operator": "Upper Peninsula Power Company",
+        "plant:output:electricity": "8 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "7116",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1988-02"
+      },
+      "lat": 46.5715354,
+      "lon": -87.476618
+    },
+    {
+      "type": "way",
+      "id": 369865231,
+      "center": {
+        "lat": 45.030077,
+        "lon": -84.7306976
+      },
+      "tags": {
+        "addr:city": "Livingston Township",
+        "addr:county": "Otsego County",
+        "addr:state": "MI",
+        "addr:street": "North Townline Road",
+        "landuse": "industrial",
+        "name": "Livingston Generating\u00a0Station",
+        "operator": "CMS Energy",
+        "plant:method": "combustion",
+        "plant:output:electricity": "170.1 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "55102",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1999-06",
+        "website": "https://www.cms-enterprises.com/"
+      },
+      "lat": 45.030077,
+      "lon": -84.7306976
+    },
+    {
+      "type": "way",
+      "id": 375638654,
+      "center": {
+        "lat": 46.1061749,
+        "lon": -88.3348125
+      },
+      "tags": {
+        "building": "yes",
+        "heritage": "2",
+        "heritage:operator": "nrhp",
+        "historic": "yes",
+        "name": "Crystal Falls Power Plant",
+        "operator": "City of Crystal Falls",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "1821",
+        "ref:nrhp": "83003678",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1914-06",
+        "wikidata": "Q5191191",
+        "wikipedia": "en:Crystal Falls Dam and Power Plant"
+      },
+      "lat": 46.1061749,
+      "lon": -88.3348125
+    },
+    {
+      "type": "way",
+      "id": 378545534,
+      "center": {
+        "lat": 44.6058828,
+        "lon": -84.6904113
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Grayling Generating Station",
+        "operator": "CMS Generation Operating LLC",
+        "plant:output:electricity": "38 MW",
+        "plant:source": "biomass",
+        "power": "plant",
+        "ref:US:EIA": "10822",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1992-05"
+      },
+      "lat": 44.6058828,
+      "lon": -84.6904113
+    },
+    {
+      "type": "way",
+      "id": 381244723,
+      "center": {
+        "lat": 46.49744,
+        "lon": -84.3321796
+      },
+      "tags": {
+        "alt_name": "Cloverland Electric Cooperative Hydroelectric Plant;Saint Marys Falls Hydropower Plant",
+        "building": "yes",
+        "name": "Cloverland Hydroelectric Plant",
+        "operator": "Cloverland Electric Co-op",
+        "plant:output:electricity": "41.8 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "1751",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1901-07",
+        "waterway": "dam",
+        "wikidata": "Q15995449"
+      },
+      "lat": 46.49744,
+      "lon": -84.3321796
+    },
+    {
+      "type": "way",
+      "id": 381244727,
+      "center": {
+        "lat": 46.5061815,
+        "lon": -84.3492593
+      },
+      "tags": {
+        "NHD:ComID": "111831585",
+        "NHD:FCode": "34306",
+        "NHD:FDate": "2003/11/19",
+        "NHD:FTYPE": "DamWeir",
+        "NHD:Resolution": "High",
+        "alt_name": "Soo Locks Dam",
+        "building": "yes",
+        "heritage": "2",
+        "heritage:operator": "nrhp",
+        "heritage:website": "https://www.nps.gov/subjects/nationalregister/index.htm",
+        "historic": "maritime",
+        "name": "Saint Marys Falls Power Plant",
+        "nrhp:criteria": "(A)",
+        "nrhp:inscription_date": "1966-11-13",
+        "nrhp:nhl": "yes",
+        "operator": "U.S. Army Corps of Engineers",
+        "plant:output:electricity": "23.7 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "protection_title": "U.S Army Corps of Engineers",
+        "ref:US:EIA": "1865",
+        "ref:US:NID": "MI00650",
+        "ref:nrhp": "66000394",
+        "source": "NHD",
+        "source_ref": "https://catalog.archives.gov/id/25338738",
+        "start_date": "1932-07",
+        "waterway": "dam"
+      },
+      "lat": 46.5061815,
+      "lon": -84.3492593
+    },
+    {
+      "type": "way",
+      "id": 410109873,
+      "center": {
+        "lat": 42.3762444,
+        "lon": -83.091668
+      },
+      "tags": {
+        "addr:city": "Detroit",
+        "addr:housenumber": "8800",
+        "addr:postcode": "48202",
+        "addr:state": "MI",
+        "addr:street": "Byron Street",
+        "building:levels": "1",
+        "landuse": "industrial",
+        "name": "Herman Kiefer Steam Generation Plant",
+        "operator": "Detroit Public Lighting Authoirty",
+        "plant:method": "combustion",
+        "plant:output:steam": "yes",
+        "plant:source": "gas",
+        "power": "plant"
+      },
+      "lat": 42.3762444,
+      "lon": -83.091668
+    },
+    {
+      "type": "way",
+      "id": 418197246,
+      "center": {
+        "lat": 42.7638311,
+        "lon": -82.4766923
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Saint Clair Power Plant",
+        "note": "The coal-fired power station is closed, but there are 1 gas turbine in operation.",
+        "operator": "DTE Energy",
+        "operator:wikidata": "Q5206232",
+        "plant:method": "combustion",
+        "plant:output:electricity": "18.5 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "1743",
+        "source": "U.S. Energy Information Administration - EIA-860m - 2025",
+        "start_date": "1953-08",
+        "was:plant:output:electricity": "1233.5 MW",
+        "was:plant:source": "coal",
+        "wikidata": "Q7587585"
+      },
+      "lat": 42.7638311,
+      "lon": -82.4766923
+    },
+    {
+      "type": "way",
+      "id": 418197247,
+      "center": {
+        "lat": 42.2079518,
+        "lon": -83.1455723
+      },
+      "tags": {
+        "addr:city": "Wyandotte",
+        "addr:housenumber": "2555",
+        "addr:postcode": "48192",
+        "addr:state": "MI",
+        "addr:street": "Van Alstyne Boulevard",
+        "landuse": "industrial",
+        "name": "Wyandotte Municipal Power Plant",
+        "operator": "Wyandotte Municipal Services",
+        "plant:method": "combustion",
+        "plant:output:electricity": "48.9 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "1866",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1948-01",
+        "website": "https://www.wyan.org/",
+        "wikidata": "Q8039462",
+        "wikipedia": "en:Wyandotte Municipal Services"
+      },
+      "lat": 42.2079518,
+      "lon": -83.1455723
+    },
+    {
+      "type": "way",
+      "id": 428717700,
+      "center": {
+        "lat": 46.5716199,
+        "lon": -87.4103913
+      },
+      "tags": {
+        "alt_name": "James R Smith Power Plant",
+        "building": "yes",
+        "name": "Powder Mill Power Station",
+        "operator": "City of Marquette - (MI)",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "3.2 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "1842",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1919-01"
+      },
+      "lat": 46.5716199,
+      "lon": -87.4103913
+    },
+    {
+      "type": "way",
+      "id": 436328673,
+      "center": {
+        "lat": 45.0045375,
+        "lon": -84.7215253
+      },
+      "tags": {
+        "addr:city": "Gaylord",
+        "addr:county": "Otsego County",
+        "addr:state": "MI",
+        "addr:street": "Milbocker Road",
+        "landuse": "industrial",
+        "name": "Gaylord Power\u00a0Plant",
+        "operator": "Wolverine Power Cooperative",
+        "plant:method": "combustion",
+        "plant:output:electricity": "70.2 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "7932",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2001-06",
+        "website": "https://www.wolverinepowercooperative.com"
+      },
+      "lat": 45.0045375,
+      "lon": -84.7215253
+    },
+    {
+      "type": "way",
+      "id": 474087908,
+      "center": {
+        "lat": 44.6795622,
+        "lon": -83.418994
+      },
+      "tags": {
+        "description": "Fueled by scrap wood from forest products industry.",
+        "landuse": "industrial",
+        "name": "Viking Energy",
+        "operator": "Viking Energy Corp",
+        "plant:output:electricity": "18 MW",
+        "plant:source": "biomass",
+        "power": "plant",
+        "ref:US:EIA": "50772",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1989-01",
+        "website": "http://michiganbiomass.com/vel.php"
+      },
+      "lat": 44.6795622,
+      "lon": -83.418994
+    },
+    {
+      "type": "way",
+      "id": 496242147,
+      "center": {
+        "lat": 45.0933847,
+        "lon": -83.502239
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Four Mile Hydropower Project",
+        "operator": "Eagle Creek Renewable Energy",
+        "operator:wikidata": "Q113376370",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "54341",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1990-09"
+      },
+      "lat": 45.0933847,
+      "lon": -83.502239
+    },
+    {
+      "type": "way",
+      "id": 522722860,
+      "center": {
+        "lat": 42.3778854,
+        "lon": -83.2006024
+      },
+      "tags": {
+        "operator": "DTE Electric Company",
+        "operator:wikidata": "Q5265919",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60348"
+      },
+      "lat": 42.3778854,
+      "lon": -83.2006024
+    },
+    {
+      "type": "way",
+      "id": 544186606,
+      "center": {
+        "lat": 42.3670687,
+        "lon": -83.0749062
+      },
+      "tags": {
+        "addr:city": "Detroit",
+        "addr:housenumber": "475",
+        "addr:postcode": "48202",
+        "addr:state": "MI",
+        "addr:street": "West Baltimore Avenue",
+        "landuse": "industrial",
+        "name": "Boulevard Plant",
+        "operator": "Detroit Thermal",
+        "plant:method": "thermal",
+        "plant:output:steam": "yes",
+        "plant:source": "gas",
+        "power": "plant"
+      },
+      "lat": 42.3670687,
+      "lon": -83.0749062
+    },
+    {
+      "type": "way",
+      "id": 553651315,
+      "center": {
+        "lat": 42.1237167,
+        "lon": -83.1875674
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Trenton Channel Energy Center",
+        "operator": "DTE Energy",
+        "operator:wikidata": "Q5206232",
+        "plant:output:electricity": "yes",
+        "plant:source": "battery",
+        "power": "plant"
+      },
+      "lat": 42.1237167,
+      "lon": -83.1875674
+    },
+    {
+      "type": "way",
+      "id": 555320428,
+      "center": {
+        "lat": 42.5101569,
+        "lon": -83.5817882
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.5101569,
+      "lon": -83.5817882
+    },
+    {
+      "type": "way",
+      "id": 556872005,
+      "center": {
+        "lat": 42.3020777,
+        "lon": -83.7062339
+      },
+      "tags": {
+        "operator": "DTE Energy",
+        "operator:wikidata": "Q5206232",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.3020777,
+      "lon": -83.7062339
+    },
+    {
+      "type": "way",
+      "id": 558332863,
+      "center": {
+        "lat": 45.0638311,
+        "lon": -84.826526
+      },
+      "tags": {
+        "addr:city": "Elmira Township",
+        "addr:county": "Otsego County",
+        "addr:state": "MI",
+        "addr:street": "M 32",
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Alpine Power Plant",
+        "operator": "Wolverine Power Cooperative",
+        "plant:method": "combustion",
+        "plant:output:electricity": "453.8 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "59926",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021;https://www.gem.wiki/Alpine_power_plant",
+        "start_date": "2016-06",
+        "website": "https://www.wolverinepowercooperative.com"
+      },
+      "lat": 45.0638311,
+      "lon": -84.826526
+    },
+    {
+      "type": "way",
+      "id": 560395420,
+      "center": {
+        "lat": 45.362713,
+        "lon": -84.2946157
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Tower Power Plant",
+        "operator": "Wolverine Power Cooperative",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "21.3 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "1873",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1948-01"
+      },
+      "lat": 45.362713,
+      "lon": -84.2946157
+    },
+    {
+      "type": "way",
+      "id": 565859121,
+      "center": {
+        "lat": 42.304233,
+        "lon": -83.1521498
+      },
+      "tags": {
+        "addr:city": "Dearborn",
+        "addr:housenumber": "2400",
+        "addr:postcode": "48120",
+        "addr:state": "MI",
+        "addr:street": "Miller Road",
+        "landuse": "industrial",
+        "name": "Dearborn Industrial Generation",
+        "operator": "CMS Energy",
+        "plant:method": "combustion",
+        "plant:output:electricity": "747.9 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "55088",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1999-06",
+        "wikidata": "Q19372437"
+      },
+      "lat": 42.304233,
+      "lon": -83.1521498
+    },
+    {
+      "type": "way",
+      "id": 585534841,
+      "center": {
+        "lat": 42.771624,
+        "lon": -82.4894893
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "operator": "DTE Energy",
+        "operator:wikidata": "Q5206232",
+        "plant:method": "combustion",
+        "plant:output:electricity": "13.5 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1981-11"
+      },
+      "lat": 42.771624,
+      "lon": -82.4894893
+    },
+    {
+      "type": "way",
+      "id": 589962397,
+      "center": {
+        "lat": 42.3885692,
+        "lon": -83.4115598
+      },
+      "tags": {
+        "landuse": "industrial",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.3885692,
+      "lon": -83.4115598
+    },
+    {
+      "type": "way",
+      "id": 593941184,
+      "center": {
+        "lat": 42.7320699,
+        "lon": -84.5458024
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Cedar Street Solar Array",
+        "operator": "Lansing Board of Water & Light",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "150 kW",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.7320699,
+      "lon": -84.5458024
+    },
+    {
+      "type": "way",
+      "id": 611214798,
+      "center": {
+        "lat": 42.8143927,
+        "lon": -86.0107303
+      },
+      "tags": {
+        "addr:city": "Zeeland",
+        "addr:housenumber": "347",
+        "addr:postcode": "49464",
+        "addr:state": "MI",
+        "addr:street": "East Washington Avenue",
+        "landuse": "industrial",
+        "name": "Washington Ave Power Plant",
+        "operator": "Zeeland BPW",
+        "plant:method": "combustion",
+        "plant:output:electricity": "24 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "website": "https://zeelandbpw.com/"
+      },
+      "lat": 42.8143927,
+      "lon": -86.0107303
+    },
+    {
+      "type": "way",
+      "id": 629516091,
+      "center": {
+        "lat": 44.2610842,
+        "lon": -85.2977356
+      },
+      "tags": {
+        "name": "SpartanSolar",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.2 MW",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 44.2610842,
+      "lon": -85.2977356
+    },
+    {
+      "type": "way",
+      "id": 631654713,
+      "center": {
+        "lat": 43.036777,
+        "lon": -83.3394827
+      },
+      "tags": {
+        "name": "DTE Energy Lapeer Solar Park - Demille Array",
+        "operator": "DTE Electric Company",
+        "operator:wikidata": "Q5265919",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "28.4 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60346",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2017-05"
+      },
+      "lat": 43.036777,
+      "lon": -83.3394827
+    },
+    {
+      "type": "way",
+      "id": 636628832,
+      "center": {
+        "lat": 42.3514615,
+        "lon": -83.062122
+      },
+      "tags": {
+        "addr:city": "Detroit",
+        "addr:housenumber": "50",
+        "addr:postcode": "48201",
+        "addr:state": "MI",
+        "addr:street": "West Willis Street",
+        "landuse": "industrial",
+        "name": "Willis Avenue Station",
+        "operator": "DTE Electric Company",
+        "operator:wikidata": "Q5265919",
+        "plant:method": "combustion",
+        "plant:output:electricity": "yes",
+        "plant:output:steam": "yes",
+        "plant:source": "coal",
+        "power": "plant",
+        "wikidata": "Q8022021"
+      },
+      "lat": 42.3514615,
+      "lon": -83.062122
+    },
+    {
+      "type": "way",
+      "id": 636669940,
+      "center": {
+        "lat": 42.2949817,
+        "lon": -83.1022112
+      },
+      "tags": {
+        "addr:city": "Detroit",
+        "addr:housenumber": "6603",
+        "addr:state": "MI",
+        "addr:street": "Jefferson Avenue West",
+        "landuse": "industrial",
+        "name": "Delray Peaking Facility",
+        "operator": "DTE Electric Company",
+        "operator:wikidata": "Q5265919",
+        "plant:method": "combustion",
+        "plant:output:electricity": "142.2 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "1728",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2000-02"
+      },
+      "lat": 42.2949817,
+      "lon": -83.1022112
+    },
+    {
+      "type": "way",
+      "id": 639834415,
+      "center": {
+        "lat": 42.3243535,
+        "lon": -83.6946025
+      },
+      "tags": {
+        "addr:city": "Ann Arbor",
+        "addr:county": "Washtenaw County",
+        "addr:housenumber": "3001",
+        "addr:postcode": "48105",
+        "addr:state": "MI",
+        "addr:street": "Earhart Road",
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Domino Farms Solar",
+        "operator": "DTE Electric Company",
+        "operator:wikidata": "Q5265919",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.0 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60017",
+        "source": "U.S. Energy Information Administration EIA-860-2020.",
+        "start_date": "2015"
+      },
+      "lat": 42.3243535,
+      "lon": -83.6946025
+    },
+    {
+      "type": "way",
+      "id": 655918609,
+      "center": {
+        "lat": 45.5137838,
+        "lon": -87.8017434
+      },
+      "tags": {
+        "name": "Chalk Hill Power Plant",
+        "operator": "Wisconsin Electric Power Co",
+        "plant:output:electricity": "7.8 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "1776",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1927-05"
+      },
+      "lat": 45.5137838,
+      "lon": -87.8017434
+    },
+    {
+      "type": "way",
+      "id": 655918610,
+      "center": {
+        "lat": 45.3547131,
+        "lon": -87.6493058
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Grand Rapids Power Plant",
+        "operator": "Wisconsin Public Service Corp",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "7.5 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "1787",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1918-06"
+      },
+      "lat": 45.3547131,
+      "lon": -87.6493058
+    },
+    {
+      "type": "way",
+      "id": 664014616,
+      "center": {
+        "lat": 42.248464,
+        "lon": -84.3759017
+      },
+      "tags": {
+        "addr:city": "Jackson",
+        "addr:housenumber": "2219",
+        "addr:state": "MI",
+        "addr:street": "Chapin Street",
+        "landuse": "industrial",
+        "name": "Jackson Generating Station",
+        "note": "This plant was recently purchased by Consumers Energy.",
+        "old_name": "Kinder Morgan Power Plant",
+        "operator": "Consumers Energy",
+        "operator:wikidata": "Q5164746",
+        "plant:method": "combustion",
+        "plant:output:electricity": "649 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "55270",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2002-07",
+        "wikidata": "Q11979797"
+      },
+      "lat": 42.248464,
+      "lon": -84.3759017
+    },
+    {
+      "type": "way",
+      "id": 687377020,
+      "center": {
+        "lat": 44.6890851,
+        "lon": -85.2014694
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Kalkaska CT #1 Power Plant",
+        "operator": "Michigan Public Power Agency",
+        "plant:method": "combustion",
+        "plant:output:electricity": "60.5 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "7984",
+        "source": "http://www.energyjustice.net/map/displayfacility-66696.htm",
+        "start_date": "2002-12"
+      },
+      "lat": 44.6890851,
+      "lon": -85.2014694
+    },
+    {
+      "type": "way",
+      "id": 688197647,
+      "center": {
+        "lat": 44.7770582,
+        "lon": -85.6908548
+      },
+      "tags": {
+        "name": "TCLP Solar Phase 1",
+        "operator": "Heritage Sustainable Energy. LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "63020",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2017-10"
+      },
+      "lat": 44.7770582,
+      "lon": -85.6908548
+    },
+    {
+      "type": "way",
+      "id": 692494863,
+      "center": {
+        "lat": 41.8390632,
+        "lon": -86.351275
+      },
+      "tags": {
+        "ele": "192",
+        "gnis:feature_id": "2377432",
+        "name": "Buchanan Dam",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:NID": "MI00157",
+        "waterway": "dam",
+        "wikidata": "Q33130089"
+      },
+      "lat": 41.8390632,
+      "lon": -86.351275
+    },
+    {
+      "type": "way",
+      "id": 698045951,
+      "center": {
+        "lat": 44.0138338,
+        "lon": -85.5028989
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 44.0138338,
+      "lon": -85.5028989
+    },
+    {
+      "type": "way",
+      "id": 732365752,
+      "center": {
+        "lat": 42.6748264,
+        "lon": -84.6746912
+      },
+      "tags": {
+        "landuse": "industrial",
+        "power": "plant"
+      },
+      "lat": 42.6748264,
+      "lon": -84.6746912
+    },
+    {
+      "type": "way",
+      "id": 732365756,
+      "center": {
+        "lat": 42.6988221,
+        "lon": -84.6824811
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.6988221,
+      "lon": -84.6824811
+    },
+    {
+      "type": "way",
+      "id": 733976813,
+      "center": {
+        "lat": 43.1041316,
+        "lon": -82.6899514
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Greenwood Energy Center Industrial Park",
+        "operator": "DTE Energy",
+        "operator:wikidata": "Q5206232",
+        "plant:method": "combustion",
+        "plant:output:electricity": "1071.3 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "6035",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "1979-07"
+      },
+      "lat": 43.1041316,
+      "lon": -82.6899514
+    },
+    {
+      "type": "way",
+      "id": 736905088,
+      "center": {
+        "lat": 46.7552014,
+        "lon": -88.4553105
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "John H Warden Power Plant",
+        "operator": "L'Anse Warden Electric Company",
+        "plant:method": "combustion",
+        "plant:output:electricity": "22 MW",
+        "plant:source": "biomass",
+        "power": "plant",
+        "ref:US:EIA": "1772",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1959-08"
+      },
+      "lat": 46.7552014,
+      "lon": -88.4553105
+    },
+    {
+      "type": "way",
+      "id": 742866075,
+      "center": {
+        "lat": 42.7927208,
+        "lon": -86.0923824
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Holland Energy Park",
+        "operator": "City of Holland",
+        "plant:method": "combustion",
+        "plant:output:electricity": "149.4 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "59093",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2017-06",
+        "wikidata": "Q11975658"
+      },
+      "lat": 42.7927208,
+      "lon": -86.0923824
+    },
+    {
+      "type": "way",
+      "id": 755356760,
+      "center": {
+        "lat": 42.2562283,
+        "lon": -83.7962976
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.2562283,
+      "lon": -83.7962976
+    },
+    {
+      "type": "way",
+      "id": 764569696,
+      "center": {
+        "lat": 42.4065522,
+        "lon": -86.2425289
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.4065522,
+      "lon": -86.2425289
+    },
+    {
+      "type": "way",
+      "id": 772450187,
+      "center": {
+        "lat": 44.6611642,
+        "lon": -85.7313223
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Green Lake Solar",
+        "operator": "Heritage Sustainable Energy. LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "63019",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2018-10"
+      },
+      "lat": 44.6611642,
+      "lon": -85.7313223
+    },
+    {
+      "type": "way",
+      "id": 776374329,
+      "center": {
+        "lat": 42.1903184,
+        "lon": -86.2299419
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Watervliet PV",
+        "operator": "Indiana Michigan Power",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "4.6 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "59853",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2016-11"
+      },
+      "lat": 42.1903184,
+      "lon": -86.2299419
+    },
+    {
+      "type": "way",
+      "id": 777127782,
+      "center": {
+        "lat": 42.7398629,
+        "lon": -84.4511643
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.7398629,
+      "lon": -84.4511643
+    },
+    {
+      "type": "way",
+      "id": 796532807,
+      "center": {
+        "lat": 45.7182014,
+        "lon": -87.1011168
+      },
+      "tags": {
+        "addr:city": "Escanaba",
+        "addr:housenumber": "3610",
+        "addr:postcode": "49829",
+        "addr:state": "MI",
+        "addr:street": "Airport Road",
+        "name": "Glendon Brown Solar Facility",
+        "operator": "City of Escanaba",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.29 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "source": "local knowledge",
+        "start_date": "2018-09-01",
+        "website": "https://www.escanaba.org/electric/page/solar-information"
+      },
+      "lat": 45.7182014,
+      "lon": -87.1011168
+    },
+    {
+      "type": "way",
+      "id": 835485921,
+      "center": {
+        "lat": 42.2603204,
+        "lon": -85.6495886
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Parkview Battery",
+        "operator": "Consumers Energy Co - (MI)",
+        "plant:output:electricity": "1.1 MW",
+        "plant:source": "battery",
+        "power": "plant",
+        "ref:US:EIA": "61909",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2018-09"
+      },
+      "lat": 42.2603204,
+      "lon": -85.6495886
+    },
+    {
+      "type": "way",
+      "id": 835891063,
+      "center": {
+        "lat": 44.218314,
+        "lon": -86.2898777
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "TES Filer City Station",
+        "operator": "TES Filer City Station LP",
+        "plant:output:electricity": "70 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "50835",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1990-05"
+      },
+      "lat": 44.218314,
+      "lon": -86.2898777
+    },
+    {
+      "type": "way",
+      "id": 837562929,
+      "center": {
+        "lat": 42.520107,
+        "lon": -84.6520121
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "power": "plant"
+      },
+      "lat": 42.520107,
+      "lon": -84.6520121
+    },
+    {
+      "type": "way",
+      "id": 851839777,
+      "center": {
+        "lat": 43.8356811,
+        "lon": -83.0000541
+      },
+      "tags": {
+        "barrier": "fence",
+        "operator": "DTE Electric Company",
+        "operator:wikidata": "Q5265919",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "485 kW",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.8356811,
+      "lon": -83.0000541
+    },
+    {
+      "type": "way",
+      "id": 863430778,
+      "center": {
+        "lat": 42.2815223,
+        "lon": -85.4947059
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Kalamazoo River Generating Station",
+        "operator": "CMS Generation MI Power LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "76 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "55101",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "1999-06"
+      },
+      "lat": 42.2815223,
+      "lon": -85.4947059
+    },
+    {
+      "type": "way",
+      "id": 882071200,
+      "center": {
+        "lat": 42.4711027,
+        "lon": -83.1238626
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.4711027,
+      "lon": -83.1238626
+    },
+    {
+      "type": "way",
+      "id": 899913948,
+      "center": {
+        "lat": 42.1805765,
+        "lon": -83.2420091
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.1805765,
+      "lon": -83.2420091
+    },
+    {
+      "type": "way",
+      "id": 908081931,
+      "center": {
+        "lat": 42.2794682,
+        "lon": -83.4047884
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.2794682,
+      "lon": -83.4047884
+    },
+    {
+      "type": "way",
+      "id": 919270884,
+      "center": {
+        "lat": 42.5212923,
+        "lon": -83.1029188
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.5212923,
+      "lon": -83.1029188
+    },
+    {
+      "type": "way",
+      "id": 923106730,
+      "center": {
+        "lat": 42.719821,
+        "lon": -84.550992
+      },
+      "tags": {
+        "addr:city": "Lansing",
+        "addr:county": "Ingham County",
+        "addr:housenumber": "1201",
+        "addr:state": "MI",
+        "addr:street": "South Washington Avenue",
+        "building": "industrial",
+        "building:levels": "4",
+        "landuse": "industrial",
+        "name": "REO\u00a0Town Cogeneration Plant",
+        "operator": "Lansing Board of Water and Light",
+        "plant:method": "combustion",
+        "plant:output:electricity": "98 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "58427",
+        "roof:shape": "flat",
+        "source": "U.Us Energy Information Administration EIA-860-2019",
+        "start_date": "2013",
+        "website": "https://www.lbwl.com/about-bwl/facilities",
+        "wikipedia": "en:Lansing Board of Water & Light"
+      },
+      "lat": 42.719821,
+      "lon": -84.550992
+    },
+    {
+      "type": "way",
+      "id": 928082035,
+      "center": {
+        "lat": 42.0093709,
+        "lon": -84.2645928
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.0093709,
+      "lon": -84.2645928
+    },
+    {
+      "type": "way",
+      "id": 944894474,
+      "center": {
+        "lat": 43.9404344,
+        "lon": -86.4240795
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Michigan Power LP",
+        "operator": "Michigan Power Limited Partnership",
+        "plant:method": "combustion",
+        "plant:output:electricity": "138.1 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "54915",
+        "source": "https://www.industryabout.com/country-territories-3/873-usa/fossil-fuels-energy/20950-michigan-power-gas-power-plant",
+        "start_date": "1995-10"
+      },
+      "lat": 43.9404344,
+      "lon": -86.4240795
+    },
+    {
+      "type": "way",
+      "id": 952496440,
+      "center": {
+        "lat": 41.7476855,
+        "lon": -84.1728117
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.7476855,
+      "lon": -84.1728117
+    },
+    {
+      "type": "way",
+      "id": 958718597,
+      "center": {
+        "lat": 42.8454804,
+        "lon": -86.1109709
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.8454804,
+      "lon": -86.1109709
+    },
+    {
+      "type": "way",
+      "id": 960819930,
+      "center": {
+        "lat": 44.9199628,
+        "lon": -85.5001281
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "148.5 kW",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 44.9199628,
+      "lon": -85.5001281
+    },
+    {
+      "type": "way",
+      "id": 966846982,
+      "center": {
+        "lat": 42.2755338,
+        "lon": -85.550821
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.2755338,
+      "lon": -85.550821
+    },
+    {
+      "type": "way",
+      "id": 968486100,
+      "center": {
+        "lat": 42.5175684,
+        "lon": -83.0297879
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.5175684,
+      "lon": -83.0297879
+    },
+    {
+      "type": "way",
+      "id": 968896790,
+      "center": {
+        "lat": 42.5001791,
+        "lon": -84.6731735
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "source": "Bing"
+      },
+      "lat": 42.5001791,
+      "lon": -84.6731735
+    },
+    {
+      "type": "way",
+      "id": 976510459,
+      "center": {
+        "lat": 44.7766035,
+        "lon": -85.7007359
+      },
+      "tags": {
+        "name": "M72 West Solar",
+        "operator": "Heritage Sustainable Energy. LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.8 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "63660",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2019-12"
+      },
+      "lat": 44.7766035,
+      "lon": -85.7007359
+    },
+    {
+      "type": "way",
+      "id": 981088168,
+      "center": {
+        "lat": 45.3919744,
+        "lon": -84.333201
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Kleber Power Station",
+        "operator": "Tower Kleber Ltd Partnership",
+        "plant:output:electricity": "1.8 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "1871",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1925-01"
+      },
+      "lat": 45.3919744,
+      "lon": -84.333201
+    },
+    {
+      "type": "way",
+      "id": 989033017,
+      "center": {
+        "lat": 42.911671,
+        "lon": -86.2057863
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "J. H. Campbell Generating Complex",
+        "operator": "Consumers Energy Co",
+        "operator:wikidata": "Q5164746",
+        "plant:method": "combustion",
+        "plant:output:electricity": "1560.8 MW",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "1710",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1962-10",
+        "wikidata": "Q19375997",
+        "wikipedia": "en:J. H. Campbell Generating Plant"
+      },
+      "lat": 42.911671,
+      "lon": -86.2057863
+    },
+    {
+      "type": "way",
+      "id": 989035065,
+      "center": {
+        "lat": 42.463795,
+        "lon": -85.6919512
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Otsego Mill Power Plant",
+        "operator": "Otsego Paper Inc",
+        "plant:method": "combustion",
+        "plant:output:electricity": "21.2 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "55799",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "1995-11"
+      },
+      "lat": 42.463795,
+      "lon": -85.6919512
+    },
+    {
+      "type": "way",
+      "id": 1005383386,
+      "center": {
+        "lat": 42.3953221,
+        "lon": -83.5580642
+      },
+      "tags": {
+        "addr:city": "Salem Township",
+        "addr:county": "Washtenaw County",
+        "addr:housenumber": "10599",
+        "addr:state": "MI",
+        "addr:street": "5 Mile Road",
+        "description": "Fortistar Gas Recovery Systems LLC was recently merged with Opal Fuels LLC, but signage has not yet been changed.",
+        "landuse": "industrial",
+        "name": "Arbor Hills Facility",
+        "operator": "Fortistar Gas Recovery Systems, LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "26.3 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "55596",
+        "source": "U.S. Energy Information Administration EIA-860-2019",
+        "start_date": "1996",
+        "website": "https://www.fortistar.com/"
+      },
+      "lat": 42.3953221,
+      "lon": -83.5580642
+    },
+    {
+      "type": "way",
+      "id": 1008767140,
+      "center": {
+        "lat": 45.0697435,
+        "lon": -83.40805
+      },
+      "tags": {
+        "fixme": "location",
+        "landuse": "industrial",
+        "name": "Alpena Cement Plant",
+        "operator": "Lafarge Corp",
+        "plant:method": "combustion",
+        "plant:output:electricity": "47.2 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "50305",
+        "source": "microsoft/BuildingFootprints;U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1952-01"
+      },
+      "lat": 45.0697435,
+      "lon": -83.40805
+    },
+    {
+      "type": "way",
+      "id": 1010240195,
+      "center": {
+        "lat": 42.3219064,
+        "lon": -85.5368749
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.3219064,
+      "lon": -85.5368749
+    },
+    {
+      "type": "way",
+      "id": 1012941301,
+      "center": {
+        "lat": 42.2641838,
+        "lon": -83.6419016
+      },
+      "tags": {
+        "addr:city": "Superior Township",
+        "addr:county": "Washtenaw County",
+        "addr:housenumber": "6000",
+        "addr:postcode": "48198",
+        "addr:state": "MI",
+        "addr:street": "First Street",
+        "landuse": "industrial",
+        "name": "Superior Generation Plant",
+        "operator": "DTE Energy",
+        "operator:wikidata": "Q5206232",
+        "plant:method": "combustion",
+        "plant:output:electricity": "52 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "1744",
+        "source": "U.S. Energy Information Administration EIA-860-2020.",
+        "start_date": "1966"
+      },
+      "lat": 42.2641838,
+      "lon": -83.6419016
+    },
+    {
+      "type": "way",
+      "id": 1015357240,
+      "center": {
+        "lat": 42.2604424,
+        "lon": -83.6097156
+      },
+      "tags": {
+        "operator": "DTE Electric Company",
+        "operator:wikidata": "Q5265919",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.2604424,
+      "lon": -83.6097156
+    },
+    {
+      "type": "way",
+      "id": 1023911156,
+      "center": {
+        "lat": 42.9531961,
+        "lon": -85.9012581
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Grand Valley Solar Gardens",
+        "operator": "Consumers Energy Co",
+        "operator:wikidata": "Q5164746",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "3 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60118",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2016-04"
+      },
+      "lat": 42.9531961,
+      "lon": -85.9012581
+    },
+    {
+      "type": "way",
+      "id": 1070121369,
+      "center": {
+        "lat": 46.7930889,
+        "lon": -88.6139256
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "A.J. Mihm Generating Station",
+        "operator": "Upper Michigan Energy Resources Corp",
+        "operator:website": "https://www.we-energies.com/company/about",
+        "operator:wikidata": "Q8027166",
+        "operator:wikipedia": "WEC Energy Group",
+        "plant:method": "combustion",
+        "plant:output:electricity": "56.4 MW",
+        "plant:source": "gas",
+        "plant:type": "reciprocating_engine",
+        "power": "plant",
+        "ref:US:EIA": "61391",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2019-03",
+        "website": "https://www.uppermichiganenergy.com/generation/generation.htm"
+      },
+      "lat": 46.7930889,
+      "lon": -88.6139256
+    },
+    {
+      "type": "way",
+      "id": 1073216338,
+      "center": {
+        "lat": 42.7765428,
+        "lon": -82.4813313
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Blue Water Energy Center",
+        "operator": "DTE Energy",
+        "operator:wikidata": "Q5206232",
+        "plant:method": "combustion",
+        "plant:output:electricity": "1267.4 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "62192",
+        "source": "https://empoweringmichigan.com/bluewater/;U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2022-06-06"
+      },
+      "lat": 42.7765428,
+      "lon": -82.4813313
+    },
+    {
+      "type": "way",
+      "id": 1074666531,
+      "center": {
+        "lat": 44.2568227,
+        "lon": -85.4144311
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 44.2568227,
+      "lon": -85.4144311
+    },
+    {
+      "type": "way",
+      "id": 1077826971,
+      "center": {
+        "lat": 41.7535965,
+        "lon": -83.5233759
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Temperance Solar",
+        "operator": "National Grid Renewables",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "20 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "63322",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2020-12"
+      },
+      "lat": 41.7535965,
+      "lon": -83.5233759
+    },
+    {
+      "type": "way",
+      "id": 1077826972,
+      "center": {
+        "lat": 43.595273,
+        "lon": -83.8998121
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Henry Station",
+        "operator": "City of Bay City - (MI)",
+        "plant:method": "combustion",
+        "plant:output:electricity": "15.4 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "7399",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1993-05"
+      },
+      "lat": 43.595273,
+      "lon": -83.8998121
+    },
+    {
+      "type": "way",
+      "id": 1077826973,
+      "center": {
+        "lat": 43.4013339,
+        "lon": -84.9136273
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Vestaburg Power Plant",
+        "operator": "Wolverine Power Supply Coop",
+        "plant:output:electricity": "23.7 MW",
+        "plant:source": "oil;gas",
+        "power": "plant",
+        "ref:US:EIA": "1881",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1939-01"
+      },
+      "lat": 43.4013339,
+      "lon": -84.9136273
+    },
+    {
+      "type": "way",
+      "id": 1077826974,
+      "center": {
+        "lat": 42.7661789,
+        "lon": -82.74497
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Pine Tree Acres WM LFGTE",
+        "operator": "WM Renewable Energy LLC",
+        "plant:output:electricity": "12.8 MW",
+        "plant:source": "biogas",
+        "power": "plant",
+        "ref:US:EIA": "57443",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2012-03"
+      },
+      "lat": 42.7661789,
+      "lon": -82.74497
+    },
+    {
+      "type": "way",
+      "id": 1077826975,
+      "center": {
+        "lat": 42.9818288,
+        "lon": -83.9793634
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Lennon Generating",
+        "operator": "North American Natural Res",
+        "plant:method": "combustion",
+        "plant:output:electricity": "6.4 MW",
+        "plant:source": "biogas",
+        "power": "plant",
+        "ref:US:EIA": "59436",
+        "source": "U.S. Energy Information Administration - EIA-860m - 2025",
+        "start_date": "2001-02"
+      },
+      "lat": 42.9818288,
+      "lon": -83.9793634
+    },
+    {
+      "type": "way",
+      "id": 1077826976,
+      "center": {
+        "lat": 43.456593,
+        "lon": -83.1889958
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Wilmot Power Plant",
+        "operator": "DTE Electric Company",
+        "operator:wikidata": "Q5265919",
+        "plant:method": "combustion",
+        "plant:output:electricity": "13.5 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "1746",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1968-12"
+      },
+      "lat": 43.456593,
+      "lon": -83.1889958
+    },
+    {
+      "type": "way",
+      "id": 1077826977,
+      "center": {
+        "lat": 44.2039987,
+        "lon": -85.2208641
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Viking Energy of McBain",
+        "operator": "Viking Energy Corp",
+        "plant:output:electricity": "18 MW",
+        "plant:source": "biomass",
+        "power": "plant",
+        "ref:US:EIA": "50770",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1988-12"
+      },
+      "lat": 44.2039987,
+      "lon": -85.2208641
+    },
+    {
+      "type": "way",
+      "id": 1077826978,
+      "center": {
+        "lat": 43.0123003,
+        "lon": -84.5276714
+      },
+      "tags": {
+        "fixme": "position",
+        "name": "Bingham Solar",
+        "operator": "National Grid Renewables",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "20 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "63321",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2020-12"
+      },
+      "lat": 43.0123003,
+      "lon": -84.5276714
+    },
+    {
+      "type": "way",
+      "id": 1077826979,
+      "center": {
+        "lat": 41.9195709,
+        "lon": -85.0239015
+      },
+      "tags": {
+        "name": "Coldwater Peaking Plant",
+        "operator": "Coldwater Board of Public Util",
+        "plant:output:electricity": "12.9 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "59467",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2015-07"
+      },
+      "lat": 41.9195709,
+      "lon": -85.0239015
+    },
+    {
+      "type": "way",
+      "id": 1077826980,
+      "center": {
+        "lat": 42.8280004,
+        "lon": -86.0033691
+      },
+      "tags": {
+        "name": "Riley Generating Station",
+        "operator": "City of Zeeland - (MI)",
+        "plant:output:electricity": "10 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "56503",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2006-07"
+      },
+      "lat": 42.8280004,
+      "lon": -86.0033691
+    },
+    {
+      "type": "way",
+      "id": 1077826981,
+      "center": {
+        "lat": 42.710043,
+        "lon": -83.4555419
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Placid 12",
+        "operator": "DTE Energy",
+        "operator:wikidata": "Q5206232",
+        "plant:method": "combustion",
+        "plant:output:electricity": "13.5 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "1737",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1970-11"
+      },
+      "lat": 42.710043,
+      "lon": -83.4555419
+    },
+    {
+      "type": "way",
+      "id": 1077826982,
+      "center": {
+        "lat": 43.3466117,
+        "lon": -83.3839148
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Putnam Power Plant",
+        "operator": "DTE Energy",
+        "operator:wikidata": "Q5206232",
+        "plant:method": "combustion",
+        "plant:output:electricity": "13.5 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "1739",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1971-06"
+      },
+      "lat": 43.3466117,
+      "lon": -83.3839148
+    },
+    {
+      "type": "way",
+      "id": 1077826983,
+      "center": {
+        "lat": 42.730914,
+        "lon": -85.8544038
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Claude Vandyke Power Plant",
+        "operator": "Wolverine Power Supply Coop",
+        "plant:method": "combustion",
+        "plant:output:electricity": "24.8 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "1880",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1959-01"
+      },
+      "lat": 42.730914,
+      "lon": -85.8544038
+    },
+    {
+      "type": "way",
+      "id": 1077826984,
+      "center": {
+        "lat": 42.6586719,
+        "lon": -84.0951586
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Colfax Power Plant",
+        "operator": "DTE Electric Company",
+        "operator:wikidata": "Q5265919",
+        "plant:method": "combustion",
+        "plant:output:electricity": "13.5 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "1725",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1969-11"
+      },
+      "lat": 42.6586719,
+      "lon": -84.0951586
+    },
+    {
+      "type": "way",
+      "id": 1077826985,
+      "center": {
+        "lat": 43.8263622,
+        "lon": -83.2383899
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Oliver Power Plant",
+        "operator": "DTE Energy",
+        "operator:wikidata": "Q5206232",
+        "plant:method": "combustion",
+        "plant:output:electricity": "13.5 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "1735",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1970-01"
+      },
+      "lat": 43.8263622,
+      "lon": -83.2383899
+    },
+    {
+      "type": "way",
+      "id": 1077826986,
+      "center": {
+        "lat": 42.9491441,
+        "lon": -85.6933983
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Kent County Waste to Energy Facility",
+        "operator": "Kent County",
+        "plant:method": "combustion",
+        "plant:output:electricity": "18 MW",
+        "plant:source": "waste",
+        "power": "plant",
+        "ref:US:EIA": "50860",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1989-10"
+      },
+      "lat": 42.9491441,
+      "lon": -85.6933983
+    },
+    {
+      "type": "way",
+      "id": 1077826987,
+      "center": {
+        "lat": 42.9624848,
+        "lon": -85.4940089
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Ada Cogeneration LP",
+        "operator": "Ada Cogeneration LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "33.1 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "10819",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1990-10"
+      },
+      "lat": 42.9624848,
+      "lon": -85.4940089
+    },
+    {
+      "type": "way",
+      "id": 1077826988,
+      "center": {
+        "lat": 44.2618938,
+        "lon": -85.4363072
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Cadillac Renewable Energy",
+        "operator": "Cadillac Renewable Energy LLC",
+        "plant:output:electricity": "44 MW",
+        "plant:source": "biomass",
+        "power": "plant",
+        "ref:US:EIA": "54415",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1993-08"
+      },
+      "lat": 44.2618938,
+      "lon": -85.4363072
+    },
+    {
+      "type": "way",
+      "id": 1077826989,
+      "center": {
+        "lat": 43.0857014,
+        "lon": -83.6683613
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Genesee Power Station LP",
+        "operator": "CMS Generation Operating LLC",
+        "plant:output:electricity": "39.5 MW",
+        "plant:source": "biomass",
+        "power": "plant",
+        "ref:US:EIA": "54751",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1995-12"
+      },
+      "lat": 43.0857014,
+      "lon": -83.6683613
+    },
+    {
+      "type": "way",
+      "id": 1077826991,
+      "center": {
+        "lat": 42.6988126,
+        "lon": -84.6892476
+      },
+      "tags": {
+        "name": "Delta Solar Power I",
+        "operator": "Delta Solar Power I, LLC",
+        "plant:output:electricity": "8.1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61954",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2018-06"
+      },
+      "lat": 42.6988126,
+      "lon": -84.6892476
+    },
+    {
+      "type": "way",
+      "id": 1077826992,
+      "center": {
+        "lat": 42.7064486,
+        "lon": -84.6983685
+      },
+      "tags": {
+        "name": "Delta Solar Power II",
+        "operator": "Delta Solar Power II, LLC",
+        "plant:output:electricity": "15.9 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61955",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2018-07"
+      },
+      "lat": 42.7064486,
+      "lon": -84.6983685
+    },
+    {
+      "type": "way",
+      "id": 1077826994,
+      "center": {
+        "lat": 42.4516143,
+        "lon": -83.0387416
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Northeast Power Plant",
+        "operator": "DTE Electric Company",
+        "operator:wikidata": "Q5265919",
+        "plant:output:electricity": "129.8 MW",
+        "plant:source": "oil;gas",
+        "power": "plant",
+        "ref:US:EIA": "1734",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1966-05",
+        "wikidata": "Q11992630"
+      },
+      "lat": 42.4516143,
+      "lon": -83.0387416
+    },
+    {
+      "type": "way",
+      "id": 1077826998,
+      "center": {
+        "lat": 43.0995994,
+        "lon": -82.6991867
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Greenwood Solar Farm",
+        "operator": "DTE Energy",
+        "operator:wikidata": "Q5206232",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.9 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60019",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2016-01",
+        "wikidata": "Q11972521"
+      },
+      "lat": 43.0995994,
+      "lon": -82.6991867
+    },
+    {
+      "type": "way",
+      "id": 1081220671,
+      "center": {
+        "lat": 43.8401356,
+        "lon": -82.6668988
+      },
+      "tags": {
+        "landuse": "industrial",
+        "power": "plant"
+      },
+      "lat": 43.8401356,
+      "lon": -82.6668988
+    },
+    {
+      "type": "way",
+      "id": 1088319434,
+      "center": {
+        "lat": 42.2410392,
+        "lon": -83.326104
+      },
+      "tags": {
+        "addr:city": "Romulus",
+        "addr:postcode": "48174",
+        "addr:state": "MI",
+        "addr:street": "Middlebelt Road",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.2410392,
+      "lon": -83.326104
+    },
+    {
+      "type": "way",
+      "id": 1099768247,
+      "center": {
+        "lat": 43.4354014,
+        "lon": -86.3518464
+      },
+      "tags": {
+        "addr:city": "Montague Township",
+        "addr:housenumber": "9461",
+        "addr:postcode": "49437",
+        "addr:state": "MI",
+        "addr:street": "Sikkenga Road",
+        "description": "https://www.mlive.com/news/muskegon/2022/01/muskegon-county-solar-farm-being-built-to-power-3400-homes-annually.html",
+        "name": "Macbeth Solar",
+        "note": "https://www.shorelinemedia.net/white_lake_beacon/news/montague-township-residents-surprised-by-solar-farm-plans/article_97e78d50-cf64-5167-a668-0f6b8d53545b.html",
+        "operator": "Pine Gate Renewables",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "20 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "65346",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2022-05"
+      },
+      "lat": 43.4354014,
+      "lon": -86.3518464
+    },
+    {
+      "type": "way",
+      "id": 1105940007,
+      "center": {
+        "lat": 46.5121496,
+        "lon": -87.5116691
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "F.D. Kuester Generating Station",
+        "operator": "Upper Michigan Energy Resources Company",
+        "plant:method": "combustion",
+        "plant:output:electricity": "131.6 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "61392",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2019-03"
+      },
+      "lat": 46.5121496,
+      "lon": -87.5116691
+    },
+    {
+      "type": "way",
+      "id": 1105940028,
+      "center": {
+        "lat": 45.102362,
+        "lon": -83.5187429
+      },
+      "tags": {
+        "name": "Norway Point Hydropower Project",
+        "operator": "Eagle Creek Renewable Energy, LLC",
+        "plant:output:electricity": "4 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "54340",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1990-09"
+      },
+      "lat": 45.102362,
+      "lon": -83.5187429
+    },
+    {
+      "type": "way",
+      "id": 1105940029,
+      "center": {
+        "lat": 45.7961228,
+        "lon": -86.5340482
+      },
+      "tags": {
+        "name": "Garden 1 Solar Park",
+        "operator": "DTE Electric Company",
+        "operator:wikidata": "Q5265919",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "0.9 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "65497",
+        "source": "U.S. Energy Information Administration - EIA-860m - 2025",
+        "start_date": "2016-09"
+      },
+      "lat": 45.7961228,
+      "lon": -86.5340482
+    },
+    {
+      "type": "way",
+      "id": 1105940030,
+      "center": {
+        "lat": 46.5655953,
+        "lon": -87.4358372
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Marquette Energy Center",
+        "operator": "Marquette Board of Light and Power",
+        "plant:method": "combustion",
+        "plant:output:electricity": "51.3 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "60559",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2017-08"
+      },
+      "lat": 46.5655953,
+      "lon": -87.4358372
+    },
+    {
+      "type": "way",
+      "id": 1105940031,
+      "center": {
+        "lat": 45.9838497,
+        "lon": -83.9080388
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Detour",
+        "operator": "Cloverland Electric Co-op",
+        "plant:method": "combustion",
+        "plant:output:electricity": "6 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "6369",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1973-10"
+      },
+      "lat": 45.9838497,
+      "lon": -83.9080388
+    },
+    {
+      "type": "way",
+      "id": 1105940033,
+      "center": {
+        "lat": 46.1310869,
+        "lon": -88.2250915
+      },
+      "tags": {
+        "name": "Hemlock Falls",
+        "operator": "Wisconsin Electric Power Co",
+        "plant:output:electricity": "2.8 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "1777",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1953-08"
+      },
+      "lat": 46.1310869,
+      "lon": -88.2250915
+    },
+    {
+      "type": "way",
+      "id": 1105940042,
+      "center": {
+        "lat": 45.847644,
+        "lon": -87.0038735
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Gladstone Power Plant",
+        "operator": "Upper Peninsula Power Company",
+        "plant:method": "combustion",
+        "plant:output:electricity": "22.6 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "7119",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1975-11"
+      },
+      "lat": 45.847644,
+      "lon": -87.0038735
+    },
+    {
+      "type": "way",
+      "id": 1105940044,
+      "center": {
+        "lat": 46.3738468,
+        "lon": -84.4168012
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Dafter Power Plant",
+        "operator": "Cloverland Electric Co-op",
+        "plant:method": "combustion",
+        "plant:output:electricity": "11 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "1868",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1955-11"
+      },
+      "lat": 46.3738468,
+      "lon": -84.4168012
+    },
+    {
+      "type": "way",
+      "id": 1105940046,
+      "center": {
+        "lat": 45.0719104,
+        "lon": -83.4379254
+      },
+      "tags": {
+        "name": "Ninth Street Hydropower Project",
+        "operator": "Eagle Creek Renewable Energy",
+        "operator:wikidata": "Q113376370",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "1.2 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "54342",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1990-09"
+      },
+      "lat": 45.0719104,
+      "lon": -83.4379254
+    },
+    {
+      "type": "way",
+      "id": 1105940047,
+      "center": {
+        "lat": 45.482115,
+        "lon": -87.8023413
+      },
+      "tags": {
+        "name": "White Rapids Power Plant",
+        "operator": "Wisconsin Electric Power Co",
+        "plant:output:electricity": "9 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "1786",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1927-10"
+      },
+      "lat": 45.482115,
+      "lon": -87.8023413
+    },
+    {
+      "type": "way",
+      "id": 1105940048,
+      "center": {
+        "lat": 46.7258069,
+        "lon": -88.6625363
+      },
+      "tags": {
+        "name": "Prickett Power Plant",
+        "operator": "Upper Peninsula Power Company",
+        "plant:output:electricity": "2.2 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "1773",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1931-11"
+      },
+      "lat": 46.7258069,
+      "lon": -88.6625363
+    },
+    {
+      "type": "way",
+      "id": 1105940049,
+      "center": {
+        "lat": 46.5629195,
+        "lon": -87.5686646
+      },
+      "tags": {
+        "building": "industrial",
+        "name": "Hoist Power Plant",
+        "operator": "Upper Peninsula Power Company",
+        "plant:output:electricity": "3.4 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "7115",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1988-02"
+      },
+      "lat": 46.5629195,
+      "lon": -87.5686646
+    },
+    {
+      "type": "way",
+      "id": 1109903625,
+      "center": {
+        "lat": 42.909425,
+        "lon": -85.4988891
+      },
+      "tags": {
+        "layer": "2",
+        "name": "Cascade Dam",
+        "operator": "Eagle Creek Renewable Energy, LLC",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "1.6 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "50436",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "1986-12"
+      },
+      "lat": 42.909425,
+      "lon": -85.4988891
+    },
+    {
+      "type": "way",
+      "id": 1109903626,
+      "center": {
+        "lat": 42.9506548,
+        "lon": -85.4859684
+      },
+      "tags": {
+        "addr:housenumber": "7510",
+        "addr:street": "Thornapple River Drive Southeast",
+        "name": "Ada power station",
+        "operator": "Eagle Creek Renewable Energy, LLC",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "1.4 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "50433",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "1984-03",
+        "website": "https://www.eaglecreekre.com/facilities/operating-facilities/thornapple-river-hydro-facilities"
+      },
+      "lat": 42.9506548,
+      "lon": -85.4859684
+    },
+    {
+      "type": "way",
+      "id": 1110404299,
+      "center": {
+        "lat": 42.7750362,
+        "lon": -85.6821709
+      },
+      "tags": {
+        "addr:city": "Byron Center",
+        "addr:housenumber": "300",
+        "addr:postcode": "49315",
+        "addr:state": "MI",
+        "addr:street": "100th Street Southwest",
+        "landuse": "industrial",
+        "name": "South Kent Generating Station",
+        "operator": "Energy Developments, Inc.",
+        "plant:method": "combustion",
+        "plant:output:electricity": "3.2 MW",
+        "plant:source": "biogas",
+        "power": "plant"
+      },
+      "lat": 42.7750362,
+      "lon": -85.6821709
+    },
+    {
+      "type": "way",
+      "id": 1112801048,
+      "center": {
+        "lat": 42.6903662,
+        "lon": -85.4176274
+      },
+      "tags": {
+        "name": "Irving Dam",
+        "operator": "Commonwealth Power",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "600 kW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:NID": "MI00542",
+        "waterway": "dam"
+      },
+      "lat": 42.6903662,
+      "lon": -85.4176274
+    },
+    {
+      "type": "way",
+      "id": 1115920908,
+      "center": {
+        "lat": 42.71127,
+        "lon": -85.4656301
+      },
+      "tags": {
+        "material": "concrete",
+        "name": "Middleville Dam",
+        "operator": "Commonwealth Power",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "0.35 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:NID": "MI00543",
+        "waterway": "dam"
+      },
+      "lat": 42.71127,
+      "lon": -85.4656301
+    },
+    {
+      "type": "way",
+      "id": 1125662354,
+      "center": {
+        "lat": 42.2024155,
+        "lon": -83.8045283
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.2024155,
+      "lon": -83.8045283
+    },
+    {
+      "type": "way",
+      "id": 1133257647,
+      "center": {
+        "lat": 42.6907344,
+        "lon": -84.6578143
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Delta Energy Park",
+        "operator": "Lansing Board of Water and Light",
+        "plant:method": "combustion",
+        "plant:output:electricity": "263.2 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "63259",
+        "source": "https://www.wlns.com/news/michigan/lansing-bwl-to-unveil-new-500m-delta-energy-park/",
+        "start_date": "2022-03"
+      },
+      "lat": 42.6907344,
+      "lon": -84.6578143
+    },
+    {
+      "type": "way",
+      "id": 1144951057,
+      "center": {
+        "lat": 45.6374618,
+        "lon": -84.4799604
+      },
+      "tags": {
+        "name": "Cheboygan",
+        "operator": "Great Lakes Tissue Co",
+        "plant:output:electricity": "1.5 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "50461",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1984-11"
+      },
+      "lat": 45.6374618,
+      "lon": -84.4799604
+    },
+    {
+      "type": "way",
+      "id": 1148645817,
+      "center": {
+        "lat": 42.2966342,
+        "lon": -83.231933
+      },
+      "tags": {
+        "building": "industrial",
+        "landuse": "industrial",
+        "name": "Dearborn Energy Center",
+        "operator": "DTE Electric Company",
+        "operator:wikidata": "Q5265919",
+        "plant:method": "combustion",
+        "plant:output:electricity": "35 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "62289",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2019-12"
+      },
+      "lat": 42.2966342,
+      "lon": -83.231933
+    },
+    {
+      "type": "way",
+      "id": 1155613020,
+      "center": {
+        "lat": 43.1013925,
+        "lon": -83.7816198
+      },
+      "tags": {
+        "name": "Captain Solar, LLC",
+        "operator": "Captain Solar, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64457",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2020-12"
+      },
+      "lat": 43.1013925,
+      "lon": -83.7816198
+    },
+    {
+      "type": "way",
+      "id": 1155613021,
+      "center": {
+        "lat": 43.0987281,
+        "lon": -83.7716056
+      },
+      "tags": {
+        "name": "Interchange Solar, LLC",
+        "operator": "Interchange Solar, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64470",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2020-12"
+      },
+      "lat": 43.0987281,
+      "lon": -83.7716056
+    },
+    {
+      "type": "way",
+      "id": 1155613022,
+      "center": {
+        "lat": 43.0936918,
+        "lon": -83.7773701
+      },
+      "tags": {
+        "name": "Coldwater Solar, LLC",
+        "operator": "Coldwater Solar, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64458",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2020-12"
+      },
+      "lat": 43.0936918,
+      "lon": -83.7773701
+    },
+    {
+      "type": "way",
+      "id": 1155613074,
+      "center": {
+        "lat": 43.4319477,
+        "lon": -84.1183275
+      },
+      "tags": {
+        "name": "Geddes 1 Solar, LLC",
+        "operator": "Geddes 1 Solar, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64459",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2020-12"
+      },
+      "lat": 43.4319477,
+      "lon": -84.1183275
+    },
+    {
+      "type": "way",
+      "id": 1155613097,
+      "center": {
+        "lat": 43.1518375,
+        "lon": -83.6803406
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Jack Francis Solar, LLC",
+        "operator": "Jack Francis Solar, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64460",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2020-12"
+      },
+      "lat": 43.1518375,
+      "lon": -83.6803406
+    },
+    {
+      "type": "way",
+      "id": 1155613165,
+      "center": {
+        "lat": 43.1509192,
+        "lon": -83.6903383
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "May Shannon Solar, LLC",
+        "operator": "May Shannon Solar, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64461",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2020-12"
+      },
+      "lat": 43.1509192,
+      "lon": -83.6903383
+    },
+    {
+      "type": "way",
+      "id": 1155613177,
+      "center": {
+        "lat": 43.5074035,
+        "lon": -83.996636
+      },
+      "tags": {
+        "name": "Stoneheart Solar, LLC",
+        "operator": "Stoneheart Solar, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64462",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2020-12"
+      },
+      "lat": 43.5074035,
+      "lon": -83.996636
+    },
+    {
+      "type": "way",
+      "id": 1155615180,
+      "center": {
+        "lat": 41.8345705,
+        "lon": -85.0073809
+      },
+      "tags": {
+        "name": "Angola Solar, LLC",
+        "operator": "Angola Solar, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64500",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2021-01"
+      },
+      "lat": 41.8345705,
+      "lon": -85.0073809
+    },
+    {
+      "type": "way",
+      "id": 1155674445,
+      "center": {
+        "lat": 41.9340756,
+        "lon": -84.9971551
+      },
+      "tags": {
+        "name": "DG AMP Solar Coldwater",
+        "operator": "DG AMP Solar, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.3 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61435",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2018-02"
+      },
+      "lat": 41.9340756,
+      "lon": -84.9971551
+    },
+    {
+      "type": "way",
+      "id": 1159437270,
+      "center": {
+        "lat": 43.7269183,
+        "lon": -83.3564675
+      },
+      "tags": {
+        "addr:city": "Sebewaing",
+        "addr:housenumber": "3520",
+        "addr:postcode": "48759",
+        "addr:state": "MI",
+        "addr:street": "Bay Port Road",
+        "name": "Huron Natural Gas Compressor Station",
+        "operator": "Consumers Energy Co",
+        "operator:wikidata": "Q5164746",
+        "plant:method": "combustion",
+        "plant:output:electricity": "1100 HP",
+        "plant:source": "gas",
+        "power": "plant",
+        "start_date": "02-17-2017"
+      },
+      "lat": 43.7269183,
+      "lon": -83.3564675
+    },
+    {
+      "type": "way",
+      "id": 1160028801,
+      "center": {
+        "lat": 42.3321112,
+        "lon": -85.0470591
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "13 Mile Solar, LLC",
+        "operator": "13 Mile Solar, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64456",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2020-12"
+      },
+      "lat": 42.3321112,
+      "lon": -85.0470591
+    },
+    {
+      "type": "way",
+      "id": 1160028992,
+      "center": {
+        "lat": 44.2748668,
+        "lon": -85.2121825
+      },
+      "tags": {
+        "name": "Workman Road Solar Farm, LLC",
+        "operator": "Workman Road Solar Farm, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64463",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2020-12"
+      },
+      "lat": 44.2748668,
+      "lon": -85.2121825
+    },
+    {
+      "type": "way",
+      "id": 1160677740,
+      "center": {
+        "lat": 43.4290506,
+        "lon": -84.1192517
+      },
+      "tags": {
+        "name": "Geddes 2 Solar, LLC",
+        "operator": "Geddes 2 Solar, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64498",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2021-01"
+      },
+      "lat": 43.4290506,
+      "lon": -84.1192517
+    },
+    {
+      "type": "way",
+      "id": 1161548045,
+      "center": {
+        "lat": 45.7978899,
+        "lon": -86.5339831
+      },
+      "tags": {
+        "name": "Garden 2 Solar Park",
+        "operator": "DTE Sustainable Generation",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.4 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "65498",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2022-06"
+      },
+      "lat": 45.7978899,
+      "lon": -86.5339831
+    },
+    {
+      "type": "way",
+      "id": 1162914661,
+      "center": {
+        "lat": 42.2744419,
+        "lon": -84.1358267
+      },
+      "tags": {
+        "name": "Letts Creek Solar, LLC",
+        "operator": "AES Distributed Energy",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "15 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64568",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2022-12"
+      },
+      "lat": 42.2744419,
+      "lon": -84.1358267
+    },
+    {
+      "type": "way",
+      "id": 1162914841,
+      "center": {
+        "lat": 41.9599244,
+        "lon": -84.672784
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Bullhead Solar, LLC",
+        "operator": "Bullhead Solar, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64499",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2021-01"
+      },
+      "lat": 41.9599244,
+      "lon": -84.672784
+    },
+    {
+      "type": "way",
+      "id": 1162914869,
+      "center": {
+        "lat": 43.4020776,
+        "lon": -85.4534542
+      },
+      "tags": {
+        "name": "Hazel Solar",
+        "operator": "Hazel Solar, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64497",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2021-02"
+      },
+      "lat": 43.4020776,
+      "lon": -85.4534542
+    },
+    {
+      "type": "way",
+      "id": 1167771739,
+      "center": {
+        "lat": 42.4905239,
+        "lon": -83.4439383
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.4905239,
+      "lon": -83.4439383
+    },
+    {
+      "type": "way",
+      "id": 1168590086,
+      "center": {
+        "lat": 41.8624276,
+        "lon": -86.2207693
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Indeck Niles Energy Center",
+        "operator": "Indeck Niles, LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "1174.4 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "55460",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2022-07"
+      },
+      "lat": 41.8624276,
+      "lon": -86.2207693
+    },
+    {
+      "type": "way",
+      "id": 1168604839,
+      "center": {
+        "lat": 43.8873418,
+        "lon": -83.3059509
+      },
+      "tags": {
+        "landuse": "industrial",
+        "power": "plant"
+      },
+      "lat": 43.8873418,
+      "lon": -83.3059509
+    },
+    {
+      "type": "way",
+      "id": 1185173767,
+      "center": {
+        "lat": 41.9158596,
+        "lon": -85.9735893
+      },
+      "tags": {
+        "name": "Spartan Solar Cassopolis",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.9158596,
+      "lon": -85.9735893
+    },
+    {
+      "type": "way",
+      "id": 1186003651,
+      "center": {
+        "lat": 43.1015801,
+        "lon": -84.6941037
+      },
+      "tags": {
+        "ownership": "private",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.1015801,
+      "lon": -84.6941037
+    },
+    {
+      "type": "way",
+      "id": 1191315689,
+      "center": {
+        "lat": 45.8047559,
+        "lon": -87.0909502
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Escanaba Mill Power Station",
+        "power": "plant"
+      },
+      "lat": 45.8047559,
+      "lon": -87.0909502
+    },
+    {
+      "type": "way",
+      "id": 1196985215,
+      "center": {
+        "lat": 42.3027623,
+        "lon": -83.4138426
+      },
+      "tags": {
+        "addr:state": "MI",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.3027623,
+      "lon": -83.4138426
+    },
+    {
+      "type": "way",
+      "id": 1200716854,
+      "center": {
+        "lat": 43.8871372,
+        "lon": -83.2703249
+      },
+      "tags": {
+        "addr:city": "Pigeon",
+        "addr:housenumber": "7171",
+        "addr:postcode": "48755",
+        "addr:state": "MI",
+        "addr:street": "Filion Road",
+        "barrier": "fence",
+        "fence_type": "chain_link",
+        "name": "Leipprandt Orchards",
+        "operator": "DTE Energy",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "500 kW",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.8871372,
+      "lon": -83.2703249
+    },
+    {
+      "type": "way",
+      "id": 1202075207,
+      "center": {
+        "lat": 44.66551,
+        "lon": -85.6944339
+      },
+      "tags": {
+        "name": "Cherryland Community Solar Project",
+        "operator": "Cherryland Electric Co.",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 44.66551,
+      "lon": -85.6944339
+    },
+    {
+      "type": "way",
+      "id": 1216237034,
+      "center": {
+        "lat": 42.7386546,
+        "lon": -84.6558997
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.7386546,
+      "lon": -84.6558997
+    },
+    {
+      "type": "way",
+      "id": 1219106776,
+      "center": {
+        "lat": 42.5636127,
+        "lon": -85.9543263
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Allegan Hydro Station",
+        "operator": "Consumers Energy",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "2.6 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "1694",
+        "start_date": "1938"
+      },
+      "lat": 42.5636127,
+      "lon": -85.9543263
+    },
+    {
+      "type": "way",
+      "id": 1229724312,
+      "center": {
+        "lat": 46.5754972,
+        "lon": -87.4028848
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Plant Four",
+        "operator": "City of Marquette - (MI)",
+        "plant:method": "combustion",
+        "plant:output:electricity": "24 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "1840",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1979-05"
+      },
+      "lat": 46.5754972,
+      "lon": -87.4028848
+    },
+    {
+      "type": "way",
+      "id": 1236124496,
+      "center": {
+        "lat": 41.8232048,
+        "lon": -85.0070535
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.8232048,
+      "lon": -85.0070535
+    },
+    {
+      "type": "way",
+      "id": 1239238191,
+      "center": {
+        "lat": 44.6803374,
+        "lon": -83.4186779
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "National Energy of Lincoln Power Plant",
+        "plant:output:electricity": "18 MW",
+        "plant:source": "biomass",
+        "power": "plant",
+        "source": "http://michiganbiomass.com/national-energy-lincoln/"
+      },
+      "lat": 44.6803374,
+      "lon": -83.4186779
+    },
+    {
+      "type": "way",
+      "id": 1243635327,
+      "center": {
+        "lat": 42.2807536,
+        "lon": -83.1096796
+      },
+      "tags": {
+        "building": "industrial",
+        "name": "EES Coke Plant",
+        "operator": "DTE Energy",
+        "operator:wikidata": "Q5206232",
+        "plant:method": "combustion",
+        "plant:output:electricity": "520 MW",
+        "plant:source": "coal",
+        "power": "plant"
+      },
+      "lat": 42.2807536,
+      "lon": -83.1096796
+    },
+    {
+      "type": "way",
+      "id": 1251036808,
+      "center": {
+        "lat": 43.8392456,
+        "lon": -85.4253026
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "George Johnson Power Plant",
+        "operator": "Wolverine Power Supply Coop",
+        "plant:output:electricity": "51 MW",
+        "plant:source": "oil;gas",
+        "power": "plant",
+        "ref:US:EIA": "1877",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1947-01"
+      },
+      "lat": 43.8392456,
+      "lon": -85.4253026
+    },
+    {
+      "type": "way",
+      "id": 1252423941,
+      "center": {
+        "lat": 42.8108366,
+        "lon": -85.4829935
+      },
+      "tags": {
+        "addr:city": "Caledonia",
+        "addr:housenumber": "7400",
+        "addr:postcode": "49316",
+        "addr:state": "MI",
+        "addr:street": "84th Street Southeast",
+        "alt_name": "La Barge Dam",
+        "landuse": "industrial",
+        "name": "LaBarge Dam",
+        "operator": "Commonwealth Power",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "0.862 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:NID": "MI00503"
+      },
+      "lat": 42.8108366,
+      "lon": -85.4829935
+    },
+    {
+      "type": "way",
+      "id": 1252986093,
+      "center": {
+        "lat": 43.058556,
+        "lon": -83.7511942
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.058556,
+      "lon": -83.7511942
+    },
+    {
+      "type": "way",
+      "id": 1267759394,
+      "center": {
+        "lat": 43.8075496,
+        "lon": -82.8322418
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.8075496,
+      "lon": -82.8322418
+    },
+    {
+      "type": "way",
+      "id": 1271195252,
+      "center": {
+        "lat": 43.0781275,
+        "lon": -83.8442414
+      },
+      "tags": {
+        "operator": "Flushing Community Schools",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.0781275,
+      "lon": -83.8442414
+    },
+    {
+      "type": "way",
+      "id": 1279634507,
+      "center": {
+        "lat": 42.1547159,
+        "lon": -84.0382719
+      },
+      "tags": {
+        "operator": "Manchester Community Schools",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.1547159,
+      "lon": -84.0382719
+    },
+    {
+      "type": "way",
+      "id": 1284451701,
+      "center": {
+        "lat": 43.5810723,
+        "lon": -83.897301
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Water Street Peaking Station",
+        "operator": "Bay City Electric Light & Power",
+        "plant:method": "combustion",
+        "plant:output:electricity": "12.6 MW",
+        "plant:source": "diesel",
+        "power": "plant",
+        "ref:US:EIA": "7398",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "1980-08"
+      },
+      "lat": 43.5810723,
+      "lon": -83.897301
+    },
+    {
+      "type": "way",
+      "id": 1285768952,
+      "center": {
+        "lat": 43.0706802,
+        "lon": -83.7428692
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.0706802,
+      "lon": -83.7428692
+    },
+    {
+      "type": "way",
+      "id": 1285768983,
+      "center": {
+        "lat": 43.0934991,
+        "lon": -83.8161657
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.0934991,
+      "lon": -83.8161657
+    },
+    {
+      "type": "way",
+      "id": 1295830101,
+      "center": {
+        "lat": 41.9599959,
+        "lon": -86.4833127
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.9599959,
+      "lon": -86.4833127
+    },
+    {
+      "type": "way",
+      "id": 1295830102,
+      "center": {
+        "lat": 41.9592303,
+        "lon": -86.4855838
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.9592303,
+      "lon": -86.4855838
+    },
+    {
+      "type": "way",
+      "id": 1298669318,
+      "center": {
+        "lat": 43.4112657,
+        "lon": -83.8886413
+      },
+      "tags": {
+        "fixme": "position",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.4112657,
+      "lon": -83.8886413
+    },
+    {
+      "type": "way",
+      "id": 1302758113,
+      "center": {
+        "lat": 42.7980947,
+        "lon": -83.7253147
+      },
+      "tags": {
+        "landuse": "industrial",
+        "power": "plant"
+      },
+      "lat": 42.7980947,
+      "lon": -83.7253147
+    },
+    {
+      "type": "way",
+      "id": 1305436768,
+      "center": {
+        "lat": 42.7640517,
+        "lon": -82.7473806
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Pine Tree Acres",
+        "operator": "NextEra Renewable Fuels, LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "8.8 MW",
+        "plant:source": "biogas",
+        "power": "plant",
+        "ref:US:EIA": "54989",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "1998-06"
+      },
+      "lat": 42.7640517,
+      "lon": -82.7473806
+    },
+    {
+      "type": "way",
+      "id": 1307823065,
+      "center": {
+        "lat": 45.1774046,
+        "lon": -84.9232312
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 45.1774046,
+      "lon": -84.9232312
+    },
+    {
+      "type": "way",
+      "id": 1311097039,
+      "center": {
+        "lat": 42.8183334,
+        "lon": -85.6259771
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.8183334,
+      "lon": -85.6259771
+    },
+    {
+      "type": "way",
+      "id": 1312493390,
+      "center": {
+        "lat": 42.6749858,
+        "lon": -84.445184
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.6749858,
+      "lon": -84.445184
+    },
+    {
+      "type": "way",
+      "id": 1343611417,
+      "center": {
+        "lat": 42.2972453,
+        "lon": -84.7506715
+      },
+      "tags": {
+        "fixme": "impercise",
+        "name": "Shipsterns Solar, LLC",
+        "operator": "Shipsterns Solar, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "20 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "67102",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2023-10"
+      },
+      "lat": 42.2972453,
+      "lon": -84.7506715
+    },
+    {
+      "type": "way",
+      "id": 1343840761,
+      "center": {
+        "lat": 46.5048171,
+        "lon": -84.3547643
+      },
+      "tags": {
+        "building": "yes",
+        "heritage": "2",
+        "heritage:operator": "nrhp",
+        "heritage:website": "https://www.nps.gov/subjects/nationalregister/index.htm",
+        "historic": "maritime",
+        "name": "Unit No. 10",
+        "nrhp:criteria": "(A)",
+        "nrhp:inscription_date": "1966-11-13",
+        "nrhp:nhl": "yes",
+        "operator": "United States Army Corps of Engineers",
+        "operator:short": "USACE",
+        "operator:wikidata": "Q1049334",
+        "plant:output:electricity": "23.7 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "protection_title": "U.S Army Corps of Engineers",
+        "ref:nrhp": "66000394",
+        "source_ref": "https://catalog.archives.gov/id/25338738",
+        "waterway": "dam"
+      },
+      "lat": 46.5048171,
+      "lon": -84.3547643
+    },
+    {
+      "type": "way",
+      "id": 1347602541,
+      "center": {
+        "lat": 42.9766835,
+        "lon": -85.7884321
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.9766835,
+      "lon": -85.7884321
+    },
+    {
+      "type": "way",
+      "id": 1352955376,
+      "center": {
+        "lat": 42.2489224,
+        "lon": -84.4396189
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.2489224,
+      "lon": -84.4396189
+    },
+    {
+      "type": "way",
+      "id": 1356254877,
+      "center": {
+        "lat": 44.7699337,
+        "lon": -85.4509215
+      },
+      "tags": {
+        "addr:city": "Williamsburg",
+        "addr:housenumber": "6394",
+        "addr:postcode": "49690",
+        "addr:state": "MI",
+        "addr:street": "East M 72",
+        "name": "Trailside Solar",
+        "operator": "Prism Power",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "9 MW",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 44.7699337,
+      "lon": -85.4509215
+    },
+    {
+      "type": "way",
+      "id": 1362602433,
+      "center": {
+        "lat": 43.2588815,
+        "lon": -82.6170322
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.2588815,
+      "lon": -82.6170322
+    },
+    {
+      "type": "way",
+      "id": 1380181851,
+      "center": {
+        "lat": 42.364502,
+        "lon": -85.5894937
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.364502,
+      "lon": -85.5894937
+    },
+    {
+      "type": "way",
+      "id": 1386329937,
+      "center": {
+        "lat": 43.6751019,
+        "lon": -84.7542474
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.6751019,
+      "lon": -84.7542474
+    },
+    {
+      "type": "way",
+      "id": 1386329938,
+      "center": {
+        "lat": 43.6716162,
+        "lon": -84.7542703
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.6716162,
+      "lon": -84.7542703
+    },
+    {
+      "type": "way",
+      "id": 1386329939,
+      "center": {
+        "lat": 43.6655579,
+        "lon": -84.7531746
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.6655579,
+      "lon": -84.7531746
+    },
+    {
+      "type": "way",
+      "id": 1386329940,
+      "center": {
+        "lat": 43.6591256,
+        "lon": -84.7537836
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.6591256,
+      "lon": -84.7537836
+    },
+    {
+      "type": "way",
+      "id": 1386330014,
+      "center": {
+        "lat": 43.6623869,
+        "lon": -84.7757568
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.6623869,
+      "lon": -84.7757568
+    },
+    {
+      "type": "way",
+      "id": 1386330015,
+      "center": {
+        "lat": 43.6498293,
+        "lon": -84.7789186
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.6498293,
+      "lon": -84.7789186
+    },
+    {
+      "type": "way",
+      "id": 1386330409,
+      "center": {
+        "lat": 43.6675414,
+        "lon": -84.8006831
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.6675414,
+      "lon": -84.8006831
+    },
+    {
+      "type": "way",
+      "id": 1386330410,
+      "center": {
+        "lat": 43.6674242,
+        "lon": -84.82517
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.6674242,
+      "lon": -84.82517
+    },
+    {
+      "type": "way",
+      "id": 1386330411,
+      "center": {
+        "lat": 43.6625748,
+        "lon": -84.822159
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.6625748,
+      "lon": -84.822159
+    },
+    {
+      "type": "way",
+      "id": 1386359966,
+      "center": {
+        "lat": 43.1929006,
+        "lon": -84.5170222
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.1929006,
+      "lon": -84.5170222
+    },
+    {
+      "type": "way",
+      "id": 1386359967,
+      "center": {
+        "lat": 43.20279,
+        "lon": -84.5284113
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.20279,
+      "lon": -84.5284113
+    },
+    {
+      "type": "way",
+      "id": 1386359968,
+      "center": {
+        "lat": 43.2075218,
+        "lon": -84.5174286
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.2075218,
+      "lon": -84.5174286
+    },
+    {
+      "type": "way",
+      "id": 1386359969,
+      "center": {
+        "lat": 43.2058668,
+        "lon": -84.5195923
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.2058668,
+      "lon": -84.5195923
+    },
+    {
+      "type": "way",
+      "id": 1386359970,
+      "center": {
+        "lat": 43.2014619,
+        "lon": -84.5139765
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.2014619,
+      "lon": -84.5139765
+    },
+    {
+      "type": "way",
+      "id": 1386359971,
+      "center": {
+        "lat": 43.2065205,
+        "lon": -84.5056914
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.2065205,
+      "lon": -84.5056914
+    },
+    {
+      "type": "way",
+      "id": 1386359972,
+      "center": {
+        "lat": 43.2058253,
+        "lon": -84.5111649
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.2058253,
+      "lon": -84.5111649
+    },
+    {
+      "type": "way",
+      "id": 1386982380,
+      "center": {
+        "lat": 46.5652613,
+        "lon": -87.4380005
+      },
+      "tags": {
+        "name": "Marquette Community Solar Garden",
+        "operator": "Marquette Board of Light and Power",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 46.5652613,
+      "lon": -87.4380005
+    },
+    {
+      "type": "way",
+      "id": 1395807772,
+      "center": {
+        "lat": 42.1059257,
+        "lon": -83.6355919
+      },
+      "tags": {
+        "name": "Railsplitter #1",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "39 MW",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.1059257,
+      "lon": -83.6355919
+    },
+    {
+      "type": "way",
+      "id": 1426717582,
+      "center": {
+        "lat": 46.5627872,
+        "lon": -87.4025836
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 46.5627872,
+      "lon": -87.4025836
+    },
+    {
+      "type": "way",
+      "id": 1430698951,
+      "center": {
+        "lat": 42.088975,
+        "lon": -83.3102497
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.088975,
+      "lon": -83.3102497
+    },
+    {
+      "type": "way",
+      "id": 1443074407,
+      "center": {
+        "lat": 43.5831848,
+        "lon": -84.7418677
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.5831848,
+      "lon": -84.7418677
+    },
+    {
+      "type": "way",
+      "id": 1461703994,
+      "center": {
+        "lat": 42.5689222,
+        "lon": -83.3615273
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.5689222,
+      "lon": -83.3615273
+    },
+    {
+      "type": "way",
+      "id": 1463372049,
+      "center": {
+        "lat": 42.2726269,
+        "lon": -84.4741187
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.2726269,
+      "lon": -84.4741187
+    },
+    {
+      "type": "way",
+      "id": 1471478698,
+      "center": {
+        "lat": 43.2240708,
+        "lon": -86.0077806
+      },
+      "tags": {
+        "name": "Muskegon Solar Farm",
+        "operator": "Consumers Energy",
+        "operator:wikidata": "Q5164746",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "250 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "source": "https://www.mlive.com/news/muskegon/2026/01/muskegon-countys-massive-new-solar-farm-goes-online.html",
+        "start_date": "2026-01-05"
+      },
+      "lat": 43.2240708,
+      "lon": -86.0077806
+    },
+    {
+      "type": "way",
+      "id": 1476904989,
+      "center": {
+        "lat": 46.6963776,
+        "lon": -89.2089396
+      },
+      "tags": {
+        "name": "Victoria Dam Turbine House",
+        "operator": "Upper Peninsula Power Company",
+        "plant:output:electricity": "12200 kW",
+        "plant:source": "hydro",
+        "power": "plant"
+      },
+      "lat": 46.6963776,
+      "lon": -89.2089396
+    },
+    {
+      "type": "way",
+      "id": 1488382017,
+      "center": {
+        "lat": 43.2193732,
+        "lon": -86.2744221
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.2193732,
+      "lon": -86.2744221
+    },
+    {
+      "type": "way",
+      "id": 1496645531,
+      "center": {
+        "lat": 42.5576602,
+        "lon": -84.4256664
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.5576602,
+      "lon": -84.4256664
+    },
+    {
+      "type": "relation",
+      "id": 6239277,
+      "center": {
+        "lat": 43.86496,
+        "lon": -82.8004969
+      },
+      "tags": {
+        "height": "152",
+        "name": "Sigel Wind Park",
+        "operator": "DTE Energy",
+        "operator:wikidata": "Q5206232",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "64 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57851",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2012-12",
+        "type": "site"
+      },
+      "lat": 43.86496,
+      "lon": -82.8004969
+    },
+    {
+      "type": "relation",
+      "id": 7298457,
+      "center": {
+        "lat": 46.5644345,
+        "lon": -87.4061964
+      },
+      "tags": {
+        "addr:city": "Marquette",
+        "addr:county": "Marquette",
+        "addr:postcode": "49855",
+        "addr:state": "MI",
+        "ele": "195",
+        "gnis:feature_id": "2336848",
+        "man_made": "works",
+        "name": "Ripley Heat Plant",
+        "operator": "Northern Michigan University",
+        "plant:output:electricity": "0.645 MW",
+        "plant:output:steam": "yes",
+        "plant:source": "gas;biomass;oil",
+        "power": "plant",
+        "source": "USGS Geonames",
+        "type": "multipolygon",
+        "website": "https://www.nmu.edu/facilities/combined-heat-and-power-ripley-heat-plant"
+      },
+      "lat": 46.5644345,
+      "lon": -87.4061964
+    },
+    {
+      "type": "relation",
+      "id": 11034703,
+      "center": {
+        "lat": 43.286901,
+        "lon": -84.51769
+      },
+      "tags": {
+        "name": "Beebe Wind Farm 1A and 1B",
+        "operator": "Constellation Energy",
+        "operator:wikidata": "Q259195",
+        "plant:output:electricity": "132 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "58020;58908",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2012-12",
+        "type": "site"
+      },
+      "lat": 43.286901,
+      "lon": -84.51769
+    },
+    {
+      "type": "relation",
+      "id": 14110821,
+      "center": {
+        "lat": 45.872762,
+        "lon": -88.070895
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Twin Falls Power Plant",
+        "operator": "Wisconsin Electric Power Co",
+        "plant:output:electricity": "9.2 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "59836",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2016-07",
+        "type": "multipolygon"
+      },
+      "lat": 45.872762,
+      "lon": -88.070895
+    },
+    {
+      "type": "relation",
+      "id": 14118993,
+      "center": {
+        "lat": 45.8032528,
+        "lon": -86.5438732
+      },
+      "tags": {
+        "name": "Heritage Garden Wind Farm I",
+        "operator": "DTE Electric Company",
+        "operator:wikidata": "Q5265919",
+        "plant:output:electricity": "28 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "58103",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2012-09",
+        "type": "site"
+      },
+      "lat": 45.8032528,
+      "lon": -86.5438732
+    },
+    {
+      "type": "relation",
+      "id": 14121540,
+      "center": {
+        "lat": 43.3910058,
+        "lon": -84.4847933
+      },
+      "tags": {
+        "name": "Gratiot Wind Farm",
+        "operator": "DTE Energy;Invenergy",
+        "operator:wikidata": "Q5206232",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "212.8 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57421;58677",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020;https://www.michigan.gov/-/media/Project/Websites/mpsc/workgroups/der/Appendix_G_Wind_Map.pdf?rev=18a37ae9dd6b4abd9044990101892545",
+        "start_date": "2011-11",
+        "type": "site"
+      },
+      "lat": 43.3910058,
+      "lon": -84.4847933
+    },
+    {
+      "type": "relation",
+      "id": 14121541,
+      "center": {
+        "lat": 43.4852684,
+        "lon": -84.6589128
+      },
+      "tags": {
+        "name": "Pine River Wind Park",
+        "operator": "DTE Electric Company",
+        "operator:wikidata": "Q5265919",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "161.3 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "61106",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2019-03",
+        "type": "site"
+      },
+      "lat": 43.4852684,
+      "lon": -84.6589128
+    },
+    {
+      "type": "relation",
+      "id": 14121542,
+      "center": {
+        "lat": 43.2833893,
+        "lon": -84.4658625
+      },
+      "tags": {
+        "name": "Polaris Wind Park",
+        "operator": "DTE Energy",
+        "operator:wikidata": "Q5206232",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "168.6 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "62290",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2020-05",
+        "type": "site"
+      },
+      "lat": 43.2833893,
+      "lon": -84.4658625
+    },
+    {
+      "type": "relation",
+      "id": 14121543,
+      "center": {
+        "lat": 43.1886617,
+        "lon": -84.7802076
+      },
+      "tags": {
+        "name": "Gratiot Farms Wind Project",
+        "operator": "Consumers Energy",
+        "operator:wikidata": "Q5164746",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "150 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "63687",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2020-12",
+        "type": "site"
+      },
+      "lat": 43.1886617,
+      "lon": -84.7802076
+    },
+    {
+      "type": "relation",
+      "id": 14134133,
+      "center": {
+        "lat": 43.53107,
+        "lon": -83.5490915
+      },
+      "tags": {
+        "name": "Tuscola Wind II",
+        "operator": "Tuscola Wind II LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "100.3 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "58587",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2013-11",
+        "type": "site"
+      },
+      "lat": 43.53107,
+      "lon": -83.5490915
+    },
+    {
+      "type": "relation",
+      "id": 14134134,
+      "center": {
+        "lat": 43.4939969,
+        "lon": -83.5425228
+      },
+      "tags": {
+        "name": "Pegasus Wind",
+        "operator": "Pegasus Wind, LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "178 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "61916",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2019-12",
+        "type": "site"
+      },
+      "lat": 43.4939969,
+      "lon": -83.5425228
+    },
+    {
+      "type": "relation",
+      "id": 14134135,
+      "center": {
+        "lat": 43.618639,
+        "lon": -83.4676144
+      },
+      "tags": {
+        "manufacturer": "GE",
+        "name": "Cross Winds Energy Park",
+        "operator": "Consumers Energy Co",
+        "operator:wikidata": "Q5164746",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "230.9 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "58830",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2014-12",
+        "type": "site"
+      },
+      "lat": 43.618639,
+      "lon": -83.4676144
+    },
+    {
+      "type": "relation",
+      "id": 14134136,
+      "center": {
+        "lat": 43.8257672,
+        "lon": -83.2182084
+      },
+      "tags": {
+        "name": "Harvest 2 Wind Farm",
+        "operator": "Harvest II Windfarm, LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "59.4 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57888",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2012-11",
+        "type": "site"
+      },
+      "lat": 43.8257672,
+      "lon": -83.2182084
+    },
+    {
+      "type": "relation",
+      "id": 14134137,
+      "center": {
+        "lat": 43.8786,
+        "lon": -83.2569051
+      },
+      "tags": {
+        "name": "McKinley Wind Park",
+        "operator": "DTE Electric Company",
+        "operator:wikidata": "Q5265919",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "14.4 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57853",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2012-12",
+        "type": "site"
+      },
+      "lat": 43.8786,
+      "lon": -83.2569051
+    },
+    {
+      "type": "relation",
+      "id": 14134138,
+      "center": {
+        "lat": 43.8131665,
+        "lon": -83.3087575
+      },
+      "tags": {
+        "name": "Apple Blossom Wind Farm",
+        "operator": "Apple Blossom Wind, LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "100 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "58690",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2017-11",
+        "type": "site"
+      },
+      "lat": 43.8131665,
+      "lon": -83.3087575
+    },
+    {
+      "type": "relation",
+      "id": 14134139,
+      "center": {
+        "lat": 43.7311622,
+        "lon": -83.3157873
+      },
+      "tags": {
+        "name": "Brookfield Wind Farm",
+        "operator": "DTE Energy",
+        "operator:wikidata": "Q5206232",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "74.8 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "58719",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2014-02",
+        "type": "site"
+      },
+      "lat": 43.7311622,
+      "lon": -83.3157873
+    },
+    {
+      "type": "relation",
+      "id": 14134140,
+      "center": {
+        "lat": 43.8705128,
+        "lon": -83.1653926
+      },
+      "tags": {
+        "name": "Echo Wind Park",
+        "operator": "DTE Energy",
+        "operator:wikidata": "Q5206232",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "162 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "58121",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2014-01",
+        "type": "site"
+      },
+      "lat": 43.8705128,
+      "lon": -83.1653926
+    },
+    {
+      "type": "relation",
+      "id": 14134141,
+      "center": {
+        "lat": 43.6436239,
+        "lon": -82.7867037
+      },
+      "tags": {
+        "name": "Minden Wind Park",
+        "operator": "DTE Energy",
+        "operator:wikidata": "Q5206232",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "32 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57852",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2012-12",
+        "type": "site"
+      },
+      "lat": 43.6436239,
+      "lon": -82.7867037
+    },
+    {
+      "type": "relation",
+      "id": 14134142,
+      "center": {
+        "lat": 43.5170769,
+        "lon": -83.6682177
+      },
+      "tags": {
+        "name": "Tuscola Bay Wind",
+        "operator": "Tuscola Bay Wind LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "120 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "58351",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2012-12",
+        "type": "site",
+        "wikidata": "Q19600129"
+      },
+      "lat": 43.5170769,
+      "lon": -83.6682177
+    },
+    {
+      "type": "relation",
+      "id": 14134143,
+      "center": {
+        "lat": 43.9647572,
+        "lon": -82.8850002
+      },
+      "tags": {
+        "name": "Deerfield Wind Energy",
+        "operator": "Deerfield Wind Energy, LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "149 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "60883",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2017-02",
+        "type": "site"
+      },
+      "lat": 43.9647572,
+      "lon": -82.8850002
+    },
+    {
+      "type": "relation",
+      "id": 14134144,
+      "center": {
+        "lat": 43.8771723,
+        "lon": -82.7532255
+      },
+      "tags": {
+        "name": "Big Turtle Wind Farm",
+        "operator": "DTE Sustainable Generation",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "20 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "58891",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2014-12",
+        "type": "site"
+      },
+      "lat": 43.8771723,
+      "lon": -82.7532255
+    },
+    {
+      "type": "relation",
+      "id": 14134145,
+      "center": {
+        "lat": 43.6284595,
+        "lon": -82.7443818
+      },
+      "tags": {
+        "name": "Michigan Wind 2",
+        "operator": "Exelon",
+        "operator:wikidata": "Q1383669",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "90 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56659",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2011-12",
+        "type": "site"
+      },
+      "lat": 43.6284595,
+      "lon": -82.7443818
+    },
+    {
+      "type": "relation",
+      "id": 14134146,
+      "center": {
+        "lat": 43.8394191,
+        "lon": -83.2048846
+      },
+      "tags": {
+        "name": "Harvest Wind Farm",
+        "operator": "Harvest Windfarm, LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "52.8 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56635",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2008-01",
+        "type": "site"
+      },
+      "lat": 43.8394191,
+      "lon": -83.2048846
+    },
+    {
+      "type": "relation",
+      "id": 14134147,
+      "center": {
+        "lat": 43.7696692,
+        "lon": -83.3016796
+      },
+      "tags": {
+        "name": "Pheasant Run Wind",
+        "operator": "Pheasant Run Wind LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "74.8 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "58580",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2013-12",
+        "type": "site"
+      },
+      "lat": 43.7696692,
+      "lon": -83.3016796
+    },
+    {
+      "type": "relation",
+      "id": 14134148,
+      "center": {
+        "lat": 43.7171185,
+        "lon": -82.9476803
+      },
+      "tags": {
+        "name": "Michigan Wind 1",
+        "operator": "Exelon",
+        "operator:wikidata": "Q1383669",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "69 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56416",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2008-12",
+        "type": "site"
+      },
+      "lat": 43.7171185,
+      "lon": -82.9476803
+    },
+    {
+      "type": "relation",
+      "id": 14160865,
+      "center": {
+        "lat": 45.7618122,
+        "lon": -84.7399555
+      },
+      "tags": {
+        "name": "Bay Windpower I",
+        "operator": "Bay Windpower LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "1.8 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "55944",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2001-12",
+        "type": "site"
+      },
+      "lat": 45.7618122,
+      "lon": -84.7399555
+    },
+    {
+      "type": "relation",
+      "id": 14160869,
+      "center": {
+        "lat": 44.1759213,
+        "lon": -85.290103
+      },
+      "tags": {
+        "name": "Stoney Corners Wind Farm",
+        "operator": "DTE Electric Company",
+        "operator:wikidata": "Q5265919",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "60 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57131",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2009-12",
+        "type": "site"
+      },
+      "lat": 44.1759213,
+      "lon": -85.290103
+    },
+    {
+      "type": "relation",
+      "id": 14160872,
+      "center": {
+        "lat": 43.865321,
+        "lon": -86.3485225
+      },
+      "tags": {
+        "name": "Lake Winds Energy Park",
+        "operator": "Consumers Energy Co",
+        "operator:wikidata": "Q5164746",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "100.8 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57984",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2012-11",
+        "type": "site",
+        "wikidata": "Q19865020"
+      },
+      "lat": 43.865321,
+      "lon": -86.3485225
+    },
+    {
+      "type": "relation",
+      "id": 14345926,
+      "center": {
+        "lat": 42.7132507,
+        "lon": -84.4811038
+      },
+      "tags": {
+        "name": "Spartan PV 1",
+        "operator": "Spartan PV 1, LLC",
+        "plant:output:electricity": "10.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60945",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2017-12",
+        "type": "multipolygon"
+      },
+      "lat": 42.7132507,
+      "lon": -84.4811038
+    },
+    {
+      "type": "relation",
+      "id": 14345927,
+      "center": {
+        "lat": 43.0329467,
+        "lon": -83.3131561
+      },
+      "tags": {
+        "name": "Turrill Solar Farm",
+        "operator": "DTE Electric Company",
+        "operator:wikidata": "Q5265919",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "19.6 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60347",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2017-05",
+        "type": "multipolygon"
+      },
+      "lat": 43.0329467,
+      "lon": -83.3131561
+    },
+    {
+      "type": "relation",
+      "id": 14345928,
+      "center": {
+        "lat": 42.5496426,
+        "lon": -83.4427668
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "location": "outdoor",
+        "name": "Hancock Power Plant",
+        "operator": "DTE Electric Company",
+        "operator:wikidata": "Q5265919",
+        "plant:method": "combustion",
+        "plant:output:electricity": "121.6 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "1730",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1966-04",
+        "type": "multipolygon"
+      },
+      "lat": 42.5496426,
+      "lon": -83.4427668
+    },
+    {
+      "type": "relation",
+      "id": 14712367,
+      "center": {
+        "lat": 43.6976915,
+        "lon": -84.7937855
+      },
+      "tags": {
+        "name": "Isabella Wind Park",
+        "operator": "DTE Electric Company",
+        "operator:wikidata": "Q5265919",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "383.5 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "63601",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2021-06",
+        "type": "site"
+      },
+      "lat": 43.6976915,
+      "lon": -84.7937855
+    },
+    {
+      "type": "relation",
+      "id": 15660428,
+      "center": {
+        "lat": 43.0437869,
+        "lon": -83.9480554
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Assembly Solar Farm",
+        "note": "Consists of 3 phases of construction with the last being completed in 2022-11.",
+        "operator": "D. E. Shaw Renewable Investments;Ranger Power",
+        "operator:wikidata": "Q1151402",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "346.9 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "62422;63538;64196",
+        "start_date": "2020-12",
+        "type": "multipolygon"
+      },
+      "lat": 43.0437869,
+      "lon": -83.9480554
+    },
+    {
+      "type": "relation",
+      "id": 15671225,
+      "center": {
+        "lat": 42.3173172,
+        "lon": -83.2105567
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60018",
+        "type": "multipolygon"
+      },
+      "lat": 42.3173172,
+      "lon": -83.2105567
+    },
+    {
+      "type": "relation",
+      "id": 15687232,
+      "center": {
+        "lat": 46.1891139,
+        "lon": -84.3458416
+      },
+      "tags": {
+        "name": "Pickford Solar",
+        "operator": "Heritage Sustainable Energy. LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "6.9 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64251",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2021-02",
+        "type": "multipolygon"
+      },
+      "lat": 46.1891139,
+      "lon": -84.3458416
+    },
+    {
+      "type": "relation",
+      "id": 15687680,
+      "center": {
+        "lat": 43.0072324,
+        "lon": -85.7243467
+      },
+      "tags": {
+        "name": "Bissell Solar and Battery Generator",
+        "operator": "Consumers Energy Co",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.1 MW",
+        "plant:source": "solar;battery",
+        "power": "plant",
+        "ref:US:EIA": "65029",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2021-09",
+        "type": "multipolygon"
+      },
+      "lat": 43.0072324,
+      "lon": -85.7243467
+    },
+    {
+      "type": "relation",
+      "id": 15696920,
+      "center": {
+        "lat": 41.9837773,
+        "lon": -83.8883815
+      },
+      "tags": {
+        "name": "Hendershot Solar, LLC",
+        "operator": "Hendershot Solar, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64496",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2021-01",
+        "type": "multipolygon"
+      },
+      "lat": 41.9837773,
+      "lon": -83.8883815
+    },
+    {
+      "type": "relation",
+      "id": 15710858,
+      "center": {
+        "lat": 42.4705645,
+        "lon": -86.0962421
+      },
+      "tags": {
+        "name": "Pullman Solar, LLC",
+        "operator": "AES Distributed Energy",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "20 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64581",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2022-12",
+        "type": "multipolygon"
+      },
+      "lat": 42.4705645,
+      "lon": -86.0962421
+    },
+    {
+      "type": "relation",
+      "id": 15710966,
+      "center": {
+        "lat": 42.3536952,
+        "lon": -85.042604
+      },
+      "tags": {
+        "name": "Calhoun Solar Energy Center",
+        "operator": "Invenergy",
+        "operator:wikidata": "Q6059803",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "200 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64856",
+        "source": "https://invenergy.com/news/invenergy-announces-commercial-operations-at-calhoun-solar-energy-center-",
+        "start_date": "2023-07-20",
+        "type": "multipolygon"
+      },
+      "lat": 42.3536952,
+      "lon": -85.042604
+    },
+    {
+      "type": "relation",
+      "id": 15717763,
+      "center": {
+        "lat": 43.2133404,
+        "lon": -84.6850319
+      },
+      "tags": {
+        "name": "Heartland Farms Wind Farm",
+        "note": "Developed by Heartland Farms Wind Energy Project, LLC and Invenergy.",
+        "operator": "Consumers Energy",
+        "operator:wikidata": "Q5164746",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "200 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "66192",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2024-04",
+        "type": "site"
+      },
+      "lat": 43.2133404,
+      "lon": -84.6850319
+    },
+    {
+      "type": "relation",
+      "id": 15731400,
+      "center": {
+        "lat": 42.086422,
+        "lon": -84.3533411
+      },
+      "tags": {
+        "name": "Cement City Solar",
+        "operator": "AES Distributed Energy",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "20 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64567",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2023-01",
+        "type": "multipolygon"
+      },
+      "lat": 42.086422,
+      "lon": -84.3533411
+    },
+    {
+      "type": "relation",
+      "id": 15789049,
+      "center": {
+        "lat": 43.9697924,
+        "lon": -82.831963
+      },
+      "tags": {
+        "name": "Deerfield Wind Energy 2",
+        "operator": "Deerfield Wind Energy 2, LLC",
+        "plant:output:electricity": "112.1 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "65742",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "type": "site"
+      },
+      "lat": 43.9697924,
+      "lon": -82.831963
+    },
+    {
+      "type": "relation",
+      "id": 16824357,
+      "center": {
+        "lat": 42.9706545,
+        "lon": -84.1433517
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Lyons Road",
+        "operator": "Lyons Road Solar, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "20 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "65347",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2022-01",
+        "type": "multipolygon"
+      },
+      "lat": 42.9706545,
+      "lon": -84.1433517
+    },
+    {
+      "type": "relation",
+      "id": 17388606,
+      "center": {
+        "lat": 41.9755964,
+        "lon": -84.4748979
+      },
+      "tags": {
+        "name": "Crescent Wind Park",
+        "operator": "Consumers Energy Co",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "150 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "63686",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2021-02",
+        "type": "site"
+      },
+      "lat": 41.9755964,
+      "lon": -84.4748979
+    },
+    {
+      "type": "relation",
+      "id": 17388630,
+      "center": {
+        "lat": 43.925281,
+        "lon": -82.7922143
+      },
+      "tags": {
+        "name": "Big Turtle Wind Farm 2",
+        "operator": "Heritage Sustainable Energy. LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "29.4 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "65143",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2016-10",
+        "type": "site"
+      },
+      "lat": 43.925281,
+      "lon": -82.7922143
+    },
+    {
+      "type": "relation",
+      "id": 17393785,
+      "center": {
+        "lat": 41.765789,
+        "lon": -85.4244262
+      },
+      "tags": {
+        "name": "Electric City Solar",
+        "operator": "Greenbacker Renewable Energy Corporation",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "15 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64097",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2020-12",
+        "type": "multipolygon"
+      },
+      "lat": 41.765789,
+      "lon": -85.4244262
+    },
+    {
+      "type": "relation",
+      "id": 17393789,
+      "center": {
+        "lat": 42.2520341,
+        "lon": -85.642546
+      },
+      "tags": {
+        "name": "Western Michigan Solar Gardens",
+        "operator": "Consumers Energy Co",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60117",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2016-08",
+        "type": "multipolygon"
+      },
+      "lat": 42.2520341,
+      "lon": -85.642546
+    },
+    {
+      "type": "relation",
+      "id": 17434799,
+      "center": {
+        "lat": 42.7737824,
+        "lon": -82.4920548
+      },
+      "tags": {
+        "addr:city": "East China Township",
+        "addr:housenumber": "4505",
+        "addr:postcode": "48054",
+        "addr:state": "MI",
+        "addr:street": "King Road",
+        "landuse": "industrial",
+        "name": "Belle River Energy Center",
+        "operator": "DTE Energy",
+        "operator:wikidata": "Q5206232",
+        "plant:method": "combustion",
+        "plant:output:electricity": "1664.4 MW",
+        "plant:source": "coal;gas",
+        "power": "plant",
+        "ref:US:EIA": "6034",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "1981-11",
+        "type": "multipolygon",
+        "wikidata": "Q4883686"
+      },
+      "lat": 42.7737824,
+      "lon": -82.4920548
+    },
+    {
+      "type": "relation",
+      "id": 17438011,
+      "center": {
+        "lat": 45.7000855,
+        "lon": -86.6568142
+      },
+      "tags": {
+        "name": "Fairbanks Wind Park",
+        "operator": "DTE Electric Company",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "72.8 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "62815",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2022-01",
+        "type": "site"
+      },
+      "lat": 45.7000855,
+      "lon": -86.6568142
+    },
+    {
+      "type": "relation",
+      "id": 17904921,
+      "center": {
+        "lat": 43.4702237,
+        "lon": -84.3863279
+      },
+      "tags": {
+        "name": "Meridian Wind Park",
+        "operator": "DTE Electric Company",
+        "operator:wikidata": "Q5206232",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "225 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "65328",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2023-04",
+        "type": "site"
+      },
+      "lat": 43.4702237,
+      "lon": -84.3863279
+    },
+    {
+      "type": "relation",
+      "id": 19024553,
+      "center": {
+        "lat": 42.364502,
+        "lon": -85.5894937
+      },
+      "tags": {
+        "name": "Sustainable Mobility Hub",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "type": "multipolygon"
+      },
+      "lat": 42.364502,
+      "lon": -85.5894937
+    },
+    {
+      "type": "relation",
+      "id": 20053570,
+      "center": {
+        "lat": 42.307678,
+        "lon": -85.0236396
+      },
+      "tags": {
+        "fixme": "impercise",
+        "name": "Cereal City Solar",
+        "operator": "Cereal City Solar, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "100 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "66389",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2023-12",
+        "type": "multipolygon"
+      },
+      "lat": 42.307678,
+      "lon": -85.0236396
+    },
+    {
+      "type": "relation",
+      "id": 20053571,
+      "center": {
+        "lat": 42.2812696,
+        "lon": -84.7427661
+      },
+      "tags": {
+        "name": "River Fork Solar",
+        "operator": "River Fork Solar, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "149 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "67008",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2024-10",
+        "type": "multipolygon"
+      },
+      "lat": 42.2812696,
+      "lon": -84.7427661
+    },
+    {
+      "type": "relation",
+      "id": 20053572,
+      "center": {
+        "lat": 42.2652714,
+        "lon": -84.8103305
+      },
+      "tags": {
+        "fixme": "impercise",
+        "name": "Calhoun County Solar Project",
+        "operator": "AES Clean Energy",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "125 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64452",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "type": "multipolygon"
+      },
+      "lat": 42.2652714,
+      "lon": -84.8103305
+    },
+    {
+      "type": "relation",
+      "id": 20407699,
+      "center": {
+        "lat": 41.9580608,
+        "lon": -84.9779482
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Tibbits Energy Storage",
+        "operator": "Jupiter Power",
+        "plant:output:electricity": "100 MW",
+        "plant:source": "battery",
+        "plant:storage": "100 MWh",
+        "plant:type": "hithium",
+        "power": "plant",
+        "ref:US:EIA": "65531",
+        "source": "https://www.mceco.com/projects/tibbits-energy-storage/",
+        "start_date": "2025-09-17",
+        "type": "multipolygon"
+      },
+      "lat": 41.9580608,
+      "lon": -84.9779482
+    },
+    {
+      "type": "relation",
+      "id": 20407820,
+      "center": {
+        "lat": 42.0582054,
+        "lon": -85.0850199
+      },
+      "tags": {
+        "name": "Sauk Solar Park",
+        "operator": "DTE Energy",
+        "operator:wikidata": "Q5206232",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "150 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "start_date": "2024-10-25",
+        "type": "multipolygon",
+        "website": "https://ir.dteenergy.com/news/press-release-details/2024/DTE-Energy-begins-operating-its-largest-solar-park-Sauk-Solar/default.aspx"
+      },
+      "lat": 42.0582054,
+      "lon": -85.0850199
+    },
+    {
+      "type": "relation",
+      "id": 20407859,
+      "center": {
+        "lat": 41.9673267,
+        "lon": -84.9375989
+      },
+      "tags": {
+        "name": "Cold Creek Solar Park",
+        "operator": "DTE Energy",
+        "operator:wikidata": "Q5206232",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "100 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "type": "multipolygon"
+      },
+      "lat": 41.9673267,
+      "lon": -84.9375989
+    }
+  ]
+}

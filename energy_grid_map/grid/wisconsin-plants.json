@@ -1,0 +1,5131 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-04-24T20:51:16Z",
+    "timestamp_areas_base": "2026-04-24T15:53:36Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 9932288446,
+      "lat": 44.2717,
+      "lon": -88.3011,
+      "tags": {
+        "fixme": "position",
+        "name": "Combined Locks Energy Center",
+        "operator": "Appleton Coated LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "66.5 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "55558",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2002-05"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10120038548,
+      "lat": 45.7956,
+      "lon": -87.9556,
+      "tags": {
+        "fixme": "location",
+        "name": "Verso Paper Quinnesec Mich Mill",
+        "operator": "Verso Paper - Quinnesec",
+        "plant:method": "combustion",
+        "plant:output:electricity": "56 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "biomass",
+        "power": "plant",
+        "ref:US:EIA": "50251",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1985-10"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10120038552,
+      "lat": 44.2826,
+      "lon": -88.2534,
+      "tags": {
+        "fixme": "location",
+        "name": "Kaukauna Paper Mill",
+        "operator": "Thilmany LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "44.6 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "coal;biomass",
+        "power": "plant",
+        "ref:US:EIA": "54098",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1951-01"
+      }
+    },
+    {
+      "type": "way",
+      "id": 33100746,
+      "center": {
+        "lat": 43.0298666,
+        "lon": -87.9244806
+      },
+      "tags": {
+        "addr:city": "Milwaukee",
+        "addr:housenumber": "1035",
+        "addr:postcode": "53233",
+        "addr:state": "WI",
+        "addr:street": "West Canal Street",
+        "ele": "178",
+        "gnis:feature_id": "1578096",
+        "landuse": "industrial",
+        "name": "Valley Power Plant",
+        "operator": "WE Energies",
+        "plant:output:electricity": "274.7 MW",
+        "plant:output:hot_water": "yes",
+        "plant:output:steam": "yes",
+        "plant:source": "oil;gas",
+        "power": "plant",
+        "ref:US:EIA": "4042",
+        "source": "USGS Geonames",
+        "start_date": "1968-06",
+        "website": "https://www.we-energies.com/home/projects/vapp_map.htm",
+        "wikidata": "Q7912172",
+        "wikipedia": "en:Valley Power Plant"
+      },
+      "lat": 43.0298666,
+      "lon": -87.9244806
+    },
+    {
+      "type": "way",
+      "id": 38311388,
+      "center": {
+        "lat": 43.0746282,
+        "lon": -89.4238484
+      },
+      "tags": {
+        "addr:city": "Madison",
+        "addr:housenumber": "515",
+        "addr:state": "WI",
+        "addr:street": "Walnut Street",
+        "generator:output:cold_water": "yes",
+        "generator:output:steam": "yes",
+        "landuse": "industrial",
+        "name": "West Campus Cogeneration Facility",
+        "operator": "Madison Gas and Electric",
+        "plant:method": "combustion",
+        "plant:output:electricity": "169.3 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "7991",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2005-04",
+        "website": "https://www.mge.com/about-mge/power-plants/west-campus-cogen/",
+        "wikidata": "Q24807542"
+      },
+      "lat": 43.0746282,
+      "lon": -89.4238484
+    },
+    {
+      "type": "way",
+      "id": 48520345,
+      "center": {
+        "lat": 43.1958618,
+        "lon": -88.1494685
+      },
+      "tags": {
+        "addr:state": "WI",
+        "ele": "266",
+        "gnis:feature_id": "2392415",
+        "landuse": "industrial",
+        "name": "Germantown Power Plant",
+        "operator": "WE Energies",
+        "plant:method": "combustion",
+        "plant:output:electricity": "335.7 MW",
+        "plant:source": "gas;oil",
+        "power": "plant",
+        "ref:US:EIA": "6253",
+        "source": "USGS Geonames",
+        "start_date": "1978-07",
+        "wikidata": "Q24807541",
+        "wikipedia": "en:Germantown Power Plant"
+      },
+      "lat": 43.1958618,
+      "lon": -88.1494685
+    },
+    {
+      "type": "way",
+      "id": 86701818,
+      "center": {
+        "lat": 43.0790781,
+        "lon": -87.8786915
+      },
+      "tags": {
+        "addr:city": "Milwaukee",
+        "addr:country": "US",
+        "addr:housenumber": "3359",
+        "addr:postcode": "53211",
+        "addr:state": "WI",
+        "addr:street": "North Downer Avenue",
+        "alt_name": "Heating Plant",
+        "building": "university",
+        "building:levels": "3",
+        "building:number": "1915",
+        "contact:website": "http://www4.uwm.edu/pps/HeatPlant/",
+        "landuse": "industrial",
+        "name": "Central Heating and Chilling Plant",
+        "operator": "University of Wisconsin-Milwaukee",
+        "plant:output:cold_air": "yes",
+        "plant:output:cold_water": "yes",
+        "plant:output:compressed_air": "yes",
+        "plant:output:hot_air": "yes",
+        "plant:output:steam": "yes",
+        "plant:source": "gas;oil",
+        "power": "plant",
+        "start_date": "1969"
+      },
+      "lat": 43.0790781,
+      "lon": -87.8786915
+    },
+    {
+      "type": "way",
+      "id": 109774222,
+      "center": {
+        "lat": 44.2812957,
+        "lon": -87.5365695
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Point Beach Nuclear Plant",
+        "operator": "NextEra Energy",
+        "operator:wikidata": "Q967868",
+        "operator:wikipedia": "en:NextEra Energy",
+        "plant:method": "fission",
+        "plant:output:electricity": "1311 MW",
+        "plant:source": "nuclear;oil",
+        "power": "plant",
+        "ref:US:EIA": "4046",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1969-06",
+        "wikidata": "Q1536231",
+        "wikipedia": "en:Point Beach Nuclear Plant"
+      },
+      "lat": 44.2812957,
+      "lon": -87.5365695
+    },
+    {
+      "type": "way",
+      "id": 114692580,
+      "center": {
+        "lat": 45.4119223,
+        "lon": -92.6470784
+      },
+      "tags": {
+        "building": "yes",
+        "layer": "2",
+        "name": "St. Croix Falls Hydro Plant",
+        "operator": "Northern States Power Co - Minnesota",
+        "operator:wikidata": "Q1486956",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "23.2 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "4011",
+        "source": "U.S. Energy Information Administration - EIA-860m - 2025",
+        "start_date": "1910-01"
+      },
+      "lat": 45.4119223,
+      "lon": -92.6470784
+    },
+    {
+      "type": "way",
+      "id": 121185913,
+      "center": {
+        "lat": 43.6257911,
+        "lon": -89.7809039
+      },
+      "tags": {
+        "building": "industrial",
+        "landuse": "industrial",
+        "name": "Kilbourn Power Station",
+        "operator": "Wisconsin Power & Light Co",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "9.7 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "4053",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1926-07"
+      },
+      "lat": 43.6257911,
+      "lon": -89.7809039
+    },
+    {
+      "type": "way",
+      "id": 153660093,
+      "center": {
+        "lat": 43.0702948,
+        "lon": -89.4049528
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Charter Street Heating and Cooling Plant",
+        "operator": "UW Madison",
+        "plant:method": "combustion",
+        "plant:output:electricity": "11 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "oil;gas",
+        "power": "plant",
+        "ref:US:EIA": "54408",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1965-01",
+        "website": "https://kb.wisc.edu/page.php?id=22092"
+      },
+      "lat": 43.0702948,
+      "lon": -89.4049528
+    },
+    {
+      "type": "way",
+      "id": 176218691,
+      "center": {
+        "lat": 43.7515557,
+        "lon": -87.8780874
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Sheboygan Falls Plant",
+        "operator": "Alliant Energy",
+        "operator:wikidata": "Q4732492",
+        "plant:method": "combustion",
+        "plant:output:electricity": "346.8 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "56166",
+        "source": "https://www.industryabout.com/country-territories-3/873-usa/fossil-fuels-energy/45356-sheboygan-falls-gas-power-plant",
+        "start_date": "2005-06",
+        "wikidata": "Q12000174"
+      },
+      "lat": 43.7515557,
+      "lon": -87.8780874
+    },
+    {
+      "type": "way",
+      "id": 192168821,
+      "center": {
+        "lat": 43.3099597,
+        "lon": -89.7276411
+      },
+      "tags": {
+        "building": "industrial",
+        "landuse": "industrial",
+        "layer": "1",
+        "name": "Prairie du Sac Hydroelectric Dam",
+        "operator": "Wisconsin Power & Light Co",
+        "plant:output:electricity": "33.4 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "4056",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1915-10"
+      },
+      "lat": 43.3099597,
+      "lon": -89.7276411
+    },
+    {
+      "type": "way",
+      "id": 202035006,
+      "center": {
+        "lat": 43.1675644,
+        "lon": -88.6872182
+      },
+      "tags": {
+        "addr:state": "WI",
+        "ele": "258",
+        "gnis:feature_id": "2392414",
+        "landuse": "industrial",
+        "name": "Concord Generating Station",
+        "operator": "Wisconsin Electric Power Co",
+        "plant:method": "combustion",
+        "plant:output:electricity": "381.6 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "7159",
+        "source": "USGS Geonames",
+        "start_date": "1993-07",
+        "wikidata": "Q5158799"
+      },
+      "lat": 43.1675644,
+      "lon": -88.6872182
+    },
+    {
+      "type": "way",
+      "id": 202362210,
+      "center": {
+        "lat": 44.932136,
+        "lon": -91.3890861
+      },
+      "tags": {
+        "ele": "256",
+        "generator:type": "kaplan_turbine",
+        "gnis:feature_id": "1792941",
+        "loc_name": "NSP Dam",
+        "name": "Chippewa Falls WP304 Dam",
+        "operator": "Xcel Energy",
+        "operator:wikidata": "Q1486956",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "21.6 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "4000",
+        "ref:US:NID": "WI00731",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1928",
+        "waterway": "dam"
+      },
+      "lat": 44.932136,
+      "lon": -91.3890861
+    },
+    {
+      "type": "way",
+      "id": 205719566,
+      "center": {
+        "lat": 44.337682,
+        "lon": -89.8561563
+      },
+      "tags": {
+        "name": "Port Edwards Mill",
+        "operator": "Domtar Industries Inc",
+        "plant:output:electricity": "6.7 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "54103",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1913-01",
+        "waterway": "dam"
+      },
+      "lat": 44.337682,
+      "lon": -89.8561563
+    },
+    {
+      "type": "way",
+      "id": 210877000,
+      "center": {
+        "lat": 45.3709932,
+        "lon": -86.930793
+      },
+      "tags": {
+        "name": "Washington Island Electric Cooperative Powerhouse",
+        "operator": "Washington Island El Coop, Inc",
+        "plant:method": "combustion",
+        "plant:output:electricity": "5 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "4148",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1945-12"
+      },
+      "lat": 45.3709932,
+      "lon": -86.930793
+    },
+    {
+      "type": "way",
+      "id": 233674795,
+      "center": {
+        "lat": 43.0968141,
+        "lon": -87.9060893
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.0968141,
+      "lon": -87.9060893
+    },
+    {
+      "type": "way",
+      "id": 233674797,
+      "center": {
+        "lat": 43.0956472,
+        "lon": -87.9032888
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.0956472,
+      "lon": -87.9032888
+    },
+    {
+      "type": "way",
+      "id": 252592134,
+      "center": {
+        "lat": 45.0867489,
+        "lon": -87.6903491
+      },
+      "tags": {
+        "addr:city": "Marinette",
+        "addr:postcode": "54143",
+        "addr:state": "WI",
+        "addr:street": "West Cleveland Avenue",
+        "landuse": "industrial",
+        "name": "West Marinette 34 Power Plant",
+        "operator": "Madison Gas & Electric Co",
+        "plant:method": "combustion",
+        "plant:output:electricity": "83 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "7799",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2000-06"
+      },
+      "lat": 45.0867489,
+      "lon": -87.6903491
+    },
+    {
+      "type": "way",
+      "id": 262113810,
+      "center": {
+        "lat": 42.8554496,
+        "lon": -88.7301021
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "LSP-Whitewater LP Power Plant",
+        "operator": "Whitewater Operating Services LLC",
+        "owner": "Wisconsin Electric Power Company;Wisconsin Public Service",
+        "plant:method": "combustion",
+        "plant:output:electricity": "283.5 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "55011",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1997-09"
+      },
+      "lat": 42.8554496,
+      "lon": -88.7301021
+    },
+    {
+      "type": "way",
+      "id": 262397444,
+      "center": {
+        "lat": 45.3571264,
+        "lon": -88.2306018
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Caldron Falls",
+        "operator": "Wisconsin Public Service Corp",
+        "plant:output:electricity": "6.4 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "4061",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1924-11"
+      },
+      "lat": 45.3571264,
+      "lon": -88.2306018
+    },
+    {
+      "type": "way",
+      "id": 305563488,
+      "center": {
+        "lat": 42.6648984,
+        "lon": -88.0133809
+      },
+      "tags": {
+        "addr:state": "WI",
+        "ele": "239",
+        "gnis:feature_id": "2392416",
+        "landuse": "industrial",
+        "name": "Paris Generating Station",
+        "operator": "Wisconsin Electric Power Co",
+        "plant:method": "combustion",
+        "plant:output:electricity": "381.6 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "7270",
+        "source": "USGS Geonames",
+        "start_date": "1995-03",
+        "wikidata": "Q11994776"
+      },
+      "lat": 42.6648984,
+      "lon": -88.0133809
+    },
+    {
+      "type": "way",
+      "id": 316615700,
+      "center": {
+        "lat": 43.0785129,
+        "lon": -89.3771332
+      },
+      "tags": {
+        "addr:city": "Madison",
+        "addr:housenumber": "624",
+        "addr:postcode": "53703",
+        "addr:state": "WI",
+        "addr:street": "East Main Street",
+        "building": "yes",
+        "name": "Capitol Heat and Power Plant",
+        "operator": "State of Wisconsin",
+        "plant:method": "combustion",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "54406",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "1963-10"
+      },
+      "lat": 43.0785129,
+      "lon": -89.3771332
+    },
+    {
+      "type": "way",
+      "id": 362102766,
+      "center": {
+        "lat": 42.8458835,
+        "lon": -87.8397065
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Oak Creek Power Plant",
+        "operator": "Wisconsin Electric Power Co",
+        "plant:method": "combustion",
+        "plant:output:electricity": "2642.6 MW",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "4041;56068",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1959-12",
+        "wikidata": "Q7073448"
+      },
+      "lat": 42.8458835,
+      "lon": -87.8397065
+    },
+    {
+      "type": "way",
+      "id": 386880693,
+      "center": {
+        "lat": 45.2874103,
+        "lon": -88.160279
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Johnson Falls Hydo",
+        "operator": "Wisconsin Public Service Corporation",
+        "owner": "Wisconsin Public Service Corporation",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "3.4 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "4067",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1923-07"
+      },
+      "lat": 45.2874103,
+      "lon": -88.160279
+    },
+    {
+      "type": "way",
+      "id": 417102198,
+      "center": {
+        "lat": 45.9465113,
+        "lon": -92.5384562
+      },
+      "tags": {
+        "addr:city": "Danbury",
+        "addr:country": "US",
+        "addr:housenumber": "10817",
+        "addr:postcode": "54830",
+        "addr:state": "WI",
+        "addr:street": "Clam Dam Road",
+        "ele": "266",
+        "gnis:feature_id": "1791669",
+        "name": "Clam River 2WP516 Dam",
+        "operator": "Renewable World Energies",
+        "owner": "Flambeau Hydro, LLC.",
+        "plant:output:electricity": "1.2 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "4018",
+        "ref:US:NID": "WI00004",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "1942-04",
+        "waterway": "dam",
+        "website": "http://www.renewableworldenergies.com/hydro-plant-dam/clam-river"
+      },
+      "lat": 45.9465113,
+      "lon": -92.5384562
+    },
+    {
+      "type": "way",
+      "id": 425571342,
+      "center": {
+        "lat": 43.3847108,
+        "lon": -87.8694279
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Port Washington Generating Station",
+        "operator": "WE Energies",
+        "plant:method": "combustion",
+        "plant:output:electricity": "1208.8 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "4040",
+        "source": "Bing",
+        "start_date": "1935-10",
+        "website": "https://www.we-energies.com/company/port-washington-generating-station",
+        "wikidata": "Q7231029"
+      },
+      "lat": 43.3847108,
+      "lon": -87.8694279
+    },
+    {
+      "type": "way",
+      "id": 449938182,
+      "center": {
+        "lat": 42.9763303,
+        "lon": -89.0489178
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "RockGen Energy Center",
+        "operator": "Dairyland Power Coop",
+        "plant:method": "combustion",
+        "plant:output:electricity": "561 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "55391",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2001-06",
+        "wikidata": "Q7354182"
+      },
+      "lat": 42.9763303,
+      "lon": -89.0489178
+    },
+    {
+      "type": "way",
+      "id": 450412549,
+      "center": {
+        "lat": 44.9381562,
+        "lon": -91.3403831
+      },
+      "tags": {
+        "name": "Wissota Power Plant",
+        "operator": "Northern States Power Co - Minnesota",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "39.4 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "4015",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1917-01"
+      },
+      "lat": 44.9381562,
+      "lon": -91.3403831
+    },
+    {
+      "type": "way",
+      "id": 459227314,
+      "center": {
+        "lat": 43.9722155,
+        "lon": -90.0710125
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Whistling Winds DPC Solar",
+        "operator": "SoCore Energy LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60895",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2017-06"
+      },
+      "lat": 43.9722155,
+      "lon": -90.0710125
+    },
+    {
+      "type": "way",
+      "id": 480351203,
+      "center": {
+        "lat": 44.4485666,
+        "lon": -88.0722466
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "De Pere Energy Center",
+        "operator": "Wisconsin Public Service",
+        "plant:method": "combustion",
+        "plant:output:electricity": "192.3 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "55029",
+        "source": "https://www.industryabout.com/country-territories-3/873-usa/fossil-fuels-energy/45247-de-pere-gas-power-plant",
+        "start_date": "1999-06"
+      },
+      "lat": 44.4485666,
+      "lon": -88.0722466
+    },
+    {
+      "type": "way",
+      "id": 494294380,
+      "center": {
+        "lat": 43.4329332,
+        "lon": -88.1664226
+      },
+      "tags": {
+        "name": "Washington County",
+        "operator": "Wisconsin Electric Power Co",
+        "owner": "W",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2.3 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "67394",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2020-01"
+      },
+      "lat": 43.4329332,
+      "lon": -88.1664226
+    },
+    {
+      "type": "way",
+      "id": 549431003,
+      "center": {
+        "lat": 44.0810481,
+        "lon": -87.6566598
+      },
+      "tags": {
+        "addr:city": "Manitowoc",
+        "addr:housenumber": "701",
+        "addr:postcode": "54221",
+        "addr:state": "WI",
+        "addr:street": "Columbus Street",
+        "landuse": "industrial",
+        "name": "Manitowoc Power Plant",
+        "operator": "Manitowoc Public Utilities",
+        "plant:output:electricity": "117.4 MW",
+        "plant:source": "coal;biomass",
+        "power": "plant",
+        "ref:US:EIA": "4125"
+      },
+      "lat": 44.0810481,
+      "lon": -87.6566598
+    },
+    {
+      "type": "way",
+      "id": 613969792,
+      "center": {
+        "lat": 44.3208524,
+        "lon": -88.2098187
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Fox Energy Center",
+        "operator": "Wisconsin Public Service Corporation",
+        "operator:short": "WPS",
+        "operator:wikidata": "Q8027253",
+        "plant:method": "combustion",
+        "plant:output:electricity": "618.8 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "56031",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2005-06",
+        "wikidata": "Q24266572"
+      },
+      "lat": 44.3208524,
+      "lon": -88.2098187
+    },
+    {
+      "type": "way",
+      "id": 620747033,
+      "center": {
+        "lat": 44.2772533,
+        "lon": -88.2678159
+      },
+      "tags": {
+        "building": "yes",
+        "landuse": "industrial",
+        "layer": "1",
+        "name": "Badger Hydro Plant",
+        "note": "2 3500kW Generators",
+        "operator": "Kaukauna Utilities",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "8.2 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "4120",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2014"
+      },
+      "lat": 44.2772533,
+      "lon": -88.2678159
+    },
+    {
+      "type": "way",
+      "id": 651623089,
+      "center": {
+        "lat": 45.4130527,
+        "lon": -92.6827435
+      },
+      "tags": {
+        "name": "Chisago Community Solar",
+        "operator": "Chisago Community Solar",
+        "plant:output:electricity": "4 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60711",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2016-12"
+      },
+      "lat": 45.4130527,
+      "lon": -92.6827435
+    },
+    {
+      "type": "way",
+      "id": 651623481,
+      "center": {
+        "lat": 45.4017759,
+        "lon": -92.6937881
+      },
+      "tags": {
+        "name": "Lawrence Creek Solar",
+        "operator": "Enel Green Power NA, Inc.",
+        "plant:output:electricity": "3.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60528",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2016-12"
+      },
+      "lat": 45.4017759,
+      "lon": -92.6937881
+    },
+    {
+      "type": "way",
+      "id": 652521061,
+      "center": {
+        "lat": 44.4871656,
+        "lon": -89.5756464
+      },
+      "tags": {
+        "building": "industrial",
+        "landuse": "industrial",
+        "name": "Whiting Dam and Powerhouse",
+        "operator": "Consolidated Water Power Co",
+        "plant:output:electricity": "5.1 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3975",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1891-01"
+      },
+      "lat": 44.4871656,
+      "lon": -89.5756464
+    },
+    {
+      "type": "way",
+      "id": 654806717,
+      "center": {
+        "lat": 43.0790178,
+        "lon": -89.3741585
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Blount Generating Station",
+        "operator": "Madison Gas and Electric",
+        "plant:method": "combustion",
+        "plant:output:electricity": "100 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "3992",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1902",
+        "wikidata": "Q4928488"
+      },
+      "lat": 43.0790178,
+      "lon": -89.3741585
+    },
+    {
+      "type": "way",
+      "id": 665667394,
+      "center": {
+        "lat": 44.9023483,
+        "lon": -91.5682876
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Elk Mound Combustion Turbines",
+        "operator": "Dairyland Power Cooperative",
+        "plant:method": "combustion",
+        "plant:output:electricity": "71 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "7863",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2001-06",
+        "website": "http://dairylandpc.cms.coopwebbuilder2.com/content/elk-mound-combustion-turbines"
+      },
+      "lat": 44.9023483,
+      "lon": -91.5682876
+    },
+    {
+      "type": "way",
+      "id": 667045554,
+      "center": {
+        "lat": 44.8859724,
+        "lon": -91.5157817
+      },
+      "tags": {
+        "addr:state": "WI",
+        "ele": "282",
+        "gnis:feature_id": "2392420",
+        "landuse": "industrial",
+        "name": "Wheaton Generating Station",
+        "operator": "Northern States Power Co - Minnesota",
+        "operator:wikidata": "Q1486956",
+        "plant:method": "combustion",
+        "plant:output:electricity": "247.1 MW",
+        "plant:source": "oil;gas",
+        "power": "plant",
+        "ref:US:EIA": "4014",
+        "source": "USGS Geonames",
+        "start_date": "1973-01",
+        "website": "https://www.xcelenergy.com/energy_portfolio/electricity/power_plants/wheaton",
+        "wikidata": "Q19398659"
+      },
+      "lat": 44.8859724,
+      "lon": -91.5157817
+    },
+    {
+      "type": "way",
+      "id": 692633903,
+      "center": {
+        "lat": 42.5825698,
+        "lon": -89.0361374
+      },
+      "tags": {
+        "addr:state": "WI",
+        "ele": "234",
+        "gnis:feature_id": "2392417",
+        "landuse": "industrial",
+        "name": "Riverside Energy Center",
+        "operator": "Wisconsin Power & Light Co",
+        "plant:method": "combustion",
+        "plant:output:electricity": "674.9 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "55641",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2004-06",
+        "wikidata": "Q7338486"
+      },
+      "lat": 42.5825698,
+      "lon": -89.0361374
+    },
+    {
+      "type": "way",
+      "id": 695872991,
+      "center": {
+        "lat": 43.0618869,
+        "lon": -87.879869
+      },
+      "tags": {
+        "building": "industrial",
+        "building:levels": "8",
+        "building:material": "concrete",
+        "landuse": "industrial",
+        "name": "Central Utility Plant",
+        "owner": "Ascension Columbia Saint Mary's",
+        "power": "plant",
+        "source": "https://city.milwaukee.gov/ImageLibrary/Groups/cityHPC/DesignatedReports/vticnf/HDStMary.pdf",
+        "start_date": "1975"
+      },
+      "lat": 43.0618869,
+      "lon": -87.879869
+    },
+    {
+      "type": "way",
+      "id": 696475322,
+      "center": {
+        "lat": 44.8765134,
+        "lon": -88.14747
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Oconto Falls Upper",
+        "operator": "Eagle Creek Renewable Energy, LLC",
+        "plant:output:electricity": "1.1 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "4044",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1918-01"
+      },
+      "lat": 44.8765134,
+      "lon": -88.14747
+    },
+    {
+      "type": "way",
+      "id": 696476757,
+      "center": {
+        "lat": 44.8716992,
+        "lon": -88.1435075
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Oconto Falls Lower",
+        "operator": "Eagle Creek Renewable Energy, LLC",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "50439",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1971-01"
+      },
+      "lat": 44.8716992,
+      "lon": -88.1435075
+    },
+    {
+      "type": "way",
+      "id": 710754872,
+      "center": {
+        "lat": 43.003363,
+        "lon": -89.576104
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.003363,
+      "lon": -89.576104
+    },
+    {
+      "type": "way",
+      "id": 724157948,
+      "center": {
+        "lat": 44.9590585,
+        "lon": -92.5199843
+      },
+      "tags": {
+        "name": "Sunflower II",
+        "operator": "SoCore Energy",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2.34 MW",
+        "plant:source": "solar",
+        "plant:type": "solar_photovoltaic_panel",
+        "power": "plant",
+        "ref:US:EIA": "60890"
+      },
+      "lat": 44.9590585,
+      "lon": -92.5199843
+    },
+    {
+      "type": "way",
+      "id": 724798097,
+      "center": {
+        "lat": 44.5160718,
+        "lon": -89.5855641
+      },
+      "tags": {
+        "building": "industrial",
+        "landuse": "industrial",
+        "name": "Stevens Point Power Plant",
+        "operator": "Consolidated Water Power Co",
+        "plant:output:electricity": "4.8 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3973",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1918-01"
+      },
+      "lat": 44.5160718,
+      "lon": -89.5855641
+    },
+    {
+      "type": "way",
+      "id": 760035212,
+      "center": {
+        "lat": 44.2761377,
+        "lon": -88.2657147
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Island Street Peaking Plant",
+        "operator": "WPPI Energy",
+        "plant:method": "combustion",
+        "plant:output:electricity": "60.5 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "55836",
+        "source": "http://globalenergyobservatory.org/geoid/3697",
+        "start_date": "2004-06"
+      },
+      "lat": 44.2761377,
+      "lon": -88.2657147
+    },
+    {
+      "type": "way",
+      "id": 760758943,
+      "center": {
+        "lat": 44.2798808,
+        "lon": -88.2556856
+      },
+      "tags": {
+        "building": "yes",
+        "landuse": "industrial",
+        "layer": "1",
+        "name": "Kaukauna City Hydro",
+        "note": "2 2,400 kW generators 2nd installed in 1942",
+        "operator": "Kaukauna Utilities",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "4.8 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "7822",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "1940-12"
+      },
+      "lat": 44.2798808,
+      "lon": -88.2556856
+    },
+    {
+      "type": "way",
+      "id": 760769659,
+      "center": {
+        "lat": 44.2782232,
+        "lon": -88.263899
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Kaukauna Gas Turbine",
+        "operator": "City of Kaukauna",
+        "plant:method": "combustion",
+        "plant:output:electricity": "18 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "4118",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1969-05"
+      },
+      "lat": 44.2782232,
+      "lon": -88.263899
+    },
+    {
+      "type": "way",
+      "id": 762752258,
+      "center": {
+        "lat": 44.2775722,
+        "lon": -88.3323604
+      },
+      "tags": {
+        "building": "yes",
+        "landuse": "industrial",
+        "layer": "1",
+        "name": "Kimberly Hydro Plant",
+        "operator": "Kaukauna Utilities",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "2170 kW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "54885",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1926"
+      },
+      "lat": 44.2775722,
+      "lon": -88.3323604
+    },
+    {
+      "type": "way",
+      "id": 785149267,
+      "center": {
+        "lat": 44.2744282,
+        "lon": -88.319438
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Little Chute",
+        "note": "3 1,1100 Generators",
+        "operator": "Kaukauna Utilities",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "3.3 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "4119",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "1948-06"
+      },
+      "lat": 44.2744282,
+      "lon": -88.319438
+    },
+    {
+      "type": "way",
+      "id": 785149269,
+      "center": {
+        "lat": 44.2600496,
+        "lon": -88.3878214
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "John St. Hydro Plant",
+        "operator": "Kaukauna Utilities",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "yes",
+        "plant:source": "hydro",
+        "power": "plant"
+      },
+      "lat": 44.2600496,
+      "lon": -88.3878214
+    },
+    {
+      "type": "way",
+      "id": 785167158,
+      "center": {
+        "lat": 44.273281,
+        "lon": -88.3005451
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Combined Locks Hydro Plant",
+        "note": "2 3,100 kW generators",
+        "operator": "Kaukauna Utilities",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "6.2 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "4201",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1987"
+      },
+      "lat": 44.273281,
+      "lon": -88.3005451
+    },
+    {
+      "type": "way",
+      "id": 785256617,
+      "center": {
+        "lat": 44.3153212,
+        "lon": -88.1988055
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Rapid Croche Hydro Plant",
+        "note": "4 600 kW Generators",
+        "operator": "Kaukauna Utilities",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "2.4 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "start_date": "1926"
+      },
+      "lat": 44.3153212,
+      "lon": -88.1988055
+    },
+    {
+      "type": "way",
+      "id": 803530617,
+      "center": {
+        "lat": 45.3995594,
+        "lon": -92.6772045
+      },
+      "tags": {
+        "name": "Gopher CSG",
+        "operator": "SoCore Energy LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61426",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2018-01"
+      },
+      "lat": 45.3995594,
+      "lon": -92.6772045
+    },
+    {
+      "type": "way",
+      "id": 803530618,
+      "center": {
+        "lat": 45.3916277,
+        "lon": -92.6856434
+      },
+      "tags": {
+        "name": "Taylors Falls CSG",
+        "operator": "SoCore Energy LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61428",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2018-01"
+      },
+      "lat": 45.3916277,
+      "lon": -92.6856434
+    },
+    {
+      "type": "way",
+      "id": 807983886,
+      "center": {
+        "lat": 43.7356115,
+        "lon": -88.4951333
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "South Fond du Lac Power Plant",
+        "operator": "Wisconsin Power & Light Co",
+        "plant:method": "combustion",
+        "plant:output:electricity": "381.6 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "7203",
+        "source": "http://globalenergyobservatory.org/geoid/5465",
+        "start_date": "1993-05",
+        "wikidata": "Q19389776"
+      },
+      "lat": 43.7356115,
+      "lon": -88.4951333
+    },
+    {
+      "type": "way",
+      "id": 824585034,
+      "center": {
+        "lat": 45.6547549,
+        "lon": -92.4646772
+      },
+      "tags": {
+        "name": "Frederic Diesel",
+        "operator": "Northwestern Wisconsin Elec Co",
+        "plant:output:electricity": "13.7 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "4020",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1948-12"
+      },
+      "lat": 45.6547549,
+      "lon": -92.4646772
+    },
+    {
+      "type": "way",
+      "id": 833400609,
+      "center": {
+        "lat": 42.5788292,
+        "lon": -89.0329564
+      },
+      "tags": {
+        "name": "Rock River Solar Facility",
+        "operator": "Alliant Energy",
+        "operator:wikidata": "Q4732492",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2.1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60573",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2016-07"
+      },
+      "lat": 42.5788292,
+      "lon": -89.0329564
+    },
+    {
+      "type": "way",
+      "id": 835390246,
+      "center": {
+        "lat": 44.2305932,
+        "lon": -88.4979159
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 44.2305932,
+      "lon": -88.4979159
+    },
+    {
+      "type": "way",
+      "id": 847290980,
+      "center": {
+        "lat": 45.107032,
+        "lon": -87.6373581
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Menominee Mill Marinette",
+        "operator": "Eagle Creek Renewable Energy, LLC",
+        "plant:output:electricity": "1.8 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "50409",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1924-01"
+      },
+      "lat": 45.107032,
+      "lon": -87.6373581
+    },
+    {
+      "type": "way",
+      "id": 917607714,
+      "center": {
+        "lat": 46.570583,
+        "lon": -90.8666946
+      },
+      "tags": {
+        "barrier": "fence",
+        "operator": "Xcel Energy",
+        "operator:wikidata": "Q1486956",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 46.570583,
+      "lon": -90.8666946
+    },
+    {
+      "type": "way",
+      "id": 918328606,
+      "center": {
+        "lat": 42.9364992,
+        "lon": -87.8884869
+      },
+      "tags": {
+        "name": "City of Milwaukee Landfill",
+        "operator": "WE Energies",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2.25 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "67383",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2021-03-16"
+      },
+      "lat": 42.9364992,
+      "lon": -87.8884869
+    },
+    {
+      "type": "way",
+      "id": 931044910,
+      "center": {
+        "lat": 43.7131711,
+        "lon": -87.7067498
+      },
+      "tags": {
+        "addr:state": "WI",
+        "ele": "181",
+        "gnis:feature_id": "1581209",
+        "name": "Edgewater Generating Station",
+        "operator": "Alliant Energy",
+        "operator:wikidata": "Q4732492",
+        "plant:method": "combustion",
+        "plant:output:electricity": "413.7 MW",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "4050",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021;USGS Geonames",
+        "start_date": "1951-07",
+        "wikidata": "Q5337844"
+      },
+      "lat": 43.7131711,
+      "lon": -87.7067498
+    },
+    {
+      "type": "way",
+      "id": 931044915,
+      "center": {
+        "lat": 43.4864268,
+        "lon": -89.4194493
+      },
+      "tags": {
+        "addr:state": "WI",
+        "ele": "245",
+        "gnis:feature_id": "2392030",
+        "landuse": "industrial",
+        "name": "Columbia Energy Center",
+        "operator": "Wisconsin Power & Light Co",
+        "plant:method": "combustion",
+        "plant:output:electricity": "1112 MW",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "8023",
+        "source": "USGS Geonames",
+        "start_date": "1975-05",
+        "wikidata": "Q14522779",
+        "wikipedia": "en:Columbia Energy Center"
+      },
+      "lat": 43.4864268,
+      "lon": -89.4194493
+    },
+    {
+      "type": "way",
+      "id": 936177446,
+      "center": {
+        "lat": 44.1935224,
+        "lon": -88.5062005
+      },
+      "tags": {
+        "addr:city": "Neenah",
+        "addr:housenumber": "200",
+        "addr:postcode": "54956",
+        "addr:state": "WI",
+        "addr:street": "County Road CB",
+        "landuse": "industrial",
+        "name": "Alliant Energy Neenah Power Plant",
+        "operator": "Wisconsin Power & Light Co",
+        "plant:method": "combustion",
+        "plant:output:electricity": "371 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "55135",
+        "source": "https://www.industryabout.com/country-territories-3/873-usa/fossil-fuels-energy/46500-neenah-gas-power-plant",
+        "start_date": "2000-05",
+        "wikidata": "Q11991073"
+      },
+      "lat": 44.1935224,
+      "lon": -88.5062005
+    },
+    {
+      "type": "way",
+      "id": 961659095,
+      "center": {
+        "lat": 43.01485,
+        "lon": -89.460568
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Fitchburg Power Plant",
+        "operator": "Madison Gas & Electric Co",
+        "plant:method": "combustion",
+        "plant:output:electricity": "57.6 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "3991",
+        "source": "https://www.industryabout.com/country-territories-3/873-usa/fossil-fuels-energy/21371-fitchburg-gas-power-plant",
+        "start_date": "1973-05"
+      },
+      "lat": 43.01485,
+      "lon": -89.460568
+    },
+    {
+      "type": "way",
+      "id": 968822144,
+      "center": {
+        "lat": 43.1015548,
+        "lon": -88.3772712
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.1015548,
+      "lon": -88.3772712
+    },
+    {
+      "type": "way",
+      "id": 987491875,
+      "center": {
+        "lat": 44.0205324,
+        "lon": -89.2479314
+      },
+      "tags": {
+        "landuse": "industrial",
+        "plant:output:electricity": "yes",
+        "plant:source": "hydro",
+        "power": "plant"
+      },
+      "lat": 44.0205324,
+      "lon": -89.2479314
+    },
+    {
+      "type": "way",
+      "id": 991978194,
+      "center": {
+        "lat": 44.0572914,
+        "lon": -90.0218412
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Petenwell Power Plant",
+        "operator": "Wisconsin River Power Company",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "20 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "4080",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1949-08"
+      },
+      "lat": 44.0572914,
+      "lon": -90.0218412
+    },
+    {
+      "type": "way",
+      "id": 1010370915,
+      "center": {
+        "lat": 44.2667331,
+        "lon": -88.5224684
+      },
+      "tags": {
+        "name": "Sunvest Solar-Chaska Solar Array",
+        "name:it": "Impianto solare Sunvest Solar-Chaska",
+        "operator": "We Energies",
+        "operator:wikidata": "Q8027166",
+        "operator:wikipedia": "en:WEC Energy Group",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "400 kW",
+        "plant:source": "solar",
+        "power": "plant",
+        "url": "https://www.boldt.com/project/sunvest-solar-chaska-solar-array/",
+        "website": "https://news.we-energies.com/the-project-is-capable-of-producing-enough-energy-to-power-about-125-homes/"
+      },
+      "lat": 44.2667331,
+      "lon": -88.5224684
+    },
+    {
+      "type": "way",
+      "id": 1013382579,
+      "center": {
+        "lat": 43.0493769,
+        "lon": -88.2622851
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.0493769,
+      "lon": -88.2622851
+    },
+    {
+      "type": "way",
+      "id": 1015725552,
+      "center": {
+        "lat": 43.1169885,
+        "lon": -89.5322293
+      },
+      "tags": {
+        "name": "Middleton Airport Solar",
+        "operator": "Madison Gas & Electric Co",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "62731",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2020-07",
+        "wikidata": "Q116722893"
+      },
+      "lat": 43.1169885,
+      "lon": -89.5322293
+    },
+    {
+      "type": "way",
+      "id": 1016760378,
+      "center": {
+        "lat": 45.5556752,
+        "lon": -90.9596663
+      },
+      "tags": {
+        "landuse": "industrial",
+        "plant:output:electricity": "yes",
+        "plant:source": "hydro",
+        "power": "plant"
+      },
+      "lat": 45.5556752,
+      "lon": -90.9596663
+    },
+    {
+      "type": "way",
+      "id": 1016760382,
+      "center": {
+        "lat": 45.4918567,
+        "lon": -91.047201
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Flambeau Hydroelectric Station",
+        "operator": "Dairyland Power Coop",
+        "plant:output:electricity": "22 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "4142",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1951-01"
+      },
+      "lat": 45.4918567,
+      "lon": -91.047201
+    },
+    {
+      "type": "way",
+      "id": 1017098096,
+      "center": {
+        "lat": 44.7846107,
+        "lon": -91.5239711
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 44.7846107,
+      "lon": -91.5239711
+    },
+    {
+      "type": "way",
+      "id": 1023152811,
+      "center": {
+        "lat": 44.2445953,
+        "lon": -91.4593153
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Arcadia Solar",
+        "operator": "Butter Solar, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "62744",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2019-09"
+      },
+      "lat": 44.2445953,
+      "lon": -91.4593153
+    },
+    {
+      "type": "way",
+      "id": 1023159704,
+      "center": {
+        "lat": 43.7438622,
+        "lon": -90.8116977
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.7438622,
+      "lon": -90.8116977
+    },
+    {
+      "type": "way",
+      "id": 1023168053,
+      "center": {
+        "lat": 43.7319459,
+        "lon": -90.2626233
+      },
+      "tags": {
+        "name": "Elroy Solar",
+        "operator": "Butter Solar, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "62868",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2019-09"
+      },
+      "lat": 43.7319459,
+      "lon": -90.2626233
+    },
+    {
+      "type": "way",
+      "id": 1023196082,
+      "center": {
+        "lat": 42.9709957,
+        "lon": -90.6619508
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Fennimore Solar",
+        "operator": "Butter Solar, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "3 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "62847",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2019-09"
+      },
+      "lat": 42.9709957,
+      "lon": -90.6619508
+    },
+    {
+      "type": "way",
+      "id": 1023208338,
+      "center": {
+        "lat": 42.706866,
+        "lon": -89.8615196
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.706866,
+      "lon": -89.8615196
+    },
+    {
+      "type": "way",
+      "id": 1023245907,
+      "center": {
+        "lat": 45.5108976,
+        "lon": -92.0245276
+      },
+      "tags": {
+        "name": "Cumberland Solar",
+        "operator": "Butter Solar, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "62849",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2019-09"
+      },
+      "lat": 45.5108976,
+      "lon": -92.0245276
+    },
+    {
+      "type": "way",
+      "id": 1023247991,
+      "center": {
+        "lat": 44.8139372,
+        "lon": -91.8844572
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60892",
+        "start_date": "2017-02-14",
+        "wikidata": "Q116721386"
+      },
+      "lat": 44.8139372,
+      "lon": -91.8844572
+    },
+    {
+      "type": "way",
+      "id": 1023250577,
+      "center": {
+        "lat": 45.2106775,
+        "lon": -91.4335807
+      },
+      "tags": {
+        "operator": "Dairyland Power Cooperative",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60936",
+        "start_date": "2017"
+      },
+      "lat": 45.2106775,
+      "lon": -91.4335807
+    },
+    {
+      "type": "way",
+      "id": 1025920654,
+      "center": {
+        "lat": 45.7357546,
+        "lon": -90.4675907
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Flambeau Solar Project",
+        "operator": "EDF Renewables",
+        "operator:wikidata": "Q3045868",
+        "operator:wikipedia": "en:EDF Renewables",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61595",
+        "start_date": "2017"
+      },
+      "lat": 45.7357546,
+      "lon": -90.4675907
+    },
+    {
+      "type": "way",
+      "id": 1034012514,
+      "center": {
+        "lat": 42.9653653,
+        "lon": -88.1307135
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.9653653,
+      "lon": -88.1307135
+    },
+    {
+      "type": "way",
+      "id": 1034029802,
+      "center": {
+        "lat": 44.2345488,
+        "lon": -88.5023608
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "start_date": "2020-04-21"
+      },
+      "lat": 44.2345488,
+      "lon": -88.5023608
+    },
+    {
+      "type": "way",
+      "id": 1053479645,
+      "center": {
+        "lat": 45.4822893,
+        "lon": -89.6800742
+      },
+      "tags": {
+        "plant:output:electricity": "yes",
+        "plant:source": "hydro",
+        "power": "plant"
+      },
+      "lat": 45.4822893,
+      "lon": -89.6800742
+    },
+    {
+      "type": "way",
+      "id": 1059932901,
+      "center": {
+        "lat": 45.8270415,
+        "lon": -88.2484093
+      },
+      "tags": {
+        "addr:state": "WI",
+        "ele": "351",
+        "gnis:feature_id": "1845389",
+        "name": "Pine River Power Plant",
+        "operator": "Wisconsin Electric Power Co",
+        "plant:output:electricity": "3.2 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "4045",
+        "source": "USGS Geonames",
+        "start_date": "1922-06"
+      },
+      "lat": 45.8270415,
+      "lon": -88.2484093
+    },
+    {
+      "type": "way",
+      "id": 1067396841,
+      "center": {
+        "lat": 45.2796491,
+        "lon": -88.1997904
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "High Falls Hydo",
+        "operator": "Wisconsin Public Service Corp",
+        "plant:output:electricity": "7 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "4065",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1910-08"
+      },
+      "lat": 45.2796491,
+      "lon": -88.1997904
+    },
+    {
+      "type": "way",
+      "id": 1067690134,
+      "center": {
+        "lat": 43.8820484,
+        "lon": -90.1356326
+      },
+      "tags": {
+        "industrial": "power",
+        "landuse": "industrial",
+        "name": "New Lisbon Solar",
+        "operator": "Butter Solar, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "62848",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2019-09"
+      },
+      "lat": 43.8820484,
+      "lon": -90.1356326
+    },
+    {
+      "type": "way",
+      "id": 1069378604,
+      "center": {
+        "lat": 43.1258109,
+        "lon": -87.9360133
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.1258109,
+      "lon": -87.9360133
+    },
+    {
+      "type": "way",
+      "id": 1071630302,
+      "center": {
+        "lat": 42.5798215,
+        "lon": -89.0386668
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "West Riverside Energy Center",
+        "operator": "Wisconsin Power & Light Co",
+        "plant:output:electricity": "727.6 MW",
+        "plant:source": "solar;gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "64020",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2020-05",
+        "wikidata": "Q116725252"
+      },
+      "lat": 42.5798215,
+      "lon": -89.0386668
+    },
+    {
+      "type": "way",
+      "id": 1083639394,
+      "center": {
+        "lat": 42.8511759,
+        "lon": -88.0683136
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Metro Gas Recovery",
+        "operator": "WM Renewable Energy LLC",
+        "plant:output:electricity": "9.2 MW",
+        "plant:source": "biogas",
+        "power": "plant",
+        "ref:US:EIA": "50576",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1985-12"
+      },
+      "lat": 42.8511759,
+      "lon": -88.0683136
+    },
+    {
+      "type": "way",
+      "id": 1083639413,
+      "center": {
+        "lat": 42.8441643,
+        "lon": -87.8289556
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "South Oak Creek Generating Station",
+        "power": "plant",
+        "source": "https://www.gem.wiki/South_Oak_Creek_Plant"
+      },
+      "lat": 42.8441643,
+      "lon": -87.8289556
+    },
+    {
+      "type": "way",
+      "id": 1083639414,
+      "center": {
+        "lat": 42.8498279,
+        "lon": -87.8329012
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Elm Road Generating Station",
+        "plant:method": "combustion",
+        "plant:output:electricity": "yes",
+        "plant:source": "coal",
+        "power": "plant",
+        "source": "https://www.gem.wiki/Elm_Road_power_station"
+      },
+      "lat": 42.8498279,
+      "lon": -87.8329012
+    },
+    {
+      "type": "way",
+      "id": 1083841777,
+      "center": {
+        "lat": 44.6648221,
+        "lon": -89.6514282
+      },
+      "tags": {
+        "name": "Du Bay Power Plant",
+        "operator": "Consolidated Water Power Co",
+        "plant:output:electricity": "7.2 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3972",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1942-01"
+      },
+      "lat": 44.6648221,
+      "lon": -89.6514282
+    },
+    {
+      "type": "way",
+      "id": 1083841778,
+      "center": {
+        "lat": 43.8654607,
+        "lon": -89.9549895
+      },
+      "tags": {
+        "building": "yes",
+        "layer": "1",
+        "name": "Castle Rock Power Plant",
+        "operator": "Wisconsin River Power Company",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "15 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "4079",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1950-08"
+      },
+      "lat": 43.8654607,
+      "lon": -89.9549895
+    },
+    {
+      "type": "way",
+      "id": 1083841779,
+      "center": {
+        "lat": 43.1133191,
+        "lon": -89.3126169
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Sycamore Power Plant",
+        "operator": "Madison Gas & Electric Co",
+        "plant:method": "combustion",
+        "plant:output:electricity": "41.6 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "3993",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1967-12"
+      },
+      "lat": 43.1133191,
+      "lon": -89.3126169
+    },
+    {
+      "type": "way",
+      "id": 1083841780,
+      "center": {
+        "lat": 43.0217686,
+        "lon": -87.9020452
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "MMSD Jones Island Wastewater",
+        "operator": "Milwaukee Metro Sewerage Dist",
+        "plant:output:electricity": "31.3 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "biogas;gas",
+        "power": "plant",
+        "ref:US:EIA": "54851",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1971-01",
+        "wikidata": "Q116714567"
+      },
+      "lat": 43.0217686,
+      "lon": -87.9020452
+    },
+    {
+      "type": "way",
+      "id": 1083841781,
+      "center": {
+        "lat": 44.6349997,
+        "lon": -90.1352853
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Marshfield Utilities Gas Plant",
+        "operator": "City of Marshfield - (WI)",
+        "plant:output:electricity": "60.4 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "56480",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2011-06"
+      },
+      "lat": 44.6349997,
+      "lon": -90.1352853
+    },
+    {
+      "type": "way",
+      "id": 1083841782,
+      "center": {
+        "lat": 44.8882622,
+        "lon": -89.6294051
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Rothschild Biomass Cogen Facility",
+        "operator": "Wisconsin Electric Power Co",
+        "plant:output:electricity": "57.5 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "biomass",
+        "power": "plant",
+        "ref:US:EIA": "58124",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2013-11"
+      },
+      "lat": 44.8882622,
+      "lon": -89.6294051
+    },
+    {
+      "type": "way",
+      "id": 1083841783,
+      "center": {
+        "lat": 44.8917687,
+        "lon": -89.6259331
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Domtar Paper Company Rothschild",
+        "operator": "Domtar Paper Company Rothschild",
+        "plant:output:electricity": "4.4 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "50190",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1910-01"
+      },
+      "lat": 44.8917687,
+      "lon": -89.6259331
+    },
+    {
+      "type": "way",
+      "id": 1089578729,
+      "center": {
+        "lat": 44.2524734,
+        "lon": -91.5034037
+      },
+      "tags": {
+        "name": "Arcadia Electric",
+        "operator": "City of Arcadia - (WI)",
+        "plant:method": "combustion",
+        "plant:output:electricity": "16.9 MW",
+        "plant:source": "gas;oil",
+        "power": "plant",
+        "ref:US:EIA": "4100",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1930-01"
+      },
+      "lat": 44.2524734,
+      "lon": -91.5034037
+    },
+    {
+      "type": "way",
+      "id": 1090292200,
+      "center": {
+        "lat": 43.4931838,
+        "lon": -90.9071641
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Liberty Pole DPC Solar",
+        "operator": "SoCore Energy LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60891",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2017-05"
+      },
+      "lat": 43.4931838,
+      "lon": -90.9071641
+    },
+    {
+      "type": "way",
+      "id": 1105940032,
+      "center": {
+        "lat": 44.175026,
+        "lon": -87.8286499
+      },
+      "tags": {
+        "name": "Ridgeview Power Plant",
+        "operator": "WM Renewable Energy LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "4.8 MW",
+        "plant:source": "biogas",
+        "power": "plant",
+        "ref:US:EIA": "55925",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2002-09"
+      },
+      "lat": 44.175026,
+      "lon": -87.8286499
+    },
+    {
+      "type": "way",
+      "id": 1105940035,
+      "center": {
+        "lat": 45.9887291,
+        "lon": -88.2075954
+      },
+      "tags": {
+        "name": "Peavy Falls",
+        "operator": "Wisconsin Electric Power Co",
+        "plant:output:electricity": "12 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "1781",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1943-01"
+      },
+      "lat": 45.9887291,
+      "lon": -88.2075954
+    },
+    {
+      "type": "way",
+      "id": 1105940036,
+      "center": {
+        "lat": 45.947625,
+        "lon": -88.2189815
+      },
+      "tags": {
+        "gnis:feature_id": "1845371",
+        "name": "Brule Island Power Plant",
+        "operator": "Wisconsin Electric Power Co",
+        "plant:output:electricity": "5.3 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "1775",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1919-01"
+      },
+      "lat": 45.947625,
+      "lon": -88.2189815
+    },
+    {
+      "type": "way",
+      "id": 1105940037,
+      "center": {
+        "lat": 45.8079404,
+        "lon": -88.1250655
+      },
+      "tags": {
+        "name": "Kingsford",
+        "operator": "Wisconsin Electric Power Co",
+        "plant:output:electricity": "7.2 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "1778",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1924-05"
+      },
+      "lat": 45.8079404,
+      "lon": -88.1250655
+    },
+    {
+      "type": "way",
+      "id": 1105940038,
+      "center": {
+        "lat": 45.7882081,
+        "lon": -88.0409615
+      },
+      "tags": {
+        "name": "Big Quinnesec 92",
+        "operator": "Wisconsin Electric Power Co",
+        "plant:output:electricity": "16 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "7820",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1949-11"
+      },
+      "lat": 45.7882081,
+      "lon": -88.0409615
+    },
+    {
+      "type": "way",
+      "id": 1105940039,
+      "center": {
+        "lat": 45.7883353,
+        "lon": -88.0413712
+      },
+      "tags": {
+        "name": "Big Quinnesec 61",
+        "operator": "Wisconsin Electric Power Co",
+        "plant:output:electricity": "4.4 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "7821",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1914-05"
+      },
+      "lat": 45.7883353,
+      "lon": -88.0413712
+    },
+    {
+      "type": "way",
+      "id": 1105940040,
+      "center": {
+        "lat": 45.113689,
+        "lon": -87.7586879
+      },
+      "tags": {
+        "name": "Potato Rapids Hydroelectric Plant",
+        "operator": "Wisconsin Public Service Corp",
+        "plant:output:electricity": "1.3 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "4071",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1921-05"
+      },
+      "lat": 45.113689,
+      "lon": -87.7586879
+    },
+    {
+      "type": "way",
+      "id": 1105940041,
+      "center": {
+        "lat": 44.0853933,
+        "lon": -87.7260057
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Custer Energy Center",
+        "operator": "Manitowoc Public Utilities",
+        "plant:method": "combustion",
+        "plant:output:electricity": "24.5 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "7795",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1999-06"
+      },
+      "lat": 44.0853933,
+      "lon": -87.7260057
+    },
+    {
+      "type": "way",
+      "id": 1105940043,
+      "center": {
+        "lat": 45.7415744,
+        "lon": -87.8637935
+      },
+      "tags": {
+        "name": "Norway Power Plant",
+        "operator": "City of Norway",
+        "plant:output:electricity": "6.3 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "1848",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1905-06"
+      },
+      "lat": 45.7415744,
+      "lon": -87.8637935
+    },
+    {
+      "type": "way",
+      "id": 1105940045,
+      "center": {
+        "lat": 45.086848,
+        "lon": -87.6881662
+      },
+      "tags": {
+        "addr:city": "Marinette",
+        "addr:postcode": "54143",
+        "addr:state": "WI",
+        "addr:street": "West Cleveland Avenue",
+        "landuse": "industrial",
+        "name": "West Marinette Power Plant",
+        "operator": "Wisconsin Public Service Corporation",
+        "operator:short": "WPS",
+        "operator:wikidata": "Q8027253",
+        "plant:method": "combustion",
+        "plant:output:electricity": "187.1 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "4076",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1971-06"
+      },
+      "lat": 45.086848,
+      "lon": -87.6881662
+    },
+    {
+      "type": "way",
+      "id": 1105940050,
+      "center": {
+        "lat": 45.9554129,
+        "lon": -88.1966392
+      },
+      "tags": {
+        "name": "Michigamme Falls Power Plant",
+        "operator": "Wisconsin Electric Power Co",
+        "plant:output:electricity": "9.6 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "1780",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1953-06"
+      },
+      "lat": 45.9554129,
+      "lon": -88.1966392
+    },
+    {
+      "type": "way",
+      "id": 1122939465,
+      "center": {
+        "lat": 43.5959717,
+        "lon": -90.323092
+      },
+      "tags": {
+        "name": "Sauk DPC Solar",
+        "operator": "SoCore Energy LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60887",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2017-01"
+      },
+      "lat": 43.5959717,
+      "lon": -90.323092
+    },
+    {
+      "type": "way",
+      "id": 1148979643,
+      "center": {
+        "lat": 43.1594421,
+        "lon": -89.3273772
+      },
+      "tags": {
+        "name": "Dane County Airport Solar",
+        "operator": "Madison Gas & Electric Co",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "10.8 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64080",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2020-12",
+        "wikidata": "Q116725275"
+      },
+      "lat": 43.1594421,
+      "lon": -89.3273772
+    },
+    {
+      "type": "way",
+      "id": 1150274770,
+      "center": {
+        "lat": 43.6683031,
+        "lon": -87.7983043
+      },
+      "tags": {
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.6683031,
+      "lon": -87.7983043
+    },
+    {
+      "type": "way",
+      "id": 1154809285,
+      "center": {
+        "lat": 43.0613592,
+        "lon": -89.2581596
+      },
+      "tags": {
+        "name": "Hermsdorf Solar",
+        "operator": "Madison Gas & Electric Co",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "8 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64780",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2022-03"
+      },
+      "lat": 43.0613592,
+      "lon": -89.2581596
+    },
+    {
+      "type": "way",
+      "id": 1155433889,
+      "center": {
+        "lat": 45.1646991,
+        "lon": -90.37252
+      },
+      "tags": {
+        "name": "Medford DPC Solar",
+        "operator": "SoCore Energy LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60894",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2017-02"
+      },
+      "lat": 45.1646991,
+      "lon": -90.37252
+    },
+    {
+      "type": "way",
+      "id": 1155602019,
+      "center": {
+        "lat": 43.7375536,
+        "lon": -90.8038315
+      },
+      "tags": {
+        "name": "Cashton Solar",
+        "operator": "Butter Solar, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "62858",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2019-09"
+      },
+      "lat": 43.7375536,
+      "lon": -90.8038315
+    },
+    {
+      "type": "way",
+      "id": 1155679585,
+      "center": {
+        "lat": 43.014638,
+        "lon": -88.7988243
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Jefferson Solar Park",
+        "operator": "Concord New Energy",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "59771",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2013-12"
+      },
+      "lat": 43.014638,
+      "lon": -88.7988243
+    },
+    {
+      "type": "way",
+      "id": 1155679885,
+      "center": {
+        "lat": 44.8883202,
+        "lon": -91.3522198
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Lafayette DPC Solar",
+        "operator": "SoCore Energy LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60888",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2017-06"
+      },
+      "lat": 44.8883202,
+      "lon": -91.3522198
+    },
+    {
+      "type": "way",
+      "id": 1155679892,
+      "center": {
+        "lat": 45.3653163,
+        "lon": -91.0472379
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Conrath DPC Solar",
+        "operator": "SoCore Energy LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60889",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2017-06"
+      },
+      "lat": 45.3653163,
+      "lon": -91.0472379
+    },
+    {
+      "type": "way",
+      "id": 1155679908,
+      "center": {
+        "lat": 42.9760048,
+        "lon": -90.8301905
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Mt. Hope DPC Solar",
+        "operator": "SoCore Energy LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60893",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2017-01"
+      },
+      "lat": 42.9760048,
+      "lon": -90.8301905
+    },
+    {
+      "type": "way",
+      "id": 1155679985,
+      "center": {
+        "lat": 45.4445936,
+        "lon": -92.5553073
+      },
+      "tags": {
+        "name": "Sand Lake DPC Solar",
+        "operator": "SoCore Energy LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60957",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2017-11"
+      },
+      "lat": 45.4445936,
+      "lon": -92.5553073
+    },
+    {
+      "type": "way",
+      "id": 1160036671,
+      "center": {
+        "lat": 45.5258638,
+        "lon": -91.7568356
+      },
+      "tags": {
+        "name": "Rice Lake Solar Array",
+        "operator": "AEP Onsite Partners, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "3.8 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64714",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2021-08"
+      },
+      "lat": 45.5258638,
+      "lon": -91.7568356
+    },
+    {
+      "type": "way",
+      "id": 1160049725,
+      "center": {
+        "lat": 44.1751038,
+        "lon": -90.8497977
+      },
+      "tags": {
+        "name": "Shamrock Solar LLC",
+        "operator": "Greenbacker Renewable Energy Corporation",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "3 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "65087",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2021-12"
+      },
+      "lat": 44.1751038,
+      "lon": -90.8497977
+    },
+    {
+      "type": "way",
+      "id": 1160080002,
+      "center": {
+        "lat": 43.7348941,
+        "lon": -88.4735236
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "ENGIE 2020 ProjectCo-WI1 LLC",
+        "operator": "ENGIE 2020 ProjectCo-WI1 LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "65659",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2021-12"
+      },
+      "lat": 43.7348941,
+      "lon": -88.4735236
+    },
+    {
+      "type": "way",
+      "id": 1160086613,
+      "center": {
+        "lat": 45.6085835,
+        "lon": -89.4423075
+      },
+      "tags": {
+        "name": "Hodag Solar",
+        "operator": "Wisconsin Public Service Corp",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "7.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "65968",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2022-01"
+      },
+      "lat": 45.6085835,
+      "lon": -89.4423075
+    },
+    {
+      "type": "way",
+      "id": 1160701289,
+      "center": {
+        "lat": 44.2853629,
+        "lon": -90.9159843
+      },
+      "tags": {
+        "name": "Blue Prairie Solar, LLC",
+        "operator": "Greenbacker Renewable Energy Corporation",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64698",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2021-08"
+      },
+      "lat": 44.2853629,
+      "lon": -90.9159843
+    },
+    {
+      "type": "way",
+      "id": 1160717688,
+      "center": {
+        "lat": 45.3855035,
+        "lon": -91.8252122
+      },
+      "tags": {
+        "name": "Barron Solar Array",
+        "operator": "AEP Onsite Partners, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "3 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64969",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2021-08"
+      },
+      "lat": 45.3855035,
+      "lon": -91.8252122
+    },
+    {
+      "type": "way",
+      "id": 1160749018,
+      "center": {
+        "lat": 43.7092743,
+        "lon": -87.7553988
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "City of Sheboygan Solar",
+        "operator": "Wisconsin Power & Light Co",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "0.9 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "65680",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2022-04"
+      },
+      "lat": 43.7092743,
+      "lon": -87.7553988
+    },
+    {
+      "type": "way",
+      "id": 1161247443,
+      "center": {
+        "lat": 43.7473217,
+        "lon": -87.7647301
+      },
+      "tags": {
+        "name": "Kohler Solar",
+        "operator": "Wisconsin Power & Light Co",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2.3 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "65681",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2022-06"
+      },
+      "lat": 43.7473217,
+      "lon": -87.7647301
+    },
+    {
+      "type": "way",
+      "id": 1161553961,
+      "center": {
+        "lat": 45.3886749,
+        "lon": -92.6769481
+      },
+      "tags": {
+        "name": "Novel Stein Solar LLC CSG",
+        "operator": "REA Investments, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64563",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2022-09"
+      },
+      "lat": 45.3886749,
+      "lon": -92.6769481
+    },
+    {
+      "type": "way",
+      "id": 1161823106,
+      "center": {
+        "lat": 42.6902554,
+        "lon": -87.8021854
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.6902554,
+      "lon": -87.8021854
+    },
+    {
+      "type": "way",
+      "id": 1163122193,
+      "center": {
+        "lat": 45.848073,
+        "lon": -91.8634273
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Spooner Solar Array",
+        "operator": "AEP Onsite Partners, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64976",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2019-06"
+      },
+      "lat": 45.848073,
+      "lon": -91.8634273
+    },
+    {
+      "type": "way",
+      "id": 1163128670,
+      "center": {
+        "lat": 42.8109757,
+        "lon": -89.1013383
+      },
+      "tags": {
+        "name": "North Rock",
+        "operator": "Alliant Energy",
+        "operator:wikidata": "Q4732492",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "50 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "65010",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2022-10"
+      },
+      "lat": 42.8109757,
+      "lon": -89.1013383
+    },
+    {
+      "type": "way",
+      "id": 1164298986,
+      "center": {
+        "lat": 44.3867659,
+        "lon": -90.8202714
+      },
+      "tags": {
+        "name": "Strobus",
+        "operator": "Greenbacker Renewable Energy Corporation",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64862",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2021-09"
+      },
+      "lat": 44.3867659,
+      "lon": -90.8202714
+    },
+    {
+      "type": "way",
+      "id": 1173426137,
+      "center": {
+        "lat": 42.9416528,
+        "lon": -87.8635325
+      },
+      "tags": {
+        "name": "ATI",
+        "operator": "Wisconsin Electric Power Co",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2.3 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "67384",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2020-11"
+      },
+      "lat": 42.9416528,
+      "lon": -87.8635325
+    },
+    {
+      "type": "way",
+      "id": 1193228769,
+      "center": {
+        "lat": 43.1218478,
+        "lon": -87.9732419
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.1218478,
+      "lon": -87.9732419
+    },
+    {
+      "type": "way",
+      "id": 1200962190,
+      "center": {
+        "lat": 44.4924699,
+        "lon": -88.0321675
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Consumer Operations LLC (Wisconsin) Power Station",
+        "operator": "Georgia-Pacific Consumer Oper. Green Bay LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "47.6 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "10360",
+        "source": "U.S. Energy Information Administration - EIA-860m - 2025",
+        "start_date": "1929-01"
+      },
+      "lat": 44.4924699,
+      "lon": -88.0321675
+    },
+    {
+      "type": "way",
+      "id": 1212903716,
+      "center": {
+        "lat": 45.5331945,
+        "lon": -92.0219637
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Cumberland Power Station",
+        "operator": "City of Cumberland - (WI)",
+        "plant:method": "combustion",
+        "plant:output:electricity": "21.9 MW",
+        "plant:source": "gas;oil",
+        "power": "plant",
+        "ref:US:EIA": "4112",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "1939-08"
+      },
+      "lat": 45.5331945,
+      "lon": -92.0219637
+    },
+    {
+      "type": "way",
+      "id": 1221597285,
+      "center": {
+        "lat": 45.8685861,
+        "lon": -90.5850721
+      },
+      "tags": {
+        "building": "industrial",
+        "name": "Flambeau Crowley Rapids Project",
+        "operator": "Renewable World Energies LLC",
+        "plant:output:electricity": "1.5 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "55684",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "1930-01"
+      },
+      "lat": 45.8685861,
+      "lon": -90.5850721
+    },
+    {
+      "type": "way",
+      "id": 1221619556,
+      "center": {
+        "lat": 45.9134926,
+        "lon": -90.447708
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Flambeau Lower Project",
+        "operator": "Renewable World Energies LLC",
+        "plant:output:electricity": "1.2 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "55685",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "1923-01"
+      },
+      "lat": 45.9134926,
+      "lon": -90.447708
+    },
+    {
+      "type": "way",
+      "id": 1237379328,
+      "center": {
+        "lat": 46.5966861,
+        "lon": -90.6448908
+      },
+      "tags": {
+        "name": "Health and Wellness Center Solar Field",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "200 kW",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 46.5966861,
+      "lon": -90.6448908
+    },
+    {
+      "type": "way",
+      "id": 1237379340,
+      "center": {
+        "lat": 46.6029468,
+        "lon": -90.6564256
+      },
+      "tags": {
+        "name": "Wastewater Treatment Plant Solar Field",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "200 kW",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 46.6029468,
+      "lon": -90.6564256
+    },
+    {
+      "type": "way",
+      "id": 1240909297,
+      "center": {
+        "lat": 44.339904,
+        "lon": -87.9756147
+      },
+      "tags": {
+        "landuse": "industrial",
+        "power": "plant"
+      },
+      "lat": 44.339904,
+      "lon": -87.9756147
+    },
+    {
+      "type": "way",
+      "id": 1240909298,
+      "center": {
+        "lat": 44.3370145,
+        "lon": -87.9757111
+      },
+      "tags": {
+        "landuse": "industrial",
+        "power": "plant"
+      },
+      "lat": 44.3370145,
+      "lon": -87.9757111
+    },
+    {
+      "type": "way",
+      "id": 1242261210,
+      "center": {
+        "lat": 43.5299961,
+        "lon": -90.0336427
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.5299961,
+      "lon": -90.0336427
+    },
+    {
+      "type": "way",
+      "id": 1242261211,
+      "center": {
+        "lat": 43.5295895,
+        "lon": -90.0275951
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.5295895,
+      "lon": -90.0275951
+    },
+    {
+      "type": "way",
+      "id": 1270255885,
+      "center": {
+        "lat": 45.0509765,
+        "lon": -91.2741582
+      },
+      "tags": {
+        "name": "Jim Falls Hydro Generating Station",
+        "operator": "Northern States Power - Wisconsin",
+        "plant:output:electricity": "59.8 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "4008",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "1988-07"
+      },
+      "lat": 45.0509765,
+      "lon": -91.2741582
+    },
+    {
+      "type": "way",
+      "id": 1270256487,
+      "center": {
+        "lat": 45.1639726,
+        "lon": -91.1574714
+      },
+      "tags": {
+        "name": "Cornell Hydro Generating Station",
+        "operator": "Northern States Power - Wisconsin",
+        "plant:output:electricity": "35.3 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "6086",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "1976-07"
+      },
+      "lat": 45.1639726,
+      "lon": -91.1574714
+    },
+    {
+      "type": "way",
+      "id": 1270256841,
+      "center": {
+        "lat": 45.224087,
+        "lon": -91.1274653
+      },
+      "tags": {
+        "name": "Holcombe Hydro Generating Station",
+        "operator": "Northern States Power - Wisconsin",
+        "plant:output:electricity": "33.9 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "4007",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "1950-01"
+      },
+      "lat": 45.224087,
+      "lon": -91.1274653
+    },
+    {
+      "type": "way",
+      "id": 1290492904,
+      "center": {
+        "lat": 43.4818813,
+        "lon": -90.5374577
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.4818813,
+      "lon": -90.5374577
+    },
+    {
+      "type": "way",
+      "id": 1290736638,
+      "center": {
+        "lat": 42.7407406,
+        "lon": -90.9190487
+      },
+      "tags": {
+        "name": "Cassville Solar Farm",
+        "operator": "Alliant Energy",
+        "operator:wikidata": "Q4732492",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "50 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "source": "https://www.alliantenergy.com/cleanenergy/ourenergyvision/solargeneration/wisconsinsolar/cassvillesolarproject",
+        "start_date": "2023-12"
+      },
+      "lat": 42.7407406,
+      "lon": -90.9190487
+    },
+    {
+      "type": "way",
+      "id": 1324835349,
+      "center": {
+        "lat": 44.2532281,
+        "lon": -88.4111624
+      },
+      "tags": {
+        "area": "yes",
+        "landuse": "industrial",
+        "man_made": "pier",
+        "power": "plant"
+      },
+      "lat": 44.2532281,
+      "lon": -88.4111624
+    },
+    {
+      "type": "way",
+      "id": 1327102240,
+      "center": {
+        "lat": 44.8561283,
+        "lon": -89.6541057
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Weston RICE Power Station",
+        "operator": "Wisconsin Public Service Corp",
+        "plant:method": "combustion",
+        "plant:output:electricity": "131.6 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "66059",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2023-07"
+      },
+      "lat": 44.8561283,
+      "lon": -89.6541057
+    },
+    {
+      "type": "way",
+      "id": 1327899206,
+      "center": {
+        "lat": 43.1071867,
+        "lon": -88.2267648
+      },
+      "tags": {
+        "name": "Lannon Stone",
+        "operator": "Wisconsin Electric Power Co",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2.3 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "67430",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2021-12"
+      },
+      "lat": 43.1071867,
+      "lon": -88.2267648
+    },
+    {
+      "type": "way",
+      "id": 1329526742,
+      "center": {
+        "lat": 44.8681406,
+        "lon": -91.8974716
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 44.8681406,
+      "lon": -91.8974716
+    },
+    {
+      "type": "way",
+      "id": 1347845281,
+      "center": {
+        "lat": 43.1985593,
+        "lon": -88.7557882
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.1985593,
+      "lon": -88.7557882
+    },
+    {
+      "type": "way",
+      "id": 1361982621,
+      "center": {
+        "lat": 42.8513645,
+        "lon": -87.9287868
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.8513645,
+      "lon": -87.9287868
+    },
+    {
+      "type": "way",
+      "id": 1377079988,
+      "center": {
+        "lat": 42.5765692,
+        "lon": -88.1902393
+      },
+      "tags": {
+        "alt_name": "Salix Solar Project",
+        "barrier": "fence",
+        "name": "Silver Lake Solar WI, LLC",
+        "operator": "Wisconsin Electric Power Co",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "7.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "67732",
+        "source": "survey",
+        "start_date": "2023-12"
+      },
+      "lat": 42.5765692,
+      "lon": -88.1902393
+    },
+    {
+      "type": "way",
+      "id": 1377455959,
+      "center": {
+        "lat": 42.9910933,
+        "lon": -89.3790968
+      },
+      "tags": {
+        "name": "Tyto Solar",
+        "operator": "Madison Gas and Electric",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "6 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "67196",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2024-02-24"
+      },
+      "lat": 42.9910933,
+      "lon": -89.3790968
+    },
+    {
+      "type": "way",
+      "id": 1415478515,
+      "center": {
+        "lat": 42.6201586,
+        "lon": -88.7372455
+      },
+      "tags": {
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.6201586,
+      "lon": -88.7372455
+    },
+    {
+      "type": "way",
+      "id": 1415478522,
+      "center": {
+        "lat": 42.5994738,
+        "lon": -88.7741248
+      },
+      "tags": {
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.5994738,
+      "lon": -88.7741248
+    },
+    {
+      "type": "way",
+      "id": 1421037042,
+      "center": {
+        "lat": 43.9827967,
+        "lon": -88.6089147
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.9827967,
+      "lon": -88.6089147
+    },
+    {
+      "type": "way",
+      "id": 1426921781,
+      "center": {
+        "lat": 43.0053939,
+        "lon": -89.4691967
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.0053939,
+      "lon": -89.4691967
+    },
+    {
+      "type": "way",
+      "id": 1443236103,
+      "center": {
+        "lat": 43.8955811,
+        "lon": -91.063551
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 43.8955811,
+      "lon": -91.063551
+    },
+    {
+      "type": "way",
+      "id": 1447454876,
+      "center": {
+        "lat": 42.9169465,
+        "lon": -88.8538051
+      },
+      "tags": {
+        "name": "Jones Dairy",
+        "operator": "Wisconsin Electric Power Co",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2.3 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "67386",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2021-07"
+      },
+      "lat": 42.9169465,
+      "lon": -88.8538051
+    },
+    {
+      "type": "way",
+      "id": 1447454899,
+      "center": {
+        "lat": 42.9407196,
+        "lon": -88.8569067
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.9407196,
+      "lon": -88.8569067
+    },
+    {
+      "type": "way",
+      "id": 1455298128,
+      "center": {
+        "lat": 43.4703427,
+        "lon": -91.1404017
+      },
+      "tags": {
+        "name": "Bluff Prairie (Vernon)",
+        "operator": "Greenbacker Renewable Energy Corporation",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "66987",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2023-11"
+      },
+      "lat": 43.4703427,
+      "lon": -91.1404017
+    },
+    {
+      "type": "way",
+      "id": 1470374170,
+      "center": {
+        "lat": 45.8878751,
+        "lon": -91.0774004
+      },
+      "tags": {
+        "name": "CHIPPEWA RESERVOIR",
+        "plant:source": "hydro",
+        "power": "plant"
+      },
+      "lat": 45.8878751,
+      "lon": -91.0774004
+    },
+    {
+      "type": "way",
+      "id": 1475136316,
+      "center": {
+        "lat": 42.7733382,
+        "lon": -87.9190363
+      },
+      "tags": {
+        "name": "Adams Road Solar",
+        "operator": "Wisconsin Electric Power Company",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "4 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "69502",
+        "start_date": "2025-12"
+      },
+      "lat": 42.7733382,
+      "lon": -87.9190363
+    },
+    {
+      "type": "way",
+      "id": 1475136317,
+      "center": {
+        "lat": 42.5259845,
+        "lon": -87.9932979
+      },
+      "tags": {
+        "name": "Bristol Woods Solar WI, LLC",
+        "operator": "Wisconsin Electric Power Company",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "6 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "start_date": "2025-12"
+      },
+      "lat": 42.5259845,
+      "lon": -87.9932979
+    },
+    {
+      "type": "way",
+      "id": 1475136323,
+      "center": {
+        "lat": 45.8274161,
+        "lon": -92.2637933
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Viola Solar",
+        "operator": "OneEnergy, Inc.",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "69495",
+        "start_date": "2025-12"
+      },
+      "lat": 45.8274161,
+      "lon": -92.2637933
+    },
+    {
+      "type": "way",
+      "id": 1475136324,
+      "center": {
+        "lat": 44.909447,
+        "lon": -92.3116734
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Next Generation Solar",
+        "operator": "OneEnergy, Inc.",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "69494",
+        "start_date": "2025-10"
+      },
+      "lat": 44.909447,
+      "lon": -92.3116734
+    },
+    {
+      "type": "way",
+      "id": 1475136325,
+      "center": {
+        "lat": 45.6116787,
+        "lon": -92.4822401
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Luck Solar",
+        "operator": "OneEnergy, Inc.",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "69493",
+        "start_date": "2025-12"
+      },
+      "lat": 45.6116787,
+      "lon": -92.4822401
+    },
+    {
+      "type": "way",
+      "id": 1475136327,
+      "center": {
+        "lat": 45.2584798,
+        "lon": -90.7747586
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Hannibal Solar",
+        "operator": "OneEnergy, Inc.",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "69491",
+        "start_date": "2025-12"
+      },
+      "lat": 45.2584798,
+      "lon": -90.7747586
+    },
+    {
+      "type": "way",
+      "id": 1475136330,
+      "center": {
+        "lat": 43.7295477,
+        "lon": -91.0940389
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Greenfield Solar",
+        "operator": "OneEnergy, Inc.",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "69490",
+        "start_date": "2025-11"
+      },
+      "lat": 43.7295477,
+      "lon": -91.0940389
+    },
+    {
+      "type": "way",
+      "id": 1475136333,
+      "center": {
+        "lat": 44.9019853,
+        "lon": -91.6125463
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Elk Mound (PV)",
+        "operator": "OneEnergy, Inc.",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "69488",
+        "start_date": "2025-09"
+      },
+      "lat": 44.9019853,
+      "lon": -91.6125463
+    },
+    {
+      "type": "way",
+      "id": 1475136334,
+      "center": {
+        "lat": 44.9612322,
+        "lon": -92.4436298
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Bright Future Solar",
+        "operator": "OneEnergy, Inc.",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "69486",
+        "start_date": "2025-10"
+      },
+      "lat": 44.9612322,
+      "lon": -92.4436298
+    },
+    {
+      "type": "way",
+      "id": 1475136335,
+      "center": {
+        "lat": 44.7224632,
+        "lon": -91.156415
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Bridge Creek Solar",
+        "operator": "OneEnergy, Inc.",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "69485",
+        "start_date": "2025-11"
+      },
+      "lat": 44.7224632,
+      "lon": -91.156415
+    },
+    {
+      "type": "way",
+      "id": 1475136344,
+      "center": {
+        "lat": 42.7958891,
+        "lon": -88.5827003
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "La Grange Solar Partners, LLC",
+        "operator": "Wisconsin Electric Power Company",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "6 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "69433",
+        "start_date": "2025-11"
+      },
+      "lat": 42.7958891,
+      "lon": -88.5827003
+    },
+    {
+      "type": "way",
+      "id": 1475136345,
+      "center": {
+        "lat": 45.1527242,
+        "lon": -89.1699557
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Antigo Solar Partners, LLC",
+        "operator": "Wisconsin Electric Power Company",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "6 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "start_date": "2025-11"
+      },
+      "lat": 45.1527242,
+      "lon": -89.1699557
+    },
+    {
+      "type": "way",
+      "id": 1475136346,
+      "center": {
+        "lat": 43.1134758,
+        "lon": -88.974375
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Rock Lake Solar WI, LLC",
+        "operator": "Wisconsin Electric Power Company",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "69431",
+        "start_date": "2025-11"
+      },
+      "lat": 43.1134758,
+      "lon": -88.974375
+    },
+    {
+      "type": "way",
+      "id": 1475136347,
+      "center": {
+        "lat": 42.7899785,
+        "lon": -88.7519893
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Spring Brook Solar WI, LLC",
+        "operator": "Wisconsin Electric Power Company",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "6 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "69430",
+        "start_date": "2025-10"
+      },
+      "lat": 42.7899785,
+      "lon": -88.7519893
+    },
+    {
+      "type": "way",
+      "id": 1476027302,
+      "center": {
+        "lat": 46.5367708,
+        "lon": -90.3800309
+      },
+      "tags": {
+        "name": "Saxon Falls",
+        "operator": "Xcel Energy",
+        "operator:wikidata": "Q1486956",
+        "plant:output:electricity": "1.5 MW",
+        "plant:source": "hydro",
+        "power": "plant"
+      },
+      "lat": 46.5367708,
+      "lon": -90.3800309
+    },
+    {
+      "type": "way",
+      "id": 1476027303,
+      "center": {
+        "lat": 46.5646014,
+        "lon": -90.4161646
+      },
+      "tags": {
+        "name": "Superior Falls",
+        "operator": "Xcel Energy",
+        "operator:wikidata": "Q1486956",
+        "plant:output:electricity": "1.65 MW",
+        "plant:source": "hydro",
+        "power": "plant"
+      },
+      "lat": 46.5646014,
+      "lon": -90.4161646
+    },
+    {
+      "type": "way",
+      "id": 1476977684,
+      "center": {
+        "lat": 42.9696754,
+        "lon": -89.3928218
+      },
+      "tags": {
+        "name": "Strix Solar",
+        "operator": "Madison Gas and Electric",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "6 MW",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.9696754,
+      "lon": -89.3928218
+    },
+    {
+      "type": "way",
+      "id": 1483988586,
+      "center": {
+        "lat": 42.7318557,
+        "lon": -90.5005202
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2.5 MW",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.7318557,
+      "lon": -90.5005202
+    },
+    {
+      "type": "way",
+      "id": 1484053529,
+      "center": {
+        "lat": 42.6494043,
+        "lon": -87.845208
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.6494043,
+      "lon": -87.845208
+    },
+    {
+      "type": "way",
+      "id": 1488688789,
+      "center": {
+        "lat": 44.8993422,
+        "lon": -91.3818385
+      },
+      "tags": {
+        "operator": "Xcel",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 44.8993422,
+      "lon": -91.3818385
+    },
+    {
+      "type": "way",
+      "id": 1493892582,
+      "center": {
+        "lat": 42.9579239,
+        "lon": -89.2923822
+      },
+      "tags": {
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.9579239,
+      "lon": -89.2923822
+    },
+    {
+      "type": "relation",
+      "id": 9056570,
+      "center": {
+        "lat": 46.5863088,
+        "lon": -90.9028827
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Bayfront Steam Plant",
+        "operator": "Northern States Power Co - Minnesota",
+        "operator:wikidata": "Q1486956",
+        "operator:wikipedia": "en:Xcel Energy",
+        "plant:method": "combustion",
+        "plant:output:electricity": "47.2 MW",
+        "plant:source": "gas;biomass",
+        "power": "plant",
+        "ref:US:EIA": "3982",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "1916",
+        "type": "multipolygon"
+      },
+      "lat": 46.5863088,
+      "lon": -90.9028827
+    },
+    {
+      "type": "relation",
+      "id": 9428474,
+      "center": {
+        "lat": 45.2329713,
+        "lon": -88.0670733
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Sandstone Rapids Hydro",
+        "operator": "Wisconsin Public Service Corp",
+        "owner": "Wisconsin Public Service Corporation",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "3.8 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "4074",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1925-01",
+        "type": "multipolygon"
+      },
+      "lat": 45.2329713,
+      "lon": -88.0670733
+    },
+    {
+      "type": "relation",
+      "id": 11037431,
+      "center": {
+        "lat": 44.2603939,
+        "lon": -88.5102743
+      },
+      "tags": {
+        "access": "yes",
+        "amenity": "parking",
+        "building": "carport",
+        "fee": "yes",
+        "park_ride": "no",
+        "parking": "carports",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "230 kW",
+        "plant:source": "solar",
+        "power": "plant",
+        "start_date": "2017",
+        "supervised": "yes",
+        "type": "multipolygon"
+      },
+      "lat": 44.2603939,
+      "lon": -88.5102743
+    },
+    {
+      "type": "relation",
+      "id": 12022710,
+      "center": {
+        "lat": 44.5438435,
+        "lon": -88.0141404
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "J P Pulliam Power Plant",
+        "operator": "Wisconsin Pubic Service",
+        "plant:method": "combustion",
+        "plant:output:electricity": "91 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "4072",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1943-01",
+        "type": "multipolygon",
+        "wikidata": "Q14714483"
+      },
+      "lat": 44.5438435,
+      "lon": -88.0141404
+    },
+    {
+      "type": "relation",
+      "id": 12562954,
+      "center": {
+        "lat": 46.497909,
+        "lon": -90.907459
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "White River Dam",
+        "operator": "Northern States Power Co - Minnesota",
+        "operator:wikidata": "Q1486956",
+        "owner": "Xcel Energy",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "3989",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "1907-01",
+        "type": "multipolygon"
+      },
+      "lat": 46.497909,
+      "lon": -90.907459
+    },
+    {
+      "type": "relation",
+      "id": 13008284,
+      "center": {
+        "lat": 44.2536973,
+        "lon": -88.4097191
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Appleton Power Plant",
+        "operator": "We Energies",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "2.2 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "4043",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1916-08",
+        "type": "multipolygon"
+      },
+      "lat": 44.2536973,
+      "lon": -88.4097191
+    },
+    {
+      "type": "relation",
+      "id": 13702799,
+      "center": {
+        "lat": 45.3893109,
+        "lon": -92.6798667
+      },
+      "tags": {
+        "name": "Fox CSG",
+        "operator": "Ecoplexus, Inc",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61484",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2018-03",
+        "type": "multipolygon"
+      },
+      "lat": 45.3893109,
+      "lon": -92.6798667
+    },
+    {
+      "type": "relation",
+      "id": 14160862,
+      "center": {
+        "lat": 42.6534812,
+        "lon": -90.2498424
+      },
+      "tags": {
+        "name": "Quilt Block Wind Farm",
+        "operator": "Quilt Block Wind Farm LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "98 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57116",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2017-09",
+        "type": "site"
+      },
+      "lat": 42.6534812,
+      "lon": -90.2498424
+    },
+    {
+      "type": "relation",
+      "id": 14160863,
+      "center": {
+        "lat": 42.7121717,
+        "lon": -87.8879991
+      },
+      "tags": {
+        "name": "Waxdale Wind",
+        "operator": "S.C. Johnson & Son, Inc.",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "3 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "59448",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2012-12",
+        "type": "site"
+      },
+      "lat": 42.7121717,
+      "lon": -87.8879991
+    },
+    {
+      "type": "relation",
+      "id": 14160864,
+      "center": {
+        "lat": 43.1731682,
+        "lon": -89.561088
+      },
+      "tags": {
+        "name": "Galactic Wind",
+        "operator": "Galactic Wind",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "9.9 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "62161",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2012-12",
+        "type": "site"
+      },
+      "lat": 43.1731682,
+      "lon": -89.561088
+    },
+    {
+      "type": "relation",
+      "id": 14160866,
+      "center": {
+        "lat": 44.3487508,
+        "lon": -87.947605
+      },
+      "tags": {
+        "name": "Shirley Wind",
+        "operator": "Duke Energy",
+        "operator:wikidata": "Q1264404",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "20 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57553",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2010-11",
+        "type": "site",
+        "wikidata": "Q20710329"
+      },
+      "lat": 44.3487508,
+      "lon": -87.947605
+    },
+    {
+      "type": "relation",
+      "id": 14160867,
+      "center": {
+        "lat": 43.7363699,
+        "lon": -90.8045673
+      },
+      "tags": {
+        "name": "Cashton Greens Wind Farm",
+        "operator": "Cashton Greens Wind Farm LLC",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "5 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57968",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2012-05",
+        "type": "site"
+      },
+      "lat": 43.7363699,
+      "lon": -90.8045673
+    },
+    {
+      "type": "relation",
+      "id": 14160868,
+      "center": {
+        "lat": 44.6549324,
+        "lon": -87.6428408
+      },
+      "tags": {
+        "name": "Rosiere Wind Farm",
+        "operator": "Madison Gas & Electric Co",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "11 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "7886",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1999-06",
+        "type": "site"
+      },
+      "lat": 44.6549324,
+      "lon": -87.6428408
+    },
+    {
+      "type": "relation",
+      "id": 14160870,
+      "center": {
+        "lat": 42.9562124,
+        "lon": -90.3873823
+      },
+      "tags": {
+        "name": "Montfort Wind Energy Center",
+        "operator": "Wisconsin Electric Power Co",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "30 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "55742",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2002-06",
+        "type": "site"
+      },
+      "lat": 42.9562124,
+      "lon": -90.3873823
+    },
+    {
+      "type": "relation",
+      "id": 14160871,
+      "center": {
+        "lat": 43.603386,
+        "lon": -88.5129946
+      },
+      "tags": {
+        "name": "Forward Wind Energy Center",
+        "operator": "Wisconsin Public Service Corporation",
+        "operator:short": "WPS",
+        "operator:wikidata": "Q8027253",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "129 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56942",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2008-07",
+        "type": "site",
+        "wikidata": "Q5473261",
+        "wikipedia": "en:Forward Wind Energy Center"
+      },
+      "lat": 43.603386,
+      "lon": -88.5129946
+    },
+    {
+      "type": "relation",
+      "id": 14160873,
+      "center": {
+        "lat": 43.8856534,
+        "lon": -88.2702584
+      },
+      "tags": {
+        "name": "Blue Sky Green Field Wind Project",
+        "operator": "Wisconsin Electric Power Co",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "145.2 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56391",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2008-05",
+        "type": "site",
+        "wikidata": "Q4929867"
+      },
+      "lat": 43.8856534,
+      "lon": -88.2702584
+    },
+    {
+      "type": "relation",
+      "id": 14160874,
+      "center": {
+        "lat": 43.7187928,
+        "lon": -88.3148365
+      },
+      "tags": {
+        "name": "Cedar Ridge Wind Farm",
+        "operator": "Wisconsin Power & Light Co",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "67.7 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56347",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2008-12",
+        "type": "site",
+        "wikidata": "Q116716294"
+      },
+      "lat": 43.7187928,
+      "lon": -88.3148365
+    },
+    {
+      "type": "relation",
+      "id": 14160875,
+      "center": {
+        "lat": 43.416895,
+        "lon": -88.4858521
+      },
+      "tags": {
+        "name": "Butler Ridge Wind Energy Center",
+        "operator": "Butler Ridge Wind Energy Center",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "54 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "56647",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2009-02",
+        "type": "site",
+        "wikidata": "Q116715364"
+      },
+      "lat": 43.416895,
+      "lon": -88.4858521
+    },
+    {
+      "type": "relation",
+      "id": 14160876,
+      "center": {
+        "lat": 43.5862265,
+        "lon": -89.1216223
+      },
+      "tags": {
+        "name": "Glacier Hills Wind Farm",
+        "operator": "Wisconsin Electric Power Co",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "162 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "57199",
+        "site": "wind_farm",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2011-12",
+        "type": "site",
+        "wikidata": "Q116715820"
+      },
+      "lat": 43.5862265,
+      "lon": -89.1216223
+    },
+    {
+      "type": "relation",
+      "id": 14244588,
+      "center": {
+        "lat": 45.3016092,
+        "lon": -89.7916178
+      },
+      "tags": {
+        "landuse": "industrial",
+        "license:website": "https://www.ferc.gov/sites/default/files/2020-06/P-1940-EA.pdf",
+        "name": "Grandfather Falls Hydroelectric Plant P-1966",
+        "operator": "Wisconsin Public Service Corporation",
+        "operator:website": "https://www.wisconsinpublicservice.com/company/hydroelectric",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "17.24 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "4063",
+        "repair:website": "https://www.jamespetersonsonsinc.com/2017/11/30/grandfather-falls-project/",
+        "repair_2:website": "https://www.garney.com/projects/grandfather-falls-hydro-plant-penstock-replacement/",
+        "start_date": "1938",
+        "type": "multipolygon"
+      },
+      "lat": 45.3016092,
+      "lon": -89.7916178
+    },
+    {
+      "type": "relation",
+      "id": 14283068,
+      "center": {
+        "lat": 44.8547698,
+        "lon": -89.6532284
+      },
+      "tags": {
+        "alt_name": "Weston Generating Station",
+        "landuse": "industrial",
+        "name": "Weston Power Plant",
+        "operator": "Wisconsin Public Service Corporation",
+        "operator:short": "WPS",
+        "operator:website": "https://www.wisconsinpublicservice.com/company/",
+        "operator:wikidata": "Q8027253",
+        "operator:wikipedia": "en:Wisconsin Public Service Corporation",
+        "plant:method": "combustion",
+        "plant:output:electricity": "945.5 MW",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "4078",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "1954-12",
+        "type": "multipolygon",
+        "wikidata": "Q7989434",
+        "wikipedia": "en:Weston Generating Station"
+      },
+      "lat": 44.8547698,
+      "lon": -89.6532284
+    },
+    {
+      "type": "relation",
+      "id": 14425530,
+      "center": {
+        "lat": 42.9975117,
+        "lon": -89.4583918
+      },
+      "tags": {
+        "name": "O'Brien Solar Fields",
+        "operator": "MG&E",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "22.1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64590",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2021-05",
+        "type": "multipolygon",
+        "wikidata": "Q116724664"
+      },
+      "lat": 42.9975117,
+      "lon": -89.4583918
+    },
+    {
+      "type": "relation",
+      "id": 14719303,
+      "center": {
+        "lat": 44.2739083,
+        "lon": -87.5533386
+      },
+      "tags": {
+        "name": "Point Beach Solar",
+        "operator": "Point Beach Solar",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "100 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64431",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2021-09",
+        "type": "multipolygon"
+      },
+      "lat": 44.2739083,
+      "lon": -87.5533386
+    },
+    {
+      "type": "relation",
+      "id": 15512994,
+      "center": {
+        "lat": 44.2477769,
+        "lon": -87.5433232
+      },
+      "tags": {
+        "name": "Two Creeks Solar",
+        "operator": "Wisconsin Public Service Corp",
+        "plant:output:electricity": "150 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "63105",
+        "start_date": "2020-11",
+        "type": "multipolygon"
+      },
+      "lat": 44.2477769,
+      "lon": -87.5433232
+    },
+    {
+      "type": "relation",
+      "id": 15568639,
+      "center": {
+        "lat": 42.9522377,
+        "lon": -90.4870468
+      },
+      "tags": {
+        "name": "Red Barn",
+        "operator": "Wisconsin Public Service Corporation",
+        "operator:short": "WPS",
+        "operator:wikidata": "Q8027253",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "91.6 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "65282",
+        "site": "wind_farm",
+        "type": "site",
+        "wikidata": "Q135681781"
+      },
+      "lat": 42.9522377,
+      "lon": -90.4870468
+    },
+    {
+      "type": "relation",
+      "id": 15683099,
+      "center": {
+        "lat": 42.9077248,
+        "lon": -87.938702
+      },
+      "tags": {
+        "name": "IKEA Oak Creek Rooftop PV System",
+        "operator": "IKEA Property Inc",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61816",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2018-06",
+        "type": "multipolygon"
+      },
+      "lat": 42.9077248,
+      "lon": -87.938702
+    },
+    {
+      "type": "relation",
+      "id": 15711200,
+      "center": {
+        "lat": 43.1971308,
+        "lon": -90.215923
+      },
+      "tags": {
+        "name": "Bear Creek",
+        "operator": "Alliant Energy",
+        "operator:wikidata": "Q4732492",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "50 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "65009",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2022-09",
+        "type": "multipolygon"
+      },
+      "lat": 43.1971308,
+      "lon": -90.215923
+    },
+    {
+      "type": "relation",
+      "id": 15711258,
+      "center": {
+        "lat": 42.940703,
+        "lon": -90.35985
+      },
+      "tags": {
+        "name": "Badger Hollow I",
+        "operator": "Wisconsin Public Service Corporation",
+        "operator:short": "WPS",
+        "operator:wikidata": "Q8027253",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "150 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "62955",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2021-11",
+        "type": "multipolygon",
+        "wikidata": "Q116723213"
+      },
+      "lat": 42.940703,
+      "lon": -90.35985
+    },
+    {
+      "type": "relation",
+      "id": 15728359,
+      "center": {
+        "lat": 43.1237802,
+        "lon": -89.5446678
+      },
+      "tags": {
+        "name": "Middleton Biogas Solar, LLC",
+        "operator": "Middleton Biogas Solar, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2.2 MW",
+        "plant:source": "solar;battery",
+        "power": "plant",
+        "ref:US:EIA": "66048",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2022-05",
+        "type": "multipolygon"
+      },
+      "lat": 43.1237802,
+      "lon": -89.5446678
+    },
+    {
+      "type": "relation",
+      "id": 15731658,
+      "center": {
+        "lat": 44.2798428,
+        "lon": -89.8460011
+      },
+      "tags": {
+        "name": "Wood County Solar",
+        "operator": "Alliant Energy",
+        "operator:wikidata": "Q4732492",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "150 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "65011",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2022-12",
+        "type": "multipolygon"
+      },
+      "lat": 44.2798428,
+      "lon": -89.8460011
+    },
+    {
+      "type": "relation",
+      "id": 15823041,
+      "center": {
+        "lat": 43.0470673,
+        "lon": -89.2401422
+      },
+      "tags": {
+        "name": "Dane County Solar LLC",
+        "operator": "Dane County Solar LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "17.3 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "66419",
+        "source": "U.S. Energy Information Administration - EIA-860m - 2025",
+        "start_date": "2023-06",
+        "type": "multipolygon"
+      },
+      "lat": 43.0470673,
+      "lon": -89.2401422
+    },
+    {
+      "type": "relation",
+      "id": 15868341,
+      "center": {
+        "lat": 42.9521754,
+        "lon": -90.3347413
+      },
+      "tags": {
+        "name": "Badger Hollow II",
+        "operator": "Wisconsin Electric Power Co",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64393",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "type": "multipolygon"
+      },
+      "lat": 42.9521754,
+      "lon": -90.3347413
+    },
+    {
+      "type": "relation",
+      "id": 16603166,
+      "center": {
+        "lat": 44.8841468,
+        "lon": -91.9295982
+      },
+      "tags": {
+        "landuse": "industrial",
+        "operator": "Xcel Energy",
+        "operator:wikidata": "Q1486956",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "5.4 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "site": "station",
+        "type": "site"
+      },
+      "lat": 44.8841468,
+      "lon": -91.9295982
+    },
+    {
+      "type": "relation",
+      "id": 17870324,
+      "center": {
+        "lat": 42.647678,
+        "lon": -88.0249383
+      },
+      "tags": {
+        "name": "Paris Solar Park",
+        "operator": "Wisconsin Electric Power Co",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "300 MW",
+        "plant:source": "solar;battery",
+        "power": "plant",
+        "ref:US:EIA": "65967",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2024-12",
+        "type": "multipolygon"
+      },
+      "lat": 42.647678,
+      "lon": -88.0249383
+    },
+    {
+      "type": "relation",
+      "id": 18984500,
+      "center": {
+        "lat": 43.2994904,
+        "lon": -87.9360025
+      },
+      "tags": {
+        "landuse": "industrial",
+        "plant:source": "solar",
+        "power": "plant",
+        "type": "multipolygon"
+      },
+      "lat": 43.2994904,
+      "lon": -87.9360025
+    },
+    {
+      "type": "relation",
+      "id": 19215234,
+      "center": {
+        "lat": 45.0867489,
+        "lon": -87.6887637
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "West Marinette Complex",
+        "power": "plant",
+        "type": "multipolygon"
+      },
+      "lat": 45.0867489,
+      "lon": -87.6887637
+    },
+    {
+      "type": "relation",
+      "id": 19362309,
+      "center": {
+        "lat": 42.6143295,
+        "lon": -88.7742411
+      },
+      "tags": {
+        "name": "Darien Solar Energy Center",
+        "plant:source": "solar",
+        "power": "plant",
+        "type": "multipolygon"
+      },
+      "lat": 42.6143295,
+      "lon": -88.7742411
+    },
+    {
+      "type": "relation",
+      "id": 20053578,
+      "center": {
+        "lat": 43.614547,
+        "lon": -88.4635864
+      },
+      "tags": {
+        "name": "Springfield Solar (WI)",
+        "operator": "Wisconsin Power & Light Co",
+        "operator:wikidata": "Q4732492",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "100 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64996",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2023-12",
+        "type": "multipolygon"
+      },
+      "lat": 43.614547,
+      "lon": -88.4635864
+    },
+    {
+      "type": "relation",
+      "id": 20053579,
+      "center": {
+        "lat": 42.7377317,
+        "lon": -90.6917499
+      },
+      "tags": {
+        "name": "Grant County",
+        "operator": "Wisconsin Power & Light Co",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "200 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "65007",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2024-05",
+        "type": "multipolygon"
+      },
+      "lat": 42.7377317,
+      "lon": -90.6917499
+    },
+    {
+      "type": "relation",
+      "id": 20063417,
+      "center": {
+        "lat": 43.6091624,
+        "lon": -87.8934608
+      },
+      "tags": {
+        "name": "Onion River Solar",
+        "operator": "Wisconsin Power & Light Co",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "150 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "65008",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2023-12",
+        "type": "multipolygon"
+      },
+      "lat": 43.6091624,
+      "lon": -87.8934608
+    },
+    {
+      "type": "relation",
+      "id": 20188456,
+      "center": {
+        "lat": 45.3799119,
+        "lon": -92.2931323
+      },
+      "tags": {
+        "name": "Apple River Solar",
+        "operator": "Geronimo Power",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "100 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "69388",
+        "start_date": "2025-12",
+        "type": "multipolygon"
+      },
+      "lat": 45.3799119,
+      "lon": -92.2931323
+    },
+    {
+      "type": "relation",
+      "id": 20204750,
+      "center": {
+        "lat": 42.5536118,
+        "lon": -89.1006099
+      },
+      "tags": {
+        "name": "Paddock Solar",
+        "operator": "Wisconsin Power and Light",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "65 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "type": "multipolygon"
+      },
+      "lat": 42.5536118,
+      "lon": -89.1006099
+    },
+    {
+      "type": "relation",
+      "id": 20267394,
+      "center": {
+        "lat": 44.0525711,
+        "lon": -89.3243303
+      },
+      "tags": {
+        "name": "Wautoma Solar Farm",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "type": "multipolygon"
+      },
+      "lat": 44.0525711,
+      "lon": -89.3243303
+    },
+    {
+      "type": "relation",
+      "id": 20574738,
+      "center": {
+        "lat": 43.9485406,
+        "lon": -89.6824316
+      },
+      "tags": {
+        "addr:city": "Adams",
+        "addr:housenumber": "529",
+        "addr:postcode": "53936",
+        "addr:state": "WI",
+        "addr:street": "County Road M",
+        "name": "Adams PV Plant",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "8.3 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "start_date": "2023-07",
+        "type": "multipolygon"
+      },
+      "lat": 43.9485406,
+      "lon": -89.6824316
+    }
+  ]
+}

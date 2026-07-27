@@ -1,0 +1,220 @@
+{
+  "source": {
+    "name": "Estimated county-level electricity consumption (MWh)",
+    "method": "Proportional allocation by 2024 population using EIA-861 state total",
+    "state_total_mwh": 11341591,
+    "population_source": "U.S. Census Bureau, 2024 county population estimates",
+    "disclaimer": "County values are estimated by population share. Actual consumption may differ."
+  },
+  "count": 16,
+  "elements": [
+    {
+      "type": "node",
+      "id": "consumer-county-Androscoggin",
+      "county": "Androscoggin",
+      "tags": {
+        "name": "Androscoggin County Consumer Node",
+        "consumer": "yes",
+        "county": "Androscoggin",
+        "consumption_mwh": 930503.0
+      },
+      "lat": 44.17396117222991,
+      "lon": -70.20311153647606
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-Aroostook",
+      "county": "Aroostook",
+      "tags": {
+        "name": "Aroostook County Consumer Node",
+        "consumer": "yes",
+        "county": "Aroostook",
+        "consumption_mwh": 539031.75
+      },
+      "lat": 46.660445507152694,
+      "lon": -68.59804386430649
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-Cumberland",
+      "county": "Cumberland",
+      "tags": {
+        "name": "Cumberland County Consumer Node",
+        "consumer": "yes",
+        "county": "Cumberland",
+        "consumption_mwh": 2533140.88
+      },
+      "lat": 43.84899112805721,
+      "lon": -70.38728043056071
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-Franklin",
+      "county": "Franklin",
+      "tags": {
+        "name": "Franklin County Consumer Node",
+        "consumer": "yes",
+        "county": "Franklin",
+        "consumption_mwh": 249448.29
+      },
+      "lat": 44.96894522237233,
+      "lon": -70.43983538100096
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-Hancock",
+      "county": "Hancock",
+      "tags": {
+        "name": "Hancock County Consumer Node",
+        "consumer": "yes",
+        "county": "Hancock",
+        "consumption_mwh": 459681.65
+      },
+      "lat": 44.66262780156946,
+      "lon": -68.35830218093021
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-Kennebec",
+      "county": "Kennebec",
+      "tags": {
+        "name": "Kennebec County Consumer Node",
+        "consumer": "yes",
+        "county": "Kennebec",
+        "consumption_mwh": 1036967.74
+      },
+      "lat": 44.401491238294916,
+      "lon": -69.76050022608659
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-Knox",
+      "county": "Knox",
+      "tags": {
+        "name": "Knox County Consumer Node",
+        "consumer": "yes",
+        "county": "Knox",
+        "consumption_mwh": 330808.38
+      },
+      "lat": 44.15798048068521,
+      "lon": -69.17199361680937
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-Lincoln",
+      "county": "Lincoln",
+      "tags": {
+        "name": "Lincoln County Consumer Node",
+        "consumer": "yes",
+        "county": "Lincoln",
+        "consumption_mwh": 294564.03
+      },
+      "lat": 44.05382833985738,
+      "lon": -69.54345852990227
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-Oxford",
+      "county": "Oxford",
+      "tags": {
+        "name": "Oxford County Consumer Node",
+        "consumer": "yes",
+        "county": "Oxford",
+        "consumption_mwh": 484649.09
+      },
+      "lat": 44.49488156100016,
+      "lon": -70.75642222430554
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-Penobscot",
+      "county": "Penobscot",
+      "tags": {
+        "name": "Penobscot County Consumer Node",
+        "consumer": "yes",
+        "county": "Penobscot",
+        "consumption_mwh": 1266049.78
+      },
+      "lat": 45.400414684210396,
+      "lon": -68.6510355290944
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-Piscataquis",
+      "county": "Piscataquis",
+      "tags": {
+        "name": "Piscataquis County Consumer Node",
+        "consumer": "yes",
+        "county": "Piscataquis",
+        "consumption_mwh": 140715.25
+      },
+      "lat": 45.83932478255896,
+      "lon": -69.28520277605125
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-Sagadahoc",
+      "county": "Sagadahoc",
+      "tags": {
+        "name": "Sagadahoc County Consumer Node",
+        "consumer": "yes",
+        "county": "Sagadahoc",
+        "consumption_mwh": 303370.84
+      },
+      "lat": 43.96064259481007,
+      "lon": -69.85459493130293
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-Somerset",
+      "county": "Somerset",
+      "tags": {
+        "name": "Somerset County Consumer Node",
+        "consumer": "yes",
+        "county": "Somerset",
+        "consumption_mwh": 414412.55
+      },
+      "lat": 45.51012164556821,
+      "lon": -69.95891293037326
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-Waldo",
+      "county": "Waldo",
+      "tags": {
+        "name": "Waldo County Consumer Node",
+        "consumer": "yes",
+        "county": "Waldo",
+        "consumption_mwh": 327870.08
+      },
+      "lat": 44.50035197636251,
+      "lon": -69.14704108714203
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-Washington",
+      "county": "Washington",
+      "tags": {
+        "name": "Washington County Consumer Node",
+        "consumer": "yes",
+        "county": "Washington",
+        "consumption_mwh": 253331.04
+      },
+      "lat": 45.032558495432994,
+      "lon": -67.62710141641861
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-York",
+      "county": "York",
+      "tags": {
+        "name": "York County Consumer Node",
+        "consumer": "yes",
+        "county": "York",
+        "consumption_mwh": 1777046.65
+      },
+      "lat": 43.48039567622672,
+      "lon": -70.71592927618676
+    }
+  ]
+}

@@ -1,0 +1,4813 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-04-24T18:15:17Z",
+    "timestamp_areas_base": "2026-04-24T09:42:59Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 5368533444,
+      "lat": 41.8075184,
+      "lon": -72.7545911,
+      "tags": {
+        "power": "substation"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8901712762,
+      "lat": 41.7299142,
+      "lon": -73.2178085,
+      "tags": {
+        "power": "substation"
+      }
+    },
+    {
+      "type": "way",
+      "id": 43050362,
+      "center": {
+        "lat": 41.3148043,
+        "lon": -72.1653209
+      },
+      "tags": {
+        "barrier": "fence",
+        "location": "outdoor",
+        "name": "Millstone Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "345000"
+      },
+      "lat": 41.3148043,
+      "lon": -72.1653209
+    },
+    {
+      "type": "way",
+      "id": 49810081,
+      "center": {
+        "lat": 41.4882846,
+        "lon": -72.4927044
+      },
+      "tags": {
+        "name": "Haddam Neck Substation 14B",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "source": "Yahoo",
+        "substation": "transmission",
+        "voltage": "345000"
+      },
+      "lat": 41.4882846,
+      "lon": -72.4927044
+    },
+    {
+      "type": "way",
+      "id": 49810097,
+      "center": {
+        "lat": 41.5103687,
+        "lon": -72.5697086
+      },
+      "tags": {
+        "access": "no",
+        "barrier": "fence",
+        "location": "outdoor",
+        "name": "Scovill Rock Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "ref": "22P",
+        "source": "ISO",
+        "substation": "transmission",
+        "voltage": "345000"
+      },
+      "lat": 41.5103687,
+      "lon": -72.5697086
+    },
+    {
+      "type": "way",
+      "id": 57836774,
+      "center": {
+        "lat": 41.7418366,
+        "lon": -72.793656
+      },
+      "tags": {
+        "barrier": "fence",
+        "frequency": "60",
+        "location": "outdoor",
+        "name": "Farmington Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "source": "ISO",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.7418366,
+      "lon": -72.793656
+    },
+    {
+      "type": "way",
+      "id": 58265214,
+      "center": {
+        "lat": 41.7179792,
+        "lon": -72.7692052
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "minor_distribution"
+      },
+      "lat": 41.7179792,
+      "lon": -72.7692052
+    },
+    {
+      "type": "way",
+      "id": 76438681,
+      "center": {
+        "lat": 41.7177849,
+        "lon": -72.7509734
+      },
+      "tags": {
+        "barrier": "fence",
+        "frequency": "60",
+        "location": "outdoor",
+        "name": "Newington Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "source": "ISO",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.7177849,
+      "lon": -72.7509734
+    },
+    {
+      "type": "way",
+      "id": 76737173,
+      "center": {
+        "lat": 41.7468751,
+        "lon": -72.8203151
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.7468751,
+      "lon": -72.8203151
+    },
+    {
+      "type": "way",
+      "id": 96321733,
+      "center": {
+        "lat": 41.2682229,
+        "lon": -73.429734
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Peaceable Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.2682229,
+      "lon": -73.429734
+    },
+    {
+      "type": "way",
+      "id": 101892508,
+      "center": {
+        "lat": 41.8384995,
+        "lon": -72.9266103
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Canton Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.8384995,
+      "lon": -72.9266103
+    },
+    {
+      "type": "way",
+      "id": 112265824,
+      "center": {
+        "lat": 41.8909074,
+        "lon": -72.7581069
+      },
+      "tags": {
+        "access": "no",
+        "barrier": "fence",
+        "name": "North Bloomfield Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "source": "ISO",
+        "substation": "transmission",
+        "voltage": "345000;115000"
+      },
+      "lat": 41.8909074,
+      "lon": -72.7581069
+    },
+    {
+      "type": "way",
+      "id": 135692647,
+      "center": {
+        "lat": 41.3178417,
+        "lon": -72.8775347
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Quinnipiac Substation",
+        "operator": "United Illuminating Company",
+        "operator:wikidata": "Q7771571",
+        "power": "substation",
+        "ref": "3Q",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.3178417,
+      "lon": -72.8775347
+    },
+    {
+      "type": "way",
+      "id": 139232219,
+      "center": {
+        "lat": 41.8544803,
+        "lon": -72.5286106
+      },
+      "tags": {
+        "barrier": "fence",
+        "location": "outdoor",
+        "name": "Barbour Hill Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "operator:wikipedia": "en:Eversource Energy",
+        "power": "substation",
+        "source": "ISO",
+        "substation": "transmission",
+        "voltage": "345000;115000"
+      },
+      "lat": 41.8544803,
+      "lon": -72.5286106
+    },
+    {
+      "type": "way",
+      "id": 139232239,
+      "center": {
+        "lat": 41.7704304,
+        "lon": -72.5574964
+      },
+      "tags": {
+        "barrier": "fence",
+        "location": "outdoor",
+        "name": "Manchester Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "operator:wikipedia": "en:Eversource Energy",
+        "power": "substation",
+        "source": "ISO",
+        "substation": "transmission",
+        "voltage": "345000;115000"
+      },
+      "lat": 41.7704304,
+      "lon": -72.5574964
+    },
+    {
+      "type": "way",
+      "id": 139541388,
+      "center": {
+        "lat": 41.6809562,
+        "lon": -72.5549823
+      },
+      "tags": {
+        "barrier": "fence",
+        "location": "outdoor",
+        "name": "Hopewell Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "source": "ISO",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.6809562,
+      "lon": -72.5549823
+    },
+    {
+      "type": "way",
+      "id": 139553666,
+      "center": {
+        "lat": 41.7021632,
+        "lon": -72.2344532
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Card Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "operator:wikipedia": "en:Eversource Energy",
+        "power": "substation",
+        "ref": "11F",
+        "substation": "transmission",
+        "voltage": "345000;115000;69000"
+      },
+      "lat": 41.7021632,
+      "lon": -72.2344532
+    },
+    {
+      "type": "way",
+      "id": 139730003,
+      "center": {
+        "lat": 41.5541584,
+        "lon": -72.5968941
+      },
+      "tags": {
+        "barrier": "fence",
+        "location": "outdoor",
+        "name": "Kleen Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "operator:wikipedia": "en:Eversource Energy",
+        "power": "substation",
+        "source": "ISO",
+        "substation": "transmission",
+        "voltage": "345000"
+      },
+      "lat": 41.5541584,
+      "lon": -72.5968941
+    },
+    {
+      "type": "way",
+      "id": 139730006,
+      "center": {
+        "lat": 41.5544924,
+        "lon": -72.5780534
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Middletown Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "operator:wikipedia": "en:Eversource Energy",
+        "power": "substation",
+        "source": "ISO",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.5544924,
+      "lon": -72.5780534
+    },
+    {
+      "type": "way",
+      "id": 139744675,
+      "center": {
+        "lat": 41.881275,
+        "lon": -71.8911396
+      },
+      "tags": {
+        "name": "Killingly Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "345000;115000"
+      },
+      "lat": 41.881275,
+      "lon": -71.8911396
+    },
+    {
+      "type": "way",
+      "id": 139886600,
+      "center": {
+        "lat": 41.4892431,
+        "lon": -72.7549778
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Beseck Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "345000"
+      },
+      "lat": 41.4892431,
+      "lon": -72.7549778
+    },
+    {
+      "type": "way",
+      "id": 139886601,
+      "center": {
+        "lat": 41.510119,
+        "lon": -72.7519004
+      },
+      "tags": {
+        "name": "East Meriden Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.510119,
+      "lon": -72.7519004
+    },
+    {
+      "type": "way",
+      "id": 139886605,
+      "center": {
+        "lat": 41.5885017,
+        "lon": -72.866574
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Southington Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "ref": "4C",
+        "source": "Bing",
+        "substation": "transmission",
+        "voltage": "345000;115000"
+      },
+      "lat": 41.5885017,
+      "lon": -72.866574
+    },
+    {
+      "type": "way",
+      "id": 139890741,
+      "center": {
+        "lat": 41.6124343,
+        "lon": -73.0606107
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Frost Bridge Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "ref": "8R",
+        "substation": "transmission",
+        "voltage": "345000;115000"
+      },
+      "lat": 41.6124343,
+      "lon": -73.0606107
+    },
+    {
+      "type": "way",
+      "id": 139896636,
+      "center": {
+        "lat": 41.6204384,
+        "lon": -73.4422101
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Long Mountain Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "345000"
+      },
+      "lat": 41.6204384,
+      "lon": -73.4422101
+    },
+    {
+      "type": "way",
+      "id": 140011330,
+      "center": {
+        "lat": 41.8088033,
+        "lon": -72.2643935
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Mansfield Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "69000"
+      },
+      "lat": 41.8088033,
+      "lon": -72.2643935
+    },
+    {
+      "type": "way",
+      "id": 140011331,
+      "center": {
+        "lat": 41.8040466,
+        "lon": -72.348058
+      },
+      "tags": {
+        "name": "Skungamauk Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "69000"
+      },
+      "lat": 41.8040466,
+      "lon": -72.348058
+    },
+    {
+      "type": "way",
+      "id": 140011332,
+      "center": {
+        "lat": 41.7130129,
+        "lon": -72.2289791
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Willimantic Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "operator:wikipedia": "en:Eversource Energy",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.7130129,
+      "lon": -72.2289791
+    },
+    {
+      "type": "way",
+      "id": 140027076,
+      "center": {
+        "lat": 41.6711924,
+        "lon": -72.9403699
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Bristol Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.6711924,
+      "lon": -72.9403699
+    },
+    {
+      "type": "way",
+      "id": 140027078,
+      "center": {
+        "lat": 41.6820434,
+        "lon": -72.986879
+      },
+      "tags": {
+        "addr:city": "Bristol",
+        "addr:housenumber": "445",
+        "addr:postcode": "06010",
+        "addr:state": "CT",
+        "addr:street": "Clark Avenue",
+        "location": "outdoor",
+        "name": "Chippen Hill Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.6820434,
+      "lon": -72.986879
+    },
+    {
+      "type": "way",
+      "id": 140027081,
+      "center": {
+        "lat": 41.663318,
+        "lon": -72.8960255
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Forestville Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.663318,
+      "lon": -72.8960255
+    },
+    {
+      "type": "way",
+      "id": 140027085,
+      "center": {
+        "lat": 41.6753971,
+        "lon": -73.0697263
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Thomaston Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.6753971,
+      "lon": -73.0697263
+    },
+    {
+      "type": "way",
+      "id": 140041805,
+      "center": {
+        "lat": 41.866513,
+        "lon": -72.4637363
+      },
+      "tags": {
+        "barrier": "fence",
+        "location": "outdoor",
+        "name": "Rockville Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "operator:wikipedia": "en:Eversource Energy",
+        "power": "substation",
+        "source": "ISO",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.866513,
+      "lon": -72.4637363
+    },
+    {
+      "type": "way",
+      "id": 140041813,
+      "center": {
+        "lat": 41.8402191,
+        "lon": -72.6004405
+      },
+      "tags": {
+        "barrier": "fence",
+        "location": "outdoor",
+        "name": "South Windsor Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.8402191,
+      "lon": -72.6004405
+    },
+    {
+      "type": "way",
+      "id": 140041817,
+      "center": {
+        "lat": 41.9189986,
+        "lon": -72.6262055
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Windsor Locks Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "operator:wikipedia": "en:Eversource Energy",
+        "power": "substation",
+        "source": "ISO",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.9189986,
+      "lon": -72.6262055
+    },
+    {
+      "type": "way",
+      "id": 140155929,
+      "center": {
+        "lat": 41.4290696,
+        "lon": -72.1160955
+      },
+      "tags": {
+        "name": "Uncasville Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.4290696,
+      "lon": -72.1160955
+    },
+    {
+      "type": "way",
+      "id": 140172008,
+      "center": {
+        "lat": 41.2840554,
+        "lon": -72.8537771
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Branford Railroad Substation",
+        "operator": "Amtrak",
+        "operator:wikidata": "Q23239",
+        "power": "substation",
+        "ref": "48R",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.2840554,
+      "lon": -72.8537771
+    },
+    {
+      "type": "way",
+      "id": 140172255,
+      "center": {
+        "lat": 41.2879713,
+        "lon": -72.9043584
+      },
+      "tags": {
+        "name": "East Shore Substation",
+        "operator": "United Illuminating Company",
+        "operator:wikidata": "Q7771571",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "345000;115000"
+      },
+      "lat": 41.2879713,
+      "lon": -72.9043584
+    },
+    {
+      "type": "way",
+      "id": 140175108,
+      "center": {
+        "lat": 41.5637209,
+        "lon": -73.0862434
+      },
+      "tags": {
+        "frequency": "60",
+        "location": "outdoor",
+        "name": "Bunker Hill Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.5637209,
+      "lon": -73.0862434
+    },
+    {
+      "type": "way",
+      "id": 140175121,
+      "center": {
+        "lat": 41.5735348,
+        "lon": -72.9019573
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Canal Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "ref": "15Q",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.5735348,
+      "lon": -72.9019573
+    },
+    {
+      "type": "way",
+      "id": 140175127,
+      "center": {
+        "lat": 41.5913861,
+        "lon": -73.0683239
+      },
+      "tags": {
+        "name": "Shaws Hill Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.5913861,
+      "lon": -73.0683239
+    },
+    {
+      "type": "way",
+      "id": 140175133,
+      "center": {
+        "lat": 41.5725101,
+        "lon": -72.9752822
+      },
+      "tags": {
+        "name": "Todd Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "ref": "30L",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.5725101,
+      "lon": -72.9752822
+    },
+    {
+      "type": "way",
+      "id": 140179012,
+      "center": {
+        "lat": 41.601121,
+        "lon": -73.2411688
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Carmel Hill Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.601121,
+      "lon": -73.2411688
+    },
+    {
+      "type": "way",
+      "id": 140182329,
+      "center": {
+        "lat": 41.7377324,
+        "lon": -73.0861097
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Campville Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.7377324,
+      "lon": -73.0861097
+    },
+    {
+      "type": "way",
+      "id": 140182339,
+      "center": {
+        "lat": 41.7995816,
+        "lon": -73.116608
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Franklin Drive Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.7995816,
+      "lon": -73.116608
+    },
+    {
+      "type": "way",
+      "id": 140182342,
+      "center": {
+        "lat": 41.7760712,
+        "lon": -73.1210034
+      },
+      "tags": {
+        "name": "Torrington Terminal Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000;69000"
+      },
+      "lat": 41.7760712,
+      "lon": -73.1210034
+    },
+    {
+      "type": "way",
+      "id": 140291622,
+      "center": {
+        "lat": 41.5825404,
+        "lon": -73.4338048
+      },
+      "tags": {
+        "name": "Rocky River Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.5825404,
+      "lon": -73.4338048
+    },
+    {
+      "type": "way",
+      "id": 140295802,
+      "center": {
+        "lat": 41.3916743,
+        "lon": -73.4021675
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Plumtree Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "345000;115000"
+      },
+      "lat": 41.3916743,
+      "lon": -73.4021675
+    },
+    {
+      "type": "way",
+      "id": 140300402,
+      "center": {
+        "lat": 41.3911694,
+        "lon": -73.2898143
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Newtown Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.3911694,
+      "lon": -73.2898143
+    },
+    {
+      "type": "way",
+      "id": 140300403,
+      "center": {
+        "lat": 41.3832951,
+        "lon": -73.220063
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Sandy Hook Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.3832951,
+      "lon": -73.220063
+    },
+    {
+      "type": "way",
+      "id": 140300404,
+      "center": {
+        "lat": 41.3821751,
+        "lon": -73.170803
+      },
+      "tags": {
+        "name": "Stevenson Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.3821751,
+      "lon": -73.170803
+    },
+    {
+      "type": "way",
+      "id": 140300405,
+      "center": {
+        "lat": 41.3936186,
+        "lon": -73.4350984
+      },
+      "tags": {
+        "name": "Triangle Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.3936186,
+      "lon": -73.4350984
+    },
+    {
+      "type": "way",
+      "id": 140306120,
+      "center": {
+        "lat": 41.9559189,
+        "lon": -73.3683736
+      },
+      "tags": {
+        "barrier": "fence",
+        "location": "outdoor",
+        "name": "Falls Village Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "69000"
+      },
+      "lat": 41.9559189,
+      "lon": -73.3683736
+    },
+    {
+      "type": "way",
+      "id": 140306122,
+      "center": {
+        "lat": 41.9217936,
+        "lon": -73.4645776
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Salisbury Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "69000"
+      },
+      "lat": 41.9217936,
+      "lon": -73.4645776
+    },
+    {
+      "type": "way",
+      "id": 140311237,
+      "center": {
+        "lat": 41.2001308,
+        "lon": -73.4321864
+      },
+      "tags": {
+        "name": "Wilton Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.2001308,
+      "lon": -73.4321864
+    },
+    {
+      "type": "way",
+      "id": 140334526,
+      "center": {
+        "lat": 41.3381277,
+        "lon": -72.9826426
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "June Street Substation",
+        "operator": "United Illuminating Company",
+        "operator:wikidata": "Q7771571",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.3381277,
+      "lon": -72.9826426
+    },
+    {
+      "type": "way",
+      "id": 140334528,
+      "center": {
+        "lat": 41.3722743,
+        "lon": -72.9242847
+      },
+      "tags": {
+        "name": "Mix Avenue Substation",
+        "operator": "United Illuminating Company",
+        "operator:wikidata": "Q7771571",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.3722743,
+      "lon": -72.9242847
+    },
+    {
+      "type": "way",
+      "id": 140383642,
+      "center": {
+        "lat": 41.5114136,
+        "lon": -72.6723111
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Dooley Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "operator:wikipedia": "en:Eversource Energy",
+        "power": "substation",
+        "ref": "30K",
+        "source": "ISO",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.5114136,
+      "lon": -72.6723111
+    },
+    {
+      "type": "way",
+      "id": 140383643,
+      "center": {
+        "lat": 41.4609073,
+        "lon": -72.4771549
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Haddam Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "ref": "11C",
+        "substation": "transmission",
+        "voltage": "115000"
+      },
+      "lat": 41.4609073,
+      "lon": -72.4771549
+    },
+    {
+      "type": "way",
+      "id": 140386351,
+      "center": {
+        "lat": 41.6318802,
+        "lon": -72.7230331
+      },
+      "tags": {
+        "name": "Berlin Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "ref": "6A",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.6318802,
+      "lon": -72.7230331
+    },
+    {
+      "type": "way",
+      "id": 140386944,
+      "center": {
+        "lat": 41.5629912,
+        "lon": -72.6629128
+      },
+      "tags": {
+        "name": "West Side Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "ref": "7A",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.5629912,
+      "lon": -72.6629128
+    },
+    {
+      "type": "way",
+      "id": 140404108,
+      "center": {
+        "lat": 41.81668,
+        "lon": -71.9146291
+      },
+      "tags": {
+        "name": "Brooklyn Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.81668,
+      "lon": -71.9146291
+    },
+    {
+      "type": "way",
+      "id": 140404115,
+      "center": {
+        "lat": 41.6709584,
+        "lon": -71.9211832
+      },
+      "tags": {
+        "name": "Frybrook Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.6709584,
+      "lon": -71.9211832
+    },
+    {
+      "type": "way",
+      "id": 140404129,
+      "center": {
+        "lat": 41.87479,
+        "lon": -71.8959594
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Lake Road Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "345000"
+      },
+      "lat": 41.87479,
+      "lon": -71.8959594
+    },
+    {
+      "type": "way",
+      "id": 140404135,
+      "center": {
+        "lat": 41.8838903,
+        "lon": -71.8904211
+      },
+      "tags": {
+        "name": "Tracy Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.8838903,
+      "lon": -71.8904211
+    },
+    {
+      "type": "way",
+      "id": 140411092,
+      "center": {
+        "lat": 41.5546573,
+        "lon": -72.0429627
+      },
+      "tags": {
+        "building": "no",
+        "location": "outdoor",
+        "name": "Tunnel Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "generation",
+        "voltage": "115000;69000"
+      },
+      "lat": 41.5546573,
+      "lon": -72.0429627
+    },
+    {
+      "type": "way",
+      "id": 140415423,
+      "center": {
+        "lat": 41.3662752,
+        "lon": -71.9596888
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Mystic Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.3662752,
+      "lon": -71.9596888
+    },
+    {
+      "type": "way",
+      "id": 140415426,
+      "center": {
+        "lat": 41.4127614,
+        "lon": -71.8466889
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Shunock Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.4127614,
+      "lon": -71.8466889
+    },
+    {
+      "type": "way",
+      "id": 140435412,
+      "center": {
+        "lat": 41.5589446,
+        "lon": -72.1185783
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Bean Hill Substation",
+        "operator": "Connecticut Municipal Electric Energy Cooperative",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.5589446,
+      "lon": -72.1185783
+    },
+    {
+      "type": "way",
+      "id": 140435418,
+      "center": {
+        "lat": 41.536015,
+        "lon": -72.1023532
+      },
+      "tags": {
+        "name": "Dudley Street Substation",
+        "operator": "Connecticut Municipal Electric Energy Cooperative",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.536015,
+      "lon": -72.1023532
+    },
+    {
+      "type": "way",
+      "id": 140435429,
+      "center": {
+        "lat": 41.4709892,
+        "lon": -72.1125804
+      },
+      "tags": {
+        "name": "Fort Hill Farms Substation",
+        "operator": "Connecticut Municipal Electric Energy Cooperative",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.4709892,
+      "lon": -72.1125804
+    },
+    {
+      "type": "way",
+      "id": 140435431,
+      "center": {
+        "lat": 41.4342416,
+        "lon": -72.0791596
+      },
+      "tags": {
+        "name": "Gales Ferry Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "69000"
+      },
+      "lat": 41.4342416,
+      "lon": -72.0791596
+    },
+    {
+      "type": "way",
+      "id": 140435443,
+      "center": {
+        "lat": 41.5717942,
+        "lon": -72.1441004
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Stockhouse Road Substation",
+        "operator": "Connecticut Municipal Electric Energy Cooperative",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.5717942,
+      "lon": -72.1441004
+    },
+    {
+      "type": "way",
+      "id": 140440159,
+      "center": {
+        "lat": 41.3764356,
+        "lon": -72.1895064
+      },
+      "tags": {
+        "name": "Waterford Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.3764356,
+      "lon": -72.1895064
+    },
+    {
+      "type": "way",
+      "id": 140440174,
+      "center": {
+        "lat": 41.3679293,
+        "lon": -72.1039066
+      },
+      "tags": {
+        "name": "Williams Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.3679293,
+      "lon": -72.1039066
+    },
+    {
+      "type": "way",
+      "id": 140829149,
+      "center": {
+        "lat": 41.5241779,
+        "lon": -73.0398478
+      },
+      "tags": {
+        "frequency": "60",
+        "location": "outdoor",
+        "name": "Baldwin Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "ref": "13F",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.5241779,
+      "lon": -73.0398478
+    },
+    {
+      "type": "way",
+      "id": 140829155,
+      "center": {
+        "lat": 41.443832,
+        "lon": -73.0688138
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Beacon Falls Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.443832,
+      "lon": -73.0688138
+    },
+    {
+      "type": "way",
+      "id": 140829159,
+      "center": {
+        "lat": 41.2089435,
+        "lon": -73.1072322
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Devon Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "ref": "7R",
+        "substation": "generation",
+        "voltage": "115000"
+      },
+      "lat": 41.2089435,
+      "lon": -73.1072322
+    },
+    {
+      "type": "way",
+      "id": 140829163,
+      "center": {
+        "lat": 41.5548823,
+        "lon": -73.0531743
+      },
+      "tags": {
+        "frequency": "60",
+        "location": "outdoor",
+        "name": "Freight Street Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.5548823,
+      "lon": -73.0531743
+    },
+    {
+      "type": "way",
+      "id": 140829165,
+      "center": {
+        "lat": 41.4747276,
+        "lon": -73.0563085
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "South Naugatuck Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "ref": "21L",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.4747276,
+      "lon": -73.0563085
+    },
+    {
+      "type": "way",
+      "id": 140829170,
+      "center": {
+        "lat": 41.2673339,
+        "lon": -73.1180987
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Trap Falls Substation",
+        "operator": "United Illuminating Company",
+        "operator:wikidata": "Q7771571",
+        "power": "substation",
+        "ref": "16F",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.2673339,
+      "lon": -73.1180987
+    },
+    {
+      "type": "way",
+      "id": 140829173,
+      "center": {
+        "lat": 41.467216,
+        "lon": -73.1325372
+      },
+      "tags": {
+        "name": "Oxford Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.467216,
+      "lon": -73.1325372
+    },
+    {
+      "type": "way",
+      "id": 140834333,
+      "center": {
+        "lat": 41.366794,
+        "lon": -73.3900288
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Hoyts Hill Transition Station",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "transition",
+        "voltage": "345000"
+      },
+      "lat": 41.366794,
+      "lon": -73.3900288
+    },
+    {
+      "type": "way",
+      "id": 140834334,
+      "center": {
+        "lat": 41.2993095,
+        "lon": -73.413448
+      },
+      "tags": {
+        "name": "Archers Lane Transition Station",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "transition",
+        "voltage": "345000"
+      },
+      "lat": 41.2993095,
+      "lon": -73.413448
+    },
+    {
+      "type": "way",
+      "id": 140838595,
+      "center": {
+        "lat": 41.2277828,
+        "lon": -73.0984469
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "East Devon Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "345000;115000"
+      },
+      "lat": 41.2277828,
+      "lon": -73.0984469
+    },
+    {
+      "type": "way",
+      "id": 140847540,
+      "center": {
+        "lat": 41.2927519,
+        "lon": -72.793787
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Branford Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "ref": "11J",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.2927519,
+      "lon": -72.793787
+    },
+    {
+      "type": "way",
+      "id": 140847548,
+      "center": {
+        "lat": 41.4145838,
+        "lon": -72.8430311
+      },
+      "tags": {
+        "name": "North Haven Substation",
+        "operator": "United Illuminating Company",
+        "operator:wikidata": "Q7771571",
+        "power": "substation",
+        "ref": "10A",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.4145838,
+      "lon": -72.8430311
+    },
+    {
+      "type": "way",
+      "id": 140847553,
+      "center": {
+        "lat": 41.3635965,
+        "lon": -72.8869695
+      },
+      "tags": {
+        "name": "Sackett Substation",
+        "operator": "United Illuminating Company",
+        "operator:wikidata": "Q7771571",
+        "power": "substation",
+        "ref": "28B",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.3635965,
+      "lon": -72.8869695
+    },
+    {
+      "type": "way",
+      "id": 140851900,
+      "center": {
+        "lat": 41.3081775,
+        "lon": -72.9086368
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Mill River Substation",
+        "operator": "United Illuminating Company",
+        "operator:wikidata": "Q7771571",
+        "power": "substation",
+        "ref": "7G",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.3081775,
+      "lon": -72.9086368
+    },
+    {
+      "type": "way",
+      "id": 140937135,
+      "center": {
+        "lat": 41.3185924,
+        "lon": -72.3899902
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Bokum Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "ref": "15L",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.3185924,
+      "lon": -72.3899902
+    },
+    {
+      "type": "way",
+      "id": 140937139,
+      "center": {
+        "lat": 41.3195359,
+        "lon": -72.5960709
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Green Hill Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "ref": "30R",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.3195359,
+      "lon": -72.5960709
+    },
+    {
+      "type": "way",
+      "id": 140937143,
+      "center": {
+        "lat": 41.3207271,
+        "lon": -72.6976126
+      },
+      "tags": {
+        "name": "Stepstone Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "ref": "35L",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.3207271,
+      "lon": -72.6976126
+    },
+    {
+      "type": "way",
+      "id": 140953505,
+      "center": {
+        "lat": 41.6618217,
+        "lon": -72.8055904
+      },
+      "tags": {
+        "name": "Black Rock Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "ref": "11H",
+        "substation": "distribution",
+        "voltage": "115000;69000"
+      },
+      "lat": 41.6618217,
+      "lon": -72.8055904
+    },
+    {
+      "type": "way",
+      "id": 140953506,
+      "center": {
+        "lat": 41.6527516,
+        "lon": -72.6689143
+      },
+      "tags": {
+        "name": "Rocky Hill Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "operator:wikipedia": "en:Eversource Energy",
+        "power": "substation",
+        "ref": "3R",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.6527516,
+      "lon": -72.6689143
+    },
+    {
+      "type": "way",
+      "id": 140979488,
+      "center": {
+        "lat": 41.6700464,
+        "lon": -72.7536695
+      },
+      "tags": {
+        "name": "East New Britain Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "ref": "7L",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.6700464,
+      "lon": -72.7536695
+    },
+    {
+      "type": "way",
+      "id": 140983823,
+      "center": {
+        "lat": 41.7696186,
+        "lon": -72.6164057
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "East Hartford Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "source": "ISO",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.7696186,
+      "lon": -72.6164057
+    },
+    {
+      "type": "way",
+      "id": 140983824,
+      "center": {
+        "lat": 41.7474914,
+        "lon": -72.6428209
+      },
+      "tags": {
+        "addr:city": "East Hartford",
+        "addr:housenumber": "53",
+        "addr:postcode": "06118",
+        "addr:state": "CT",
+        "addr:street": "Riverside Drive",
+        "barrier": "fence",
+        "name": "Riverside Drive Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "operator:wikipedia": "en:Eversource Energy",
+        "power": "substation",
+        "ref": "2R",
+        "source": "ISO",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.7474914,
+      "lon": -72.6428209
+    },
+    {
+      "type": "way",
+      "id": 140990211,
+      "center": {
+        "lat": 41.2137799,
+        "lon": -73.2515645
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Hawthorne Substation",
+        "operator": "United Illuminating Company",
+        "operator:wikidata": "Q7771571",
+        "operator:wikipedia": "en:Eversource Energy",
+        "power": "substation",
+        "ref": "10H",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.2137799,
+      "lon": -73.2515645
+    },
+    {
+      "type": "way",
+      "id": 140990212,
+      "center": {
+        "lat": 41.1893735,
+        "lon": -73.3716415
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Weston Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "ref": "21M",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.1893735,
+      "lon": -73.3716415
+    },
+    {
+      "type": "way",
+      "id": 140990924,
+      "center": {
+        "lat": 41.232416,
+        "lon": -73.1606345
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Trumbull Substation",
+        "operator": "United Illuminating Company",
+        "operator:wikidata": "Q7771571",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.232416,
+      "lon": -73.1606345
+    },
+    {
+      "type": "way",
+      "id": 140990925,
+      "center": {
+        "lat": 41.1860977,
+        "lon": -73.1705582
+      },
+      "tags": {
+        "name": "Pequonnock Transition Station",
+        "operator": "United Illuminating Company",
+        "operator:wikidata": "Q7771571",
+        "power": "substation",
+        "substation": "transition",
+        "voltage": "115000"
+      },
+      "lat": 41.1860977,
+      "lon": -73.1705582
+    },
+    {
+      "type": "way",
+      "id": 141130122,
+      "center": {
+        "lat": 41.325495,
+        "lon": -73.0999193
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Indian Well Substation",
+        "operator": "United Illuminating Company",
+        "operator:wikidata": "Q7771571",
+        "power": "substation",
+        "ref": "47P",
+        "substation": "transmission",
+        "voltage": "115000"
+      },
+      "lat": 41.325495,
+      "lon": -73.0999193
+    },
+    {
+      "type": "way",
+      "id": 141130129,
+      "center": {
+        "lat": 41.5661278,
+        "lon": -73.0251921
+      },
+      "tags": {
+        "frequency": "60",
+        "location": "outdoor",
+        "name": "Neora Street Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "ref": "13H",
+        "religion": "christian",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.5661278,
+      "lon": -73.0251921
+    },
+    {
+      "type": "way",
+      "id": 141130130,
+      "center": {
+        "lat": 42.0210252,
+        "lon": -73.3175621
+      },
+      "tags": {
+        "frequency": "60",
+        "location": "outdoor",
+        "name": "North Canaan Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "operator:wikipedia": "en:Eversource Energy",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "69000"
+      },
+      "lat": 42.0210252,
+      "lon": -73.3175621
+    },
+    {
+      "type": "way",
+      "id": 141130147,
+      "center": {
+        "lat": 41.5635951,
+        "lon": -72.5758172
+      },
+      "tags": {
+        "barrier": "fence",
+        "location": "outdoor",
+        "name": "Portland Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "ref": "21H",
+        "source": "ISO",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.5635951,
+      "lon": -72.5758172
+    },
+    {
+      "type": "way",
+      "id": 141130150,
+      "center": {
+        "lat": 41.5403726,
+        "lon": -72.5635755
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Pratt & Whitney Substation",
+        "operator": "Pratt & Whitney",
+        "power": "substation",
+        "ref": "23B",
+        "source": "ISO",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.5403726,
+      "lon": -72.5635755
+    },
+    {
+      "type": "way",
+      "id": 141135012,
+      "center": {
+        "lat": 41.0938261,
+        "lon": -73.442109
+      },
+      "tags": {
+        "frequency": "60",
+        "location": "outdoor",
+        "name": "Flax Hill Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "operator:wikipedia": "en:Eversource Energy",
+        "power": "substation",
+        "ref": "24A",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.0938261,
+      "lon": -73.442109
+    },
+    {
+      "type": "way",
+      "id": 141135041,
+      "center": {
+        "lat": 41.080703,
+        "lon": -73.4288629
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Norwalk Harbor Transition Station",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "ref": "6J",
+        "substation": "transition",
+        "voltage": "115000"
+      },
+      "lat": 41.080703,
+      "lon": -73.4288629
+    },
+    {
+      "type": "way",
+      "id": 141135046,
+      "center": {
+        "lat": 41.1283113,
+        "lon": -73.4285576
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Norwalk Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "ref": "9S",
+        "substation": "transmission",
+        "voltage": "345000;115000"
+      },
+      "lat": 41.1283113,
+      "lon": -73.4285576
+    },
+    {
+      "type": "way",
+      "id": 141135047,
+      "center": {
+        "lat": 41.1767238,
+        "lon": -73.4170698
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Norwalk Junction Transition Station",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "ref": "21M",
+        "substation": "transition",
+        "voltage": "345000;115000"
+      },
+      "lat": 41.1767238,
+      "lon": -73.4170698
+    },
+    {
+      "type": "way",
+      "id": 141143897,
+      "center": {
+        "lat": 41.0290339,
+        "lon": -73.5978014
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Cos Cob Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "ref": "11R",
+        "substation": "distribution",
+        "voltage": "115000;27800"
+      },
+      "lat": 41.0290339,
+      "lon": -73.5978014
+    },
+    {
+      "type": "way",
+      "id": 141143907,
+      "center": {
+        "lat": 41.0619041,
+        "lon": -73.5205509
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Glenbrook Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "operator:wikipedia": "en:Eversource Energy",
+        "power": "substation",
+        "ref": "1K",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.0619041,
+      "lon": -73.5205509
+    },
+    {
+      "type": "way",
+      "id": 141143930,
+      "center": {
+        "lat": 41.0479136,
+        "lon": -73.5376786
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "South End Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "ref": "1G",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.0479136,
+      "lon": -73.5376786
+    },
+    {
+      "type": "way",
+      "id": 141143935,
+      "center": {
+        "lat": 41.0340013,
+        "lon": -73.5633763
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Tomac Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "ref": "12H",
+        "substation": "distribution",
+        "voltage": "115000;27800"
+      },
+      "lat": 41.0340013,
+      "lon": -73.5633763
+    },
+    {
+      "type": "way",
+      "id": 141143943,
+      "center": {
+        "lat": 41.0375233,
+        "lon": -73.5552623
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Waterside Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "ref": "22M",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.0375233,
+      "lon": -73.5552623
+    },
+    {
+      "type": "way",
+      "id": 141177561,
+      "center": {
+        "lat": 41.0755161,
+        "lon": -73.4805247
+      },
+      "tags": {
+        "barrier": "fence",
+        "location": "outdoor",
+        "name": "Darien Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "operator:wikipedia": "en:Eversource Energy",
+        "power": "substation",
+        "ref": "13S",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.0755161,
+      "lon": -73.4805247
+    },
+    {
+      "type": "way",
+      "id": 141177702,
+      "center": {
+        "lat": 41.1211237,
+        "lon": -73.360825
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Compo Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "operator:wikipedia": "en:Eversource Energy",
+        "power": "substation",
+        "ref": "23K",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.1211237,
+      "lon": -73.360825
+    },
+    {
+      "type": "way",
+      "id": 141178899,
+      "center": {
+        "lat": 41.3739723,
+        "lon": -72.0453368
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Buddington Substation",
+        "not:operator:wikidata": "Q3344199",
+        "operator": "Connecticut Municipal Electric Energy Cooperative",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000;69000"
+      },
+      "lat": 41.3739723,
+      "lon": -72.0453368
+    },
+    {
+      "type": "way",
+      "id": 141264160,
+      "center": {
+        "lat": 41.5032445,
+        "lon": -73.2365008
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Bates Rock Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "ref": "21K",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.5032445,
+      "lon": -73.2365008
+    },
+    {
+      "type": "way",
+      "id": 141264181,
+      "center": {
+        "lat": 41.4487573,
+        "lon": -73.2945348
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Shepaug Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "ref": "13A",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.4487573,
+      "lon": -73.2945348
+    },
+    {
+      "type": "way",
+      "id": 141264184,
+      "center": {
+        "lat": 41.4342157,
+        "lon": -73.3868168
+      },
+      "tags": {
+        "name": "Stony Hill Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "ref": "48C",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.4342157,
+      "lon": -73.3868168
+    },
+    {
+      "type": "way",
+      "id": 141271858,
+      "center": {
+        "lat": 41.1724459,
+        "lon": -73.1849048
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Pequonnock Substation",
+        "operator": "United Illuminating Company",
+        "operator:wikidata": "Q7771571",
+        "power": "substation",
+        "ref": "8J",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.1724459,
+      "lon": -73.1849048
+    },
+    {
+      "type": "way",
+      "id": 141271859,
+      "center": {
+        "lat": 41.1854523,
+        "lon": -73.1439235
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Baird Substation",
+        "operator": "United Illuminating Company",
+        "operator:wikidata": "Q7771571",
+        "power": "substation",
+        "ref": "11L",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.1854523,
+      "lon": -73.1439235
+    },
+    {
+      "type": "way",
+      "id": 141278233,
+      "center": {
+        "lat": 42.0151106,
+        "lon": -72.7943633
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Southwick Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 42.0151106,
+      "lon": -72.7943633
+    },
+    {
+      "type": "way",
+      "id": 141309159,
+      "center": {
+        "lat": 41.9363275,
+        "lon": -72.6148582
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Enfield Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "source": "ISO",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.9363275,
+      "lon": -72.6148582
+    },
+    {
+      "type": "way",
+      "id": 141309162,
+      "center": {
+        "lat": 41.9156325,
+        "lon": -72.69281
+      },
+      "tags": {
+        "name": "Rainbow Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation"
+      },
+      "lat": 41.9156325,
+      "lon": -72.69281
+    },
+    {
+      "type": "way",
+      "id": 141310692,
+      "center": {
+        "lat": 41.198232,
+        "lon": -73.126217
+      },
+      "tags": {
+        "location": "indoor",
+        "name": "Barnum Substation",
+        "operator": "United Illuminating Company",
+        "operator:wikidata": "Q7771571",
+        "power": "substation",
+        "ref": "35H",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.198232,
+      "lon": -73.126217
+    },
+    {
+      "type": "way",
+      "id": 141310693,
+      "center": {
+        "lat": 41.1824007,
+        "lon": -73.1869094
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Congress Street Substation",
+        "operator": "United Illuminating Company",
+        "operator:wikidata": "Q7771571",
+        "power": "substation",
+        "ref": "2C",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.1824007,
+      "lon": -73.1869094
+    },
+    {
+      "type": "way",
+      "id": 141310694,
+      "center": {
+        "lat": 41.2069434,
+        "lon": -73.1055686
+      },
+      "tags": {
+        "name": "Devon Tie Switching Station",
+        "operator": "United Illuminating Company",
+        "operator:wikidata": "Q7771571",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.2069434,
+      "lon": -73.1055686
+    },
+    {
+      "type": "way",
+      "id": 141310696,
+      "center": {
+        "lat": 41.2123103,
+        "lon": -73.0809103
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Milvon Substation",
+        "operator": "United Illuminating Company",
+        "operator:wikidata": "Q7771571",
+        "operator:wikipedia": "en:Eversource Energy",
+        "power": "substation",
+        "ref": "30H",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.2123103,
+      "lon": -73.0809103
+    },
+    {
+      "type": "way",
+      "id": 142411452,
+      "center": {
+        "lat": 41.2670691,
+        "lon": -72.9739383
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Allings Crossing Substation",
+        "operator": "United Illuminating Company",
+        "operator:wikidata": "Q7771571",
+        "power": "substation",
+        "ref": "43E",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.2670691,
+      "lon": -72.9739383
+    },
+    {
+      "type": "way",
+      "id": 142411453,
+      "center": {
+        "lat": 41.2759295,
+        "lon": -72.9545294
+      },
+      "tags": {
+        "name": "Elmwest Substation",
+        "operator": "United Illuminating Company",
+        "operator:wikidata": "Q7771571",
+        "operator:wikipedia": "en:Eversource Energy",
+        "power": "substation",
+        "ref": "18M",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.2759295,
+      "lon": -72.9545294
+    },
+    {
+      "type": "way",
+      "id": 142411454,
+      "center": {
+        "lat": 41.2884875,
+        "lon": -72.9379816
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "West River Substation",
+        "operator": "United Illuminating Company",
+        "operator:wikidata": "Q7771571",
+        "power": "substation",
+        "ref": "10W",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.2884875,
+      "lon": -72.9379816
+    },
+    {
+      "type": "way",
+      "id": 142411455,
+      "center": {
+        "lat": 41.2373212,
+        "lon": -73.0131056
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Woodmont Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "ref": "29Y",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.2373212,
+      "lon": -73.0131056
+    },
+    {
+      "type": "way",
+      "id": 175773280,
+      "center": {
+        "lat": 41.2867122,
+        "lon": -72.9026007
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Halvarsson Substation",
+        "operator": "CSC Operations, LLC",
+        "power": "substation",
+        "substation": "converter",
+        "voltage": "345000;150000"
+      },
+      "lat": 41.2867122,
+      "lon": -72.9026007
+    },
+    {
+      "type": "way",
+      "id": 189800957,
+      "center": {
+        "lat": 41.5951809,
+        "lon": -72.3314824
+      },
+      "tags": {
+        "name": "Judd Brook Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "voltage": "27600"
+      },
+      "lat": 41.5951809,
+      "lon": -72.3314824
+    },
+    {
+      "type": "way",
+      "id": 189800958,
+      "center": {
+        "lat": 41.69542,
+        "lon": -72.2963027
+      },
+      "tags": {
+        "name": "Columbia Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation"
+      },
+      "lat": 41.69542,
+      "lon": -72.2963027
+    },
+    {
+      "type": "way",
+      "id": 189801076,
+      "center": {
+        "lat": 41.5784671,
+        "lon": -72.3405382
+      },
+      "tags": {
+        "name": "Colchester Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation"
+      },
+      "lat": 41.5784671,
+      "lon": -72.3405382
+    },
+    {
+      "type": "way",
+      "id": 190132157,
+      "center": {
+        "lat": 41.8286724,
+        "lon": -72.7286031
+      },
+      "tags": {
+        "access": "no",
+        "barrier": "fence",
+        "name": "Bloomfield Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "source": "ISO",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.8286724,
+      "lon": -72.7286031
+    },
+    {
+      "type": "way",
+      "id": 190132172,
+      "center": {
+        "lat": 41.8287443,
+        "lon": -72.6689383
+      },
+      "tags": {
+        "access": "no",
+        "barrier": "fence",
+        "name": "Rood Avenue Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "source": "ISO",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.8287443,
+      "lon": -72.6689383
+    },
+    {
+      "type": "way",
+      "id": 204019326,
+      "center": {
+        "lat": 41.1564182,
+        "lon": -73.2341974
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Ash Creek Substation",
+        "operator": "United Illuminating Company",
+        "operator:wikidata": "Q7771571",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.1564182,
+      "lon": -73.2341974
+    },
+    {
+      "type": "way",
+      "id": 204060245,
+      "center": {
+        "lat": 41.2244177,
+        "lon": -73.2167013
+      },
+      "tags": {
+        "name": "Old Town Substation",
+        "operator": "United Illuminating Company",
+        "operator:wikidata": "Q7771571",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.2244177,
+      "lon": -73.2167013
+    },
+    {
+      "type": "way",
+      "id": 208491805,
+      "center": {
+        "lat": 41.9087117,
+        "lon": -72.7926662
+      },
+      "tags": {
+        "name": "Northeast Simsbury Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "source": "ISO",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.9087117,
+      "lon": -72.7926662
+    },
+    {
+      "type": "way",
+      "id": 238481455,
+      "center": {
+        "lat": 41.4889911,
+        "lon": -72.0334728
+      },
+      "tags": {
+        "name": "Secrec Substation",
+        "operator": "Connecticut Municipal Electric Energy Cooperative",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "69000"
+      },
+      "lat": 41.4889911,
+      "lon": -72.0334728
+    },
+    {
+      "type": "way",
+      "id": 238481461,
+      "center": {
+        "lat": 41.5366395,
+        "lon": -72.0524719
+      },
+      "tags": {
+        "addr:city": "Norwich",
+        "addr:housenumber": "3",
+        "addr:state": "CT",
+        "addr:street": "Eighth Street",
+        "name": "Tenth Street Substation",
+        "operator": "Connecticut Municipal Electric Energy Cooperative",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "69000"
+      },
+      "lat": 41.5366395,
+      "lon": -72.0524719
+    },
+    {
+      "type": "way",
+      "id": 244638412,
+      "center": {
+        "lat": 41.9786801,
+        "lon": -72.510503
+      },
+      "tags": {
+        "access": "no",
+        "barrier": "fence",
+        "name": "Scitico Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "source": "ISO",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.9786801,
+      "lon": -72.510503
+    },
+    {
+      "type": "way",
+      "id": 246370047,
+      "center": {
+        "lat": 41.9261329,
+        "lon": -72.3787229
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.9261329,
+      "lon": -72.3787229
+    },
+    {
+      "type": "way",
+      "id": 246370048,
+      "center": {
+        "lat": 41.9414647,
+        "lon": -72.3014938
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.9414647,
+      "lon": -72.3014938
+    },
+    {
+      "type": "way",
+      "id": 288016194,
+      "center": {
+        "lat": 41.2831481,
+        "lon": -73.4874852
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Ridgefield Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.2831481,
+      "lon": -73.4874852
+    },
+    {
+      "type": "way",
+      "id": 304156236,
+      "center": {
+        "lat": 41.3471245,
+        "lon": -72.4476767
+      },
+      "tags": {
+        "location": "outdoor",
+        "operator": "Connecticut Light and Power",
+        "power": "substation"
+      },
+      "lat": 41.3471245,
+      "lon": -72.4476767
+    },
+    {
+      "type": "way",
+      "id": 306967580,
+      "center": {
+        "lat": 41.1067234,
+        "lon": -73.5554556
+      },
+      "tags": {
+        "name": "Cedar Heights Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.1067234,
+      "lon": -73.5554556
+    },
+    {
+      "type": "way",
+      "id": 327414426,
+      "center": {
+        "lat": 41.1722601,
+        "lon": -73.1842102
+      },
+      "tags": {
+        "name": "Bridgeport Harbor Substation",
+        "operator": "United Illuminating Company",
+        "operator:wikidata": "Q7771571",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.1722601,
+      "lon": -73.1842102
+    },
+    {
+      "type": "way",
+      "id": 327414428,
+      "center": {
+        "lat": 41.1699602,
+        "lon": -73.1853742
+      },
+      "tags": {
+        "name": "Bridgeport Energy Substation",
+        "operator": "United Illuminating Company",
+        "operator:wikidata": "Q7771571",
+        "power": "substation",
+        "substation": "generation",
+        "voltage": "115000"
+      },
+      "lat": 41.1699602,
+      "lon": -73.1853742
+    },
+    {
+      "type": "way",
+      "id": 361808906,
+      "center": {
+        "lat": 41.2890357,
+        "lon": -72.938661
+      },
+      "tags": {
+        "name": "West River Substation",
+        "operator": "United Illuminating Company",
+        "operator:wikidata": "Q7771571",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.2890357,
+      "lon": -72.938661
+    },
+    {
+      "type": "way",
+      "id": 380510857,
+      "center": {
+        "lat": 41.3423428,
+        "lon": -72.0617016
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.3423428,
+      "lon": -72.0617016
+    },
+    {
+      "type": "way",
+      "id": 383522891,
+      "center": {
+        "lat": 41.0144255,
+        "lon": -73.6535483
+      },
+      "tags": {
+        "frequency": "60",
+        "location": "outdoor",
+        "name": "Byram Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "27600;13200"
+      },
+      "lat": 41.0144255,
+      "lon": -73.6535483
+    },
+    {
+      "type": "way",
+      "id": 383522892,
+      "center": {
+        "lat": 41.0429493,
+        "lon": -73.5903043
+      },
+      "tags": {
+        "frequency": "60",
+        "location": "outdoor",
+        "name": "Mianus Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "27600;13200"
+      },
+      "lat": 41.0429493,
+      "lon": -73.5903043
+    },
+    {
+      "type": "way",
+      "id": 383522893,
+      "center": {
+        "lat": 41.0931259,
+        "lon": -73.6555268
+      },
+      "tags": {
+        "barrier": "fence",
+        "frequency": "60",
+        "location": "outdoor",
+        "name": "North Greenwich Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "27600;13200"
+      },
+      "lat": 41.0931259,
+      "lon": -73.6555268
+    },
+    {
+      "type": "way",
+      "id": 383522894,
+      "center": {
+        "lat": 41.0209863,
+        "lon": -73.6330172
+      },
+      "tags": {
+        "frequency": "60",
+        "location": "outdoor",
+        "name": "Prospect Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "27600;13200"
+      },
+      "lat": 41.0209863,
+      "lon": -73.6330172
+    },
+    {
+      "type": "way",
+      "id": 384273403,
+      "center": {
+        "lat": 41.5266981,
+        "lon": -72.8255902
+      },
+      "tags": {
+        "name": "Hanover Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.5266981,
+      "lon": -72.8255902
+    },
+    {
+      "type": "way",
+      "id": 406090129,
+      "center": {
+        "lat": 41.8493127,
+        "lon": -71.8918522
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.8493127,
+      "lon": -71.8918522
+    },
+    {
+      "type": "way",
+      "id": 429516301,
+      "center": {
+        "lat": 41.1048529,
+        "lon": -73.4037026
+      },
+      "tags": {
+        "name": "Fitch Substation",
+        "operator": "United Illuminating Company",
+        "operator:wikidata": "Q7771571",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.1048529,
+      "lon": -73.4037026
+    },
+    {
+      "type": "way",
+      "id": 442096852,
+      "center": {
+        "lat": 41.3617656,
+        "lon": -72.2102499
+      },
+      "tags": {
+        "addr:city": "East Lyme",
+        "addr:housenumber": "288",
+        "addr:postcode": "06333",
+        "addr:state": "CT",
+        "addr:street": "Flanders Road",
+        "name": "Flanders Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "operator:wikipedia": "en:Eversource Energy",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.3617656,
+      "lon": -72.2102499
+    },
+    {
+      "type": "way",
+      "id": 478479238,
+      "center": {
+        "lat": 41.33431,
+        "lon": -73.207785
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.33431,
+      "lon": -73.207785
+    },
+    {
+      "type": "way",
+      "id": 490455466,
+      "center": {
+        "lat": 41.3879405,
+        "lon": -73.181518
+      },
+      "tags": {
+        "barrier": "hedge",
+        "power": "substation"
+      },
+      "lat": 41.3879405,
+      "lon": -73.181518
+    },
+    {
+      "type": "way",
+      "id": 507123986,
+      "center": {
+        "lat": 41.3685829,
+        "lon": -72.0468589
+      },
+      "tags": {
+        "addr:city": "Groton",
+        "addr:housenumber": "851",
+        "addr:postcode": "06340",
+        "addr:state": "CT",
+        "addr:street": "Buddington Road",
+        "power": "substation",
+        "substation": "minor_distribution"
+      },
+      "lat": 41.3685829,
+      "lon": -72.0468589
+    },
+    {
+      "type": "way",
+      "id": 521109349,
+      "center": {
+        "lat": 41.7653557,
+        "lon": -73.4309353
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.7653557,
+      "lon": -73.4309353
+    },
+    {
+      "type": "way",
+      "id": 549169964,
+      "center": {
+        "lat": 41.3859033,
+        "lon": -71.8313823
+      },
+      "tags": {
+        "barrier": "fence",
+        "frequency": "60",
+        "name": "Westerly Substation",
+        "operator": "Rhode Island Energy",
+        "operator:wikidata": "Q130232431",
+        "power": "substation",
+        "ref": "16",
+        "substation": "minor_distribution",
+        "voltage": "34500;12470"
+      },
+      "lat": 41.3859033,
+      "lon": -71.8313823
+    },
+    {
+      "type": "way",
+      "id": 552955659,
+      "center": {
+        "lat": 41.6896028,
+        "lon": -72.9129267
+      },
+      "tags": {
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution"
+      },
+      "lat": 41.6896028,
+      "lon": -72.9129267
+    },
+    {
+      "type": "way",
+      "id": 613479527,
+      "center": {
+        "lat": 41.3143399,
+        "lon": -72.9340686
+      },
+      "tags": {
+        "name": "Broadway Substation",
+        "operator": "United Illuminating Company",
+        "operator:wikidata": "Q7771571",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000;13800"
+      },
+      "lat": 41.3143399,
+      "lon": -72.9340686
+    },
+    {
+      "type": "way",
+      "id": 628014938,
+      "center": {
+        "lat": 41.1023306,
+        "lon": -73.4057853
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.1023306,
+      "lon": -73.4057853
+    },
+    {
+      "type": "way",
+      "id": 661060311,
+      "center": {
+        "lat": 41.1215774,
+        "lon": -73.3160031
+      },
+      "tags": {
+        "name": "Sherwood Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.1215774,
+      "lon": -73.3160031
+    },
+    {
+      "type": "way",
+      "id": 661084362,
+      "center": {
+        "lat": 41.1237664,
+        "lon": -73.3095724
+      },
+      "tags": {
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "source": "Bing",
+        "substation": "distribution"
+      },
+      "lat": 41.1237664,
+      "lon": -73.3095724
+    },
+    {
+      "type": "way",
+      "id": 661084363,
+      "center": {
+        "lat": 41.124258,
+        "lon": -73.3080006
+      },
+      "tags": {
+        "name": "Sasco Creek Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "source": "Bing",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.124258,
+      "lon": -73.3080006
+    },
+    {
+      "type": "way",
+      "id": 675912089,
+      "center": {
+        "lat": 41.8090282,
+        "lon": -72.2630388
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.8090282,
+      "lon": -72.2630388
+    },
+    {
+      "type": "way",
+      "id": 682043403,
+      "center": {
+        "lat": 41.5708331,
+        "lon": -72.5052281
+      },
+      "tags": {
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation"
+      },
+      "lat": 41.5708331,
+      "lon": -72.5052281
+    },
+    {
+      "type": "way",
+      "id": 696358917,
+      "center": {
+        "lat": 41.5758821,
+        "lon": -72.7001735
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.5758821,
+      "lon": -72.7001735
+    },
+    {
+      "type": "way",
+      "id": 722467029,
+      "center": {
+        "lat": 41.3511695,
+        "lon": -72.4019665
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.3511695,
+      "lon": -72.4019665
+    },
+    {
+      "type": "way",
+      "id": 731227380,
+      "center": {
+        "lat": 41.7688655,
+        "lon": -72.8924906
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.7688655,
+      "lon": -72.8924906
+    },
+    {
+      "type": "way",
+      "id": 734348619,
+      "center": {
+        "lat": 41.9264198,
+        "lon": -72.6910242
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.9264198,
+      "lon": -72.6910242
+    },
+    {
+      "type": "way",
+      "id": 759333854,
+      "center": {
+        "lat": 41.1676254,
+        "lon": -73.1854837
+      },
+      "tags": {
+        "name": "Singer Substation",
+        "operator": "United Illuminating Company",
+        "operator:wikidata": "Q7771571",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "345000;115000"
+      },
+      "lat": 41.1676254,
+      "lon": -73.1854837
+    },
+    {
+      "type": "way",
+      "id": 762734377,
+      "center": {
+        "lat": 41.0742881,
+        "lon": -73.4114601
+      },
+      "tags": {
+        "disused:power": "substation",
+        "name": "Norwalk Harbor Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "138000;115000"
+      },
+      "lat": 41.0742881,
+      "lon": -73.4114601
+    },
+    {
+      "type": "way",
+      "id": 767707770,
+      "center": {
+        "lat": 41.9469759,
+        "lon": -73.0465986
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.9469759,
+      "lon": -73.0465986
+    },
+    {
+      "type": "way",
+      "id": 778245232,
+      "center": {
+        "lat": 41.8122344,
+        "lon": -71.8861423
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.8122344,
+      "lon": -71.8861423
+    },
+    {
+      "type": "way",
+      "id": 790816239,
+      "center": {
+        "lat": 41.296157,
+        "lon": -72.3860466
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.296157,
+      "lon": -72.3860466
+    },
+    {
+      "type": "way",
+      "id": 808404581,
+      "center": {
+        "lat": 41.561165,
+        "lon": -72.5778843
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.561165,
+      "lon": -72.5778843
+    },
+    {
+      "type": "way",
+      "id": 815461481,
+      "center": {
+        "lat": 41.3475408,
+        "lon": -73.085416
+      },
+      "tags": {
+        "location": "outdoor",
+        "name": "Ansonia Substation",
+        "operator": "United Illuminating Company",
+        "operator:wikidata": "Q7771571",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.3475408,
+      "lon": -73.085416
+    },
+    {
+      "type": "way",
+      "id": 823225732,
+      "center": {
+        "lat": 41.4828991,
+        "lon": -73.4310519
+      },
+      "tags": {
+        "name": "West Brookfield Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.4828991,
+      "lon": -73.4310519
+    },
+    {
+      "type": "way",
+      "id": 840348285,
+      "center": {
+        "lat": 41.4279093,
+        "lon": -72.1023269
+      },
+      "tags": {
+        "name": "Montville Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "69000"
+      },
+      "lat": 41.4279093,
+      "lon": -72.1023269
+    },
+    {
+      "type": "way",
+      "id": 847208359,
+      "center": {
+        "lat": 41.659033,
+        "lon": -73.491377
+      },
+      "tags": {
+        "name": "Bulls Bridge Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.659033,
+      "lon": -73.491377
+    },
+    {
+      "type": "way",
+      "id": 858949186,
+      "center": {
+        "lat": 41.6692901,
+        "lon": -72.798237
+      },
+      "tags": {
+        "name": "Burrit Street Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "69000"
+      },
+      "lat": 41.6692901,
+      "lon": -72.798237
+    },
+    {
+      "type": "way",
+      "id": 859004554,
+      "center": {
+        "lat": 41.3977666,
+        "lon": -72.0810716
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "minor_distribution"
+      },
+      "lat": 41.3977666,
+      "lon": -72.0810716
+    },
+    {
+      "type": "way",
+      "id": 859004555,
+      "center": {
+        "lat": 41.4004109,
+        "lon": -72.0861893
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.4004109,
+      "lon": -72.0861893
+    },
+    {
+      "type": "way",
+      "id": 863191162,
+      "center": {
+        "lat": 41.7189126,
+        "lon": -72.2397167
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.7189126,
+      "lon": -72.2397167
+    },
+    {
+      "type": "way",
+      "id": 896029335,
+      "center": {
+        "lat": 41.5505536,
+        "lon": -72.6514679
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.5505536,
+      "lon": -72.6514679
+    },
+    {
+      "type": "way",
+      "id": 904257506,
+      "center": {
+        "lat": 41.7507331,
+        "lon": -72.7125534
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Southwest Hartford Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "operator:wikipedia": "en:Eversource Energy",
+        "power": "substation",
+        "source": "ISO",
+        "voltage": "115000"
+      },
+      "lat": 41.7507331,
+      "lon": -72.7125534
+    },
+    {
+      "type": "way",
+      "id": 904291793,
+      "center": {
+        "lat": 41.3628709,
+        "lon": -72.0929749
+      },
+      "tags": {
+        "name": "New London Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.3628709,
+      "lon": -72.0929749
+    },
+    {
+      "type": "way",
+      "id": 905625185,
+      "center": {
+        "lat": 41.8207156,
+        "lon": -72.1537882
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.8207156,
+      "lon": -72.1537882
+    },
+    {
+      "type": "way",
+      "id": 905995508,
+      "center": {
+        "lat": 41.540235,
+        "lon": -72.0946157
+      },
+      "tags": {
+        "name": "Matlack Substation",
+        "operator": "Norwich Public Utilities",
+        "power": "substation",
+        "substation": "yes"
+      },
+      "lat": 41.540235,
+      "lon": -72.0946157
+    },
+    {
+      "type": "way",
+      "id": 912509366,
+      "center": {
+        "lat": 41.6043525,
+        "lon": -71.9824297
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.6043525,
+      "lon": -71.9824297
+    },
+    {
+      "type": "way",
+      "id": 912509367,
+      "center": {
+        "lat": 41.6063057,
+        "lon": -71.9771551
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.6063057,
+      "lon": -71.9771551
+    },
+    {
+      "type": "way",
+      "id": 914250659,
+      "center": {
+        "lat": 41.7829059,
+        "lon": -72.7047306
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Northwest Hartford Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "operator:wikipedia": "en:Eversource Energy",
+        "power": "substation",
+        "source": "ISO",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.7829059,
+      "lon": -72.7047306
+    },
+    {
+      "type": "way",
+      "id": 921443064,
+      "center": {
+        "lat": 41.4988809,
+        "lon": -72.8118999
+      },
+      "tags": {
+        "name": "Colony Substation",
+        "operator": "Wallingford Electric Department",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.4988809,
+      "lon": -72.8118999
+    },
+    {
+      "type": "way",
+      "id": 921443065,
+      "center": {
+        "lat": 41.4918404,
+        "lon": -72.7622173
+      },
+      "tags": {
+        "name": "North Wallingford Substation",
+        "operator": "Wallingford Electric Department",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.4918404,
+      "lon": -72.7622173
+    },
+    {
+      "type": "way",
+      "id": 931485584,
+      "center": {
+        "lat": 41.5270499,
+        "lon": -72.0650514
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "North Main Street Substation",
+        "operator": "Norwich Public Utilities",
+        "power": "substation"
+      },
+      "lat": 41.5270499,
+      "lon": -72.0650514
+    },
+    {
+      "type": "way",
+      "id": 975708254,
+      "center": {
+        "lat": 41.7007238,
+        "lon": -72.2101244
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.7007238,
+      "lon": -72.2101244
+    },
+    {
+      "type": "way",
+      "id": 975708255,
+      "center": {
+        "lat": 41.7012407,
+        "lon": -72.2100327
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.7012407,
+      "lon": -72.2100327
+    },
+    {
+      "type": "way",
+      "id": 979732434,
+      "center": {
+        "lat": 41.3643847,
+        "lon": -71.840265
+      },
+      "tags": {
+        "name": "State Line Paralleling Station",
+        "operator": "Amtrak",
+        "operator:wikidata": "Q23239",
+        "power": "substation",
+        "substation": "traction",
+        "voltage": "25000"
+      },
+      "lat": 41.3643847,
+      "lon": -71.840265
+    },
+    {
+      "type": "way",
+      "id": 984772591,
+      "center": {
+        "lat": 41.4853703,
+        "lon": -72.1259932
+      },
+      "tags": {
+        "landuse": "industrial",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation"
+      },
+      "lat": 41.4853703,
+      "lon": -72.1259932
+    },
+    {
+      "type": "way",
+      "id": 1018609988,
+      "center": {
+        "lat": 41.6997748,
+        "lon": -72.6894108
+      },
+      "tags": {
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation"
+      },
+      "lat": 41.6997748,
+      "lon": -72.6894108
+    },
+    {
+      "type": "way",
+      "id": 1031883438,
+      "center": {
+        "lat": 41.5438664,
+        "lon": -72.1240043
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.5438664,
+      "lon": -72.1240043
+    },
+    {
+      "type": "way",
+      "id": 1037258180,
+      "center": {
+        "lat": 41.9137211,
+        "lon": -71.9103528
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "power": "substation"
+      },
+      "lat": 41.9137211,
+      "lon": -71.9103528
+    },
+    {
+      "type": "way",
+      "id": 1051296992,
+      "center": {
+        "lat": 41.1507647,
+        "lon": -73.3629177
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.1507647,
+      "lon": -73.3629177
+    },
+    {
+      "type": "way",
+      "id": 1061529506,
+      "center": {
+        "lat": 41.4474003,
+        "lon": -72.8352802
+      },
+      "tags": {
+        "name": "Wallingford Substation",
+        "operator": "Wallingford Electric Department",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.4474003,
+      "lon": -72.8352802
+    },
+    {
+      "type": "way",
+      "id": 1097800915,
+      "center": {
+        "lat": 41.958139,
+        "lon": -72.6454394
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Suffield Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "minor_distribution"
+      },
+      "lat": 41.958139,
+      "lon": -72.6454394
+    },
+    {
+      "type": "way",
+      "id": 1105661976,
+      "center": {
+        "lat": 41.8844097,
+        "lon": -72.7374286
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.8844097,
+      "lon": -72.7374286
+    },
+    {
+      "type": "way",
+      "id": 1137094534,
+      "center": {
+        "lat": 41.0910578,
+        "lon": -73.4256864
+      },
+      "tags": {
+        "name": "Sono Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.0910578,
+      "lon": -73.4256864
+    },
+    {
+      "type": "way",
+      "id": 1141832640,
+      "center": {
+        "lat": 41.5841511,
+        "lon": -72.0413002
+      },
+      "tags": {
+        "name": "Lisbon Substation",
+        "operator": "Wheelabrator Technologies Inc.",
+        "power": "substation",
+        "substation": "generation",
+        "voltage": "115000"
+      },
+      "lat": 41.5841511,
+      "lon": -72.0413002
+    },
+    {
+      "type": "way",
+      "id": 1144983892,
+      "center": {
+        "lat": 41.7381029,
+        "lon": -71.9247274
+      },
+      "tags": {
+        "name": "Canterbury Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.7381029,
+      "lon": -71.9247274
+    },
+    {
+      "type": "way",
+      "id": 1145475570,
+      "center": {
+        "lat": 41.9223382,
+        "lon": -72.6254402
+      },
+      "tags": {
+        "name": "Dexter Substation",
+        "operator": "Algonquin Power",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.9223382,
+      "lon": -72.6254402
+    },
+    {
+      "type": "way",
+      "id": 1146128918,
+      "center": {
+        "lat": 41.7948344,
+        "lon": -72.7067621
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.7948344,
+      "lon": -72.7067621
+    },
+    {
+      "type": "way",
+      "id": 1148114330,
+      "center": {
+        "lat": 41.5284584,
+        "lon": -72.8390124
+      },
+      "tags": {
+        "name": "Schwab Junction Tap",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.5284584,
+      "lon": -72.8390124
+    },
+    {
+      "type": "way",
+      "id": 1148389564,
+      "center": {
+        "lat": 41.2075047,
+        "lon": -73.1068064
+      },
+      "tags": {
+        "name": "Devon Railroad Substation",
+        "operator": "Metro-North Commuter Railroad",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.2075047,
+      "lon": -73.1068064
+    },
+    {
+      "type": "way",
+      "id": 1148606458,
+      "center": {
+        "lat": 41.3074567,
+        "lon": -72.9088015
+      },
+      "tags": {
+        "name": "Grand Avenue Substatuion",
+        "operator": "United Illuminating Company",
+        "operator:wikidata": "Q7771571",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.3074567,
+      "lon": -72.9088015
+    },
+    {
+      "type": "way",
+      "id": 1148704925,
+      "center": {
+        "lat": 41.2761851,
+        "lon": -73.1179037
+      },
+      "tags": {
+        "name": "Pootatick Substation",
+        "operator": "United Illuminating Company",
+        "operator:wikidata": "Q7771571",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.2761851,
+      "lon": -73.1179037
+    },
+    {
+      "type": "way",
+      "id": 1148721110,
+      "center": {
+        "lat": 41.4851855,
+        "lon": -73.1226107
+      },
+      "tags": {
+        "name": "Towantic Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.4851855,
+      "lon": -73.1226107
+    },
+    {
+      "type": "way",
+      "id": 1148963697,
+      "center": {
+        "lat": 41.5441619,
+        "lon": -73.0414186
+      },
+      "tags": {
+        "name": "Waterbury Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "generation",
+        "voltage": "115000"
+      },
+      "lat": 41.5441619,
+      "lon": -73.0414186
+    },
+    {
+      "type": "way",
+      "id": 1150255720,
+      "center": {
+        "lat": 41.1630415,
+        "lon": -73.2084724
+      },
+      "tags": {
+        "name": "Wheelabrator Bridgeport Substation",
+        "operator": "Wheelabrator Technologies",
+        "power": "substation",
+        "substation": "generation",
+        "voltage": "115000"
+      },
+      "lat": 41.1630415,
+      "lon": -73.2084724
+    },
+    {
+      "type": "way",
+      "id": 1150287972,
+      "center": {
+        "lat": 41.0210565,
+        "lon": -73.6317561
+      },
+      "tags": {
+        "name": "Greenwich Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.0210565,
+      "lon": -73.6317561
+    },
+    {
+      "type": "way",
+      "id": 1154872292,
+      "center": {
+        "lat": 41.664642,
+        "lon": -71.9241448
+      },
+      "tags": {
+        "name": "Plainfield Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "generation",
+        "voltage": "115000"
+      },
+      "lat": 41.664642,
+      "lon": -71.9241448
+    },
+    {
+      "type": "way",
+      "id": 1163489775,
+      "center": {
+        "lat": 41.9778692,
+        "lon": -72.510155
+      },
+      "tags": {
+        "name": "Collector Substation",
+        "operator": "Nutmeg Solar, LLC",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.9778692,
+      "lon": -72.510155
+    },
+    {
+      "type": "way",
+      "id": 1163970789,
+      "center": {
+        "lat": 41.3016958,
+        "lon": -72.9213549
+      },
+      "tags": {
+        "name": "Water Street Substation",
+        "operator": "United Illuminating Company",
+        "operator:wikidata": "Q7771571",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.3016958,
+      "lon": -72.9213549
+    },
+    {
+      "type": "way",
+      "id": 1163970794,
+      "center": {
+        "lat": 41.3000028,
+        "lon": -72.9244054
+      },
+      "tags": {
+        "name": "Union Avenue Substation",
+        "operator": "United Illuminating Company",
+        "operator:wikidata": "Q7771571",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.3000028,
+      "lon": -72.9244054
+    },
+    {
+      "type": "way",
+      "id": 1164309156,
+      "center": {
+        "lat": 41.4039312,
+        "lon": -73.4890116
+      },
+      "tags": {
+        "name": "Middle River Road Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000"
+      },
+      "lat": 41.4039312,
+      "lon": -73.4890116
+    },
+    {
+      "type": "way",
+      "id": 1200717605,
+      "center": {
+        "lat": 41.7315248,
+        "lon": -73.1518755
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation"
+      },
+      "lat": 41.7315248,
+      "lon": -73.1518755
+    },
+    {
+      "type": "way",
+      "id": 1233659692,
+      "center": {
+        "lat": 41.3209548,
+        "lon": -72.0070707
+      },
+      "tags": {
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "minor_distribution"
+      },
+      "lat": 41.3209548,
+      "lon": -72.0070707
+    },
+    {
+      "type": "way",
+      "id": 1364089631,
+      "center": {
+        "lat": 41.3355354,
+        "lon": -72.9110774
+      },
+      "tags": {
+        "location": "indoor",
+        "name": "Whitney Substation",
+        "operator": "United Illuminating",
+        "power": "substation",
+        "substation": "distribution",
+        "voltage": "115000;4160"
+      },
+      "lat": 41.3355354,
+      "lon": -72.9110774
+    },
+    {
+      "type": "way",
+      "id": 1381678757,
+      "center": {
+        "lat": 41.7253426,
+        "lon": -72.666751
+      },
+      "tags": {
+        "barrier": "fence",
+        "power": "substation"
+      },
+      "lat": 41.7253426,
+      "lon": -72.666751
+    },
+    {
+      "type": "way",
+      "id": 1390230082,
+      "center": {
+        "lat": 41.5473561,
+        "lon": -72.7929511
+      },
+      "tags": {
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation"
+      },
+      "lat": 41.5473561,
+      "lon": -72.7929511
+    },
+    {
+      "type": "way",
+      "id": 1413824877,
+      "center": {
+        "lat": 41.9318233,
+        "lon": -72.5936908
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.9318233,
+      "lon": -72.5936908
+    },
+    {
+      "type": "way",
+      "id": 1441655979,
+      "center": {
+        "lat": 41.5891684,
+        "lon": -73.0906588
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.5891684,
+      "lon": -73.0906588
+    },
+    {
+      "type": "way",
+      "id": 1442020986,
+      "center": {
+        "lat": 41.3233905,
+        "lon": -71.9984745
+      },
+      "tags": {
+        "name": "Noank Paralleling station",
+        "operator": "Amtrak",
+        "operator:wikidata": "Q23239",
+        "power": "substation",
+        "substation": "traction",
+        "voltage": "25000",
+        "wikidata": "Q4748893",
+        "wikipedia": "en:Amtrak 60 Hz traction power system"
+      },
+      "lat": 41.3233905,
+      "lon": -71.9984745
+    },
+    {
+      "type": "way",
+      "id": 1460186448,
+      "center": {
+        "lat": 41.71923,
+        "lon": -72.7334432
+      },
+      "tags": {
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation"
+      },
+      "lat": 41.71923,
+      "lon": -72.7334432
+    },
+    {
+      "type": "way",
+      "id": 1460820495,
+      "center": {
+        "lat": 41.3403402,
+        "lon": -71.9254575
+      },
+      "tags": {
+        "name": "Stonington Paralleling station",
+        "operator": "Amtrak",
+        "operator:wikidata": "Q23239",
+        "power": "substation",
+        "substation": "traction",
+        "voltage": "25000"
+      },
+      "lat": 41.3403402,
+      "lon": -71.9254575
+    },
+    {
+      "type": "way",
+      "id": 1461463115,
+      "center": {
+        "lat": 41.3524683,
+        "lon": -72.0330157
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "yes"
+      },
+      "lat": 41.3524683,
+      "lon": -72.0330157
+    },
+    {
+      "type": "way",
+      "id": 1461960037,
+      "center": {
+        "lat": 41.3471312,
+        "lon": -72.0394981
+      },
+      "tags": {
+        "building": "no",
+        "operator": "Groton Public Utilities",
+        "power": "substation",
+        "substation": "yes"
+      },
+      "lat": 41.3471312,
+      "lon": -72.0394981
+    },
+    {
+      "type": "way",
+      "id": 1462667808,
+      "center": {
+        "lat": 41.3605467,
+        "lon": -72.0717305
+      },
+      "tags": {
+        "power": "substation",
+        "substation": "minor_distribution"
+      },
+      "lat": 41.3605467,
+      "lon": -72.0717305
+    },
+    {
+      "type": "way",
+      "id": 1462872695,
+      "center": {
+        "lat": 41.6122302,
+        "lon": -71.9703414
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.6122302,
+      "lon": -71.9703414
+    },
+    {
+      "type": "way",
+      "id": 1467736914,
+      "center": {
+        "lat": 41.9482072,
+        "lon": -72.6268241
+      },
+      "tags": {
+        "name": "Praxair Substation",
+        "power": "substation",
+        "substation": "minor_distribution"
+      },
+      "lat": 41.9482072,
+      "lon": -72.6268241
+    },
+    {
+      "type": "way",
+      "id": 1485093424,
+      "center": {
+        "lat": 41.9566079,
+        "lon": -73.3686706
+      },
+      "tags": {
+        "name": "Falls Village",
+        "power": "substation"
+      },
+      "lat": 41.9566079,
+      "lon": -73.3686706
+    },
+    {
+      "type": "way",
+      "id": 1485093425,
+      "center": {
+        "lat": 41.988514,
+        "lon": -73.0226958
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.988514,
+      "lon": -73.0226958
+    },
+    {
+      "type": "way",
+      "id": 1485093426,
+      "center": {
+        "lat": 41.9157907,
+        "lon": -73.1160153
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.9157907,
+      "lon": -73.1160153
+    },
+    {
+      "type": "way",
+      "id": 1485093427,
+      "center": {
+        "lat": 41.7669711,
+        "lon": -73.0869583
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.7669711,
+      "lon": -73.0869583
+    },
+    {
+      "type": "way",
+      "id": 1485093428,
+      "center": {
+        "lat": 41.4398325,
+        "lon": -72.834382
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.4398325,
+      "lon": -72.834382
+    },
+    {
+      "type": "way",
+      "id": 1485093429,
+      "center": {
+        "lat": 41.7128223,
+        "lon": -71.8226461
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.7128223,
+      "lon": -71.8226461
+    },
+    {
+      "type": "way",
+      "id": 1485093430,
+      "center": {
+        "lat": 41.7118858,
+        "lon": -71.9378643
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.7118858,
+      "lon": -71.9378643
+    },
+    {
+      "type": "way",
+      "id": 1485093431,
+      "center": {
+        "lat": 41.6654013,
+        "lon": -72.1210646
+      },
+      "tags": {
+        "name": "Scotland Dam",
+        "power": "substation"
+      },
+      "lat": 41.6654013,
+      "lon": -72.1210646
+    },
+    {
+      "type": "way",
+      "id": 1485093432,
+      "center": {
+        "lat": 41.4749719,
+        "lon": -72.0686817
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.4749719,
+      "lon": -72.0686817
+    },
+    {
+      "type": "way",
+      "id": 1485093433,
+      "center": {
+        "lat": 41.3164255,
+        "lon": -72.1643481
+      },
+      "tags": {
+        "operator": "Amtrak",
+        "operator:wikidata": "Q23239",
+        "power": "substation",
+        "substation": "traction"
+      },
+      "lat": 41.3164255,
+      "lon": -72.1643481
+    },
+    {
+      "type": "way",
+      "id": 1485093434,
+      "center": {
+        "lat": 41.3123585,
+        "lon": -72.1671563
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.3123585,
+      "lon": -72.1671563
+    },
+    {
+      "type": "way",
+      "id": 1485093436,
+      "center": {
+        "lat": 41.2966171,
+        "lon": -72.3044506
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.2966171,
+      "lon": -72.3044506
+    },
+    {
+      "type": "way",
+      "id": 1485093437,
+      "center": {
+        "lat": 41.2900403,
+        "lon": -72.4111602
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.2900403,
+      "lon": -72.4111602
+    },
+    {
+      "type": "way",
+      "id": 1485093438,
+      "center": {
+        "lat": 41.2768227,
+        "lon": -72.4875274
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.2768227,
+      "lon": -72.4875274
+    },
+    {
+      "type": "way",
+      "id": 1485093439,
+      "center": {
+        "lat": 41.2840066,
+        "lon": -72.6112644
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.2840066,
+      "lon": -72.6112644
+    },
+    {
+      "type": "way",
+      "id": 1485093440,
+      "center": {
+        "lat": 41.2654806,
+        "lon": -72.7250135
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.2654806,
+      "lon": -72.7250135
+    },
+    {
+      "type": "way",
+      "id": 1485093441,
+      "center": {
+        "lat": 41.2842752,
+        "lon": -72.90527
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.2842752,
+      "lon": -72.90527
+    },
+    {
+      "type": "way",
+      "id": 1485093444,
+      "center": {
+        "lat": 41.0955785,
+        "lon": -73.4232046
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.0955785,
+      "lon": -73.4232046
+    },
+    {
+      "type": "way",
+      "id": 1492819872,
+      "center": {
+        "lat": 41.2245493,
+        "lon": -73.0992984
+      },
+      "tags": {
+        "power": "substation"
+      },
+      "lat": 41.2245493,
+      "lon": -73.0992984
+    },
+    {
+      "type": "way",
+      "id": 1498867986,
+      "center": {
+        "lat": 41.4285267,
+        "lon": -72.1040603
+      },
+      "tags": {
+        "landuse": "industrial",
+        "location": "outdoor",
+        "name": "Montville Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "345000;115000"
+      },
+      "lat": 41.4285267,
+      "lon": -72.1040603
+    },
+    {
+      "type": "relation",
+      "id": 13253019,
+      "center": {
+        "lat": 41.7500675,
+        "lon": -72.6537718
+      },
+      "tags": {
+        "name": "South Meadow Substation",
+        "operator": "Eversource",
+        "operator:wikidata": "Q3344199",
+        "power": "substation",
+        "ref": "1A",
+        "substation": "distribution",
+        "type": "multipolygon",
+        "voltage": "115000"
+      },
+      "lat": 41.7500675,
+      "lon": -72.6537718
+    },
+    {
+      "type": "relation",
+      "id": 20206419,
+      "center": {
+        "lat": 41.3697139,
+        "lon": -72.0717757
+      },
+      "tags": {
+        "addr:city": "Groton",
+        "addr:housenumber": "135",
+        "addr:postcode": "06340",
+        "addr:state": "CT",
+        "addr:street": "Pleasant Valley Road",
+        "barrier": "fence",
+        "power": "substation",
+        "substation": "transmission",
+        "type": "multipolygon"
+      },
+      "lat": 41.3697139,
+      "lon": -72.0717757
+    }
+  ]
+}

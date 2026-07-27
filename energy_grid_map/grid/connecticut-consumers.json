@@ -1,0 +1,144 @@
+{
+  "source": {
+    "name": "EIA Form 861 Annual Electric Power Industry Report (2024)",
+    "year": 2024,
+    "state": "Connecticut",
+    "methodology": "Utility annual electricity sales (MWh) from Sales_Ult_Cust worksheet distributed equally across each utility's Connecticut service counties (Service_Territory worksheet). County centroid geometry from US Census GeoJSON.",
+    "workbook": "Sales_Ult_Cust_2024.xlsx + Service_Territory_2024.xlsx",
+    "workbook_url": "https://www.eia.gov/electricity/data/eia861/zip/f8612024.zip",
+    "download_page": "https://www.eia.gov/electricity/data/eia861/",
+    "geometry_source": "https://raw.githubusercontent.com/plotly/datasets/master/geojson-counties-fips.json"
+  },
+  "count": 8,
+  "total_gwh_annual": 26446.2,
+  "elements": [
+    {
+      "type": "node",
+      "id": "consumer-county-001",
+      "lat": 41.236105,
+      "lon": -73.337647,
+      "tags": {
+        "name": "Fairfield County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "563.98",
+        "consumption:gwh:annual": "4940.42",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-003",
+      "lat": 41.849397,
+      "lon": -72.743755,
+      "tags": {
+        "name": "Hartford County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "291.09",
+        "consumption:gwh:annual": "2549.97",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-005",
+      "lat": 41.741742,
+      "lon": -73.206062,
+      "tags": {
+        "name": "Litchfield County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "287.55",
+        "consumption:gwh:annual": "2518.92",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-007",
+      "lat": 41.40639,
+      "lon": -72.537761,
+      "tags": {
+        "name": "Middlesex County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "287.55",
+        "consumption:gwh:annual": "2518.92",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-009",
+      "lat": 41.31548,
+      "lon": -72.832632,
+      "tags": {
+        "name": "New Haven County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "626.09",
+        "consumption:gwh:annual": "5484.51",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-011",
+      "lat": 41.412182,
+      "lon": -72.083638,
+      "tags": {
+        "name": "New London County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "387.63",
+        "consumption:gwh:annual": "3395.66",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-013",
+      "lat": 41.922179,
+      "lon": -72.302022,
+      "tags": {
+        "name": "Tolland County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "287.55",
+        "consumption:gwh:annual": "2518.92",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    },
+    {
+      "type": "node",
+      "id": "consumer-county-015",
+      "lat": 41.816142,
+      "lon": -72.022114,
+      "tags": {
+        "name": "Windham County Consumer Node",
+        "consumer": "yes",
+        "consumer:type": "county",
+        "load:mw": "287.55",
+        "consumption:gwh:annual": "2518.92",
+        "year": "2024",
+        "operator": "County aggregate",
+        "source:name": "EIA Form 861 Annual Electric Power Industry Report"
+      }
+    }
+  ]
+}

@@ -1,0 +1,4004 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-04-24T20:51:16Z",
+    "timestamp_areas_base": "2026-04-24T15:53:36Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 43103844,
+      "center": {
+        "lat": 41.3124968,
+        "lon": -72.1679764
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Millstone Nuclear Power Plant",
+        "operator": "Dominion Energy Nuclear Conn Inc",
+        "plant:method": "fission",
+        "plant:output:electricity": "2162.9 MW",
+        "plant:source": "nuclear",
+        "power": "plant",
+        "ref:US:EIA": "566",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1975-12",
+        "wikidata": "Q2944605"
+      },
+      "lat": 41.3124968,
+      "lon": -72.1679764
+    },
+    {
+      "type": "way",
+      "id": 49867474,
+      "center": {
+        "lat": 41.5550714,
+        "lon": -72.5815181
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Middletown Kleen Energy Systems Power Plant",
+        "note": "Site of 2010 explosion that claimed the lives of six pipefitters; 50+ others injured",
+        "operator": "Middletown Power LLC",
+        "plant:output:electricity": "786.4 MW",
+        "plant:source": "gas;oil",
+        "power": "plant",
+        "ref:US:EIA": "562",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1954-08",
+        "wikidata": "Q11989337"
+      },
+      "lat": 41.5550714,
+      "lon": -72.5815181
+    },
+    {
+      "type": "way",
+      "id": 229912659,
+      "center": {
+        "lat": 41.8094344,
+        "lon": -72.2544254
+      },
+      "tags": {
+        "building": "industrial",
+        "landuse": "industrial",
+        "name": "UCONN Cogen Facility",
+        "operator": "University of Connecticut",
+        "plant:method": "combustion",
+        "plant:output:electricity": "25.7 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "58159",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2006-03"
+      },
+      "lat": 41.8094344,
+      "lon": -72.2544254
+    },
+    {
+      "type": "way",
+      "id": 310737282,
+      "center": {
+        "lat": 41.3194859,
+        "lon": -72.0645684
+      },
+      "tags": {
+        "addr:city": "Groton",
+        "addr:housenumber": "1084",
+        "addr:postcode": "06340",
+        "addr:state": "CT",
+        "addr:street": "Shennecossett Road",
+        "building": "yes",
+        "landuse": "industrial",
+        "name": "Central Utilities Plant",
+        "power": "plant",
+        "ref": "4"
+      },
+      "lat": 41.3194859,
+      "lon": -72.0645684
+    },
+    {
+      "type": "way",
+      "id": 539638239,
+      "center": {
+        "lat": 41.3825062,
+        "lon": -73.1713402
+      },
+      "tags": {
+        "building": "yes",
+        "heritage": "yes",
+        "heritage:operator": "nrhp",
+        "historic": "yes",
+        "name": "Stevenson Powerhouse",
+        "operator": "FirstLight Power Resources Services LLC",
+        "plant:output:electricity": "30.5 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "553",
+        "ref:nrhp": "00001073",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1919-01",
+        "wikidata": "Q7615520"
+      },
+      "lat": 41.3825062,
+      "lon": -73.1713402
+    },
+    {
+      "type": "way",
+      "id": 543907399,
+      "center": {
+        "lat": 41.2505093,
+        "lon": -73.098509
+      },
+      "tags": {
+        "building": "yes",
+        "landuse": "industrial",
+        "name": "Sikorsky Aircraft CHP",
+        "operator": "Sikorsky Aircraft Corporation",
+        "plant:method": "combustion",
+        "plant:output:electricity": "9.8 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "61703",
+        "start_date": "2011-05"
+      },
+      "lat": 41.2505093,
+      "lon": -73.098509
+    },
+    {
+      "type": "way",
+      "id": 564477926,
+      "center": {
+        "lat": 41.0290966,
+        "lon": -73.5987305
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Cos Cob Jet",
+        "operator": "Connecticut Jet Power",
+        "plant:method": "combustion",
+        "plant:output:electricity": "115 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "542"
+      },
+      "lat": 41.0290966,
+      "lon": -73.5987305
+    },
+    {
+      "type": "way",
+      "id": 611270612,
+      "center": {
+        "lat": 41.5489489,
+        "lon": -73.0220844
+      },
+      "tags": {
+        "operator": "Brass Mill Center",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "3.4 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "63288",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2017-12"
+      },
+      "lat": 41.5489489,
+      "lon": -73.0220844
+    },
+    {
+      "type": "way",
+      "id": 615668074,
+      "center": {
+        "lat": 42.0227768,
+        "lon": -72.7899754
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.0227768,
+      "lon": -72.7899754
+    },
+    {
+      "type": "way",
+      "id": 630217108,
+      "center": {
+        "lat": 41.7065422,
+        "lon": -72.6116782
+      },
+      "tags": {
+        "addr:city": "Glastonbury",
+        "addr:postcode": "06033",
+        "addr:state": "CT",
+        "addr:street": "Main Street",
+        "operator": "Town of Glastonbury",
+        "operator:type": "government",
+        "operator:wikidata": "Q753943",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.7065422,
+      "lon": -72.6116782
+    },
+    {
+      "type": "way",
+      "id": 638570747,
+      "center": {
+        "lat": 41.4838921,
+        "lon": -73.1222059
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "CPV Towantic Energy Center",
+        "operator": "CPV Towantic LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "841.5 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "56047",
+        "source": "http://www.cpv.com/our-projects/cpv-towantic/",
+        "start_date": "2018-05"
+      },
+      "lat": 41.4838921,
+      "lon": -73.1222059
+    },
+    {
+      "type": "way",
+      "id": 676853921,
+      "center": {
+        "lat": 41.1288354,
+        "lon": -73.2608063
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.1288354,
+      "lon": -73.2608063
+    },
+    {
+      "type": "way",
+      "id": 676853922,
+      "center": {
+        "lat": 41.1276321,
+        "lon": -73.2609829
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.1276321,
+      "lon": -73.2609829
+    },
+    {
+      "type": "way",
+      "id": 684284698,
+      "center": {
+        "lat": 41.988501,
+        "lon": -73.0194019
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Goodwin Hydroelectric",
+        "operator": "Metropolitan Dist of Hartford",
+        "plant:output:electricity": "3.2 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "54302",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1986-04"
+      },
+      "lat": 41.988501,
+      "lon": -73.0194019
+    },
+    {
+      "type": "way",
+      "id": 706289343,
+      "center": {
+        "lat": 42.015476,
+        "lon": -72.7760607
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Kearsarge Southwick LLC",
+        "operator": "Kearsarge Solar LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "3.3 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60867",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2015-03"
+      },
+      "lat": 42.015476,
+      "lon": -72.7760607
+    },
+    {
+      "type": "way",
+      "id": 706289344,
+      "center": {
+        "lat": 42.0085866,
+        "lon": -72.7815404
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Goose Pond Solar",
+        "operator": "LSE Dorado, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "4 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "62992",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2020-01"
+      },
+      "lat": 42.0085866,
+      "lon": -72.7815404
+    },
+    {
+      "type": "way",
+      "id": 706289346,
+      "center": {
+        "lat": 41.8918414,
+        "lon": -72.9890442
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Canis Minor Solar Farm",
+        "operator": "LSE Canis Minor LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61408",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2016-12"
+      },
+      "lat": 41.8918414,
+      "lon": -72.9890442
+    },
+    {
+      "type": "way",
+      "id": 706289347,
+      "center": {
+        "lat": 42.0088674,
+        "lon": -73.3378057
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Becton Canaan",
+        "operator": "DG Northeast 1, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "63262",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2018-03"
+      },
+      "lat": 42.0088674,
+      "lon": -73.3378057
+    },
+    {
+      "type": "way",
+      "id": 708337981,
+      "center": {
+        "lat": 41.20997,
+        "lon": -73.1076241
+      },
+      "tags": {
+        "hazard": "contamination",
+        "landuse": "industrial",
+        "name": "Devon Station",
+        "operator": "NRG Energy",
+        "operator:wikidata": "Q6955139",
+        "plant:method": "combustion",
+        "plant:output:electricity": "222.6 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref": "http://iaspub.epa.gov/enviro/national_kml.registry_html?p_registry_id=110030737610",
+        "ref:US:EIA": "544",
+        "source": "http://www.epa.gov/enviro/geo_data.html",
+        "start_date": "1957-01"
+      },
+      "lat": 41.20997,
+      "lon": -73.1076241
+    },
+    {
+      "type": "way",
+      "id": 708338066,
+      "center": {
+        "lat": 41.224511,
+        "lon": -73.0991877
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Milford Power Plant",
+        "operator": "Milford Power Co LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "578 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "55126",
+        "source": "https://www.industryabout.com/country-territories-3/873-usa/fossil-fuels-energy/9589-milford-connecticut-gas-power-plant",
+        "start_date": "2004-02",
+        "wikidata": "Q11989458"
+      },
+      "lat": 41.224511,
+      "lon": -73.0991877
+    },
+    {
+      "type": "way",
+      "id": 778245245,
+      "center": {
+        "lat": 41.8727772,
+        "lon": -71.8953734
+      },
+      "tags": {
+        "addr:city": "Killingly",
+        "addr:housenumber": "56",
+        "addr:postcode": "06241",
+        "addr:state": "CT",
+        "addr:street": "Alexander Parkway",
+        "landuse": "industrial",
+        "name": "Lake Road Generating Plant",
+        "operator": "Lake Road Generating Company LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "840 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "55149",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2002-03",
+        "wikidata": "Q19378742"
+      },
+      "lat": 41.8727772,
+      "lon": -71.8953734
+    },
+    {
+      "type": "way",
+      "id": 793466003,
+      "center": {
+        "lat": 41.2004505,
+        "lon": -73.1695007
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.2004505,
+      "lon": -73.1695007
+    },
+    {
+      "type": "way",
+      "id": 795856570,
+      "center": {
+        "lat": 41.4424207,
+        "lon": -72.9079202
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.4424207,
+      "lon": -72.9079202
+    },
+    {
+      "type": "way",
+      "id": 799186263,
+      "center": {
+        "lat": 41.2720851,
+        "lon": -72.7916228
+      },
+      "tags": {
+        "name": "Town of Branford",
+        "operator": "Tesla",
+        "operator:wikidata": "Q478214",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "62076",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2018-06"
+      },
+      "lat": 41.2720851,
+      "lon": -72.7916228
+    },
+    {
+      "type": "way",
+      "id": 800135845,
+      "center": {
+        "lat": 41.6432162,
+        "lon": -72.6335113
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Town of Rocky Hill PV CSG",
+        "operator": "Tesla",
+        "operator:wikidata": "Q478214",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "3 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61541",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2018-03"
+      },
+      "lat": 41.6432162,
+      "lon": -72.6335113
+    },
+    {
+      "type": "way",
+      "id": 801391784,
+      "center": {
+        "lat": 41.3830298,
+        "lon": -72.0796362
+      },
+      "tags": {
+        "addr:city": "Groton",
+        "addr:housenumber": "2",
+        "addr:postcode": "06340",
+        "addr:state": "CT",
+        "addr:street": "Lafayette Drive",
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "CMEEC - Polaris Park Solar Hybrid",
+        "operator": "Tesla",
+        "operator:wikidata": "Q478214",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "4.3 MW",
+        "plant:source": "solar;battery",
+        "power": "plant",
+        "ref:US:EIA": "60607",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2017-08"
+      },
+      "lat": 41.3830298,
+      "lon": -72.0796362
+    },
+    {
+      "type": "way",
+      "id": 801391785,
+      "center": {
+        "lat": 41.5828587,
+        "lon": -71.9026023
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Clinton Solar",
+        "operator": "Ecos Energy LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "63239;63240;65152"
+      },
+      "lat": 41.5828587,
+      "lon": -71.9026023
+    },
+    {
+      "type": "way",
+      "id": 801391787,
+      "center": {
+        "lat": 41.5717101,
+        "lon": -72.1555968
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "CMEEC - Bozrah",
+        "operator": "Tesla",
+        "operator:wikidata": "Q478214",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60225",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2016-12"
+      },
+      "lat": 41.5717101,
+      "lon": -72.1555968
+    },
+    {
+      "type": "way",
+      "id": 816257406,
+      "center": {
+        "lat": 41.9572689,
+        "lon": -73.3693272
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Falls Village Generating Station",
+        "operator": "FirstLight Power Resources Services LLC",
+        "plant:output:electricity": "9 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "560",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1914-01"
+      },
+      "lat": 41.9572689,
+      "lon": -73.3693272
+    },
+    {
+      "type": "way",
+      "id": 820416672,
+      "center": {
+        "lat": 41.5563202,
+        "lon": -72.6538048
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Wesleyan Power Plant",
+        "operator": "Wesleyan University",
+        "plant:method": "combustion",
+        "plant:output:electricity": "2.4 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "58158",
+        "source": "U.S. Energy Information Administration - EIA-860m - 2025",
+        "start_date": "2009-02"
+      },
+      "lat": 41.5563202,
+      "lon": -72.6538048
+    },
+    {
+      "type": "way",
+      "id": 832086832,
+      "center": {
+        "lat": 41.3651739,
+        "lon": -72.873069
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.3651739,
+      "lon": -72.873069
+    },
+    {
+      "type": "way",
+      "id": 833956903,
+      "center": {
+        "lat": 41.5064352,
+        "lon": -72.8272626
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.5064352,
+      "lon": -72.8272626
+    },
+    {
+      "type": "way",
+      "id": 833956907,
+      "center": {
+        "lat": 41.5151904,
+        "lon": -72.8295864
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.5151904,
+      "lon": -72.8295864
+    },
+    {
+      "type": "way",
+      "id": 836239209,
+      "center": {
+        "lat": 41.7076039,
+        "lon": -72.6113493
+      },
+      "tags": {
+        "addr:city": "Glastonbury",
+        "addr:postcode": "06033",
+        "addr:state": "CT",
+        "addr:street": "Main Street",
+        "operator": "Town of Glastonbury",
+        "operator:type": "government",
+        "operator:wikidata": "Q753943",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.7076039,
+      "lon": -72.6113493
+    },
+    {
+      "type": "way",
+      "id": 840348296,
+      "center": {
+        "lat": 41.4289423,
+        "lon": -72.1009866
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Montville Station Power Plant",
+        "operator": "NRG Montville Operations Inc",
+        "plant:method": "combustion",
+        "plant:output:electricity": "495.3 MW",
+        "plant:source": "oil;gas",
+        "power": "plant",
+        "ref:US:EIA": "546",
+        "source": "http://globalenergyobservatory.org/geoid/4360;http://www.energyjustice.net/map/displayfacility-64138.htm",
+        "start_date": "1954-01",
+        "wikidata": "Q11989906"
+      },
+      "lat": 41.4289423,
+      "lon": -72.1009866
+    },
+    {
+      "type": "way",
+      "id": 845729857,
+      "center": {
+        "lat": 41.6634126,
+        "lon": -71.9247624
+      },
+      "tags": {
+        "addr:city": "Plainfield",
+        "addr:housenumber": "12",
+        "addr:postcode": "06374",
+        "addr:state": "CT",
+        "addr:street": "Mill Brook Road",
+        "landuse": "industrial",
+        "name": "Plainfield Renewable Energy",
+        "operator": "Greenleaf Power, LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "43 MW",
+        "plant:source": "biomass",
+        "power": "plant",
+        "ref:US:EIA": "56847",
+        "short_name": "PRE",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2013-12",
+        "website": "https://www.greenleaf-power.com/facilities/plainfield.html"
+      },
+      "lat": 41.6634126,
+      "lon": -71.9247624
+    },
+    {
+      "type": "way",
+      "id": 852069846,
+      "center": {
+        "lat": 41.8247894,
+        "lon": -71.8903081
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.8247894,
+      "lon": -71.8903081
+    },
+    {
+      "type": "way",
+      "id": 857034550,
+      "center": {
+        "lat": 41.5826065,
+        "lon": -73.4347162
+      },
+      "tags": {
+        "addr:city": "New Milford",
+        "addr:street": "Kent Road",
+        "building": "yes",
+        "name": "Rocky River Power Plant",
+        "operator": "FirstLight Power Resources Services LLC",
+        "plant:method": "water-pumped-storage",
+        "plant:output:electricity": "31 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "539",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1928-01"
+      },
+      "lat": 41.5826065,
+      "lon": -73.4347162
+    },
+    {
+      "type": "way",
+      "id": 857034606,
+      "center": {
+        "lat": 41.578192,
+        "lon": -73.4378557
+      },
+      "tags": {
+        "plant:output:electricity": "yes",
+        "plant:source": "hydro",
+        "power": "plant"
+      },
+      "lat": 41.578192,
+      "lon": -73.4378557
+    },
+    {
+      "type": "way",
+      "id": 872797848,
+      "center": {
+        "lat": 41.1697583,
+        "lon": -73.1817733
+      },
+      "tags": {
+        "ele": "03",
+        "gnis:feature_id": "2742366",
+        "landuse": "industrial",
+        "name": "Bridgeport Harbor Station",
+        "operator": "PSEG Power Connecticut LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "576.3 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "568",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1961-08"
+      },
+      "lat": 41.1697583,
+      "lon": -73.1817733
+    },
+    {
+      "type": "way",
+      "id": 883434423,
+      "center": {
+        "lat": 41.9639833,
+        "lon": -72.3088833
+      },
+      "tags": {
+        "barrier": "fence",
+        "description": "Stafford MS Ground Mount Community Solar",
+        "operator": "Town of Stafford",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60880",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2016-07"
+      },
+      "lat": 41.9639833,
+      "lon": -72.3088833
+    },
+    {
+      "type": "way",
+      "id": 884601690,
+      "center": {
+        "lat": 41.0729775,
+        "lon": -73.410783
+      },
+      "tags": {
+        "building": "industrial",
+        "landuse": "industrial",
+        "name": "Norwalk Harbor Generating Station",
+        "power": "plant"
+      },
+      "lat": 41.0729775,
+      "lon": -73.410783
+    },
+    {
+      "type": "way",
+      "id": 891151206,
+      "center": {
+        "lat": 41.5116967,
+        "lon": -72.8249672
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.5116967,
+      "lon": -72.8249672
+    },
+    {
+      "type": "way",
+      "id": 900347397,
+      "center": {
+        "lat": 41.5488027,
+        "lon": -72.7066002
+      },
+      "tags": {
+        "name": "CP Middletown Solar I & II",
+        "operator": "Green Street Power Partners",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "63374;63375",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2019-12"
+      },
+      "lat": 41.5488027,
+      "lon": -72.7066002
+    },
+    {
+      "type": "way",
+      "id": 906282346,
+      "center": {
+        "lat": 41.5843409,
+        "lon": -72.0411227
+      },
+      "tags": {
+        "addr:city": "Lisbon",
+        "addr:housenumber": "425",
+        "addr:postcode": "06351",
+        "addr:state": "CT",
+        "addr:street": "South Burnham Highway",
+        "landuse": "industrial",
+        "name": "Wheelabrator Lisbon",
+        "operator": "Wheelabrator Technologies Inc.",
+        "phone": "+1 860 885 3512",
+        "plant:method": "combustion",
+        "plant:output:electricity": "14.6 MW",
+        "plant:source": "waste",
+        "power": "plant",
+        "ref:US:EIA": "54758",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "1995-10",
+        "website": "https://www.wtienergy.com/plant-locations/energy-from-waste/wheelabrator-lisbon"
+      },
+      "lat": 41.5843409,
+      "lon": -72.0411227
+    },
+    {
+      "type": "way",
+      "id": 912965461,
+      "center": {
+        "lat": 41.6045201,
+        "lon": -71.9820692
+      },
+      "tags": {
+        "addr:city": "Griswold",
+        "addr:housenumber": "29",
+        "addr:postcode": "06351",
+        "addr:state": "CT",
+        "addr:street": "School Street",
+        "landuse": "industrial",
+        "name": "Jewett City Power Station",
+        "operator": "Connecticut Mun Elec Engy Coop",
+        "plant:method": "combustion",
+        "plant:output:electricity": "2.6 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "57602",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2010-02"
+      },
+      "lat": 41.6045201,
+      "lon": -71.9820692
+    },
+    {
+      "type": "way",
+      "id": 915306500,
+      "center": {
+        "lat": 41.7560233,
+        "lon": -72.1841746
+      },
+      "tags": {
+        "building": "yes",
+        "plant:output:electricity": "yes",
+        "plant:source": "hydro",
+        "power": "plant"
+      },
+      "lat": 41.7560233,
+      "lon": -72.1841746
+    },
+    {
+      "type": "way",
+      "id": 915713929,
+      "center": {
+        "lat": 41.7701154,
+        "lon": -72.688073
+      },
+      "tags": {
+        "landuse": "industrial",
+        "operator": "The Hartford Insurance Group",
+        "power": "plant"
+      },
+      "lat": 41.7701154,
+      "lon": -72.688073
+    },
+    {
+      "type": "way",
+      "id": 917255641,
+      "center": {
+        "lat": 41.4786393,
+        "lon": -72.6761049
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.4786393,
+      "lon": -72.6761049
+    },
+    {
+      "type": "way",
+      "id": 919785929,
+      "center": {
+        "lat": 41.4754983,
+        "lon": -72.0678281
+      },
+      "tags": {
+        "addr:city": "Preston",
+        "addr:housenumber": "132",
+        "addr:postcode": "06365",
+        "addr:state": "CT",
+        "addr:street": "Route 12",
+        "landuse": "industrial",
+        "name": "Covanta SECONN",
+        "operator": "Covanta Southeastern Connecticut Company",
+        "plant:method": "combustion",
+        "plant:output:electricity": "18.3 MW",
+        "plant:source": "waste",
+        "power": "plant",
+        "ref:US:EIA": "10646",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "1991-12",
+        "website": "https://www.covanta.com/where-we-are/our-facilities/seconn"
+      },
+      "lat": 41.4754983,
+      "lon": -72.0678281
+    },
+    {
+      "type": "way",
+      "id": 927381616,
+      "center": {
+        "lat": 41.1554633,
+        "lon": -73.2115833
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60054"
+      },
+      "lat": 41.1554633,
+      "lon": -73.2115833
+    },
+    {
+      "type": "way",
+      "id": 928310793,
+      "center": {
+        "lat": 41.1853452,
+        "lon": -73.2345491
+      },
+      "tags": {
+        "building": "roof",
+        "layer": "2",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.1853452,
+      "lon": -73.2345491
+    },
+    {
+      "type": "way",
+      "id": 928310794,
+      "center": {
+        "lat": 41.1852253,
+        "lon": -73.2346705
+      },
+      "tags": {
+        "building": "roof",
+        "layer": "2",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.1852253,
+      "lon": -73.2346705
+    },
+    {
+      "type": "way",
+      "id": 929463000,
+      "center": {
+        "lat": 41.3327421,
+        "lon": -72.9542946
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.3327421,
+      "lon": -72.9542946
+    },
+    {
+      "type": "way",
+      "id": 929463003,
+      "center": {
+        "lat": 41.3325789,
+        "lon": -72.9546252
+      },
+      "tags": {
+        "layer": "2",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.3325789,
+      "lon": -72.9546252
+    },
+    {
+      "type": "way",
+      "id": 930416603,
+      "center": {
+        "lat": 41.6785625,
+        "lon": -71.9048721
+      },
+      "tags": {
+        "name": "Plainfield Solar 2",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.0 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "63263"
+      },
+      "lat": 41.6785625,
+      "lon": -71.9048721
+    },
+    {
+      "type": "way",
+      "id": 930416604,
+      "center": {
+        "lat": 41.677854,
+        "lon": -71.9000313
+      },
+      "tags": {
+        "name": "Plainfield Solar 1",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.0 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64370"
+      },
+      "lat": 41.677854,
+      "lon": -71.9000313
+    },
+    {
+      "type": "way",
+      "id": 931089778,
+      "center": {
+        "lat": 41.542546,
+        "lon": -72.093803
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Backus Microgrid Project",
+        "operator": "Backus Hospital",
+        "plant:method": "combustion",
+        "plant:output:electricity": "10.4 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "59415",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2014-08"
+      },
+      "lat": 41.542546,
+      "lon": -72.093803
+    },
+    {
+      "type": "way",
+      "id": 931179070,
+      "center": {
+        "lat": 41.2846494,
+        "lon": -72.9034168
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "New Haven Harbor Power Plant",
+        "operator": "PSEG Power Connecticut LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "641.5 MW",
+        "plant:source": "gas;oil",
+        "power": "plant",
+        "ref:US:EIA": "6156",
+        "source": "https://www.industryabout.com/country-territories-3/873-usa/fossil-fuels-energy/9592-new-haven-harbor-oil-power-plant;https://www.industryabout.com/country-territories-3/873-usa/fossil-fuels-energy/9591-new-haven-harbor-gas-power-plant",
+        "start_date": "1975-07",
+        "wikidata": "Q19382915"
+      },
+      "lat": 41.2846494,
+      "lon": -72.9034168
+    },
+    {
+      "type": "way",
+      "id": 931491905,
+      "center": {
+        "lat": 41.5965391,
+        "lon": -72.0503621
+      },
+      "tags": {
+        "addr:city": "Norwich",
+        "addr:housenumber": "1",
+        "addr:postcode": "06360",
+        "addr:state": "CT",
+        "addr:street": "Bridge Street",
+        "heritage": "2",
+        "heritage:operator": "nrhp",
+        "heritage:website": "https://www.nps.gov/subjects/nationalregister/index.htm",
+        "landuse": "industrial",
+        "name": "Occum Hydroelectric Plant and Dam",
+        "operator": "Norwich Public Utilities",
+        "plant:output:electricity": "yes",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:nrhp": "96001459",
+        "start_date": "1865",
+        "wikidata": "Q7075741",
+        "wikipedia": "en:Occum Hydroelectric Plant and Dam"
+      },
+      "lat": 41.5965391,
+      "lon": -72.0503621
+    },
+    {
+      "type": "way",
+      "id": 938525950,
+      "center": {
+        "lat": 41.4487774,
+        "lon": -72.8351129
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Wallingford Energy Power Plant",
+        "operator": "Wallingford Energy LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "350 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "55517",
+        "source": "http://globalenergyobservatory.org/geoid/4909",
+        "start_date": "2001-08",
+        "wikidata": "Q12010348"
+      },
+      "lat": 41.4487774,
+      "lon": -72.8351129
+    },
+    {
+      "type": "way",
+      "id": 942080872,
+      "center": {
+        "lat": 41.4484001,
+        "lon": -73.2953105
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Shepaug Power Plant",
+        "operator": "FirstLight Power Resources Services LLC",
+        "plant:output:electricity": "37.2 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "552",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1955-01"
+      },
+      "lat": 41.4484001,
+      "lon": -73.2953105
+    },
+    {
+      "type": "way",
+      "id": 942415105,
+      "center": {
+        "lat": 41.8618564,
+        "lon": -72.3099614
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.3 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "source": "https://www.journalinquirer.com/towns/tolland/town-council-oks-leases-for-solar-farms/article_62266c40-db21-11e5-88fc-7f7224ca8a82.html"
+      },
+      "lat": 41.8618564,
+      "lon": -72.3099614
+    },
+    {
+      "type": "way",
+      "id": 948226529,
+      "center": {
+        "lat": 41.6723382,
+        "lon": -72.8587876
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.6723382,
+      "lon": -72.8587876
+    },
+    {
+      "type": "way",
+      "id": 959867320,
+      "center": {
+        "lat": 41.5444036,
+        "lon": -73.0415991
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Waterbury Generation Station",
+        "operator": "Engie North America",
+        "plant:method": "combustion",
+        "plant:output:electricity": "96 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "56629",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2009-06"
+      },
+      "lat": 41.5444036,
+      "lon": -73.0415991
+    },
+    {
+      "type": "way",
+      "id": 960215502,
+      "center": {
+        "lat": 41.4485052,
+        "lon": -72.8345101
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "A L Pierce Power Plant",
+        "operator": "Connecticut Mun Elec Engy Coop",
+        "plant:method": "combustion",
+        "plant:output:electricity": "84 MW",
+        "plant:source": "oil;gas",
+        "power": "plant",
+        "ref:US:EIA": "6635",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1953-08"
+      },
+      "lat": 41.4485052,
+      "lon": -72.8345101
+    },
+    {
+      "type": "way",
+      "id": 960881535,
+      "center": {
+        "lat": 41.0371531,
+        "lon": -73.5564189
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Waterside Power Plant",
+        "operator": "Waterside Power Holdings LLC",
+        "plant:output:electricity": "69.6 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "56189",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2003-06"
+      },
+      "lat": 41.0371531,
+      "lon": -73.5564189
+    },
+    {
+      "type": "way",
+      "id": 967037747,
+      "center": {
+        "lat": 41.997241,
+        "lon": -72.2854219
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.997241,
+      "lon": -72.2854219
+    },
+    {
+      "type": "way",
+      "id": 970701714,
+      "center": {
+        "lat": 41.6421819,
+        "lon": -72.04951
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Fusion Solar Center",
+        "operator": "Fusion Solar Center, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "20 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "58876",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2018-03"
+      },
+      "lat": 41.6421819,
+      "lon": -72.04951
+    },
+    {
+      "type": "way",
+      "id": 987831665,
+      "center": {
+        "lat": 41.7999356,
+        "lon": -71.887012
+      },
+      "tags": {
+        "name": "Quinebaug Hydroelectric Project",
+        "operator": "Quinebaug Associates LLC",
+        "plant:output:electricity": "2.5 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "55860",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1990-04"
+      },
+      "lat": 41.7999356,
+      "lon": -71.887012
+    },
+    {
+      "type": "way",
+      "id": 987835687,
+      "center": {
+        "lat": 41.803669,
+        "lon": -71.886331
+      },
+      "tags": {
+        "name": "Five Mile Pond Hydroelectric Project",
+        "operator": "Quinebaug Associates LLC",
+        "plant:output:electricity": "yes",
+        "plant:source": "hydro",
+        "power": "plant"
+      },
+      "lat": 41.803669,
+      "lon": -71.886331
+    },
+    {
+      "type": "way",
+      "id": 989361697,
+      "center": {
+        "lat": 41.6749728,
+        "lon": -72.8019825
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.6749728,
+      "lon": -72.8019825
+    },
+    {
+      "type": "way",
+      "id": 989361698,
+      "center": {
+        "lat": 41.6801704,
+        "lon": -72.8014699
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.6801704,
+      "lon": -72.8014699
+    },
+    {
+      "type": "way",
+      "id": 989361699,
+      "center": {
+        "lat": 41.6847609,
+        "lon": -72.8115978
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.6847609,
+      "lon": -72.8115978
+    },
+    {
+      "type": "way",
+      "id": 994113585,
+      "center": {
+        "lat": 41.9435353,
+        "lon": -71.8952429
+      },
+      "tags": {
+        "name": "Mechanicsville Hydroelectric Project",
+        "operator": "Saywatt Hydroelectric, LLC",
+        "plant:output:electricity": "yes",
+        "plant:source": "hydro",
+        "power": "plant"
+      },
+      "lat": 41.9435353,
+      "lon": -71.8952429
+    },
+    {
+      "type": "way",
+      "id": 997053569,
+      "center": {
+        "lat": 41.5718987,
+        "lon": -72.046396
+      },
+      "tags": {
+        "name": "Taftville Generating Station",
+        "operator": "FirstLight Power",
+        "plant:output:electricity": "1.6 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "554",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1906",
+        "website": "https://www.firstlightpower.com/facilities/?location_id=352"
+      },
+      "lat": 41.5718987,
+      "lon": -72.046396
+    },
+    {
+      "type": "way",
+      "id": 1002190782,
+      "center": {
+        "lat": 41.6764001,
+        "lon": -73.508708
+      },
+      "tags": {
+        "building": "yes",
+        "layer": "1",
+        "plant:source": "hydro",
+        "power": "plant"
+      },
+      "lat": 41.6764001,
+      "lon": -73.508708
+    },
+    {
+      "type": "way",
+      "id": 1003289049,
+      "center": {
+        "lat": 41.3366724,
+        "lon": -72.9869954
+      },
+      "tags": {
+        "name": "Park Solar Facility",
+        "operator": "Ecos Energy LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "67351",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2023-12"
+      },
+      "lat": 41.3366724,
+      "lon": -72.9869954
+    },
+    {
+      "type": "way",
+      "id": 1010338596,
+      "center": {
+        "lat": 41.1867726,
+        "lon": -73.2359164
+      },
+      "tags": {
+        "building": "roof",
+        "layer": "1",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.1867726,
+      "lon": -73.2359164
+    },
+    {
+      "type": "way",
+      "id": 1010338597,
+      "center": {
+        "lat": 41.1861068,
+        "lon": -73.2351841
+      },
+      "tags": {
+        "building": "roof",
+        "layer": "1",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.1861068,
+      "lon": -73.2351841
+    },
+    {
+      "type": "way",
+      "id": 1013864691,
+      "center": {
+        "lat": 41.1487652,
+        "lon": -73.2649104
+      },
+      "tags": {
+        "building": "roof",
+        "layer": "2",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.1487652,
+      "lon": -73.2649104
+    },
+    {
+      "type": "way",
+      "id": 1013864692,
+      "center": {
+        "lat": 41.1484188,
+        "lon": -73.2647893
+      },
+      "tags": {
+        "building": "roof",
+        "layer": "2",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.1484188,
+      "lon": -73.2647893
+    },
+    {
+      "type": "way",
+      "id": 1013864693,
+      "center": {
+        "lat": 41.1477863,
+        "lon": -73.2650097
+      },
+      "tags": {
+        "building": "roof",
+        "layer": "2",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.1477863,
+      "lon": -73.2650097
+    },
+    {
+      "type": "way",
+      "id": 1013864694,
+      "center": {
+        "lat": 41.1484601,
+        "lon": -73.2643355
+      },
+      "tags": {
+        "building": "roof",
+        "layer": "2",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.1484601,
+      "lon": -73.2643355
+    },
+    {
+      "type": "way",
+      "id": 1021500957,
+      "center": {
+        "lat": 41.9708496,
+        "lon": -72.3278711
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.9708496,
+      "lon": -72.3278711
+    },
+    {
+      "type": "way",
+      "id": 1024602079,
+      "center": {
+        "lat": 41.2406639,
+        "lon": -73.2915255
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.2406639,
+      "lon": -73.2915255
+    },
+    {
+      "type": "way",
+      "id": 1031883427,
+      "center": {
+        "lat": 41.5397758,
+        "lon": -72.1233029
+      },
+      "tags": {
+        "name": "Connecticut Municipal Electric Energy Co-op",
+        "operator": "Tesla Inc.",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60228",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2016-12"
+      },
+      "lat": 41.5397758,
+      "lon": -72.1233029
+    },
+    {
+      "type": "way",
+      "id": 1032363119,
+      "center": {
+        "lat": 41.3736712,
+        "lon": -72.8268607
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.3736712,
+      "lon": -72.8268607
+    },
+    {
+      "type": "way",
+      "id": 1032366113,
+      "center": {
+        "lat": 41.61841,
+        "lon": -72.1421622
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.61841,
+      "lon": -72.1421622
+    },
+    {
+      "type": "way",
+      "id": 1036816624,
+      "center": {
+        "lat": 41.4678997,
+        "lon": -73.1500881
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.4678997,
+      "lon": -73.1500881
+    },
+    {
+      "type": "way",
+      "id": 1039478974,
+      "center": {
+        "lat": 41.5681959,
+        "lon": -72.5088832
+      },
+      "tags": {
+        "landuse": "industrial",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.5681959,
+      "lon": -72.5088832
+    },
+    {
+      "type": "way",
+      "id": 1057045236,
+      "center": {
+        "lat": 41.7850737,
+        "lon": -72.6307252
+      },
+      "tags": {
+        "layer": "1",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.7850737,
+      "lon": -72.6307252
+    },
+    {
+      "type": "way",
+      "id": 1057767144,
+      "center": {
+        "lat": 41.7914641,
+        "lon": -72.651174
+      },
+      "tags": {
+        "name": "Hartford Landfill Solar EGF",
+        "operator": "Materials Innovation Recycling Authority",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60909",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2014-06"
+      },
+      "lat": 41.7914641,
+      "lon": -72.651174
+    },
+    {
+      "type": "way",
+      "id": 1069403786,
+      "center": {
+        "lat": 41.989949,
+        "lon": -72.6600617
+      },
+      "tags": {
+        "operator": "Suffield Academy",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "600kW",
+        "plant:source": "solar",
+        "power": "plant",
+        "start_date": "2021-10-01",
+        "website": "https://dashboard-portal.solarpark-online.com//index.php?uid=1miNJq1m"
+      },
+      "lat": 41.989949,
+      "lon": -72.6600617
+    },
+    {
+      "type": "way",
+      "id": 1075629715,
+      "center": {
+        "lat": 41.7483038,
+        "lon": -72.6369096
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Pratt & Whitney",
+        "operator": "United Technologies",
+        "plant:method": "combustion",
+        "plant:output:electricity": "25.8 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "54605",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1992-01"
+      },
+      "lat": 41.7483038,
+      "lon": -72.6369096
+    },
+    {
+      "type": "way",
+      "id": 1075629725,
+      "center": {
+        "lat": 41.1692532,
+        "lon": -73.1846023
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Bridgeport Energy Project",
+        "operator": "Bridgeport Energy LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "520 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "55042",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1998-06",
+        "wikidata": "Q11962268"
+      },
+      "lat": 41.1692532,
+      "lon": -73.1846023
+    },
+    {
+      "type": "way",
+      "id": 1075629731,
+      "center": {
+        "lat": 41.2109587,
+        "lon": -73.1075804
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "GenConn Devon LLC",
+        "operator": "GenConn Devon LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "242 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "57070",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2010-06"
+      },
+      "lat": 41.2109587,
+      "lon": -73.1075804
+    },
+    {
+      "type": "way",
+      "id": 1075629732,
+      "center": {
+        "lat": 41.5541426,
+        "lon": -72.5743862
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "GenConn Middletown LLC",
+        "operator": "GenConn Middletown LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "242 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "57068",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2011-06"
+      },
+      "lat": 41.5541426,
+      "lon": -72.5743862
+    },
+    {
+      "type": "way",
+      "id": 1083319312,
+      "center": {
+        "lat": 41.8410083,
+        "lon": -72.6468989
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.8410083,
+      "lon": -72.6468989
+    },
+    {
+      "type": "way",
+      "id": 1125267864,
+      "center": {
+        "lat": 41.3812815,
+        "lon": -73.2735735
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.3812815,
+      "lon": -73.2735735
+    },
+    {
+      "type": "way",
+      "id": 1133833554,
+      "center": {
+        "lat": 41.3395718,
+        "lon": -72.9548841
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.3395718,
+      "lon": -72.9548841
+    },
+    {
+      "type": "way",
+      "id": 1134192035,
+      "center": {
+        "lat": 41.8075157,
+        "lon": -72.2613737
+      },
+      "tags": {
+        "building": "industrial",
+        "name": "UConn Supplemental Utility Plant",
+        "plant:method": "combustion",
+        "plant:output:electricity": "yes",
+        "plant:output:hot_water": "yes",
+        "plant:source": "gas",
+        "power": "plant"
+      },
+      "lat": 41.8075157,
+      "lon": -72.2613737
+    },
+    {
+      "type": "way",
+      "id": 1136250618,
+      "center": {
+        "lat": 41.7635806,
+        "lon": -72.5578361
+      },
+      "tags": {
+        "name": "Manchester Community College East",
+        "operator": "Onyx Asset Services Group",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "62639",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2018-10"
+      },
+      "lat": 41.7635806,
+      "lon": -72.5578361
+    },
+    {
+      "type": "way",
+      "id": 1136250621,
+      "center": {
+        "lat": 41.7633521,
+        "lon": -72.5635425
+      },
+      "tags": {
+        "name": "Manchester Community College North",
+        "operator": "Onyx Asset Services Group",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "62640",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2018-10"
+      },
+      "lat": 41.7633521,
+      "lon": -72.5635425
+    },
+    {
+      "type": "way",
+      "id": 1144221380,
+      "center": {
+        "lat": 41.5718484,
+        "lon": -72.4200092
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.5718484,
+      "lon": -72.4200092
+    },
+    {
+      "type": "way",
+      "id": 1147114126,
+      "center": {
+        "lat": 42.0116837,
+        "lon": -73.3463895
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.0116837,
+      "lon": -73.3463895
+    },
+    {
+      "type": "way",
+      "id": 1147114129,
+      "center": {
+        "lat": 41.9782649,
+        "lon": -72.5390553
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Powder Hill",
+        "operator": "LSE Delphinus LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "67422",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2020-12"
+      },
+      "lat": 41.9782649,
+      "lon": -72.5390553
+    },
+    {
+      "type": "way",
+      "id": 1147114130,
+      "center": {
+        "lat": 41.8807355,
+        "lon": -72.5470473
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Norcap South",
+        "operator": "LSE Coma Berenices LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "67326",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2017-12"
+      },
+      "lat": 41.8807355,
+      "lon": -72.5470473
+    },
+    {
+      "type": "way",
+      "id": 1147114131,
+      "center": {
+        "lat": 41.8846635,
+        "lon": -72.5474949
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Norcap North",
+        "operator": "LSE Canes Venatici LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "67327",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2017-12"
+      },
+      "lat": 41.8846635,
+      "lon": -72.5474949
+    },
+    {
+      "type": "way",
+      "id": 1147114132,
+      "center": {
+        "lat": 41.3980121,
+        "lon": -72.0772721
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "CMEEC - Navy NE Trident",
+        "operator": "Tesla",
+        "operator:wikidata": "Q478214",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60608",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2017-06"
+      },
+      "lat": 41.3980121,
+      "lon": -72.0772721
+    },
+    {
+      "type": "way",
+      "id": 1147114133,
+      "center": {
+        "lat": 41.4007402,
+        "lon": -72.0771307
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.4007402,
+      "lon": -72.0771307
+    },
+    {
+      "type": "way",
+      "id": 1147114134,
+      "center": {
+        "lat": 41.3889004,
+        "lon": -71.8910598
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.3889004,
+      "lon": -71.8910598
+    },
+    {
+      "type": "way",
+      "id": 1153873446,
+      "center": {
+        "lat": 41.4148285,
+        "lon": -72.2340925
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "59495"
+      },
+      "lat": 41.4148285,
+      "lon": -72.2340925
+    },
+    {
+      "type": "way",
+      "id": 1155621594,
+      "center": {
+        "lat": 41.9440015,
+        "lon": -71.8842706
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Barrett Farm Solar I",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.7 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61728"
+      },
+      "lat": 41.9440015,
+      "lon": -71.8842706
+    },
+    {
+      "type": "way",
+      "id": 1155650796,
+      "center": {
+        "lat": 41.5387463,
+        "lon": -72.1196585
+      },
+      "tags": {
+        "name": "CMEEC - Rogers Rd Solar",
+        "operator": "Tesla Inc.",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.3 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60605",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2017-02"
+      },
+      "lat": 41.5387463,
+      "lon": -72.1196585
+    },
+    {
+      "type": "way",
+      "id": 1155650797,
+      "center": {
+        "lat": 41.5421989,
+        "lon": -72.1190731
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.5421989,
+      "lon": -72.1190731
+    },
+    {
+      "type": "way",
+      "id": 1159085444,
+      "center": {
+        "lat": 42.0110148,
+        "lon": -72.514809
+      },
+      "tags": {
+        "location": "roof",
+        "name": "Advance Stores Company, Inc",
+        "operator": "Tesla Inc.",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "59788",
+        "source": "U.S. Energy Information Administration - EIA-860m - 2025",
+        "start_date": "2014-11"
+      },
+      "lat": 42.0110148,
+      "lon": -72.514809
+    },
+    {
+      "type": "way",
+      "id": 1159796680,
+      "center": {
+        "lat": 41.821437,
+        "lon": -72.5075198
+      },
+      "tags": {
+        "location": "roof",
+        "name": "Ticket Network South Windsor",
+        "operator": "Powerflex",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "63354",
+        "source": "U.S. Energy Information Administration - EIA-860m - 2025",
+        "start_date": "2018-05"
+      },
+      "lat": 41.821437,
+      "lon": -72.5075198
+    },
+    {
+      "type": "way",
+      "id": 1160046393,
+      "center": {
+        "lat": 41.8291609,
+        "lon": -73.0750524
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Torrington Solar One, LLC",
+        "operator": "DG Connecticut III, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64977",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2021-03"
+      },
+      "lat": 41.8291609,
+      "lon": -73.0750524
+    },
+    {
+      "type": "way",
+      "id": 1160046498,
+      "center": {
+        "lat": 41.6910953,
+        "lon": -72.9788837
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Bristol Solar One, LLC",
+        "operator": "DG Connecticut III, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "3 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64978",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2021-05"
+      },
+      "lat": 41.6910953,
+      "lon": -72.9788837
+    },
+    {
+      "type": "way",
+      "id": 1160080069,
+      "center": {
+        "lat": 41.8910284,
+        "lon": -72.5187118
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "East Windsor Solar One",
+        "operator": "DG Connecticut III, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "65667",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2021-12"
+      },
+      "lat": 41.8910284,
+      "lon": -72.5187118
+    },
+    {
+      "type": "way",
+      "id": 1160081311,
+      "center": {
+        "lat": 41.2562628,
+        "lon": -72.8797125
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.2562628,
+      "lon": -72.8797125
+    },
+    {
+      "type": "way",
+      "id": 1162903462,
+      "center": {
+        "lat": 41.7326767,
+        "lon": -72.9360437
+      },
+      "tags": {
+        "name": "Burlington Solar 1",
+        "operator": "DG Connecticut III, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "3.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "65784",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2022-02"
+      },
+      "lat": 41.7326767,
+      "lon": -72.9360437
+    },
+    {
+      "type": "way",
+      "id": 1162909558,
+      "center": {
+        "lat": 41.7678355,
+        "lon": -72.0774817
+      },
+      "tags": {
+        "name": "Sydney Solar",
+        "operator": "Ecos Energy LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "63244",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2020-06"
+      },
+      "lat": 41.7678355,
+      "lon": -72.0774817
+    },
+    {
+      "type": "way",
+      "id": 1162909559,
+      "center": {
+        "lat": 41.7690307,
+        "lon": -72.0795099
+      },
+      "tags": {
+        "name": "McHenry Solar",
+        "operator": "Ecos Energy LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "65353",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2021-10"
+      },
+      "lat": 41.7690307,
+      "lon": -72.0795099
+    },
+    {
+      "type": "way",
+      "id": 1163122932,
+      "center": {
+        "lat": 41.6136703,
+        "lon": -73.1508668
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Watertown Solar One, LLC",
+        "operator": "DG Connecticut III, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64979",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2021-06"
+      },
+      "lat": 41.6136703,
+      "lon": -73.1508668
+    },
+    {
+      "type": "way",
+      "id": 1164915325,
+      "center": {
+        "lat": 41.5900782,
+        "lon": -72.8500524
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "65668"
+      },
+      "lat": 41.5900782,
+      "lon": -72.8500524
+    },
+    {
+      "type": "way",
+      "id": 1169438605,
+      "center": {
+        "lat": 41.2722227,
+        "lon": -73.1221384
+      },
+      "tags": {
+        "location": "roof",
+        "name": "Emerald Gardens PKI, LLC",
+        "operator": "Emerald Gardens PKI, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.6 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "66429",
+        "source": "U.S. Energy Information Administration - EIA-860m - 2025",
+        "start_date": "2021-10"
+      },
+      "lat": 41.2722227,
+      "lon": -73.1221384
+    },
+    {
+      "type": "way",
+      "id": 1182749808,
+      "center": {
+        "lat": 42.0279154,
+        "lon": -72.4360877
+      },
+      "tags": {
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.0279154,
+      "lon": -72.4360877
+    },
+    {
+      "type": "way",
+      "id": 1182749809,
+      "center": {
+        "lat": 42.027732,
+        "lon": -72.436717
+      },
+      "tags": {
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 42.027732,
+      "lon": -72.436717
+    },
+    {
+      "type": "way",
+      "id": 1183775873,
+      "center": {
+        "lat": 41.9168774,
+        "lon": -71.8281866
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.9168774,
+      "lon": -71.8281866
+    },
+    {
+      "type": "way",
+      "id": 1200728223,
+      "center": {
+        "lat": 41.697951,
+        "lon": -73.1885873
+      },
+      "tags": {
+        "owner": "White Flower Farm",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "324 kW",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.697951,
+      "lon": -73.1885873
+    },
+    {
+      "type": "way",
+      "id": 1201520912,
+      "center": {
+        "lat": 41.7333726,
+        "lon": -72.7699815
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.7333726,
+      "lon": -72.7699815
+    },
+    {
+      "type": "way",
+      "id": 1201533774,
+      "center": {
+        "lat": 41.7996869,
+        "lon": -72.4553597
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.7996869,
+      "lon": -72.4553597
+    },
+    {
+      "type": "way",
+      "id": 1204776610,
+      "center": {
+        "lat": 41.3749959,
+        "lon": -72.0042015
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.3749959,
+      "lon": -72.0042015
+    },
+    {
+      "type": "way",
+      "id": 1205945774,
+      "center": {
+        "lat": 41.4132601,
+        "lon": -73.2858717
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.4132601,
+      "lon": -73.2858717
+    },
+    {
+      "type": "way",
+      "id": 1207259878,
+      "center": {
+        "lat": 41.8567238,
+        "lon": -72.5920424
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.8567238,
+      "lon": -72.5920424
+    },
+    {
+      "type": "way",
+      "id": 1207259883,
+      "center": {
+        "lat": 41.9291247,
+        "lon": -72.6041997
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.9291247,
+      "lon": -72.6041997
+    },
+    {
+      "type": "way",
+      "id": 1207259887,
+      "center": {
+        "lat": 41.9580457,
+        "lon": -72.6620602
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.9580457,
+      "lon": -72.6620602
+    },
+    {
+      "type": "way",
+      "id": 1207873031,
+      "center": {
+        "lat": 41.3632023,
+        "lon": -72.8739738
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.3632023,
+      "lon": -72.8739738
+    },
+    {
+      "type": "way",
+      "id": 1207873032,
+      "center": {
+        "lat": 41.3655848,
+        "lon": -72.8730609
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.3655848,
+      "lon": -72.8730609
+    },
+    {
+      "type": "way",
+      "id": 1211065875,
+      "center": {
+        "lat": 41.3790034,
+        "lon": -72.0644088
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.3790034,
+      "lon": -72.0644088
+    },
+    {
+      "type": "way",
+      "id": 1211641398,
+      "center": {
+        "lat": 41.5860168,
+        "lon": -73.0936198
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.5860168,
+      "lon": -73.0936198
+    },
+    {
+      "type": "way",
+      "id": 1212839307,
+      "center": {
+        "lat": 41.1624699,
+        "lon": -73.2086236
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Wheelabrator Bridgeport power station",
+        "operator": "Wheelabrator Environmental Systems",
+        "plant:method": "combustion",
+        "plant:output:electricity": "67 MW",
+        "plant:source": "waste",
+        "power": "plant",
+        "ref:US:EIA": "50883",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "1988-07"
+      },
+      "lat": 41.1624699,
+      "lon": -73.2086236
+    },
+    {
+      "type": "way",
+      "id": 1212899799,
+      "center": {
+        "lat": 41.8667514,
+        "lon": -72.6799907
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.8667514,
+      "lon": -72.6799907
+    },
+    {
+      "type": "way",
+      "id": 1214807803,
+      "center": {
+        "lat": 41.5758602,
+        "lon": -71.8658655
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.5758602,
+      "lon": -71.8658655
+    },
+    {
+      "type": "way",
+      "id": 1215129237,
+      "center": {
+        "lat": 41.6129626,
+        "lon": -72.0723036
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.6129626,
+      "lon": -72.0723036
+    },
+    {
+      "type": "way",
+      "id": 1215445202,
+      "center": {
+        "lat": 41.5453403,
+        "lon": -72.6646732
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.5453403,
+      "lon": -72.6646732
+    },
+    {
+      "type": "way",
+      "id": 1218595298,
+      "center": {
+        "lat": 41.6842378,
+        "lon": -72.9750546
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.6842378,
+      "lon": -72.9750546
+    },
+    {
+      "type": "way",
+      "id": 1219526752,
+      "center": {
+        "lat": 41.8685847,
+        "lon": -72.7157258
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.8685847,
+      "lon": -72.7157258
+    },
+    {
+      "type": "way",
+      "id": 1220018530,
+      "center": {
+        "lat": 41.8695838,
+        "lon": -71.9004978
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.8695838,
+      "lon": -71.9004978
+    },
+    {
+      "type": "way",
+      "id": 1220018531,
+      "center": {
+        "lat": 41.9740002,
+        "lon": -71.95473
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.9740002,
+      "lon": -71.95473
+    },
+    {
+      "type": "way",
+      "id": 1223904723,
+      "center": {
+        "lat": 41.6596766,
+        "lon": -72.7274372
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.6596766,
+      "lon": -72.7274372
+    },
+    {
+      "type": "way",
+      "id": 1225940763,
+      "center": {
+        "lat": 41.4563299,
+        "lon": -72.1682205
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.4563299,
+      "lon": -72.1682205
+    },
+    {
+      "type": "way",
+      "id": 1231714422,
+      "center": {
+        "lat": 41.7124333,
+        "lon": -72.7975177
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.7124333,
+      "lon": -72.7975177
+    },
+    {
+      "type": "way",
+      "id": 1236586864,
+      "center": {
+        "lat": 41.3360575,
+        "lon": -72.4147186
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.3360575,
+      "lon": -72.4147186
+    },
+    {
+      "type": "way",
+      "id": 1238419632,
+      "center": {
+        "lat": 41.2926166,
+        "lon": -72.7935238
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Branford Power Plant",
+        "operator": "Connecticut Jet Power LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "21.8 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "540",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "1967-11"
+      },
+      "lat": 41.2926166,
+      "lon": -72.7935238
+    },
+    {
+      "type": "way",
+      "id": 1238429969,
+      "center": {
+        "lat": 41.7762204,
+        "lon": -73.1212012
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Torrington Terminal Power Plant",
+        "operator": "Connecticut Jet Power LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "21.8 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "565",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "1967-11"
+      },
+      "lat": 41.7762204,
+      "lon": -73.1212012
+    },
+    {
+      "type": "way",
+      "id": 1238956483,
+      "center": {
+        "lat": 41.6894389,
+        "lon": -72.8609641
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.6894389,
+      "lon": -72.8609641
+    },
+    {
+      "type": "way",
+      "id": 1239662064,
+      "center": {
+        "lat": 41.4604014,
+        "lon": -72.7964113
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.4604014,
+      "lon": -72.7964113
+    },
+    {
+      "type": "way",
+      "id": 1239714035,
+      "center": {
+        "lat": 41.5230074,
+        "lon": -72.9295199
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.5230074,
+      "lon": -72.9295199
+    },
+    {
+      "type": "way",
+      "id": 1239728643,
+      "center": {
+        "lat": 41.6796441,
+        "lon": -72.7962351
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.6796441,
+      "lon": -72.7962351
+    },
+    {
+      "type": "way",
+      "id": 1239728644,
+      "center": {
+        "lat": 41.6793371,
+        "lon": -72.8001892
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.6793371,
+      "lon": -72.8001892
+    },
+    {
+      "type": "way",
+      "id": 1246172149,
+      "center": {
+        "lat": 41.3797029,
+        "lon": -72.1766727
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.3797029,
+      "lon": -72.1766727
+    },
+    {
+      "type": "way",
+      "id": 1259512976,
+      "center": {
+        "lat": 41.8895412,
+        "lon": -72.6695488
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.8895412,
+      "lon": -72.6695488
+    },
+    {
+      "type": "way",
+      "id": 1268705884,
+      "center": {
+        "lat": 41.6584702,
+        "lon": -72.7712326
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.6584702,
+      "lon": -72.7712326
+    },
+    {
+      "type": "way",
+      "id": 1270462069,
+      "center": {
+        "lat": 41.7988641,
+        "lon": -73.1162305
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Franklin Drive Power Plant",
+        "operator": "Connecticut Jet Power LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "21.8 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "561",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "1968-11"
+      },
+      "lat": 41.7988641,
+      "lon": -73.1162305
+    },
+    {
+      "type": "way",
+      "id": 1286892920,
+      "center": {
+        "lat": 41.4323644,
+        "lon": -73.0699211
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.4323644,
+      "lon": -73.0699211
+    },
+    {
+      "type": "way",
+      "id": 1332746108,
+      "center": {
+        "lat": 41.6382854,
+        "lon": -72.7451013
+      },
+      "tags": {
+        "addr:city": "Berlin",
+        "addr:postcode": "06037",
+        "addr:state": "CT",
+        "addr:street": "Deming Road",
+        "construction": "industrial",
+        "description": "1.3 MW solar farm on a capped New Britain Landfill providing enough renewable energy to the grid to power 200 homes.",
+        "fixme": "Fix boundaries and add individual solar panels when satellite imagery becomes available. Only available data is the map from the proposal. Start date is assumed to be late 2024.",
+        "name": "New Britain Landfill Solar Array",
+        "note": "Does not have an address, only identified as MBLU 10-1-82-2.",
+        "operator": "C-TEC Solar",
+        "operator:type": "private",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.3 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "source": "https://portal.ct.gov/-/media/csc/3_petitions-medialibrary/petitions_medialibrary/mediapetitionnos1501-1600/pe1551/petitionersubmissions/petition/exhibit-a---c-tec-solar-new-britain-landfill---environmental-assessment-103122.pdf",
+        "start_date": "2024",
+        "voltage": "400V"
+      },
+      "lat": 41.6382854,
+      "lon": -72.7451013
+    },
+    {
+      "type": "way",
+      "id": 1333110381,
+      "center": {
+        "lat": 41.6826741,
+        "lon": -72.9489799
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.6826741,
+      "lon": -72.9489799
+    },
+    {
+      "type": "way",
+      "id": 1361859048,
+      "center": {
+        "lat": 41.632693,
+        "lon": -73.2186252
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.632693,
+      "lon": -73.2186252
+    },
+    {
+      "type": "way",
+      "id": 1374962677,
+      "center": {
+        "lat": 41.5532271,
+        "lon": -72.7913965
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.5532271,
+      "lon": -72.7913965
+    },
+    {
+      "type": "way",
+      "id": 1392388436,
+      "center": {
+        "lat": 41.800848,
+        "lon": -72.596929
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.800848,
+      "lon": -72.596929
+    },
+    {
+      "type": "way",
+      "id": 1414168670,
+      "center": {
+        "lat": 41.5538626,
+        "lon": -72.6274334
+      },
+      "tags": {
+        "addr:city": "Middletown",
+        "addr:housenumber": "95",
+        "addr:postcode": "06457",
+        "addr:state": "CT",
+        "addr:street": "Flood Drive",
+        "building:part": "industrial",
+        "landuse": "industrial",
+        "power": "plant"
+      },
+      "lat": 41.5538626,
+      "lon": -72.6274334
+    },
+    {
+      "type": "way",
+      "id": 1420020580,
+      "center": {
+        "lat": 41.4480827,
+        "lon": -72.8347458
+      },
+      "tags": {
+        "landuse": "industrial",
+        "power": "plant"
+      },
+      "lat": 41.4480827,
+      "lon": -72.8347458
+    },
+    {
+      "type": "way",
+      "id": 1441655981,
+      "center": {
+        "lat": 41.7442659,
+        "lon": -73.2076236
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.7442659,
+      "lon": -73.2076236
+    },
+    {
+      "type": "way",
+      "id": 1441655983,
+      "center": {
+        "lat": 41.8342613,
+        "lon": -73.2257688
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.8342613,
+      "lon": -73.2257688
+    },
+    {
+      "type": "way",
+      "id": 1442918187,
+      "center": {
+        "lat": 41.7614973,
+        "lon": -72.6689375
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Hartford Steam Company Plant",
+        "operator": "Cartier Energy, LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "4 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "57179",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2009-10"
+      },
+      "lat": 41.7614973,
+      "lon": -72.6689375
+    },
+    {
+      "type": "way",
+      "id": 1454286346,
+      "center": {
+        "lat": 41.3331596,
+        "lon": -72.2768932
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.3331596,
+      "lon": -72.2768932
+    },
+    {
+      "type": "way",
+      "id": 1456353094,
+      "center": {
+        "lat": 41.5535539,
+        "lon": -72.6477272
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Middlesex Hospital Power Plant",
+        "plant:output:electricity": "yes",
+        "power": "plant"
+      },
+      "lat": 41.5535539,
+      "lon": -72.6477272
+    },
+    {
+      "type": "way",
+      "id": 1459703681,
+      "center": {
+        "lat": 41.5546208,
+        "lon": -72.0427205
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Tunnel Power Plant",
+        "operator": "FirstLight Power Resources Services LLC",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "20.5 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "557",
+        "source": "U.S. Energy Information",
+        "start_date": "1919-01"
+      },
+      "lat": 41.5546208,
+      "lon": -72.0427205
+    },
+    {
+      "type": "way",
+      "id": 1466063606,
+      "center": {
+        "lat": 41.5747067,
+        "lon": -72.6587701
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.5747067,
+      "lon": -72.6587701
+    },
+    {
+      "type": "way",
+      "id": 1467825748,
+      "center": {
+        "lat": 41.934308,
+        "lon": -73.4719631
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.934308,
+      "lon": -73.4719631
+    },
+    {
+      "type": "way",
+      "id": 1472968056,
+      "center": {
+        "lat": 41.6836272,
+        "lon": -72.8993755
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.6836272,
+      "lon": -72.8993755
+    },
+    {
+      "type": "way",
+      "id": 1498577201,
+      "center": {
+        "lat": 41.2298553,
+        "lon": -73.0233157
+      },
+      "tags": {
+        "name": "Dynamic Energy CT STAG",
+        "operator": "Milford Pepes Farm Road Solar LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "67744",
+        "start_date": "2023-08"
+      },
+      "lat": 41.2298553,
+      "lon": -73.0233157
+    },
+    {
+      "type": "way",
+      "id": 1499075500,
+      "center": {
+        "lat": 41.8307899,
+        "lon": -72.7068007
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.8307899,
+      "lon": -72.7068007
+    },
+    {
+      "type": "way",
+      "id": 1499409376,
+      "center": {
+        "lat": 41.8290522,
+        "lon": -72.6997844
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.8290522,
+      "lon": -72.6997844
+    },
+    {
+      "type": "way",
+      "id": 1499409377,
+      "center": {
+        "lat": 41.8292334,
+        "lon": -72.7017355
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 41.8292334,
+      "lon": -72.7017355
+    },
+    {
+      "type": "relation",
+      "id": 9891925,
+      "center": {
+        "lat": 41.5553599,
+        "lon": -72.598724
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Kleen Energy",
+        "operator": "NRG Energy of Connecticut",
+        "plant:method": "combustion",
+        "plant:output:electricity": "693 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "56798",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2011-07",
+        "type": "multipolygon"
+      },
+      "lat": 41.5553599,
+      "lon": -72.598724
+    },
+    {
+      "type": "relation",
+      "id": 13359849,
+      "center": {
+        "lat": 41.6651386,
+        "lon": -72.1218432
+      },
+      "tags": {
+        "name": "Scotland Dam Generating Station",
+        "operator": "FirstLight Power",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "551",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1937",
+        "type": "multipolygon",
+        "website": "https://www.firstlightpower.com/facilities/?location_id=351"
+      },
+      "lat": 41.6651386,
+      "lon": -72.1218432
+    },
+    {
+      "type": "relation",
+      "id": 14164071,
+      "center": {
+        "lat": 41.9635993,
+        "lon": -73.1454537
+      },
+      "tags": {
+        "name": "Wind Colebrook South",
+        "operator": "Wind Colebrook South",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "5 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "60700",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2015-11",
+        "type": "site"
+      },
+      "lat": 41.9635993,
+      "lon": -73.1454537
+    },
+    {
+      "type": "relation",
+      "id": 14183897,
+      "center": {
+        "lat": 42.0094815,
+        "lon": -72.6500398
+      },
+      "tags": {
+        "name": "Canis Major Solar Farm",
+        "operator": "LSE Canis Major LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61398",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2016-12",
+        "type": "multipolygon"
+      },
+      "lat": 42.0094815,
+      "lon": -72.6500398
+    },
+    {
+      "type": "relation",
+      "id": 14320043,
+      "center": {
+        "lat": 41.8323712,
+        "lon": -71.9211586
+      },
+      "tags": {
+        "description": "Solar Farm. Previous cover: Agriculture",
+        "name": "Woods Hill Solar",
+        "operator": "Woods Hill Solar, LLC",
+        "plant:output:electricity": "20 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61736",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2018-12",
+        "type": "multipolygon"
+      },
+      "lat": 41.8323712,
+      "lon": -71.9211586
+    },
+    {
+      "type": "relation",
+      "id": 15520244,
+      "center": {
+        "lat": 41.7458074,
+        "lon": -71.9350083
+      },
+      "tags": {
+        "name": "Quinebaug Solar",
+        "operator": "NextEra Energy",
+        "operator:wikidata": "Q967868",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "49 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64387",
+        "source": "https://gem.wiki/Quinebaug_Solar",
+        "start_date": "2021-12",
+        "type": "multipolygon"
+      },
+      "lat": 41.7458074,
+      "lon": -71.9350083
+    },
+    {
+      "type": "relation",
+      "id": 15520560,
+      "center": {
+        "lat": 41.9084768,
+        "lon": -72.7995045
+      },
+      "tags": {
+        "name": "Tobacco Valley Solar",
+        "operator": "Deepwater Wind",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "37 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "62657",
+        "source": "https://gem.wiki/DWW_Solar_2",
+        "start_date": "2019",
+        "type": "multipolygon"
+      },
+      "lat": 41.9084768,
+      "lon": -72.7995045
+    },
+    {
+      "type": "relation",
+      "id": 15546893,
+      "center": {
+        "lat": 41.9561084,
+        "lon": -72.4521381
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Somers Solar Center, LLC",
+        "operator": "Onward Energy",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "58554",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2013-12",
+        "type": "multipolygon"
+      },
+      "lat": 41.9561084,
+      "lon": -72.4521381
+    },
+    {
+      "type": "relation",
+      "id": 15687425,
+      "center": {
+        "lat": 41.4405663,
+        "lon": -72.8400484
+      },
+      "tags": {
+        "name": "Wallingford Solar",
+        "operator": "Wallingford Renewable Energy, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "16.1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64559",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2021-09",
+        "type": "multipolygon"
+      },
+      "lat": 41.4405663,
+      "lon": -72.8400484
+    },
+    {
+      "type": "relation",
+      "id": 15687439,
+      "center": {
+        "lat": 41.6443685,
+        "lon": -72.7399406
+      },
+      "tags": {
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Corbin Russwin Phase 3 Berlin",
+        "operator": "EnterSolar",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "63358",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2018-04",
+        "type": "multipolygon"
+      },
+      "lat": 41.6443685,
+      "lon": -72.7399406
+    },
+    {
+      "type": "relation",
+      "id": 15711072,
+      "center": {
+        "lat": 41.5923865,
+        "lon": -72.7187572
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant",
+        "type": "multipolygon"
+      },
+      "lat": 41.5923865,
+      "lon": -72.7187572
+    },
+    {
+      "type": "relation",
+      "id": 15728326,
+      "center": {
+        "lat": 41.8604473,
+        "lon": -72.7237914
+      },
+      "tags": {
+        "name": "Niagara Bottling - Bloomfield",
+        "operator": "Westbound Solar 3, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2.8 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "66201",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2022-11",
+        "type": "multipolygon"
+      },
+      "lat": 41.8604473,
+      "lon": -72.7237914
+    },
+    {
+      "type": "relation",
+      "id": 15728845,
+      "center": {
+        "lat": 41.4188661,
+        "lon": -71.8325129
+      },
+      "tags": {
+        "name": "North Stonington Solar Center, LLC",
+        "operator": "Adapture Renewables, Inc.",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "15 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "62318",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2022-10",
+        "type": "multipolygon"
+      },
+      "lat": 41.4188661,
+      "lon": -71.8325129
+    },
+    {
+      "type": "relation",
+      "id": 16731832,
+      "center": {
+        "lat": 41.6561596,
+        "lon": -72.1608704
+      },
+      "tags": {
+        "operator": "Ecos Energy LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "62021;62023;62024;62025;62026",
+        "source": "U.S. Energy Information Administration - EIA-860m - 2025",
+        "start_date": "2018-01",
+        "type": "multipolygon"
+      },
+      "lat": 41.6561596,
+      "lon": -72.1608704
+    },
+    {
+      "type": "relation",
+      "id": 17207546,
+      "center": {
+        "lat": 41.9232645,
+        "lon": -72.6258684
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Algonquin Windsor Locks Power Plant",
+        "operator": "Algonquin Windsor Locks LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "71 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "10567",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "1990-01",
+        "type": "multipolygon"
+      },
+      "lat": 41.9232645,
+      "lon": -72.6258684
+    },
+    {
+      "type": "relation",
+      "id": 17393689,
+      "center": {
+        "lat": 41.5786023,
+        "lon": -72.1037673
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "CMEEC - Norwich Stott St Solar Hybrid",
+        "operator": "Tesla",
+        "operator:wikidata": "Q478214",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "4.3 MW",
+        "plant:source": "solar;battery",
+        "power": "plant",
+        "ref:US:EIA": "60609",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2016-12",
+        "type": "multipolygon"
+      },
+      "lat": 41.5786023,
+      "lon": -72.1037673
+    },
+    {
+      "type": "relation",
+      "id": 17393745,
+      "center": {
+        "lat": 41.9741412,
+        "lon": -72.5102183
+      },
+      "tags": {
+        "name": "Nutmeg Solar",
+        "operator": "Nutmeg Solar LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "19.6 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "63592",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2020-12",
+        "type": "multipolygon"
+      },
+      "lat": 41.9741412,
+      "lon": -72.5102183
+    },
+    {
+      "type": "relation",
+      "id": 19215349,
+      "center": {
+        "lat": 41.5548481,
+        "lon": -72.578186
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Middletown Complex",
+        "power": "plant",
+        "type": "multipolygon"
+      },
+      "lat": 41.5548481,
+      "lon": -72.578186
+    }
+  ]
+}

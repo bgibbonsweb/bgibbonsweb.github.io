@@ -1,0 +1,1454 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-04-24T20:51:16Z",
+    "timestamp_areas_base": "2026-04-24T15:53:36Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "way",
+      "id": 30429359,
+      "center": {
+        "lat": 38.7790307,
+        "lon": -84.9639405
+      },
+      "tags": {
+        "name": "Markland Hydro Station",
+        "operator": "Duke Energy",
+        "operator:wikidata": "Q1264404",
+        "plant:output:electricity": "77.7 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "1005",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1967-01",
+        "website": "https://www.duke-energy.com/power-plants/hydro/markland.asp",
+        "wikidata": "Q6771090"
+      },
+      "lat": 38.7790307,
+      "lon": -84.9639405
+    },
+    {
+      "type": "way",
+      "id": 62382201,
+      "center": {
+        "lat": 38.0517507,
+        "lon": -85.9066604
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Mill Creek Generating Station",
+        "operator": "Louisville Gas & Electric Co",
+        "plant:method": "combustion",
+        "plant:output:electricity": "1717.2 MW",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "1364",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1972-08",
+        "wikidata": "Q6858279"
+      },
+      "lat": 38.0517507,
+      "lon": -85.9066604
+    },
+    {
+      "type": "way",
+      "id": 106547618,
+      "center": {
+        "lat": 37.0290375,
+        "lon": -88.3962233
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Marshall Energy Facility",
+        "operator": "Tennessee Valley Authority",
+        "operator:short": "TVA",
+        "operator:wikidata": "Q1367577",
+        "plant:method": "combustion",
+        "plant:output:electricity": "621 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "55232",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2002-06",
+        "wikidata": "Q19381111"
+      },
+      "lat": 37.0290375,
+      "lon": -88.3962233
+    },
+    {
+      "type": "way",
+      "id": 144178065,
+      "center": {
+        "lat": 38.5856201,
+        "lon": -85.4131022
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Trimble County Generating Station",
+        "operator": "Louisville Gas & Electric",
+        "owner": "E.ON",
+        "plant:method": "combustion",
+        "plant:output:electricity": "2594.1 MW",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "6071",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1990-12",
+        "wikidata": "Q7842146"
+      },
+      "lat": 38.5856201,
+      "lon": -85.4131022
+    },
+    {
+      "type": "way",
+      "id": 155747570,
+      "center": {
+        "lat": 36.9614858,
+        "lon": -84.2702868
+      },
+      "tags": {
+        "name": "Laurel River Dam",
+        "operator": "United States Army Corps of Engineers",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "70 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "6171",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1977-11",
+        "wikidata": "Q65211420"
+      },
+      "lat": 36.9614858,
+      "lon": -84.2702868
+    },
+    {
+      "type": "way",
+      "id": 155925559,
+      "center": {
+        "lat": 37.7863792,
+        "lon": -84.7027269
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Dix Dam Generating Station",
+        "operator": "Kentucky Utilities Company",
+        "plant:output:electricity": "28.2 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "1354",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1924",
+        "website": "https://lge-ku.com/our-company/community/neighbor-neighbor/dix-dam-generating-station"
+      },
+      "lat": 37.7863792,
+      "lon": -84.7027269
+    },
+    {
+      "type": "way",
+      "id": 155925563,
+      "center": {
+        "lat": 38.0793823,
+        "lon": -84.5191734
+      },
+      "tags": {
+        "alt_name": "Haefling Peaking Station",
+        "landuse": "industrial",
+        "name": "Haefling Generating Station",
+        "operator": "Kentucky Utilities Company",
+        "plant:method": "combustion",
+        "plant:output:electricity": "41.4 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "1358",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1970-10"
+      },
+      "lat": 38.0793823,
+      "lon": -84.5191734
+    },
+    {
+      "type": "way",
+      "id": 155925587,
+      "center": {
+        "lat": 38.7497398,
+        "lon": -85.0345126
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Ghent Generating Station",
+        "operator": "Kentucky Utilities Company",
+        "plant:method": "combustion",
+        "plant:output:electricity": "2225.9 MW",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "1356",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1974-02",
+        "wikidata": "Q5556231"
+      },
+      "lat": 38.7497398,
+      "lon": -85.0345126
+    },
+    {
+      "type": "way",
+      "id": 157842436,
+      "center": {
+        "lat": 38.1730704,
+        "lon": -82.618859
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Big Sandy Plant",
+        "operator": "Kentucky Power Company",
+        "plant:method": "combustion",
+        "plant:output:electricity": "280.5 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "1353",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1963-01",
+        "wikidata": "Q4906286"
+      },
+      "lat": 38.1730704,
+      "lon": -82.618859
+    },
+    {
+      "type": "way",
+      "id": 157842443,
+      "center": {
+        "lat": 37.4479849,
+        "lon": -87.0803033
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "D.B. Wilson Station",
+        "operator": "Big Rivers Electric Corp",
+        "plant:method": "combustion",
+        "plant:output:electricity": "509.4 MW",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "6823",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1984-09",
+        "wikidata": "Q5203360",
+        "wikipedia": "en:D.B. Wilson Generating Station"
+      },
+      "lat": 37.4479849,
+      "lon": -87.0803033
+    },
+    {
+      "type": "way",
+      "id": 157842498,
+      "center": {
+        "lat": 38.1917559,
+        "lon": -82.6044064
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Riverside Generating",
+        "operator": "Riverside Generating LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "1150 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "55198",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2001-07",
+        "wikidata": "Q11998012"
+      },
+      "lat": 38.1917559,
+      "lon": -82.6044064
+    },
+    {
+      "type": "way",
+      "id": 314393015,
+      "center": {
+        "lat": 38.3441185,
+        "lon": -82.594232
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Big Sandy Peaker Plant",
+        "operator": "Middle River Power II LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "353.4 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "55284",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2001-07",
+        "wikidata": "Q17750353"
+      },
+      "lat": 38.3441185,
+      "lon": -82.594232
+    },
+    {
+      "type": "way",
+      "id": 346164606,
+      "center": {
+        "lat": 37.0258788,
+        "lon": -86.3337537
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 37.0258788,
+      "lon": -86.3337537
+    },
+    {
+      "type": "way",
+      "id": 346164607,
+      "center": {
+        "lat": 37.030839,
+        "lon": -86.3335337
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 37.030839,
+      "lon": -86.3335337
+    },
+    {
+      "type": "way",
+      "id": 449254194,
+      "center": {
+        "lat": 37.7904082,
+        "lon": -84.7157868
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "E.W. Brown Generating Station",
+        "operator": "Kentucky Utilities Company",
+        "plant:output:electricity": "1457.6 MW",
+        "plant:source": "gas;coal",
+        "power": "plant",
+        "ref:US:EIA": "1355",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1957-05",
+        "wikidata": "Q5322201",
+        "wikipedia": "en:E. W. Brown Generating Station"
+      },
+      "lat": 37.7904082,
+      "lon": -84.7157868
+    },
+    {
+      "type": "way",
+      "id": 595436320,
+      "center": {
+        "lat": 37.0095268,
+        "lon": -86.3589093
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 37.0095268,
+      "lon": -86.3589093
+    },
+    {
+      "type": "way",
+      "id": 602285071,
+      "center": {
+        "lat": 37.2693103,
+        "lon": -86.986476
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "TVA Paradise Combined Cycle Plant",
+        "operator": "Tennessee Valley Authority",
+        "operator:short": "TVA",
+        "operator:wikidata": "Q1367577",
+        "plant:method": "combustion",
+        "plant:output:electricity": "1150 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "1378",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019;https://www.gem.wiki/Paradise_Fossil_Plant",
+        "start_date": "2017-04"
+      },
+      "lat": 37.2693103,
+      "lon": -86.986476
+    },
+    {
+      "type": "way",
+      "id": 665251938,
+      "center": {
+        "lat": 38.3903588,
+        "lon": -85.4135023
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Bluegrass Generating Station",
+        "operator": "East Kentucky Power Cooperative",
+        "plant:method": "combustion",
+        "plant:output:electricity": "624 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "55164",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2002-06",
+        "wikidata": "Q11961643"
+      },
+      "lat": 38.3903588,
+      "lon": -85.4135023
+    },
+    {
+      "type": "way",
+      "id": 712110423,
+      "center": {
+        "lat": 36.9975615,
+        "lon": -84.5900219
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Cooper Power Plant",
+        "operator": "East Kentucky Power Cooperative",
+        "plant:method": "combustion",
+        "plant:output:electricity": "344 MW",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "1384",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1965-02",
+        "wikidata": "Q6257643"
+      },
+      "lat": 36.9975615,
+      "lon": -84.5900219
+    },
+    {
+      "type": "way",
+      "id": 723324515,
+      "center": {
+        "lat": 37.8840076,
+        "lon": -84.1024554
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "JK Smith Generating Station",
+        "operator": "East Kentucky Power Cooperative",
+        "plant:method": "combustion",
+        "plant:output:electricity": "1055 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "54",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1999-01",
+        "wikidata": "Q11977777"
+      },
+      "lat": 37.8840076,
+      "lon": -84.1024554
+    },
+    {
+      "type": "way",
+      "id": 791114685,
+      "center": {
+        "lat": 38.7521381,
+        "lon": -84.6109476
+      },
+      "tags": {
+        "addr:street": "Ruark Road",
+        "name": "Crittenden Solar Power Plant",
+        "operator": "Duke Energy",
+        "operator:type": "private_for_profit",
+        "operator:wikidata": "Q1264404",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2.7 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61310",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2017-12"
+      },
+      "lat": 38.7521381,
+      "lon": -84.6109476
+    },
+    {
+      "type": "way",
+      "id": 820090401,
+      "center": {
+        "lat": 38.1821314,
+        "lon": -85.8835394
+      },
+      "tags": {
+        "addr:city": "Louisville",
+        "addr:housenumber": "5252",
+        "addr:postcode": "40216",
+        "addr:state": "KY",
+        "addr:street": "Cane Run Road",
+        "name": "Cane Run Unit 7",
+        "operator": "Louisville Gas and Electric Company",
+        "plant:method": "combustion",
+        "plant:output:electricity": "807 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "1363",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2015",
+        "wikidata": "Q5032215"
+      },
+      "lat": 38.1821314,
+      "lon": -85.8835394
+    },
+    {
+      "type": "way",
+      "id": 820090415,
+      "center": {
+        "lat": 38.2209879,
+        "lon": -85.8447611
+      },
+      "tags": {
+        "addr:city": "Louisville",
+        "addr:housenumber": "4512",
+        "addr:postcode": "40211",
+        "addr:state": "KY",
+        "addr:street": "Bells Lane",
+        "landuse": "industrial",
+        "name": "Paddys Run Power Plant",
+        "operator": "Louisville Gas and Electric Company",
+        "plant:method": "combustion",
+        "plant:output:electricity": "210.6 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "1366",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1968-06"
+      },
+      "lat": 38.2209879,
+      "lon": -85.8447611
+    },
+    {
+      "type": "way",
+      "id": 825092280,
+      "center": {
+        "lat": 37.776176,
+        "lon": -84.7193511
+      },
+      "tags": {
+        "name": "E.W. Brown Solar Facility",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "13 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "1355",
+        "start_date": "2016-06"
+      },
+      "lat": 37.776176,
+      "lon": -84.7193511
+    },
+    {
+      "type": "way",
+      "id": 829801933,
+      "center": {
+        "lat": 38.2167164,
+        "lon": -85.3883968
+      },
+      "tags": {
+        "name": "LG&E-KU Solar Share Facility",
+        "operator": "Kentucky Utilities Co",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.7 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "65406",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2019-07"
+      },
+      "lat": 38.2167164,
+      "lon": -85.3883968
+    },
+    {
+      "type": "way",
+      "id": 839756144,
+      "center": {
+        "lat": 37.9162222,
+        "lon": -85.9340184
+      },
+      "tags": {
+        "barrier": "fence",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 37.9162222,
+      "lon": -85.9340184
+    },
+    {
+      "type": "way",
+      "id": 844894269,
+      "center": {
+        "lat": 38.0288208,
+        "lon": -84.2528254
+      },
+      "tags": {
+        "name": "Cooperative Solar One",
+        "operator": "East Kentucky Power Coop, Inc",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "8.5 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "60863",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2017-11"
+      },
+      "lat": 38.0288208,
+      "lon": -84.2528254
+    },
+    {
+      "type": "way",
+      "id": 844894279,
+      "center": {
+        "lat": 37.7391382,
+        "lon": -83.9803371
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Blue Ridge Generating Facility",
+        "operator": "North American Biofuels, LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "1.6 MW",
+        "plant:source": "biogas",
+        "power": "plant",
+        "ref:US:EIA": "59392",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2013-11",
+        "website": "http://www.nanr.net/blue-ridge"
+      },
+      "lat": 37.7391382,
+      "lon": -83.9803371
+    },
+    {
+      "type": "way",
+      "id": 845261542,
+      "center": {
+        "lat": 38.204582,
+        "lon": -84.2385901
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "City of Paris Power Plant",
+        "operator": "City of Paris",
+        "plant:method": "combustion",
+        "plant:output:electricity": "11.5 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "1376",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1934-12",
+        "website": "https://www.paris.ky.gov/PowerPlant.aspx"
+      },
+      "lat": 38.204582,
+      "lon": -84.2385901
+    },
+    {
+      "type": "way",
+      "id": 845476243,
+      "center": {
+        "lat": 37.8299104,
+        "lon": -84.7249538
+      },
+      "tags": {
+        "name": "Mother Ann Lee Hydroelectric Station",
+        "operator": "Lock 7 Hydro Partners LLC",
+        "plant:output:electricity": "2.1 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "1359",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2007"
+      },
+      "lat": 37.8299104,
+      "lon": -84.7249538
+    },
+    {
+      "type": "way",
+      "id": 845516153,
+      "center": {
+        "lat": 36.8705189,
+        "lon": -85.1461834
+      },
+      "tags": {
+        "name": "Wolf Creek Hydroelectric Power Plant",
+        "operator": "United States Army Corps of Engineers",
+        "plant:output:electricity": "270 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "1380",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1951-10",
+        "wikidata": "Q8029823"
+      },
+      "lat": 36.8705189,
+      "lon": -85.1461834
+    },
+    {
+      "type": "way",
+      "id": 847835435,
+      "center": {
+        "lat": 37.0213808,
+        "lon": -88.2214885
+      },
+      "tags": {
+        "name": "Barkley Power Plant",
+        "operator": "United States Army Corps of Engineers",
+        "plant:output:electricity": "130 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "1371",
+        "start_date": "1966",
+        "wikidata": "Q4861078"
+      },
+      "lat": 37.0213808,
+      "lon": -88.2214885
+    },
+    {
+      "type": "way",
+      "id": 849056166,
+      "center": {
+        "lat": 36.6414249,
+        "lon": -87.4741954
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Fort Campbell Solar #1",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.9 MW",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 36.6414249,
+      "lon": -87.4741954
+    },
+    {
+      "type": "way",
+      "id": 849056167,
+      "center": {
+        "lat": 36.6437076,
+        "lon": -87.4737293
+      },
+      "tags": {
+        "barrier": "fence",
+        "name": "Fort Campbell Solar #2",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "3.1 MW",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 36.6437076,
+      "lon": -87.4737293
+    },
+    {
+      "type": "way",
+      "id": 854398877,
+      "center": {
+        "lat": 37.8948718,
+        "lon": -86.7007756
+      },
+      "tags": {
+        "building": "yes",
+        "name": "Cannelton Hydroelectric Plant",
+        "operator": "American Municipal Power, Inc.",
+        "plant:output:electricity": "87.9 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "57399",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2016",
+        "website": "https://www.amppartners.org/generation/hydro/cannelton-hydro-project",
+        "wikidata": "Q65209181"
+      },
+      "lat": 37.8948718,
+      "lon": -86.7007756
+    },
+    {
+      "type": "way",
+      "id": 864879693,
+      "center": {
+        "lat": 37.169819,
+        "lon": -88.41928
+      },
+      "tags": {
+        "name": "Smithland Hydroelectric Plant",
+        "operator": "American Mun Power-Ohio, Inc",
+        "plant:output:electricity": "75.9 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "57400",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2017-07",
+        "wikidata": "Q65209191"
+      },
+      "lat": 37.169819,
+      "lon": -88.41928
+    },
+    {
+      "type": "way",
+      "id": 864879695,
+      "center": {
+        "lat": 37.0338376,
+        "lon": -88.6159848
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "PPS Power Plant #1",
+        "operator": "Paducah Power System",
+        "plant:method": "combustion",
+        "plant:output:electricity": "120 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "56556",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2019",
+        "start_date": "2010-06"
+      },
+      "lat": 37.0338376,
+      "lon": -88.6159848
+    },
+    {
+      "type": "way",
+      "id": 883624245,
+      "center": {
+        "lat": 38.8505359,
+        "lon": -84.592281
+      },
+      "tags": {
+        "name": "Duke Energy Kenton County Solar Park",
+        "operator": "Duke Energy",
+        "operator:wikidata": "Q1264404",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "4 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61311;61312",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2017-12"
+      },
+      "lat": 38.8505359,
+      "lon": -84.592281
+    },
+    {
+      "type": "way",
+      "id": 885929207,
+      "center": {
+        "lat": 38.345262,
+        "lon": -84.5486092
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Green City Recovery, LLC",
+        "operator": "Green City Recovery, LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "biogas",
+        "power": "plant",
+        "ref:US:EIA": "60703",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2016-01"
+      },
+      "lat": 38.345262,
+      "lon": -84.5486092
+    },
+    {
+      "type": "way",
+      "id": 969665259,
+      "center": {
+        "lat": 36.8818956,
+        "lon": -88.6785988
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "TVA Tennessee Valley Authority",
+        "power": "plant"
+      },
+      "lat": 36.8818956,
+      "lon": -88.6785988
+    },
+    {
+      "type": "way",
+      "id": 969665260,
+      "center": {
+        "lat": 36.8823877,
+        "lon": -88.6787196
+      },
+      "tags": {
+        "landuse": "industrial",
+        "power": "plant"
+      },
+      "lat": 36.8823877,
+      "lon": -88.6787196
+    },
+    {
+      "type": "way",
+      "id": 1014439227,
+      "center": {
+        "lat": 36.7214147,
+        "lon": -85.6910058
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 36.7214147,
+      "lon": -85.6910058
+    },
+    {
+      "type": "way",
+      "id": 1059983269,
+      "center": {
+        "lat": 38.7913994,
+        "lon": -84.1728361
+      },
+      "tags": {
+        "name": "Meldahl Hydroelectric Project",
+        "operator": "City of Hamilton - (OH)",
+        "plant:output:electricity": "105 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "56872",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2016-01",
+        "wikidata": "Q5036546"
+      },
+      "lat": 38.7913994,
+      "lon": -84.1728361
+    },
+    {
+      "type": "way",
+      "id": 1071388221,
+      "center": {
+        "lat": 38.8615328,
+        "lon": -84.655616
+      },
+      "tags": {
+        "name": "Bavarian LFGTE",
+        "operator": "East Kentucky Power Coop, Inc",
+        "plant:output:electricity": "4.8 MW",
+        "plant:source": "biogas",
+        "power": "plant",
+        "ref:US:EIA": "56277",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2003-09"
+      },
+      "lat": 38.8615328,
+      "lon": -84.655616
+    },
+    {
+      "type": "way",
+      "id": 1071388222,
+      "center": {
+        "lat": 38.7342654,
+        "lon": -84.405922
+      },
+      "tags": {
+        "name": "Pendleton County LFGTE",
+        "operator": "East Kentucky Power Coop, Inc",
+        "plant:output:electricity": "3.2 MW",
+        "plant:source": "biogas",
+        "power": "plant",
+        "ref:US:EIA": "56327",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2007-02"
+      },
+      "lat": 38.7342654,
+      "lon": -84.405922
+    },
+    {
+      "type": "way",
+      "id": 1083014872,
+      "center": {
+        "lat": 37.894725,
+        "lon": -86.6850713
+      },
+      "tags": {
+        "fixme": "position",
+        "landuse": "industrial",
+        "name": "Kentucky Mills Power Station",
+        "operator": "Domtar Paper Company LLC",
+        "plant:output:electricity": "88 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "biomass",
+        "power": "plant",
+        "ref:US:EIA": "55429",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2001-06"
+      },
+      "lat": 37.894725,
+      "lon": -86.6850713
+    },
+    {
+      "type": "way",
+      "id": 1084949692,
+      "center": {
+        "lat": 38.647539,
+        "lon": -82.8564297
+      },
+      "tags": {
+        "name": "Greenup Hydro",
+        "operator": "City of Hamilton - (OH)",
+        "plant:output:electricity": "70.2 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "4258",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1982-12",
+        "wikidata": "Q65209586"
+      },
+      "lat": 38.647539,
+      "lon": -82.8564297
+    },
+    {
+      "type": "way",
+      "id": 1084949695,
+      "center": {
+        "lat": 38.5962332,
+        "lon": -82.8302099
+      },
+      "tags": {
+        "name": "Haverhill North Cogeneration Facility",
+        "operator": "SunCoke Energy, Inc.",
+        "plant:output:electricity": "67 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "56848",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2008-12"
+      },
+      "lat": 38.5962332,
+      "lon": -82.8302099
+    },
+    {
+      "type": "way",
+      "id": 1149157940,
+      "center": {
+        "lat": 38.0708309,
+        "lon": -84.488856
+      },
+      "tags": {
+        "barrier": "fence",
+        "operator": "Lexmark",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 38.0708309,
+      "lon": -84.488856
+    },
+    {
+      "type": "way",
+      "id": 1169677419,
+      "center": {
+        "lat": 39.0308396,
+        "lon": -84.6599631
+      },
+      "tags": {
+        "location": "roof",
+        "name": "Aero Solar Facility",
+        "operator": "Duke Energy Kentucky Inc",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "65027",
+        "source": "U.S. Energy Information Administration - EIA-860m - 2025",
+        "start_date": "2023-03"
+      },
+      "lat": 39.0308396,
+      "lon": -84.6599631
+    },
+    {
+      "type": "way",
+      "id": 1215610824,
+      "center": {
+        "lat": 38.3867603,
+        "lon": -85.5992181
+      },
+      "tags": {
+        "landuse": "industrial",
+        "power": "plant"
+      },
+      "lat": 38.3867603,
+      "lon": -85.5992181
+    },
+    {
+      "type": "way",
+      "id": 1228950299,
+      "center": {
+        "lat": 37.0479786,
+        "lon": -88.3533071
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Calvert City Power Plant",
+        "operator": "DTE Calvert City LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "26.7 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "55308",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2000-04"
+      },
+      "lat": 37.0479786,
+      "lon": -88.3533071
+    },
+    {
+      "type": "way",
+      "id": 1248315180,
+      "center": {
+        "lat": 37.8853619,
+        "lon": -83.2701414
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 37.8853619,
+      "lon": -83.2701414
+    },
+    {
+      "type": "way",
+      "id": 1270465455,
+      "center": {
+        "lat": 37.6458102,
+        "lon": -87.5005017
+      },
+      "tags": {
+        "name": "R D Green Power Station",
+        "operator": "Big Rivers Electric Corp",
+        "plant:method": "combustion",
+        "plant:output:electricity": "586 MW",
+        "plant:source": "gas;coal",
+        "power": "plant",
+        "ref:US:EIA": "6639",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "1979-12"
+      },
+      "lat": 37.6458102,
+      "lon": -87.5005017
+    },
+    {
+      "type": "way",
+      "id": 1272518186,
+      "center": {
+        "lat": 37.7189886,
+        "lon": -85.7258819
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Hardin County LFGTE",
+        "operator": "East Kentucky Power Cooperative, Inc.",
+        "plant:method": "combustion",
+        "plant:output:electricity": "2.4 MW",
+        "plant:source": "biogas",
+        "power": "plant",
+        "ref:US:EIA": "56280"
+      },
+      "lat": 37.7189886,
+      "lon": -85.7258819
+    },
+    {
+      "type": "way",
+      "id": 1284578258,
+      "center": {
+        "lat": 38.4316555,
+        "lon": -82.6996005
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 38.4316555,
+      "lon": -82.6996005
+    },
+    {
+      "type": "way",
+      "id": 1289182991,
+      "center": {
+        "lat": 37.7528202,
+        "lon": -87.1758757
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 37.7528202,
+      "lon": -87.1758757
+    },
+    {
+      "type": "way",
+      "id": 1332457433,
+      "center": {
+        "lat": 38.3015726,
+        "lon": -85.6613786
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 38.3015726,
+      "lon": -85.6613786
+    },
+    {
+      "type": "way",
+      "id": 1354195288,
+      "center": {
+        "lat": 36.8385889,
+        "lon": -87.4497434
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 36.8385889,
+      "lon": -87.4497434
+    },
+    {
+      "type": "way",
+      "id": 1362059058,
+      "center": {
+        "lat": 37.0688223,
+        "lon": -88.7680283
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 37.0688223,
+      "lon": -88.7680283
+    },
+    {
+      "type": "way",
+      "id": 1363177663,
+      "center": {
+        "lat": 37.6505464,
+        "lon": -87.5156669
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 37.6505464,
+      "lon": -87.5156669
+    },
+    {
+      "type": "way",
+      "id": 1383593646,
+      "center": {
+        "lat": 38.2460212,
+        "lon": -84.5308113
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 38.2460212,
+      "lon": -84.5308113
+    },
+    {
+      "type": "way",
+      "id": 1490589067,
+      "center": {
+        "lat": 38.1244691,
+        "lon": -82.6933418
+      },
+      "tags": {
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "lat": 38.1244691,
+      "lon": -82.6933418
+    },
+    {
+      "type": "relation",
+      "id": 11587204,
+      "center": {
+        "lat": 37.013583,
+        "lon": -88.2689294
+      },
+      "tags": {
+        "building": "yes",
+        "landuse": "industrial",
+        "name": "Kentucky Dam Powerhouse",
+        "operator": "Tennessee Valley Authority",
+        "operator:short": "TVA",
+        "operator:wikidata": "Q1367577",
+        "plant:output:electricity": "184 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "1377",
+        "start_date": "1944-09",
+        "type": "multipolygon",
+        "wikidata": "Q4027234"
+      },
+      "lat": 37.013583,
+      "lon": -88.2689294
+    },
+    {
+      "type": "relation",
+      "id": 14411540,
+      "center": {
+        "lat": 37.6462815,
+        "lon": -87.502623
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "Robert Reid Power Station",
+        "operator": "Big Rivers Electric Corp",
+        "plant:method": "combustion",
+        "plant:output:electricity": "98.8 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "1383",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "1966-01",
+        "type": "multipolygon"
+      },
+      "lat": 37.6462815,
+      "lon": -87.502623
+    },
+    {
+      "type": "relation",
+      "id": 15682950,
+      "center": {
+        "lat": 38.9878386,
+        "lon": -84.6082025
+      },
+      "tags": {
+        "name": "L'Oreal Solar - Florence",
+        "operator": "L'Oreal USA Products Inc",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.1 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "61744",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2017-07",
+        "type": "multipolygon"
+      },
+      "lat": 38.9878386,
+      "lon": -84.6082025
+    },
+    {
+      "type": "relation",
+      "id": 15710460,
+      "center": {
+        "lat": 37.5908541,
+        "lon": -84.5786862
+      },
+      "tags": {
+        "name": "SR Turkey Creek, LLC",
+        "operator": "SR Turkey Creek, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "50 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "64842",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2022-11",
+        "type": "multipolygon"
+      },
+      "lat": 37.5908541,
+      "lon": -84.5786862
+    },
+    {
+      "type": "relation",
+      "id": 17673773,
+      "center": {
+        "lat": 37.2629443,
+        "lon": -86.9823852
+      },
+      "tags": {
+        "landuse": "industrial",
+        "name": "TVA Paradise",
+        "operator": "Tennessee Valley Authority",
+        "operator:short": "TVA",
+        "operator:wikidata": "Q1367577",
+        "power": "plant",
+        "source": "https://www.gem.wiki/Paradise_Fossil_Plant",
+        "type": "multipolygon"
+      },
+      "lat": 37.2629443,
+      "lon": -86.9823852
+    },
+    {
+      "type": "relation",
+      "id": 20049746,
+      "center": {
+        "lat": 36.792471,
+        "lon": -86.9363661
+      },
+      "tags": {
+        "name": "SR Russellville",
+        "operator": "SR Russellville, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "173 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "66818",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2024-09",
+        "type": "multipolygon"
+      },
+      "lat": 36.792471,
+      "lon": -86.9363661
+    },
+    {
+      "type": "relation",
+      "id": 20083768,
+      "center": {
+        "lat": 37.759001,
+        "lon": -82.4681533
+      },
+      "tags": {
+        "name": "Martin County Solar Project",
+        "operator": "Martin County Solar Project, LLC",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "111 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "ref:US:EIA": "66646",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2024",
+        "start_date": "2024-12",
+        "type": "multipolygon"
+      },
+      "lat": 37.759001,
+      "lon": -82.4681533
+    }
+  ]
+}
