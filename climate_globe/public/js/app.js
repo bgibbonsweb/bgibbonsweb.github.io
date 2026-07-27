@@ -103,7 +103,6 @@ const snapshotContent = document.getElementById('snapshotContent');
 const co2Ribbon = document.getElementById('co2Ribbon');
 const co2RibbonTrack = document.getElementById('co2RibbonTrack');
 const co2RibbonTooltip = document.getElementById('co2RibbonTooltip');
-const co2RibbonLabels = document.getElementById('co2RibbonLabels');
 const thermalToggleBtn = document.getElementById('thermalToggleBtn');
 const sourcesOpenBtn = document.getElementById('sourcesOpenBtn');
 const sourcesModal = document.getElementById('sourcesModal');
@@ -112,7 +111,6 @@ const sourcesCloseBtn = document.getElementById('sourcesCloseBtn');
 const dockTabs = document.getElementById('dockTabs');
 const chartEmpty = document.getElementById('chartEmpty');
 const snapshotEmpty = document.getElementById('snapshotEmpty');
-const mobilePanelButtons = Array.from(document.querySelectorAll('[data-mobile-panel-button]'));
 // country list panel
 const countrySearch = document.getElementById('countrySearch');
 const countryList = document.getElementById('countryList');
@@ -126,117 +124,6 @@ let dragMoved = false;
 let downX = 0;
 let downY = 0;
 const DRAG_THRESHOLD_PX = 5;
-const MOBILE_UI_BREAKPOINT = 760;
-let co2RibbonEntries = [];
-
-function shortCountryLabel(name) {
-  if (!name) return '';
-  return name
-    .replace('United States', 'US')
-    .replace('United Kingdom', 'UK')
-    .replace('Russian Federation', 'Russia')
-    .replace('Democratic Republic of the Congo', 'DR Congo')
-    .replace('Republic of', '')
-    .replace('People\'s Republic of', '')
-    .replace('Federation', '')
-    .replace(/\s+/g, ' ')
-    .trim();
-}
-
-function renderCo2RibbonMobileLabels() {
-  if (!co2RibbonLabels || !co2RibbonTrack) return;
-  co2RibbonLabels.innerHTML = '';
-
-  const showMobileLabels = isMobileViewport() && document.body.dataset.mobilePanel === 'emissions';
-  if (!showMobileLabels || !co2RibbonEntries.length) return;
-
-  const trackRect = co2RibbonTrack.getBoundingClientRect();
-  if (!trackRect.width || trackRect.width <= 0) return;
-
-  const minLabelWidthPx = 42;
-  const maxLabels = 12;
-  let drawn = 0;
-  let xCursor = 0;
-
-  co2RibbonEntries.forEach((entry) => {
-    const blockWidthPx = (entry.sharePct / 100) * trackRect.width;
-    const centerX = xCursor + blockWidthPx / 2;
-    xCursor += blockWidthPx;
-
-    if (drawn >= maxLabels || blockWidthPx < minLabelWidthPx) {
-      return;
-    }
-
-    const label = document.createElement('div');
-    label.className = 'co2-ribbon-country-label';
-    label.textContent = shortCountryLabel(entry.csvName);
-    label.title = `${entry.csvName}: ${entry.sharePct.toFixed(2)}%`;
-    label.style.left = `${centerX}px`;
-    co2RibbonLabels.appendChild(label);
-    drawn += 1;
-  });
-}
-
-function syncAppViewportSize() {
-  const vv = window.visualViewport;
-  const vh = vv ? vv.height : window.innerHeight;
-  const vw = vv ? vv.width : window.innerWidth;
-  document.documentElement.style.setProperty('--app-vh', `${Math.round(vh)}px`);
-  document.documentElement.style.setProperty('--app-vw', `${Math.round(vw)}px`);
-  requestAnimationFrame(renderCo2RibbonMobileLabels);
-}
-
-syncAppViewportSize();
-window.addEventListener('resize', syncAppViewportSize);
-window.addEventListener('orientationchange', syncAppViewportSize);
-if (window.visualViewport) {
-  window.visualViewport.addEventListener('resize', syncAppViewportSize);
-  window.visualViewport.addEventListener('scroll', syncAppViewportSize);
-}
-
-function isMobileViewport() {
-  return window.innerWidth <= MOBILE_UI_BREAKPOINT;
-}
-
-function syncMobilePanelButtons() {
-  const activePanel = document.body.dataset.mobilePanel || '';
-  mobilePanelButtons.forEach((button) => {
-    const isActive = isMobileViewport() && button.dataset.mobilePanelButton === activePanel;
-    button.classList.toggle('active', isActive);
-    button.setAttribute('aria-pressed', isActive ? 'true' : 'false');
-  });
-}
-
-function setMobilePanel(panelId) {
-  if (!isMobileViewport()) {
-    document.body.removeAttribute('data-mobile-panel');
-    syncMobilePanelButtons();
-    renderCo2RibbonMobileLabels();
-    return;
-  }
-
-  if (!panelId) {
-    document.body.removeAttribute('data-mobile-panel');
-    syncMobilePanelButtons();
-    renderCo2RibbonMobileLabels();
-    return;
-  }
-
-  document.body.dataset.mobilePanel = panelId;
-  syncMobilePanelButtons();
-  requestAnimationFrame(renderCo2RibbonMobileLabels);
-}
-
-if (mobilePanelButtons.length) {
-  mobilePanelButtons.forEach((button) => {
-    button.addEventListener('click', () => {
-      const panelId = button.dataset.mobilePanelButton || '';
-      const nextPanel = document.body.dataset.mobilePanel === panelId ? '' : panelId;
-      setMobilePanel(nextPanel);
-    });
-  });
-  syncMobilePanelButtons();
-}
 
 function setDockTab(tabId) {
   if (!tabId) return;
@@ -2248,9 +2135,7 @@ function onClick(event) {
   // ignore clicks on UI panels
   const target = event.target;
   if (target && (
-    target.closest('.mobile-toolbar')
-    || target.closest('.mobile-toolbar-button')
-    || target.closest('.info-dock')
+    target.closest('.info-dock')
     || target.closest('.country-panel')
     || target.closest('.hud')
     || target.closest('.chart-panel')
@@ -2260,10 +2145,6 @@ function onClick(event) {
     || target.closest('.co2-ribbon')
   )) {
     return;
-  }
-
-  if (isMobileViewport() && document.body.dataset.mobilePanel) {
-    setMobilePanel('');
   }
 
   const clickMouse = new THREE.Vector2(
@@ -2513,10 +2394,7 @@ function setSelectedCountry(countryName) {
     });
 
     if (selectedItem && typeof selectedItem.scrollIntoView === 'function') {
-      const listPanelVisible = !isMobileViewport() || document.body.dataset.mobilePanel === 'explore';
-      if (listPanelVisible && selectedItem.offsetParent !== null) {
-        selectedItem.scrollIntoView({ behavior: 'auto', block: 'nearest' });
-      }
+      selectedItem.scrollIntoView({ behavior: 'auto', block: 'nearest' });
     }
   }
 
@@ -3035,7 +2913,6 @@ function buildCo2Ribbon() {
   const withShare = entries
     .map((e) => ({ ...e, sharePct: (e.emission2023 / total) * 100 }))
     .sort((a, b) => b.sharePct - a.sharePct);
-  co2RibbonEntries = withShare;
 
   co2RibbonTrack.innerHTML = '';
 
@@ -3074,8 +2951,6 @@ function buildCo2Ribbon() {
 
     co2RibbonTrack.appendChild(block);
   });
-
-  renderCo2RibbonMobileLabels();
 }
 
 async function loadAllMetrics() {
@@ -4537,12 +4412,6 @@ function onWindowResize() {
   camera.aspect = window.innerWidth / window.innerHeight;
   camera.updateProjectionMatrix();
   renderer.setSize(window.innerWidth, window.innerHeight);
-  if (!isMobileViewport()) {
-    setMobilePanel('');
-  } else {
-    syncMobilePanelButtons();
-    requestAnimationFrame(renderCo2RibbonMobileLabels);
-  }
   requestRender();
 }
 
