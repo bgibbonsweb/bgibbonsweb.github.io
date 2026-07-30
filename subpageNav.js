@@ -23,6 +23,15 @@
     });
   }
 
+  function renderHomeSocialIcons() {
+    var homeSocialIcons = document.querySelector(".homePage #leftBar .socialIcons");
+    if (!homeSocialIcons) {
+      return;
+    }
+
+    homeSocialIcons.innerHTML = buildSharedSocialIconsHtml();
+  }
+
   function renderMobileMenu() {
     var mobileMenuRoot = document.querySelector(".homeBack2");
     if (!mobileMenuRoot || document.getElementById("leftBar")) {
@@ -154,6 +163,7 @@
 
   function applySubpageNav() {
     if (document.body && document.body.classList.contains("homePage")) {
+      renderHomeSocialIcons();
       return;
     }
 
