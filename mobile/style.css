@@ -147,7 +147,12 @@ body {
 
     background-image: url("homeBack.jpg");
     background-size: cover;
-     background-position: right;
+    background-position: right;
+    padding-top: 18px;
+}
+
+.menuIconGap {
+  height: 24px;
 }
 
 .comboLayer {
@@ -247,7 +252,11 @@ body {
 }
 
 .socialIcon {
-    margin: 0.8em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
 }
 
 .shadow {

@@ -492,10 +492,6 @@ body::before {
     min-height: 100%;
   }
 
-  #leftBar .socialIcons {
-    padding: 8px 0 12px;
-  }
-
   .fixedLeftContent,
   .fixedLeftContent2,
   .rightContainerHome,
@@ -2659,6 +2655,11 @@ body:not(.homePage) .homePicBanner2 {
     border-radius: 0%;
 }
 
+.github {
+    width: 80%;
+    height: 80%;;
+}
+
 .socialIcon:hover {
     background-color: rgba(255, 255, 255, 0.1);
     font-size: 1.2em;
@@ -2671,7 +2672,12 @@ body:not(.homePage) .homePicBanner2 {
 }
 
 .socialIcons {
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  padding-top: 16px;
 }
 
 .fixedLeftContent {
@@ -3455,10 +3461,6 @@ body:not(.homePage) .blackCell > * {
   #leftBar .smallerText {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  #leftBar .socialIcons {
-    padding: 8px 0 12px;
   }
 
   .fixedLeftContent,

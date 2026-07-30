@@ -1,4 +1,49 @@
 (function() {
+  function getSubpageAssetBase() {
+    var path = window.location && window.location.pathname ? window.location.pathname : "";
+    return path.indexOf("/mobile/") !== -1 ? "../" : "";
+  }
+
+  function buildSharedSocialIconsHtml() {
+    var assetBase = getSubpageAssetBase();
+
+    return [
+      '<a href="https://www.linkedin.com/in/bgibbonslinkedin/" target="_blank" rel="noopener noreferrer">',
+      '<img class="socialIcon" src="' + assetBase + 'In-2C-128px-R.png" width="32"/>',
+      '</a>',
+      '<a href="https://github.com/ben-gibbons-github" target="_blank" rel="noopener noreferrer">',
+      '<img class="socialIcon" src="' + assetBase + 'github-mark-white.svg" width="28"/>',
+      '</a>'
+    ].join("\n");
+  }
+
+  function renderSharedSocialIcons() {
+    document.querySelectorAll("#leftBar .socialIcons").forEach(function(container) {
+      container.innerHTML = buildSharedSocialIconsHtml();
+    });
+  }
+
+  function renderMobileMenu() {
+    var mobileMenuRoot = document.querySelector(".homeBack2");
+    if (!mobileMenuRoot || document.getElementById("leftBar")) {
+      return;
+    }
+
+    var assetBase = getSubpageAssetBase();
+    mobileMenuRoot.innerHTML = [
+      '<a class="homeLink" href="https://www.linkedin.com/in/bgibbonslinkedin/" target="_blank" rel="noopener noreferrer">',
+      '<img class="socialIcon" src="' + assetBase + 'In-2C-128px-R.png" height="32"/>',
+      '</a>',
+      '<a class="homeLink" href="https://github.com/ben-gibbons-github" target="_blank" rel="noopener noreferrer">',
+      '<img class="github" src="' + assetBase + 'github-mark-white.svg" height="28"/>',
+      '</a>',
+      '<a href="resume" class="homeLink"><div class="homeLinkBox">Resume</div></a>',
+      '<a href="volunteering" class="homeLink"><div class="homeLinkBox">Volunteer Work</div></a>',
+      '<a href="art" class="homeLink"><div class="homeLinkBox">Art Gallery</div></a>',
+      '<a href="contact" class="homeLink"><div class="homeLinkBox">Contact</div></a>'
+    ].join("\n");
+  }
+
   function applySubpageSceneTheme() {
     document.body.classList.remove("subpageSceneLight");
     document.body.classList.add("subpageSceneDark");
@@ -149,6 +194,8 @@
       topLeftLink.setAttribute("href", "index");
     }
 
+    renderSharedSocialIcons();
+    renderMobileMenu();
     bindSubpageMobileMenu();
     enableSubpageScrollReveal();
   }
