@@ -248,6 +248,24 @@
 				background-color: rgba(255, 255, 255, 0.3);
 			}
 
+			.sourceLink {
+				position: fixed;
+				left: 12px;
+				bottom: 12px;
+				font-size: 12px;
+				color: rgba(220, 235, 255, 0.9);
+				z-index: 20;
+			}
+
+			.sourceLink a {
+				color: inherit;
+				text-decoration: underline;
+			}
+
+			.sourceLink a:hover {
+				color: white;
+			}
+
 
 		</style>
 	</head>
@@ -514,6 +532,10 @@
 		<div class="fuel" id="fuel">
 			<div class="healthInner" id="fuelInner">
 			</div>
+		</div>
+
+		<div class="sourceLink">
+			<a href="https://github.com/ben-gibbons-github/webgl-arcade-space-scrolling-shooter" target="_blank" rel="noopener noreferrer">Source on GitHub</a>
 		</div>
 
 		<script src="lib/three.js"></script>

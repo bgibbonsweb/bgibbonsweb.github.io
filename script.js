@@ -112,6 +112,7 @@ var homepageScenes = [
         thumbnail: "scene_screenshots/golden_field.png",
         primary: [0.96, 0.71, 0.18],
         accent: [0.55, 0.82, 0.33],
+        githubUrl: "https://github.com/ben-gibbons-github/webgl-golden-field",
         credits: 'Tree model by <a href="https://sketchfab.com/3d-models/oak-tree-ed9401a0cae24967a620f90348b1b7be" target="_blank" rel="noopener noreferrer">Atrahasis</a>'
     },
     {
@@ -122,6 +123,7 @@ var homepageScenes = [
         primary: [0.18, 0.82, 0.98],
         accent: [1.0, 0.48, 0.24],
         darkUi: true,
+        githubUrl: "https://github.com/ben-gibbons-github/webgl-cyberpunk-city",
         credits: 'Car model by <a href="https://sketchfab.com/models/0634683fee6147c0b3d66b23d1643565" target="_blank" rel="noopener noreferrer">Rasmus.Eist</a>'
     },
     {
@@ -132,6 +134,7 @@ var homepageScenes = [
         primary: [0.18, 0.88, 0.72],
         accent: [0.14, 0.42, 1.0],
         darkUi: true,
+        githubUrl: "https://github.com/ben-gibbons-github/webgl-aurora-night",
         credits: 'Tree model by <a href="https://sketchfab.com/3d-models/oak-tree-ed9401a0cae24967a620f90348b1b7be" target="_blank" rel="noopener noreferrer">Atrahasis</a>'
     },
     {
@@ -142,6 +145,7 @@ var homepageScenes = [
         primary: [0.52, 0.72, 1.0],
         accent: [1.0, 0.38, 0.54],
         darkUi: true,
+        githubUrl: "https://github.com/ben-gibbons-github/webgl-space-battle",
         credits: 'Ship #1 by <a href="https://sketchfab.com/models/63ce372c1aa843e98bf1548109e055d8" target="_blank" rel="noopener noreferrer">Comrade1280</a> &nbsp;|&nbsp; Ship #2 by <a href="https://sketchfab.com/models/705e1a79b48745938e67760c4e3eed65" target="_blank" rel="noopener noreferrer">toomanydemons</a> &nbsp;|&nbsp; Ship #3 by <a href="https://sketchfab.com/models/4cccb0378e474f8a8d3c7079e2e56d63" target="_blank" rel="noopener noreferrer">rakshaan</a> &nbsp;(model shaders modified slightly)'
     },
     {
@@ -202,7 +206,11 @@ function updateHomepageSceneCredits(scene) {
     var banner = document.getElementById("homeSceneCredits");
     var inlineBanner = document.getElementById("homeSceneCreditsInline");
     var credits = scene && scene.credits ? scene.credits : "";
-    var creditsMarkup = credits ? ("3D Models: " + credits) : "";
+    var sceneGithubUrl = scene && scene.githubUrl ? scene.githubUrl : "";
+    var modelRepoLinkMarkup = sceneGithubUrl
+        ? (' <span style="font-size: 0.85em; opacity: 0.92; margin-left: 8px;">| <a href="' + sceneGithubUrl + '" target="_blank" rel="noopener noreferrer">GitHub</a></span>')
+        : "";
+    var creditsMarkup = credits ? ("3D Models: " + credits + modelRepoLinkMarkup) : "";
     var inlineCreditsMarkup = credits;
 
     if (banner) {
