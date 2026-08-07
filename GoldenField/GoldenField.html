@@ -273,6 +273,13 @@
 				document.body.className += " embedMode";
 			}
 		</script>
+		<script src="../webgl-warning.js"></script>
+		<script>
+			window.BenWebGLWarning.install({
+				experienceName: 'Golden Field scene',
+				title: 'Golden Field scene could not start'
+			});
+		</script>
 		<script src="lib/three.js"></script>
 		<script src="lib/Lensflare.js"></script>
 		<script src="lib/GLTFLoader.js"></script>
