@@ -1,6 +1,7 @@
 (function() {
   var STYLE_ID = 'bgWebglWarningStyle';
   var OVERLAY_ID = 'bgWebglWarningOverlay';
+  var PREVIEW_ID = 'bgWebglPreviewOverlay';
   var STATE_KEY = '__bgWebglWarningState';
   var MESSAGE_TYPE = 'bgibbons:webgl-warning';
   var pendingShow = null;
@@ -11,6 +12,9 @@
         listenersInstalled: false,
         options: {},
         isShowing: false,
+        previewShown: false,
+        hasFailed: false,
+        parentNotified: false,
       };
     }
 
@@ -53,6 +57,24 @@
     return 'The browser could not create the WebGL graphics context needed to render this scene.';
   }
 
+  function isEmbeddedFrame() {
+    return !!(window.parent && window.parent !== window);
+  }
+
+  function getContinueLabel(options) {
+    return options && options.previewSrc ? 'Show still image instead' : 'Continue without 3D';
+  }
+
+  function shouldShowOverlay(options) {
+    if (options && options.hostOnly)
+      return true;
+
+    if (options && options.showWarningInIframe)
+      return true;
+
+    return !isEmbeddedFrame();
+  }
+
   function ensureStyle() {
     if (document.getElementById(STYLE_ID))
       return;
@@ -65,23 +87,45 @@
       '  inset: 0;',
       '  z-index: 2147483647;',
       '  display: flex;',
-      '  align-items: center;',
+      '  align-items: flex-start;',
       '  justify-content: center;',
-      '  padding: 24px;',
-      '  background: rgba(5, 8, 14, 0.72);',
+      '  padding: max(18px, env(safe-area-inset-top)) max(18px, env(safe-area-inset-right)) max(18px, env(safe-area-inset-bottom)) max(18px, env(safe-area-inset-left));',
+      '  background: rgba(4, 8, 16, 0.84);',
       '  backdrop-filter: blur(6px);',
       '  box-sizing: border-box;',
+      '  overflow-y: auto;',
+      '  overscroll-behavior: contain;',
       '}',
       '#' + OVERLAY_ID + '.is-hidden {',
       '  display: none;',
       '}',
+      '#' + PREVIEW_ID + ' {',
+      '  position: fixed;',
+      '  inset: 0;',
+      '  z-index: 2147483645;',
+      '  background: #03060d;',
+      '  overflow: hidden;',
+      '}',
+      '#' + PREVIEW_ID + '.is-hidden {',
+      '  display: none;',
+      '}',
+      '#' + PREVIEW_ID + ' img {',
+      '  width: 100%;',
+      '  height: 100%;',
+      '  object-fit: cover;',
+      '  object-position: center center;',
+      '  display: block;',
+      '}',
       '#' + OVERLAY_ID + ' .bg-webgl-warning-card {',
-      '  width: min(680px, 100%);',
-      '  background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(241, 246, 252, 0.98));',
-      '  color: #172033;',
+      '  width: min(720px, 100%);',
+      '  margin: auto 0;',
+      '  max-height: calc(100dvh - 36px);',
+      '  overflow: auto;',
+      '  background: linear-gradient(180deg, rgba(11, 18, 32, 0.98), rgba(7, 12, 22, 0.98));',
+      '  color: #e8eefc;',
       '  border-radius: 20px;',
-      '  border: 1px solid rgba(14, 33, 61, 0.12);',
-      '  box-shadow: 0 28px 80px rgba(0, 0, 0, 0.35);',
+      '  border: 1px solid rgba(118, 155, 255, 0.18);',
+      '  box-shadow: 0 28px 80px rgba(0, 0, 0, 0.55);',
       '  padding: 24px 24px 20px;',
       '  font-family: Arial, sans-serif;',
       '}',
@@ -90,13 +134,13 @@
       '  font-size: 12px;',
       '  letter-spacing: 0.08em;',
       '  text-transform: uppercase;',
-      '  color: #4c6289;',
+      '  color: #8ca3d9;',
       '}',
       '#' + OVERLAY_ID + ' .bg-webgl-warning-title {',
       '  margin: 0;',
       '  font-size: 30px;',
       '  line-height: 1.15;',
-      '  color: #0f1a2f;',
+      '  color: #f4f7ff;',
       '}',
       '#' + OVERLAY_ID + ' .bg-webgl-warning-body {',
       '  margin-top: 18px;',
@@ -106,9 +150,9 @@
       '#' + OVERLAY_ID + ' .bg-webgl-warning-detail {',
       '  margin: 14px 0 0;',
       '  padding: 12px 14px;',
-      '  background: rgba(19, 37, 67, 0.06);',
+      '  background: rgba(110, 145, 255, 0.12);',
       '  border-radius: 12px;',
-      '  color: #314568;',
+      '  color: #c7d4f5;',
       '  font-size: 15px;',
       '}',
       '#' + OVERLAY_ID + ' .bg-webgl-warning-steps {',
@@ -120,7 +164,7 @@
       '}',
       '#' + OVERLAY_ID + ' .bg-webgl-warning-note {',
       '  margin: 16px 0 0;',
-      '  color: #314568;',
+      '  color: #b8c6e8;',
       '}',
       '#' + OVERLAY_ID + ' .bg-webgl-warning-actions {',
       '  display: flex;',
@@ -130,36 +174,46 @@
       '}',
       '#' + OVERLAY_ID + ' .bg-webgl-warning-button {',
       '  appearance: none;',
-      '  border: 0;',
+      '  border: 1px solid rgba(136, 166, 255, 0.2);',
       '  border-radius: 999px;',
       '  padding: 12px 18px;',
       '  font-size: 15px;',
       '  cursor: pointer;',
+      '  transition: background-color 160ms ease, border-color 160ms ease, color 160ms ease;',
       '}',
       '#' + OVERLAY_ID + ' .bg-webgl-warning-button.primary {',
-      '  background: #1f5eff;',
+      '  background: #2b78ff;',
       '  color: white;',
       '}',
       '#' + OVERLAY_ID + ' .bg-webgl-warning-button.secondary {',
-      '  background: rgba(19, 37, 67, 0.08);',
-      '  color: #172033;',
+      '  background: rgba(255, 255, 255, 0.06);',
+      '  color: #f0f4ff;',
+      '}',
+      '#' + OVERLAY_ID + ' .bg-webgl-warning-button:hover,',
+      '#' + OVERLAY_ID + ' .bg-webgl-warning-link:hover {',
+      '  background: rgba(91, 132, 255, 0.18);',
+      '  border-color: rgba(136, 166, 255, 0.42);',
       '}',
       '#' + OVERLAY_ID + ' .bg-webgl-warning-link {',
       '  display: inline-flex;',
       '  align-items: center;',
       '  justify-content: center;',
+      '  border: 1px solid rgba(136, 166, 255, 0.2);',
       '  border-radius: 999px;',
       '  padding: 12px 18px;',
-      '  background: rgba(19, 37, 67, 0.08);',
-      '  color: #172033;',
+      '  background: rgba(255, 255, 255, 0.06);',
+      '  color: #f0f4ff;',
       '  text-decoration: none;',
       '  font-size: 15px;',
       '}',
       '  @media (max-width: 640px) {',
-      '    #' + OVERLAY_ID + ' { padding: 14px; }',
-      '    #' + OVERLAY_ID + ' .bg-webgl-warning-card { padding: 18px 16px; border-radius: 16px; }',
+      '    #' + OVERLAY_ID + ' { padding: max(12px, env(safe-area-inset-top)) max(12px, env(safe-area-inset-right)) max(12px, env(safe-area-inset-bottom)) max(12px, env(safe-area-inset-left)); }',
+      '    #' + OVERLAY_ID + ' .bg-webgl-warning-card { max-height: calc(100dvh - 24px); padding: 18px 16px; border-radius: 16px; }',
       '    #' + OVERLAY_ID + ' .bg-webgl-warning-title { font-size: 24px; }',
       '    #' + OVERLAY_ID + ' .bg-webgl-warning-body { font-size: 15px; }',
+      '    #' + OVERLAY_ID + ' .bg-webgl-warning-actions { flex-direction: column; }',
+      '    #' + OVERLAY_ID + ' .bg-webgl-warning-button,',
+      '    #' + OVERLAY_ID + ' .bg-webgl-warning-link { width: 100%; box-sizing: border-box; }',
       '  }'
     ].join('\n');
 
@@ -173,6 +227,51 @@
 
     overlay.classList.add('is-hidden');
     getState().isShowing = false;
+  }
+
+  function ensurePreview() {
+    if (!document.body)
+      return null;
+
+    var preview = document.getElementById(PREVIEW_ID);
+    if (preview)
+      return preview;
+
+    preview = document.createElement('div');
+    preview.id = PREVIEW_ID;
+    preview.className = 'is-hidden';
+
+    var image = document.createElement('img');
+    image.id = 'bgWebglPreviewImage';
+    image.alt = 'Still image preview of the 3D scene';
+    preview.appendChild(image);
+
+    document.body.appendChild(preview);
+    return preview;
+  }
+
+  function showPreview(options) {
+    var previewSrc = options && options.previewSrc;
+    var preview;
+    var image;
+    var state = getState();
+
+    if (!previewSrc || !document.body)
+      return false;
+
+    preview = ensurePreview();
+    if (!preview)
+      return false;
+
+    image = document.getElementById('bgWebglPreviewImage');
+    if (!image)
+      return false;
+
+    image.src = previewSrc;
+    image.alt = (describeExperience(options) || '3D scene') + ' preview image';
+    preview.classList.remove('is-hidden');
+    state.previewShown = true;
+    return true;
   }
 
   function ensureOverlay() {
@@ -225,7 +324,9 @@
   }
 
   function notifyParent(detail, options) {
-    if (!window.parent || window.parent === window)
+    var state = getState();
+
+    if (!window.parent || window.parent === window || state.parentNotified)
       return;
 
     try {
@@ -238,6 +339,7 @@
           experienceName: describeExperience(options)
         }
       }, '*');
+      state.parentNotified = true;
     } catch (error) {
     }
   }
@@ -257,6 +359,7 @@
     var titleNode = document.getElementById('bgWebglWarningTitle');
     var leadNode = document.getElementById('bgWebglWarningLead');
     var detailNode = document.getElementById('bgWebglWarningDetail');
+    var closeButton = document.getElementById('bgWebglWarningClose');
 
     if (titleNode)
       titleNode.textContent = getDefaultTitle(mergedOptions);
@@ -267,8 +370,29 @@
     if (detailNode)
       detailNode.textContent = detail || getDefaultDetail();
 
+    if (closeButton)
+      closeButton.textContent = getContinueLabel(mergedOptions);
+
     overlay.classList.remove('is-hidden');
     getState().isShowing = true;
+  }
+
+  function handleFailure(detail, options) {
+    var state = getState();
+    var mergedOptions = mergeOptions(state.options, options || {});
+
+    if (state.hasFailed)
+      return;
+
+    state.options = mergedOptions;
+    state.hasFailed = true;
+
+    showPreview(mergedOptions);
+
+    if (shouldShowOverlay(mergedOptions)) {
+      showOverlay(detail || getDefaultDetail(), mergedOptions);
+      return;
+    }
 
     notifyParent(detail || getDefaultDetail(), mergedOptions);
   }
@@ -356,7 +480,7 @@
       if (!isWebGLErrorMessage(message))
         return;
 
-      showOverlay(message, {});
+      handleFailure(message, {});
     }, true);
 
     window.addEventListener('unhandledrejection', function(event) {
@@ -364,21 +488,21 @@
       if (!isWebGLErrorMessage(message))
         return;
 
-      showOverlay(message, {});
+      handleFailure(message, {});
     });
 
     document.addEventListener('webglcontextcreationerror', function(event) {
       if (event && typeof event.preventDefault === 'function')
         event.preventDefault();
 
-      showOverlay(event && event.statusMessage ? event.statusMessage : getDefaultDetail(), {});
+      handleFailure(event && event.statusMessage ? event.statusMessage : getDefaultDetail(), {});
     }, true);
 
     document.addEventListener('webglcontextlost', function(event) {
       if (event && typeof event.preventDefault === 'function')
         event.preventDefault();
 
-      showOverlay('The browser started loading the 3D graphics, then lost access to them before the page finished drawing.', {});
+      handleFailure('The browser started loading the 3D graphics, then lost access to them before the page finished drawing.', {});
     }, true);
   }
 
@@ -390,7 +514,7 @@
     if (!state.options.hostOnly) {
       var result = supportsWebGL();
       if (!result.supported)
-        showOverlay(result.detail, state.options);
+        handleFailure(result.detail, state.options);
     }
 
     return supportsWebGL().supported;
